@@ -1,0 +1,45 @@
+name: build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Compile
+        run: javac -d build src/*.java
+
+      - name: Gradient check (backprop correctness)
+        run: java -cp build ultron.GradCheck 3e-3
+
+      - name: KV-cache correctness
+        run: java -cp build ultron.TestCache
+
+      - name: Package jar
+        run: jar cfe ultron.jar ultron.Generate -C build .
+
+      - name: Smoke test generation
+        run: java -jar ultron.jar "it was the best of times" 10 0.7 40
+
+      - name: Upload jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: ultron-jar
+          path: ultron.jar
+
+      - name: Upload model + vocab
+        uses: actions/upload-artifact@v4
+        with:
+          name: ultron-model
+          path: |
+            out/ultron.bin
+            data/ultron-vocab.txt

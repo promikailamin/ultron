@@ -1,0 +1,5 @@
+build/
+out/*.class
+*.class
+nohup.out
+*.log
