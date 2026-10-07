@@ -2,16 +2,6 @@ name: train
 
 on:
   workflow_dispatch:
-    inputs:
-      steps:
-        description: "training steps"
-        default: "3000"
-      batch:
-        description: "batch size"
-        default: "8"
-      lr:
-        description: "learning rate"
-        default: "1.5e-3"
 
 jobs:
   train:
@@ -25,15 +15,13 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Compile
-        run: javac -d build src/*.java
-
-      - name: Train Ultron
-        run: java -Xmx3g -cp build ultron.Train ${{ inputs.steps }} ${{ inputs.batch }} ${{ inputs.lr }} | tee out/train.log
+      - name: Train Ultron (3000 steps, batch 8, lr 1.5e-3)
+        run: |
+          javac -d build src/*.java
+          java -Xmx3g -cp build ultron.Train 3000 8 1.5e-3 2>&1 | tee out/train.log
 
       - name: Smoke test trained model
         run: |
-          javac -d build src/*.java
           java -cp build ultron.TestCache
           java -cp build ultron.Generate "it was the best of times" 30 0.7 40
 
