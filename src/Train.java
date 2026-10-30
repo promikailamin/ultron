@@ -5,11 +5,17 @@ import java.nio.file.*;
 import java.util.*;
 
 public class Train {
-    static final int VOCAB = 8192, D = 96, L = 5, F = 384, CTX = 64, HEADS = 4;
-    static final String[] CORPUS = {
+    static final int VOCAB = 16384, D = 96, L = 5, F = 384, CTX = 64, HEADS = 4;
+    static final int CHAT_REPEAT = 8;
+    // Books and general English.
+    static final String[] BOOKS = {
             "data/pp.txt", "data/moby.txt", "data/alice.txt", "data/sherlock.txt",
-            "data/frank.txt", "data/jane.txt", "data/tom.txt",
-            "data/wp.txt", "data/ge.txt", "data/drac.txt", "data/mc.txt"
+            "data/frank.txt", "data/jane.txt", "data/tom.txt", "data/earnest.txt",
+            "data/wp.txt", "data/ge.txt", "data/drac.txt"
+    };
+    // Domain knowledge and instruction data.
+    static final String[] DOMAIN = {
+            "data/mc.txt", "data/grammar.txt", "data/chat.txt"
     };
 
     static class IntList {
@@ -21,40 +27,61 @@ public class Train {
         }
     }
 
+    static List<String> uniqueCorpus() {
+        ArrayList<String> files = new ArrayList<>();
+        files.addAll(Arrays.asList(BOOKS));
+        files.addAll(Arrays.asList(DOMAIN));
+        return files;
+    }
+
+    static List<String> trainingCorpus() {
+        ArrayList<String> files = new ArrayList<>(uniqueCorpus());
+        // Oversample curated conversations so the small model learns the
+        // user:/ultron: turn structure instead of drowning in book text.
+        for (int i = 1; i < CHAT_REPEAT; i++) files.add("data/chat.txt");
+        return files;
+    }
+
+    static void appendCorpus(IntList buf, Tokenizer tok, String f, long[] chars) throws IOException {
+        String txt = Tokenizer.normalize(new String(Files.readAllBytes(Paths.get(f)), "UTF-8"));
+        chars[0] += txt.length();
+        int[] pc = tok.encode(txt);
+        buf.add(tok.stoi.get(Tokenizer.PAR));
+        for (int x : pc) buf.add(x);
+        buf.add(tok.stoi.get(Tokenizer.EOS));
+    }
+
     public static void main(String[] args) throws Exception {
         int steps = args.length > 0 ? Integer.parseInt(args[0]) : 5000;
         int batch = args.length > 1 ? Integer.parseInt(args[1]) : 8;
         double lr0 = args.length > 2 ? Double.parseDouble(args[2]) : 1e-3;
         boolean resume = args.length > 3 && args[3].equals("resume");
+        boolean rebuild = args.length > 3 && args[3].equals("rebuild");
+        if (rebuild) resume = false;
 
         long t0 = System.currentTimeMillis();
 
         Tokenizer tok;
-        if (Files.exists(Paths.get("data/ultron-vocab.txt"))) {
+        if (!rebuild && Files.exists(Paths.get("data/ultron-vocab.txt"))) {
             tok = Tokenizer.load("data/ultron-vocab.txt");
             System.out.println("loaded vocab: " + tok.V + " tokens");
         } else {
-            tok = Tokenizer.build(Arrays.asList(CORPUS), VOCAB);
+            tok = Tokenizer.build(uniqueCorpus(), VOCAB);
             tok.save("data/ultron-vocab.txt");
             System.out.println("built vocab: " + tok.V + " tokens");
         }
-        int PAR = tok.stoi.get(Tokenizer.PAR), EOS = tok.stoi.get(Tokenizer.EOS);
 
         IntList buf = new IntList();
-        long chars = 0;
-        for (String f : CORPUS) {
-            String txt = Tokenizer.normalize(new String(Files.readAllBytes(Paths.get(f)), "UTF-8"));
-            chars += txt.length();
-            int[] pc = tok.encode(txt);
-            buf.add(PAR);
-            for (int x : pc) buf.add(x);
-            buf.add(EOS);
-        }
+        long[] chars = {0};
+        for (String f : trainingCorpus()) appendCorpus(buf, tok, f, chars);
         int[] data = Arrays.copyOf(buf.a, buf.n);
         System.out.printf("corpus: %.2f M chars -> %d tokens, vocab=%d%n",
-                chars / 1e6, data.length, tok.V);
+                chars[0] / 1e6, data.length, tok.V);
 
         Ultron m = resume ? Ultron.load("out/ultron.bin") : new Ultron(tok.V, D, L, F, CTX, HEADS);
+        if (resume && (m.V != tok.V || m.D != D || m.L != L || m.F != F || m.T != CTX || m.H != HEADS)) {
+            throw new IllegalStateException("checkpoint is incompatible with the current vocab/config; use rebuild");
+        }
         if (!resume) m.init(42);
         System.out.printf("ULTRON model: V=%d d=%d layers=%d ffn=%d ctx=%d heads=%d%n",
                 m.V, m.D, m.L, m.F, m.T, m.H);

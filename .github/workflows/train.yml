@@ -2,6 +2,30 @@ name: train
 
 on:
   workflow_dispatch:
+    inputs:
+      steps:
+        description: "Optimizer steps"
+        required: true
+        default: "3000"
+      batch:
+        description: "Batch size"
+        required: true
+        default: "8"
+      learning_rate:
+        description: "Peak learning rate"
+        required: true
+        default: "1.5e-3"
+      mode:
+        description: "rebuild (new vocab + fresh model) or resume (continue checkpoint)"
+        required: true
+        default: "rebuild"
+        type: choice
+        options:
+          - rebuild
+          - resume
+
+permissions:
+  contents: write
 
 jobs:
   train:
@@ -9,21 +33,43 @@ jobs:
     timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN || github.token }}
 
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
 
-      - name: Train Ultron (3000 steps, batch 8, lr 1.5e-3)
-        run: |
-          javac -d build src/*.java
-          java -Xmx3g -cp build ultron.Train 3000 8 1.5e-3 2>&1 | tee out/train.log
+      - name: Compile
+        run: javac -d build src/*.java
 
-      - name: Smoke test trained model
+      - name: Train Ultron
+        env:
+          STEPS: ${{ inputs.steps }}
+          BATCH: ${{ inputs.batch }}
+          LR: ${{ inputs.learning_rate }}
+          MODE: ${{ inputs.mode }}
         run: |
-          java -cp build ultron.TestCache
-          java -cp build ultron.Generate "it was the best of times" 30 0.7 40
+          set -euo pipefail
+          mkdir -p out .agent-work/logs .agent-work/outputs
+          java -Xmx3g -cp build ultron.Train "$STEPS" "$BATCH" "$LR" "$MODE" \
+            2>&1 | tee .agent-work/logs/train.log
+
+      - name: Validate backprop and KV cache
+        run: |
+          set -euo pipefail
+          java -cp build ultron.GradCheck 3e-3 | tee .agent-work/logs/gradcheck.log
+          java -cp build ultron.TestCache | tee .agent-work/logs/testcache.log
+
+      - name: Smoke test generation and chat
+        run: |
+          set -euo pipefail
+          java -cp build ultron.Generate "it was the best of times" 30 0.7 40 \
+            | tee .agent-work/logs/generate.log
+          java -Xmx3g -cp build ultron.Chat "what is a creeper" \
+            | tee .agent-work/logs/chat.log
 
       - name: Upload trained model
         uses: actions/upload-artifact@v4
@@ -31,5 +77,27 @@ jobs:
           name: ultron-trained-model
           path: |
             out/ultron.bin
-            out/train.log
             data/ultron-vocab.txt
+            .agent-work/logs/train.log
+            .agent-work/logs/chat.log
+
+      - name: Commit trained model and vocab
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/ultron.bin data/ultron-vocab.txt data/chat.txt
+          if git diff --cached --quiet; then
+            echo "No model changes to commit."
+            exit 0
+          fi
+          git commit -m "train: update Ultron checkpoint [skip ci]"
+          git fetch origin "$BRANCH"
+          if ! git rebase "origin/$BRANCH"; then
+            git rebase --abort || true
+            echo "Could not rebase onto latest $BRANCH; artifact still contains the trained model."
+            exit 1
+          fi
+          git push origin "HEAD:$BRANCH"
