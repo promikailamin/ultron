@@ -1,0 +1,153 @@
+An enchanting table is a block used to spend experience and lapis lazuli to apply enchantments to tools, armor and books. Surrounding it with up to fifteen bookshelves increases both its enchanting power and level requirement.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+An enchanting table requires a pickaxe to be mined, in which case it drops itself. If mined without a pickaxe, it drops nothing.
+
+
+=== Crafting ===
+
+
+== Usage ==
+The enchanting table is 3⁄4 of a block high.
+Despite being made mostly of obsidian, the enchanting table is not immune to destruction by the ender dragon.
+When not in use, the book floating above the enchanting table rotates about once every 15.6 seconds.
+
+
+=== Enchanting ===
+
+The enchanting table's main purpose is to enchant items, consuming experience levels and lapis lazuli in the process. The table can enchant the following items, as long as they are not already enchanted:
+
+Some tools: pickaxe, shovel, axe, hoe, and fishing rod
+All pieces of player armor: helmet, chestplate, leggings and boots
+Some weapons: sword, spear, bow, crossbow, mace and trident
+A book, turning it into an enchanted book
+Many other items can instead be enchanted using an anvil and an appropriate enchanted book.
+
+An item can be enchanted by using an enchanting table, then placing an item in the item slot and any amount of lapis lazuli in its dedicated slot (though only three at most are needed for one enchantment). Upon placing the item to be enchanted, three (pseudo)randomized options appear on the right of the GUI. The glyphs here do not affect the enchantment, but hovering over a presented enchantment shows one enchantment to be applied (on mobile devices, the player can tap an enchantment before putting in the lapis lazuli or hold the enchantment before release). The only choices available have a level requirement equal to or below the player's current level and a lapis lazuli requirement equal to or below the number of lapis lazuli placed in the table. Each option imbues the item with a randomized set of enchantments that are dependent on the number of experience levels required (e.g. a level 10 enchantment can give a pickaxe the "Efficiency II" enchantment); the actual level cost and the number of lapis lazuli required have no effect.
+Although the player must have at least the level requirement to get an enchantment, the number of levels that the player is charged is the same as the lapis lazuli requirement. For example, if the third enchantment listed is a level 30 enchantment, the player must have at least 30 levels, while paying only 3 levels and 3 lapis lazuli.
+The level requirement influences the quantity, type, and level of enchantments instilled in the item, with a higher experience level generally resulting in more and/or higher-level enchantments. Nevertheless, there is a significant random factor, and even a level 30 enchantment (the maximum) doesn't guarantee more than one enchantment, or even that enchantments are "maximum strength" — a level 30 enchantment can still yield Fortune II or Efficiency III alone, for example.
+
+To increase the enchantment level, bookshelves should be placed next to the enchanting table while keeping one block of air, or a replaceable block between them. Most types of blocks being between the enchanting table and the bookshelves — even transparent blocks like torches — prevents the table from connecting with the bookshelves. To gain access to the previously mentioned level 30 enchantments, a total of 15 bookshelves need to be placed around the enchanting table. See the enchanting mechanics page for more detailed information on this.
+
+
+==== Mysterious text ====
+
+In the user interface, text can be seen on each enchantment button. This text is written in the Standard Galactic Alphabet. Particles of letters from this font are also present when an enchanting table is close to a bookshelf. These cannot be seen if "particles" in the video settings is set to "minimal".
+
+Three to five words are chosen from the list and appended to each other, then displayed. Although sometimes the words chosen accidentally refer to mobs, the words chosen are random and purely cosmetic; they have no relation to the enchantments to be applied to the item and are not saved on the enchanted item (meaning they say nothing about the enchantment's identity), and they are displayed only in the enchanting table.
+
+
+=== Light ===
+Enchanting tables emit a light level of 7. With the "Render Dragon Features for Creators" experiment, an enchanting table has a light color of  #a233eb.
+
+
+=== Custom name ===
+By default, the GUI of an enchanting table is labeled "Enchant", but this name can be customized by naming the enchanting table in an anvil before placing it or by changing the CustomName tag using the /data command‌[Java Edition  only].
+
+
+=== Piston interactivity ===
+Enchanting tables cannot be pushed by pistons. They also cannot be pushed nor pulled by sticky pistons.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+An enchanting table has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Enchanting Table" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The enchanting table always opens its book toward the player, even when the player is invisible.
+On the enchantment screen, captions in the Standard Galactic Alphabet includes several in-jokes:
+On October 1, 2011, Notch tweeted an image of the enchantment screen, with enchantments. The first enchantment translates into "Well Played Internets You Are Good", the second translates into "These Names Will Be Random And Confusing", and the third translates to "Each Spell Costs Experience Levels".
+Three of the possible words for enchantments are "the", "elder", and "scrolls". This is likely a joke at Bethesda, creator of The Elder Scrolls series and whose parent company, Zenimax, attempted to sue Mojang for the name of their game Scrolls.
+The words "klaatu", "berata", and "niktu" are a (misspelled) reference to "Klaatu barada nikto", a phrase that originates from the 1951 movie The Day the Earth Stood Still and has been since used as a reference in many other movies, cartoons and games.
+Similarly, "Xyzzy" is a magic spell in the game Colossal Cave Adventure and has been used in several other games as an Easter Egg or cheat code.
+The word "embiggen" is a fictional word coined by The Simpsons quote: "A Noble Spirit Embiggens the Smallest Man".
+The words "phnglui", "mglwnafh", "cthulhu", "rlyeh", "wgahnagl", and "fhtagn" are a quote from H. P. Lovecraft's short story The Call of Cthulhu. Said quote is a prayer in the Cthulhu mythos. The complete and correct quote is "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn", which translates to "In his house at R'lyeh, dead Cthulhu waits dreaming."
+Of the list of words that the enchanting table uses, none of the words contain the letters "J" or "Q". Although they are not used in the words, they do have a symbol attached to them, and can be seen moving from the bookshelf and the table.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Textures ===
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

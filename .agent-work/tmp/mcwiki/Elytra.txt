@@ -1,0 +1,146 @@
+Elytra are endgame equipment found exclusively in End ships, which are located in the outer islands of the End. While worn in the chest armor slot, they allow for gliding by pressing jump while in midair. Firework rockets can be used for propulsion while gliding.
+A singular elytron is not available as an item in the game. The item always consists of a pair of elytra.
+
+
+== Obtaining ==
+
+
+=== Natural generation ===
+Elytra are found in End cities in an item frame in the treasure room of the End ship. A shulker guards the elytra along with the ship's two loot chests.
+
+
+== Usage ==
+ 
+Elytra are equipped in the chestplate slot, either by placing the item directly in the slot, by pressing use item while held in hand, or by firing a point-blank dispenser at a target. They are gray in color by default but adopt the design of any cape the player is wearing. They maintain their in-world texture design even when they're broken or enchanted.
+Smithing templates cannot be applied to elytra because they are not classified as armor.
+
+
+=== Flying ===
+
+To fly, the player must press the jump key while in mid-air (i.e., while jumping or falling), causing the elytra to spread apart like a beetle's wings. In flight, the player controls movement direction by turning (moving the aim point) as normal. To adjust pitch, the player moves the aim point upward and downward. Losing altitude increases speed, and gaining altitude decreases speed. Firework rockets can be used to propel the player in the direction they are facing at a speed of 33.5 blocks per second. Additionally, speed is quickly lost from sharp changes in direction.
+The player can take fall damage when landing at an angle deeper than approximately 50°.​[more information needed] Players also take kinetic damage (fly_into_wall damage type) when colliding with a block at a high enough speed. When a player dies this way, they receive the death message "<player> experienced kinetic energy". Note that colliding with a horizontal surface does not cause this type of damage, so the player takes no damage when flying into a ceiling. The amount of damage caused by a collision is determined by the formula: 
+damage=10×(change in horizontal velocity)−3 
+A safe and simple cruise with the highest travel distance can be achieved by aiming directly at the horizon while at the glide's altitude limit. The player's speed is slow enough to allow them time to do other things during a long flight, like sort out their inventory.
+A player stops gliding when colliding with a ladder, as well as with all types of vines in Bedrock Edition. Touching water also stops flight in Bedrock Edition, but touching lava does not.. In Bedrock Edition, flight can be cancelled midair by pressing the jump key.
+A flying player has a shorter hitbox than usual: a 0.6 block cube centered on the player's feet. This is different from swimming, where the hitbox is centered on the player's torso.
+In Bedrock Edition, a player in Creative mode or with the "mayfly" ability can alternatively hold the jump key to fly up while gliding with elytra. Double-pressing the jump key enters regular Creative flight instead. 
+
+
+==== Speed and altitude ====
+Elytra have a minimum speed of about 7.2 m/s (obtained by gliding with a strong upward pitch of 30°). A player in flight who drops to 0 speed quickly accelerates back up to at least this minimum. The player can increase speed by choosing to descend faster, but afterward, they typically do not regain nearly as much altitude. In the real world, drag increases with speed and slows an aircraft; Minecraft also mimics this.
+Sharp turns are a fast way to lose speed. Quicker turns cause greater losses, while gentle movements have small effects. Making a hairpin turn can be used for making high-speed landings safe as well as for precise landings on small targets like rooftops. The player should aim to glide just above the target then immediately reverse direction right over the target, making adjustments as necessary.
+The lowest rate of altitude loss without changing pitch is about 1.5 m/s, obtained by gliding at the with a slight upward pitch of about 12° to 15°.
+The player can achieve the best possible glide ratio obtainable without changing pitch by aiming directly at the horizon (0°). This ratio is about 10.06 blocks traveled horizontally per 1 block of starting altitude, not including the time and altitude required to build up speed.
+Slow Falling potions greatly decrease the player's vertical and horizontal velocity when flying with elytra. Although this greatly decreases speed, it does not reduce the rate of durability loss of elytra. A player who jumps with both elytra and the Slow Falling effect travels slightly upward, which is a cheap but time-consuming alternative to fireworks and Riptide-enchanted tridents.
+The Feather Falling enchantment does not affect elytra speed and does not reduce damage from colliding with blocks with elytra.
+It is possible to calculate the glide range by multiplying the altitude by the cotangent of the glide angle (altitude×cot⁡(glide angle∘)). For example, a player gliding from an altitude of 64 blocks above ground with a glide angle of 15° can glide for 64×cot⁡(15∘) or ~238.85 blocks (ignoring terrain).
+
+
+==== Stalling ====
+Trying for too high a pitch reduces the player's lift. At a pitch of 30° above the horizon, the player has the lowest possible airspeed of 7.2 m/s. Above that, the player might be considered to be in a stall. Increasing the pitch gets closer to a free-fall, and stalled flight at 60° is enough to cause fall damage. Stalling at 90° is a true free-fall.
+Recovering from a stall is done by readjusting to any safe pitch as quickly as the player likes. This can be done by pivoting to look at the horizon.
+
+
+==== Powered flight ====
+
+Firework rockets can be used for propulsion during flight by placing it in either hand and using. Using a firework rocket while gliding makes the player move in the direction they're facing at 33.5 blocks per second, for a time dependent on the rocket's flight duration. If any entities are leashed to the player, they instantly detach from the player when they use a firework rocket.
+In Java Edition, firework rockets can be used underwater with a short boost duration.
+If the rocket is equipped with firework stars, it explodes at the end of its flight, inflicting damage based on the number of stars.
+It is possible to gain altitude during powered flight, making it possible to glide for extreme distances.
+
+
+==== Durability ====
+
+Durability decreases by one point each second when gliding. Elytra have 432 durability, allowing 7 minutes and 12 seconds of gliding time without enchantments, providing more than 10,000 blocks of transport distance. It is possible to apply the Unbreaking enchantment using an anvil and an enchanted book, which affects the elytra, in the same way it does to tools. Unbreaking III increases flight time to about four seconds per durability point, a total of 28 minutes and 48 seconds.
+When the durability reaches 1, the elytra stop working until they are repaired, adopting a tattered texture in the inventory. The damage ends at durability 1, so they can never fully break.
+The usage of firework rockets doesn't decrease the elytra's durability.
+
+
+==== Mobs ====
+Elytra can be equipped onto some mobs using commands. This has no effect unless the mob has the FallFlying tag set to 1b. Mobs with this tag glide forward once they start falling, unable to control their movement before landing, at which point they regain their AI.
+An exception to this is the squid - FallFlying causes the squid to attempt swimming in midair, conflicting with the elytra mechanics, and as a result making it fall straight down.
+Chickens can fly further with elytra as their slower fall speed affects the elytra's mechanics.
+Gliding endermen and standing tamed wolves/cats cannot teleport until they land.
+Mobs capable of flying, such as parrots or vexes, can steer in air, though they cannot travel up or down - they can only keep falling. Dolphins also have this ability.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+Elytra can be repaired in an anvil by adding phantom membranes, with each membrane restoring 25% of the elytra's durability (108 points). Two pairs of elytra can also be combined in an anvil. Both methods preserve the elytra's enchantments.
+
+
+=== Enchanting ===
+Elytra cannot be enchanted on the enchanting table, but on an anvil it can receive the following enchantments:
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Elytra" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In real life, elytra are the tough forewings of beetles that cover the wings they actually use for flight. However, like Minecraft elytra, some beetles can use them for gliding.
+In Java Edition if the player glides into deep water with elytra equipped, the animation does not stop, giving it the appearance of a swimming animation. The animation stops once the player touches the ground.
+4J Studios created an elytra-centered tutorial map for console edition when elytra were first introduced to this platform. This map is themed as "ruins of an ancient civilization of Minecraft worshippers" and showcases the new amplified terrain generation. This map can be seen behind the scenes. On 28 March 2017, 4J Studios added an elytra-themed minigame for Legacy Console Edition called "Glide;" it consists of Time Attack and Score Attack mode.
+Mojang has considered the suggestion of combining elytra with a chestplate, but eventually decided against it, stating that elytra taking up armor is an intentional decision of game balancing.
+In Minecraft is turning 15, Zuri can be seen wearing elytra that appear disproportionately small.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Elytra"     by Duncan Geere  – Minecraft.net, December 14, 2019.
+
+
+== Navigation ==

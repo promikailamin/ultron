@@ -1,0 +1,147 @@
+An allay is a small flying passive mob that follows the player who has given it an item, or any note block it has heard in the last 30 seconds. It searches for and collects dropped instances of its held item and drops them near the player or note block it is currently following.
+
+
+== Spawning ==
+
+Allays spawn only during world generation, but they can also be duplicated; see § Allay duplication below.
+Allays have a 50% chance of spawning in dark oak cages near pillager outposts in groups of 1-3.
+Allays also have a 50% chance to spawn inside jail cells within woodland mansions in groups of 1-3.
+
+
+== Drops ==
+Upon death, allays drop the item they are holding. Besides this, allays drop no other items or experience.
+
+
+== Behavior ==
+The allay's luminous texture allows it to be seen clearly in the dark, although it doesn't illuminate its surroundings. With Vibrant Visuals, allays are emissive and have a blue glow in the dark.
+The allay is small, peaceful, and flies aimlessly until a player gives it an item with their use key. The allay starts following the player and seeks out dropped versions of the same item to deliver them to the player. The allay returns to wandering around if any player takes its item back by using an empty hand on it.
+The allay locks onto the player who last gave it an item. This allay follows the player from within a 64-block radius sphere and seeks items within a 32-block radius sphere from the player. After delivering items, the allay has a delay of three seconds until it can seek items again. An allay has a single inventory slot to hold a stack of items (usually 64 items) in addition to the item it got from the player. While the allay does not discern enchantments, special item names, or items in shulker boxes when it seeks, it still carries such items in separate trips.
+Allays don't pick up any items if the game rule /gamerule mobGriefing is false, but the player can still give the allay items with the use key. 
+If the allay hears a note block play within 16 blocks of its location while delivering items, it instead delivers its items to the note block. Then it spends 30 seconds around that particular note block, seeking items around it and returning them to it instead of its player. The allay returns to targeting its player after 30 seconds. A vibration particle emanates from the note block and reaches the allay to indicate that the allay has locked onto the note block. While an allay is focused on a note block, it responds only to sound from that note block, which resets the time until the allay loses interest. This in principle allows allays to focus on a single note block while other note blocks are playing in the vicinity, thus allowing many allays to work in parallel with different note blocks. Because the allay and the note block interact via a vibration particle, placing wool between the note block and the allay can prevent this sound interaction. 
+The allay can pick up items within a radius of about 1.3 blocks from itself and drop items up to 3 blocks away from its player or note block.
+An allay performs a dance animation when there is a nearby jukebox playing. If the jukebox stops playing or if the allay gets too far away from the jukebox, it stops dancing.
+The allay cannot enter water, although it attempts to gather underwater items. 
+Allays cannot be harmed by their interacting owners. If they are harmed by another source, they fly away for a few seconds. When killed, allays drop the items they were holding. If an allay dies while holding a totem of undying, it instead returns to full health and the totem is destroyed, as with any mob holding a totem of undying. Allays naturally regenerate 2HP per second if damaged.
+In Java Edition, using a named name tag performs the item's normal function, and it's impossible to give it to the allay. However, tethering an allay to a fence using a lead will allow the player to give it to it. In Bedrock Edition, using a lead or a named name tag gives it to the allay, and the player can trigger the item's normal function by sneaking.
+Despite being flying mobs, allays can destroy turtle eggs when on top of them.
+
+
+=== Allay duplication ===
+
+If an allay is given an amethyst shard while it is dancing due to a nearby jukebox playing any music disc, it splits into two allays (itself and a new allay) and the amethyst shard is consumed. After duplication, both allays have a five-minute cooldown before being able to duplicate again. Allays do not have a baby form.
+When the duplication occurs, the second allay is freshly spawned in the same location as the allay being given the amethyst shard; it doesn't retain the original allay's attributes such as its custom name or attributes set via the use of commands.
+
+
+=== Teleportation ===
+
+When a player teleports through a Nether portal, the player's allay teleports to them, even if it does not enter the portal.
+When a player teleports through an End portal, the allay teleports to the End only if a player gives the allay an item before teleporting and must be nearby the player as they teleport.
+Allays holding an item follow the player through a portal if they are 21 blocks horizontally from the player or if they are within 22 blocks vertically of the player's legs. Allays do not travel through portals regardless of how close they are if they are tethered to a fence with a lead.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Allays have entity data associated with them that contain various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Allay" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The allay was originally planned for the Nether Update.
+Some previous names considered for the allay were the wisp and the pixie.
+The allays were created to solve the problem of how players would build structures and collect resources in Minecraft Legends while focusing on defending the Overworld.
+Allay duplication uses amethyst shards because it is renewable, has a sound that fits with the allay, and makes amethyst geodes more valuable.
+According to the Meet the Allay article on Minecraft.net, the reason allays can be tamed by players is because they form a "magical connection" when players give them an item. This bond is what prevents players from accidentally harming their allay.
+Originally, Mojang considered having allays naturally spawn within forest biomes. However, the reason they went with pillager outposts and woodland mansions was because they wanted to highlight the companionship aspect.
+This wound up being referenced in Minecraft Mash-Up, where an allay is shown living in a birch forest.
+The Minecraft Live 2025 song, Infinite Interstitial - Allay, has an allay dying at the end.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Development images ===
+
+
+=== Concept artwork ===
+
+Recreations
+
+
+=== Screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== See also ==
+Vex
+Wisp
+Build Allay
+Gather Allay
+
+
+== References ==
+
+
+== External links ==
+"Meet the Allay"     by Sophie Austin  – Minecraft.net, May 27, 2022.
+"Mob Menagerie: Allay"     by Duncan Geere  – Minecraft.net, April 6, 2023.
+
+
+== Navigation ==

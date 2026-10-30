@@ -1,0 +1,46 @@
+Netherite scrap is a material smelted from ancient debris, which is found in the Nether. It is used solely for crafting netherite ingots. Like all netherite-related items, it is resistant to fire and lava in item form.
+
+
+== Obtaining ==
+Netherite scrap can be smelted from ancient debris found in between Y levels 8-119, or most commonly between Y levels 8-24‌[Java Edition  only] or 8-23‌[Bedrock Edition  only] in the Nether. It can also be found in chests within bastion remnants scattered about.
+
+
+=== Smelting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Netherite Scrap" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== External links ==
+"Taking Inventory: Netherite Scrap"     by Duncan Geere  – Minecraft.net, March 25, 2021.
+
+
+== Navigation ==

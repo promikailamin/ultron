@@ -1,0 +1,212 @@
+Trading is a gameplay mechanic that allows players to exchange emeralds for items, and vice versa, with villagers and wandering traders. Trading can allow the acquisition of items that would otherwise be difficult or impossible to obtain, such as enchanted books with "treasure" enchantments (e.g., Mending), bottles o' enchanting, and chainmail armor.
+
+
+== Mechanics ==
+Interacting with an employed villager or wandering trader opens the menu for trading with them, pauses their pathfinding, and makes them face the trading player. If the merchant takes damage or leaves the player's reach, the trading menu closes.
+All transactions involve emeralds. Trading is the only method of acquiring the globe banner pattern, arrows of Decay,‌[BE  only], all village maps, ocean monument map, and swamp hut map. It is also the only renewable way to obtain bells, diamond gear (except diamond armor, diamond spear, diamond horse armor, and diamond nautilus armor), lapis lazuli,‌[BE  only] bottles o' enchanting, glass, sand, red sand, coral blocks, small dripleaves, and ice crystal​[upcoming: JE 26.4].
+
+
+=== Level ===
+Villagers have five career levels that can be increased by trading with them. Each villager starts at the novice level. A villager's level can be seen in the trading menu. The badge a villager wears shows their career level: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gain experience. All villager trades reward the player with 3–6 experience plus an additional 5 experience if the villager levels up with the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two‌[JE  only] or three‌[BE  only] new trades and retains its existing trades.
+When a villager levels up its profession, it receives 10 seconds of Regeneration I (totaling to 4HP of restoration), which emits magenta particles. The villager also emits green plus-shaped particles.
+Trades from the master level would still reward the villager with experience, but it has no actual effect as the villager can't level up any further.
+Each badge is 2×3 pixels except the novice (stone) badge, which is 4×4 pixels.
+
+In Java Edition, villagers have a maximum of 10 trades. Each level unlocks a maximum of two new trades. If a level has a pool of more than two trades, the two offered trades are chosen randomly from the set. For example, a novice farmer randomly picks 2 out of 5 possible trades (buy wheat, buy potatoes, buy carrots, buy beetroots, or sell bread). Master librarians are currently the only exception, as they pick 3 trades; this is visible when only the Villager Trade Rebalance experiment is enabled, as the default pool contains only two possible choices so those two trades are offered.
+In Bedrock Edition, each level unlocks up to three trade slots; the amount of slots unlocked is fixed and depends on the profession and its level. Overall, villagers have 7–10 trade slots. For each slot, one trade is chosen randomly from a pool. For example, a novice farmer has two trade slots: for the first slot, it picks 1 out of 4 possible trades (buy wheat, buy potatoes, buy carrots or buy beetroots); for the second slot, only one trade is available (sell bread), so it is always offered. Cartographers are currently the only exception; for the apprentice, journeyman, and expert levels, two trades are randomly chosen from the respective pools without being bound to specific trade slots. 
+A villager's profession dictates the trading pool used to determine its trades. For example, villagers wearing straw hats are farmers, so their trades are based on the Farmer trade pool. Each profession unlocks a predefined and finite set of offers. Different professions are assigned to each villager based on their job-site block. This profession is indicated by their appearance and in the trading interface. Novice villagers who have not traded can lose their profession and change back into unemployed villagers if their claimed job site block is removed. Removing and then replacing a job site block can alter the trades offered, and a villager with no experience resets its trades every so often. Once a player trades with a villager, the villager keeps its profession forever and subsequently locks in the offered trades.
+
+
+=== Trades ===
+Each trade can be used a maximum number of times, after which the villager runs out of stock, and the trade becomes disabled. The exact number is different for each item and referenced in the tables below. When villagers work at their job site blocks, they activate their offers again, up to twice per day. In Bedrock Edition, villagers need to be linked to a bed to restock their trades (it is not necessary for them to sleep, but they require a bed nearby). When an offer is disabled, a red "X" appears in the trading interface in Java Edition, or the trading slot becomes red in Bedrock Edition, and the villager displays the same particle effect as an offer being created.
+When buying items from players, villagers ignore additional item data; this allows, for example, selling renamed or enchanted items, as well as lodestone compasses instead of regular compasses in Java Edition. When the Villager Trade Rebalance experiment is enabled, armorers can also accept armor of any durability.
+
+
+=== Sale prices ===
+
+All price fluctuations affect only the first item involved in trade; for example, for an initial trade of 32 sticks for 1 emerald, the price might be driven down to 1 stick or up to 64 sticks for 1 emerald, but never for 2 emeralds. Additionally, no quantity can go lower than 1 or higher than the stack size.
+How strongly demand and reputation affect the price is determined by the price multiplier. The discount from the Hero of the Village effect does not use the price multiplier.
+Demand is tracked per item and is initially minus two times the number of times the villager has the trade in stock. Villagers restock twice per day, at which point they subtract the number of possible purchases before running out of stock and add twice the number of actually made purchases. When the demand becomes positive, the price is increased by the initial price times the price multiplier times the demand, rounded down.
+Reputation is tracked per player by each villager, though villagers can share the reputation of players. Negative reputation gives price penalties‌[Java Edition  only] and positive reputation gives price discounts. Curing a zombie villager gives permanent major positive reputation, trading gives temporary positive reputation, and attacking or killing villagers gives temporary negative reputation. The price is decreased by the price multiplier times the reputation, rounded down, though it can result in an overall price increase only in Java Edition.
+The Hero of the Village effect, gained from completing a raid, reduces the price of all villagers by 30% and 6.25% per additional level, both being of to the initial price, giving 55% at level V. This price reduction is rounded down to whole items, but is at least 1.
+The formula for the full price can be written as:
+Final price=min⁡(max⁡(⌊p⋅(m⋅max⁡(0,d)+1)⌋−⌊m⋅r⌋−sgn⁡(h)⋅max⁡(1,⌊p⋅(0.3+0.0625⋅(h−1))⌋),1),stack size)‌[Java Edition  only]
+Final price=min⁡(max⁡(⌊p⋅(m⋅max⁡(0,d)+1)⌋−⌊m⋅max⁡(0,r)⌋−sgn⁡(h)⋅max⁡(1,⌊p⋅(0.3+0.0625⋅(h−1))⌋),1),stack size)‌[Bedrock Edition  only]
+where p is the initial price, m is the price multiplier, d is the demand, r is the reputation and h is the Hero of the Village level.
+
+
+== Non-trading villagers ==
+If the player attempts to trade with a non-trading villager in Java Edition, it grunts and bobs its head, but if the player tries to do the same thing in Bedrock Edition, nothing happens.
+
+
+=== Nitwit ===
+
+Nitwits are green-coated villagers that cannot gain a profession.
+While they can breed, it is impossible to get a baby nitwit by breeding adult nitwits.
+When baby villagers grow up they have a one in ten chance to grow into a nitwit.‌[Bedrock Edition  only]
+When a nitwit gets zombified and then cured, it becomes an unemployed villager.‌[Bedrock Edition  only]
+
+
+=== Unemployed villager ===
+Villagers without a job do not trade; they just wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimed job site block. For example, an unclaimed cartography table converts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player's popularity in the village.
+
+
+=== Baby villagers ===
+The appearance of baby villagers is similar to the corresponding adult unemployed villagers. They can't get a job or trade. In Bedrock Edition, they can grow up into nitwits.
+Growing up takes 20 minutes.
+
+
+== Trade offers ==
+
+In Java Edition, at each level, including Novice, two additional trades become available, unless there is only one trade within that level. If there are more than two possible trades, two are randomly selected.
+In Bedrock Edition, there are separate possible trades for each of the up to two slots, and a random trade is selected for each.
+
+
+=== Armorer ===
+
+Armorers trade various foundry and armor items. Their job site block is the Blast Furnace.
+
+
+=== Butcher ===
+
+Butchers trade meat and some other food items. Their job site block is the Smoker.
+
+
+=== Cartographer ===
+
+Cartographers trade maps and related items. Their job site block is the Cartography Table.
+
+
+=== Cleric ===
+Clerics trade magic items. Their job site block is the Brewing Stand.
+
+
+=== Farmer ===
+
+Farmers trade crops and natural foods. Their job site block is the Composter.
+
+
+=== Fisherman ===
+
+Fishermen trade fishing-related items. Their job site block is the Barrel.
+
+
+=== Fletcher ===
+
+Fletchers trade archery-related items. Their job site block is the Fletching Table.
+
+
+=== Leatherworker ===
+
+Leatherworkers trade animal products, including leather-related items. Their job site block is the Cauldron.
+
+
+=== Librarian ===
+
+Librarians trade book-related items. Their job site block is the Lectern.
+
+
+=== Mason ===
+
+Masons trade various types of stone. Their job site block is the Stonecutter.
+
+
+=== Shepherd ===
+
+Shepherds trade wool and dyed items. Their job site block is the Loom.
+
+
+=== Toolsmith ===
+
+Toolsmiths trade tools and related materials. Their job site block is the Smithing Table.
+
+
+=== Weaponsmith ===
+
+Weaponsmiths trade weapons and related materials. Their job site block is the Grindstone.
+
+
+== Wandering Trader offers ==
+
+The wandering trader offers nine trades in total: two random trades from the purchasing table, two random trades from the special selling table, and five random trades from the ordinary selling table. These trades are not divided into categories; for example, a single wandering trader can sell 2 different saplings. Each trade is equally likely.[verify]
+In the trading GUI, the trade offers are always listed in this order:
+
+2 purchasing trades
+2 special selling trades
+5 ordinary selling trades
+
+
+== Notes ==
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Trading", "Trades", or "Trade system" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+If the price of an item is set to a number above a stack with commands or other means, the price is discounted down to a stack again. Additionally, if the amount of an offered item exceeds a stack, up to 99, only one stack is sold when buying. If an offer's amount is set to more than 99 it reverts to 1 of the item offered.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+== See also ==
+Bartering
+Villager
+Armorer
+Butcher
+Cartographer
+Cleric
+Farmer
+Fisherman
+Fletcher
+Leatherworker
+Librarian
+Mason
+Shepherd
+Toolsmith
+Weaponsmith
+Wandering Trader
+
+
+== References ==
+
+
+== External links ==
+"All villager jobs – Ranked"     by James Nouch  – Minecraft.net, August 19, 2025.
+
+
+== Navigation ==

@@ -1,0 +1,82 @@
+Copper ingots are metal ingots obtained from smelting raw copper and from killing drowned or copper golems.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Smelting ===
+Copper ingots can be obtained by smelting raw copper in a furnace or blast furnace, as well as the ore itself if mined using Silk Touch.
+
+
+=== Mob loot ===
+
+When killed by a player or a tamed wolf, a drowned has a 11% (11⁄100) chance of dropping a copper ingot. With the Looting enchantment, the chance can be increased to 13% (13⁄100) with Looting I, 15% (3⁄20) with Looting II, and 17% (17⁄100) with Looting III. Copper golems also drop 1-3 copper ingots when killed, which is unaffected by Looting in Bedrock Edition.
+
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Smithing ingredient ===
+
+Trim color palette
+The following color palette is shown on the designs on trimmed armor:
+
+ (a darker color palette is used when a copper armor piece is trimmed using a copper ingot).
+
+
+=== Repairing ===
+Copper ingots are the repair items for the copper tier and thus can be used to repair the following items using an anvil:
+
+Copper Helmet
+Copper Chestplate
+Copper Leggings
+Copper Boots
+Copper Sword
+Copper Pickaxe
+Copper Axe
+Copper Shovel
+Copper Hoe
+Copper Spear
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Ingot" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== External links ==
+Taking Inventory：Copper Ingot – Minecraft.net on December 22, 2022
+
+
+== Navigation ==

@@ -1,0 +1,117 @@
+A helmet (the leather variety being known as a cap and the type crafted from turtle scutes being known as a turtle shell) is a piece of armor worn on the head of the player. There are seven primary tiers of helmet: leather, golden, copper,  iron, chainmail, diamond, and netherite. A turtle shell is another kind of helmet that gives the Water Breathing effect, and can be used to brew potions of the Turtle Master.
+
+
+== Variants ==
+Leather Cap
+Copper Helmet
+Golden Helmet
+Iron Helmet
+Chainmail Helmet
+Turtle Shell
+Diamond Helmet
+Netherite Helmet
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Smithing ===
+
+
+=== Mob loot ===
+Zombies, husks, skeletons, strays, bogged, and piglins have a small chance to spawn wearing armor. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the helmet they're wearing upon death, unless they are spawned from an ominous trial spawner. The dropped helmet is usually badly damaged, and may be enchanted with enchantment levels 5-19.
+In Bedrock Edition, vindicators and pillagers spawned in raids have a 4.16% chance (5.128% on hard difficulty) to drop an iron helmet. The dropped helmet is usually badly damaged, and has a 50% chance of being enchanted with a random enchantment.
+
+
+=== Trading ===
+Leather
+
+Chainmail
+
+Iron
+
+Diamond
+
+
+== Usage ==
+Helmets can be placed in the top armor slot of a player's inventory for activation.
+
+
+=== Statistics ===
+Each armor point reduces damage by 4% (increasing additively). Armor points are signified by half a shirt on the armor bar above the health bar. The effectiveness of armor points is decreased as the strength of incoming attacks increase, an effect lessened by armor toughness. Armor toughness does not have a visual indicator bar. Helmet durability is decreased by 1 for every 4HP of incoming damage (rounded down, but never below 1). Different helmet types have different enchantability from one another, a value that affects the strength of enchantments received directly though enchanting tables. Netherite helmets provide a knockback resistance of 1 (10%).
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A helmet can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the helmet's maximum durability, rounded down. Two helmets of the same tier can also be combined in an anvil. Both methods preserve the helmet's enchantments.
+
+
+=== Enchantments ===
+A helmet can receive the following enchantments. Note that while iron and chainmail have the same durability, chainmail has a higher enchantability than iron or diamond.
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a helmet, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+Armor durability from Indev until late Beta
+
+
+== Issues ==
+Issues relating to "Helmet" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Unlike other helmets, the netherite helmet covers most of the player's face, due to a nose guard and cheek plates.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Worn ====
+
+
+==== Item ====
+
+
+==== Mobs ====
+
+
+== References ==
+
+
+== External links ==
+Taking Inventory: Helmet – Minecraft.net on February 20, 2020
+
+
+== Navigation ==

@@ -1,0 +1,149 @@
+A spider is a neutral wall-climbing arthropod (arachnid) that attacks players on sight in dark areas by jumping and biting them. Spiders drop string and spider eyes upon death.
+
+
+== Spawning ==
+Spiders can spawn in the Overworld at a light level of 0 within a 3×1×3 space centered on an opaque block. In Java Edition, the block above the spawning space cannot be a full solid block, including transparent ones such as leaves or glass, but non-full blocks, such as soul sand or slabs, are allowed. Spiders do not spawn in mushroom fields and deep dark biomes, and they are replaced by cave spiders in sulfur caves. In Bedrock Edition, spiders also do not spawn in rivers, frozen rivers, and snowy plains and do not spawn in groups.
+
+
+=== Monster spawners ===
+Spiders spawn from monster spawners found in monster rooms (25% chance) as well as in secret rooms surrounded by cobwebs in woodland mansions.
+
+
+=== Trial spawners ===
+Spiders have a 1⁄3 chance to be selected as the "melee" mob for trial spawners in trial chambers.
+
+
+=== Status effects ===
+
+Spiders occasionally spawn with status effects in Hard difficulty. For each pack spawn, there is a (10×clamped regional difficulty)% chance of the game applying a status effect. This does not apply to cave spiders. These spiders can spawn with one of the following effects:
+
+Speed (40% chance)
+Strength (20% chance)
+Regeneration (20% chance)
+Invisibility (20% chance)
+The effect is then applied to all entities within the pack, lasting forever. If the Invisibility status effect is applied to a spider, its eyes remain visible.
+
+
+=== Spider jockeys ===
+
+There is a 1% chance for a spider to spawn with a skeleton riding it, forming a spider jockey. In Bedrock Edition, the skeleton has an 80% chance to be replaced by a stray, bogged, parched, or wither skeleton when in the biomes where they spawn. A spider jockey can also be spawned by the following commands:
+
+In Java Edition: /summon minecraft:spider ~ ~ ~ {Passengers:[{id:"minecraft:skeleton",equipment:{mainhand:{id:"minecraft:bow",count:1}}}]}.
+In Bedrock Edition: /summon spider ~ ~ ~ ~ ~ minecraft:entity_spawned_with_default_jockey. This command only works if it's nighttime, or if the executer is underground.
+The skeleton controls how both mobs move. The spider can still climb walls, but the skeleton suffocates if the spider runs into a ceiling. The skeleton and the spider cannot damage each other. If they come into contact with water, they are separated.
+
+
+== Drops ==
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+5XP experience orbs are dropped by a spider when it is killed by a player or tamed wolf.
+
+
+== Behavior ==
+A spider stays hostile toward the player or an iron golem as long as the light level immediately around the spider is 11 or less; otherwise, it does not attack unless attacked first. If a spider chases its target into an area where the light level immediately around the spider is above 11, it returns to a neutral state. However, spiders pursue targets regardless of the light level in retaliation to an attack. In Bedrock Edition, spiders become hostile to the player after a short while after noticing them, whereas in Java Edition they become hostile instantly.
+Despite being hostile to iron golems in light below 12, villagers and wandering traders are ignored by spiders, regardless of light level. However, a spider can retaliate if a firework rocket set by a villager hits it.
+Hostile spiders see up to 16 blocks, and pounce at close range.
+Spiders can climb up over solid blocks that are not magma blocks‌[Bedrock Edition  only], but do not climb on underside surfaces. A spider pursuing a player can detect a player through blocks. If a spider cannot find an ideal path to the player due to a wall barring the way, it approaches as close as possible to the player's position and proceeds to climb the wall vertically until it gets to the top, even if it loses its aggression toward the player. When a spider loses its aggression, it continues moving forward blindly for 2 seconds; this behavior causes the spider to climb up any walls in its path.
+Spiders flee from armadillos that are not in a rolled-up state.
+In Java Edition, if a spider tries to go through the world border, it starts climbing the world border instead.
+Spider can also climb on full boats, full boats with chests and shulkers.
+Even though normal spiders do not inflict the Poison status effect, they are immune to it. They are also immune to the slowing applied to most mobs when walking through cobwebs.
+Spiders flip onto their backs when they die, unlike most other mobs, which fall to one side.
+The Bane of Arthropods enchantment inflicts Slowness IV and deals more damage to spiders.
+When pathfinding, spiders often get stuck in corners and cannot be provoked.
+Unlike other neutral mobs, spiders don't count toward the AngryAt tag.
+The regular texture of spiders makes the red eyes appear bright in contrast to the dark body, but with Vibrant Visuals, the eyes are actually emissive, making them easily distinguishable in dark areas where they spawn.
+
+
+=== Jockey ===
+
+15% of nearby baby zombies, husks, or drowned may ride a spider that was not spawned as a spider jockey, to form a jockey.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Spiders have entity data associated with them that contains various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Spider" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Spiders are able to climb walls because they were programmed by Jens Bergensten to treat the sides of blocks as ladders.
+In normal conditions, spiders actually float above the ground, but this is often not noticeable due to the difference between the player's height and a spider's height.
+When a spider wanders inside an enclosed space, it often climbs up a wall until reaching the ceiling, after which it becomes stuck, unable to exit the climbing state even if it is attacked or becomes hostile to the player.
+Daniel Rosenfeld revealed that the spider sounds were created by distorting garden hose sounds. Similarly, Daniel's downloads from Freesound reveal a leaking hydrant sound file, which matches the spider sounds, undistorted.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

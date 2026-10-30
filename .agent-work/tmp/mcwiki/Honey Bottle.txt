@@ -1,0 +1,68 @@
+A honey bottle is a consumable drink item obtainable by using a glass bottle on a full beehive or bee nest. Honey bottles remove Poison when consumed and can be used to craft honey blocks and sugar.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Harvesting ===
+A honey bottle can be obtained by using a glass bottle on either a beehive or bee nest with a honey level of 5. Doing this angers any bees inside, causing them to attack the player, unless there is a campfire or another block on fire within 5 blocks below the nest or hive. Using normal fire would likely cause the nest, bees, and flowers around it to burn.
+A dispenser with glass bottles can be used to collect the honey without angering the bees. The honey bottle appears as an item in the dispenser's inventory. If the dispenser is full, the honey bottle is shot out.
+
+
+== Usage ==
+To drink a honey bottle, press and hold use while it is selected in the hotbar. Drinking one restores 6 () hunger and 1.2 hunger saturation and returns a glass bottle. Consuming the item also has the benefit of removing any Poison effect applied to the player. Unlike drinking milk, other applied effects are not removed upon drinking a honey bottle.
+Honey bottles can be drunk even with a full hunger bar. Drinking a honey bottle takes 25% longer than eating other food - 2 seconds - and has a unique sound.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Honey Bottle" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Honey bottles are the only drinkable items that can restore hunger.
+
+
+== External links ==
+"Taking Inventory: Honey Bottle"     by Duncan Geere  – Minecraft.net, July 16, 2020.
+
+
+== Navigation ==

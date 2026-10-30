@@ -1,0 +1,138 @@
+Wool is a block obtained from sheep that can be dyed in any of the sixteen different colors. It can be used as a crafting material and to block vibrations.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Wool can be broken using any tool, but shears are the fastest tool to use.
+
+
+=== Natural generation ===
+Woodland mansion
+All wool colors (except magenta, pink, and purple) generate naturally as part of structures within woodland mansions.
+
+Village
+White and yellow wool generate in shepherd houses, fletcher houses, and meeting points in plains villages.
+10 light gray wool generate under the door and on the floor of Snowy_small_house_8 in snowy tundra villages.
+
+Pillager outpost
+White wool generates as tents outside pillager outposts.
+
+Ancient city
+Gray wool appears on some walls and on the floors of long corridors at the corners of an ancient city. The wool damps vibrations, preventing activation of nearby sculk blocks. Ancient cities can also generate blue, cyan, and light blue wool.
+
+
+=== Mob loot ===
+Using shears on an adult sheep yields 1–3 wool. Sheep also drop 1 wool upon death, if they are not sheared. The wool dropped is the same color as the sheep, unless the sheep is named jeb_, in which case the sheep drops whatever color the sheep truly is instead of rainbow wool. The drop rates are not affected by the Fortune or Looting enchantments. Baby sheep cannot be sheared.
+Sheep can spawn with different colors. The most common color is determined by the type of biome the sheep spawns in. In temperate biomes the most common color is white, in cold biomes it is black and in warm biomes it is brown. However sheep can spawn in all three of these colors, and light and dark grey, in all biomes. Sheep can also naturally spawn with pink wool but this has a rare chance.
+
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Trading ===
+
+
+=== Villager gifts ===
+In Java Edition, a shepherd villager may throw a block of wool of random color at a player under the Hero of the Village effect.
+
+
+== Usage ==
+Wool comes in sixteen colors, which are white, light gray, gray, black, brown, red, orange, yellow, lime, green, cyan, light blue, blue, purple, magenta, and pink. Unlike stained glass and terracotta, the white variant serves as the undyed block. Wool of any color can be re-dyed into any other color.
+Wool is easily mined, highly flammable, and offers little resistance against explosions.  
+
+
+=== Trading ===
+
+
+=== Vibration occlusion ===
+Wool can be used to block vibrations from reaching nearby sculk sensors. If a wool block is placed between a sensor and a vibration source, the sensor is not able to detect vibrations behind it. Similarly, if a wool block is placed between a sensor and a sculk shrieker, the sensor is unable to alert the shrieker. 
+Sculk sensors are not able to detect the placing and breaking of wool, as well as entities walking, sprinting, or jumping on top of it. They are also unable to detect items dropped on wool, or wool itself dropped in item form.
+Similar to sculk sensors, wardens are also unable to detect everything wool-related as listed above.
+Wool can also be used to block note block sounds from reaching allays.
+
+
+=== Crafting ingredient ===
+Any color of wool can be used for paintings, but it has no effect on the product's final appearance.
+
+
+=== Fuel ===
+In Java Edition, wool can be used as fuel in furnaces and their variants, smelting 0.5 items per wool block.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Wool" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In Bedrock Edition, the data values for wool and their respective dyes are the inverse of each other. This is also true for stained glass, terracotta, shulker boxes, beds, banners, concrete powder, and concrete.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+Block of the Week: Wool – Minecraft.net on November 17, 2017
+
+
+== Navigation ==

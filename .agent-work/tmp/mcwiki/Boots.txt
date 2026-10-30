@@ -1,0 +1,111 @@
+Boots are pieces of armor worn on the feet of the player. There are seven tiers of boots: leather, golden, copper, chainmail,  iron, diamond, and netherite.
+
+
+== Variants ==
+Leather Boots
+Golden Boots
+Copper Boots
+Chainmail Boots
+Iron Boots
+Diamond Boots
+Netherite Boots
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Smithing ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, skeletons, strays and bogged have a small chance to spawn wearing armor, which may include boots. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the boots they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped boots are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+=== Trading ===
+Leather
+
+Chainmail
+
+Iron
+
+Diamond
+
+
+== Usage ==
+Boots can be placed in the fourth armor slot of a player's inventory for activation.
+
+
+=== Statistics ===
+Each armor point reduces damage by 4% (increasing additively). Armor points are signified by half a shirt on the armor bar above the health bar. The effectiveness of armor points is decreased as the strength of incoming attacks increase, an effect lessened by armor toughness. Armor toughness does not have a visual indicator bar. Boots durability is decreased by 1 for every 4HP of incoming damage (rounded down, but never below 1). Different boots types have different enchantability from one another, a value that affects the strength of enchantments received directly though enchanting tables. Netherite boots provide a knockback resistance of 1 (10%).
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+Boots can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the boots' maximum durability, rounded down. Two boots of the same tier can also be combined in an anvil. Both methods preserve the boots' enchantments.
+
+
+=== Enchantments ===
+Boots can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a pair of boots, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Boots" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Leather armor originally used textures from one of Notch's previous games, Legend of the Chambered.
+Leather boots are the only piece of leather armor that has the same name as other armor materials.
+The netherite boots are the only type of boots to have a differently shaped item sprite when compared to the other boot types.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Worn ====
+
+
+==== Item ====
+
+
+== References ==
+
+
+== External links ==
+Taking Inventory: Boots – Minecraft.net on November 24, 2019
+
+
+== Navigation ==

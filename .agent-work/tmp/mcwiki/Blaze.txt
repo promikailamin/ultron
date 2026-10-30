@@ -1,0 +1,174 @@
+A blaze is a fiery hostile mob found in Nether fortresses and is the only source of blaze rods. It attacks by shooting volleys of three small fireballs or by performing melee attacks at close range, and it often floats upward while targeting a player.
+
+
+== Spawning ==
+Blazes always require a light level of 11 or less to spawn.
+They may spawn naturally in Nether fortresses in groups of 2 or 3‌[JE  only] or from 1 to 3.‌[BE  only]
+Blazes may also spawn from monster spawners. A Nether fortress can generate up to two blaze spawner platforms, each surrounded by Nether brick fences and reachable via a three-block staircase.
+Spawning conditions for blazes: 
+
+In the structure bounding box of any single piece of the Nether fortress, they can spawn on any block.
+In the larger area bounding box of the entire Nether fortress, they can spawn exclusively on Nether bricks.
+
+
+== Drops ==
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+10XP experience orbs are dropped if killed by a player or tamed wolf.
+
+
+== Behavior ==
+
+Each blaze has its own follow range of approximately 42.5 to 53.5 blocks, determined when it spawns.
+
+
+=== Movement ===
+When a blaze has no target, it wanders randomly over the ground, with a small bias toward lower light levels. Gravity pulls a blaze downward, but while descending it loses 40% of its speed each game tick, causing its downward speed to settle at about 2.283 blocks per second. Blazes attempt to swim upward in lava or water in Bedrock Edition, but sink in Java Edition. Their pathfinding treats water as untraversable, gives lava a high cost, and does not avoid fire.
+When a blaze has a target, with or without line of sight, it changes its threshold height for upward movement every 5 seconds. This threshold ranges between 6.4 blocks below and 7.4 blocks above the blaze's eyes. While the target's eyes are above that chosen threshold, the blaze accelerates upward, approaching a vertical speed of about 2.237 blocks per second.
+While its combat behavior is active, a blaze does not wander randomly.
+
+
+=== Targeting ===
+A blaze acquires a player as a target when the player is within its follow range and in its line of sight, though a player who is sneaking or invisible must be closer (see Invisibility). After losing sight of the player, the blaze continues targeting them for 3 seconds, provided they remain within its follow range.
+If a blaze is hurt by a living entity, its retaliation behavior begins by targeting the attacker without requiring line of sight. Without sight of the attacker, this behavior continues for 15 seconds, provided the attacker remains within the blaze's follow range. Seeing the attacker resets this timer.
+When this retaliation behavior begins, the damaged blaze alerts every targetless blaze already within an area around it. Alerted blazes target the attacker without requiring line of sight.
+An alerted blaze can indefinitely keep as its target an attacker it does not see. It loses the target if they change dimensions or die. If it sees the attacker, the usual 3-second limit applies upon losing sight of them again.
+
+
+=== Attacking ===
+
+Melee and ranged attacks require line of sight.
+
+
+==== Ranged attack ====
+A blaze begins its ranged attack when it can see a target at least 2 blocks away and closer than its follow range. This distance is measured in a straight line between their feet positions. The blaze charges for 3 seconds, then fires three small fireballs at intervals of 0.3 seconds. The charge ends 0.3 seconds after the third shot, and the blaze waits 5 seconds before charging again.
+Breaking line of sight interrupts the attack. It resumes if the line of sight returns while the blaze still has the same target. Each fireball is shot in the target's general direction, with some horizontal randomness.
+
+
+==== Small fireballs ====
+In air, a small fireball fired by a blaze starts at a low speed and accelerates as it travels, approaching 38 blocks per second. In water, it accelerates more slowly and approaches 8 blocks per second. Small fireballs fired by dispensers follow the same motion.
+On a successful entity hit, a small fireball deals 5HP base damage and sets the target on fire for 5 seconds. Against a player, the direct damage is 3.5HP × 1.75 on Easy, 5HP on Normal, and 7.5HP × 3.75 on Hard. A shield blocks both the direct damage and the ignition.
+A player cannot deflect a small fireball by attacking it, but a breeze deflects one that collides with it. On block impact, a blaze-fired small fireball can place fire on an adjacent block if /gamerule mob_griefing is set to true.
+
+
+==== Melee attack ====
+A blaze performs a melee attack once per second when it has line of sight on its target and their feet positions are less than 2 blocks apart. The attack deals 4HP damage to a player on Easy difficulty, 6HP on Normal, and 9HP on Hard. It is not fire damage, does not ignite the target, and is not prevented by Fire Resistance.
+
+
+=== Damage ===
+Blazes take damage from the following interactions:
+
+Java Edition blazes have no specific movement behavior while in water.
+
+
+=== Appearance ===
+A blaze emits two large smoke particles each tick. Its model is rendered at maximum block-light brightness but does not emit block light. Its twelve rods rotate continuously, and its charged state is displayed as fire during a ranged attack.
+The entire blaze texture appears brighter in Bedrock Edition, similar to the drowned's eyes. With Vibrant Visuals, blazes and their fire are actually emissive and glowing, with the side effect that the environment around a blaze darkens when looking at it.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Java Edition:
+
+Blazes have entity data associated with them that contains various properties.
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Blaze" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When throwing a potion of Invisibility on a blaze, the smoke remains visible.
+According to Jens Bergensten, blazes look the way they do because all mobs in Minecraft are cuboid-shape, so to make them flame-like and magical, he created them as a core surrounded by rotating rods.
+Blazes originally didn't have eyes when Jens Bergensten was first creating them and "just looked like a yellow rock". Eyes were added to give it more personality.
+Despite not having visible feet, blazes are still capable of making footstep sounds.
+According to Minecraft's "Visit the Nether!" blazes are sentient beings made of pure lava. The article theorizes they were created by the original inhabitants of Nether fortresses to serve as guards, but their creators lost control over the blazes and were subsequently destroyed by them.
+
+
+=== Publicity ===
+On the official T-shirt "Alchemy" by JINX, the blaze is in the form of the Vitruvian Man and the text uses the Standard Galactic Alphabet. The words on the outside of the ring translate to: "nigredo", "albedo", "citrinitas", and "rubedo", which are all relating to magnum opus. The words on the ring translate to (starting from the top): "B * Crowmer", "poison * speed", "strength * resist"  [sic], "vision * heal", and "regeneration" relating to potions and probably the artist's name. On the connecting lines the words translate to: "potln of thickness"  [sic], "potln of awkward"  [sic], "weakness potion" and "mundane potion" relating to base potions.
+As part of an official collaboration, blazes are included as monsters in a free add-on for the roleplaying game Dungeons & Dragons. In the game, they are "Elementals" and have the alignment "Typically Neutral Evil."
+In Minecraft: Mobspotter's Encyclopedia, blazes are depicted using the smoke particles used for campfires instead of their traditional ones.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== Mojang images ===
+
+
+=== Textures ===
+
+
+=== Other ===
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Meet the Blaze"     by Marsh Davies  – Minecraft.net, December 20, 2016.
+"Mob Menagerie: Blaze"     by Duncan Geere  – Minecraft.net, March 6, 2025.
+
+
+== Navigation ==

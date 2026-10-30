@@ -1,0 +1,144 @@
+Ghasts are large, floating, ghost-like hostile mobs found in the Nether, and are the only source of ghast tears. Ghasts wander aimlessly and shoot explosive fireballs at players, which can be hit back to kill them instantly upon direct impact.
+
+
+== Spawning ==
+To spawn naturally, a ghast requires a solid block below it and a free space 5×5 blocks wide and 4 blocks high. They spawn in the basalt deltas, Nether wastes, and soul sand valley biomes in any light level. In Java Edition, ghasts cannot spawn in soul sand valleys if another ghast is within 16 blocks of spherical distance to the intended spawning location. In Bedrock Edition, two ghasts can spawn within any 4 chunk span.
+In Java Edition, ghasts always spawn individually in Nether wastes, soul sand valleys, and basalt deltas. This is despite any listed group size of 4, because there is a hard-coded cap of 1 ghast per pack (so it would attempt to spawn a ghast up to 4 times, but as soon as one succeeds the process ends).
+In Bedrock Edition, ghasts also always spawn individually.
+
+
+== Drops ==
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+5XP when killed by the player.
+
+
+== Behavior ==
+Ghasts float around with their eyes and mouth closed and periodically make crying sounds heard from up to 80 blocks away. They have a hitbox of 4×4×4 blocks. The ghast's nine tentacles are not within their hitbox.
+When within range, a ghast faces the player and shoots a fireball every 3 seconds, opening its eyes and mouth and making a screeching sound. They strafe left to right in the air while targeting. A ghast requires a line of sight to the player before firing, which can be blocked by any solid block, including transparent blocks. In Java Edition, they target players within 64 blocks horizontally and 4 blocks vertically, and continue attacking as long as they are within a 64 block sphere and have line of sight. In Bedrock Edition, a ghast normally targets a player within a sphere of 28 blocks, increasing to 64 blocks if the player damages it. In Bedrock Edition, a ghast holds its charge like a pillager when it loses sight of its target and shoots again instantly when in range.
+Ghasts do not attempt to approach the player once aggravated, but instead fire at the player from their position within firing range. If a ghast is within close range to its target, it may take damage from the explosion of its own fireball, regardless of the player hitting the fireball back.
+Ghasts can provoke other mobs into targeting them, but in Java Edition they do not target other mobs, only the player.
+Ghasts are immune to fire and lava damage. They are slowed by lava, occasionally sinking into it or passing through lava falls, immobilizing them and making them more vulnerable to ranged attacks for some time.
+Despite their ghostly appearance, ghasts are not considered undead mobs. This means they can drown, are damaged by Instant Damage and healed by Instant Health, are affected by Regeneration and Poison, and are not affected by Smite. Despite this, withers never deliberately target them, making them the only non-undead mob ignored by withers (excluding agents‌[BE & edu  only], and mobs with the invulnerable NBT tag). They are also completely ignored by wolves, "Johnny" vindicators, goats, snow golems, trusting foxes, and zoglins. However, iron golems‌[Java Edition  only] and wardens attack ghasts, and ghasts do not retaliate.‌[Java Edition  only]
+Despite being flying mobs, ghasts can destroy turtle eggs when on top of them.
+When targeting, the red eyes and mouth of a ghast appears more glowing in Bedrock Edition. With Vibrant Visuals, this texture actually glows.
+
+
+=== Fireball ===
+
+Ghasts shoot fireballs at players, dealing damage to entities and creating an explosion that sets fire to nearby blocks upon impact. Blocks with blast resistance as low as 3.5 survive a fireball's explosion; the explosion itself does no damage unless it hits the entities directly.
+Hitting a fireball with another projectile or a melee attack deflects it, dealing 1000HP × 500 damage to any ghast hit directly by it.
+All other mobs retaliate against the player instead of the ghast if a deflected fireball hits them.
+
+
+=== Farming ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Java Edition:
+
+Ghasts have entity data associated with them that contains various properties.
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+=== Historical screenshots ===
+
+
+== Issues ==
+Issues relating to "Ghast" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In English, "ghast" is an archaic word meaning "ghastly". H. P. Lovecraft first coined its use as the name for a monster (a vaguely humanoid one, in The Dream-Quest of Unknown Kadath), but "ghasts" have appeared in many other fantasy stories and games.
+Ghasts are considered to be fire-breathing ghosts in their Meet the Mob Minecraft.net article.
+In their Mob Menagerie article, ghasts were said to be "large, incorporeal beings" whose origins are unclear. The article states that "they tend to avoid the fungal forests where it's harder to track their prey". They are also "immune to heat damage" because they have "spent so long in the Nether" that "they love the warmth of lava" there.
+The Minecraft: Mobestiary, their appearance in A Minecraft Movie, and later merchandise portray ghasts as organic beings with a stomach system resembling a cannon.
+The player can go inside of a ghast by falling through the top of it or flying (or jumping while attacking) up underneath it. If the player stands on top of the head, the player sees inside of it.
+If a ghast is trapped in a cube of a side length of one block, it shoots fireballs through the cube. This is because all mobs that shoot spawn the projectile one block in front of it to prevent the projectile from hitting the mob.
+On rare occasions, ghasts spawn in such a way as to see through blocks (usually trapped on all sides in a tight area). When this happens and the ghast has a "line of sight" through those blocks, it launches a fireball in the player's direction. This is reminiscent of a blaze but with explosive addition.
+C418 revealed in an AMA on Reddit that ghast sounds are taken from his pet cat, who makes them when disturbed while sleeping.
+There is an unused ghast sound called "affectionatescream.ogg" in the game files. It can be heard in the last scene of the Nether Update: Official Trailer and during the elytra chase scene of A Minecraft Movie.
+These mobs have been referred to as "angry Ghasts" to distinguish them from happy ghasts and dried ghasts.
+
+
+=== Publicity ===
+
+Two ghasts are featured in the Lego Minecraft set Minecraft Micro World - The Nether, along with a zombified piglin.
+In concept art for Minecraft Experience: Moonlight Trail, the side of a ghast is used to represent the Moon.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Meet the Ghast"     by Tom Stone  – Minecraft.net, May 22, 2017.
+"Mob Menagerie: Ghast"     by Duncan Greere  – Minecraft.net, January 4, 2024.
+
+
+== Navigation ==

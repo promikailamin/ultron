@@ -1,0 +1,100 @@
+An End portal is a naturally-occurring generated structure that is used to travel into the End. It can only be found in the portal room of a stronghold.
+
+
+== Creation ==
+In Survival mode, the player must venture to a stronghold to activate a pre-existing End portal, as End portal frame blocks cannot be obtained naturally. The portal is activated when an eye of ender has been placed in each of the End portal frame blocks, generating 9 End portal blocks within the structure. Eyes of ender cannot be removed from End portal frames.
+In Creative mode, the player can construct an End portal by placing 12 End portal frames in a ring enclosing an open 3×3 square and placing an eye of ender in each one. In order to activate, the End portal frames must be oriented correctly; the front face of each portal block must be pointed inward toward the 3×3 portal area. This can be achieved by the player standing in the center of the portal area and rotating to place the frames in a ring around them.
+
+The End portal blocks do not depend on the End portal frame to exist; thus, one may create standalone portals with commands or by breaking the frames.
+In Java Edition, it is possible to construct an End portal which generates its End portal blocks outside of its structure. Due to the fact that the End portal generation has the same mechanism as iron golem and snow golem, the game allows the End portal frame arrangement to be rotated. 
+Thus, in Java Edition, a valid End portal should obey these three rules:
+
+Any three End portal frames within one edge must have the same facing.
+Opposite edges must have opposite facing.
+All four facings must appear.
+With a valid End portal, one can refer the corner between the edges facing west and north as its "structural origin". After 12 End portal frames have all been filled with eye of ender, if any End portal frame within the 5x5x5 cube at the north-west-down of the origin, which is not necessarily a part of the structure, is filled with an eye of ender, the End portal is activated, generating 9 End portal blocks at the northwest of the origin (not always within the structure).
+
+Since rotation along X and Z axis is allowed, one can even construct a standing End portal frame.
+
+There are 24 possible End portal frame configurations in Java Edition in total. 8 of them are flat, 8 of them are standing in XY-plane, 8 of them are standing in ZY-plane.
+
+
+== Generation ==
+End portals are found within the portal room of a stronghold, hanging horizontally over a pool of lava, with a staircase leading up to the portal. A monster spawner spawning silverfish sits in the staircase. Each individual End portal frame block has a 10% chance of containing an eye of ender, as determined by the world seed. This means there is a one in 1 trillion chance for all 12 End portal frames to contain an eye of Ender, activating the portal upon initial generation. The frame has the highest probability of generating with a single eye of ender (37.7%), with probabilities dropping to 28.2% for zero, 23.0% for two, 8.52% for three, 2.13% for four, and a total of 0.433% for five or more. Because of the huge number of possible seeds, over 8 million seeds in Java Edition that generate portals with 12 eyes of ender are known.
+
+
+== Behavior ==
+
+Stepping into an activated End portal immediately opens up a loading screen and transports the player to the End — this leaves no time to back out, similar to entering a Nether portal in Creative mode. Upon entering the End, a 5×5 horizontal platform of obsidian is generated centered at block coordinates (100, 48, 0), and the player is placed on top of it (100, 49, 0, facing west).
+Mobs (except for the wither‌[Java Edition  only], the creaking connected with a creaking heart and the ender dragon) can enter the portal similarly to the player.
+In Bedrock Edition, entities with passengers cannot be teleported.
+The End portal blocks emit a light level of 15, the brightest light level in-game. Only one End portal block is needed to teleport to the End. End portal blocks can be placed anywhere with use of the /setblock and /fill commands, and they function as if they were a complete portal.
+Activating the End portal destroys any blocks located in the center 3×3 square, including bedrock or another End portal frame. It destroys fluids, although if the source block is not also removed, then it immediately flows back through. If an End portal is generated on a monster spawner, the fire particles remain. The destruction of the blocks does not make any sound, and blocks do not drop as items. Events sometimes triggered by block destruction fail to occur; TNT simply disappears without detonating, and infested blocks fail to spawn silverfish. However, containers (except for shulker box and ender chest) still drop their contents.
+The sound for the opening of the portal is a global sound event, meaning it can be heard by all players in all dimensions. This can be disabled in Java Edition by setting the /gamerule globalSoundEvents to false.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Historical screenshots ===
+
+
+== Issues ==
+Issues relating to "End portal" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Dropping a gravity-affected block into the portal it causes the obsidian platform to regenerate, and the gravity-affected block is placed on the platform; however, it is destroyed when another gravity-affected block or the player goes through the portal, because doing so regenerates the obsidian platform again.
+End portals do not naturally generate in the Nether, and a player cannot build them without enabling cheats or using Creative mode. If the player does, the portal functions normally, teleporting the player to the End.
+If an End portal is built in the End, it functions like the exit portal, teleporting the player back to their spawn point in the Overworld (or the Nether if a respawn anchor is used.)
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other Media ===
+
+
+=== Mojang screenshots ===
+
+
+=== Renders ===
+
+
+== See also ==
+Nether portal
+Exit portal
+End gateway
+
+
+== References ==
+
+
+== Navigation ==

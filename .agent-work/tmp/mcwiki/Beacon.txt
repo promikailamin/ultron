@@ -1,0 +1,187 @@
+A beacon is a block that can be placed in view of the sky, on top of a pyramid made of valuable mineral blocks, to activate it. Once active, it projects a beam upward and can be set to provide constant status effects to all players in a radius around it. A beacon's range and available effects depend on the size of its pyramid base, between one and four layers.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A beacon can be mined successfully by hand or with any tool. When destroyed by an explosion, the block always drops as an item.
+
+
+=== Crafting ===
+
+
+== Usage ==
+When "activated", beacon blocks provide two unique functions: 
+
+A landmark beam reaching into the sky which is visible from far away.
+Powers, which give players status effects within a certain range.
+
+
+=== Activation ===
+
+In order to activate a beacon, the beacon must meet the following requirements:
+
+Beacons require an unobstructed view of the sky (see § Beam).
+The beacon is on top of a pyramid constructed from iron blocks, gold blocks, emerald blocks, diamond blocks, and/or netherite blocks. 
+The type of block used is purely cosmetic, having no effect on the pyramid's power level or the range and strength of the status effect. A mixture of blocks of different types can also be used in any orientation, so long as they form a pyramid structure, like the ones listed below.
+Status effect range can be improved by increasing the pyramid power level (see chart below). At level 4, the pyramid gives the option to increase the primary effect's strength to Level II in the beacon's GUI.
+
+
+==== Pyramids ====
+
+Pyramids are the structures required to activate beacons. There are four possible pyramid heights. More pyramid levels make more powers available in a wider affected vicinity. The type of mineral block used to build the pyramid is entirely cosmetic and has no functional effect. Several different block types can be mixed without affecting functionality. If the pyramid is damaged so that the beacon deactivates, the previously-set powers resume their effects upon reactivation when the pyramid is repaired. This applies to piston-altered pyramids as well. 
+
+Multiple beacons can make use of the same specific mineral blocks below them. Combined pyramids do not need to be symmetrical. The image to the right shows a 6-beacon (2 by 3) pyramid. It requires a total of 244 mineral blocks, with a base layer of 10 by 11.
+
+
+=== Beam ===
+A vertical beam appears from a beacon if the beacon is activated, extending up 2048 blocks from the beacon block. Beacon beams deactivate if they ever intersect any fully opaque block excluding bedrock (this allows beacons to be used below the Nether ceiling). Once the blocks that are obstructing the beacon beam are removed, the beam reactivates itself.
+Horizontally, the beam is visible from any loaded chunk, which can be up to 512 blocks in Java Edition or 2048 blocks in Bedrock Edition.
+
+
+==== Colors ====
+The color of the beam may be changed by placing stained glass, stained glass panes, hardened stained glass,‌[BE & edu  only] hardened stained glass panes,‌[BE & edu  only] or another beacon ‌[JE  only] anywhere above the beacon block, with glass panes and full glass blocks having the same effect. Placing multiple colored glass blocks anywhere above the beam causes the colors to blend. The first or bottom most glass block sets the beam color, while each additional block sets the color by averaging the red, green, and blue components of the current beam color and the block's color. The color values are the same as those for the corresponding dye.
+If c→ is an RGB vector, the resulting beam color can be found as C→=12n(c0→+∑i=1n2i−1ci→) where ci→ is the sequence of glass color RGB vectors (c0→ corresponds to the lowest block and cn→ to the highest one).
+
+
+==== Updating ====
+In Java Edition, the amount of ticks a beacon beam takes to update (change color, deactivate due an obstructing block being placed, reactivate due to the obstructing block being removed) is equal to 1⁄10 of the space (expressed in blocks) between (inclusive) the beacon block and the topmost block that is intersected by the beacon beam, rounded up to the nearest integer.
+In Bedrock Edition, the beacon beam updates every 80 ticks (4 seconds).
+
+
+=== Powers ===
+
+Once the beacon is emitting a beam, it can then be fed one iron ingot, gold ingot, emerald, diamond, or netherite ingot to select the status effects given to players within range of the beacon. This is done through the beacon's GUI, displayed by pressing use while looking at the beacon block. It doesn't matter which of the items is fed into the beacon.
+In the GUI, the player places the item to be fed in the empty slot and clicks an effect from the "Primary Power" section on the left. If the beacon is sitting on a 4-level pyramid, the "Secondary Power" section on the right also becomes active. The player can then choose either to turn on the Regeneration power in addition to the Primary Power or to raise the primary power to Level II. The user clicks the "Done" button (green checkmark), the item is consumed, and the power(s) become activated, with the outline of the effect on the HUD being blue. To change the beacon's powers, this process must be followed again, consuming another ingot or gem.
+If the pyramid is broken, effects deactivate or weaken depending on the level of the pyramid that is no longer complete. Upon restoration of the pyramid, the originally selected power returns without the need to spend another item. If a smaller pyramid is upgraded, the effect range increases to that of the new pyramid without the need of reactivating it. However, upgrading to level 4 does not modify the effect power (to increase the power, the player must use the beacon's GUI).
+The five primary powers are: 
+
+Speed I: Increased movement speed.
+Haste I: Increased mining and attack speed.
+Resistance I: Decreased nearly all incoming damage (2-level pyramid required).
+Jump Boost I: Increased jumping distance and height (2-level pyramid required).
+Strength I: Increased melee damage (3-level pyramid required).
+The secondary powers only available with a 4-level pyramid are:
+
+Regeneration I: Regenerates health.
+Increasing the primary power to level II.
+Every 4 seconds, if the beacon beam is currently active, the selected powers are applied with a duration of 9 seconds, plus 2 seconds per pyramid level, to all players in range. Thus, when powers are changed or a player travels outside the area of effect, the powers persist for 5–9 seconds, or 13–17 seconds with a full pyramid.
+
+
+==== Range ====
+The effects of a beacon constitutes within a cuboid region, which reaches downward and out to each side at a range determined by the size of the pyramid base (see table below), and upward a distance of that range plus the current dimension's height limit (e.g. 319 in the Overworld).
+The effect duration from the beacon is also determined by the size of the pyramid base (Pyramid size × 2 + 9).
+The range of the beacon effect is limited by the simulation distance. As such, on simulation distance of 4 with a level 4 pyramid, the effect does not reach the chunks on the corners of the beacon range.
+The distance from the player to the beacon block does not affect the intensity of the status effect.
+Beacon pyramid effects in Java Edition:
+
+Beacon pyramid effects in Bedrock Edition:
+
+
+=== Light source ===
+Beacon blocks can function as light sources, emitting a light level 15. Like other light sources, they melt snow and ice. A beacon produces this light even when it doesn't emit a beam.
+
+
+=== Piston interactivity ===
+Beacons cannot be pushed nor pulled by pistons or sticky pistons.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A beacon has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Beacon" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+
+The texture of the beacon is 16×16 but renders only the 10×10 area in the center.
+It is possible to see the beacon beam on the bottom of an activated beacon.
+A fully powered beacon can fit within the upper level of the desert pyramid with the beacon’s beam perfectly being placed in the hole at the top.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== See also ==
+Conduit
+Wither
+
+
+== Navigation ==

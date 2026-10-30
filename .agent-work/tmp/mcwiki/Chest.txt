@@ -1,0 +1,190 @@
+A chest is a block used to store items.
+A large chest (or "double chest") is the combination of two adjacent chests, and can store twice as many items.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A chest can be broken using anything, but an axe is the fastest. Chests always drop themselves when mined. If the chest contains items, the items are also dropped when the chest is broken. If one half of a large chest is destroyed, the corresponding items from the destroyed chest (in Java Edition, the top three rows for the left-hand chest or the bottom three for the chest on the right; in Bedrock Edition, the top three for whichever half was placed first or the bottom three for whichever half was placed last) are dropped and the remaining half continues to function as a small chest.
+
+In Java Edition, a chest produces oak plank particles when breaking, walking or falling on this block; in Bedrock Edition, a chest produces particles of the block itself.
+
+
+=== Natural generation ===
+
+Chests generate naturally in all three dimensions. They can generate in monster rooms, strongholds, villages, jungle pyramids, desert pyramids, nether fortresses, end cities, igloo basements, woodland mansions, shipwrecks, ocean ruins, buried treasure, pillager outposts, bastion remnants, ruined portals, ancient cities, trial chambers and abandoned camps.
+Large chests can occasionally generate in monster rooms by one single chest generating next to the other. They can also generate in certain types of bastion remnants.
+
+
+==== Bonus chest ====
+
+The bonus chest is a chest that appears near the player's spawn if the "Bonus chest" option is toggled on the world creation screen. It generates with a semi-random collection of basic items to help the player survive early on and gather necessary resources, including wood, tools, blocks, and food.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Chests can be used as containers and are an ingredient in some crafting recipes.
+A chest placed adjacent to another chest joins to create a large chest. A player can prevent this, and place two small chests side by side, by sneaking while placing the second chest in Java Edition, pushing a chest into place with a piston in Bedrock Edition, or placing the second chest facing a different direction from the first chest. Alternatively, trapped chests do not combine with normal chests.
+In Bedrock Edition, chests can be moved by pistons. Water and lava flow around chests without affecting them. Lava can create fire in air blocks next to chests as if the chests were flammable, but the chests do not actually catch fire and cannot be burned.
+
+
+=== Container ===
+
+A small chest has 27 slots of inventory space, and a large chest has twice that amount, at 54 slots. In the Java Edition interface, the top three rows for a large chest correspond to the left half of the chest when facing it, and the bottom three rows correspond to the right half. In Bedrock Edition, the top three rows correspond to whichever half was placed first and the bottom three to the other half.
+Chests open when used. To move items between the chest inventory and the player inventory or hotbar while the chest GUI is open, the player can drag or shift-click the items. In Java Edition, holding ⇧ Shift and double-clicking while holding an item moves all items of the type clicked on in or out of the chest, to the extent that space is available for them. To exit the chest GUI, the ⎋ Escape control can be used.
+A chest cannot be opened if there is a conductive block above it. Solid faces do not prevent chests from opening, so the lid of the chest can phase through blocks such as bottom-half slabs,‌[Java Edition  only] stairs, and non-conductive full cubes such as glass and ice. In Bedrock Edition, bottom slabs prevent chests from being opened. Cats sitting on chests prevent them from opening. Because chests themselves are non-conductive, two chests can be stacked on top of one another while still allowing the lower chest to be opened. Players can open chests when they are being hurt (effect of Instant Damage, Poison, Wither, on fire, damaged by other players or mobs, etc.).
+By default, the GUI of a chest is labeled "Chest" and the GUI of a large chest is labeled "Large Chest". A chest's GUI label can be changed by naming the chest in an anvil before placing it, or, in Java Edition, by using the /data command (for example, to label a chest at (0,64,0) as "Bonus Chest!", use /data modify block 0 64 0 CustomName set value "Bonus Chest!"). If half of a large chest is renamed, that name is used to label the GUI of the entire large chest, but if the named half is destroyed the other half reverts to the default label. If both halves of a large chest have different names, the GUI uses the name of the northernmost or westernmost half.
+In Java Edition, a chest can be "locked" by setting its [NBT Compound / JSON Object] lock tag using the /data command. If a chest's [NBT Compound / JSON Object] lock tag is not blank, the chest cannot be opened unless the player is holding an item that matches the item predicate in the lock tag. For example, to lock a chest at (0,64,0) so that the chest cannot be opened unless the player is holding an item named "Chest Key", use /data modify block 0 64 0 lock set value {components:{"minecraft:custom_name":"Chest Key"}}.
+The capacity of a chest varies greatly, depending on its size, whether the items inside it are stackable, and whether shulker boxes are used. The minimum capacity is obtained when storing only non-stackable items while the maximum capacity can be achieved when storing items that stack to 64. Filled shulker boxes are not stackable, but each can hold 27 stacks of up to 64 items (excluding other shulker boxes), so filling a chest with them increases the maximum by a factor of 27.
+
+
+=== Donkey, mule, or llama pack ===
+A chest can be added to a donkey, a mule, or a llama by pressing use on the animal.
+A chest attached to a donkey or mule has only 15 slots. A chest attached to a llama has anywhere from 3 to 15 slots depending on its "Strength" value (see Llama § Data values). The chest cannot be removed except by killing the carrier. The chest can be opened by holding sneak and pressing use, or by riding the carrier and pressing inventory.
+If shulker boxes are again used, each donkey, mule or strength value 5 llamas with a chest attached to it can carry up to 405 stacks of items (up to 25920 items), and with strength value 5 llamas, each caravan of 10 llamas with inventories full of shulker boxes can carry up to 4050 stacks of items (up to 259200 items).
+
+
+=== Copper golems ===
+Copper golems can sort items into chests. If a copper golem is holding an item, it visits the nearest chest within 32 blocks horizontally and 8 blocks vertically to try to place the item in. It takes 3 seconds to stop at each chest it visits.
+A copper golem places the item it is holding either if the chest is empty, or if the chest contains the same type of item. In Java Edition, a copper golem cannot distinguish between different potion contents or suspicious stew types, but it can in Bedrock Edition. In both editions, a copper golem ignores durability, enchantments, shulker box contents, custom names, or any other data.
+If it cannot place the item in, the copper golem moves on to the nearest chest it hasn't visited. The copper golem can remember up to 10 chests it has visited. If it has already visited 10 chests and still cannot place the item, it wanders around for 7 seconds, forgets which chests it has visited, and continues searching for a chest to place the item in.
+If the chest a copper golem is walking towards can no longer be opened (e.g. a chest has a cat sitting on it) or is destroyed, the copper golem marks the position as visited and move on. This occupies one of their 10-chest memory.
+Copper golems do not simultaneously open a chest that another non-player entity is already interacting with.
+
+
+=== Piglins ===
+Piglins become hostile toward players who open or mine chests.
+
+
+=== Crafting ingredient ===
+
+
+=== Fuel ===
+Chests can be used as fuel in furnaces, smelting 1.5 items per chest.
+
+
+== Christmas chest ==
+
+From December 24 to 26, chests, large chests, and their trapped chest counterparts have their textures changed to "Christmas chests", which look like wrapped Christmas presents. Since the game uses the date stored on the player's computer, players can apply the Christmas chest textures at any time by changing the date on their computer to December 24, 25, or 26.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A chest has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+For a more in-depth breakdown of changes to textures and models, including a set of renders for each state combination, see /Asset history
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Chest" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The chest recipe is not unlocked by any specific item, but rather, having enough slots in the inventory occupied by any item.
+In Pocket Edition, a player who leaves the game while standing on a chest rejoins the game with legs inside the chest.
+If the tick speed is set to "freeze" through /tick, the chest does not show opening or closing animations but it still makes sounds.
+In Java Edition, when in Creative mode, if pick block + ctrl is used on a naturally generated loot chest (or by modifying the data of a normal chest using /data), instead of displaying the first few items inside like a shulker box, it will just display "???????" due to the loot not being generated yet. Placing the chest and opening it will result in a different loot table every time. The same thing also happens with barrels and shulker boxes.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Trapped chest, a variant of the chest that interacts with redstone
+Copper chest, a variant of the chest that interacts with copper golems
+Locked chest, a joke block from an April Fools' Day joke
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Chest"     by Duncan Geere  – Minecraft.net, July 28, 2017.
+
+
+== Navigation ==

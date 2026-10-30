@@ -1,0 +1,124 @@
+A conduit is a block that can be placed underwater and surrounded by prismarine to activate it. Once active, it empowers nearby players touching water or rain, prevents them from drowning, and attacks wet monsters.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A conduit drops as an item when broken with any tool or by hand, but a pickaxe is the fastest way to break it.
+Like other rare blocks such as beacons and shulker boxes, it always drops when destroyed by an explosion.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Conduit Power ===
+
+When activated, conduits give the "Conduit Power" effect to all players in contact with rain or water, within a spherical range of 32-96 blocks. The effect has the same benefits as Water Breathing, Night Vision, and Haste, but does not stack with them. The effect is "ambient", which means that the effect in the HUD has a blue border, similar to effects from beacons. Fully-constructed conduits also damage any hostile mobs, like drowned, guardians, and elder guardians, within a range of 8 blocks of the conduit. Conduits can be activated in any biome and at any height or depth.
+To activate, a conduit needs to be in the center of a 3×3×3 volume of water (26 source blocks, flowing water, and/or waterlogged blocks, with the conduit also waterlogged in the center), which must be enclosed within an activation frame. The frame can be built out of blocks in three 5×5 open squares centered on the conduit, one around each axis. Only prismarine, dark prismarine, prismarine bricks, and sea lantern blocks in the frame contribute to activation. A minimum of 16 blocks are required and produce an effective range of 32 blocks. Prismarine-type slabs (including double slabs), stairs, and walls cannot be used to activate the conduit. Any blocks (of any type) that are not part of the activation frame itself but are in the 5×5×5 outer shell likewise have no effect. Once activated, removing any blocks from the conduit (frame blocks) deactivates the conduit.
+The effective radius of the conduit is 16 blocks for every seven blocks in the frame, though the effect does not activate until the minimum of 16 blocks is included in the build. Thus, it extends to 48 at 21 blocks, 64 at 28 blocks, 80 at 35 blocks, and 96 with a complete frame of 42 blocks. When the frame is complete, the center of the conduit displays an orange iris-like shape.
+
+
+=== Attacking mobs ===
+A complete frame also attacks hostile mob within 8 blocks, dealing 4HP magic damage every 2 seconds if they are in contact with water or rain.
+Conduits attack only one mob at a time, moving on to the next once the current target dies or leaves range.
+Creaking mobs will be targeted but can't be damaged, blocking conduits from targeting other monsters that night or until the creaking moves out of range.
+Monsters that are attacked by the conduit:
+
+
+=== Light source ===
+Conduits emit a light level of 15, the brightest light level in the game, whether activated or not, and even on land.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+
+=== Block data ===
+A conduit has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Conduit" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When it is activated, the conduit displays the heart of the sea's texture in the center of its model. However, when all 42 blocks have been placed (when the conduit is fully activated) the heart opens like an orange eye.
+The achievement obtained by activating a conduit refers to the system of whirlpools in Nordland county, Norway.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+==== In other media ====
+
+
+== Notes ==
+
+
+== See also ==
+Beacon
+
+
+== External links ==
+Taking Inventory: Conduit – Minecraft.net on April 30, 2020
+
+
+== Navigation ==

@@ -1,0 +1,227 @@
+Skeletons are common undead hostile mobs that perform ranged attacks with a bow, shooting arrows from a distance. They are most commonly found in the Overworld at night or in dark locations, but also spawn in the Nether in soul sand valleys, and occasionally in Nether fortresses. They are an important source of bones and arrows, which they drop upon death.
+
+
+== Spawning ==
+Skeletons may naturally spawn in the Overworld in groups of 4‌[Java Edition  only] or 1-2‌[Bedrock Edition  only] above solid blocks at a light level of 0, except in mushroom fields, the deep dark, and trial chambers; they may continue to spawn in these places through other means like spawner blocks.
+
+
+=== Spider jockeys ===
+Spiders and cave spiders‌[BE  only] have a 1% chance to spawn with a skeleton riding them, creating a spider jockey.
+
+
+=== Skeleton horse traps during thunderstorms ===
+
+Four skeleton horsemen spawn when a skeleton horse trap is triggered, typically during a thunderstorm. The skeletons ride on skeleton horses and are equipped with enchanted bows and iron helmets. In Java Edition, they have damage immunity for 3 seconds after spawning.
+
+
+=== In the Nether ===
+Skeletons spawn commonly in soul sand valley biomes in groups of 4‌[JE  only] or 1–2‌[BE  only]. However, due to the spawn cost system, skeletons have a lower population density in soul sand valleys than zombified piglins have in Nether wastes (i.e. there are much fewer skeletons in a given area).
+In Nether fortresses, there is a 20% chance that a skeleton spawns in place of a wither skeleton.
+Skeletons in the Nether spawn at the light level of 7 and below.
+
+
+=== Monster spawners ===
+Skeletons spawn from 25% of the monster spawners found in monster rooms.
+
+
+=== Trial spawners ===
+Regular skeletons have a 1⁄3 chance to be selected as the "ranged" mob for trial spawners in trial chambers.
+
+
+=== Variants ===
+Many skeletons are also replaced by their variants: strays in snowy biomes, parched in desert biomes, bogged in swamp and mangrove swamp biomes, and wither skeletons in Nether fortress structures in the Nether.
+In Bedrock Edition, spider jockeys are also affected by this.
+
+
+== Drops ==
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+A skeleton always drops any equipment it picked up. A skeleton also has a random chance to drop each piece of naturally spawned equipment, including its bow, if it is killed by a player or tamed wolf. The chance to drop a naturally spawned piece of equipment is 8.5% without Looting, 9.5% with Looting I, 10.5% with Looting II, and 11.5% with Looting III.
+Skeletons drop 5XP experience points when killed by a player or tamed wolf, and an additional 1–3XP for each piece of naturally spawned equipment, including their bow. The random amount dropped by each piece is independent of the amounts dropped by the other pieces.
+
+
+== Behavior ==
+Skeletons chase players, baby turtles, and iron golems they see within 16 blocks, climbing stairs or ladders, navigating mazes and traversing other complex obstacles to get within shooting range. Despite being associated to iron golems, villagers and wandering traders are ignored by skeletons. However, a skeleton can retaliate if a firework rocket set by a villager hits it.
+When within 15 blocks of a target, with a clear line of sight, a skeleton starts shooting arrows, once every 3 seconds on Easy and Normal difficulties or once every 2 seconds on Hard difficulty. If the player leaves the 15-block radius, skeletons wait for some seconds with the bow charged, shooting the moment the player comes within range again. Their detection range is reduced by 50% if a skeleton skull is worn by the player. This stacks with sneaking and the Invisibility effect.
+
+The skeleton's accuracy is based on the world difficulty. Skeletons have an "error" of 10 on Easy, 6 on Normal and 2 on Hard. This is compared to the player's lack of accuracy of 1. To account for gravity, skeletons aim 0.2 blocks higher for every horizontal block of range to the target.
+Skeletons have infinite durability on their bows, and can shoot an infinite amount of arrows. Arrows shot by skeletons cannot be picked up from the ground.
+Skeleton behavior varies between the game editions:
+Java Edition
+
+Strafe in circular patterns to dodge attacks and retreat to a safe range if the player comes within 4 blocks. They can walk off cliffs while strafing.
+Sprint toward the player if they are 14 blocks away or farther.
+Use bows even underwater. The water slows down the arrows.
+Animates its bow while attacking.
+Bedrock Edition
+
+Skeletons typically stop moving to shoot, making no attempt to avoid being hit.
+An underwater skeleton uses a melee attack because it is unable to use a bow underwater.
+In most cases, if a skeleton's arrow hits a neutral or hostile mob that has not yet been attacked by the player, the mob attacks the skeleton. When a skeleton is attacked by another mob (including another skeleton), it attacks that mob, reorienting on the player once the mob is dead. Skeletons flee from wolves. A skeleton runs from a chasing wolf until the wolf deals damage, after which the skeleton turns to shoot at the wolf that successfully attacked it.
+
+Skeletons sink in water and cannot swim, but do not drown.
+If a skeleton is inside of powder snow for 7 seconds (140 game ticks), it begins shaking. After another 15 seconds (300 game ticks), it converts into a stray. A newly-converted stray always has full health even if converted from a damaged skeleton. The converted stray keeps any items worn or held when it was a skeleton. Only skeletons can become strays; bogged, parched, or wither skeletons cannot be converted. The process is similar to when a husk turns into a zombie or when a zombie turns into a drowned if it stays underwater for too long.  
+
+If spawned with a weapon other than a bow or no weapon at all (which can be spawned with commands such as /summon skeleton ~ ~ ~ {equipment:{mainhand:{id:"iron_sword",count:1}}}, or /summon skeleton ~ ~ ~ {}), or it picks up a weapon other than a bow, a skeleton charges at a player with arms outstretched and deals damage by touch, similar to a wither skeleton.
+A skeleton holding a tipped arrow or spectral arrow‌[Java Edition  only] in its off-hand always shoots that type of arrow, and the arrow held is not consumed.
+If a skeleton kills a creeper, the creeper drops a music disc, randomly selected from 13, cat, blocks, chirp, far, mall, mellohi, stal, strad, ward, 11, and wait.
+
+
+=== Sunlight ===
+
+When the moon can no longer be seen (Dawn) and the sun is above 15°, skeletons can burn. Burning is suppressed when the skeleton is:
+
+in a place with a non-air block directly over it. In Java Edition, the roof must be a light-blocking block.
+in a sufficiently shaded area: a sunlight level of 11 or less.
+in water. A skeleton pathfinds to water if it is not wearing head armor and not already in water.
+wearing head armor. Helmets have a 50% chance to lose 1 durability for every tick where the skeleton would normally be set on fire.
+under the status effect of Fire Resistance.
+standing in cobwebs.
+Transparent and translucent blocks, including glass and ice, do not prevent them from burning.‌[JE  only]
+Unlike zombies, skeletons seek out shelter during the day, and remain under it while attacking.
+
+
+=== Mob type ===
+Being an undead mob, they are: 
+
+Damaged by the status effect Instant Health and healed by the status effect Instant Damage.
+Unaffected by the status effects Regeneration and Poison.
+Ignored by the wither.
+Affected by the Smite enchantment.
+A threat to armadillos, causing them to hide in their shell.
+
+
+=== Geared skeletons ===
+
+Skeletons spawn already armed with bows, which may be enchanted. The chances of that event are listed below. If a skeleton spawns wearing multiple pieces of armor, the armor is never mismatched (all pieces are made of the same material) except if it is spawned as part of a skeleton trap, in which case only the iron helmet may not match the rest of the armor.
+In Java Edition on Halloween, skeletons may spawn wearing a carved pumpkin or jack o'lantern on their head. They do not drop this, even when killed with Looting.
+
+If a skeleton does spawn with armor, the chances of specific armor are as follows:
+
+If a skeleton does spawn with an armor, the order in which they receive armor pieces is as follows (from most likely to least likely): helmet; helmet and chestplate; helmet, chestplate and leggings; full set.
+The chances of it being of a particular material are:
+
+In Java Edition, a skeleton's armor does not lose durability upon taking damage. Helmets (not blocks like carved pumpkins) on skeletons can break if the skeleton is exposed to daylight. In Bedrock Edition, any armor piece is damaged as if the player is wearing it.[verify]
+Any skeleton that spawns with equipment (picked-up items do not count) gives 1–3 extra experience points per item.
+
+
+==== Picking up items ====
+
+Some skeletons spawn with the ability to pick up dropped items from the ground. Unlike zombies, however, they pick up only weapons, shields, and armor. In Java Edition, skeletons pick up items that they happen to walk near. In Bedrock Edition, they actively search for and walk toward dropped items.
+If the picked up item is a weapon (other than a bow), the skeleton uses the item as a melee weapon. Skeletons do not pick up spears under any circumstances. In Java Edition, skeletons prefer bows over other weapons, and do not pick up other weapons while wielding a bow. In Bedrock Edition, the only weapon a skeleton will swap its held bow for is a sword. When picking up weapons, skeletons prefer ones that deal more damage without considering enchantments. They also prefer weapons with NBT data over those without, and weapons that are less damaged.
+If the picked up item is a shield, the skeleton equips the shield into their offhand. It cannot use the shield to block incoming attacks, however.
+If the picked up item is armor, a carved pumpkin or a head, the skeleton equips itself with the item. Skeletons prefer armor that give more armor points, and will replace their current armor with it. Skeletons pick up cosmetic wearables (heads and carved pumpkins) as long as they aren't wearing a helmet, and will replace the cosmetic wearable if they find a helmet.
+If a skeleton has equipment and picks up something they prefer more, the skeleton drops the old equipment, with the same chance as if killed with Looting I[verify], in favor of the new one.
+A skeleton equipped with a picked-up item becomes persistent and does not despawn, similar to being named.
+If multiple viable items exist, the skeleton endlessly picks up and drops the items.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Skeletons have entity data associated with them that contains various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Historical sounds ===
+
+
+=== Data history ===
+
+
+=== Historical screenshots ===
+
+
+== Issues ==
+Issues relating to "Skeleton" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+If alerted to a player's presence, a skeleton can fire arrows backward, occasionally hitting themselves.
+The AI of skeletons in Bedrock Edition is a mix of skeleton AI from Java Edition between versions 1.5 and 1.8.9 and the skeletons in Update Aquatic. They shoot faster when on land and they target underwater, causing enough knockback to make combat difficult. Additionally, they do not strafe left to right. Skeletons also use ranged attacks on land and switch to melee attacks when sinking underwater.
+If a skeleton has a sword or any other melee item, generally with commands, its AI resembles the wither skeleton's AI.
+In Bedrock Edition, skeletons do not animate their bow.
+C418 used bamboo wind chime sounds as a base for the skeleton sounds.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Poses ====
+
+
+==== Armored ====
+
+
+=== Screenshots ===
+
+
+=== Mojang images ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+==== Merchandise ====
+
+
+==== Other appearances ====
+
+
+== References ==
+
+
+== Navigation ==

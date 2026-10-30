@@ -1,0 +1,175 @@
+An axe is a tiered tool that can quickly break wood and plant blocks, and a melee weapon with high attack damage but low attack speed.‌[JE  only] It has the special ability to perform crushing blows, which disable the use of a target's shield.
+
+
+== Variants ==
+There are seven axe variants:
+
+Wooden Axe
+Golden Axe
+Stone Axe
+Copper Axe
+Iron Axe
+Diamond Axe
+Netherite Axe
+
+
+== Obtaining ==
+Wooden, golden, stone, copper, iron, and diamond axes are crafted using 2 sticks and 3 identical units of tool material.
+
+
+=== Crafting ===
+
+
+=== Smithing ===
+
+
+=== Generated loot ===
+
+
+=== Villager gifts ===
+
+Toolsmith villagers occasionally throw stone axes at players with the Hero of the Village status effect.
+Weaponsmith villagers occasionally throw either stone, gold, or iron axes at players with the Hero of the Village status effect.
+
+
+== Usage ==
+
+
+=== Breaking ===
+An axe is used to break logs, blocks derived from wood and some other blocks faster than by using other tools. An axe uses 1 durability to break 1 block. For blocks that break instantly, it uses 0 durability.
+
+
+==== Speed ====
+The following table summarizes the speed at which axes of different qualities perform.
+
+
+=== Attacking ===
+Pressing attack while holding an axe inflicts damage on both mobs and other players. Upon damaging a mob or player, the axe's durability decreases by 2.
+Attacking a boat or a minecart with any axe tier instantly destroys it,‌[Java Edition  only] without decreasing the axe's durability.
+
+
+==== Crushing blow ====
+
+Axes have the special ability to do crushing blows, which disable the use of the target's shield for 5 seconds. Crushing blows are triggered only against targets that are actively holding their shield up.
+Crushing blows affect all of the target's shields, rather than affecting only the one that was being used. Crushing blows do not trigger against targets whose shields are not yet past their 250ms activation delay. Crushing blows are triggered regardless of attack cooldown percentage and, unlike sweep attacks, they can be triggered at the same time as critical hits and sprint-knockback attacks.
+Crushing blows work by inflicting a 5 second use cooldown. When a shield is stunned, it cannot be used by right clicking‌[Java Edition  only] or sneaking‌[Bedrock Edition  only]. Performing a crushing blow does not consume durability from the axe, in the same way that other attacks do not consume durability when they're blocked by a shield.
+In Java Edition, a player whose shield is stunned becomes immune to knockback for several ticks.
+Mobs that wield axes, such as vindicators or piglin brutes, perform crushing blows should they hit a player's shield. The melee attack of a warden also performs a crushing blow should it connect against a player's shield.
+In the Java Edition Combat Tests, the stun duration from crushing blows is lengthened by the Cleaving enchantment, at an additional 0.5 seconds per level with a maximum level of III.
+
+
+=== Statistics ===
+
+
+==== Java Edition ====
+In Java Edition, wooden, stone, and copper axes have an attack speed of 0.8 (1.25 seconds), iron axes have an attack speed of 0.9 (1.111 seconds), and golden, diamond, and netherite axes have an attack speed of 1 (1 second). They have the following statistics:
+
+
+==== Bedrock Edition ====
+In Bedrock Edition, axes have no attack cooldown, and have the following statistics:
+
+
+=== Stripping and scraping ===
+Using an axe on a log, wood, or a block of bamboo causes it to become stripped, creating a stripped log, stripped wood, or a stripped block of bamboo. This is also true for stems and hyphae found in the Nether.
+Axes can also be used to scrape wax and oxidation off of copper blocks and golems and to turn copper golem statues into copper golems.
+Both stripping and scraping consume one point of durability.
+In Java Edition, if the player is holding a shield in their off-hand and attempts to strip/scrape a block with an axe, they will block using the shield instead of stripping or scraping. If the player sneaks, they are able to use the axe as normal.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+An axe can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the axe's maximum durability, rounded down. Two axes of the same tier can also be combined in an anvil. Both methods preserve the axe's enchantments, unlike by crafting to repair.
+
+
+=== Enchantments ===
+An axe can receive the following enchantments:
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+== Issues ==
+Issues relating to "Axe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Before Java Edition 1.13, in the language files, axes were referred to as Hatchets.
+Weaponsmith villagers gifting stone, iron and golden axes is a reference to the story The Honest Woodcutter, where a woodcutter dropped his axe into a river, and is successively provided a silver and a golden axe by the river god.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Super Duper Graphics Pack ====
+
+
+=== Other ===
+
+
+== See also ==
+Pickaxe
+Sword
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Axe"     by Duncan Geere  – Minecraft.net, February 6, 2020.
+
+
+== Navigation ==

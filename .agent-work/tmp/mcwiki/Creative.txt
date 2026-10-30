@@ -1,0 +1,134 @@
+Creative mode is one of the main game modes in Minecraft. Creative mode strips away the survival aspects of Minecraft and allows players to easily create and destroy structures and mechanisms with the inclusion of an infinite use of blocks and flying. In Bedrock Edition, it disables the player's ability to earn achievements. It also has unique background music.
+
+
+== Gameplay ==
+
+
+=== Destroying ===
+Creative mode allows players to destroy all blocks instantly (including normally indestructible blocks such as bedrock, end portal frames, etc.), provided they are not holding a sword, trident, mace, debug stick‌[JE  only], or spear.
+When continuously holding destroy to break blocks in Creative mode, there is a 6 game tick (0.3 second) cooldown between each block broken. This is distinct from instant mining in Survival mode, where one block can be broken every game tick (0.05 second). This cooldown can be bypassed by rapidly clicking the destroy button, allowing blocks to be broken as quickly as the player clicks.
+Blocks directly broken by the player do not drop any resource; the only exceptions are shulker boxes and beehives if they have non-default NBT data which drop themselves when broken, and containers (excluding shulker boxes) will drop their contents when broken. Blocks broken indirectly (for example, a torch attached to the block that is being broken, or blocks destroyed by an explosion) drop item resources as in other game modes. Infested blocks do not spawn silverfish when destroyed directly by the player.
+
+
+==== Interaction range ====
+
+Players in Creative have a longer interaction range (reach) for placing, destroying, and attacking than in Survival.
+
+
+=== Flying ===
+
+Creative mode gives players the ability to fly. To activate flying, double tap the jump key. Use the jump key to go up and the sneak key to go down, and the movement controls to move. The player can disable flying in mid-air by double-tapping jump again or sneak (on touch devices only), causing them to drop to the ground. Touching the ground when flying disables flying in Java Edition, but not in Bedrock Edition. Getting into a minecart or bed does not disable flying. However, getting into a boat or riding a mob such as pig, llama, horse, donkey, mule, skeleton horse, strider, trader llama, or camel disables flying.
+
+
+=== Invincibility ===
+In Creative mode, players have no visible health or hunger bar to hamper their building since they are invincible (though it is still possible to eat).
+Players in Creative mode are unable to receive damage from the vast majority of sources. In Java Edition, going too far into the void still kills the player; however, in Bedrock Edition, the player is also immune to this (they are stopped by an invisible barrier that exists in all three dimensions). The player can fly around in the void provided they do not descend more than 64 blocks below the bottom of the dimension. In Java Edition, the void, the /kill and /damage commands, external editors, and instant health potions with an amplifier of 29 are the only way to die in Creative mode. Creative players in Bedrock Edition are completely invulnerable.
+
+
+=== Mobs ===
+Mobs still spawn as they do in other game modes, unless the difficulty is Peaceful or when the game rule doMobSpawning is set to false, but all are passive toward the players and even sometimes afraid. Zombies summoned by others calling for backup attempt to attack the player, but they still cause no harm, and they stop attacking after several seconds. The player can still ignite creepers with a flint and steel or fire charge. Mobs killed by the player in Creative still drop items, but most other entities do not.
+
+
+=== Items ===
+Some items behave differently in Creative mode. Items do not disappear or lose durability when used. For example, putting an item in an item frame, on an armor stand, or in a decorated pot does not cause it to disappear from the player's hand. Instead, the item is duplicated. It is the same for putting on armor by right-clicking it from the player's hotbar.‌[Java Edition  only] Also, empty buckets simply make liquids disappear, similarly to the other liquid filled buckets, which don't lose water and can be placed infinitely.
+Item entities can be picked up by the player, but if the hotbar is already full, the items go into the Survival inventory. If the survival inventory is full as well, the items are deleted even though they appear to be picked up.
+
+
+=== Pick block ===
+The player can obtain items using pick block. Unlike Survival, the block selected appears in the player's hotbar even if the block is not already in the hotbar or in the Survival inventory. If it is in the inventory, then the block moves out of its former slot and replaces the block/item in the active hotbar slot, with the size of the stack preserved. If the hotbar is full then the selected block replaces the block/item in the active slot.
+Most blocks give the player a copy of themselves when using pick block. Using it on an item frame gives the player the item held inside, or the item frame itself if no item is held. Using it on a mob gives the player a spawn egg of that mob. Using it on a mob head gives the mob type that it is; using it on custom heads gives only the mob type that was used in the command, but without the custom skin.
+If the player holds ⎈ Control and presses pick block, in addition to obtaining the item, it also preserves the block's NBT tags, allowing the player to place an identical copy of the block; this allows the player to duplicate items inside of chests, dispensers, and so on, and also duplicates the text on signs.
+
+
+=== Switching to Creative mode ===
+Once a world is created, if cheats are enabled, the game mode can be manually changed to Creative (or other game modes) with the /gamemode command, specifically by typing /gamemode creative. In Java Edition, the game mode switcher (F3 + F4) can also be used. In multiplayer, players can be individually changed between game modes with the /gamemode command available to operators. This means that individual players can play Creative mode (at the operator's discretion) on a Survival map, or vice-versa. The default game mode for new players can also be changed with the /defaultgamemode command.
+
+
+=== Achievements ===
+
+In Bedrock Edition, opening a new Creative world or opening an existing world in Creative permanently disables achievements or trophies for that particular game, but has no other effects on gameplay. In other words, achievements/trophies work only in games that have never been in Creative.
+
+
+== Creative inventory ==
+
+In Creative, the normal inventory screen is replaced by the item selection screen, which contains almost all blocks and items (with some exceptions) in a tabbed interface. Some items and blocks are exclusively available only in Creative mode, such as spawn eggs. Likewise, some blocks can be placed or used only in Creative with operator permission, such as command blocks and structure blocks. In Java Edition, items currently in the hotbar can be saved to later be loaded in the "Saved Hotbars" menu.
+
+
+=== Java Edition ===
+In Java Edition, there are 13 (14 if Operator Utilities tab is enabled in settings) tabs that are ordered from top-left to bottom-right as: 
+
+Building Blocks
+Colored Blocks
+Natural Blocks
+Functional Blocks
+Redstone Blocks
+Saved Hotbars
+Search Items
+Tools & Utilities
+Combat
+Food & Drinks
+Ingredients
+Spawn Eggs
+Operator Utilities (Needs to be enabled in settings)
+Survival Inventory
+In Java Edition, there is a "destroy item" button, where items can be dragged to and deleted. ⇧ Shift + clicking on the button clears the entire inventory, including the hotbar, off-hand slot, and armor slots.
+
+
+=== Bedrock Edition ===
+In Bedrock Edition, there are 5 tabs:
+
+Construction
+Equipment
+Items
+Nature
+All
+When using the "Classic" UI profile, the buttons in the top right corner can toggle the inventory screen to show:
+
+only the Creative inventory
+both the Creative and the Survival inventory
+only the Survival inventory
+When using the "Pocket" UI profile, it is not possible to display both the Creative and the Survival inventory at the same time; the Creative inventory, however, can be shrunk to also display the 2×2 crafting grid or the equipment slots using the tabs on the right side of the screen.
+
+
+=== Platform specific exclusive features ===
+Some blocks and items are obtainable in Creative on one platform, but not the other. The full list of blocks and items obtainable only in the Java Edition Creative Inventory can be found in Java Edition exclusive features#Creative inventory. Bedrock Edition exclusive Creative Inventory blocks and items can be found in Bedrock Edition exclusive features#Creative inventory.
+
+
+== Representation in level.dat ==
+
+Creative mode is represented as 1 in GameType in the level.dat file; to manually change the GameType, the file must first be opened with an external NBT editor.
+Note: Singleplayer worlds do not use this field to save the game mode the player is currently in.
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Creative" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

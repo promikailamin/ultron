@@ -1,0 +1,90 @@
+A barrier is an invisible block used to create solid boundaries.
+
+
+== Obtaining ==
+Barriers cannot be obtained in the creative mode inventory and are only obtainable via commands such as /give, /item in Java Edition, and /replaceitem and /give in Bedrock Edition and cannot be broken in Survival mode.
+In Java Edition, barriers are available in the Creative inventory if cheats are enabled and the "Operator Items Tab" setting is turned on.
+
+
+=== Natural generation ===
+In normal worlds, barriers do not generate naturally. In Java Edition, they generate as the floor in debug mode worlds.
+
+
+== Usage ==
+
+Barrier blocks are mainly used to build an impenetrable barrier that cannot be broken in standard Survival mode. For example, they can be used to protect a reserved area from entry by players, mobs, and other entities. Unlike other kinds of unbreakable blocks that could be used for this purpose (such as bedrock), barrier blocks are unobtrusive because they are invisible. Barrier blocks cannot be destroyed by TNT, creeper explosions, or any other explosions. Furthermore, they have a greater amount of blast resistance than any other unbreakable block.
+Unlike other operator blocks such as command blocks, barriers can be placed by players in Survival mode.
+In the player's inventory, the block is displayed as a red box with a slash through it, but when placed it is completely invisible.
+Barriers are transparent to light and do not block beacons. Fences, iron bars, glass panes, and similar blocks do not visually connect with barriers. Barriers interact with blocks and mobs as a solid block. All dependent blocks can be placed on a barrier, such as torches or redstone, and it can suffocate mobs. Mobs cannot spawn on barriers.
+In Creative mode, if a player is holding a barrier block in their hand, all placed barrier blocks display the barrier icon as a particle. This effect is client-side, and if a player holds a barrier block in Survival mode, the particle does not appear. In Java Edition, barriers take a few seconds to appear and disappear when holding a barrier. In Bedrock Edition, it disappears instantly. Barrier blocks are not shown if the particle setting is set to "minimal". 
+
+
+=== Waterlogging ===
+Barrier blocks can be waterlogged by being placed into a water source block or by manually using a water bucket on them. In Java Edition, water cannot be placed in them or taken out by non-direct interactions such as dispensers; this is allowed in Bedrock Edition. In Java Edition, only players in Creative mode can waterlog or remove water from barriers, while in Bedrock Edition there are no game mode restrictions. In Java Edition, water does not flow out of waterlogged barriers. See waterlogging for more details on what blocks can be waterlogged.
+
+
+=== Piston interactivity ===
+Barriers cannot be pushed by pistons. They also cannot be pushed nor pulled by sticky pistons.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+
+== History ==
+
+
+=== Tweet ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Barrier" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The symbol used is not compliant with ISO 3864-1, as the diagonal line is mirrored.
+The barrier's vanilla block model defines only what texture to use for block breaking particles, and it does not have a parent model or anything that would give the block a physical shape.
+Barriers are hardcoded to not render any block model.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+== References ==
+
+
+== Navigation ==

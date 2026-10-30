@@ -1,0 +1,109 @@
+A bookshelf is a block that improves enchantments applied with an enchanting table when placed around one, up to a maximum of fifteen bookshelves, at the expense of level requirement.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Bookshelves can be mined by hand, but are broken faster with an axe. In either case, they drop 3 books when broken, allowing the reconstruction of the bookshelf with the addition of six wood planks. When broken by a tool enchanted with Silk Touch, a bookshelf drops itself.
+
+
+=== Natural generation ===
+Bookshelves can generate in village libraries and sometimes village houses.
+Strongholds may contain up to two libraries, each of which may be single-level or have an upper balcony. These feature some bookshelves arranged in pillars, and more bookshelves arranged in pillars in the walls. Single-level libraries contain 161 bookshelves, while libraries with balconies contain 233.
+Bookshelves also naturally generate in certain woodland mansion rooms. Various rooms can have between 1-24 bookshelves, while the "large library" room contains 180.
+
+
+=== Crafting ===
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Enchanting ===
+
+If an enchanting table is placed near a bookshelf, glyph particles fly from the bookshelf toward the enchanting table. Having bookshelves in the proper position near the table allows the table to apply higher-level enchantments.
+Fifteen bookshelves need to be near an enchanting table to gain the maximum of level 30 enchantments.
+
+
+=== Crafting ingredient ===
+
+
+=== Fuel ===
+Bookshelves can be used as a fuel in furnaces, smelting 1.5 items per block.
+
+
+=== Villager ===
+Librarian villagers can interact with bookshelves.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Teaser ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Bookshelf" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Bookshelves' top and bottom textures by default use the same texture as oak planks.
+A bookshelf is the icon for Minecraft Education.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== See also ==
+Shelf
+Chiseled Bookshelf
+
+
+== External links ==
+Block of the Week: Bookshelf – Minecraft.net on December 16, 2016
+
+
+== Navigation ==

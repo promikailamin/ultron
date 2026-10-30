@@ -1,0 +1,256 @@
+A biome is a region in a world with distinct geographical features, plants, mobs, temperatures, humidity levels, colors, and more. Biomes separate every generated world into different environments, such as forests, deserts, and oceans.
+The biome of a location is determined during world generation rather than by the current environment, even if all blocks in a large area are altered to imitate the terrain of other biomes.
+Existing biomes can be located with the /locate biome command. The /fillbiome command in Java Edition, or the "Biome Data Assignment" tool in Bedrock Editor can be used to change the biome in a selected area.
+
+
+== List of biomes ==
+
+
+=== Biome types ===
+In Java Edition, there are 67 different biome types: 56 for the Overworld, 5 for the Nether, and 5 for the End, plus one used only for a superflat preset. In Bedrock Edition, there are 89 biome types: 56 for the Overworld, 5 for the Nether, 1 for the End, and 27 unused.
+
+
+=== Overworld ===
+For convenience, on this page, the biomes in the Overworld are divided into 8 non-official categories.
+
+
+==== Offshore biomes ====
+These biomes are used for the generation of oceans and mushroom fields. They are large, open biomes made almost entirely of water going up to Y=63, with underwater relief on the sea floor, such as small mountains and plains, usually including gravel, dirt, and sand. Squid, fish and nautilus spawn frequently in the water, and dolphins spawn in non-frozen oceans. Regular hostile mobs can spawn at rare dry grounds, while drowned and sometimes zombie nautilus jockeys spawn underwater. Shipwrecks and underwater ruined portals are found in all ocean biomes, and ocean ruins may spawn with stone bricks in regular and colder oceans, or sandstone in lukewarm oceans.
+
+
+==== Highland biomes ====
+
+Highland biomes are biomes with a higher Y-level. Rugged terrain and snow-covered peaks appear above the snow line.
+
+
+==== Woodland biomes ====
+Woodland biomes are rich in plants with a variety of trees, flowers and grasses. Abandoned camps can also generate here.
+
+
+==== Wetland biomes ====
+Wetland biomes are rivers, swamps and beaches. They have a large amount of water resources. Rivers separate other biomes; beaches generate as a transition between the ocean and land.
+
+
+==== Flatland biomes ====
+These biomes have a wide view because fewer trees spawn here and the terrain usually does not contain mountains or cliffs, although hills and plateaus are common. They also have a higher number of passive mob spawns.
+
+
+==== Arid-land biomes ====
+In these biomes, it neither rains nor snows. The surface is covered with sparse vegetation.
+
+
+==== Cave biomes ====
+These biomes generate inside caves in the Overworld. They are mostly found underground but can sometimes leak out of cave entrances.
+
+
+==== The Void ====
+
+
+=== The Nether ===
+The Nether is considered a different dimension. All biomes in this dimension are hot and dry, and it is not possible to place water; ice can still be placed, though it does not turn into water upon melting. Lava oceans are generated as a feature and are therefore not considered a separate biome.
+
+
+=== The End ===
+The End is considered a different dimension. The terrain consists of end stone islands of varying sizes, floating in the void. They use five different biomes in Java Edition, or all use the End in Bedrock Edition, with no terrain differences.
+
+
+=== Unused biomes ===
+
+Many biomes, made redundant via Caves & Cliffs world generation changes, still exist in Bedrock Edition but have been removed from Java Edition, and are documented on the page linked above.
+
+
+=== Removed biomes ===
+
+
+=== Joke biomes ===
+
+
+== Tint ==
+All biomes use a set of colors for various environmental aspects such as the sky, water, fog, and some blocks. In Bedrock Edition, biomes specify their colors in the client_biome JSON files in the vanilla resource packs. Some biomes specify their colors directly, while others use colormaps or separate JSON files which can also control other environmental effects.
+In Bedrock Edition, all biome colors for blocks are also visible on maps.
+
+
+=== Plants ===
+
+Biome grass and foliage colors are selected from three 256×256 colormap images: grass.png, foliage.png, and dry_foliage.png under assets/minecraft/textures/colormap‌[JE  only] or textures/colormap‌[BE  only] in the vanilla resource pack. The grass.png colormap sets the colors for grass blocks, short grass, tall grass, ferns, large ferns, ferns in flower pots, sugar canes, bushes and stems of pink petals and wildflowers. Meanwhile, the foliage.png colormap sets the colors for vines and tree leaves of oak, jungle, acacia, dark oak and mangrove. The dry_foliage.png colormap sets the colors for leaf litter. Only the colors in the lower-left halfs of the images are used, even though the upper-right side of foliage.png and dry_foliage.png is colored.
+
+The base temperature and downfall values are used when determining the biome color to select from the colormap. Treating the bottom-right corner of the colormap as 0 for both values, the temperature increases to 1.0 along the X-axis, and the downfall increases to 1.0 along the Y-axis. When a biome's temperature or downfall extends past the lower-left half, it will use the color on the closest edge of the image.
+
+
+==== Special plant tints ====
+In the following cases, the plants are not tinted exactly according to the default colormap. 
+Swamps
+In swamps and mangrove swamps, the grass color is based on a noise on the XZ plane. When the value of this noise is less than -0.1, it uses the color  #4c763c, otherwise using  #6a7039. The foliage color is  #6a7039 in swamps and  #8db127 in mangrove swamps. The dry foliage color in swamps and mangrove swamps is  #7b5334.
+
+In Bedrock Edition, all swamp biomes use colormaps to determine these colors, similar to regular colormaps described above.
+Dark forest
+In dark forests, the grass color is the result of the bitwise AND between the color in the colormap and  #fefefe, and then averaging with  #28340a. In vanilla, that is  #507a32.
+Badlands
+In badlands, wooded badlands and eroded badlands, the grass color is  #90814d and the foliage color and dry foliage color is  #9e814d.
+Cherry grove
+The color for grass and foliage in cherry groves is always  #b6db61.
+Pale garden
+In the pale garden, the grass color is  #778272, the foliage color is  #878d76, and the dry foliage color is  #a0a69c.
+Sulfur caves
+In sulfur caves, the grass color is  #aba64f.
+Other leaves
+
+The color for spruce leaves is  #619961 and the color for birch leaves is  #80a755. Both are not affected by the biome, but determined by biome colormaps in Bedrock Edition.
+
+
+=== Environment ===
+The base color of the daytime sky in Overworld changes according to the basic temperature value of the biome. The basic temperature is first modified as T = clamp( Temperature / 3 , -1.0, 1.0 ). Then the triple (0.62222224-0.05T, 0.5+0.1T, 1) is the sky color.
+The color of the sky in the pale garden biome is  #b9b9b9, which is unaffected by the above formula. See § List of biome climates below for all sky colors.
+The colors and surface opacity of water are defined in the vanilla data pack‌[JE  only] or client biome JSON files in vanilla resource packs.‌[BE  only] Some biomes in Java Edition, or most biomes in Bedrock Edition have unique water colors. Swamps and warm oceans in Bedrock Edition have unique water surface opacities, 65% and 55% respectively.
+The color and density of water and sky fog is different for most biomes, defined by separate JSON files for each biome in Bedrock Edition. The underwater fog color is  #050533 with a few exceptions in Java Edition, or the same as the water surface color with some exceptions in Bedrock Edition. The sky fog color is  #c0d8ff‌[JE  only] or  #abd2ff‌[BE  only] in all Overworld biomes, except pale gardens which use  #817770, sulfur caves use  #8cb831, and ice caves use  #14559b.​[upcoming: Fourth Drop 2026] Nether biomes and the End have unique fog colors.
+
+
+==== Vibrant Visuals ====
+Vibrant Visuals ignores default colors for the sky, water, and fog, and adds new effects for each biome or a set of biome. Which environmental settings are used is determined by the biome JSON file, and all environmental settings are stored in separate directories in resource packs. In vanilla, the following effects are affected by the biome:
+
+Lighting, which includes directional lighting from the sun and moon and ambient lighting. These have a specified brightness and color, and constantly change with the daylight cycle. Certain biomes have unique sunlight or moonlight colors, and a few biomes have lower sunlight illuminances. The End has slightly brighter ambient light, and the Nether has much brighter ambient light. See Vibrant Visuals/Configurations § Lighting for a full overview.
+Atmospherics, which colors atmospherics, a replacement of the classic sky box created by distance fog. The sky color of a biome is defined at zenith and at the horizon, with specified heights where the colors are blended. It is further illuminated and tinted by directional lighting, rayleigh scattering, and mie scattering, and the atmosphere is constantly changing with the daylight cycle. Some biomes have unique zenith or horizon colors at daytime or nighttime, and a few have fully custom colors. The Nether and the End have static atmospherics that tint the distance fog with the classic colors. See Vibrant Visuals/Configurations § Atmospherics for a full overview.
+Volumetric fog is an additional layer of fog with large differences between biomes. There are 9 different fog effects, mainly depending on the biome's humidity, but some biomes like swamps and pale gardens have unique dense fog effects with different colors. The final strength and tint depends on atmospherics and directional lighting. See Fog § Vanilla volumetric fog settings for a full overview.
+Color grading is applied to the final image rendering. This rebalances saturation levels for RGB colors at different illumination levels, and changes the image's color temperature. Most Overworld biomes are identified by different color temperatures, while a few also change saturation or contrast. See Vibrant Visuals/Configurations § Color grading for a full overview.
+Water colors are not visible with Vibrant Visuals, but all non-air fog colors still apply asides from the volumetric fog. Vibrant Visuals effects are dynamically blended at biome transitions.
+
+
+=== Transition ===
+When plants or water are at the borders between or among biomes, the color is affected by the biome of the surrounding blocks at the same Y-level. In Java Edition, the range of the block involved in the calculation can be decreased with the biome blend radius in the options. It takes the plant color or water color of the biomes within a square centered on this block and with the side length being the biome blend radius, and calculates their average value to get the final color for this block.
+The sky color and the fog color use the color processed by Gaussian blur from colors of the biomes at each block in the range of 5×5×5 centered on the block the camera is in.
+
+
+== Climate ==
+
+
+=== Temperature ===
+Each biome has a base temperature value (see § List of biome climates), but the actual temperature value at each location in the biome is also affected by the height of the location. Locations with Y≤80 use the base temperature as actual temperature. At Y=81, the actual temperature value randomly fluctuates up and down by -0.00875 — +0.01125 from the base temperature based on a noise on the XZ plane, and at Y≥81 the actual temperature decreases by 0.00125 (1⁄800) every block up.
+In frozen oceans and deep frozen oceans, it is also affected by a noise value on the XZ plane. In some regions according to the noise, the base temperature value is always regarded as 0.2. The actual temperature values for these regions are also calculated on this basis. This is detectable in frozen oceans, as its base temperature is low enough to freeze or snow, so that only these regions do not freeze or snow at sea level.
+The temperature affects at which height snowfall can occur, the sky and block colors, and whether sponges dry in the air.‌[BE  only]
+
+
+=== Downfall ===
+The downfall value is a number between 0.0 and 1.0 (see § List of biome climates) mainly used for block colors. When the downfall value is greater than 0.85, the biome is marked as humid, which is related only to the random extinction of fire.
+Additionally, the downfall controls whether a biome is arid in Bedrock Edition; if it is 0.0, no rain or snow occurs. Otherwise, a location is rainable when its temperature value is equal or greater than 0.15, and snowable otherwise.
+
+
+=== Precipitation ===
+In Java Edition, precipitation is separate from downfall, which can be "true" or "false".
+If the base temperature is less than 0.15, it's snowable at any Y level. If equal or greater than 0.15, it will still snow above a certain Y level, caused by temperature decrease above Y=81.
+
+The exact minimum height for snowfall is randomized per block because the temperature slightly shifts, with a margin of up to 8 blocks. In Bedrock Edition, this is a transition layer where both snow and rain particles are visible at the same time. This transition also appears when moving horizontally between snowy and rainy biomes, and the particle density decreases when moving to a dry biome.
+
+
+=== Snow accumulation ===
+
+The amount of snow layers generated on the surface is based on the snow accumulation value of the biome. The first value calculates how snow is randomly stacked – a value of 0 results in all blocks covered by 1 snow layer; a value of 0.125 results in some areas not being covered by snow, and snow gets stacked when next to a full block; a higher value adds random patches of higher piles which increase in size and height with the value.
+During snowfall, snow can stack infinitely on top of generated snow, unlike in Java Edition where this is controlled by a snow accumulation game rule. The second value calculates how quickly snow accumulates during snowfall.
+
+
+=== List of biome climates ===
+
+
+==== Overworld ====
+
+
+==== The Nether ====
+
+
+==== The End ====
+
+
+== Generation ==
+
+
+=== Biome distribution ===
+
+
+==== Overworld ====
+
+
+==== The Nether ====
+
+
+==== The End ====
+This only applies to Java Edition, in Bedrock Edition the entire dimension is set to the End biome.
+
+
+== Biome IDs ==
+
+
+=== Java Edition ===
+Each type of biome has its own Resource Location, shown in the following tables.
+Biomes use a numerical ID which is determined by the alphabetical ordering of their resource locations.[verify] This information is however only used by the game internals and is not included below.
+
+
+=== Bedrock Edition ===
+Each type of biome has its own Resource Location / IDs, shown in the following tables.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Quotes ==
+
+
+== Issues ==
+Issues relating to "Biome" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The term biome is slightly similar to its scientific usage: in the real world, a biome is climatically and geographically defined by distinctive communities of plants, animals and soil organisms supported by similar climatic conditions. They are often referred to as ecosystems. Minecraft biomes are defined by all of the blocks that compose them, not just the plants and animals found in them.
+A biome can sometimes generate with an area of only one block.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+==== Historical screenshots ====
+
+
+=== Templates ===
+
+
+=== Mojang images ===
+
+
+== See also ==
+Biome definition
+Overworld
+Structures
+Terrain features
+Weather
+Large Biomes
+Amplified
+List of biomes by version
+
+
+== References ==
+
+
+== External links ==
+All Biomes in Minecraft – Minecraft Help Center
+
+
+== Navigation ==

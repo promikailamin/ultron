@@ -1,0 +1,218 @@
+The resource pack system provides a way for players to customize textures, models, music, sounds, languages, texts such as the End Poem, splashes, credits, and fonts without any code modification. They are often used together with data packs‌[Java Edition  only] or behavior packs‌[Bedrock Edition  only] to add new content to the game. In Bedrock Edition, resource packs are often included in add-ons in the Marketplace.
+
+
+== Java Edition ==
+
+
+=== Behavior ===
+
+Each resource pack is either a directory or a ZIP archive (with .zip extension). Resource packs can be added by placing them in the  resourcepacks directory within  .minecraft, or by dragging and dropping onto the "Select Resource Packs" screen, which copies them there automatically. Resource packs present in the directory can then be managed from the options, where they can be moved between "Available" (disabled) and "Selected" (enabled), and reordered.
+Resource packs load their assets based on the order they appear in on the "Selected" list. The bottom-most pack loads first, then each pack above it replaces or merges loaded assets with ones it contains.
+
+
+==== Built-in resource packs ====
+There are currently three resource packs that are included as part of the game.
+
+
+==== Preloaded resource packs ====
+A ZIP archive resource pack can be bundled with a world by placing it in the world directory's resourcepacks directory under the name resources.zip. When playing the world, that resource pack appears as the default pack, right above the default resource pack. It is, however, not distributed to other players connecting via LAN.
+A resource pack can be set on a server by setting resource-pack to an HTTP(S) URL pointing to a ZIP archive resource pack in server.properties. Players can then choose if they want to download the resource pack or not when joining. Players can also be forced to accept the resource pack by setting require-resource-pack=true; in this case, rejecting the resource pack disconnects the player from the server.
+There is no way to force the use of a resource pack in a Realm.[needs testing]
+
+
+=== Directory structure ===
+Resource packs in Java Edition have the following directory structure:
+
+
+=== Contents ===
+A resource pack is identified by Minecraft based on the presence of  pack.mcmeta in the root directory.
+The root directory also contains an optional PNG image called  pack.png, which appears as the thumbnail for the pack on the resource pack selection menu.
+
+
+==== Language ====
+Language files are JSON files, which contain text data translated to different languages. They are located in  assets/namespace/lang and named  language code.json. Languages other than default can be defined in  pack.mcmeta.
+
+A language file consists of an object containing ID and translation pairs. The ID uniquely identifies any translatable text in the game, and the translation is displayed as that text when the language is selected. For example, block.minecraft.stone is the ID of the text used for the name of the stone block, and its translation in the en_us language is Stone.
+Language files are merged with other selected packs, so any names that are not present are loaded from packs of lesser priority.
+In language key values, placeholders to be replaced by other text or numbers later can also be used; for example, using the with of a translatable text component.
+Placeholders are defined using %s as a short form, or %<number>$s to specify the index explicitly. Placeholder indices start at 1. When not specifying the index explicitly, the game will pick the next available index in sequential order, and placeholders are assigned an index in the order they are encountered in the string. If translators need to swap the order of placeholders for grammatical reasons, they can swap a %s placeholder with an indexed one.
+A literal % character, which should render as such in the text shown by the game and is not part of a translation placeholder, must be escaped by using %%; otherwise, the game may fail to parse other placeholders within that string.
+
+
+==== Textures ====
+
+Textures are image files in PNG format, which provide images to be used as textures for models such as items, blocks and mobs.
+Before 1.13 for block or item textures to function, they must have equal width and height (or height that is a multiple of the width if animated); otherwise it appears as a magenta and black checkerboard. For most other textures, the file is stretched to fit the required dimensions. 
+As of 1.13 non-square textures can be used for blocks and items just fine (although they will look stretched/squashed on default models).
+Most solid blocks turn any transparent area fully opaque. Some other blocks, which have "cutout" transparency (like glass) turn all pixels that are less than 10% opaque fully transparent and all other pixels completely opaque. Every other block renders textures with semi-transparency as-is. All items, blocks or entities that are semi-transparent by default support semi-transparency. All items that do not have a corresponding block do support semi-transparency.
+If a texture does not exist in any resource pack, including the default, the missing texture appears in its place. As of 1.19.1, six such cases exist in the vanilla resource pack, all particle-related.
+
+
+==== Texture animation ====
+All textures that get stitched to an atlas support animation. This includes:
+
+Block and item textures
+Banner and shield textures
+Some block entities including: chest, conduit, decorated pot, enchanting table book, bell, and shulker box textures
+Item frame and painting textures
+GUI sprites (all textures in the  assets/<namespace>/textures/gui/sprites/ directory)
+Mob effect icon textures
+Map decoration textures
+Particle textures
+Armor trim textures. This doesn't work with the paletted_permutations atlas source type, so textures must be added to the atlas using either the directory or single source types to be animated
+Sun, moon, and end flash
+An animated texture is created by placing additional frames either vertically below the first, or horizontally to the right of the first. Alternatively, the frames can be arranged in a table by defining a width and height in the animation properties; in this case they are ordered row by row, top to bottom, left to right.
+Each frame of the animation must be the same size, and the total dimensions of the image must be divisible by the width and height in the animation properties; otherwise a missing texture is shown. If a width and height are not specified, the game assumes each frame is square and the size of the smallest dimension of the image.
+The animation properties are specified with a JSON file, named like the texture (including the extension), but with .mcmeta suffix appended. For example, the animation properties for stone.png would be stone.png.mcmeta.
+
+Texture animation properties format
+
+If a texture's corresponding animation properties file does not exist or does not have the animation object, the game assumes the texture isn't animated and displays it entirely and statically.
+
+
+==== Villagers ====
+Textures from assets/minecraft/textures/entity/villager and assets/minecraft/textures/entity/zombie_villager support a .mcmeta file in JSON format containing additional effects to apply to the hat layer. The file is contained in the same directory as the texture, and has the same name as the texture, except appended with .mcmeta. For example, the file profession/farmer.png can have a properties file called profession/farmer.png.mcmeta
+
+If the .mcmeta file does not exist in the pack and the texture does, the game loads the default settings, rather than loading a .mcmeta file from a pack below that pack.
+
+
+==== GUI ====
+All sprites in the gui atlas support a .mcmeta file in JSON format containing scaling behavior of the texture. For example, the file button.png can have a properties file called button.png.mcmeta
+
+
+==== Colormaps ====
+Colormaps are 256×256 pixel images that tell the game which color to use in each biome. They are located in assets/minecraft/textures/colormap. The game contains three colormaps: foliage.png colors plants such as leaves (except birch and spruce) and vines, grass.png colors grass and grass blocks, and dry_foliage.png colors leaf litter. Colormaps can be disabled on individual blocks by removing the tintindex tag from the block model.
+Birch leaves, spruce leaves, swamp grass, mangrove swamp grass and midlands grass are not controlled by colormaps in Java Edition, unlike in Bedrock Edition.
+
+
+==== Properties ====
+All textures support a .mcmeta file in JSON format containing additional properties about how to render the texture. The file is contained in the same directory as the texture, and has the same name as the texture, except appended with .mcmeta. For example, the file pumpkinblur.png can have a properties file called pumpkinblur.png.mcmeta.
+If the .mcmeta file does not exist in the pack and the texture does, the game loads the default settings, rather than loading a .mcmeta file from a pack below that pack.
+
+Not all fields apply to every texture in every context. The following table lists each field and in which context they apply to.
+
+
+==== Texts ====
+Three text files in UTF-8 format and one JSON file exist in  assets/minecraft/texts. They are used to display specific untranslated text.
+The file  end.txt contains the text of the End Poem, using formatting codes to apply the colors to the two speakers, and with the text PLAYERNAME being replaced with the player's name. After that file is shown, credits based on contents of  credits.json are shown and then, the contents of  postcredits.txt are shown, displaying the End quote.
+The following JSON format is used for  credits.json:
+
+The file  splashes.txt contains texts separated by LF line breaks used as splashes.
+
+
+==== Texture sheets ====
+
+Minecraft generally does not store multiple different textures in combined sheets and instead stores them in separate files. The only current exceptions are experience orbs.
+
+
+==== Regional compliancies warnings ====
+Regional compliancies warnings can be customized in  assets/namespace/regional_compliancies.json.
+
+The game includes a compliancy warning for South Korea (KOR) about excessive playing, shown every hour and telling the exact number of hours the game is open for. An additional warning is shown if the game is open for a day or more.
+
+
+=== Default resource pack ===
+The default resource pack is special, as it does not exist in the same form as other resource packs. It combines assets from two sources: the  assets directory in client.jar and the asset object store.
+The default resource pack also provides the other built-in resource packs, as regular resource pack ZIP files.
+
+
+==== Asset object store ====
+The asset object store is a system used to efficiently download, store and retrieve assets across multiple versions. It resides in  assets inside the launcher  .minecraft directory.
+The path to the directory of the store is provided to the game with the --assetsDir command line parameter. The ID of the asset index, describing asset metadata for a specific version, is provided with the --assetIndex command line parameter.
+Asset files for all versions are stored inside  objects, in subdirectories named with two hexadecimal digits (0-f), for example  7f. The names correspond to the first two digits of the SHA1 hashes of the asset files stored inside. The asset files inside are named with their full SHA1 hash, which is 40 hexadecimal digits (without a filename extension), for example  7f7777e5d5b163c5d64201fd53e5682599548a49.
+For the game to find assets, the asset index corresponding to the version is required. Indexes are stored in  indexes. An index is a JSON file named  id.json, where id is the index ID. The file structure is as follows:
+
+The mapping of versions to asset index IDs is as follows:
+
+
+== Bedrock Edition ==
+
+
+=== Behavior ===
+
+Similarly to behavior packs, resource packs can be created and imported in Bedrock Edition. Users can download external resource packs with the .mcpack file extension, if the game platform allows file importation. When these files are opened, they are automatically imported into the resource_packs directory in com.mojang without any need for file system access. Resource packs can also be put manually in the development_resource_packs directory. Each resource pack must either be a subdirectory or a .zip file.
+Resource packs can be applied locally on the Global Resources option from the settings menu from the main menu screen. Resource packs can be moved between "Active" and "My Packs". 
+One or more resource packs can be bundled with a world from the Create New World and Edit World screens. These resource packs will be imported into the world files, and are kept when exporting the world. Players joining a multiplayer world with resource packs get an option to download the resource pack or not. When "Shared packs" (or texturepack-required in server.properties) is enabled, all global resources will be ignored and players are forced to download and enable all resource packs stored in the world files. Developmental resource packs cannot be applied to worlds on Realms, but worlds uploaded to Realms or Bedrock Dedicated Server keep the resource packs applied to the world.
+In Bedrock Dedicated Server, resource packs also can be stored outside of worlds. Packs need to be enabled in the world_resource_packs.json file in a world file. 
+Resource packs load their assets based on the order of the packs on the list. The bottom-most pack loads first, then each pack placed above it replaces assets of the same name with its assets. Global resources are always applied above world resource packs.
+Resource packs cannot be edited unless put into the development_resource_packs directory, and will update themselves when joining a world or changing active resource packs.
+
+
+==== Settings ====
+Resource packs can contain custom settings that affect features in the pack. Settings need to be specified in manifest.json, with the options to create an on/off toggle, or a slider with specific values. The settings menu for custom and Marketplace resource packs can be opened with a button next to the pack button in the edit world screen to change settings for the whole world, or in the pack description in the global resources settings to change settings locally. Custom labels for each setting can be applied, which support text formatting.
+Custom settings currently can't affect any features in the resource pack, but Mojang Studios plans to create a Molang query function for this purpose.
+The settings menu can also be used to change the memory tier, which affects the sub-packs being used. The memory tier can be set to any specified value from the device's memory tier and lower. Sub-packs are resource packs within the root of the behavior pack, with the same directory structure. They can be added to the pack in manifest.json.
+
+
+==== Marketplace resource packs ====
+Add-ons and worlds from the Marketplace often contain or consist entirely of a resource pack. These packs are stored internally and can't be accessed from com.mojang. Players can only access Marketplace resource packs or play on worlds with resource packs applied when they own the pack, by purchasing it in the Marketplace or by owning the Marketplace Pass. Which packs a player owns is stored in the online player profile, so resource packs can only be accessed when signed in. Marketplace packs can be applied the same way as custom resource packs including Realms, but not to worlds in external servers.
+When a player joins a multiplayer world or Realm with Marketplace packs, the player is offered to download these packs to apply them, even when the player does not own the pack.
+Marketplace resource packs update automatically depending on the "Auto Update Unlocked Packs" settings, or can be updated manually from the purchase screen.
+
+
+==== Built-in resource pack ====
+There is currently one resource pack that is included as part of the game.
+
+
+=== Directory structure ===
+Resource packs in Bedrock Edition use the following directory structure:
+
+
+=== Contents ===
+
+
+==== Biomes ====
+
+
+=== Internal resource packs ===
+Most entities, biomes, loot tables, and various things from the base game are defined by the vanilla resource pack, which is built inside the game itself and can be found at game directory\data\resource_packs. Mojang Studios releases the Bedrock Add-On Sample Files with every new update of Bedrock Edition, which provide the latest vanilla behavior and resource packs from the game.
+Multiple internal resource packs exist for different situations. Some experiments may have their own resource pack, in addition to Minecraft Education features and Minecraft Preview. Each resource pack contains the same structure and assets as custom resource packs, defined for the whole game. Some packs also have an icon or description, which is not visible in-game.
+Bedrock Edition supports backwards-compatibility for add-ons and old worlds. This is done for the vanilla and chemistry resource packs since 1.14 and 1.20.50 respectively, with the regular resource pack supporting the latest version before. Each update with changes to features defined in resource packs has its own resource packs, with all the features that changed. Some Marketplace add-ons can lock a world in an older version by disabling internal resource packs from higher versions.
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Trivia ==
+
+
+=== pack.png ===
+ 
+ pack.png was an image file used for the default resource pack icon before Java Edition 1.14, and a grayscaled version of it is still used as a fallback for the world icon on the Select World screen as well as the server icon on the server list. The file shows a screenshot taken in what is likely a development version of Java Edition Alpha v1.2.2, in a world generated with the seed 3257840388504953787. It was taken approximately at X=49.16, Z=0.72, with view angle facing RX=-119.23, RY=-8.297. This image has been referenced officially multiple times in the "One Trillion Minecraft Views on YouTube and Counting" video and Unpacked painting in the game.
+
+The seed can be used in versions Alpha 1.2.0 through Beta 1.7.3, with minor population differences between versions.
+It's possible to generate an identical world and take an identical screenshot, a guide on how to do that can be found here: https://pastebin.com/CmsEKDev.
+
+
+== Gallery ==
+
+
+=== Resource pack icons ===
+
+
+=== pack.png ===
+
+
+=== Historical screenshots ===
+
+
+== See also ==
+Tutorial:Creating a resource pack‌[Java Edition  only]
+Introduction to Resource Packs ‌[Bedrock Edition  only]
+Programs and editors/Resource pack creators
+
+
+== External links ==
+Pack.mcmeta Generator on misode.github.io
+
+
+== References ==
+
+
+== Navigation ==

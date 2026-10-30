@@ -1,0 +1,182 @@
+A bee is a flying arthropodan neutral mob that lives in a bee nest or beehive, and fills it with harvestable honey using nectar it gathers from flowers. Attacking a bee, or interfering with its home without proper precautions, causes it and all nearby bees to attack using their stingers. If a bee attacks something, it will lose its stinger and eventually die.
+
+
+== Spawning ==
+Bees are the only arthropod mob that can spawn in any difficulty including Peaceful.
+
+
+=== Natural generation ===
+Naturally generated bee nests generate with 2-3 bees in them.
+Naturally-generated birch, oak, mangrove, and cherry trees have equal chances to generate with a bee nest, depending on the biome:
+
+
+=== Saplings ===
+Birch, cherry, and oak trees grown from saplings that are within 2 blocks of any 1- or 2-block tall flowers, flowering azalea, cherry leaves, flowering azalea leaves, mangrove propagule, spore blossom, pink petals, or chorus flower have a 5% chance of having a bee nest containing 2–3 bees.
+Mangroves grown from mangrove propagules have a 1% chance of having a bee nest containing 2-3 bees. Unlike birch, cherry and oak trees, no flowers are required for a bee nest to generate.
+
+
+== Drops ==
+
+
+=== On death ===
+Upon death, adult bees drop 1–3XP experience when killed by a player or a tamed wolf. Like most other baby animals, killing a baby bee yields no experience.
+
+
+=== Breeding ===
+When two bees breed and produce an offspring, 1–7XP is dropped.
+
+
+== Behavior ==
+Bees do not fly (like ghasts or the ender dragon), but instead hover a few blocks above the ground similar to bats and parrots.
+Bees are considered arthropods and take increased damage from the Bane of Arthropods enchantment. They also take 1HP damage every half second if they stay in water for more than 20 game ticks (1 second). Bees do not take damage from sweet berry bushes.
+Bees can be attached to a lead, even when angered. They can still attack while attached. A lead that attaches any other entity to a bee breaks when the bee enters its hive.
+Bees usually venture up to 22 blocks from their beehive to collect nectar from a viable plant or to attack someone. Bees can venture farther away if necessary.
+A bee can fly horizontally and vertically upward through scaffolding but does not fly downward. A bee does not fly through an open trapdoor or regular door on its own (a bee can be led through a door with a flower) but babies can fly through the gap above a fence gate in a 1×2 doorway.
+Despite being flying mobs, bees can destroy turtle eggs when on top of them.
+
+
+=== Pollinating ===
+Bees leave their nest during the day. They fly around their nests and are attracted to flowers (except closed eyeblossoms), flowering azaleas, flowering azalea leaves, mangrove propagules, pink petals, cherry leaves, spore blossoms, chorus flowers, cactus flowers, and wildflowers, which are the valid plants for the bee to gather nectar from. Bees can gather nectar from wither roses but receive the wither effect. As a result, they can die.
+Bees can also gather nectar from open eyeblossoms, but get poisoned as a result; they completely ignore golden dandelions and closed eyeblossoms, and are unable to gather nectar from them. 
+Bees also completely ignore flowers in flower pots.
+After circling a flower for more than 400 game ticks (20 seconds), a bee collects nectar. However, if the bee gets damaged, it ceases its efforts to collect nectar. A bee carrying nectar has nectar spots on its abdomen and drops nectar particles to fertilize plants below the bee. 
+Bees that have nectar may pollinate pitcher crops‌[Bedrock Edition  only], wheat crops, potato crops, carrot crops, beetroot crops, melon stems, sweet berry bushes, pumpkin stems, cave vines, and torchflower crops that they fly over. When one of these plants gets pollinated, it advances to another growth stage, similar to using bone meal. To pollinate a plant, a bee must be 1 to 2 blocks directly above the plant and must have a valid home hive. A bee can fertilize plants 10 times each time they have nectar. There is an approximately 5% chance each tick to attempt fertilization.
+Afterward, the bee flies back into its hive/nest to make honey. It takes about 2 minutes for the bee to do this.
+
+
+=== Housing ===
+
+Bees live together in colonies and take any bee nest or beehive that has enough space as its home. One bee nest/beehive can house up to 3 bees. Homeless bees search for empty beehives by wandering around generally in a northwest direction. Bees can enter a beehive from any side, but exit only from the front. One-way bee-gates can be made by using this mechanic.
+Bees return to their nest when it rains and during the night. This behavior extends to biomes that don't rain, such as the desert. They stay in their nest or hive for at least 2400 game ticks (2 minutes) before coming back out. Bees in a nest/hive retain their data (health, name, etc.). 
+Breaking a nest or hive without Silk Touch drops nothing or an empty hive respectively, releasing all bees contained inside. If the nest or hive is harvested using a tool enchanted with Silk Touch, the bees are contained in the dropped item and can exit the nest/hive when it is placed again.
+When a bee that has nectar enters and then leaves its nest or hive, the honey level of the nest/hive is increased by one; there is a 1% chance it is increased by two. When the honey level of that hive reaches 5, the player can harvest honeycombs or honey bottles using shears and empty bottles respectively. The honey level resets back to 0 when a honeycomb or honey bottle is harvested.
+Because there is neither daylight cycle nor weather in the Nether and the End, bees work without resting in these dimensions. This behavior is distinct from that of the villagers, which follow their daily routine according to the time in the Overworld, regardless of which dimension they are in.
+
+
+=== Attacking ===
+
+All bees nearby are angered when an individual bee is attacked (unless the bee attacked is killed in one hit), honey or honeycombs are collected (unless a campfire is placed under the nest), or a bee nest/beehive is destroyed. Even destroying newly-placed uninhabited beehives anger nearby bees. Hitting or walking on a beehive does not anger bees; only destroying it angers them. When destroyed, a beehive releases any bees that it contained. If the beehive is destroyed with a Silk Touch tool, bees kept within the hive remain neutral, while those outside the hive also remain neutral.
+
+Bees attack and swarm the player as a group when angered, and the eyes of angered bees turn red. Collecting a honeycomb or a honey bottle from a nest or hive causes the bees that are currently in that nest or hive to leave and swarm the player unless a campfire is placed within five blocks below the hive. Bees attack only once, similar to llamas, and non-aggressive pandas.
+Bees do not deal any damage in Peaceful difficulty and are completely passive. They fly outside the beehive and search for flowers as usual.
+If the player deflects a bee's attack with a shield, the bee continues attacking until it succeeds in hitting the player.
+When a bee's attack on a player succeeds, the player is poisoned. A bee loses its stinger after a successful attack, cannot attack further and does not retreat to its nest (even at night), and dies approximately one minute later. This can be delayed with potion effects (Regeneration/Resistance/Absorption) that have a 255 potency.
+It is possible to (quickly) breed at least one angered bee with another, even if it or they had stung and lost the stinger. However, they remain angered and still die later due to being stingerless.
+Bees also swarm and attack other mobs when damaged, for example, if a skeleton accidentally shoots a bee, the bee will sting a player.
+Bees become neutral if they fail to land a hit on their target until anger counter runs out. Anger duration is randomly selected between 20 and 39 seconds, inclusive.
+
+In Java Edition, a bee's stinger is visible on the player as a small black dot after the bee successfully attacked.
+
+
+=== Breeding ===
+
+Bees follow players holding any 1- or 2-block tall flowers (except closed eyeblossoms and golden dandelions), mangrove propagules, flowering azaleas, flowering azalea leaves, cherry leaves, pink petals, wildflowers, spore blossoms, cactus flowers or chorus flowers. If the player is standing still and being followed by bees, the bees go toward the player, face the player, and rest on the ground. They do this until the player moves.
+If bees are given any of the blocks listed above (except open eyeblossom and wither rose), they enter love mode and pair up to create baby bees, granting the player 1-7 experience. The parent bees have a cooldown of 5 minutes (6000 game ticks) before they can be bred again. Babies take 20 minutes (1 in-game day) to grow up. The growth of baby bees can be accelerated by feeding them flower types (except those that cannot cause love mode); each use reduces the remaining time by 10%. However, bees' growth timer and breeding cooldowns are frozen while working in a hive; thus, when rapidly growing a population, it may be desirable to temporarily remove the hives. 
+Wither roses and open eyeblossoms cannot be used for breeding bees or growing baby bees. Feeding a bee a wither rose inflicts it with the Wither effect for 2 seconds (40 game ticks), while feeding a bee an open eyeblossom inflicts it with Poison for 1.25 seconds (25 game ticks). Closed eyeblossoms and golden dandelions cannot be used to lead, breed or grow bees; in the latter case, feeding them to baby bees instead toggles age-locking as with other baby mobs.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Bees have entity data associated with them that contains various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Bee" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Bees were made to be half a block in size because Mojang considered this size to be the cutest.
+In Java Edition, bees pollinate only the top half of sunflowers.
+In reality, juvenile bees are helpless, worm-like larvae, not smaller versions of adults.
+Also in reality, bees collect both nectar and pollen by pollinating flowers. The pollen is used as a primary food source by the bee colony, but has little direct importance to the formation of honey, which is made from the nectar and serves as another food source. Also, in real life, bees are scared of smoke and don't exit the nest or hive.
+However, bees losing their stingers and dying after attacking the player is consistent with real bees, as in reality their stingers are barbed and attached to vital organs, so the stinger gets stuck and causes fatal injuries to the bee once it tries to fly away and the stinger detaches.
+
+
+=== Publicity ===
+Within the Minecraft community, bees are commonly used as a symbol of LGBTQ pride. In 2026, this was used as the basis for the Hive of Harmony add-on.
+Several bees make an appearance in The Muppet Mayhem episode Virtual Insanity, as part of a digital concert in Minecraft the Electric Mayhem are participating in.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Idle ====
+
+
+==== Animations ====
+
+
+=== Screenshots ===
+
+
+=== Mojang images ===
+
+
+=== Concept artwork ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== See also ==
+Bee Nest
+Beehive
+Honey Bottle
+Honeycomb
+
+
+== References ==
+
+
+== External links ==
+"Mob Menagerie: Bee"     by Duncan Geere  – Minecraft.net, September 15, 2023.
+
+
+== Navigation ==

@@ -1,0 +1,92 @@
+Cooked mutton is a food item obtained from cooking raw mutton.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Cooking ===
+Raw mutton can be cooked in a furnace, smoker, or campfire. Each piece of cooked mutton removed from a furnace output slot gives 0.35 experience (22.4 experience per stack).
+
+
+=== Villager gifts ===
+In Java Edition, butcher villagers may give the players with the Hero of the Village effect cooked mutton.
+
+
+== Usage ==
+
+
+=== Food ===
+
+To eat cooked mutton, press and hold use while it is selected in the hotbar. Eating one restores 6 () hunger and 9.6 saturation, the same as cooked salmon.
+
+
+=== Wolves ===
+Cooked mutton can be used to breed and heal tamed wolves, lead them around, and make baby tamed wolves grow up faster by 10% of the remaining time.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Cooked Mutton" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Notes ==
+
+
+== Navigation ==

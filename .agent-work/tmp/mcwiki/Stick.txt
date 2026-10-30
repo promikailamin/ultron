@@ -1,0 +1,89 @@
+A stick is an item used for crafting many tools and items.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Fishing ===
+Sticks can be obtained as a "junk" item while fishing.
+
+
+=== Block loot ===
+Dead bushes drop between 0–3 sticks when destroyed.
+All leaf types have a 2% chance to drop 1–2 sticks when they decay or when broken using a tool without Silk Touch. Using a tool with Fortune increases these chances to 2.2%, 2.5%, and 3.3% for Fortune I, II, and III respectively.
+
+
+=== Entity loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Fuel ===
+When used as a furnace fuel, a stick smelts 0.5 items.
+
+
+=== Trading ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Stick" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The stick is used in 49 recipes in Java Edition, and 50 recipes in Bedrock Edition, more than any other item in the game. Iron ingot takes second place with 35 recipes, and planks take third place with 34 recipes.
+To craft each recipe once, a player would need 111 sticks, including 1 for the redstone torch in an activator rail, while using the extra tripwire hook for the crossbow. This would require 56 planks, or 14 logs, for the sticks, and an extra 29 planks for the wooden tools, tripwire hook, signs, fences, fence gate, grindstone, and slabs for the barrel. This means that the player needs a total of 85 planks, or 22 logs, plus 6 more for the campfire and soul campfire.
+Crafting a stick using bamboo planks requires 2.25 bamboo per stick (because 9 bamboo are required to make 2 bamboo planks), which is less efficient than crafting a stick directly from 2 bamboo.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== External links ==
+Taking Inventory: Stick – Minecraft.net on April 2, 2020
+
+
+== Navigation ==

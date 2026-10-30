@@ -1,0 +1,81 @@
+Paper is an item crafted from sugar cane, required for crafting books, maps, cartography tables, firework rockets, name tags, and banner patterns.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Villager gifts ===
+In Java Edition, cartographer villagers may give paper to players with the Hero of the Village effect.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Cartography table usage ===
+Paper can be used to zoom out a map by one level in a cartography table. This method of zooming out map is 8 times more efficient than using a crafting table. In Bedrock Edition, it can also be used to create an empty map or an empty locator map. This is also cheaper than the equivalent crafting recipes.
+
+
+=== Trading ===
+
+
+=== Anvil usage ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Paper" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The Taking Inventory article on paper cites papyrus as the inspiration for the crafting recipe.
+
+
+== Gallery ==
+
+
+=== Mojang screenshots ===
+
+
+==== In other media ====
+
+
+== External links ==
+"Taking Inventory: Paper"     by Duncan Geere  – Minecraft.net, August 4, 2023.
+
+
+== Navigation ==

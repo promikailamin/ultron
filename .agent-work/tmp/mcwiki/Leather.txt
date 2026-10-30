@@ -1,0 +1,88 @@
+Leather is an item used to craft bundles, books, saddles, armor, and other items.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+A fox sometimes spawns holding leather, which always drops upon death. Alternatively, a player can drop a food item, causing the fox to drop the leather in favor of that food.
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Fishing ===
+Leather can be obtained as a "junk" item from fishing, with a 1% default chance of getting it.
+
+
+=== Bartering ===
+Adult piglins may barter 2-4 leather with a chance of ~8.53% (40⁄469) when given a gold ingot.
+
+
+=== Villager gifts ===
+in Java Edition, leatherworker villagers throw leather at players under the Hero of the Village effect.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Trading ===
+
+
+=== Repairing ===
+Leather is the repair item for the leather armor, and thus can be used to repair the following items in an anvil:
+
+Leather cap
+Leather tunic
+Leather pants
+Leather boots
+
+
+== Achievements ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Leather" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

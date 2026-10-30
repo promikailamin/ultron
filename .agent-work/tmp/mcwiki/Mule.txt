@@ -1,0 +1,191 @@
+A mule is a passive mob created by breeding a horse and a donkey together. It is similar to a donkey, except that it cannot breed.
+
+
+== Spawning ==
+Mules do not spawn naturally, but a mule can spawn through cross-breeding a horse with a donkey. Mules cannot breed with other mules.
+20% of mule spawn eggs produce baby mules.
+
+
+== Appearance ==
+Mules are the offspring of horses and donkeys and are closer to (but not quite) the size of a horse. Their ears, coats, and manes are like those of a donkey, though mules' coats are darker and reddish-brown. Like donkeys, mules cannot be equipped with armor but can be equipped with chests. Mules cannot have babies, much like mules in real life.
+
+
+== Drops ==
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+1–3XP, when killed by a player or tamed wolf.
+If equipped with a chest or saddle, they drop those items, as well as any contents of the chest.
+Killing a baby mule yields no items nor experience.
+
+
+== Behavior ==
+Similar to horses and donkeys, mules roam idly, occasionally stopping to rear, swish their tails, or lower their heads as though eating the grass. Unlike sheep, the eating animation does not actually cause any grass to be consumed. Mules turn to look at any player that comes near. Any mule, even a wild one, may be attached to a lead. However, if the player attempts to saddle an untamed mule, it rears and flails its front hooves.
+Mules can safely fall 6 blocks before they begin to accumulate fall damage, unlike most mobs, which can safely fall 3 blocks. Mules also take half of the normal fall damage (rounded up) that most other mobs take (0.5HP × 0.25 damage per block over the safe distance instead of 1HP). If an entity is riding a mule, they receive the same fall damage as the mule.
+Mules, like most mobs, can ride in a minecart. Similarly to horses and donkeys, adult mules cannot ride a boat, but babies can. Also like horses and donkeys, mules have a 1⁄900 chance to regenerate 1HP health point each game tick.
+
+
+=== Taming ===
+Adult mules can be tamed: with an empty hand, mount the mule repeatedly; when it no longer bucks the player and shows hearts, it is tamed. It is necessary to tame a mule in order to give it equipment or ride it for any length of time. 
+Taming depends on the mule's "temper". Mules begin with a temper of 0 out of 100. When a player is riding the mule, a random number between 0 and 99 is chosen. The mule becomes tame if this number is less than the temper, otherwise, the temper is increased by 5 and the player is bucked off. Temper can also be increased by feeding the mule.
+While riding an untamed mule, a galloping sound is audible, more or less rapid to give a general idea of the mule's speed.
+Like all tamed animals, a death message is displayed to their owner if they are killed.‌[Bedrock Edition  only]
+
+
+=== Breeding ===
+Like their real-life counterparts, mules in Minecraft cannot produce offspring. The only way to produce a mule (other than using a spawn egg) is to cross-breed a horse with a donkey. The mule is the only hybrid (cross-bred) mob in the game.
+
+
+=== Food ===
+Feeding a mule food can alter its behavior, cause it to grow (if it is not yet an adult; baby mules normally take 20 minutes to fully mature if not fed), and/or restore its health. The table below lists the effects of the various foods mules eat.
+To feed a mule, hold a valid food item and press use on the mule. If the food is invalid, the player simply mounts the mule. Mules can be fed only when feeding would have an effect, similar to other animals.
+
+
+=== Jockey ===
+15% of nearby baby zombies, husks, or drowned may ride an adult untamed mule to form a jockey.
+
+
+== Statistics ==
+
+Mules have three "equine stats" that vary from mule to mule: health, (maximum) movement speed, and jump strength. These stats are created once the mule is born or spawned, and are not affected by food.
+
+
+=== Spawned values ===
+When spawned in any way except breeding – for instance, using commands or using spawn eggs – mules are assigned their stats within certain ranges, specific according to their horse type.
+
+
+==== Health ====
+A mule's health ranges from 15–30, but tends toward the average of 22–23. Displayed hearts are health, divided by two, rounded down. A mule with a non-even number of health points (15, 17, 19, etc.) does not show the last half-heart. So if a mule has 15 health (), its health bar displays only 14 health (). And if the mule took 3HP damage, it would have 12 health left , but it would seem like it took 2HP because the bar would show 2 points of damage.
+
+
+==== Movement speed ====
+Spawned mules' speed is always 0.175; the player's normal walking speed is 0.1. Bred mules have speed between 0.1125 and 0.3375 based on their parent's speeds, like all other horse breeding. See Horse § Movement speed.
+See transportation to compare the speeds of various transportation methods.
+
+
+==== Jump strength ====
+Spawned mules' jump strength is usually 0.5, which is enough to clear 1 9⁄16 blocks. Jump strengths between 0.4 and 1.0 can be found in bred mules, depending on the statistics of the parents (as explained later).
+
+
+=== Bred values ===
+When breeding a horse and a donkey, the baby's stats are determined by a variation of the average of both parents' stats, randomly determined as horses' stats are.
+
+
+== Usage ==
+
+Tamed and saddled mules can be used as a means of transportation in the game. Mules float on water when being controlled by a player.
+Mules can be equipped with chests and used as pack animals. They can be pulled along and tied up using a lead.
+
+
+=== Equipment ===
+
+Tamed mules have the following slots available:
+
+ Saddle slot: for equipping a saddle.
+ An additional 15 inventory slots, provided the mule has been equipped with a chest.
+A saddle can be equipped on a mule by holding it and then using on the mule, or by accessing its inventory. A mule's inventory can be accessed by mounting the mule and using inventory control, or by sneaking and then using or pressing the "open inventory" button ‌[Bedrock Edition  only] on the mule. The saddle can be removed by either removing it from the mule's inventory or by using shears on the mule.
+A mule starts out with just a saddle slot, but if it is given a chest, it acquires 15 more inventory slots that can hold any items. Chests can be given to a mule by using it with the chest in hand, and the chest cannot be removed except by killing the mule. Upon death, the mule drops the attached chest and its contents.
+Baby mules cannot be equipped with anything.
+
+
+=== Riding ===
+
+Once a mule is tamed and saddled, the player can control it with standard directional controls, jump, and the mouse. The player dismounts using the dismount control. 
+A ridden saddled mule automatically runs up any one block high slope. The mule and rider can safely fit through a space as low as 2.75 blocks high. Lower clearance risks suffocating the rider if the rider's head enters a non-transparent block. The mule itself can enter gaps as low as 1.625 blocks high, but may itself take suffocation damage when clearance is less than 1.75 blocks. Mules cannot fit through a 1-block-wide gap.
+In Bedrock Edition, it is impossible for a player to use a nether portal or end portal while on a mule. In Java Edition, staying mounted allows the player to transit the portal instantly, skipping the portal delay that is normally incurred on foot.
+The maximum speed of mules varies between 4.86 blocks/second and 14.57 blocks/second (compared to the player's walking speed, which is about 4.3 blocks/second). Any mule spawned with its spawn egg always has a speed of 7.56 blocks/second, which is slower than a minecart at full speed. Mules are slow-moving backward, and about as fast as the player when moving sideways.
+Ridden saddled mules have the ability of "jumping charging". When the player rides them, the experience bar on HUD is replaced by jumping charging bar. A ridden saddled mule can be made to jump and holding the control charges for a higher leap. Mules are not affected by jump boost beacons or potions.
+
+
+== Sounds ==
+Mules share the same sounds as donkeys.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Mules have entity data associated with them that contain various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Mule" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+A "mule" specifically refers to the offspring of a male donkey (jack) and a female horse (mare). The offspring of a female donkey (jenny) and a male horse (stallion) is called a "hinny". However, because mules are much more common than hinnies, "mule" can colloquially refer to any donkey-horse hybrid.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang images ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== See also ==
+Donkey
+Horse
+Zombie Horse
+Skeleton Horse
+Llama
+
+
+== References ==
+
+
+== Navigation ==

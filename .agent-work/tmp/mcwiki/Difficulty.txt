@@ -1,0 +1,163 @@
+Difficulty is an option in Minecraft that has a direct impact on the ease of gameplay, allowing the game's challenges to be tailored to the player's skill level.
+
+
+== World settings ==
+
+There are four difficulty levels in the game: Easy, Normal, Hard and Peaceful. These can be changed when creating a world, in the world options, as well as with the /difficulty command.
+While the difficulty settings modify the challenge in Survival mode, they also affect hostile mobs in Creative mode the same as in Survival; for example:
+
+Most hostile mobs cannot spawn naturally in Creative Peaceful.
+Zombies have the same difficulty-dependent chances as in Survival to convert villagers into zombie villagers (0% in Creative Easy, 50% in Creative Normal, 100% in Creative Hard).
+Hostile mobs killed by mob grinders in farms drop higher-value items in Creative Hard.
+Survival mode is affected by difficulty as described in the sections below. 
+
+
+=== Peaceful ===
+No hostile mobs can spawn naturally, except for shulkers and the ender dragon, all of whom no longer deal any damage. No spiders, cave spiders, zombified piglins, endermen, drowned, skeleton horses, zombie horses,‌[BE  only], or camel husks– neutral/passive rather than hostile mobs – can spawn naturally. In Java Edition, zombie nautiluses can only naturally spawn inside of ocean ruins, and their other spawning conditions are disabled.
+When any of these mobs attempt to spawn (whether naturally, through monster spawners, spawn eggs, or commands), they despawn instantaneously, with no visible spawning.
+All mobs that can spawn (such as shulkers, piglins, zombie nautiluses, polar bears, or wolves) are completely peaceful and unable to harm the player, with the exception of the ender dragon, which still targets players and deals knockback. Additionally, sculk shriekers do not give the Darkness effect because they can't spawn the warden, and most neutral mobs are passive.
+When the difficulty is switched from any other setting to Peaceful, all mobs that are not allowed to spawn on Peaceful despawn. Players regain health rapidly over time. Despite this, it is still possible to die if damage is received quickly enough. TNT deals no direct damage to the player, but it does give knockback still, meaning a player can be indirectly killed by it via fall damage if it launches them too far upward.
+The hunger bar never depletes; in Java Edition, players therefore cannot eat anything except golden apples, chorus fruits, milk buckets, honey bottles, and suspicious stew, unless the player switched to Peaceful when their hunger bar was below the maximum. Players can eat normally in Bedrock Edition. Additionally, if the hunger bar is below the maximum, it regenerates quickly.
+
+The monsters that spawn naturally, which are ender dragons, piglins, shulkers, zombie nautiluses, hoglins,‌[BE  only] and killer bunnies,‌[JE  only] all become passive, with the exception of the ender dragon, which still attacks the player but deals no damage or knockback. Zombie horses also spawn naturally in Java Edition, due to a bug.
+If a player is in a village with Raid Omen and the effect ends, the raid is not triggered as raiders cannot spawn in peaceful difficulty.
+Because of the gameplay changes and the absence of many mob types, many blocks and items are unavailable to the player. A list can be found at Non-renewable resource#Peaceful difficulty. In addition, the player is unable to get many advancements and achievements. 
+Dispensers are unable to place wither skeleton skulls even if the required blocks for summoning a wither are available.
+One major effect of the lack of certain resources is that it is impossible to acquire the resources required to craft eyes of ender, which are necessary to activate End portals. However, it is possible to switch to a non-Peaceful difficulty, let blazes and endermen spawn, kill enough for crafting eyes of ender, and switch back to Peaceful. It is also possible for an end portal to be activated by naturally generating with an eye of ender already embedded within all 12 end portal frames. For any given end portal, there is a 1 in a trillion chance of this happening.
+However, because of the huge number of possible seeds, over 8 million seeds are known to generate such end portals.
+
+
+=== Easy ===
+Hostile mobs spawn, but they deal 1⁄2 of the damage they would on Normal difficulty plus 1HP or the same damage they would on Normal difficulty, whichever is lower. The hunger bar can deplete, damaging the player until 10HP remain if it drains completely. Cave spiders and bees cannot poison players on Easy difficulty, and the wither does not cause the Wither effect, although wither skeletons do. Lightning sets only the struck block on fire, not surrounding blocks. Zombies do not break down doors, and do not turn villagers into zombie villagers. Zombies and skeletons do not spawn wearing full sets of armor. Hostile mobs like zombies, skeletons, spiders, husks, and strays deal about 1HP or 2HP damage.
+If a player is in a village with Raid Omen and the effect ends, it triggers a raid that consists of 3 waves (4 waves if a player with a Raid Omen effect that is higher than one level enters a village).
+
+
+=== Normal ===
+Hostile mobs spawn and deal standard damage. The hunger bar can deplete, damaging the player until 1HP health remains if it drains completely. Zombies do not break down doors, but villagers killed by zombies have a 50% chance of turning into zombie villagers. Zombies and skeletons rarely wear sets of enchanted armor. Vindicators can break doors.
+If a player is in a village with Raid Omen and the effect ends, it triggers a raid that consists of 5 waves (6 waves if a player with a Raid Omen effect that is higher than one level enters a village).
+
+
+=== Hard ===
+
+Hostile mobs deal approximately 11⁄2 times the damage they would deal on Normal difficulty, and in some cases drop higher-value items when killed. The hunger bar can deplete, not only damaging but also killing the player if it drains completely. Zombies and zombified piglins‌[JE  only] can break through wooden and copper doors and can spawn reinforcements when attacked. In Java Edition, spiders can spawn with a beneficial status effect (Speed, Strength, Regeneration, or Invisibility), with these effects having an infinite duration. Villagers killed by zombies always turn into zombie villagers. In Bedrock Edition, if the world type isn't infinite, pillagers deal 4HP damage, instead of 5HP.
+If a player is in a village with Raid Omen and the effect ends, it triggers a raid that consists of 7 waves (8 waves if a player with a Raid Omen effect that is higher than one level enters a village).
+
+
+=== Hardcore mode ===
+
+While in the world creation screen, selecting Hardcore from among the game mode options causes the player to spawn in Hard difficulty, does not allow it to be changed, and allows the player only one life. In a single player world, a player who dies can choose to respawn in Spectator mode or return to the title screen. In multiplayer, upon death, the player's game mode is automatically set to Spectator mode.
+The only way to change the difficulty of Hardcore is to use an .NBT editor on the world's level.dat file.
+
+
+== Moon phase ==
+The phase of the moon affects the spawning of slimes in swamp biomes, and also contributes to the calculation of regional difficulty. Fuller moon phases have a larger effect.
+The moon does not actually have to be visible in the sky for this effect to apply, since the moon phase exists during daytime and across dimensions.
+
+For regional difficulty, the moon phase contribution is capped by the daytime contribution. In other words, the moon contributes min(MoonPhase × 0.25, DaytimeFactor), so before 63 in-game days (1512000 game ticks) even a full moon does not yet give its full bonus.
+
+
+== Regional difficulty ==
+ 
+Regional difficulty or local difficulty is a value between 0.00 and 6.75 that the game calculates by considering the world difficulty setting, the inhabited time of a chunk, the total daytime in the world, and the phase of the moon. This value is shown on the debug screen as the first value listed after the heading "Local Difficulty". This value determines several aspects of the difficulty of gameplay (see below).
+The inhabited time of a chunk increases for each tick a player spends with the chunk loaded. This is a cumulative measure of time—if 50 players spend a single hour in a chunk, it counts the same as if one player spent 50 hours there. The effect of inhabited time on regional difficulty is capped at 50 hours.
+The total daytime in the world is the value from /time query daytime added to the "Day" on the F3 debug screen converted to ticks, i.e. daytime + (dayNumber * 24,000). This is not the same as the actual playtime in the world (the value from /time query gametime). It affects the regional difficulty after the first 3 in-game days, and has no additional effect after 63 in-game days.
+In pseudocode, the calculation of regional difficulty is:
+
+# DaytimeFactor, ChunkFactor, MoonFactor, and RegionalDifficulty are floating-point variables
+# MoonPhase is as in the table above.
+
+if (difficulty is Peaceful) return 0
+
+if (TotalDaytime > 63 in-game days) DaytimeFactor = 0.25
+else if (TotalDaytime < 3 in-game days) DaytimeFactor = 0 
+else DaytimeFactor = (TotalDaytimeInTicks − 72,000) / 5,760,000
+
+if (ChunkInhabitedTime > 50 hours) ChunkFactor = 1
+else ChunkFactor = ChunkInhabitedTimeInTicks / 3,600,000
+
+if (difficulty is Normal or Easy) multiply ChunkFactor by 0.75
+
+MoonFactor = min(MoonPhase × 0.25, DaytimeFactor)
+ChunkFactor += MoonFactor
+
+if (difficulty is Easy) multiply ChunkFactor by 0.5
+
+RegionalDifficulty = 0.75 + DaytimeFactor + ChunkFactor
+
+if (difficulty is Normal) multiply RegionalDifficulty by 2
+if (difficulty is Hard) multiply RegionalDifficulty by 3
+
+return RegionalDifficulty
+
+The raw regional difficulty therefore is always 0.0 on Peaceful and ranges from 0.75 to 1.5 on Easy, 1.5 to 4.0 on Normal, and 2.25 to 6.75 on Hard.
+
+
+=== Clamped regional difficulty ===
+ 
+The clamped regional difficulty (also known as special multiplier) is a value between 0.00 and 1.00 based on regional difficulty. This value is shown on the debug screen as the second value listed after the heading "Local Difficulty". This is yet another value that affects the difficulty of gameplay (see below).
+The regional difficulty value is clamped as follows:
+
+if (RegionalDifficulty < 2.0) value = 0.0;
+else if (RegionalDifficulty > 4.0) value = 1.0;
+else value = (RegionalDifficulty − 2.0) / 2.0;
+
+Thus, on Easy, where regional difficulty is never higher than 1.5, the clamped value is always zero. On Normal, where regional difficulty is between 1.5 and 4.0, the clamped value can be anywhere from 0.0 to 1.0. On Hard, where the regional difficulty is never lower than 2.25, the clamped value is always at least 0.125.
+On Normal, the clamped regional difficulty reaches its maximum value of 1.0 only after 63 in-game days (1512000 game ticks), in a fully inhabited chunk, during a full moon. On Hard, after 63 in-game days, the clamped regional difficulty reaches 1.0 in chunks inhabited for 4 1⁄6 hours during a full moon; on lower moon phases it reaches 1.0 later, and once a chunk has been inhabited for more than 16 2⁄3 hours it remains at 1.0 regardless of moon phase.
+
+
+== Effects ==
+
+
+=== Mob damage ===
+
+The damage mobs deal to players is affected by the difficulty setting of the world they are in. The values below represent the amount of damage taken per hit.
+
+For most attacks, the damage is scaled as follows: if a mob deals D damage on Normal difficulty, then it deals 1.5D on Hard difficulty and min(D, 0.5D+1) on Easy difficulty.
+A mob attacking another mob always deals its Normal difficulty damage regardless of the current difficulty setting.
+The values for a creeper, ghast, sulfur cube with TNT, and wither assume the player is directly adjacent to the respective explosion.
+The damage of slimes and magma cubes depends on their size. Tiny slimes, while hostile, are unable to inflict damage directly.
+The warden gives Darkness to nearby players, and elder guardians give Mining Fatigue, but these are not attacks. Players simply receive these effects when in range of the mobs.
+
+
+=== Other effects ===
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Difficulty" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== See also ==
+Health
+Hunger
+Gameplay
+Tutorial:Gathering resources on Peaceful difficulty
+
+
+== Navigation ==

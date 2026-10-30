@@ -1,0 +1,171 @@
+Enchantments are properties that modify certain items by enhancing their existing effects or granting additional ones. Enchanted items usually display an animated glint.
+
+
+== Obtaining ==
+Enchanting table
+
+An enchanting table can be used to enchant unenchanted items at the cost of lapis lazuli and experience levels, or for free in Creative.
+Only one of the three random offered enchantments can be selected, however there is a chance for additional enchantments to also be applied. The quality of the enchantments increase with their experience cost and the number of nearby bookshelves, with the effect of bookshelves maxing out at 15.
+Anvil
+
+An anvil can be used to combine two items and their enchantments, which can be two items of the same type, or an item and an enchanted book. This combines the list of enchantments, keeping the higher level of duplicate enchantments, or upgrading duplicate enchantments of the same level to the next higher.
+Combining items in an anvil costs experience levels; the amount depends on the enchantments of the sacrificed item, and the number of times the items have been used in an anvil, except for Creative, where anvils are free.
+Trading
+
+Some villagers sell enchanted equipment or books. Armorer, fisherman, fletcher, toolsmith, and weaponsmith villagers sell enchanted tools, weapons, or armor with non-treasure enchantments. Librarian villagers sell enchanted books that can have almost any enchantment, including most treasure enchantments, but excluding the Soul Speed, Swift Sneak, and Wind Burst enchantments.
+Bartering
+
+Piglins can trade enchanted books or iron boots with a random level of Soul Speed when given gold ingots.
+Fishing
+
+Enchanted books, bows, and fishing rods can be obtained from fishing up treasure loot.
+Mob drops
+
+Some mobs can spawn with enchanted weapons or armor, which have a chance of 8.5%‌[Java Edition  only]/25%‌[Bedrock Edition  only] + 1% per level of Looting to drop if the mob is killed by a player or tamed wolf.
+Generated loot
+
+Most structures that contain loot chests have a chance of generating enchanted books or items.
+Creative
+
+Enchanted books for all levels of all enchantments can be found in the Creative inventory.
+Commands
+
+Commands such as /give can give a player enchanted items, and /enchant can directly apply enchantments to the item held in the main hand.
+
+
+== Behavior ==
+Effects
+The effects of enchantments vary significantly. Some enchantments increase protection against specific types of damage, others increase damage dealt to certain classes of mobs. Some enchantments grant unique abilities such as summoning a lightning bolt or turning water into ice blocks. See § List of enchantments.
+
+Level
+Many enchantments have multiple levels. Generally, the higher the level, the more potent the enchantment's effects are. Levels are stylized as Roman numerals (I, II, III, IV, V, ...). The minimum level of any enchantment is I; the maximum level depends on the enchantment. In Java Edition, for effects that only have level I, no number is shown. Commands such as /give can be used to ignore the normal limit and obtain enchantments with levels 0–255, though the effectiveness of levels higher than the intended one varies by enchantment. See § Maximum effective values for enchantments.
+
+Incompatibilities
+Some enchantments are incompatible with one another. It is not possible to receive conflicting enchantments from an enchanting table or to find generated loot with conflicting enchantments. Combining items in an anvil loses the sacrificed item's conflicting enchantments. /enchant refuses to add conflicting enchantments, though other commands, such as /give, can force conflicting enchantments onto the same item with varying results to their effects.
+
+Conflicting enchantments
+Sword, Axe, Spear: Sharpness, Smite, and Bane of Arthropods
+Tool: Fortune and Silk Touch
+Armor: Protection, Fire Protection, Blast Protection, and Projectile Protection
+Boots: Depth Strider and Frost Walker
+Bow: Infinity and Mending
+Crossbow: Multishot and Piercing
+Trident: Loyalty and Riptide; Channeling and Riptide
+Mace: Density, Breach, Smite, and Bane of Arthropods
+Book: Sharpness, Density, and Breach; all conflicts above
+Primary and secondary items
+An enchantment's primary items are the items that can receive the enchantment from an enchanting table. The secondary items are the ones that that cannot receive the enchantment from an enchanting table but can still have it applied with an enchanted book in an anvil.
+
+Treasure
+Treasure enchantments cannot be obtained through an enchanting table, and are never found on natural equipment worn by mobs or on enchanted items traded by villagers. Most treasure enchantments, however, can be generated on enchanted books sold by librarians. If a treasure enchantment is tradable, it has double the emerald-price, up to the stack size, compared to a non-treasure enchantment of the same level.
+Soul Speed, Swift Sneak, and Wind Burst can only be obtained in specific structures or through a specific game mechanic. 
+
+Curse
+Curse enchantments apply negative modifiers to items and cannot be removed once applied. Attempting to disenchant an item with curse enchantments removes all other enchantments, except for the curse enchantments.
+
+
+== Disenchanting ==
+Enchantments can be removed from an item by moving it through a grindstone or combining it with another item in a grindstone or crafting grid. These methods of disenchanting items do not remove curse enchantments.
+
+
+== List of enchantments ==
+
+
+=== Descriptions ===
+Max Level: Maximum level that can be obtained without commands.
+Primary Items: The items that can receive the enchantment from an enchanting table. Items of any material can be enchanted, though some more easily than others.
+Secondary Items: Items that cannot receive the enchantment from an enchanting table but can from an enchanted book with an anvil.
+
+
+=== Summary of enchantments by item ===
+The table below shows which enchantments can be applied to particular items.
+
+The tables below show which enchantments can be obtained through an enchanting table, and which can only be applied through an anvil.
+
+ indicates the item can receive the enchantment from an enchanting table.
+ indicates the item cannot receive the enchantment from an enchanting table, but can receive the enchantment by using an anvil to combine the item with an enchanted book or another enchanted item.
+
+
+== Maximum effective values for enchantments ==
+Using commands such as /give, items can be enchanted with levels 0–255, though the effectiveness of levels higher than the intended one varies by enchantment.
+All enchantments have some effective range in which they scale normally, and for enchantments where that is not the entire 0–255 range, all levels outside it are treated as the closest level in the range unless otherwise specified.
+
+
+== Data values ==
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Sounds ==
+Java Edition
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Enchanting", "Enchantment", or "Enchanted" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+== Trivia ==
+Enchantments on items are always listed in the same order on their tooltips, that being: Curse of Binding, Curse of Vanishing, Riptide, Channeling, Wind Burst, Frost Walker, Sharpness, Smite, Bane of Arthropods, Impaling, Power, Density, Breach, Piercing, Sweeping Edge, Multishot, Fire Aspect, Flame, Knockback, Punch, Protection, Blast Protection, Fire Protection, Projectile Protection, Feather Falling, Fortune, Looting, Silk Touch, Luck of the Sea, Efficiency, Quick Charge, Lure, Respiration, Aqua Affinity, Soul Speed, Swift Sneak, Depth Strider, Thorns, Loyalty, Unbreaking, Infinity, and Mending.
+
+
+== See also ==
+Enchanting/Levels
+Tutorial:Best enchantments guide
+Brewing
+Crafting
+Smelting
+Enchanting mechanics
+Anvil mechanics
+
+
+== References ==
+
+
+== External links ==
+Getting Started with Enchantments in Minecraft – Minecraft Help Center
+All Enchantments in Minecraft – Minecraft Help Center
+
+
+== Navigation ==

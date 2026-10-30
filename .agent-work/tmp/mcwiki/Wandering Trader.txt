@@ -1,0 +1,162 @@
+A wandering trader is a passive mob similar to villagers that sometimes spawns near players, alongside two trader llamas tied to it with leads. It can be traded with, buying commonly available resources and selling items mostly native to specific biomes. Its trades are randomized each time it spawns, and it will despawn after enough time has passed.
+
+
+== Spawning ==
+Wandering traders spawn randomly with two leashed trader llamas in the Overworld near the player, in any biome including single biome worlds using Nether and End biomes, and the only exception being the void biome, controlled by the #minecraft:without_wandering_trader_spawns biome tag in Java Edition.  They typically spawn within a 48-block centered box of a player.  In Bedrock Edition, they also try to spawn by a claimed bell in a village.
+When the world is created (or updated from an older version), a counter is initialized to 24000 ticks (20 real-life minutes, or 1 Minecraft day). Each minute (1200 ticks), if spawn_wandering_traders is set to true,‌[Java Edition  only] the counter is decreased by 1200. When the counter reaches 0 it is reset to 24000 and an attempt may be made to spawn a wandering trader, unless the game rule spawn_mobs‌[JE  only] or domobspawning‌[BE  only] is set to false.
+When the counter is equal to 0 or lower for the first time, there is a 25% chance of making the attempt, which increases to 50% the second time and 75% thereafter until a trader is spawned, or no player is found for the attempt, where it will then be reset to 25%. If a player is found, then there is a 10% chance for a wandering trader to spawn. In summary, when the counter is equal to 0 or lower, the total chance that a trader will spawn will be either 2.5%, 5%, or 7.5%, with the chance getting higher each time a spawn attempt fails.
+When attempting a spawn, a random player is selected as the target location. If there is a bell within 48 blocks of the player, then the nearest such bell is used as the target location instead. Ten attempts are then made to find a valid mob spawning location. This is made on the uppermost block of a random X/Z position within -48/+47 of the target location on each axis. In Java Edition, the game uses the highest Y-level "surface" block for these attempts, so the wandering trader will not spawn inside enclosed caves. If spawning the trader succeeds, an additional ten attempts are made for each of two trader llamas to find a position within -4/+3 of the trader in Java Edition. In Bedrock Edition, the trader always spawns together with its llamas on the same block. Wandering traders and their llamas can still spawn if the passive mob cap is full.
+In Bedrock Edition, when using spawn eggs or the /summon command to spawn a wandering trader, llamas always spawn with it. Furthermore, wandering traders never spawn if /mobevent minecraft:wandering_trader_event is set to false.
+
+
+=== Despawning ===
+In Java Edition, a wandering trader despawns after being within both render distance and simulation distance for 48000 ticks (40 minutes, or 2 full Minecraft days), although ticks spent with the trading UI open are not counted. In Bedrock Edition, a wandering trader despawns after being loaded for either 48000 ticks (2 full Minecraft days) or 72000 ticks (3 full days) and the nearest player is more than 24 blocks away from it. In Bedrock Edition, wandering traders also immediately despawn if all trades are used up and the nearest player is more than 24 blocks away.
+Unlike most mobs, naming the wandering trader with a name tag and/or placing it in a boat/minecart does not prevent it from despawning. This also includes wandering traders as passengers of other mobs in Java Edition, where it still despawns if summoned on top of another mob.
+When a wandering trader is unloaded, either by moving into unloaded chunks or entering another dimension, its despawn timer freezes.
+In Java Edition, wandering traders spawned via /summon, spawn eggs or spawners have a default DespawnDelay value of 0, meaning they do not despawn after 48000 ticks.
+
+
+== Behavior ==
+After spawning, the wandering trader prefers to wander within 16 blocks of the initial spawning target location, even if that player leaves, if not otherwise reacting to nearby players or mobs.[verify for Bedrock Edition]
+Wandering traders drink a potion of Invisibility during dusk and as needed to renew the effect during the night. They also drink milk if invisible during the day to remove the Invisibility effect.
+Wandering traders avoid zombies and their variants (zombie villagers, husks, drowned, zombified piglins, zoglins), all illager variants (pillagers, vindicators, evokers, illusioners‌[Java Edition  only]), ravagers, and vexes, staying at least 8 blocks away. Unlike villagers, a wandering trader killed by zombies does not become a zombie villager. Witches do not attack wandering traders during raids.
+Wandering traders drink potions of Invisibility if hurt by magic attacks or projectiles from hostile mobs (but not players), or when avoiding illagers, vexes, and zombies.‌[BE  only] 
+When attacked by a player, a wandering trader flees from the player as a villager would do. The trader llamas, however, attack the player by spitting if they or their master get hit, except in Peaceful. The llamas stop attacking if the player is killed and respawns, if the llamas are leashed after the wandering trader is killed, or if the player gets far enough away from them for a short period of time. 
+The wandering trader can sometimes form a caravan, due to wild llamas that follow the leashed trader llama(s).
+Despite their similarities to villagers, attacking or killing wandering traders does not anger iron golems.
+Like villagers and witches, wandering traders do not visually sit down when riding entities such as boats and minecarts.
+In Bedrock Edition, when a player holds an emerald or other item near a wandering trader who wants that item, the wandering trader holds up an item it offers in exchange, similar to villagers.
+
+
+== Trading ==
+
+The trading system is a gameplay mechanic that allows players to buy and sell items, in this case from a wandering trader.
+Pressing the use control on the wandering trader allows a player to view the different trade offers, similar to a villager. Different offers are visible in a list, and clicking on one of the offers moves the corresponding items to the slots above the player's inventory. All offers involve emeralds as a currency.
+Wandering traders typically sell items generated in the world or otherwise related to nature, such as plants, dyes, and buckets of fish. They can also trade less common items, such as coral blocks, blue ice, or nautilus shells. Overall, trades offered by wandering traders offer a way to obtain biome-specific materials, without having to travel to the specific biomes. They will also buy a select few items from the player, giving emeralds in return.
+After the player uses the same trade several times, the wandering trader locks the trade, but unlike villagers, never unlocks the trade. The wandering trader can appear again around the player with new trades after a while.
+In Bedrock Edition, wandering traders show available items once the player holds the required item, similar to villagers.
+Wandering traders do not have the novice-master trading system like villagers. Instead, the player can buy anything from the wandering trader without the need of unlocking the previous trades.
+Wandering traders do not increase the prices of its items being sold if attacked by the player, but does decrease the price if the player has the Hero of the Village effect in Bedrock Edition.
+Unlike villagers, wandering traders do not have an experience bar or career levels, and do not modify their offers or prices based on changing demand. This (the trade items or prices) can be changed by the player by editing the corresponding NBT data flag through the use of the /data‌[JE  only] command.
+Wandering traders are the only renewable source of sand, red sand, coral blocks, small dripleaves, and ice crystals​[upcoming: Fourth Drop 2026] without glitches.
+The wandering trader cannot work at a job site block and restock, even when summoned with a villager profession or other villager data.
+
+
+=== Trade offers ===
+The wandering trader offers nine trades in total, always consisting of two purchase trades, two special trades, and five ordinary trades.
+These trades in each of these groups are not divided into categories; for example, a single wandering trader can sell 2 different saplings. Each individual trade is equally likely.
+In the trading GUI, the trade offers are always listed in this order:
+
+2 purchase trades
+2 special trades
+5 ordinary trades
+
+‌In Java Edition 26.4 and Bedrock Edition 26.70​[upcoming], wandering traders can also sell:
+
+2 icicles for 1 emerald; with 5 trades in stock (ordinary trade)[verify for Bedrock Edition]
+1 ice crystal for 2 emeralds; with 5 trades in stock (ordinary trade)
+
+
+== Drops ==
+A milk bucket (8.5%‌[JE  only]/25%‌[BE  only] chance, increased by 1% per level of Looting) if killed while holding or before finishing drinking.
+A potion of Invisibility (8.5%‌[JE  only]/25%‌[BE  only] chance, increased by 1% per level of Looting) if killed while holding or before finishing drinking.
+Any trade listed above (25% chance, increased by 1% per level of Looting) if killed while showing the item. For example, killing a wandering trader that holds an emerald while the player holds a fermented spider eye, the wandering trader may drop 3 emeralds.‌[Bedrock Edition  only]
+A wandering trader is also a source of leads, as it typically spawns with two leashed trader llamas. These leads break and drop (at the location of the llama) if either trader or llama dies, if they are separated, or if the player uses shears to snip the lead(s). Shearing the wandering trader has no effect. The leads can only be sheared off the llamas. Lead connections can also be broken if the trader or llama enters a boat (or minecart). Unless the said mobs enter the same boat at the same time, the lead is always broken. 
+Wandering traders do not drop any loot or experience when killed (except for the consumables mentioned above).
+Wandering traders reward experience after a successful trade. ‌[Bedrock Edition  only]
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Wandering traders have entity data associated with them that contains various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Wandering Trader" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The wandering trader was inspired by traveling merchants from various RPGs, specifically ones that appeared to provide players with healing items in dangerous places. It especially resembles the Travelling Merchant from Terraria.
+Wandering traders display their held items differently than most creatures do, using the "ground" parameter instead of the usual hand parameter in model display settings.
+The "Drop 3 of 2026" experiment in Bedrock Edition referred to the abandoned camps as "the wandering trader's hidden stashes".
+The next Preview changed this to "the abandoned camps".
+If listened closely, the hurt and death noises of the wandering trader contain villager hurt and death noises.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Concept artwork ===
+
+
+=== Recreations ===
+
+
+=== Screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== See also ==
+The Traveling Trader, a DLC map themed around wandering traders
+
+
+== References ==
+
+
+== External links ==
+"Meet the Wandering Trader"     by Per Landin  – Minecraft.net, March 22, 2019.
+
+
+== Navigation ==

@@ -1,0 +1,182 @@
+A dispenser is a low-capacity storage block that can fire projectiles, use certain items and tools, as well as place certain blocks, fluids, or entities when given a redstone signal. Items that do not have unique dispenser functions are instead ejected into the world like a dropper.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Dispensers can be mined using a pickaxe, in which case it drops itself and its contents. If mined without a pickaxe, the dispenser drops only its contents.
+
+
+=== Natural generation ===
+Jungle temples
+
+Two dispensers are naturally generated in every jungle temple.
+Trial chambers
+
+Several dispensers can generate inside trial chambers with random items from a loot table.
+
+
+=== Crafting ===
+
+
+== Usage ==
+A dispenser can be used as a container and as a redstone component that dispenses items when activated, with results varying based on the item dispensed. For example, the trap in a jungle pyramid incorporates arrows inside a dispenser, which shoots the arrows when activated. 
+To place a dispenser, use it while pointing at a surface adjacent to the space it should occupy. A dispenser can be placed so that its output faces any direction, always facing the direction of the player placing it.
+In Java Edition, dispensers cannot be moved by pistons.
+
+
+=== Container ===
+
+A dispenser has 9 slots of inventory space.
+To open the dispenser GUI, use the Use Item control. To move items between the dispenser inventory and the player inventory or hotbar while the dispenser GUI is open, drag or shift-click the items. To exit the dispenser GUI, use the ⎋ Escape control.
+By default, the GUI of a dispenser is labeled "Dispenser". A dispenser's GUI label can be changed by naming the dispenser in an anvil before placing it, or by using the /data command.‌[Java Edition  only] For example, to label a dispenser at (0,64,0) "My Dispenser", use /data merge block 0 64 0 {CustomName:'"My Dispenser"'}
+A dispenser can be "locked" by setting the dispenser's lock tag. If a dispenser's lock tag is not blank, the dispenser cannot be accessed except by players holding an item that matches the item predicate in the lock tag. A dispenser's lock tag can be set or unset with the data command. For example, to lock a dispenser at (0,64,0) so that only players holding an item named "My Key" can access the dispenser, use /data merge block 0 64 0 {lock:{components:{"custom_name":"My Key"}}}
+
+
+=== Redstone component ===
+
+A dispenser can be used to dispense a randomly selected item out of the ones it contains.
+
+
+==== Activation ====
+A dispenser is a redstone mechanism and can be activated by:
+
+an adjacent active power component: for example, a redstone torch (except that a redstone torch does not activate a dispenser it is attached to), a block of redstone, a daylight sensor, etc.
+an adjacent powered conductive block (for example, a block with an active redstone torch under it)
+a powered redstone repeater or redstone comparator facing the dispenser
+powered redstone dust configured to point at the dispenser, or on top of it, or a directionless "cross" next to it; a dispenser is not activated by adjacent powered redstone dust that is configured to point in another direction.
+Some of these methods can activate a dispenser (in the sense of triggering an action) without powering the dispenser (in the sense of whether the dispenser can power adjacent redstone dust, etc.).
+In addition to the methods above, a dispenser can also be activated by quasi-connectivity.‌[Java Edition  only] A dispenser becomes activated if one of the methods above would activate a mechanism component in the block above the dispenser, even if there is no mechanism component there (even if the block above the dispenser is air or a non-conductive block), but only when the dispenser receives a block update (including a redstone update within two blocks of the dispenser). 
+A dispenser has a 4 game tick (0.2 seconds, barring lag) delay between activation and a response. During this time, additional inputs are ignored.
+In Bedrock Edition, the dispenser can only activate on the input/consumer redstone tick (C-tick).
+
+
+==== Behavior ====
+When activated, a dispenser waits for 4 game ticks (0.2 seconds, barring lag) and then ejects one item. The dispenser does not continue to eject items while activated; ejection occurs only on the initial activation (the rising edge of an input signal). To eject multiple items, repeatedly activate the dispenser with a clock circuit.
+If multiple slots are occupied by items, a random occupied slot is chosen for ejection. The slot is chosen when an item is ejected, not when the dispenser is initially activated; thus it is possible to move items into or out of a dispenser between its activation and item dispensing.
+The effects of being activated vary with the type of ejected item. Most items are thrown in the direction the dispenser is facing as if a player had used the Drop Item control. Other items behave differently when dispensed, as described in the table below. In general, a dispenser cannot place blocks into the world, aside for a few exceptions, such as shulker boxes, powder snow, and certain cases where the placed block would do something unusual. When a dispenser uses an item that has durability, such as flint and steel and shears, the item's durability decreases.
+Unlike a dropper, a dispenser can't push items inside another container.
+
+When a dispenser dispenses an item, it emits a clicking sound (unless the item is a projectile or a spawn egg) and a smoke particle. If it is empty when activated, it emits a slightly higher-pitched click. The noise of a dispenser can be heard up to 16 blocks away.
+A dispenser is a conductive block, so powering it directly can cause adjacent mechanism components (including other dispensers) to activate as well.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A dispenser has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Historical images ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Dispenser" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+A dispenser was shown inside a minecart in one of the Java Edition 1.5 teaser images, although this was never added to the game.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Some other blocks can also be used to move items:
+
+Droppers can throw items or push them into adjacent containers.
+Hoppers can push items into adjacent containers.
+Ice, packed ice, and blue ice have reduced friction to the item entity movement.
+Slime blocks can impart velocity to item entities when pushed by a piston.
+Water can push item entities.
+Quasi-connectivity applies to dispensers.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Dispenser"     by Duncan Geere  – Minecraft.net, March 16, 2018.
+
+
+== Navigation ==

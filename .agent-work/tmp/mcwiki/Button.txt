@@ -1,0 +1,110 @@
+A button is a non-solid block that produces a temporary redstone signal and powers its attached block when pressed by a player or a wind charge. The material a button is made of affects how long it remains pressed and whether it can be pressed by other means.
+
+
+== Variants ==
+Wooden Button
+Oak Button
+Spruce Button
+Birch Button
+Jungle Button
+Acacia Button
+Dark Oak Button
+Mangrove Button
+Cherry Button
+Pale Oak Button
+Poplar Button
+Bamboo Button
+Crimson Button
+Warped Button
+Stone Button
+Polished Blackstone Button
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+The crafting recipe is the same for all types and variants of buttons, using a single matching plank, stone, or polished blackstone block to craft the matching button.
+
+
+=== Natural generation ===
+Oak buttons can generate inside trial chambers next to dispensers with random surprises or loots. In Java Edition, stone buttons can generate inside strongholds next to iron doors. Jungle buttons generate naturally on house walls in desert villages. Stone buttons can also generate in desert villages, in armorer houses attached to granite.
+
+
+== Usage ==
+
+
+=== Redstone power ===
+
+A button can be used as a monostable power source (it automatically deactivates shortly after being activated).
+A stone button stays on for 20 ticks (1 second), while a wooden button stays on for 30 ticks (1.5 seconds).
+
+
+==== Placement ====
+Buttons can be placed by using it on a surface.
+They can be attached to the side, bottom and top of any full opaque block.
+
+
+==== Behavior ====
+Buttons are usually in an inactive state, but can be temporarily activated by players. A button can be activated by using it.
+While active, a button:
+
+powers any adjacent redstone dust to power level 15, including beneath the button (if the button attaches to a vertical surface, or to the bottom of a block)
+powers any adjacent redstone comparators or redstone repeaters facing away from the button to power level 15.
+strongly powers its attachment block to power level 15.
+powers the block of air that it occupies, which in turn is able to power any adjacent redstone components, seemingly sending its power through the air.
+activates any adjacent mechanism components, including above or below, such as pistons, redstone lamps, etc.
+When a button changes state it provides a redstone update to all redstone components adjacent to itself (including above and below), and to all redstone components adjacent to its attachment block.
+
+
+=== Breaking ===
+A button is removed and drops as an item if:
+
+its attachment block is moved, removed, or destroyed.
+water or lava flows into its space.‌[Java Edition  only]
+a piston tries to push it or moves a block into its space.
+
+
+== Block states ==
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Button" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+During Minecraft Live 2021, a copper button was announced to be implemented along with the copper golem if it won. Although it didn't win, the copper golem was eventually added, but the copper button was not.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== References ==
+
+
+== Navigation ==

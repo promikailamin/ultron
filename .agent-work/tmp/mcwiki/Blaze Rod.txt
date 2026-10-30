@@ -1,0 +1,68 @@
+A blaze rod is an item obtained by killing blazes. It is required to craft brewing stands and blaze powder, which is required to fuel brewing stands and craft eyes of ender.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Fuel ===
+When used in a furnace, a blaze rod lasts 120 seconds (12 items).
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Blaze Rod" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+As part of an official collaboration, blaze rods are included in a free add-on for the roleplaying game Dungeons and Dragons. In the game, they are worth 100 gold pieces, create light, and can be broken to create an explosion.
+
+
+== References ==
+
+
+== Navigation ==

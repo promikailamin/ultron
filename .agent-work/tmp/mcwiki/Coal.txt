@@ -1,0 +1,82 @@
+Coal is a mineral item mainly obtained from coal ore. It is primarily used for crafting torches and campfires, in addition to being used as fuel.
+
+
+== Obtaining ==
+
+
+=== Mining ===
+Coal ore when mined using a pickaxe drops 1 piece of coal. If the pickaxe is enchanted with Fortune, it may drop an extra piece per level of Fortune, up to a maximum of 4 with Fortune III.
+
+
+=== Mob loot ===
+
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Smelting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Fuel ===
+When used in a furnace as a fuel, a piece of coal lasts 80 seconds (smelting up to 8 items), like charcoal. Coal used as fuel lasts more than 5 times longer than wood planks or wood logs used as fuel, being more efficient than any other use of wood for smelting in Java Edition, but outlasted by wooden slabs in Bedrock Edition. Though when smelting large amounts of items, converting the coal into a Block of Coal is even more efficient since 1 block of coal is made out of 9 coal but lasts 10 times as long as coal. 
+Coal and charcoal are also the only fuels accepted by furnace minecarts. They provide three minutes of transit each.
+
+
+=== Trading ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Coal" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

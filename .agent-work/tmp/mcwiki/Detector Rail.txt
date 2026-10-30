@@ -1,0 +1,116 @@
+The detector rail is a type of rail that produces a redstone signal while a minecart is on it.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+The suitable tool to break detector rail is pickaxe.
+
+Detector rail drops itself when it's destroyed.
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+== Usage ==
+To place a detector rail, use a detector rail item while pointing at a surface facing the space the detector rail should occupy.
+A detector rail can be placed on top of any block whose top face has a rim around the edge, such as any full block, hopper, top slab, upside-down stairs, or top trapdoor. A full list of compatible blocks can be found here.
+If a detector rail is updated while on an opened top trapdoor, the rail breaks and drops as an item. Placing a minecart on a detector rail on top of a closed and unpowered trapdoor opens the trapdoor and updates the rail, causing the detector rail to break. If the top trapdoor is powered and closed when the minecart is placed, the trapdoor does not open so the rail does not break. The minecart on the detector rail then powers the trapdoor, meaning the external power source can be removed without causing the trapdoor to change state and break the rail.
+When placed, a detector rail configures itself to line up with any adjacent rails (including activator rails, powered rails, and other detector rails), as well as adjacent rails one block up. If there are two adjacent rails on non-opposite sides, or three or more adjacent rails, a detector rail lines up in the east-west direction. If there are no adjacent rails, a detector rail lines up in the north-south direction (but if a rail is later placed to the east or west, the detector rail re-orients itself in the east-west direction even if it is already connected to another rail to the north or south). If a rail it would line up with is one block up, a detector rail slants upward toward it (with multiple options to slant upward to, a detector rail "prefers", in order: west, east, south, and north). Other configurations can be created by placing and removing various rails.
+Mobs avoid walking across a detector rail (or other rails), but can be pushed onto them.
+
+
+=== Rail ===
+
+Detector rails (and other rails) act as "roads" for minecarts. A minecart that enters a detector rail's space from either end of the detector rail continues to move, losing only a little velocity (which can then be increased again with powered rails). A minecart that enters a detector rail's space from the side turns east or south (depending on the detector rail's orientation), or in the downward direction for a slanted detector rail.
+
+
+=== Redstone component ===
+
+A detector rail becomes powered when any part of any minecart's bounding box comes into contact with it. Every 20th game tick after the rail first becomes powered, it checks whether any minecart is still present and depowers if there are none in contact at that time. This means that the duration of the signal is always a multiple of 20 game ticks (10 redstone ticks). While powered, a detector rail:
+
+sets adjacent redstone dust to power level 15
+activates adjacent redstone repeaters facing away from the detector rail
+activates adjacent redstone comparators facing away from the detector rail to a level corresponding to the fullness of the minecart if it is a minecart with chest or a minecart with hopper
+strongly powers the block supporting the detector rail if that block is conductive
+activates any adjacent mechanism components, including above or below, such as pistons, redstone lamps, powered rails, hoppers, etc.
+
+If the minecart on the detector rail is a minecart with chest or minecart with hopper, an adjacent redstone comparator facing away from the detector rail outputs a power level proportional to the container's fullness, possibly power level 0. For any other type of minecart (including a regular minecart with a mob riding it) the comparator's output is zero. If multiple minecarts are on the detector rail, the comparator reads only the minecart that was placed first.
+A comparator can read the contents of a minecart with hopper or with chest on a detector rail through a solid opaque block, as it can with other container blocks.
+
+
+=== Mob interaction ===
+Like other types of rails, mobs avoid walking on detector rails, with the exception of spiders, cave spiders, and wardens.
+
+
+=== Piston interactivity ===
+Detector rails can be pushed by pistons, and can be pulled by sticky pistons. However, a detector rail breaks and drops as an item when it becomes unsupported as a result of being moved.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Detector Rail" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== See also ==
+Rail
+Activator Rail
+Powered Rail
+
+
+== References ==
+
+
+== Navigation ==

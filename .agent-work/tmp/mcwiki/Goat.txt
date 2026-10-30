@@ -1,0 +1,173 @@
+A goat is a neutral mob found in certain mountainous biomes. It can jump especially high and is milkable. Goats occasionally ram other mobs and players, and cannot be provoked. Ramming into certain blocks causes a goat horn to drop from an adult goat if it has any.
+
+
+== Spawning ==
+Groups of two to three goats spawn above stone, gravel, packed ice, or snow blocks on snowy slopes, jagged peaks, and frozen peaks at the surface. Goats spawn individually and more uncommonly after the world generation. 5% of all goats spawn as babies.
+When a goat is spawned naturally, or through breeding normal goats, it has a 2% chance of being a screaming‌[JE  only] goat or a screamer‌[BE  only] goat. They look identical to all other goats, but they make different sounds and ram more often.
+Screaming‌[JE  only]/screamer‌[BE  only] goats can also be obtained with the following commands:
+In Java Edition: /summon minecraft:goat ~ ~ ~ {IsScreamingGoat:1b}
+In Bedrock Edition: it requires two commands if spawned as a normal goat:
+
+/summon goat
+/event entity @n[type=goat] minecraft:born_screamer
+Adult goats have a 10% chance to be missing one of their horns upon spawning. If this chance succeeds, either the left or the right horn is removed (chosen randomly with an equal chance for each).
+
+
+== Drops ==
+
+
+=== On death ===
+Adult goats drop 1–3XP when killed by a player or tamed wolf. Killing a baby goat yields no items or experience.
+
+
+=== Breeding ===
+1–7XP is dropped upon successful breeding.
+
+
+=== Goat horns ===
+
+An adult goat that has at least one horn on its head will lose one of them and drop a goat horn if it charges into any of the following solid blocks: stone, coal ore, copper ore, iron ore, emerald ore, logs, or packed ice. In Java Edition, these blocks are listed under the #snaps_goat_horn tag, and can be modified using a data pack. 
+Baby goats never drop goat horns. However, in Java Edition, it's possible to remove a baby's horns using a command, like /summon minecraft:goat ~ ~ ~ {Age:-1,HasLeftHorn:0b,HasRightHorn:0b,AgeLocked:1}. 
+There are four horn variants for normal goats ("Ponder", "Sing", "Seek", and "Feel"), and four horn variants that only screaming goats drop ("Admire", "Call", "Yearn", and "Dream"). Goats do not regrow their horns; therefore, up to two horns can be dropped per goat, or one horn if the goat spawned with only one horn. The two horns of the same goat are always of the same variant.
+
+
+== Behavior ==
+When left to wander, goats tend to ascend hills and mountains rather than keep to lowlands. Their behavior is marked by jumping high and by opportunistically ramming non-moving mobs.
+Goats take 10HP less fall damage and avoid walking into powder snow. Goats do not get hurt by pointed dripstone if they fall on it from a minimum of six blocks, and don't die from pointed dripstone if they fall on it from a minimum of ten.
+
+
+=== Jumping ===
+A goat usually jumps when trying to cross an obstacle like a small hole in the ground or powder snow. It lowers its head, then it leaps up to 10 blocks vertically and up to 5 blocks laterally. Once a goat jumps this way, it cannot do it again for 30 to 60 seconds. A goat also never voluntarily jumps more than 5 blocks down, although a goat can be pushed off a higher cliff by another mob or a piston.
+
+
+=== Ramming ===
+
+Every 30 seconds to 5 minutes, a goat tries to ram a single unmoving target it can see within a range of 4–16 blocks. They can target players, armor stands,  cameras,‌[BE & edu  only] and any mob except for ghasts and other goats. A charging goat locks on to its target's position, lowers its head, stomps, and speeds toward the target. If the charge connects, it deals 1HP to 3HP damage (depending on difficulty) and 9 blocks of knockback to its target, possibly resulting in a damaging or even fatal fall.
+As a goat lowers its head, its target has the chance to move out of the way. If a goat misses, it stops itself within a couple blocks, unless it hits a solid block first. If a goat rams a hard block that can be found naturally in its environment or an overworld log, it will drop one of its horns.
+Mobs do not retaliate to being rammed, except for piglins, piglin brutes, hoglins, zoglins, "Johnny" vindicators, withers and wardens.
+If a goat rams against a zombified piglin, all nearby other zombified piglins will come to its aid to help it and will attack the goat who impacted the zombified piglin.‌[Bedrock Edition  only]
+Goats don't target players in Creative mode or any players in Peaceful difficulty. However, they still attempt to ram players in Creative if they switched from Survival mode when the ram cooldown has ended and were already targeted before the switch.[check the code] Unlike most neutral mobs, goats do not attack the player if the player attacks it and do not call for backup if harmed.
+Baby goats deal a knockback of 4.5 blocks. A screaming goat tries to ram a valid target every 5 to 15 seconds.
+When the player holds wheat in their hand, the goat that was preparing to ram something stops preparing to ram and starts walking up to the player.
+
+
+=== Milking ===
+An adult goat can be milked by using a bucket on it, yielding a milk bucket. Screaming goats make a distinct sound when this happens. 
+
+
+=== Breeding ===
+
+Goats follow players that are within ten blocks who are holding wheat. If adult goats are fed wheat, they enter love mode and breed, granting one to seven experience orbs. The growth time of a baby goat can be accelerated by 10% each time it is fed wheat.
+If a standard goat is bred with a screaming goat, there is approximately a 50% chance the resulting baby is a screaming goat. If both goats are screaming, there is a 100% chance in Java Edition and a 98% chance in Bedrock Edition that the baby is a screamer goat. With two normal parents, there is a 2% chance of a baby goat being a screaming goat.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Normal ===
+The goat's fourth death sound is its first ambient sound but lower pitched.
+The goat's fourth ramming preparation sound was originally used for the Horned Sheep's third ramming sound but was edited to remove footstep sound effects.
+The goat's fifth death sound and first hurt sound are the same, but differently pitched.
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Screaming/Screamer ===
+The goat's third hurt sound and its first ramming preparation sound are the same, but pitched differently; the former is pitched higher than the latter.
+The goat's second ramming preparation sound is its fifth ambient sound but higher pitched.
+The goat's fourth ramming preparation sound is its second ramming preparation sound (regular goats) but heavily edited.
+The goat's first and third ramming preparation sounds are its first ramming preparation sound but heavily edited.
+The goat's fifth ramming preparation sound is its fourth ramming preparation sound (regular goats), but heavily edited.
+The goat's first idle sound is its third death sound but slightly edited.
+The goat's second death sound is its second death sound (regular goat), but heavily edited.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Goats have entity data associated with them that contain various properties.
+Java Edition:
+
+Bedrock Edition: 
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Goat" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Real-life goats cannot have their horns break off without sustaining significant cranial damage. The behavior of Minecraft's goat horns more closely resemble real-life deer antlers, which, unlike goat horns, are not part of the animal's skull.
+The model for goats was made in Blockbench.
+While named goats, they most closely resemble mountain goats, relatives that aren't true goats. The sounds for Minecraft goats were, however, recorded from real domestic goats.
+In early development versions of Bedrock Edition 1.19.0, goats could be eaten by frogs.
+
+
+== Gallery ==
+
+
+=== Renders ===
+The baby states can only be obtained with commands. 
+
+
+=== Screenshots ===
+
+
+=== Concept artwork ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Mob Menagerie: Goat"     by Duncan Geere  – Minecraft.net, August 29, 2022.
+"The Legend of the Screaming Goat"     by Sofia Dankis  – Minecraft.net, May 25, 2021.
+
+
+== Navigation ==

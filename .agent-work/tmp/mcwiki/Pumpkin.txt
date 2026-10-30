@@ -1,0 +1,127 @@
+A pumpkin is a block found in patches in grassy biomes or grown from pumpkin seeds, which it can also be crafted into. Using shears on a pumpkin carves a face into it and drops pumpkin seeds.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Pumpkins can be mined using any tool, but axes are the quickest way.
+
+When a pumpkin is pushed by a piston, it breaks and drops as an item. It cannot be pulled.
+
+
+=== Natural generation ===
+Pumpkins naturally generate with the terrain in most biomes in the Overworld in the form of random patches. They require only grass blocks with air above (clear of any plants such as flowers or short grass), and can generate regardless whether that grass block has a layer of snow cover. Practically speaking, this means that the occurrence of pumpkins in stony or sandy biomes, or in grassy biomes with few clear grass blocks, is comparatively rare. Each chunk has a 1⁄300 chance to generate a pumpkin patch. 
+Pumpkins naturally generate in stem farm rooms in woodland mansions.
+4 pumpkins generate naturally in woolen tents in pillager outposts.
+Pumpkins generate naturally as a pile (and in some farms) in taiga and snowy taiga‌[BE  only] villages.
+Pumpkins also generate in abandoned camps.
+
+
+=== Mob loot ===
+An enderman holding a pumpkin drops the block upon death.
+In Bedrock Edition, wandering traders have a chance of 25% (increased by 1% per level of Looting) to drop 1 pumpkin when killed while showing the item as trade offer, if the player holds an emerald.
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+Wandering traders may sell a pumpkin for 1 emerald.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Farming ===
+
+Pumpkin farming strategies parallel those of melons. Planted pumpkin seeds grow a central stem that, after maturing, generates pumpkins randomly on adjacent vacant dirt-based blocks (dirt, coarse dirt, rooted dirt, grass block, farmland, podzol, mycelium, moss block, pale moss block, mud, or muddy mangrove roots). If a pumpkin is harvested without also cutting the central stalk, another pumpkin generates afterward without requiring replanting or waiting for the stalk to mature again.
+Pumpkin stems take around 10 to 30 minutes to fully develop. They require a light level of 9 or higher to grow. Bone meal can also be used on pumpkin stems to become fully-grown, but this does not produce a pumpkin immediately.
+
+
+=== Carving ===
+A placed pumpkin can be made into a carved pumpkin by using shears, which drops 4 pumpkin seeds in Java Edition and 1 in Bedrock Edition. The targeted side becomes the face of the carved pumpkin, unless the top or bottom face of the pumpkin are targeted, in which case the carved side is on the side facing the player‌[JE  only] or south‌[BE  only].
+
+
+=== Trading ===
+
+
+=== Composting ===
+Placing a pumpkin or carved pumpkin into a composter has a 65% chance of raising the compost level by 1.
+Since both pumpkin variants have equal compost values, carving pumpkins first and composting the additional Pumpkin Seeds can increase Bone Meal yield per pumpkin. 
+
+
+=== Navigation ===
+Similar to sunflowers, which always face east, the stalk on the top of a pumpkin always points northwest.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Pumpkin" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

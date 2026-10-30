@@ -1,0 +1,217 @@
+A piston is a block capable of pushing most entities and blocks when given a redstone signal. 
+Some blocks cannot be moved, break when pushed or have other interactions with pistons. A piston can move up to twelve blocks at once.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A piston can be broken using any tool with equal efficiency, and always drops itself.
+It is faster to break them with a pickaxe. The pickaxe is also the preferred tool for breaking the head when extended.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Redstone component ===
+Pistons are always placed facing toward the player. When powered, the piston's wooden surface (the "head") tries to start extending after a start delay. The extension takes 2 game ticks (0.1 seconds) to finish. When it extends, it pushes at most 12 blocks. The piston makes a sound that can be heard within a 31×31×31 cube centered on the activating piston. Any entities in the path of an extending piston (or any block it might be moving) are pushed along, when possible. If the entities cannot be moved, the block is pushed inside them, suffocating mobs when pushed into their eye height (assuming said block is solid).
+When a piston loses power, its head retracts. Like the extension, the retraction starts after a start delay and takes 2 game ticks (0.1 seconds) to finish.
+In Java Edition, a piston that is de-powered during the extension process aborts its extension and starts to retract (assuming it can detect the signal change). Any block which was being pushed by that piston continues to move as if the piston was still pushing it.
+A piston that pushes a slime block bounces any entity that it displaces in the direction the piston is facing. Entities on top of a moving honey block, or any other moving block,‌[BE  only] will also move with it. In addition, when a slime block or a honey block is moved by a piston, any movable block adjacent (not diagonally) to it also moves. See § Sticky blocks for more details.
+In Bedrock Edition, blocks that require a support (such as levers) can be placed on the back or sides of a piston without being destroyed when that piston extends. In Java Edition, on the other hand, the majority of blocks that require a support are only safe to place on the back of pistons.
+In Bedrock Edition, comparators can read the fullness of containers through pistons, despite them not being conductive.
+
+
+=== Powering pistons ===
+
+Pistons can be activated from any side, excluding from the head. 
+In Bedrock Edition, redstone dust gets automatically redirected toward pistons if placed next to them (except for the head's side).
+
+
+==== Start delay ====
+A piston won't extend or retract immediately when it is activated: this phenomenon is known as "start delay".
+
+In Java Edition, the start delay can be 0 (activation in the same tick) or 1 game tick (0.05 seconds) (activation in the next tick) depending on the game process in which the piston is powered:
+
+If the piston is powered and updated in the scheduled tick phase, random tick phase or block event phase, the piston activates in this game tick's block event phase, which means the start delay in this case is 0.
+If the piston is powered and updated during the entity phase or the block entity phase, or by player actions, the piston activates in the next game tick's block event phase, which means the start delay in this case is 1 tick. Notably, because blocks pushed by pistons arrive during the block entity phase (except when dropped by a sticky piston), in a chain of pistons each pushing a redstone block to activate the next, successive activations will happen 3 ticks apart.
+In Bedrock Edition, the start delay is fixed at 2 game ticks (0.1 seconds), meaning that the piston starts to extend or retract 2 game ticks after it is activated. Pistons can only activate on the input/consumer redstone tick (C-tick).
+
+
+==== Quasi-Connectivity ====
+
+Pistons can be powered from one block above compared to most redstone components: this property is called quasi-connectivity (QC). With quasi-connectivity, a piston facing up can also be powered from the head's direction, which is otherwise impossible. Due to quasi-connectivity, a piston facing up that has a block of redstone on top of itself can extend but not retract: this happens because after the piston extends, it keeps receiving power from the redstone block.
+Quasi-connectivity can be used to make a BUD switch, taking advantage of the fact that a piston powered through QC doesn't always get immediately updated.
+
+
+==== Soft inversion ====
+
+When a piston that has a redstone torch attached to it is powered, the redstone torch turns off, and when said piston is depowered, the redstone torch turns back on: this property is called soft inversion. Since soft inversion works even if the piston is being powered indirectly through a block, it can be used to toggle the state of a redstone torch from farther away compared to other powering methods. It's still possible to take advantage of soft inversion even if the piston cannot extend or retract.
+
+
+=== Sticky blocks ===
+
+Slime and honey blocks are sticky: when either block is moved by a piston, adjacent (non-diagonal) blocks stick to and move with it. For example, a slime block sitting on the ground attempts to move the ground block underneath itself, which in turn has to push additional ground blocks in the direction of motion just as if they were being pushed directly by a piston. The same occurs when a sticky block is moved by another adjacent sticky block of the same kind. For example, a 2×2×2 cube of honey blocks may be pushed as a single unit by a piston acting on any of the blocks in the cube. Any block that cannot be moved or can be broken by a piston does not stick to sticky blocks. However, if an adjacent block could be moved but is prevented from being moved by the presence of an immovable block, the sticky block is prevented from moving as well, and the piston does not extend.
+Slime and honey blocks do not stick to each other. This allows redstone contraptions to use alternating slime and honey blocks side by side without interfering with each other.
+Slime and honey blocks' stickiness is unilateral. They can't be pulled by a non-sticky piston, and they are not moved if an adjacent (non-sticky) block is moved by a piston. The maximum of 12 blocks moved by a piston still applies. For example, a 2×2×3 structure of slime blocks may be pushed by a piston as long as no other movable block is adjacent to it. A piston cannot move itself via a "hook" constructed of sticky blocks, but flying machines can be created with multiple pistons.
+Glazed terracotta and the heavy core‌[BE  only] do not stick to adjacent slime or honey blocks, even though they can be pushed by pistons.
+
+
+=== Sculk detection ===
+Pistons emit vibrations detectable by sculk sensors. A calibrated sculk sensor tuned to signal strength 10 detects piston retraction; strength 11 detects extension; strength 12 detects a block broken by a piston.
+
+
+== Limitations ==
+Pistons cannot push:
+
+Blocks listed as such in the table below.
+Blocks into the void or above the build limit.
+More than 12 blocks at once.
+In Java Edition, blocks beyond the world border.
+If the requirements for a block to be pushed are not met, the piston will not extend.
+
+Pistons cannot move blocks that require a support block, as they break and drop as an item (when applicable). There are however some exceptions, listed down below.
+
+
+===== Exceptions =====
+Carpets: since they consider all blocks excluding air as valid supports, moving carpets with pistons without them breaking is fairly easy.
+A carpet can even stay on top of a moving block without breaking.
+Rails: they can be moved as long as they remain on top of a block's full face (if it has one) in their new position. Once the piston finishes to push or pull the rail, the block below can only be a moving block if its collision box is at the final position, otherwise the rail does not consider it a valid support.
+When the rail and the block supporting it are on two vertically parallel extending pistons, the rail doesn't break. Trying to move the rail and its support block with perpendicular pistons causes the rail to break (although in Java Edition, due to the bug MC-75716,  it visually appears to not break). In Java Edition, the piston moving the block can be powered 1 block event after the piston moving the rail in order for the rail to be moved reliably without breaking.
+Rails re-orient themselves after being pushed, similar to when placed manually.
+Dead coral and dead coral fans: in Java Edition, they can be pushed similarly to how rails can; however in some situations the coral will both break and get moved by the piston, emitting block updates at its original position.
+This mechanic is frequently used in TNT dupers.
+
+
+== Technical components ==
+
+Pistons have 2 technical blocks that cannot be obtained. These include the piston head and moving piston blocks.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition (piston):
+
+Bedrock Edition (arm):
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+The piston block uses following block states:
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+
+In Bedrock Edition, a piston has a block entity associated with it that holds additional data about the block.
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+==== Legacy Console Edition ====
+
+
+== Issues ==
+Issues relating to "Piston" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Mojang stated that the 12-block push limit for pistons would not be changed, because "the current limitations are by design".
+Carpets can be placed on top of moving blocks.
+In Java Edition, it is impossible for a piston's extended arm to fit inside its base block. The models overlap on the inside in a way that violates standard spatial logic if you look at the raw block boundary dimensions
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== Concept artwork ===
+
+
+=== In other media ===
+
+
+== See also ==
+Slime block
+Redstone
+Tutorial:Piston uses
+Tutorial:Headless pistons
+Mechanics/Redstone/Piston circuits
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Piston"     by Duncan Geere  – Minecraft.net, October 13, 2017.
+
+
+== Navigation ==

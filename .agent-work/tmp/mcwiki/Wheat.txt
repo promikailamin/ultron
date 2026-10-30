@@ -1,0 +1,99 @@
+Wheat is an item primarily obtained by harvesting fully-grown wheat crops. It is used for crafting as well as to feed certain animals.
+
+
+== Obtaining ==
+
+
+=== Farming ===
+
+When a fully-grown wheat crop is harvested, it drops 1 wheat and 1 to 4 wheat seeds (2 5⁄7 per crop harvested on average). A wheat crop has a total of eight stages (0-7) from the time it is planted until it can be harvested. If a crop is harvested before it is fully grown, it just drops one seed. Wheat needs a light level of at least 9 to grow in Java Edition, while in Bedrock Edition it needs an internal light level of 9; a seed is destroyed if planted without light.‌[Java Edition  only] Harvesting with a Fortune-enchanted tool increases the number of seeds dropped but does not increase the yield of wheat.
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+A fox sometimes spawns holding wheat, which it drops upon death. Alternatively, the player can drop a food item, causing the fox to drop the wheat.
+
+
+== Usage ==
+
+
+=== Animal food ===
+
+When wheat is held, it causes nearby cows, sheep, goats and mooshrooms to follow the player, until either the player stops holding the wheat or goes too far away from the animal, thus causing them to lose interest.
+Wheat may be used to breed cows, sheep, goats, and mooshrooms by first herding two of them together and then using the wheat on them to begin "Love Mode."
+Wheat can heal a horse 1HP health or lower its temper by 3% when attempting to tame it. It can also decrease the time it takes for a foal to grow by 20 seconds. In Java Edition, due to a bug, skeleton horses (in their hostile state; being ridden by skeletons) can also be fed wheat.
+Similarly, wheat can heal a llama 2HP health, and it decreases the time it takes a baby llama to grow by 10 seconds.
+
+
+=== Crafting ingredient ===
+
+
+=== Trading ===
+
+
+=== Composting ===
+Placing wheat into a composter has a 65% chance of raising the compost level by 1. A stack of wheat yields an average of 5.94 bone meal.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Wheat" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Mojang images ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Wheat"     by Duncan Geere  – Minecraft.net, April 21, 2022.
+
+
+== Navigation ==

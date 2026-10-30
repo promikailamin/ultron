@@ -1,0 +1,82 @@
+Sugar is a food ingredient and brewing ingredient made from sugar cane or honey bottles.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Crafting ===
+
+
+=== Compound creation ===
+Sugar can be created from its base elements, using the compound creator.‌[Bedrock Edition and Minecraft Education  only]
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Brewing ingredient ===
+
+
+=== Horses ===
+Sugar can be fed to horses to heal 1HP, speed growth by 30 seconds, and increase taming probability by 3%. In Java Edition, due to a bug, skeleton horses (in their hostile state; being ridden by skeletons) can also be fed sugar.
+
+
+== Achievements ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Trivia ==
+According to Education Edition, the chemical formula of Minecraft sugar is C6H12O6; while this could make it any number of simple sugars, it confirms it is not actually sucrose (common table sugar).
+
+
+== Issues ==
+Issues relating to "Sugar" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Sugar"     by Duncan Geere  – Minecraft.net, January 27, 2022.
+
+
+== Navigation ==

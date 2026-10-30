@@ -1,0 +1,187 @@
+A log or stem is a naturally occurring block found in trees or huge fungi, primarily used as a building block and to create planks, a versatile crafting ingredient. There are currently ten types of logs: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak and poplar; and two types of stems: crimson and warped.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Logs and stems can be broken by hand, but using an axe is faster. Logs and stems drop themselves when broken with any tool.
+
+
+=== Natural generation ===
+All types of logs generate naturally as part of trees, although fallen trees can only contain oak, spruce, birch, jungle, or poplar. Azalea trees are generated with oak logs. Additionally, one jungle log generates for each jungle bush. Stems generate naturally as part of huge fungi.
+In addition to trees:
+
+Oak
+Oak logs generate as part of:
+
+Plains villages
+Swamp huts
+Mineshafts
+Shipwrecks‌[Java Edition  only]
+Trial chambers
+Abandoned camps in flower forests and forest
+Spruce
+Spruce logs generate as part of:
+
+Taiga and snowy plains villages
+Shipwrecks‌[Java Edition  only]
+Jungle
+Jungle logs generate as a part of:
+
+Shipwrecks‌[Java Edition  only]
+Abandoned camps in bamboo jungles and sparse jungles
+Acacia
+Acacia logs generate as a part of:
+
+Savanna villages
+Abandoned camps in savannas
+Dark Oak
+Dark oak logs generate as part of:
+
+Pillager outposts
+Badlands mineshafts
+Woodland mansions
+Ancient cities
+Shipwrecks‌[Java Edition  only]
+Mangrove
+Mangrove logs generate as part of trial chambers.
+
+Birch
+Birch logs generate as part of abandoned camps in birch forests, flower forests, and forests.
+
+Cherry
+Cherry logs generate as part of abandoned camps in cherry groves.
+
+Pale Oak
+Pale oak logs generate as part of abandoned camps in pale gardens.
+
+Poplar
+Poplar logs generate as part of abandoned camps in dappled forests.
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+Wandering traders can sell 8 logs for one emerald.
+
+
+=== Mob loot ===
+In Bedrock Edition, wandering traders have a chance of 25% (increased by 1% per level of Looting) to drop 8 available logs when killed while showing the item as trade offer, if the player holds an emerald.
+
+
+=== Post-generation ===
+
+
+==== Logs and stems ====
+Trees can be grown using saplings or azalea, and huge fungi can be grown using small Nether fungi.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+==== Further crafting ====
+The following table presents the amount of logs or stems needed to produce an even multiple of a given item with no waste left over, and the quantity produced:
+
+
+=== Smelting ingredient ===
+
+Stems cannot be smelted into charcoal.
+
+
+=== Fuel ===
+Logs, but not stems, can be used as a fuel in furnaces, smelting 1.5 items per block.
+
+
+=== Stripping ===
+Using an axe on a log or stem strips it, turning it into a stripped log or a stripped stem, which act the same as regular logs or stems.
+
+
+=== Cocoa beans ===
+Cocoa beans can be placed on the side of jungle logs to grow a new cocoa pod.
+
+
+== Sounds ==
+
+
+=== Cherry ===
+
+
+=== Stems ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Oak Log", "Spruce Log", "Birch Log", "Jungle Log", "Acacia Log", "Dark Oak Log", "Mangrove Log", "Cherry Log", "Pale Oak Log", "Poplar Log", "Crimson Stem", or "Warped Stem" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+ 
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+=== In other media ===
+
+
+== Navigation ==

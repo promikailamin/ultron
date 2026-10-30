@@ -1,0 +1,86 @@
+A bone is an item primarily obtained from skeletons and similar mobs. It can be crafted into bone meal and used to tame wild wolves.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+=== Fishing ===
+Bones can be obtained by fishing, as part of the junk category. The best chance of catching a bone is achieved without the Luck of the Sea enchantment, yielding a 1.1% chance.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+A bone can be crafted into 3 bone meal.
+
+
+=== Taming ===
+Using a bone on a wild wolf has a 1⁄3 chance of taming it. Bones cannot tame a hostile wolf or a wolf that has already been tamed. However, bones can be used to attract the attention of already tamed wolves.
+
+
+=== Helmet ===
+
+While a bone cannot be equipped in the head slot in Survival mode, equipping it compulsorily by using commands causes it to appear in the player's mouth.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Bone" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== See also ==
+Bone Meal
+Wolf
+
+
+== External links ==
+"Taking Inventory: Bone"     by Duncan Geere  – Minecraft.net, December 21, 2019.
+
+
+== Navigation ==

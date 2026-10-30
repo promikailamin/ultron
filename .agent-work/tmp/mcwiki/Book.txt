@@ -1,0 +1,102 @@
+A book is an item that can be used as a crafting material or to store enchantments in a form that can be applied to any valid item using an anvil.
+
+
+== Obtaining ==
+
+
+=== Block loot ===
+Three books are dropped when a bookshelf is broken without using Silk Touch or fire.
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Grindstones ===
+Disenchanting an enchanted book at a grindstone yields a normal book and a small amount of experience (unless the enchanted book has Curse of Binding or Curse of Vanishing on it).
+
+
+=== Villager gifts ===
+In Java Edition, librarian villagers throw books at players under the Hero of the Village effect.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Chiseled bookshelf ===
+Using the chiseled bookshelf while having a book in the main hand puts the book inside the chiseled bookshelf.
+
+
+=== Enchanting ===
+Books can be made into enchanted books by enchanting them on enchanting tables.
+
+
+=== Trading ===
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Book" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== See also ==
+Enchanted Book
+Knowledge Book
+
+
+== References ==
+
+
+== Navigation ==

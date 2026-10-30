@@ -1,0 +1,187 @@
+Redstone dust (or simply redstone) is a mineral used in crafting, brewing, and trimming, as well as being used as a placeable wire.
+Redstone wire is a non-solid block that can transmit a redstone power signal up to 15 blocks in distance; signal strengths below 15 have reduced distance. Redstone wire can power blocks it is placed on or pointing at.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Redstone dust is immediately destroyed when broken.
+Redstone dust is removed and drops as an item if:	
+
+its attachment block is moved, removed, or destroyed
+water or lava flows into its space
+a piston tries to push it or moves a block into its space
+
+Redstone dust drops itself when destroyed.
+
+
+=== Mining ===
+
+Redstone ore mined using an iron pickaxe or higher drops 4 or 5 redstone dust (or more with Fortune, averaging at 6 redstone dust with Fortune III). If mined with Silk Touch, the block drops itself instead of redstone dust. When the ore itself is clicked on/touched, it emits a light level of 9 and glows.
+
+
+=== Natural generation ===
+15 lengths of redstone dust are naturally generated as part of the trap in each jungle pyramid. 5 lengths of redstone dust can be found in one type of a jail cell room in a woodland mansion. In ancient cities, multiple pieces of redstone dust can be found integrated into circuitry. 1 piece of redstone dust can be found in the "Encounter 4" room in trial chambers.
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+Redstone dust can be crafted from blocks of redstone.
+
+
+=== Smelting ===
+
+
+=== Trading ===
+
+
+=== Villager gifts ===
+
+In Java Edition, when the player has the Hero of the Village status effect, clerics might throw that player a redstone dust as a gift.
+
+
+== Usage ==
+Redstone dust is used for brewing, crafting, and in redstone circuits by placing it on the ground to create redstone wire. It can also be used to power redstone components.
+
+
+=== Brewing ingredient ===
+
+
+=== Crafting ingredient ===
+
+
+=== Smithing ingredient ===
+
+Trim color palette
+The following color palette is shown on the designs on trimmed armor:
+
+
+=== Redstone component ===
+When placed in the world, redstone dust becomes a block of redstone wire, which can transmit redstone signal.
+
+
+==== Placement ====
+
+Redstone dust can be placed on conductive blocks as well as glowstone, upside-down slabs, glass, upside-down stairs, and hoppers. It can also be placed on some non-conductive blocks; see Opacity/Placement for more information.
+Redstone wire configures itself to point toward adjacent redstone power components and transmission component connection points. Redstone wire also configures itself to point toward adjacent redstone wire one block higher or lower – unless there is a conductive block above the lower redstone wire.
+If there is only one such adjacent redstone component, redstone wire configures itself into a  line pointing both at the neighbor and away from it. If there are two or more such adjacent components, redstone wire connects them in the form of , , , or  as needed.
+When there are no adjacent components, a single redstone wire configures itself into a  plus sign, which can provide power in all four directions. By right-clicking, it can be changed into a  dot, which does not provide power to any of the four directions.‌[Java Edition  only]
+Redstone wire does not automatically configure itself to point toward mechanism components; the only exceptions are the back and side faces of pistons and sticky pistons in Bedrock Edition. If such a configuration is desired, the other neighbors of the redstone wire must be arranged to create it, i.e the redstone dust must be placed in a way that it would be pointed at the block’s location even if it were not there.
+When redstone wire is reconfigured after placement, it does not update other redstone components around it of the change unless that reconfiguration also includes a change in power level or another component provides an update. This can create situations where a mechanism component remains activated when it shouldn't, or vice versa, until it receives an update from something else – a "feature" of redstone wire that can be used to make a block update detector.
+
+
+==== Behavior ====
+
+Redstone wire can transmit power, which can be used to operate mechanism components (doors, pistons, redstone lamps, etc.).
+Redstone wire can be "powered" by a number of methods:
+
+from an adjacent power component or a strongly-powered block
+from the output of a redstone repeater or redstone comparator
+from adjacent redstone wire. The powering dust can be a level higher or lower, but with restrictions:
+Redstone dust can be powered by redstone dust that is one level lower, or on a conductive block one level higher. A non-conductive block cannot‌[Java Edition  only] pass power downward.
+The block "between" the two dust blocks must be air or non-conductive. A conductive block there "cuts" the connection between the higher and lower dust.
+The "power level" of redstone dust can vary from 0 to 15. Most power components power-up adjacent redstone dust to power level 15, but a few (daylight sensors, trapped chests, and weighted pressure plates) may create a lower power level. Redstone repeaters output power level 15 (when turned on), but redstone comparators may output a lower power level.
+
+Power level drops by 1 for every block of redstone wire it crosses. Thus, redstone wire can transmit power for no more than 15 blocks. To go further, the power level must be re-strengthened – typically with a redstone repeater.
+Powered redstone wire on top of, or pointing at, a conductive block provides weak power to the block. A weakly-powered block cannot power other adjacent redstone wire, but can still power redstone repeaters and comparators, and activate adjacent mechanism components. Non-conductive blocks cannot be powered.
+When redstone wire is unpowered, it appears dark red. When powered, it becomes bright red at power level 15, fading to darker shades with decreasing power. Powered redstone wire also produces "dust" particles of the same color.
+While redstone wire always provides power to the directions it points into, it can still point into directions in which it cannot give power. If redstone wire comes in the form of a cross, the player can right-click to toggle it between a cross and dot. A redstone dot does not power anything adjacent to it, but powers the block under it.
+
+
+=== Piston interactivity ===
+Redstone dust is destroyed when a piston tries to push it. It can't be pulled by sticky pistons.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Redstone", "Redstone dust", or "Redstone wire" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The block has 1,296 possible block state combinations in Java Edition, the highest of all blocks, exceeding note block's 1150 and fire's 512.
+According to the Material Reducer in Minecraft Education, redstone dust is 31% carbon, 31% uranium, and 38% some unknown element.
+In the trailer for the Village and Pillage update, a blue piece of redstone dust (dubbed by the community as "bluestone") can be seen among the gifts the villagers throw into the air.
+
+
+== Gallery ==
+
+
+=== Renders ===
+All renders can be viewed in-game in the debug world.
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Redstone Dust"     by Duncan Geere  – Minecraft.net, April 26, 2025.
+
+
+== Navigation ==

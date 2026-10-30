@@ -1,0 +1,150 @@
+A frog is a passive mob found in swamps and mangrove swamps. It performs large jumps, swims, and uses its long tongue to eat small slimes and small magma cubes. Froglights are created when frogs eat magma cubes; different frog types create different froglight colors.
+
+
+== Spawning ==
+Frogs spawn in groups of two to five in swamp and mangrove swamp biomes. 
+
+
+=== Variants ===
+
+Frogs have three variants: temperate, cold, and warm. The variant is determined by the biome the frog spawns in, both naturally and when growing from a tadpole.
+
+Notes
+
+
+== Drops ==
+
+
+=== On death ===
+Frogs drop 1–3XP when killed by a player or tamed wolf.
+
+
+=== Breeding ===
+1–7XP is dropped upon successful breeding.
+
+
+== Behavior ==
+On land, frogs slowly wander, jumping at random. They can jump up to 8 blocks high and take 5HP less damage from falling than most other mobs. They prefer jumping on lily pads and big dripleaves, and usually jump to places that are higher up. 
+In water, frogs swim and move much faster. They generally swim upward and remain at the water's surface, but can swim downward if lured by a player. Frogs do not take drowning damage.
+Occasionally, they may croak and inflate their vocal sac.
+
+
+=== Breeding ===
+
+Frogs follow any player holding a slimeball within 6 blocks of them. 
+Feeding two frogs a slimeball causes them to enter love mode, causing one of the frogs to become pregnant, similar to turtles. The pregnant frog then searches for a water block with at least one adjacent water block (flowing or source) with air above to lay their eggs, known as frogspawn. After 3-10 minutes, the frogspawn hatches and 2-5 tadpoles are spawned, which grow into frogs after 20 minutes.
+Unlike all other mobs with baby variants, the tadpole is treated by the game as a completely different mob from the frog. 
+Furthermore, the biome in which the tadpoles grow into frogs determines their variant type, regardless of their parental variant type, a unique characteristic specific to frogs.
+
+
+=== Attacking ===
+Frogs attack by using their tongue to pull certain mobs into their mouth and "eat" them. If the mob dies from this attack, it instantly despawns without a death animation.
+By default, frogs only attack slimes and magma cubes, but they never attack any "cube mobs" (slimes, etc.) with a size other than 1. While trying to eat a mob, frogs walk or swim toward it slightly faster than they normally move.
+The death loot tables for slimes and magma cubes define special drops for when the mob is killed specifically by a frog. Small slimes will always drop exactly one slimeball when killed by any frog, while magma cubes drop a froglight block. The color of froglight that drops depends on the variant of frog that eats the magma cube:
+
+Since slimes and magma cubes only ever attack players and iron golems, frogs cannot be harmed by them, regardless of their size.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Frogs have entity data associated with them that contain various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Frog" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The warm frog is based on the grey foam-nest tree frog, a real-life species of frog native to Africa.
+The temperate frog is based on brown bullfrogs.
+Originally, frogs were meant to eat fireflies, but this was scrapped as in real life some fireflies are poisonous to some frogs. Instead, now they can eat small slimes and small magma cubes.
+During the frog's early development, the developers didn't know what the frog was going to eat, so they made the mouth huge. Some early ideas for what the frog was going to eat included bees.
+At one point in Bedrock Edition's development, in beta 1.18.10.26, frogs could eat goats. However, this was later removed as it was leftover prototype code. This was later referenced in the trailer for Minecraft Live 2022, where a frog eats a goat.
+In Minecraft, all frogs are genderless and have vocal sacs. In real life, only male frogs can have vocal sacs.
+Frogs were first in the 2019 biome vote for swamps, but lost to the Mountains and swamp gained second place, then 2 years later at Minecraft Live 2021 they were announced to be coming to the game, and came to the game part of The Wild Update in 2022 3 years after being declined in the 2019 biome vote.
+
+
+== Gallery ==
+
+
+=== Renders ===
+Temperate
+
+Warm
+
+Cold
+
+
+=== Development images ===
+
+
+=== Mojang images ===
+
+
+=== Screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+Frog article on Wikipedia
+Meet the Frog — Minecraft.net on May 30, 2022
+Which Frog Are You — Minecraft.net on June 13, 2022
+Mob Menagerie: Frog — Minecraft.net on November 22, 2022
+
+
+== Navigation ==

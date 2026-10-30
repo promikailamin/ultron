@@ -1,0 +1,97 @@
+A beetroot is a food and dye ingredient.
+
+
+== Obtaining ==
+
+
+=== Farming ===
+Beetroots are obtained from harvesting a fully-grown beetroot crop, which drops 1 beetroot in Java Edition or 1 to 2 beetroots in Bedrock Edition and 1 to 4 beetroot seeds (2 5⁄7 per crop harvested on average). If a crop is harvested before it is fully grown, it just drops one seed. Harvesting with a Fortune-enchanted tool increases the number of seeds dropped but does not increase the yield of beetroots.
+
+
+== Usage ==
+
+
+=== Food ===
+
+A beetroot can be eaten to restore 1 () hunger and 1.2 hunger saturation. Six beetroots can be crafted into beetroot soup, which restores six times the hunger and saturation of a single beetroot.
+
+
+=== Crafting ingredient ===
+
+
+=== Breeding ===
+Beetroots can be used to breed and attract pigs.
+Villagers can pick up beetroot items to become willing, allowing them to breed. Villagers need 12 beetroots before they can breed.
+
+
+=== Composting ===
+Placing a beetroot into a composter has a 65% chance of raising the compost level by 1.
+
+
+=== Trading ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Bedrock Edition ===
+
+
+=== Java Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Beetroot" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Jeb has stated that beetroots were originally added to Pocket Edition as a developer on the team "thought it would be a nice thing to have." When they were added, though, they served as a more reliable source of rose red dye. Rose red's only other source, red mushrooms, generated uncommonly in the Old worlds of the time or could be spawned, with tedium, using a Nether reactor.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Beetroot"     by Duncan Geere  – Minecraft.net, October 31, 2024.
+
+
+== Navigation ==

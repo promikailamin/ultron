@@ -1,0 +1,131 @@
+Brewing is the process of creating potions, splash potions, lingering potions, and medicine‌[Minecraft Education  only] by adding different ingredients to water bottles and other potions in a brewing stand.
+
+
+== Brewing equipment ==
+
+
+== Ingredients ==
+
+There is no provided in-game recipe book for brewing.
+
+
+=== Base ingredients and modifiers ===
+Base ingredients can be added directly to water bottles. Nether wart is used to make awkward potions, which is used as a base for most other potions.
+Modifiers are ingredients that alter a potion's properties, or change the potion into a different one. 
+Different potions can be placed in the bottle slots to combine each of them separately with the modifier, such as brewing a Potion of Invisibility and a Potion of Fire Resistance with gunpowder to change both potions into splash potions.
+
+
+==== Enhancement ====
+Generally, upgrading a potion involves a trade-off between duration and potency. A potion with an enhanced effect has shorter duration, and a potion with extended duration cannot have an enhanced effect. However:
+
+Upgrading the effect of a potion that has no time parameter (e.g. Instant Health) with glowstone dust involves no trade-off.
+Increasing the time of a potion that has no effects with different levels (e.g. Fire Resistance) with redstone dust involves no trade-off.
+
+
+==== Corrupting effect ====
+A fermented spider eye changes a potion's base effect, often reversing it or producing a negative potion.
+
+A corrupted potion usually does the opposite of the original effect.
+Corrupting an enhanced or extended potion into an effect that supports the modifier results in a potion with the same modifier applied.
+Enhanced potions of Leaping or Swiftness cannot be corrupted.
+In Bedrock Edition, potions of Strength II corrupt into regular potions of Weakness.
+A potion of Invisibility is considered the "corrupted" version of a potion of Night Vision.
+
+
+==== Splash and lingering potions ====
+By adding gunpowder, a drinking potion can be turned into a splash potion, which can be thrown to coat entities within the place of impact with a status effect. Subsequently, adding dragon's breath to a splash potion makes a lingering potion, creating a cloud that inflicts effects on entities that enter its area.
+
+Splash potions and lingering potions can be modified in the same manner as their normal counterparts. For instance, a splash water bottle can be brewed with any of the base ingredients; the result remains a splash potion.
+The lingering potions can also be used to craft their respective versions of tipped arrows.
+In Bedrock Edition there is an easier way of using cauldrons for the same effect.
+Splash potions have the same duration as the drinkable form.
+Lingering potions have only one-fourth of the duration of the drinkable form. For instance, a drinkable potion effect of 8:00 is reduced to 2:00 as a lingering potion.
+
+
+=== Effect ingredients ===
+Effect ingredients imbue an awkward potion with a particular effect but do not alter potion duration or intensity. When added directly to a water bottle, most of these ingredients produce a mundane potion. The exceptions to this are the golden carrot, pufferfish, turtle shell, and phantom membrane, which cannot be added directly to a water bottle. A corrupted version of a potion can be made by adding a fermented spider eye to it.
+
+
+== Brewing recipes ==
+
+
+=== Base potions ===
+Base potions are potions without effects, brewed by adding a single base ingredient to a water bottle. Of these, only the awkward potion can be imbued with an effect ingredient to create a potion with an effect.‌[Java Edition  only]
+
+
+=== Effect potions ===
+Effect potions are primarily created by adding an effect ingredient to an awkward potion, which is created by adding nether wart to a water bottle. Certain effects require a potion to be corrupted by a fermented spider eye. The potion of Weakness can additionally be created by simply adding a fermented spider eye to a water bottle, and it is the only potion that can be brewed without nether wart.
+Undead mobs react differently to effects than other mobs. They take damage from potions of Healing, gain health from potions of Harming, and are unaffected by potions of Poison and Regeneration.
+
+
+==== Positive effects ====
+
+
+==== Negative effects ====
+
+
+==== Mixed effects ====
+
+
+==== Bedrock Edition exclusive recipes ====
+Brewing recipes in Bedrock Edition are a superset of that in Java Edition, which means that all Java Edition recipes are also available in Bedrock Edition, but not the other way round.
+
+
+=== Cures ===
+
+Cures are brewed from awkward potions using different elements. Drinking these removes the specified bad effect. They cannot be modified into splash, lingering, extended, or enhanced versions.
+
+
+=== Un-brewable potions ===
+The uncraftable potion, potion of Luck‌[JE  only] and the potion of Decay‌[BE  only] cannot be brewed, and can be obtained only through commands or the Creative inventory (potions of Decay‌[BE  only] can be found in cauldrons inside swamp huts; the cauldron has a chance to generate containing a random potion, with potion of Decay‌[BE  only] being one possibility).
+
+
+=== Custom recipes ===
+
+In Bedrock Edition, brewing recipes can be customized through addons using the same system as other recipes.
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Brewing" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Although Jeb said that in Java Edition Beta 1.9 Prerelease 3 there would be 161 possible different potion combinations with 2,653 in the future, in the actual third pre-release only 22 different potions could be made without the use of external programs. Of those, 19 potions had one of 8 different effects.
+By modifying the item NBT using an editor or commands, it is possible to get a potion that cannot be upgraded into a splash potion.
+
+
+== Gallery ==
+
+
+=== Textures ===
+
+
+== See also ==
+Crafting
+Enchanting
+Medicine‌[Minecraft Education  only]
+Smelting
+
+
+== References ==
+
+
+== External links ==
+Minecraft Forum: All About Potions And Brewing - 1.9 Reference Guide
+Minecraft Potions - A Visual Guide
+Minecraft Commands - A Searchable Minecraft Database
+
+
+== Navigation ==

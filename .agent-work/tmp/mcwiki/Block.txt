@@ -1,0 +1,150 @@
+Blocks are the basic units of a structure in Minecraft that make up the game's world. Many blocks can be collected and placed anywhere, and can also be used as helpful resources.
+
+
+== Behavior ==
+
+Blocks are arranged in a 3-dimensional grid of 1-cubic-meter cells, although some blocks appear to occupy a partial cell; these include slabs, snow layers, ladders, vines, stairs, turtle eggs, and sea pickles, among others.
+Collectively, blocks and fluids make up the in-game environment, and most can be harvested and utilized in various fashions. Some blocks, such as dirt and sandstone, are opaque and occupy their entire cubic meter, while others, such as glass and flowers, are transparent or non-solid. Explosions destroy some blocks more easily than they destroy others, while some are virtually immune to explosions, though they can still be theoretically exploded, if an explosion of a high-enough strength were to occur.
+Air is a special block that acts as a substitute for the absence of blocks. In Java Edition, it has two variants: cave air and void air. Cave air occupies caves and parts of some underground structures, while void air occupies unloaded chunks and the areas above and below the bottom of the world, where blocks cannot be placed. The two variants function identically to regular air.
+Some blocks, such as sea lanterns and glowstone, emit light, the amount of which varies widely; see this table of light values for further information. Opaque blocks completely block light, while transparent blocks have no effect on light, block the light, or merely weaken it.
+Almost all blocks ignore gravity, except for sand, red sand, gravel, anvils of all damage levels, dragon eggs, all colors of concrete powder, scaffolding, snow layers‌[BE  only], pointed dripstone, sulfur spikes, icicles​[upcoming: Fourth Drop 2026], suspicious sand, and suspicious gravel. These turn into entities when their support is removed.
+When broken, blocks emit sounds and particles associated with themselves, except in the following cases:
+
+If the block is affected by gravity and falls into an invalid space, such as sand falling onto a torch.
+Anvils that are destroyed by running out of durability or falling. A different sound is played, but there are no particles.
+If the block is washed away by a fluid.
+If the block is replaced by another block.
+If the block's supporting block is removed.
+If the block is leaves and decays.
+
+
+== Block height ==
+
+Most solid blocks are 1 meter high (3.28084... feet or 1250⁄381 feet), but several blocks have non-standard block heights, such as slabs.
+A player can automatically step up from a lower to a higher height if the difference is at most 0.6 (3⁄5) of a block or 1.9685... feet (250⁄127 feet).
+
+
+== Textures ==
+
+Most block textures are 16×16 pixels and control color/transparency. The size of a block defaults to 1 cubic meter but can be resized via models; some, like logs, have different textures per face.
+Animated textures appear on: water, lava, fire, Nether portals, prismarine, and many more. A few blocks use special rendering, such as the starfield effect for End portals and End gateways.
+With Vibrant Visuals and ray tracing, extra maps are used: MERS (MER with ray tracing) defines metallic (reflects light), emissive (glows), and rough (absorbs light) per pixel; subsurface scattering applies to Vibrant Visuals. Normal and heightmaps add 3D depth.
+Resource packs can change resolution, animation, models (shapes), and scale blocks to size with equal width and height, though sizes following 2n, such as the default 16 × 16, or higher sizes such as 32 × 32 work the best.
+
+
+== List of blocks ==
+ 
+
+
+=== Blocks with an item form ===
+
+
+=== Technical blocks ===
+
+Technical blocks serve various purposes during events within the game, or use a separate name spaced ID in order to avoid unnecessary combinations of block states. In Java Edition technical blocks do not exist as items, while in Bedrock Edition they may be obtained using inventory editors or add-ons.
+
+
+=== Education blocks ===
+These blocks can be accessed only in Minecraft Education and in Bedrock Edition when education options are enabled (Elements are not listed here). In Bedrock Edition, boards, posters, and slates can be obtained only through inventory editors.
+
+
+=== Removed blocks ===
+
+
+==== Outright removed blocks ====
+These blocks were removed from the game entirely.
+
+
+==== Removed through substitution ====
+These blocks were "retconned" into other blocks through a major simultaneous name and texture change.
+
+
+==== Non-standard metadata variants ====
+Some blocks and states of blocks were distinguished via numerical metadata in previous versions of the game. Having metadata values outside of the accepted range could produce unintended results for some block IDs.
+
+
+=== Joke blocks ===
+These blocks only exist in April Fools' Day joke versions of the game.
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Block additions and removals ===
+
+Unique blocks are defined as having unique namespaced IDs in current versions of Java Edition, excluding obvious technical variants such as potted plants and wall attachments of blocks, but including the rose. Unintentional metadata variants are also not included.
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+==== Legacy Console Edition ====
+
+
+==== New Nintendo 3DS Edition ====
+
+
+==== MinecraftEdu ====
+
+
+==== Minecraft Education ====
+
+
+==== China Edition ====
+
+
+=== Block model additions ===
+ 
+
+
+=== Other changes ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== April Fools blocks ===
+
+
+== Issues ==
+Issues relating to "Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Certain blocks may interpret positions they cannot be placed in by normal means as a valid position. For example, a sign placed in midair via /setblock remains in midair even when updated, until either it is broken, or a block is placed below it and broken.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Entity
+Data values
+Opacity
+Light
+Item
+Ore
+Generated structures
+Air
+List of blocks by version
+
+
+== References ==
+
+
+== Navigation ==

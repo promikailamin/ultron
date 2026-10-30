@@ -1,0 +1,217 @@
+Minecraft is a 3D sandbox game developed by Mojang Studios, a part of Xbox Game Studios. Initially released as what is now known as Minecraft Classic on May 17, 2009, the game was fully released on November 18, 2011 on PC and Mac, after multiple updates. Since its release, Minecraft has expanded to mobile devices and consoles.
+Minecraft focuses on allowing the player to explore, interact with and modify a dynamically-generated world made of one-cubic-meter-sized blocks. In addition to blocks, the environment features plants, mobs, tools, and items. Some activities in the game include building, mining for ore, fighting hostile mobs and crafting new blocks and tools by gathering various resources found in the game. The game's open-ended model allows players to create structures, creations and artwork on various competitive or collaborative multiplayer servers or their single-player maps. Other features include redstone circuits for logic computations and remote actions, minecarts and tracks, and a mysterious underworld called the Nether. A designated but completely optional goal of the game is to travel to a dimension called the End and defeat the ender dragon.
+From its creation, Minecraft was developed almost exclusively by Swedish game developer Markus "Notch" Persson until Jens "Jeb" Bergensten took place of the head of its development. On November 6, 2014, Minecraft and all of Mojang Studios' assets were acquired by Microsoft for US$2.5 billion. Notch has since left Mojang and is no longer working on the game. Minecraft features music by Daniel "C418" Rosenfeld, Kumi Tanioka, Lena Raine, Samuel Åberg, Aaron Cherof, Amos Roddy, Hyper Potions and Paula "fingerspit" Ruiz, as well as paintings by Kristoffer Zetterstrand and Sarah Boeving.
+
+
+== Gameplay ==
+
+
+=== Player ===
+
+The player is the person that the user controls in the world. When the user starts a game, the player is put in a world, generated from a random or specified seed, with an empty inventory. If the bonus chest option is enabled, a chest filled with basic items generates near the player. The player has a health bar with 10 hearts and can be depleted when they are damaged. Damage to health can be mitigated by armor or the Resistance effect; while health can be restored by keeping the hunger bar full enough or by drinking specific potions. If the difficulty is set to Peaceful, health regenerates on its own.
+Each player can have a unique look via 9 default skins, or by creating their own custom skin. A player can change their skin on the profile page of Minecraft.net or in the Minecraft Launcher in Java Edition and in the pause or main menus in Bedrock Edition.
+
+
+=== Blocks ===
+
+The world of Minecraft takes place within a three-dimensional grid of cubes, with each cube being occupied by a certain type of block, not all of which are necessarily cubic. There are different types of blocks; natural blocks such as grass, stone and ores that generate randomly within the world. There are also blocks that players can craft, such as a crafting table and a furnace. Resources can be extracted from blocks by hand or by using tools. Some of these resources are simply blocks in the player's inventory that can be placed elsewhere, while others are used as material to create other blocks or tools. Others yield no practical use whatsoever. Some blocks cannot be broken through normal Survival means, e.g. bedrock, End portal frames, command blocks, Nether and End portals, barriers and air.
+
+
+=== Mining ===
+
+Mining is one of the main aspects of Minecraft and is done to extract ore and other materials mainly from below the surface of the map. These ores include coal, iron, gold, redstone, diamond, lapis lazuli, copper and emerald. Mining can involve digging a hole from the surface or going down through a cave. Mineshafts and ravines create extra areas that may contain resources, since they are usually rich in ores.
+
+
+=== Crafting and smelting ===
+
+Crafting allows players to create new tools and blocks using items from their inventory. Subsequent versions often contain crafting recipes for new blocks and items. A player can use the 2×2 grid in the inventory or the 3×3 grid provided by a crafting table to craft. Smelting requires a furnace in addition to fuel and processes blocks into a more useful form such as from raw iron into iron ingots, which can then be crafted into iron tools and iron armor.
+
+
+=== Brewing and enchanting ===
+
+ 
+Brewing creates potions from various ingredients and water using a brewing stand. They are stored in a glass bottle and then consumed by the player or thrown at other mobs to generate a certain effect based on the magical ingredients used to create the potion. Enchanting is also used to upgrade armor, tools or weapons with an enchanting table or anvil. More powerful enchantments can be accessed by gaining experience and placing bookshelves around the enchanting table.
+
+
+=== Mobs ===
+
+Mobs are interactable creatures that inhabit the world. Hostile mobs attack the player while passive mobs do not. Neutral mobs attack when provoked (not all neutral mobs are provoked the same way).
+The Overworld contains many passive animal mobs that may be killed for food, bred with one another, or kept around for useful utilities. Mobs that drop food drop the raw version of their food unless killed while on fire or by an item enchanted with the Fire Aspect enchantment.
+
+
+=== The Nether ===
+
+The Nether is a dimension in Minecraft accessible from the Overworld by a Nether portal. It consists of five unique biomes, which are the Nether wastes, the basalt deltas, the crimson and warped forests and the soul sand valleys. Each biome has unique generation and terrain. It is populated by zombified piglins, blazes, ghasts, wither skeletons, magma cubes, piglins, and hoglins. Ores in the Nether include Nether quartz, Nether gold and ancient debris. The Nether also has large oceans of lava that have striders walking on them.
+
+
+=== The End ===
+
+The End is another dimension of the game where the player battles the ender dragon. The End is accessed by entering an End portal found in a stronghold. The End is composed of End stone and is inhabited by endermen. It also contains tall obsidian pillars on top of which are End crystals that heal the ender dragon. Once the ender dragon is slain, the exit portal is created in the center of the map and an End gateway portal is created near an edge of the map, which transports the player to the expansive outer End islands which are full of chorus fruit forests and End cities filled of chest loot and shulkers. The End gateway portal is only accessed by throwing an ender pearl, using elytra or trapdoors to enter the portal. There are no ores in the End.
+
+
+=== Multiplayer ===
+Minecraft can be played with multiple players together in one world. Players can interact with each other using the chat or emotes, and can play the game together or damage each other, also known as PvP (player versus player).
+
+
+==== Local connections ====
+Players on the same local network (LAN) can join other worlds opened for LAN connections. The world is hosted and managed by the player running the world, who is also the operator with the ability to manage each player's permissions or kick players. In Bedrock Edition, players can also join worlds opened to the Internet using the Xbox friend system. A player can add and manage friends from the in-game menus or the Xbox app, and any player can be invited to the world.
+
+
+==== Server ====
+Multiplayer worlds can also be hosted independently from a player's Minecraft instance using an external server. Official server software for both editions can be downloaded for free on a PC, or a player could use an unofficial server-hosting service that maintains and runs the server. Players can join any external server via the Internet (except for console versions of Bedrock Edition), and the server can even be online while no players are in the world. An official server list has been made for some large third-party servers that provide access for any player, and players can also join specific featured servers in Bedrock Edition.
+Minecraft multiplayer servers have developed to include their own rules and customs, guided by their administrators and moderators. The term griefer, meaning a player who causes grief, is a typical term on the internet but has taken up its definition on Minecraft servers: a person who destroys or defiles other users' creations on servers. 
+One popular game on multiplayer servers is Spleef (a play on the word "grief"), a game where the player aims to make another player drop through the floor by destroying blocks beneath the opponent's feet. This is typically played in a designated area and is usually run automatically using server plugins.
+Many popular multiplayer servers exist that may contain, PvP arenas, custom minigames or large Survival or Creative worlds.
+
+
+==== Minecraft Realms ====
+
+Minecraft Realms is an official subscription-based server hosting service that allows players to create and manage their own private Minecraft multiplayer worlds. Hosted by Mojang Studios, Realms provides an easy and fast way to create servers and allows the owner to manage them from inside the game, without prior knowledge of the concepts for hosting on the internet. However, Realms are not intended for large public servers, but for groups of friends or as a family server. Private Realms servers are easy to set up and available 24/7 as long as the owner pays for it.
+
+
+== Purchase and availability ==
+
+Java Edition is mostly available on personal computers, being officially supported on the Windows, macOS and Linux operating systems. It can be purchased from minecraft.net or the Microsoft Store. Gift codes can be bought for others, for the same price as buying the game for oneself. The demo version can be played for free without multiplayer. Java Edition can not run on Windows RT, it can only be run on ChromiumOS or ChromeOS if the "Linux development environment" is turned on, and it can not be run on many non-PC devices, even ones that use Java, such as cars and toasters. Other operating systems such as FreeBSD are not officially supported, though can nonetheless be made to work via more manual methods.
+Bedrock Edition is available on most devices. It can be purchased on Google Play (for ChromeOS & Android), the Apple App Store (for iOS & iPadOS), the Amazon Appstore (for Fire OS), the Microsoft Store (for Windows & Xbox), minecraft.net (for Windows), the Nintendo eShop (for Nintendo Switch), and the PlayStation Store (for PS4 & PS5).
+Alternatively, Xbox Game Pass Premium and Xbox Game Pass Ultimate provides access to Java Edition on PC and Bedrock Edition on Windows PCs and Xbox consoles. PC Game Pass provides access to Java Edition on PC and Bedrock Edition on Windows PCs.
+Until July 2026, both editions on PC or Bedrock Edition on consoles were also available to purchase alongside Minecraft Dungeons, Minecraft Legends, and 1020 Minecoins/Tokens as part of the Minecraft Triple Bundle offer.
+The Legacy Console Editions can be purchased on physical media (excluding Nintendo Switch Edition) or on the respective platform's online store. The PlayStation 3 and PlayStation Vita editions can only be purchased through the console. The Xbox 360, Xbox One, PlayStation 4,  Wii U, and Nintendo Switch editions are no longer available for direct digital purchase.
+The North American version of New Nintendo 3DS Edition can be purchased on physical media. It is no longer available for direct digital purchase, and the game never had a physical release in other regions.
+Minecraft Classic, a remake of an old version of Java Edition, can be played at classic.minecraft.net for free.
+
+
+== Editions ==
+
+
+=== Java Edition ===
+
+The original version of Minecraft on Windows, macOS, and Linux, starting through the Minecraft Launcher, Java Edition was initially released for an "early private singleplayer alpha" on May 17, 2009, followed by several development stages (notably Classic, Indev, Infdev, Alpha, Beta) with the game finally being released on November 18, 2011. The Java Edition has seen many significant updates since its official release.
+The original May 17, 2009, public release is officially recognized as the anniversary of the Minecraft franchise as a whole. The official 10th Anniversary (in 2019) and 15th Anniversary (in 2024) are set 10 and 15 years after this date respectively.
+
+
+=== Bedrock Edition ===
+
+The Bedrock Edition (also known as the Bedrock Platform/Codebase/Engine, and officially Minecraft or Minecraft for Windows) is a multi-platform version of Minecraft developed by Mojang Studios and Xbox Game Studios. Unlike Java Edition, which runs on Java, Bedrock Edition runs on C++. Since the engine originated with Minecraft: Pocket Edition, this entire product family has often been referred to as "Pocket Edition", "MCPE" and "Pocket/Windows 10 Edition".
+Before the Better Together Update, Bedrock Edition only existed as Pocket Edition (for iOS and Android) and Windows 10 Edition.
+Predating the Better Together Update, Minecraft: Pocket Edition was initially launched exclusively for the Xperia PLAY on Google Play for US$6.99 on August 15, 2011. It was later released for other Android devices on October 7, 2011, and iOS on November 17, 2011. On September 13, 2012, the Pocket Edition was made available for purchase on the Amazon Appstore. The Windows Phone version was released on the Windows Phone Store on December 10, 2014, for which the Pocket Edition 1.0.0 release and newer are available only for Windows 10 Phone and newer. Since then, four adaptations of Pocket Edition have been released; for Windows 10 on July 29, 2015, the Gear VR on April 27, 2016, tvOS on December 19, 2016, and the Fire TV on December 19, 2016. As of September 24, 2018, the Apple TV Edition has been discontinued.
+After the Better Together Update, all versions of Minecraft: Pocket Edition were merged together, along with the Legacy Console Editions of the latest consoles:
+
+Xbox One Edition
+Nintendo Switch Edition
+PlayStation 4 Edition
+
+
+=== Legacy Console Edition ===
+
+Legacy Console Edition refers to the editions of Minecraft for consoles that are developed and updated by 4J Studios.
+The Legacy Console Edition was initially announced for the Xbox 360 on June 7, 2011, during E3 2011. Xbox 360 Edition released digitally on May 9, 2012 followed by a physical release on June 4, 2013. The game was later released on additional platforms as PlayStation 3 Edition on December 17, 2013, PlayStation 4 Edition on September 4, 2014, Xbox One Edition on September 5, 2014, PlayStation Vita Edition on October 14, 2014, Wii U Edition on December 17, 2015, and Nintendo Switch Edition on May 11, 2017. As of December 10, 2019, no further feature updates have been released for these versions, and the newest available update depends on the platform. The most recent update on Xbox One Edition and Nintendo Switch Edition is the World of Color Update, while Xbox 360 Edition, PlayStation 3 Edition, PlayStation Vita Edition, and Wii U Edition have access to Update Aquatic. PlayStation 4 Edition is the most up-to-date version with Village & Pillage.
+
+
+=== Minecraft Education ===
+
+Minecraft Education (Edition, before late 2022) is an educational version of Minecraft specifically designed for classroom use. It is developed by Mojang Studios and Xbox Game Studios and contains features that make Minecraft easy to use in a classroom setting. The full game was released on November 1, 2016.
+
+
+=== New Nintendo 3DS Edition ===
+
+Minecraft: New Nintendo 3DS Edition was released on September 13, 2017 for the titular system, its XL variant, and the New Nintendo 2DS XL, a unique port developed by Other Ocean Interactive. Multiplayer was limited to local play. This edition was discontinued on January 15, 2019.
+
+
+=== Other ===
+There are a number of other versions of Minecraft. Minecraft 4k is a simple version of Minecraft in the style of other "4K" Java games (everything is packaged in 4 kibibytes) by Notch for contests. Minecraft: Pi Edition was a free ported version of Pocket Edition 0.5.0 for the Raspberry Pi, which was intended as an educational tool for novice programmers. It allowed users to manipulate the game code and supported multiple programming languages; however, it was discontinued in January 2016. Minecraft: China Edition is a localized version of Minecraft for mainland China.
+
+
+=== Edition comparison ===
+
+
+== Game customization ==
+
+
+=== Add-ons ===
+
+Add-ons‌[Bedrock Edition  only] are the first step towards bringing customization to all editions of Minecraft and are officially supported by Mojang Studios/Minecraft. They currently allow players to transform the look of their worlds, change the behavior of mobs, and add entities, items and blocks, structures, functions and biomes.
+
+
+=== Behavior packs ===
+
+Behavior packs‌[Bedrock Edition  only] dictate how vanilla and custom entities behave, and they can also introduce functions and scripts. When paired with a resource pack designed to complement it, they form an add-on, which allows for the addition of new content to the game.
+
+
+=== Resource packs ===
+
+The game officially supports changing most of its various textures, sounds, and texts through resource packs. Resource packs must contain a certain structure of files and folders placed in the .minecraft/resourcepacks folder. Installed resource packs, as well as the folder in which resource packs are placed, can be accessed in the options menu. The extent to which the resources are changed is dependent on how many files are contained in the resource pack.
+
+
+=== Data packs ===
+
+Data packs‌[Java Edition  only] provide a way for players to further customize vanilla worlds in a similar way to resource packs. Unlike resource packs, which modify the game's resources, data packs can be used to override or add new advancements, functions, loot tables, structures, recipes and tags without any code modification.
+
+
+=== Skins ===
+
+Skin refers to the texture that is placed onto a player model or mob.
+The skin is divided into areas that act as the surface area of the character (for example, the front head area, left leg area, etc.). A skin allows only solid color; transparency is not allowed on the skin file except on the second layer, which is transparent by default; playing offline, pixels can be left free resulting in "holes" in the skin. The second layer can be used to give the character glasses, hats, or other accessories. Players can also change the arm size to be slim or normal. The slim variant is 3 pixels wide while the normal variant is 4 pixels wide.
+
+
+==== Java Edition ====
+in Java Edition, there are no special features in the skins. This version has only the features listed in the first part of this section.
+
+
+==== Bedrock Edition ====
+In Bedrock Edition, there are many more types of skin customization. Players can add 3D custom hair, eyes, mouths, arms, legs and more. Players can also change the size of a character. Players can also get many different accessories for the skin. However, the player cannot do this with a custom skin, only with an in-game skin. Players can also buy accessories and skins. Having a skin that is smaller than normal or larger does not affect the hitbox size, but can still give an advantage in multiplayer servers because it can be harder to see them. Some of the skins also do not show their armor or hand-held items.
+
+
+=== Capes ===
+
+Capes are an uncommon vanity item that can be equipped on a player's back. In Bedrock Edition, players start with a cape that is not equipped by default and some skins come with capes.
+Capes also flail around when the player runs. When the player equips elytra, the texture of the elytra changes to an equipped cape.
+
+
+=== Unofficial mods ===
+
+Minecraft can be modified by replacing or adding Java class files to client.jar in Java Edition. This method of making custom modifications is not supported by Mojang as it can break the game if the mod is outdated, defective, or in conflict with another mod. Some such modifications impressed Notch or Jeb sufficiently that they were added to the game and the authors were credited under Additional Programming. Some examples of mods being implemented into the main game include the McRegion mod, Hippoplatimus' piston mod, and horses from DrZhark's Mo' Creatures mod.
+
+
+=== Third-party programs ===
+
+There are many programs designed for Minecraft. These include 3D map editors and viewers, game modifiers, various informational programs (such as crafting recipes) and server wrappers, and other specialty programs. As with mods, these too are not supported by Mojang.
+
+
+== Reception ==
+Metacritic ranked Minecraft as one of the best video games of the 2010s, and Video Game Canon ranks Minecraft as one of the best games of all time.
+
+
+=== Awards ===
+
+
+== References in popular culture ==
+
+Many references have been made in culture in response to the popularity of Minecraft, this includes many memes and also references in these video games, TV shows, and movies.
+
+
+== Quotes ==
+
+
+== Gallery ==
+
+
+=== Official artwork ===
+
+
+==== Box art ====
+Game Code Paper
+
+
+==== Old ====
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

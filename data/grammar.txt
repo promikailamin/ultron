@@ -1,0 +1,502 @@
+*** ENGLISH GRAMMAR AND USAGE CORPUS ***
+
+This corpus explains English grammar, punctuation, spelling, vocabulary, and
+writing conventions in clear language with examples. It is used for local
+language-model training.
+
+===== Why grammar matters =====
+
+Grammar is the set of rules that explains how words are arranged to make
+meaningful sentences. A sentence needs a subject and a predicate. The subject
+names the person, place, thing, or idea that the sentence is about. The
+predicate says something about the subject and must contain a verb.
+
+Example: The cat sleeps. Here "the cat" is the subject and "sleeps" is the
+predicate. The verb "sleeps" tells us what the cat does.
+
+Good grammar helps the reader understand the message quickly. It is not only
+about following rules. It is about clarity, rhythm, and respect for the reader.
+A sentence can be grammatically correct and still be confusing if it is too
+long, too vague, or badly organized.
+
+===== The eight parts of speech =====
+
+English words are often grouped into eight parts of speech: noun, pronoun,
+verb, adjective, adverb, preposition, conjunction, and interjection. Many words
+can change their part of speech depending on how they are used. The word
+"run" can be a verb in "I run every morning" and a noun in "I went for a run."
+
+A noun names a person, place, thing, or idea. Examples: teacher, London,
+bicycle, freedom, kindness. Common nouns are general, such as city or book.
+Proper nouns name a specific person, place, or organization and are
+capitalized, such as Maria, Tokyo, and Minecraft. Concrete nouns name things
+you can perceive with your senses, such as apple, music, and wind. Abstract
+nouns name ideas or qualities, such as courage, justice, and time.
+
+A pronoun replaces a noun or noun phrase. Examples: I, you, he, she, it, we,
+they, me, him, her, us, them, my, your, his, her, its, our, their, mine,
+yours, hers, ours, theirs, myself, yourself, himself, herself, itself,
+ourselves, themselves. Pronouns must agree with the noun they replace in
+number and, in some cases, gender.
+
+A verb expresses an action, an occurrence, or a state of being. Examples: run,
+build, think, become, seem, is, are, was, were. Action verbs show physical or
+mental action. Linking verbs connect the subject to a word that describes it,
+such as "She is happy" or "The soup smells good." Helping verbs, also called
+auxiliary verbs, combine with a main verb to form tenses, questions, and
+negatives. Examples: do, does, did, have, has, had, be, am, is, are, was,
+were, will, would, can, could, may, might, must, shall, should.
+
+An adjective describes or limits a noun or pronoun. Examples: red, tall,
+ancient, happy, three, several. Adjectives usually come before the noun, as in
+"a red apple," or after a linking verb, as in "the apple is red." Comparative
+adjectives compare two things, as in "taller" or "more interesting." Superlative
+adjectives compare three or more things, as in "tallest" or "most interesting."
+
+An adverb describes a verb, an adjective, or another adverb. Examples:
+quickly, carefully, very, almost, yesterday, here. Adverbs often answer the
+questions how, when, where, or to what degree. Many adverbs end in -ly, but not
+all do. "Fast" can be an adverb in "He runs fast." "Very" is an adverb in "very
+cold."
+
+A preposition shows the relationship between a noun or pronoun and another
+word in the sentence. Examples: in, on, at, by, with, under, over, between,
+through, during, after, before, about, from, to, of, for. A preposition is
+usually followed by an object, which can be a noun, pronoun, or noun phrase.
+The group is called a prepositional phrase, as in "under the table" or "after
+lunch."
+
+A conjunction connects words, phrases, or clauses. Coordinating conjunctions
+join equal parts: for, and, nor, but, or, yet, so. Subordinating conjunctions
+join a dependent clause to an independent clause: because, although, if,
+when, while, since, unless, until, after, before, though, whereas. Correlative
+conjunctions work in pairs: either ... or, neither ... nor, both ... and, not
+only ... but also.
+
+An interjection expresses emotion or reaction. Examples: wow, oh, hey, oops,
+alas. Interjections are often followed by a comma or an exclamation mark and
+are common in conversation and informal writing.
+
+===== Sentence structure =====
+
+A simple sentence contains one independent clause. Example: The dog barked.
+A compound sentence contains two or more independent clauses joined by a
+coordinating conjunction or a semicolon. Example: The dog barked, and the cat
+ran away. A complex sentence contains one independent clause and at least one
+dependent clause. Example: When the door opened, the dog barked. A compound-
+complex sentence combines both patterns.
+
+Every complete sentence must have a subject and a finite verb. The subject is
+usually a noun phrase. The verb must agree with the subject in number and
+person. In commands, the subject "you" is understood and often omitted.
+Example: Close the door.
+
+Sentences can be classified by purpose. A declarative sentence makes a
+statement. An interrogative sentence asks a question. An imperative sentence
+gives a command or request. An exclamatory sentence expresses strong emotion.
+The punctuation usually matches the purpose.
+
+A phrase is a group of words that works as a unit but does not contain both a
+subject and a finite verb. Examples: in the morning, the tall building, to run
+quickly. A clause contains a subject and a verb. An independent clause can
+stand alone as a sentence. A dependent clause cannot stand alone and usually
+begins with a subordinating conjunction or a relative pronoun. Example:
+because it was raining.
+
+===== Nouns and pronouns in detail =====
+
+Most nouns form the plural by adding -s, as in book to books. Nouns ending in
+-s, -x, -z, -ch, or -sh usually add -es, as in bus to buses, box to boxes, and
+watch to watches. Nouns ending in a consonant plus -y change y to i and add
+-es, as in city to cities. Many nouns ending in -f or -fe change to -ves, as
+in leaf to leaves and knife to knives, but some simply add -s, as in roof to
+roofs. Irregular plurals include man to men, woman to women, child to children,
+mouse to mice, goose to geese, foot to feet, tooth to teeth, and person to
+people.
+
+Possessive nouns show ownership. For most singular nouns, add apostrophe s,
+as in the dog's bone. For plural nouns ending in -s, add only an apostrophe,
+as in the dogs' bones. For irregular plural nouns, add apostrophe s, as in the
+children's toys. Do not use an apostrophe to form a simple plural.
+
+Pronouns change form depending on their role in the sentence. Use subject
+pronouns for subjects: I, you, he, she, it, we, they. Use object pronouns
+after verbs and prepositions: me, you, him, her, it, us, them. Example: She
+gave the book to him. A common mistake is "between you and I"; the correct
+form is "between you and me" because "between" is a preposition.
+
+Use "who" for the subject of a clause and "whom" for the object. Example: Who
+called you? To whom did you speak? In everyday conversation, "who" is often
+used in place of "whom," but formal writing should follow the distinction.
+
+Reflexive pronouns end in -self or -selves and refer back to the subject.
+Example: I taught myself to play. Do not use a reflexive pronoun when a plain
+pronoun is correct. "Please contact myself" should be "Please contact me."
+
+===== Verbs, tense, and aspect =====
+
+Tense places an action in time. Aspect shows whether the action is complete,
+ongoing, or repeated. English has three simple tenses, three progressive
+tenses, three perfect tenses, and three perfect progressive tenses.
+
+Simple present: I walk. She walks. Use it for habits, facts, and scheduled
+events. Simple past: I walked. Use it for completed actions in the past.
+Simple future: I will walk. Use it for actions that will happen later.
+
+Present progressive: I am walking. Use it for actions happening now or around
+now. Past progressive: I was walking. Use it for an ongoing action in the past,
+often interrupted by another action. Future progressive: I will be walking.
+
+Present perfect: I have walked. Use it for an action that happened at an
+unspecified time before now, or for a state that began in the past and
+continues. Past perfect: I had walked. Use it for an action completed before
+another past action. Future perfect: I will have walked. Use it for an action
+that will be completed before a future time.
+
+Present perfect progressive: I have been walking. Past perfect progressive: I
+had been walking. Future perfect progressive: I will have been walking.
+
+Regular verbs form the past tense and past participle by adding -ed, as in
+walk, walked, walked. Irregular verbs change in other ways, as in go, went,
+gone; see, saw, seen; write, wrote, written; take, took, taken; and begin,
+began, begun. Learn irregular verbs through examples and repetition.
+
+The subject and verb must agree. A singular subject takes a singular verb, and
+a plural subject takes a plural verb. Example: The cat runs. The cats run.
+Words between the subject and verb do not change the agreement. Example: The
+box of toys is heavy. Indefinite pronouns such as everyone, somebody, each,
+and neither are usually singular. Example: Everyone is ready.
+
+Collective nouns such as team, family, and group can take a singular or plural
+verb depending on whether the group acts as one unit or as separate members.
+In American English, singular agreement is more common. Example: The team is
+winning. In British English, plural agreement is often used when the members
+act individually.
+
+===== Adjectives and adverbs =====
+
+Adjectives describe nouns. Adverbs describe verbs, adjectives, or other
+adverbs. Do not use an adjective where an adverb is needed. Example: She sings
+beautifully, not She sings beautiful. Some verbs, called linking verbs, take an
+adjective after them because the adjective describes the subject. Example:
+The soup tastes good. The word "good" describes the soup, not the act of
+tasting.
+
+Comparative forms compare two things. Short adjectives usually add -er, as in
+faster. Longer adjectives use "more," as in more comfortable. Superlative forms
+compare three or more things. Short adjectives usually add -est, as in fastest.
+Longer adjectives use "most," as in most comfortable. Never use both a
+comparative ending and "more," as in "more faster." That is a double
+comparative and is incorrect.
+
+Some adjectives are absolute and should not normally be compared, such as
+unique, perfect, and dead. In informal speech, people sometimes say "more
+unique," but careful writers avoid it.
+
+Order of adjectives in English is usually opinion, size, age, shape, color,
+origin, material, and purpose. Example: a beautiful small old round blue
+French wooden dining table. Native speakers rarely use so many adjectives at
+once, but the order explains why "a big red ball" sounds natural and "a red big
+ball" sounds strange.
+
+===== Articles and determiners =====
+
+Use "a" before a consonant sound and "an" before a vowel sound. The choice
+depends on sound, not spelling. Example: a university, an hour, a European
+country, an honest answer. Use "the" when the listener knows which specific
+thing is meant, when the noun is unique, or when it has already been mentioned.
+Example: I saw a dog. The dog was friendly.
+
+Use no article for general plural nouns and uncountable nouns. Example: Cats
+are independent. Water is essential. Use "the" for specific groups or
+substances. Example: The cats in my neighborhood are noisy. The water in this
+bottle is cold.
+
+Determiners include articles, demonstratives, possessives, quantifiers, and
+numbers. Examples: this, that, these, those, my, your, some, any, many, much,
+few, little, several, every, each, either, neither, all, both, no. Choose the
+determiner that matches whether the noun is countable or uncountable and
+whether the meaning is specific or general.
+
+===== Prepositions and common phrases =====
+
+Prepositions can be tricky because usage is often idiomatic. Use "in" for
+enclosed spaces, months, years, and long periods. Use "on" for surfaces, days,
+and dates. Use "at" for precise times, points, and small locations. Example:
+in the box, in July, on Monday, on the table, at noon, at the door.
+
+Common preposition combinations include interested in, good at, afraid of,
+proud of, responsible for, depend on, listen to, look at, wait for, arrive at,
+arrive in, agree with, agree to, and different from. Some writers use
+"different than" in American English, but "different from" is usually safer.
+
+Do not end a sentence with a preposition if doing so creates an awkward
+sentence, but ending with a preposition is often natural and correct. Example:
+That is the book I was looking for. The rule against ending with a preposition
+is not absolute.
+
+===== Conjunctions and sentence combining =====
+
+Use a comma before a coordinating conjunction that joins two independent
+clauses. Example: I wanted to go, but it was raining. Do not use a comma if
+the conjunction joins only words or phrases. Example: I bought bread and
+cheese.
+
+Use a semicolon to join two closely related independent clauses without a
+conjunction. Example: The road was icy; we drove slowly. Use a semicolon
+before a conjunctive adverb such as however, therefore, or meanwhile when it
+joins two independent clauses. Example: The plan was risky; however, it
+worked.
+
+Use a colon to introduce a list, an explanation, or a quotation. Example: We
+need three things: bread, milk, and eggs. Do not use a colon after a verb or
+preposition unless the colon introduces a complete clause or a list.
+
+Avoid comma splices. A comma splice occurs when two independent clauses are
+joined only by a comma. Incorrect: I was tired, I went to bed. Correct: I was
+tired, so I went to bed. Correct: I was tired; I went to bed. Correct: Because
+I was tired, I went to bed.
+
+===== Punctuation =====
+
+A period ends a declarative sentence or an indirect question. A question mark
+ends a direct question. An exclamation mark ends an exclamation and should be
+used sparingly in formal writing.
+
+A comma separates items in a list, separates introductory elements, sets off
+nonessential information, and joins independent clauses with a coordinating
+conjunction. The Oxford comma is the comma before the final item in a list of
+three or more. Example: red, green, and blue. Many style guides recommend it
+because it prevents ambiguity.
+
+An apostrophe shows possession or marks a contraction. Examples: the book's
+cover, don't, it's, they're. Do not use apostrophes to form plurals of ordinary
+nouns. Use "its" for possession and "it's" for "it is" or "it has." Use "your"
+for possession and "you're" for "you are." Use "their" for possession,
+"there" for a place, and "they're" for "they are."
+
+Quotation marks enclose direct speech or a quoted passage. In American English,
+commas and periods usually go inside the closing quotation mark. In British
+English, they often go outside unless they belong to the quotation. Use single
+quotation marks for a quotation within a quotation.
+
+A hyphen joins parts of a compound word or phrase, as in well-known or
+twenty-one. A dash can set off a parenthetical idea or show a break in thought.
+An ellipsis shows omitted words or a trailing thought. Use punctuation to make
+meaning clear, not to decorate the page.
+
+===== Capitalization =====
+
+Capitalize the first word of every sentence, proper nouns, the pronoun I,
+days of the week, months, holidays, languages, nationalities, geographic names,
+and titles when they precede a name. Example: On Monday, Maria and I visited
+London. Do not capitalize common nouns, seasons, or directions unless they are
+part of a proper name. Example: We drove south in summer.
+
+Capitalize the first word and all important words in a title. Small words such
+as a, an, the, and, but, or, and prepositions are usually lowercase unless
+they are the first or last word. Example: The Lord of the Rings.
+
+===== Commonly confused words =====
+
+Their means belonging to them. There means a place or a point. They're means
+they are. Example: They're putting their books over there.
+
+Your means belonging to you. You're means you are. Example: You're welcome to
+bring your friend.
+
+Its means belonging to it. It's means it is or it has. Example: It's raining,
+and the dog wants its dinner.
+
+Then refers to time or sequence. Than is used for comparison. Example: We ate
+dinner, then we walked farther than before.
+
+Affect is usually a verb meaning to influence. Effect is usually a noun
+meaning a result. Example: The weather affects my mood. The effect was
+immediate.
+
+Fewer is used with countable nouns. Less is used with uncountable nouns.
+Example: fewer apples, less water. In informal speech, "less" is often used
+with numbers, as in "less than ten people," but "fewer than ten people" is more
+precise.
+
+Lie means to recline or rest. Lay means to put something down. Example: I lie
+down to rest. I lay the book on the table. The past tense of lie is lay, and
+the past tense of lay is laid. This is confusing even for native speakers.
+
+Who's means who is or who has. Whose shows possession. Example: Who's coming
+to dinner? Whose jacket is this?
+
+Could have, should have, and would have are correct. "Could of," "should of,"
+and "would of" are incorrect because "of" is not a verb.
+
+Accept means to receive or agree to. Except means excluding. Example: I accept
+your apology. Everyone came except Sam.
+
+Advice is a noun. Advise is a verb. Example: She gave me good advice. I advise
+you to rest.
+
+Principal means main or a school leader. Principle means a rule or belief.
+Example: The principal principle is honesty.
+
+Stationary means not moving. Stationery means writing materials. Example: The
+car was stationary. I bought stationery for school.
+
+===== Spelling rules =====
+
+The rule "i before e except after c" is useful but not perfect. Examples:
+believe, receive, ceiling, science, weird, seize. Learn common exceptions as
+whole words rather than relying only on the rhyme.
+
+When adding a suffix to a word ending in silent e, drop the e if the suffix
+begins with a vowel. Example: make to making, hope to hoping. Keep the e if the
+suffix begins with a consonant. Example: hope to hopeful. Keep the e in words
+such as changeable and noticeable to preserve the soft sound.
+
+When adding a suffix to a one-syllable word ending in a consonant-vowel-
+consonant pattern, double the final consonant if the suffix begins with a
+vowel. Example: run to running, big to bigger, stop to stopped. Do not double
+the consonant if the word has more than one syllable and the stress is not on
+the final syllable. Example: visit to visiting.
+
+For words ending in consonant plus y, change y to i before a suffix unless the
+suffix begins with i. Example: happy to happiness, carry to carried, but carry
+to carrying. For words ending in vowel plus y, keep the y. Example: play to
+played.
+
+===== Vocabulary building =====
+
+A strong vocabulary helps you say exactly what you mean. Learn words in
+context rather than as isolated lists. Read widely, notice how words combine,
+and use a dictionary to check meaning, pronunciation, and usage. Record new
+words with an example sentence and review them regularly.
+
+Use precise verbs and nouns instead of vague ones. "Walk" is clear, but
+"stroll," "march," "wander," and "hike" give different pictures. "Good" is
+general, while "useful," "kind," "reliable," or "delicious" are more specific.
+
+Distinguish between denotation and connotation. Denotation is the dictionary
+meaning. Connotation is the feeling or association a word carries. "Cheap" and
+"affordable" can describe a low price, but "cheap" may suggest poor quality.
+"Childlike" and "childish" both relate to children, but one is positive and the
+other is negative.
+
+Avoid unnecessary repetition. Use pronouns, synonyms, and varied sentence
+structure to keep writing interesting. Do not replace every word with a
+synonym, however, because some synonyms have different shades of meaning.
+
+===== Active and passive voice =====
+
+In active voice, the subject performs the action. Example: The chef cooked the
+meal. In passive voice, the subject receives the action. Example: The meal was
+cooked by the chef. Active voice is usually clearer and more direct. Passive
+voice is useful when the actor is unknown, unimportant, or should be
+de-emphasized. Example: The bridge was built in 1900.
+
+To form the passive, use a form of "be" plus the past participle. Example: The
+letter was written. The letter has been written. The letter will be written.
+Only transitive verbs, which take a direct object, can normally be passive.
+
+===== Questions, negatives, and modals =====
+
+Yes or no questions usually begin with a helping verb. Example: Do you like
+tea? Have you eaten? Can she swim? Wh- questions begin with a question word:
+who, what, when, where, why, which, whose, how. Example: Where did you go?
+
+To make a negative sentence, use "not" after the first helping verb. If there
+is no helping verb, use do, does, or did. Example: She is not ready. She does
+not like coffee. She did not call.
+
+Modal verbs include can, could, may, might, must, shall, should, will, and
+would. They express ability, permission, possibility, obligation, advice, or
+future time. Modal verbs do not add -s in the third person singular. Example:
+She can swim, not She cans swim. After a modal verb, use the base form of the
+main verb. Example: He must go, not He must goes.
+
+===== Conditionals and reported speech =====
+
+The first conditional describes a real future possibility. Example: If it
+rains, we will stay inside. The second conditional describes an unreal or
+hypothetical present situation. Example: If I had more time, I would travel.
+The third conditional describes an unreal past situation. Example: If I had
+studied, I would have passed.
+
+Use "if" for conditions, "unless" for negative conditions, and "when" for
+events that are expected. Example: Unless you hurry, you will be late.
+
+In reported speech, tense often shifts back one step. Example: "I am tired,"
+she said. She said that she was tired. Time words may also change. Example:
+today becomes that day, tomorrow becomes the next day, and here becomes there.
+Use pronouns carefully so the meaning stays clear.
+
+===== Writing clear paragraphs =====
+
+A paragraph usually contains one main idea. Start with a topic sentence,
+support it with details and examples, and end with a concluding sentence or a
+transition. Keep sentences focused. If a sentence contains several unrelated
+ideas, split it.
+
+Use transitions to show relationships between ideas: however, therefore, for
+example, in addition, meanwhile, as a result, on the other hand, first, next,
+finally. Transitions should guide the reader, not decorate the text.
+
+Prefer the active voice, concrete nouns, and strong verbs. Cut unnecessary
+words. "Due to the fact that" can become "because." "At this point in time" can
+become "now." "In order to" can often become "to." Clear writing is usually
+shorter than vague writing.
+
+===== Formal and informal English =====
+
+Informal English is common in conversation, personal messages, and some social
+media. It includes contractions, slang, sentence fragments, and casual
+punctuation. Formal English is common in academic writing, business documents,
+and official communication. It usually avoids slang, uses complete sentences,
+and follows standard punctuation.
+
+Choose the register that fits the audience and purpose. A message to a friend
+can be relaxed. A job application should be polished. Neither register is
+inherently better; each is appropriate in its own setting.
+
+===== Practice examples =====
+
+Incorrect: Me and him went to the store. Correct: He and I went to the store.
+The subject form is needed, and the pronoun I comes after the other person.
+
+Incorrect: The report was wrote by the intern. Correct: The report was written
+by the intern. The passive voice uses the past participle.
+
+Incorrect: Each of the students have a book. Correct: Each of the students has
+a book. "Each" is singular.
+
+Incorrect: She is more taller than her sister. Correct: She is taller than her
+sister. Do not combine more with an -er ending.
+
+Incorrect: Their going to the beach with there friends. Correct: They're going
+to the beach with their friends.
+
+Incorrect: I have went to that restaurant before. Correct: I have gone to that
+restaurant before. Use the past participle with have.
+
+Incorrect: Between you and I, the plan is risky. Correct: Between you and me,
+the plan is risky. A preposition takes an object pronoun.
+
+Incorrect: The dog wagged it's tail. Correct: The dog wagged its tail. "Its"
+shows possession.
+
+Incorrect: He don't know the answer. Correct: He doesn't know the answer.
+Third person singular takes "does not."
+
+Incorrect: We discussed about the problem. Correct: We discussed the problem.
+"Discuss" does not need "about."
+
+===== A final checklist =====
+
+Read the sentence aloud. Check that the subject and verb agree. Check that
+pronouns refer clearly to the right noun. Check tense consistency. Check
+punctuation, especially commas and apostrophes. Check commonly confused words.
+Make sure each paragraph has one main idea. Cut words that do not add meaning.
+
+Grammar is a tool for clarity. Rules matter, but meaning matters more. When a
+rule and clarity conflict, choose the version that helps the reader understand
+you. Revise, read your work again, and ask whether each sentence says exactly
+what you intended.

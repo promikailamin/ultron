@@ -1,0 +1,147 @@
+Food refers to consumable items that, when eaten, restore hunger and saturation points, sometimes giving status effects.
+
+
+== Eating ==
+
+Eating is the process of consuming food items. Eating a food item requires holding use, and takes an amount of time dependent on the food's consumption time value.
+
+
+=== Consumption time ===
+Eating (or drinking) a consumable takes 32 game ticks (1.6 seconds), with exceptions: Dried kelp takes half the time (16 game ticks (0.8 seconds)), and honey bottles take 25% longer (40 game ticks (2 seconds)). Cake is a block and thus cannot be eaten in the hand, requiring the player to place it down and then use it.
+
+
+=== Eating while at full hunger ===
+In Survival, food cannot be eaten while already at full hunger, with the exception of chorus fruit, golden apples, enchanted golden apples, honey bottles, and suspicious stew. This also applies to potions, water bottles, and milk buckets. In Creative mode and Peaceful difficulty,‌[Bedrock Edition  only] any food can be consumed at any time.
+
+
+== Hunger ==
+
+Hunger is a value that determines healing, whether or not the player can sprint, and whether or not the player is starving. Hunger is restored by eating food items. Hunger is lost by healing or by performing energy-intensive actions that exhaust the player, and is the second value to be consumed by it, after saturation.
+The player's current hunger value is represented by the hunger bar (), which displays above the hotbar on the right side, opposite of the health bar. Each hunger point is represented by half a hunger icon (), and the maximum hunger value is 20. Hunger points can also be restored by applying the Saturation status effect. The hunger value does not drain on Peaceful difficulty, and always remains at the maximum value of 20.
+
+
+=== Natural regeneration ===
+
+If the hunger value is at 18 () or above, or the saturation value is non-zero, the player's health naturally regenerates every 4 seconds (80 ticks). Saturation is used first, and then once fully drained, hunger is used instead. When the hunger value drops to 17 () or below, natural regeneration stops.
+
+
+=== Sprinting ===
+
+If the hunger value is at 6 () or below, the player loses the ability to sprint until the hunger value matches or exceeds 7 .
+
+
+=== Starvation ===
+
+If the hunger value reaches 0 (), the player begins to lose health due to starvation. Starvation damages the player by 1HP every 4 seconds (80 ticks). Starvation damage ignores armor and armor toughness, the Protection enchantment, and the Resistance effect. Starvation damage stops taking effect when reaching certain health thresholds on certain difficulties.
+
+On Easy difficulty, starvation damage stops when the player's health is at 10HP or below.
+On Normal difficulty, starvation damage stops when the player's health is at 1HP or below.
+On Hard difficulty, starvation damage does not stop at any health threshold.
+
+
+=== Food hunger values ===
+
+
+== Saturation ==
+
+Saturation is a value that determines healing, as well as the time until hunger begins to deplete. Saturation is lost by healing or performing energy-intensive actions that exhaust the player, and is the first value to be consumed by it, before hunger.
+The player's current saturation value is not visually displayed as a bar, unlike the hunger value. Instead, when saturation reaches zero, the hunger bar starts to shake or jitter periodically.
+
+
+=== Saturation boost ===
+
+Saturation boost, also known as saturation healing, is a mechanic that regenerates health when the player's hunger bar is full (). Saturation boost heals 1HP by consuming 1.5 () saturation, and activates every 0.5 seconds (10 ticks) when at full hunger. While the saturation mechanic as a whole is in both Bedrock Edition and Java Edition, saturation boost is only in Java Edition.
+
+
+=== Food saturation values ===
+
+
+== Exhaustion ==
+Exhaustion is incurred from doing certain energy-intensive actions, and certain actions exhaust the player more than others. Exhaustion first reduces saturation, and then reduces hunger.
+Once the exhaustion level reaches 4.0, it resets to 0.0 and reduces the saturation by 1 () if there is any saturation remaining. If the saturation is 0, it reduces the hunger by 1 () instead.
+
+
+=== Energy-intensive actions ===
+
+
+== Effects ==
+
+Certain foods provide additional effects when eaten, both helpful and harmful. This can come in the form of gaining status effects, clearing status effects, or teleportation.
+
+
+=== Food effects ===
+
+
+=== Hunger effect ===
+
+The Hunger effect removes 1 () hunger or 1 () saturation point every 40level seconds, and turns the hunger bar to a green color (). It is inflicted by being attacked by a husk, or by eating pufferfish, rotten flesh, or raw chicken.
+
+
+=== Saturation effect ===
+
+The Saturation effect replenishes 1 () hunger point and 2 () saturation points every 0.05 seconds (1 tick)‌[Java Edition  only] per level. It is applied exclusively through suspicious stew crafted with a blue orchid or dandelion.
+
+
+== Food sources ==
+
+
+=== Ingredients ===
+The following items cannot be eaten on their own. Instead, they are used to craft consumable food items.
+
+
+== Internal variables ==
+Food uses four variables, the values of which are stored in the player.dat format. Variables can be queried in-game with the following command: /data get entity <player's name> <variable>‌[Java Edition  only].
+
+foodLevel: The player's current hunger level, shown on the hunger bar. Its initial value on world creation or respawn is 20 ( × 10).
+foodSaturationLevel: The player's current saturation level, which determines how fast foodLevel depletes and is controlled by the kinds of food the player has eaten. Its maximum value always equals foodLevel's value and decreases with foodLevel. Its initial value on world creation or respawn is 5.
+foodTickTimer: This variable is used when foodLevel either exceeds 17 (), or is at zero. It increases on every tick, and whenever it reaches 80 (4 seconds), it resets to zero and 1HP is added or deducted, depending on whether the player is saturated or starving. If the player has a full 20 ( × 10), 1⁄6 of 1HP times the player's foodSaturationLevel is restored, up to a maximum of 1HP, when foodTickTimer reaches 10 (1⁄2 second), and foodTickTimer is reset to zero.
+foodExhaustionLevel: The player's current exhaustion level, which determines how fast the foodSaturationLevel depletes. Its value is increased by the player's actions (see Exhaustion level increase for specific values). The initial value is zero. When it reaches a value of at least 4, the total value is decreased by 4 and one point is subtracted from foodSaturationLevel, or foodLevel if foodSaturationLevel is at zero.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+== Issues ==
+Issues relating to "Food" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Mojang screenshots ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

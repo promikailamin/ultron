@@ -1,0 +1,93 @@
+Cooked rabbit is a food item that can be eaten by the player.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Cooking ===
+Raw rabbit can be cooked in a furnace, smoker, or campfire. Each piece of cooked rabbit removed from a furnace output slot gives 0.35 experience (22.4 experience per stack).
+
+
+=== Villager gifts ===
+In Java Edition, butcher villagers may give players with the Hero of the Village effect cooked rabbit.
+
+
+== Usage ==
+
+
+=== Food ===
+
+To eat a cooked rabbit, press and hold use while it is selected in the hotbar. Eating one restores 5 () hunger and 6 hunger saturation.
+
+
+=== Crafting ingredient ===
+Cooked rabbit can be used to craft rabbit stew.
+
+
+=== Wolves ===
+Cooked rabbit can be used to breed and heal tamed wolves, lead them around, and make baby tamed wolves grow up faster by 10% of the remaining time.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Cooked Rabbit" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+==== In other media ====
+
+
+== References ==
+
+
+== Navigation ==

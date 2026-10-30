@@ -1,0 +1,158 @@
+A sticky piston is a variant of the piston that can additionally pull most blocks when it retracts.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A sticky piston can be broken using any tool with equal efficiency, and always drops itself.
+In Java Edition, it is faster to break them with a pickaxe. The pickaxe is also the preferred tool for breaking the head when extended.
+
+
+=== Natural generation ===
+Three sticky pistons generate as part of each jungle pyramid. Five sticky pistons also generate in each ancient city.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+A sticky piston behaves the same way as a normal piston, except when pulling. A sticky piston pulls when it is unpowered.
+In Bedrock Edition, the start delay is fixed at 1 redstone tick which is 2 game ticks (0.1 seconds), meaning that the sticky piston starts to extend or retract 1 redstone tick (2 game ticks) after it is activated. Sticky pistons can only activate on the input/consumer redstone tick (C-tick).
+
+
+=== Pulling ===
+A sticky piston also pulls the block attached to its head and any blocks attached to the head via slime- or honey blocks, but not any of the other blocks it may have pushed.
+A sticky piston cannot pull a falling block.
+
+
+==== Block dropping ====
+
+A sticky piston finishes extending early and starts retracting if it loses power before the extension process is over (assuming it can detect the signal change). If the sticky piston was pushing one or more blocks during the extension, the first block ends up in its final position immediately and all the other blocks continue moving as if they were still being pushed.
+This behavior is intended and is referred to as "block dropping" or sometimes "block spitting".
+Block dropping only works for blocks that were being pushed by the sticky piston before its extension was canceled—if it wasn't pushing any, the sticky piston attempts to pull blocks as usual once it starts retracting.
+With block dropping it's possible to push (but not pull) a waterlogged block without causing the water to disappear.
+
+
+== Limitations ==
+Sticky pistons have the same limitations for pushing as normal pistons. These limitations also apply for pulling: when a sticky piston is unpowered but cannot pull a block, it retracts without doing so.
+The table below lists which blocks can or cannot be pulled.
+
+
+== Technical components ==
+
+Sticky pistons have 2 technical blocks that cannot be obtained. These include the piston head and moving piston blocks.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition (piston):
+
+Bedrock Edition (arm):
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+The sticky_piston block uses following block states:
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+
+In Bedrock Edition, a sticky piston has a block entity associated with it that holds additional data about the block.
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+==== Legacy Console Edition ====
+
+
+== Issues ==
+Issues relating to "Sticky Piston" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Jeb considers inertia to make sense as an interpretetion of why can sticky pistons drop blocks in Java Edition.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+== See also ==
+Piston
+Slime Block
+Redstone
+Tutorial:Piston uses
+Tutorial:Headless pistons
+Redstone circuits/Piston
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Block of the Month: Sticky Piston"     by Duncan Geere  – Minecraft.net, July 14, 2025.
+
+
+== Navigation ==

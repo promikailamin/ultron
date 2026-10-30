@@ -1,0 +1,102 @@
+Crafting is the process of constructing tools, items, and blocks in Minecraft that can be performed via the inventory, a crafting table, or automatically using a crafter.
+
+
+== Crafting system ==
+
+
+=== Manual crafting ===
+
+Players in Survival and Adventure mode, as well as Creative in Bedrock Edition and Spectator in Java Edition (although unable to interact with the GUI), have access to a 2×2 crafting grid from their inventory screen. Players craft by arranging items in the crafting grid to match a given recipe. Small crafting recipes that are at most 2×2 can be made there, including wooden planks, sticks, crafting tables, and torches.
+To craft more complex items, a crafting table must be created, placed, and used. The crafting table can be made by filling the 2×2 grid with any type of wooden planks. This brings up an interface with a larger 3×3 crafting grid in which the player can use to craft any crafting recipe in the game. Recipes fitting the 2×2 grid can also be crafted in the crafting table's 3×3 grid. There is a recipe book button in the inventory where the player can access all of their unlocked crafting recipes.
+Some recipes don't require their ingredients to be arranged in a specific way on the crafting grid. These are commonly known as "shapeless" recipes. For example, players may craft a fermented spider eye by placing its ingredients anywhere within the grid.
+Most recipes must have their ingredients placed in the correct relative positions on the crafting grid. These are commonly known as "shaped" recipes. Ingredients in shaped recipes can be moved up, down, left, or right. They can also be flipped horizontally, but not vertically. For example, a 3×1 recipe, such as bread, can be made using the top, middle, or bottom row of the 3×3 grid, and a bow may be made with the strings placed on the left instead of on the right.
+There are recipes that may not be moved or mirrored in this way. These are commonly known as "fixed" recipes. For example, dyes in banner recipes must be specifically placed to achieve the desired pattern‌[BE  only]. No fixed recipes exist in Java Edition, but they can be added by data packs, add-ons, or mods.
+Unlike other in-game actions such as opening chests, smithing, brewing, and enchanting, crafting is completely silent.
+
+
+=== Automated crafting ===
+Crafting can be automated using the crafter.
+The simplest way to do this is for the player to add the items for the crafting into the crafter manually, however this process can itself be automated using hoppers. In order to control which slots the hopper puts the item into it is possible to disable certain slots to prevent the input of items. When items are put into a crafter automatically they fill every enabled slot equally from left to right and top to bottom, in that order. If all slots are disabled, then hoppers connected to it cannot put items in it. 
+The crafter can craft anything that a normal crafting table can.
+Crafters require a redstone signal to activate.
+Automated crafting is useful in both storage systems and automated farms, as it provides a way to automatically craft items and blocks that otherwise requires manual input.
+
+
+=== Recipe book ===
+
+The recipe book is a mechanic that serves as a catalog of recipes and as a crafting guide. It shows every crafting recipe that the player has unlocked. 
+Crafting recipes are organized in several different categories. The categories differ between Java and Bedrock.
+In Bedrock Edition, categories consist of craftable items from each Creative inventory tab.
+In Java Edition, the categories are as follows:
+
+The first tab contains every unlocked recipe.
+The second tab contains utility items, tools, weapons, and armor.
+The third tab contains building materials.
+The fourth tab contains food, ingredients, and miscellaneous items.
+The fifth tab contains redstone materials.
+
+
+=== Recipe system ===
+
+Recipes, including crafting recipes, can be configured by data packs in Java Edition or add-ons in Bedrock Edition.
+
+
+== Complete recipe list ==
+To save space, some recipes are animated (requires JavaScript). On this wiki, shapeless recipes are marked with a pair of intertwined arrows on the crafting table graphic, while fixed crafting recipes are marked by an exclamation point. These symbols do not appear in the game.
+
+
+=== Changed recipes ===
+ 
+Some items had different crafting recipes and have since been updated in later versions of Minecraft.
+
+
+==== Java Edition ====
+
+
+==== stringBedrock Edition ====
+
+
+=== Removed recipes ===
+
+Some items could be crafted previously, but cannot be crafted in the current version of Minecraft.
+
+
+== Videos ==
+
+
+== Achievements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Crafting" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Development images ===
+
+
+== See also ==
+Brewing
+Enchanting
+Smelting
+Item durability
+
+
+== Navigation ==

@@ -1,0 +1,175 @@
+A note block is a block that emits sounds when attacked, used, or powered. The sound produced can be altered in various ways by using it or putting certain blocks directly above or below it. Allays are affected by note blocks, staying nearby and dropping held items next to it for a short while upon hearing its sound.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Note blocks are most quickly broken with an axe.
+
+
+=== Natural generation ===
+Two note blocks generate in the ice_box_1 structure in ancient cities.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Playing music ===
+
+
+==== Notes ====
+
+A note block produces a sound and spawns a colored eighth note particle whenever any of the following conditions are met:
+
+It is attacked by a player in Survival mode
+It receives a redstone signal
+It is used by a player.
+A note block must have either air or a mob head in the space directly above it to play a sound, though using a silenced note block will still change its pitch. Note block sounds can be heard from up to 48 blocks away, and can be independently controlled by the Jukebox/Note Blocks slider in the audio settings.
+Each time a note block plays a sound, an eighth note particle will appear from the top. The color of the particle depends on the pitch of the note block. Note particles do not appear for silenced note blocks or mob head instruments.
+Excluding mob heads, there are 16 different instruments and 25 different pitches per instrument (a total of 400 notes with different sounds). Using a note block increases the instrument's pitch up a semitone, with a total of two full octaves (24 semitones in total) being available for each instrument. The standard range (for harp and pling instruments) of notes spans from F♯3 to F♯5. After reaching the highest note (24 presses of the use button), pressing use again (25th press of the use button) resets the pitch back to F♯3, as does breaking the block. The note block's pitch is ignored for player heads and the six mob heads.
+The string bass and didgeridoo are two octaves (24 semitones) lower than the standard range, the guitar is one octave (12 semitones) lower than the standard range, the flute is one octave above the standard range, and the bell, chime, and xylophone are 2 octaves above the standard range. This gives six octaves (72 semitones) of effective range to combine instruments for greater pitch coverage.
+The exact pitch can be found from its use-count by using the following formula: 2 ^ ((use count - 12) / 12).
+The exact pitch to use-count assignment is shown below, along with the note's color, which is rendered with shading using the particle's texture.
+
+Alternatively, there is a graphical version available:
+
+The current pitch of a note block can be roughly estimated by attacking it and looking at the color of the note particle.
+
+In Java Edition, the tuning can also be checked by looking at the debug screen (accessed by pressing F3). It is denoted as "note:" followed by a number from 0 to 24.
+
+
+==== Instruments ====
+
+The instrument played depends on the block placed directly underneath the note block. In Bedrock Edition this can be configured by the block component minecraft:instrument_sound.
+
+Mob heads must be placed on top of the note block. Mob head instruments take priority over block instruments, and play the corresponding mob's ambient sound, except for creeper heads, which instead trigger the primed sound. Mob head sounds are not affected by the note block's pitch.
+
+
+=== Sound propagation radius ===
+
+The sound of note blocks reaches different radii depending on the target:
+
+Players can hear a note block being activated up to a radius of 48 blocks.
+Wardens and allays can hear a note block being activated up to a radius of 16 blocks.
+Sculk sensors can detect a note block being activated up to a radius of 8 blocks.
+
+
+=== Redstone ===
+
+
+==== Activating note blocks ====
+
+Note blocks can be activated in a variety of different ways, following normal redstone principles. Note blocks conduct redstone power, which means they activate blocks next to them when directly powered, including other note blocks. 
+In Java Edition, after activating a note block or changing its pitch (via use), the change is treated as a block state change. This immediately plays the sound and generates a block update detectable by both observers and block update detectors (BUDs). An observer facing a note block will trigger whenever the note block is used, powered by redstone, or its instrument/pitch changes. Because note blocks conduct power, they can be integrated into complex observer-based circuits as conditional triggers or signal routers.
+In Bedrock Edition, due to a known bug, activating a note block or changing its pitch (via use) does not trigger a block update, meaning neither observers nor BUDs can detect the change. This occurs because pitch and instrument data are stored as block entity data, which updates independently of the main world loop. In circuits requiring a redstone-triggered or manually activated block updates (e.g., flying machines), bells are often used as substitutes in most situations.
+
+
+==== Sculk detection ====
+Note blocks emit vibrations detectable by sculk sensors. A calibrated sculk sensor tuned to signal strength 10 detects a note playing.
+In Bedrock Edition, sculk sensors provide the only reliable method of detecting both note block activations and pitch changes for redstone, since observers and BUDs cannot register these events.
+
+
+=== Allay interactions ===
+If an allay hears a note block play within 16 blocks of its location, it pathfinds to it. It then spends 30 seconds near that note block, seeking items and dropping them near the note block instead of its player. After 30 seconds, the allay returns to targeting its player unless the note block is played again. A vibration particle emanates from the note block and reaches the allay to indicate the allay has locked onto it. Placing wool between the note block and the allay prevents this interaction. Allays ignore note blocks which do not make sounds, with the exception of note blocks with player heads on top.
+
+
+=== Fuel ===
+Note blocks can be used as fuel in furnaces, smelting 1.5 items per block.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+
+=== Block data ===
+In Bedrock Edition, a note block has a block entity associated with it that holds additional data about the block.
+See Bedrock Edition level format/Block entity format#Note Block.
+
+
+=== Sound events ===
+This table maps each note block sound to its internal sound event name in both editions for use with commands (such as /playsound) and resource pack creators. For Java Edition, the instrument block state value is also provided. in Bedrock Edition this can be configured by the block component minecraft:instrument_sound.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Note block" or "Noteblock" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Because a note block is a wooden-type block, a note block directly on top of another one produces a string bass sound when playing notes.
+In Java Edition, note blocks have the highest number of possible block state combinations, at 1350, beating fire's 512 and redstone dust's 1296.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Concept art ===
+
+
+=== In other media ===
+
+
+== See also ==
+Tutorial:Redstone music
+Tutorial:Redstone music/Doorbell
+Jukebox
+Minecraft Note Block Studio – A music editor for Minecraft
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Note Block"     by Duncan Geere  – Minecraft.net, June 1, 2018.
+
+
+== Navigation ==

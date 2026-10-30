@@ -1,0 +1,87 @@
+Death is a game mechanic related to health, which occurs when the health of an entity reaches 0HP.
+
+
+== Occurrence ==
+Death occurs usually as the result of taking enough damage.
+Setting the maximum health of an entity to 0HP makes it immediately die.
+Executing /kill causes entities to die immediately, including non-mob entities.
+In Java Edition, a parrot dies immediately when it is fed a cookie.
+Upon the death of a player, a death message describing the cause of death is shown in chat to everyone in that world if the show_death_messages‌[JE  only] or showdeathmessages‌[BE  only] game rule is set to true. The death of a player's pet also creates a death message if the same game rule is set to true: In Java Edition, this is shown only to its owner; in Bedrock Edition, this is shown to every present player in the world. In Java Edition, the death of a player, villager, or renamed mob is recorded in the game's logs.
+When killed, mobs can drop their items and experience at their location.
+
+In Java Edition, players and mobs drop their experience immediately.
+In Bedrock Edition, players and mobs first play out their animation (see below), then they turn to dust and drop their experience.
+
+
+== Animation ==
+When an entity dies, it performs a death animation, if it has one:
+
+Players and most mobs fall on their left side to the ground.
+Squid do not have death animations.
+Spiders, cave spiders, endermites, and silverfish flip upside-down.
+The ender dragon flies to the highest dragon-immune block in the (0,0) column,  which is typically the top of the exit portal, and then ascends and explodes.
+For players and mobs, the death animation lasts 20 game ticks (1 second). After the death animation has completed, the mob or player's body immediately disappears and creates white smoke particles.
+In Java Edition, mobs still count toward the mob cap during their death animation.
+In Bedrock Edition, armor stands have a brief death animation when killed with a harming, wither, or poison potion. In Java Edition, summoning an armor stand with no health causes the death animation.
+In Minecraft Education, tripod cameras have a death animation when killed by a potion effect.
+
+
+== Player effects ==
+
+For players, a "You Died!" screen (or "Game Over!" in Hardcore mode) appears, displaying a death message; in Java Edition, the player's score is also displayed. In Java Edition, the view of the world is tinted red, render distance is reduced to default, the camera-view slowly tilts as if falling over, shudders, and zooms in slightly. In Bedrock Edition, the screen is slightly darkened, a maroon vignette appears and closes around the screen, render distance is set to default, camera switches to third-person view and zooms out for the purpose of allowing the player to see their cause of death. The following options appear on the screen:
+
+Respawn — Respawn, either in the last bed the player interacted with, at their default spawn point (their first spawn point in the game), their respawn anchor, or at the spawn point set by commands. In Hardcore mode, the player can respawn only in Spectator mode, and cannot continue because cheats are disabled.
+Title Screen — Return to the title screen.
+The death screen is not shown upon death if:
+
+The player holds a totem of undying in the main hand or off-hand and died without falling into the void, in which case the player resurrects upon death. Resurrection does not happen if the player fell into the void or was killed by /kill.
+The game rule immediate_respawn‌[JE  only] or doimmediaterespawn‌[BE  only] is set to true, in which case the player instantly respawns upon death without the death screen appearing, but still shows death message.
+Any items or blocks that were in the player's inventory (except items enchanted with Curse of Vanishing) are dropped from their head, and scattered around the spot where the player died (unless the game rule keep_inventory‌[JE  only] or keepinventory‌[BE  only] is set to true). Like any dropped item, these drops decay after five minutes while that chunk is loaded.
+The player also loses any experience accumulated, reverting the level back to 0 (unless the game rule keep_inventory‌[JE  only] or keepinventory‌[BE  only] is set to true) and drops experience orbs with a precise total value of player last level × 7 experience points (with a maximum of 100). After reaching level 15, the player always drops only 100 experience points regardless of level.
+The player also loses all effects upon respawning, even when the game rule keep_inventory‌[JE  only] or keepinventory‌[BE  only] is set to true.
+In Java Edition, despite the fact that dead players disappear like all other mobs, it is still possible for the player to see their own hand while in the first-person mode.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Death" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+==== Bedrock Edition ====
+
+
+== See also ==
+Health, the system used to tell the user when they will die.
+Ore UI, the Bedrock Edition and Minecraft Education UI refresh.
+
+
+== References ==
+
+
+== Navigation ==

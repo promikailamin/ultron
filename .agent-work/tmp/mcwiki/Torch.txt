@@ -1,0 +1,133 @@
+Torches are non-solid blocks that emit light.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Torches can be broken instantly using anything, and drop themselves as an item.
+
+A torch is removed and drops itself as an item if:
+
+Its attachment block is moved, removed, or destroyed
+Water flows into its space
+A piston pushes it or moves a block into its space
+When lava flows into a torch's space, it will be destroyed without dropping anything.
+
+
+=== Crafting ===
+
+
+=== Natural generation ===
+In the Overworld, torches can be found among the supports in a mineshaft's corridors, as part of village lamp posts and most houses, in various rooms in strongholds, in the basements of igloos, in woodland mansions, and on top of pillager outposts. Torches also generate around bonus chests if each side has a block at the same height around it. Torches also generate in ancient cities.
+
+
+=== Generated loot ===
+
+
+=== Post-generation ===
+When the ender dragon dies or is re-summoned using end crystals, the four torches on the exit portal regenerate. If the original torches are still in position, they drop as items, and the new torches take their place.
+
+
+== Usage ==
+
+Torches can be placed on the top or the sides of most solid blocks, although some blocks require sneaking. Being non-solid, torches have no collision box. More information about placement can be found at Opacity/Placement.
+Gravity-affected blocks like sand and gravel will not start falling if the space immediately beneath is occupied by a torch. Falling blocks break if they fall onto a solid block with a torch above it. If there is an air block under the torch, the falling blocks fall through the torch onto the surface below.
+
+
+=== Light ===
+Torches give off a light level of 14. Torches also melt snow layers within 2 blocks and ice within 3 blocks (taxicab distance).
+When the Render Dragon Features for Creators experiment is enabled in Minecraft Preview, the top part of torches emits colored point lighting with  #f39a5e. This causes the bottom part of the torch to render a small square shadow.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+Wall
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Torch" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In physically based rendering, the block light of a torch is 1262.665039 lumens.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Copper Torch
+Soul Torch
+Redstone Torch
+Redstone Lamp
+Underwater torch
+ Colored torch
+Lantern
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Torch"     by Duncan Geere  – Minecraft.net, December 10, 2018.
+
+
+== Navigation ==

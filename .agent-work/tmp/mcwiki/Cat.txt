@@ -1,0 +1,263 @@
+A cat is a passive mob found in villages and swamp huts. They can be tamed and creepers and phantoms are afraid of them.
+
+
+== Spawning ==
+
+
+=== Natural spawning ===
+In Java Edition, cats can spawn every 1200 ticks (1 minute). A random player is selected (including spectators) and a random location is chosen 8-32 blocks away from the player horizontally in both directions and at the same height. If that chosen block is less than 2 chunks from a village (including zombie villages)[verify for Java Edition] with fewer than 5 cats, or inside a swamp hut, then a cat can spawn.
+
+
+=== Villages ===
+Untamed cats spawn in villages as long as there are at least five claimed beds within 48 blocks and at most four cats within a 97×17×97 box centered around the spawn position. Cats that spawn with the creation of a village do not despawn, however, any additional cats that spawn within a village may despawn. A village cat spawns with a random appearance, although black cats may spawn only during a full moon; which works in both Java Edition[verify] and Bedrock Edition, where 50% of cats are black. The spawning of cats in villages is a separate process from the natural spawning of passive mobs and thus is not affected by the Creature mob cap. In Bedrock Edition, 25% of cats spawn as babies.
+In Bedrock Edition, a village periodically spawns stray cats to fill a quota of 1 cat per 4 owned beds, up to a maximum of 5 cats for 20 or more owned beds. Only owned beds (those currently claimed by a villager) are counted for this purpose. All cats within the village boundaries are counted, including baby cats, cats that wander in from outside, and tamed cats owned by a player. If the number of cats found is short of the quota, the village tries to spawn one cat or baby cat within a volume of 17×13×17 blocks centered on the village center, similar to iron golems.
+
+
+=== Swamp hut ===
+One untamed black cat generates alongside a witch inside swamp huts upon world generation. This cat never despawns. Additional cats can spawn within the hut similarly to witches. In Java Edition, any other cats that spawn within the swamp hut (from spawn eggs and commands without cat type set) always spawn as black. A new cat does not spawn in a hut if there is already a cat within a 16×8×16 block volume.‌[Java Edition  only][verify]
+
+
+=== Sound variants ===
+
+Cats have 2 sound variants: Classic and Royal. 
+A sound variant is chosen randomly upon the mob spawning, and is not related to the mob's skin variant. These sound variants have no effect on the mob's behavior.
+For the sounds of each sound variant, see § Sounds.
+
+
+== Drops ==
+
+
+=== Adult ===
+Java Edition:Bedrock Edition:
+1–3XP when killed by a player or tamed wolf.
+Upon successful breeding, 1–7XP is dropped.
+
+
+=== Baby ===
+Like other baby animals, killing a baby cat yields no items or experience.
+
+
+== Appearance ==
+
+There are currently eleven variants of cats in the game:
+
+  All Black (black with orange eyes)
+  British Shorthair (silver with yellow eyes)
+  Calico (orange, white and dark brown with yellow and blue eyes)
+  Jellie (gray and white with gray-green eyes)
+  Persian (creamy with blue eyes and flat faces)
+  Ragdoll (white and soft amber with blue eyes)
+  Red (orange and white with green eyes)
+  Siamese (white and pale brown with blue eyes)
+  Tabby (brown and white with yellow eyes)
+  Tuxedo (black) (black and white with green eyes)
+  White (white with light blue and yellow eyes)
+Cats wearing a collar are considered tamed. When a cat is initially tamed, the collar appears red by default. However, using one of the sixteen colored dyes on the cat by the owner of the cat changes its collar to the corresponding color.
+Despite sharing the same model, cats are smaller than ocelots.
+The cat variant Jellie was chosen by the community from three finalists of an online contest in 2018. Jellie was submitted to the Cat Contest by her owner GoodTimesWithScar. Jellie died in January 2024 at the age of 17.
+In the default resource pack, a texture file for a tamed gray tabby exists;‌[BE  only] however, it is completely unused and cannot be spawned in-game.
+
+  Gray Tabby (gray and white with light blue eyes)
+
+
+== Behavior ==
+Cats are immune to fall damage, but they still avoid falling off cliffs high enough to normally cause fall damage.
+Creepers and phantoms avoid cats, even while pursuing a player, keeping a distance of 6 and 16 blocks away respectively from any cats. However, a creeper that has begun its detonation does not flee unless the player leaves its blast radius. Cats hiss at phantoms that are currently pursuing a player.‌[JE  only]
+Cats can see players even if they have the Invisibility status effect.
+Baby cats have a faster movement rate but otherwise have the same behavior as adults.
+
+
+=== Stray cat ===
+A stray cat is an untamed cat. Naturally spawned cats always spawn as stray cats. Unlike untamed wolves, stray cats may despawn naturally. They pursue and attack rabbits and baby turtles they see within 15 blocks. Similar to ocelots, they sneak and stalk their prey until they are within 4 blocks, then chase it down. Even though they spawn in villages, they don't necessarily remain there; instead, they explore.
+Stray cats sprint away from any player within 7 blocks, and actively try to avoid players within 16 blocks. However, they slowly approach a player holding raw cod or salmon within 10 blocks, allowing the player to feed and tame it (see § Taming below). If the player turns too quickly or stops holding the fish within 6 blocks, the cat flees and does not attempt to approach the player for a few seconds.
+Stray cats can be leashed.
+
+
+=== Tamed cat ===
+
+Unless commanded to sit (see § Taming below), tamed cats do not remain still for long and explore around the player.
+A cat not already sitting attempts to get on top of chests, the foot part of beds, or active furnaces at the cat's current Y-level within a 4-block-radius square horizontally. Once on top, it often assumes a sitting position without a command from the player. A cat also occasionally attempts to sit on these blocks if the blocks are at ground level. A chest with a cat sitting on top of it becomes unusable unless the cat is commanded to stand.
+Cats that sit on their own can be ordered to stand by commanding them to sit and then stand again, or they may get up if the player holds a raw fish nearby. The cat can also be brought down by removing the block or pushing it off. A cat does not sit on a block that is obstructed by another block above it. A cat can also be forcibly moved by attacking it, and while fleeing for some time, it sporadically sits and stands before finally staying put.
+Like other mobs, cats enter nearby boats and moving minecarts, trapping themselves. A cat in a boat will always appear standing, but still maintains its sitting/standing status it had when entering the boat, and can still be made to change between "standing" and "sitting" by pressing use on it, despite no visual change. A "sitting" cat released from a boat will then immediately re-assume a sitting position. Similar behavior exists for minecarts.
+Tamed cats, like stray cats, can be leashed.
+If a player is harmed by a hostile mob or a harming potion, but not by environmental damage, a cat sitting in proximity to the player stands, moves a few blocks from its sitting location, then resumes sitting. ‌[JE  only]
+
+
+=== Gifts ===
+When the player sleeps, tamed cats move toward their owner and sleep near them by lying on the bed. When the player wakes, their tamed cats also wake. There is a 70% chance for a tamed cat to give the player a gift after they wake up, but only if the player sleeps at night; if the player sleeps during a thunderstorm during the daytime, or if the tamed cat has been ordered to sit, the player receives no gift. The gift is a dropped item from the cat_morning_gift.json loot table:
+
+After a cat gives a gift, both the cat and the gift are located in the general area of the bed the player slept on, including on the other side of walls or floors.
+If a player has multiple standing tamed cats in the area, only the tamed cat that sleeps on the player may provide a gift. If all standing tamed cats in the area are prevented from reaching the player (i.e. trapped in minecarts or boats), then in Java Edition each cat has a 70% chance of providing a gift while in Bedrock Edition only one cat may give a gift.
+In Java Edition, in order for a standing tamed cat in a minecart or boat to drop a gift, it must be within a 10-block radius centered on the block above the head of the player's bed.
+
+
+=== Teleportation ===
+Similar to tamed wolves, tamed cats teleport to their owner if they are more than 12 blocks away, except as listed below. It is possible for a tamed cat to teleport to an inaccessible location (e.g., under ice) and be injured or suffocate as a result.
+A cat does not teleport:
+
+If the cat has been ordered to sit.
+Exception: The cat is likely to teleport if it is injured while sitting (it does not sit after it teleports). A dramatic example is if a cat sitting outside is struck by lightning, in which case the cat materializes on fire. This typically kills the cat.
+If the cat is attempting to sit on a chest, bed, or furnace.‌[Bedrock Edition  only]
+If the cat is attempting to lie or is lying on a bed.
+If the cat is in a minecart or boat.
+If the cat has been attached to a fence post with a lead.
+If the cat is in an unloaded chunk.
+If none of the blocks on the edge of a 5×5×1 region centered on the player are transparent blocks with an opaque block below and another transparent block above.
+If the player is in another dimension.
+If the player is in water, the cat teleports to the player when the player leaves the water.
+If the cat is in water, teleportation is unreliable. It may or may not occur.
+Cat teleportation is completely silent.
+
+
+=== Taming ===
+
+Stray cats can be tamed using raw cod or raw salmon (see Behavior for how to approach a cat). Each raw cod or raw salmon has a 1⁄3 chance of taming the cat. Once tamed, cats follow the player who tamed them. They do not despawn, no longer fear the player, and purr or meow frequently. Like wolves, and with the same limits, they can teleport to a player who moves 12 blocks away.
+The player can order a cat to sit or stand by pressing use on it. If the player is holding a raw cod or salmon when commanding a cat to sit or stand, the fish is given to the cat instead, causing it to enter love mode. Once in love mode, the player can command a cat to sit or stand while holding a fish. Cats also sit on certain things of their own accord (see § Tamed cat).
+Using a cat spawn egg on a tamed cat makes the baby automatically be tamed to the parent cat's owner.
+
+
+=== Breeding ===
+
+When tamed cats are fed a raw cod or salmon, they enter love mode. Breeding creates a baby cat, and the parents cannot breed again for 5 minutes. The baby has the coloring of and belongs to the owner of one of the parents. The color of a baby cat's collar is a mix of the colors of the parents' collars, if it is possible to mix them; otherwise, one of the parents' collars is randomly chosen.
+Two sitting cats are unable to breed, but a mobile cat can breed with a sitting cat, in which case the mobile cat's owner also owns the baby.
+Baby cats take 24000 ticks (20 minutes) to grow up, but the growth time can be accelerated using cod or salmon. Each use takes 10% off the remaining time to grow up.
+When breeding 2 cats of separate owners on a multiplayer server, the user who joined first automatically gets the baby.[verify]
+
+
+=== Healing ===
+An injured tamed cat restores 2HP health when fed a raw cod or salmon by its owner. Unlike tamed wolves, a tamed cat's tail is not an indicator of its health.
+
+
+=== Jockey ===
+
+15% of nearby baby zombies, husks, or drowned may ride an adult untamed cat to form a jockey.
+
+
+== Sounds ==
+
+
+=== Adult ===
+
+
+==== Generic ====
+Java Edition:
+
+Bedrock Edition:
+
+
+==== Classic ====
+Java Edition:
+
+Bedrock Edition:
+
+
+==== Royal ====
+Java Edition:
+
+Bedrock Edition:​[more information needed]
+
+
+=== Kitten ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Cats have entity data associated with them that contain various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+=== Advancement criteria ===
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Cat" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The tuxedo cat is based on Jeb's pet cat, Newton.
+In MINECON Earth 2018, Jeb announced that the community could vote for a 9th cat skin to be added with the rest of the other 8 cat skins. As a result, YouTuber GoodTimesWithScar’s cat Jellie won the contest and was added as the Jellie cat in Village and Pillage, making the second mob variation that was suggested by the community, the first being "Toast", a rabbit skin added as a tribute to a user's deceased pet rabbit.
+In real life, cats have been known for their ability to flip upright during a fall, particularly larger ones; though they still might be injured by landing. This fact is reflected in Minecraft because they are not damaged by falls.
+In real life, calico cats are almost always female and the few male calicoes that do occur are generally sterile. However, since animals in Minecraft are genderless, two calico cats can be bred with each other.
+
+
+=== Cat sounds ===
+Some of the cat sounds are recordings from C418's cat who also made the ghast sounds. This is also why one of the songs that play in the Nether is called Ballad of the Cats.
+These sounds are of the cat purring and the cat purreowing. C418 wanted to get all of the necessary cat sounds from his cat, but it refused to cooperate. So C418 got some of the other cat sounds from Freesound instead.
+Some of the Village & Pillage cat sounds are recordings from Samuel Åberg's cat, named Odi.
+These sounds are of the cat begging for food, the cat eating, and the stray cat meowing.
+The hurt sounds were also used for the ocelot.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Mojang images ===
+
+
+=== Screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Your cat could be in Minecraft"     by Tom Stone  – Minecraft.net, October 13, 2018.
+"Mob Menagerie: Cat"     by Duncan Geere  – Minecraft.net, August 18, 2023.
+
+
+== Navigation ==

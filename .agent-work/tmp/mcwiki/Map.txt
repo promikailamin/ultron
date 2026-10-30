@@ -1,0 +1,231 @@
+A map or locator map is an item used to view explored surface terrain and players. Maps can be cloned, zoomed out and locked using a cartography table.
+A (non-locator) map is a variant in Bedrock Edition which does not show players.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Cartography table ===
+
+In Bedrock Edition, a map can also be created using a single paper in a cartography table to create an empty map, or a paper and a compass for an empty locator map.
+
+
+=== Starting map ===
+
+When creating a new world in Bedrock Edition, the player can enable the "Starting Map" option to spawn with an empty locator map in the hotbar. This option is not available in Hardcore mode. The map's zoom scale is 1:8.
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+
+
+=== Villager gifts ===
+In Java Edition, cartographer villagers may give players with the Hero of the Village effect an empty map.
+
+
+== Usage ==
+
+
+=== Mapping ===
+Crafting a map creates an empty map. The map is drawn for the first time when it is held and used (by pressing the use item control). After conversion to a drawn map item, it starts to draw a top-down view of the player's surroundings, with North pointing to the top of the map. A pointed oval pointer indicates the player's position on the map, and moves in real-time as the player moves across the terrain shown on the map. In Bedrock Edition, this pointer is displayed exclusively on locator maps.
+
+The map does not center on the player when created; rather, the world is broken up into large invisible grid squares, and the map displays the area of whichever grid square it was in when it was first used. For example, if a player uses a new map in a certain grid square, then moves a distance away and uses another fresh map within the same grid square, both maps still have the exact same boundary. To make a map with different bounds than the first one, the player would have to move outside of the edges of the first map to enter a new grid square. This way, no two maps of the same size can ever partially overlap. However, by externally editing a map's NBT file, the center coordinate of a map can be changed to arbitrary X and Z integer coordinates, and it will work correctly. So, technically, this restriction on possible center positions only applies to map creation.
+To record the world on a map, that specific map must be held in either of the player's hands while the player moves around the world. The map records terrain within a 128-block radius (8 chunks) from a player in the Overworld or the End, or 64 blocks in the Nether. The map only records the surface even if the player is underground. The world is recorded as-is during exploration, meaning that if the world is modified, a player must revisit the area while holding the map to update the map.
+Maps display as a mini-map when held in the off-hand, or if the off-hand slot is occupied; the map is full-sized only when held in the dominant hand with both hands free.
+Maps can be cloned to synchronize them or framed for display.
+To create a custom picture, a player can make a large piece of pixel art (128×128) facing upward, center a map on it, and place that map in an item frame. Locking is recommended. See Map item format § Map pixel art for details on the techniques.
+
+
+==== Map content ====
+
+Maps are shown as a 128×128 square grid of colored pixels, with each pixel representing a square portion of land. A standard map (meaning zoom level 0/4) represents 128×128 blocks with 1 block per pixel. It can be zoomed out to represent up to 2048×2048 blocks with 16×16 blocks per pixel at zoom level 4/4.
+In Java Edition, the color of a map pixel generally matches the color of the most common opaque block in the corresponding area, as seen from a bird's-eye view. 'Minority blocks' in the target area have no effect on the color of the pixel, thus small features tend to be undetectable on zoomed-out maps.
+In Bedrock Edition, the color of a map pixel instead matches the single top-most opaque block in a grid sized by the map's scale factor. For example, a map with zoom level 3/4 has a pixel size of 8×8 blocks; this means the map reads only the top-most opaque blocks at the 0,0 coordinate, the 8,0 coordinate, the 0,8 coordinate, etcetera, ignoring all other blocks in the area. This means that in Bedrock Edition, map pixel art requires only one block per pixel regardless of map magnification.
+In Bedrock Edition, grass, foliage and water colors that are biome-dependent are represented accurately on a map.
+On land above water, a block's color is darker if placed at a lower elevation than the block north of it, or brighter if placed at a higher elevation than the block north of it. Maps also show ground up to about 15 blocks below the surface of the water as slightly lighter blue, to show where the ground rises.
+
+
+==== Other dimensions ====
+While maps in the Nether work, they show only a red-and-gray pattern, regardless of the blocks placed. The only useful function is finding where the player is in relation to framed copies, which show as green pointers. Additionally, the player pointer rapidly spins and is not a good indicator of direction. In Java Edition, banner markers placed in the Nether still show on the map as usual. Despite its unreliability, having a mapped trail can still be useful in some cases, such as while riding a strider over lava. Maps in the End work as usual, mapping the terrain and showing the accurate location and direction of the player.
+In Java Edition, holding a map from the Overworld in a different dimension shows the player's last position and direction in the Overworld. This effect is temporary, and the marker disappears after quitting and joining the world/server again.
+In Bedrock Edition, an Overworld locator map in the Nether shows the player's relative location and direction in the Overworld. Similarly, a Nether locator map in the Overworld shows the player's relative location in the Nether, but the place marker spins. An Overworld locator map in the End shows the world spawn. A Nether locator map cannot be used in the End — the map appears, but the place marker is not shown anywhere — and similarly, an End locator map cannot be used in the Overworld or the Nether. The place marker changes color depending on the dimension that the player is currently in (white for the Overworld, red for the Nether, and magenta for the End).
+
+
+=== Zooming out ===
+A map can be zoomed out up to 4 times, increasing the covered area from 128×128 blocks up to a maximum of 2048×2048 blocks. An empty map cannot be zoomed out; it needs to be activated for the zooming to be possible. Changing the zoom level of a map resets its contents, and terrain needs to be explored again to be drawn on the zoomed out map.
+Locked maps cannot be zoomed out.
+
+
+==== Zoom details ====
+The zooming function starts from when the map is created (zoom level 0/4) up to its fourth zoom step (zoom level 4/4).
+
+Maps are always aligned to a grid at all zoom levels. That means zooming out any different map in a specific area covered by that map always has the same center. As such, maps are aligned by map width (1024 blocks for a level 3 map) minus 64. A level 3 map generated at X=0 Z=0 covers X and Z coordinates from -64 to 959. All maps generated in this area zoom out to the same coordinates, guaranteeing that they are always 'aligned' on a map wall. For a zoomed-out map to cover a new area, it must start with a base (level 0) map that is in that new area.
+At zoom level 0, a map created on the point (0,0) has (0,0) at the center of the map. At higher zoom levels of the same map, the coordinate (0,0) is in the top left square of the map.
+In Java Edition, the zoom level and the scaling factor are displayed in the tooltip of a map by turning on advanced tooltips (a debug option that can be toggled by using the key combination F3 + H). In Bedrock Edition, the zoom level of a map is always displayed in its tooltip.
+
+
+=== Cloning ===
+A map can be cloned to create multiple synchronized copies linked to the same map data. Multiple players can hold clones of the same map to record different parts of the world simultaneously.
+Upon cloning a map, the parts of the world that have already been explored and mapped are copied; thereafter, newly explored areas appear on all cloned instances automatically. The resulting copies have the same zoom level as the starting map. If one of the maps is later zoomed out, then that map loses its connection to the original and functions as a completely separate map that has to be individually filled by exploring.
+All cloned maps stack with each other, unless renamed. Even if renamed, the mapped areas continue to remain in sync.
+In Bedrock Edition, both empty maps and empty locator maps may be used to clone a map. Whether the cloned maps show position markers is dependent only on the input map. For this reason, using an empty locator map instead of an empty map for cloning is a waste of a compass.
+
+In Creative mode, a map in an item frame may be cloned by using pick block on it, as long as that map is not also in the player's inventory.
+
+
+=== Player markers ===
+Holding any map in Java Edition, or a locator map in Bedrock Edition, displays a white pointer that marks the position of the player and points in the same direction as the player. When a player moves out of a map, the pointer turns into a white dot which moves along the edge relative to the player's position. The marker disappears if the player is too far from the mapped area; in explorer maps, the dot becomes smaller instead of fully disappearing. The distance on the X or Z axis from the map's edge required for the dot to vanish (regular maps) or to turn smaller (explorer maps) depends on the zoom level of the map:
+
+Level 0/4 : more than 256 blocks away
+Level 1/4 : more than 512 blocks away
+Level 2/4 : more than 1024 blocks away
+Level 3/4 : more than 2048 blocks away
+Level 4/4 : more than 4096 blocks away
+
+
+==== Java Edition ====
+In multiplayer, other players are displayed on the map only if they have a map in their inventory cloned from the one being looked at. Other players are marked using white pointers. Players wearing a carved pumpkin are not marked on other players' maps.
+
+
+==== Bedrock Edition ====
+In Bedrock Edition, position markers are displayed exclusively on locator maps. A map without position markers can be turned into a locator map at a later time by combining it with a compass on the crafting grid, on an anvil, or at a cartography table.
+
+In multiplayer, a locator map contains markers for all players who are not in Spectator mode and are not wearing a head or a carved pumpkin, even if they don't have any maps in their inventory. In the Overworld, players see themselves as a white pointer, and other players are displayed in different colors depending on the order in which they joined: the first player who joined - or the host - is light gray (looking almost identical to the regular white pointer), the second player is cyan, the third player is orange, the fourth player is light green, and so on. All players in the Nether are displayed with a red pointer, and all players in the End use a magenta pointer.
+If other players have a map in their inventory cloned from the one being looked at, they are displayed using white pointers. This also includes players wearing a head or a carved pumpkin, and players in Spectator mode.
+Players who are between 10 to 80 blocks away are displayed using the face of their skin instead of the pointer, with a border colored as described above.
+
+
+=== Framing ===
+When a map is placed into an item frame, the map displays a green pointer at the location of the item frame (it must be a locator map in Bedrock Edition). If the player leaves a map in an item frame and then views a clone of it, the green pointer is displayed on both copies. This can be used to track waypoints. If a player holds a map whose clone is on display in an item frame, then the map in the item frame updates along with the held map.
+These markers work only on clones of the same map. Other maps of the same area do not show the existing markers that the player(s) had placed.
+The size of the item frame expands when displaying a map. This allows for combining multiple maps side-by-side to create a much larger map display that visually appears to be one continuous map. For example, a player could display four maps in a 2×2 grid on a wall; if each map is zoom level 2, the total area displayed would be 1024×1024 blocks (the same as a zoom level 3 map) but with a scaling ratio of 1:4 (the same as a zoom level 2 map), depicting much more detail than a zoom level 3 map.
+Unexplored areas of a framed map are transparent, making the item frame visible.
+
+
+=== Banner markers ===
+
+In Java Edition, the player can also mark spots on a map by using a map on a placed-down banner. The mark takes the color of whatever the base color is for the banner, and if the banner was given a name using an anvil, the mark shows that name. Banner marks on a map in the Overworld are always oriented with their top facing north, regardless of the banner's actual orientation. Banner marks in the Nether match the current orientation of the player's pointer on the map, however the banner's name is still oriented normally. If the banner is destroyed, the mark of the banner remains at first, but if the player gets closer to where the banner previously was, it disappears as the area is updated on the map.
+
+
+=== Locking ===
+Maps can be locked when using a glass pane in a cartography table. This creates a new map containing the same data and locks it. All new copies of this new map are also locked. A locked map never changes, even when the depicted terrain changes. In Bedrock Edition, locked maps have a unique texture; this texture is intentionally excluded from Java Edition.
+Stained glass panes cannot be used to lock maps.
+
+
+=== Renaming ===
+
+In Bedrock Edition, a map or an empty map can be renamed at a cartography table. A renamed empty map keeps its name when activated. Unlike renaming items at an anvil, this does not cost any experience.
+
+
+== Sounds ==
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Metadata ===
+
+In Bedrock Edition, maps use the following data values:
+Empty map:
+
+Filled map:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Map icons ===
+
+Map icons are decorations serving various purposes on maps like showing the player's location on a filled map.
+In Java Edition they are 8x8 and individual textures; As such because they all are 8x8, there are minor misalignment issues in rare cases.
+In Bedrock Edition there is a predefined 64x64 texture atlas, containing 16 different 16x16 icons but also 13 individual 8x8 texture files, being icons for several structures, 6/7 of these individual textures are icons for different village types, the remaining one being for jungle pyramids.
+
+Even if the player uses an NBT editor to add an additional icon on the map, Minecraft displays only the first one listed when the player loads the world.
+
+
+== Achievements ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Map" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In Java Edition, a map created using /give can be any map by using the Map parameter to specify the map number desired. E.g. /give [player] minecraft:filled_map[minecraft:map_id=5] gives the specified player map_5. If no data value is supplied it defaults to map_0. If map_0 has not ever been crafted, it is centered on x=0, z=0.
+The maps are stored separately as their own data (.dat) file as map_x.dat with (x) being the map number, see map item format for more info. By manipulating this number, players can organize their maps to suit them, or if they accidentally create a map in the same location, they can delete their extra map so as to save the number they make.
+Certain programs can be used to make customized maps with images or text on them instead of actual maps.
+Since all copies of a map are links to the same file, copying an unfinished map keeps it synchronized with the copy as the player fills it in. Thus, a copy stored in a chest can act as a remote backup.
+A map that is in an item frame does not update itself until a player picks it up, lets it reload, and places it back again. However, if a player holds a clone of the map, both maps update.
+Filled maps are the only‌[JE & LCE  only]/only obtainable‌[BE  only] items that make 90 degree rotations in item frames, and also the only‌[JE & LCE  only]/only obtainable‌[BE  only] items that can expand the item frame to a full block wide. In  Minecraft Education and Bedrock Edition, photos also do this, though photos are unused in the latter edition.
+In Legacy Console Edition, the player always spawns with a map in their inventory after creating a world. This was later added to Bedrock Edition as an optional feature in the world creation menu.
+Maps in Legacy Console Edition always show the player's current coordinates at the player's eye level, as a substitute for the optional coordinate display in other editions.
+A map cannot be created in New Nintendo 3DS Edition. Instead, the map is always displayed on the bottom screen along with the coordinates. Biome colors do not appear on maps.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== Mojang images ===
+
+
+=== In other media ===
+
+
+== See also ==
+Explorer Map
+Clock
+Navigation
+Mapping
+
+
+== References ==
+
+
+== Navigation ==

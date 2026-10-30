@@ -1,0 +1,104 @@
+Emeralds are minerals that are used primarily as the currency for trading with villagers and wandering traders. They are mainly obtained from trading goods for them, killing illager mobs (vindicators and evokers specifically), and through mining the highly rare emerald ore in mountain biomes.
+
+
+== Obtaining ==
+
+
+=== Mining ===
+Emerald ore drops one emerald when mined using an iron pickaxe or better. If the pickaxe is enchanted with Fortune, it may drop an extra emerald per level of Fortune, up to a maximum of 4 emeralds with Fortune III. If the ore is mined using a pickaxe enchanted with Silk Touch, it drops itself in ore form instead.
+
+
+=== Crafting ===
+
+
+=== Smelting ===
+
+
+=== Trading ===
+Emeralds can be obtained by trading with villagers and wandering traders, since they are the currency that villagers use for trading. Villagers and wandering traders buy various goods in return for emeralds. Trading is typically a faster way to obtain emeralds than by mining, as an emerald ore is rarer than a diamond ore.
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+Foxes that are holding emeralds also have a chance of 100% to drop the emerald they are holding upon death. Alternatively, the player can drop a food item to entice the fox to drop the emerald without killing it.
+In Bedrock Edition, wandering traders have a chance of 25% (increased by 1% per level of Looting) to drop emeralds when killed while showing the item as trade offer. The amount corresponds to the available trade if it is available; if the player holds a hay bale, water bottle, or baked potato, the trader drops 1 emerald; if the player holds a milk bucket or water bucket, the trader drops 2 emeralds; and if the player holds a fermented spider eye the trader drops 3 emeralds.
+
+
+=== Generated loot ===
+
+Emeralds can generate in chests in some village houses or other generated structures.
+
+
+== Usage ==
+
+
+=== Trading ===
+The main use of emeralds is as currency for trading with villagers and wandering traders. They sell various items in return for emeralds and occasionally additional other items.
+
+
+=== Crafting ingredient ===
+
+
+=== Beacons ===
+Emeralds can be used to select powers from a beacon. The player must select one of the available powers and then insert an emerald into the item slot. 
+An emerald can be substituted for an iron ingot, a gold ingot, a diamond or a netherite ingot in a beacon.
+
+
+=== Smithing ingredient ===
+
+Trim color palette
+The following color palette is shown on the designs on trimmed armor:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+When diamonds were added in Java Edition Indev 0.31 20100128-2200, they were known until 0.31 20100129-2332 as "emeralds".
+On May 21, 2012, Jeb released a screenshot of himself testing the trading system. At this time, what would become emeralds were rubies.
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Emerald" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,37 @@
+Spawn or generate may refer to:
+
+
+== Minecraft ==
+
+
+=== Gameplay ===
+Generated Structures
+Generated loot
+World generation
+World spawn
+Mob spawning
+Spawn chunk
+Spawn event
+Spawn protection
+
+
+=== Blocks ===
+Player spawn point: Bed and Respawn Anchor
+Frogspawn
+Spawn Block, used in MinecraftEdu
+
+
+=== Items ===
+Spawn Egg
+
+
+=== Commands ===
+/spawnpoint
+/setworldspawn
+/clearspawnpoint
+/gamerule doImmediateRespawn
+
+
+== See also ==
+Spawner
+Tutorial:Mob grinder

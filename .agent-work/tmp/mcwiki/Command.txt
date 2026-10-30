@@ -1,0 +1,215 @@
+Commands (also known as console commands or slash commands) are a game mechanic that execute specific actions when entered as text or triggered by blocks or certain entities.
+
+
+== Usage ==
+
+In the client, commands are entered via the chat window, which is displayed by pressing the T / ⏎ Return / ‌[BE  only] / ‌[BE  only] or / key. Using the / key also enters the forward-slash that commands require as a prefix, so it is a useful shortcut. The ↑ Up /  and ↓ Down /  keys can be used to view previously entered text, including all previously executed commands.
+When the cursor is at a location corresponding to some types of argument (such as an entity ID), a list of applicable values appears above the text box. If the argument already contains characters, the list displays only those values containing the typed text. Pressing ↹ Tab while entering commands cycles through possible commands or arguments, and can be used to auto-enter them.
+Commands may also be entered in a multiplayer server's console but are not preceded by a / when entered this way. A server owner running commands in this way is often referred to as "ghosting".
+Commands in command blocks can be preceded by a slash, but it is not required. 
+Commands can be executed in the following ways:
+
+Entered by a player in the chat screen.
+Executed by a command block or a minecart with command block.
+In a dedicated server, entered in the console.
+In functions, in a data pack or behavior pack.
+Clicking a text component that has "run_command" action.‌[JE  only]
+Requested by a WebSocket server connected to a client.‌[BE  only]
+Clicking a dialog's action button.‌[JE  only]
+By an NPC dialogue.‌[BE  only]
+In scripts, in a behavior pack.‌[BE  only]
+In animation controllers, in a behavior pack.‌[BE  only]
+In a block event response, in a behavior pack.‌[BE  only]
+In an entity event response, in a behavior pack.‌[BE  only]
+
+In Bedrock Edition, commands can be executed through specified hotkeys on keyboard & mouse controls, known as command macros. The keybinds with commands can be customized below all other keybinds in the settings. For up to 10 macros, a command can be entered in a text input, which can be quickly executed in-game by pressing ⌥ Alt + Key. Command macros can be preceded by a slash, but it is not required. This feature is not to be confused with Java Edition's function macros, where functions may reference additional parameters and use them in macro lines (see Function (Java Edition) § Macros).
+
+
+== Commands guide ==
+
+
+=== Syntax ===
+In Java Edition:
+
+In Bedrock Edition:
+
+<plain text> is written without decorators as plain text.
+
+
+=== Restrictions ===
+Most commands require the executor to have a high enough permission level. That means most commands are only available in the singleplayer world if cheats are enabled, and are only available in multiplayer servers if the player is an operator. See permission level for details.
+Some commands have restrictions on who can use the command or in what context.
+
+None: The command has no restriction.
+Cheats only: Applicable only to Bedrock Edition. When executed by the server, or a script, the command is available no matter whether cheats are enabled. (Commands from the console, a scheduled function or a ticking function are executed by the server.) When executed in other ways, the command is available only if cheats are enabled. When cheats are disabled, these commands can't be used unless executed by a server or a script, even if the executor has a high permission level.
+In Java Edition, whether cheats are enabled only affects the permission level of a player. If an executor has a high enough permission level, it can use corresponding commands regardless of whether cheats are allowed.
+Dedicated server only: The command is available only on dedicated servers.
+No dedicated server: The command is not available on dedicated servers.
+
+
+==== Cheats ====
+Cheats can be enabled when creating a new world through the "Allow Commands"‌[Java Edition  only] or "Allow Cheats"‌[Bedrock Edition  only] options.
+In Java Edition, the "Allow Commands" option when creating a new world only affects the player in a singleplayer world or the owner of a LAN world. The "Allow Commands" option when opening a LAN world affects all players in the LAN world.
+In Java Edition, in singleplayer worlds where cheats were not enabled at creation, they can be enabled on a temporary basis for players other than the host by opening the current game session to LAN play ( ⎋ Escape → "Open to LAN",​[until: JE 26.3] then "Allow Cheats" button and "Start LAN World"). This is not permanent but allows the use of commands from other players until the host quits the world, and changes players make via commands (items spawned, etc.) are saved with the world. The player can do this each time the player starts playing the world again. Note that this disables game pausing for the duration, so while open to LAN, the player should get somewhere safe or reload their world before using the Game Menu. The player can disable the LAN world by reloading the world. To permanently enable cheats, the level.dat file has to be edited.  
+Cheats can be toggled at any time in the in-game World Options menu in Java Edition or the "Cheats" tab of the settings menu in Bedrock Edition. In Bedrock Edition, enabling cheats in a world permanently prevents players from unlocking achievements in that world, even if cheats are later turned off. In Bedrock Dedicated Server, /changesetting command can be used to toggle cheats.
+
+
+=== Argument types ===
+
+There are different argument types for arguments in commands. Coordinates, target selector, SNBT, text component, and so on are commonly used formats in arguments.
+
+
+=== Parsing and execution ===
+
+The command performing on the server side is divided into two stages: command parsing and command execution. During the command parsing stage, the game identifies the string as a command and checks whether the command is complete and whether arguments are specified correctly. During the command execution stage, the command fulfills its purpose.
+When typing a command in the chat, or command block, the command is also be parsed in the client side first to provide autocompletion and help the player detect typing mistakes.
+
+When typing an argument into the chat, it's noticeable if an argument cannot be parsed in the client side. However, being able to be parsed in the client side does not guarantee that this argument can be parsed in the server side.
+In Java Edition, if an argument can't be parsed by the client, the argument is marked in red, and a syntax error message is displayed above the chat bar.
+In Bedrock Edition, when typing in the chat, if an argument can be parsed in the client side, the next argument in syntax hint turns to white from gray. If all arguments (including optional arguments) are entered and parseable in the client side, the whole syntax hint turns to gray from white.
+In Java Edition, typing a command in command block also behaves as above
+In Bedrock Edition, when typing a command in command block, autocompletion is provided without syntax hint.
+In Bedrock Edition, when entering into a command block, the command is parsed on the server side once the command block screen is closed. If the command is unparseable in the server side, a syntax error message is outputted into its output box.
+When attempting to execute an unparseable command, an error message is displayed.
+
+In Java Edition, the message has a <--[HERE] at its end.
+In Bedrock Edition, the message is Unknown command or Syntax error: unexpected ... at ....
+Commands in functions are all parsed when loading the function. If any command in a function file is unparseable, the function cannot be loaded by the game. In Java Edition, macro lines are parsed when attempting to run the function, see also Function (Java Edition) § Macros and Function (Java Edition) § Loading and parsing.
+In Bedrock Edition, if a command in a script is unparseable, an error is thrown when trying to execute the command.
+
+
+==== Output ====
+After trying to execute a command, it may yield output values, including success count and stored values‌[Java Edition  only].
+Success count is the value a command passes to the command block executing it. A command block can power a redstone comparator facing away from it (may be separated by a block) with signal strength being the success count. The signal strength reflects the success count of the last command executed. Even after the command block is deactivated, the success count is retained until the command is executed again. In Bedrock Edition, the success count is also returned to the script executing the command. In Java Edition, commands that cannot be executed in command blocks have no success count. In Bedrock Edition, commands that cannot be executed in command blocks or scripts still have a success count, but it cannot be obtained. In Java Edition, success count is always 0 or 1, except the /execute command. In Bedrock Edition, success count is an integer between 0 to 2,147,483,647 (both inclusive) related to the command (e.g., the number of players affected by the command, the number of blocks that were altered, etc.)
+Stored values‌[JE  only] include success value and result value, which are the values passed by other commands to the /execute command, when a command is executed by a /execute command. These two values can be stored to a specified location by the store subcommand in the /execute command. The success value is always 0 or 1. The result value is an integer (rounded down if not). All commands may yield these two stored values after execution, with only two exceptions: /execute command itself does not yield these two stored values; /function command may not yield these two stored values in certain situation.
+
+
+==== Result ====
+After trying to execute a command, it has a certain result. Possible results include "Unparseable", "Failed", "Successful", "Void"‌[JE  only], "Terminated"‌[JE  only], and "Error"‌[JE  only].
+
+Unparseable
+If the entered command is unable to be parsed in the server side, it is unparseable.
+Error‌[JE  only]
+If an error occurs with a command, it means that there's a noticeable bug on the command. It may result in unintended side effects, and it jumps out the /execute command halfway through, causing some branches to not be executed.
+Technically, it means that an exception other than brigadier.exceptions.CommandSyntaxException is thrown during execution.
+Void‌[JE  only]
+Exclusive to /function command. If it is void, the command has no result or success value to be stored by /execute store.
+Terminated‌[JE  only]
+Exclusive to /execute command. When running a /execute command, if the number of execution branches becomes 0, the command terminates, ending before the last sub-command is executed.
+For example: /execute as @s run ... in a command block. The command block is not an entity, so it cannot be selected by a target selector. As a result, the command is terminated at as @s.
+Failed and Successful
+If a command is not unparseable, erroring, void, nor terminated, it may be failed or successful.
+If the success count is 0, the command is failed. Otherwise, the command is successful.
+In Java Edition, commands that cannot be executed in command blocks have no success count. It is failed when /execute store success ... run ... stores 0, and successful when /execute store success ... run ... stores 1.
+In Bedrock Edition, if the command cannot be executed in command blocks or scripts, it still has a success count, but it cannot be obtained.
+Note that when we say that a command is failed or successful, it must not be unparseable, error, void, or terminated. Though when being unparseable, error, void or terminated, the success count is 0, it is not considered as being failed nor successful.
+Note that not all "successful" commands actually do something, and not all "failed" commands fail to do something useful.
+
+
+== List of commands ==
+The tables below will summarize all commands.
+
+
+=== Available in Java Edition ===
+
+
+==== Debugging commands ====
+
+Debugging commands are not accessible by default, but can be enabled using debug properties.
+
+
+=== Available in Bedrock Edition and Minecraft Education ===
+
+
+=== Hidden commands ===
+
+These commands are unavailable in general cases. Most of them can be accessed with a Websocket Server, NPC, the Scripting API or cheats‌[edu  only]. Note: It can easily be checked if a command is still in the game by typing /help <nameOfCommand> into a server console, or the ingame chat. If that is done, and it says “Syntax error”, then the command does not exist. If it either gives help on the command or says unknown command, then it is still in the game - for example, the command /help gettopsolidblock will return Unknown command: gettopsolidblock. Please check that the command exists and that you have permission to use it., while the command /help something will return Syntax error: Unexpected "something" at "/help >>something<<". 
+
+
+=== Removed commands ===
+
+
+==== Removed from Java Edition ====
+
+
+==== Removed from Bedrock Edition or Minecraft Education ====
+
+
+==== Developer commands ====
+
+Developer commands are only enabled in internal development builds of Bedrock Edition, and are not normally accessible in release versions.
+
+
+==== Agent commands ====
+
+Superseded by /agent
+
+/move
+/turn
+/attack
+/destroy
+/drop
+/dropall
+/inspect
+/inspectdata
+/detect
+/detectredstone
+/transfer
+/createagent
+/tpagent
+/collect
+/till
+/place
+/getitemcount
+/getitemspace
+/getitemdetail
+
+
+=== Joke commands ===
+
+These commands only exist in April Fools' Day joke versions of the game.
+
+/debugdim
+/transform
+/vote
+/warp
+
+
+== History ==
+
+
+=== Command additions and changes ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== April Fools commands ===
+
+
+== Issues ==
+Issues relating to "Commands" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Argument types
+Coordinates
+Entity format
+Formatting codes
+Text component format
+Target selectors
+
+
+== References ==
+
+
+== External links ==
+"How to Use Commands in Minecraft"     by Duncan Geere  – Minecraft.net, September 22, 2023.
+"Introduction to Commands"     – Microsoft Learn.
+"List and summary of commands"     – Microsoft Learn.
+
+
+== Navigation ==

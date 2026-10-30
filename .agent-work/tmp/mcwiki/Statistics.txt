@@ -1,0 +1,65 @@
+Statistics is a game feature that allows players to track certain tasks in the form of numerical data.
+Statistics are present only in Java Edition. Bedrock Edition has no equivalent of statistics in-game, but a part of statistics can be viewed on the player's profile screen.
+
+
+== Statistics screen ==
+In statistics screen, statistics are divided into three sections: 
+
+General – The General screen displays a multitude of generic statistics that are listed in the table below.
+Items – The Items screen displays the number of times different items and blocks have been depleted, crafted, used to destroy blocks, picked up and dropped.
+Mobs – The Mob screen shows for each different type of mobs or other living entities (players, armor stands) how many the player has killed, or the number of deaths caused by those mobs.
+The buttons at the top of the Items screen can be used to sort the list. The General and Mobs screens are sorted alphabetically.
+
+
+== Resource location ==
+The resource locations of statistics are unique. They are the only combination resource locations in the game.
+The resource locations of statistics are in form of NAMESPACE:PATH as well, however, in which NAMESPACE is the resource location of a statistic type in form of namespace.path, NAME is the resource location of a statistic name in form of namespace.path.
+That means, the resource locations of statistics are in form of A.B:C.D, in which:
+
+A is the namespace of statistic type.
+B is the path of statistic type.
+C is the namespace of statistic name.
+D is the path of statistic name.
+For both two namespaces, it can be omitted if it is minecraft. For example, the following four locations work the same:
+
+minecraft.mined:minecraft.stone
+mined:minecraft.stone
+minecraft.mined:stone
+mined:stone
+
+
+=== Statistic types and names ===
+Statistics are divided into a few types. For general statistics, their type is called minecraft:custom. For item statistics, their types are minecraft:mined, minecraft:broken, minecraft:crafted, minecraft:used, minecraft:picked_up, and minecraft:dropped. For mob statistics, their types are minecraft:killed and minecraft:killed_by. 
+
+
+=== List of custom statistic names ===
+
+
+== Storage ==
+Statistics are stored in .minecraft/saves/<world name>/stats/<uuid>.json (<world name>/stats/<uuid>.json on servers). They keep track of these stats. The file structure is JSON based and takes the following format:
+
+For example, if a player walked only one block (statistic minecraft.custom:minecraft.walked_one_cm) and broke an oak log (statistic minecraft.mined:minecraft.oak_log), the player's stats would be:
+
+Statistics are stored in the stats-change section. All of these fields are empty unless they need updating. For example, until the player jumps, the number of times jumped is not recorded. Distance is stored in centimeters (where one block equals 100 centimeters), and time is stored in ticks (where one tick equals 0.05 seconds).
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Statistics" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Navigation ==

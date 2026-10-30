@@ -1,0 +1,256 @@
+A horse is a passive mob that can be ridden when tamed and saddled, and can wear horse armor. Different horses have different running speeds, jump heights, and health points, and these attributes can be inherited and improved through breeding.
+
+
+== Spawning ==
+
+Horses spawn in plains and savannas in herds of 2–6. For horses, all combinations of color and markings are equally likely. All members of the herd have the same color, but markings may vary. 20% of all individual horses spawn as babies. In Java Edition, all individual horses spawn as adults when using spawn eggs.
+Villages naturally generate with stables and animal pens containing horses.
+
+
+== Appearance ==
+
+Each horse variant has unique features and markings, and a foal. Adult horses are 1.4 blocks wide and long, and 1.6 blocks high. Foals start at 7⁄10 the size of adults. Unlike wolves and cats, horses do not change appearance once they have been tamed, although tamed horses may be differentiated by giving them equipment.
+Horses can have 1 of 7 base colors: white, creamy, chestnut, brown, black, gray, and dark brown; and 1 of 5 marking patterns: no markings, white stockings and blaze, white field, white spots and black dots. In total, there are 35 possible horse coat combinations.
+
+
+== Drops ==
+
+
+=== Breeding ===
+1–7XP upon successful breeding.
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+1–3XP exp. when killed by a player or tamed wolf.
+Horse armor if the horse was already equipped
+A saddle if the horse was already equipped.
+Killing a foal yields neither items nor experience.
+
+
+== Behavior ==
+
+Horses wander aimlessly, occasionally stopping to rear, flick their tails, or lower their heads as though eating the grass. Unlike sheep, the eating animation does not actually cause any grass to be consumed. If a player comes near, the horses may turn to look at them. Any horse, even a wild or undead horse, can be attached to a lead without protest. Horses remain passive, even when hit.
+Horses make neighing and whinnying sounds.
+Baby horses can ride in boats, but adults cannot unless commands are used to put them there. If a baby horse in a boat grows up in Java Edition, it dismounts, but in Bedrock Edition, it remains in the boat. Adult horses can only ride in minecarts.
+Horses can safely fall 7 blocks before they begin to accumulate fall damage, unlike most mobs, which can only safely fall 3 blocks. Horses also take half of the normal fall damage (rounded down) that most other mobs take (0.5HP × 0.25 damage per block over the safe distance instead of 1HP). If an entity is riding a horse, they take fall damage as normal, counting from the entity's safe fall distance; however, they also safely fall 7 blocks without taking damage.
+Horses have a 1⁄900 chance to regenerate 1HP health point each game tick.
+Horses can be led by a player holding a golden carrot, golden apple, or enchanted golden apple. Foals follow adult horses. 
+A horse with a rider can be pulled by a lead, and can even be lifted into the air.
+
+
+=== Taming ===
+Taming a horse is required to breed it, to give it equipment, or to control it while riding.
+In Java Edition, a player mounts a horse by pressing use on it with an empty hand. In Bedrock Edition, the player can also hold an object that cannot be used on a horse. An adult horse can be tamed by repeatedly mounting it until the horse stops bucking the player off. Taming depends on the horse's "temper". Horses begin with a temper of 0 out of 100. When a player first mounts the horse, a random taming threshold 0–99 is chosen. The horse becomes tame if the temper exceeds this threshold. Otherwise, the player is bucked off and the temper is increased by 5, to be compared against the threshold the next time the player mounts the horse. Temper can also be increased by feeding the horse.
+After repeated mountings, hearts appear above the horse, indicating that it is tamed.
+In Bedrock Edition, like all tame animals, a death message is displayed to every player when a horse is killed.
+
+
+=== Breeding ===
+Feeding two tamed horses golden apples or golden carrots activates love mode, causing them to mate and produce a foal. The foal appears more spindly than adult horses. The foal can be fed to make it mature faster.
+Depending on the variations of the parent horses, the offspring can be one of several types. 
+
+Bred with a horse: breeding two horses produces a foal. Usually, the new foal has the color and markings of one of its parents, although there is a 13⁄45 chance of having a random color/markings (which may still end up being the same as one of the parents).
+Bred with a donkey: cross-breeding a horse with a donkey creates a baby mule. Mules cannot breed. This unlocks the Artificial Selection achievement.‌[Bedrock Edition  only]
+This is a table representing the probabilities of the color and markings of the foal when breeding two horses A and B.
+
+
+=== Food ===
+Feeding a horse food can alter its behavior, increase its temper (if untamed), cause it to grow (if it is not yet an adult; foals normally take 20 minutes to fully mature if not fed), and/or restore its health.
+Only living horses can be fed. Undead variants like zombie and skeleton horses cannot be fed. 
+The table below lists the effects of the various foods horses can eat.
+To feed a horse, hold a valid food item and press use on the horse.
+
+In Java Edition, tamed horses cannot be fed when at full health, but they can be fed in Bedrock Edition. 
+In Bedrock Edition, the health of foals cannot be restored by feeding.
+In Bedrock Edition, while temper is at max value, untamed horses with full health can be fed any food except hay bales.
+In Java Edition, tamed horses with full health cannot be mounted while holding a food item.
+
+
+=== Jockey ===
+
+15% of nearby baby zombies, husks, or drowned may ride an adult untamed horse to form a jockey.
+
+
+== Statistics ==
+
+All horses have three "equine stats" that vary from horse to horse: health, (maximum) movement speed, and jump height. These stats are created once the horse is born or spawned, and are not affected by food.
+
+
+=== Spawned values ===
+When spawned in any way except breeding – for instance, using commands, spawning naturally, or using spawn eggs – horses are assigned their stats within certain ranges.
+
+
+==== Health ====
+Horse's health points range from 15HP × 7.5 to 30HP × 15, with an average of 22.5HP × 11.25. A horse with an odd number of health points does not show the last half-heart. So if a horse has 15 health, its health bar will only display 7 hearts, implying 14 health (). And if the horse took 3HP damage, it would have 12 health , making it seem like it only took 2HP damage.
+
+
+==== Movement speed ====
+A horse's movement speed ranges from 0.1125–0.3375 in internal units, with an average of 0.225. For reference, the player's normal walking speed is 0.1. The speed listed does not include any status effect that affects the speed of the horse or the player.
+The conversion factor between internal units and blocks/second is roughly 43.17, putting the best horse's maximum speed at about 14.57 blocks/second, and the average horse's speed at about 9.71 blocks/second.
+
+Minimum: 4.86 blocks/second.
+Player speed (walking): 4.317 blocks/second.
+Player speed (sprinting): 5.612 blocks/second.
+See also transportation methods to compare the speeds of various transportation methods.
+
+
+==== Jump strength ====
+Horse's jump strength ranges from 0.4–1.0, with an average of 0.7 in internal units.
+The minimum jump strength of 0.4 is enough to clear 1.153 blocks, while the maximum of 1.0 is enough to clear 5.9197 blocks. The calculation, however, is not linear with the average jump strength of 0.7 favoring the lower side with the value of 3.124 blocks.
+
+
+=== Bred values ===
+When breeding two horses, or a horse and a donkey, the baby's stats are determined by the following formula, run for each stat individually:
+
+Get the absolute difference of the attribute value of both parents
+Add 30% of the total value range to the result of step one
+Compute a value between -0.5 and 0.5 (the distribution is not equally likely)
+Multiply the result of step two with the random value from step three
+Add the average of the two parents' attribute values to the result
+If the resulting value is
+
+greater than the allowed maximum,
+or smaller than the allowed minimum,
+the difference toward that allowed extreme is respectively subtracted/added from/to the value.
+Although the game performs these operations on the internal attribute values, they can just as well be applied to the in-game values for movement speed and jump height.
+
+A pseudocode implementation might look like this, wherein MIN and MAX represent the extremes Minecraft allows the attribute to assume. Additionally, x and y represent the values the parents hold.
+A foal has an 11% chance to be a random base color and a 20% chance to have random markings. Otherwise, it chooses the values from one of its parents.
+
+
+== Usage ==
+Tamed and saddled horses can be used as a means of transportation. When ridden, they are able to move faster and jump higher than a normal player. Horses can be used to climb hills and jump fences, as some can jump high enough to clear up to five block heights, versus the player's maximum of about one (without jump boost).
+Horses can be pulled along and tied up using a lead. They can be towed behind a boat by using a lead. 
+
+
+=== Equipment ===
+
+Tamed horses have two equipment slots:
+
+ Saddle slot: for equipping a saddle.
+ Horse armor slot: for equipping horse armor.
+Foals cannot be equipped, as they cannot be ridden.
+Equipment can be placed on a horse by holding it and then using on the horse, or by accessing its inventory. A horse’s inventory can be accessed by mounting the horse and using inventory control, or by sneaking and then using or pressing the "open inventory" button‌[Bedrock Edition  only] on the horse. The player cannot open their inventory while on an untamed horse, though they can open containers.
+The equipment can be removed by two methods:
+
+Removing the equipment from their slots in the horse's inventory.
+Using shears on the horse. If both a saddle and horse armor are equipped, they are removed one at a time. The first use removes the horse armor, and a second use removes the saddle.
+
+
+=== Riding ===
+
+Once a horse is tamed and saddled, the player can control it with standard directional controls, jump, and the mouse. The player dismounts using the dismount control.
+A ridden saddled horse automatically runs up any one block high slope. The horse and rider can safely fit through a space as low as 2.75 blocks high. Lower clearance risks suffocating the rider if the rider's head enters a non-transparent block. The horse itself can enter gaps as low as 1.625 blocks high, but may itself take suffocation damage when clearance is less than 1.75 blocks. Horses cannot fit through a 1-block-wide gap.
+In Bedrock Edition, it is impossible for a player to use a nether portal or end portal while on a horse. In Java Edition, staying mounted allows the player to transit the portal instantly, skipping the portal delay that is normally incurred on foot.
+The maximum speed of horses varies between 4.86 blocks/second and 14.57 blocks/second (compared to the player's walking speed, which is about 4.317 blocks/second). About 82% of horses are able to go faster than a minecart. Horses move backward slowly, about as fast as the player when moving sideways. A horse’s speed can also be affected by potions. Speed has no relation to a horse’s outward appearance. However, how fast a horse walks on its own while not being ridden can be an indication of its Speed. This can be useful to determine whether or not a horse is fast without first having to tame it.
+A ridden saddled horse can be made to jump by pressing the jump control. Holding the jump control fills a jump charge bar allowing for a higher jump when released relative to how much the bar was filled. In Java Edition, when the player rides a horse, the experience bar on HUD is replaced by a jump bar and the player's hunger bar is replaced by the horse's health bar. In Bedrock Edition, the player's health bar and hunger bar are displayed while riding a horse and the player's experience bar is replaced by the horse's jump bar when the jump control is activated. During the jump control activation the number denoting the player's experience level is still displayed above the jump bar. If a horse has the jump boost effect, it will not multiply the jump but will increase the maximum jump height, however horses are not affected by jump boost beacons, the effect must be applied by potions or commands. When a player's gravity attribute is higher or lower than the default the player will automatically be dismounted upon jumping or upon landing a jump.
+
+
+== Sounds ==
+
+
+=== Adult ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Foal ===
+Java Edition:
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Horses have entity data associated with them that contain various properties.
+Java Edition:
+
+Variant names taken from the names of the texture file they correspond to.
+Summoning a horse without specifying the Variant value results in a white horse. Summoning a horse with a correct color byte but an incorrect marking byte results in a horse of the corresponding color but no markings. Summoning a horse with a correct marking byte but an incorrect color byte results in a white horse with the corresponding markings.
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Horse" or "Foal" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Mojang images ===
+
+
+=== Development images ===
+
+
+=== Screenshots ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== See also ==
+Tutorial:Horses
+Donkey
+Mule
+Zombie Horse
+Skeleton Horse
+
+
+== References ==
+
+
+== External links ==
+"Meet The Horse"     by Emily Richardson  – Minecraft.net, October 2, 2017.
+"Mob Menagerie: Horse"     by Duncan Geere  – Minecraft.net, March 9, 2023.
+
+
+== Navigation ==

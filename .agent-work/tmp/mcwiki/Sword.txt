@@ -1,0 +1,166 @@
+A sword is a tiered melee weapon that can be swung to deal damage and can break blocks such as cobwebs, leaves, and bamboo more quickly. In Java Edition, it has the special ability to perform sweep attacks, which damage nearby entities and knock them back.
+
+
+== Variants ==
+There are seven sword variants:
+
+Wooden Sword
+Golden Sword
+Stone Sword
+Copper Sword
+Iron Sword
+Diamond Sword
+Netherite Sword
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+All swords except netherite are crafted using a stick and two of the tier's material.
+
+
+=== Smithing ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Attacking ===
+Pressing attack while holding a sword inflicts damage on both mobs and other players. Upon damaging a mob or player, the sword's durability decreases by 1.
+Attacking a boat or a minecart with a sword of stone tier or higher instantly destroys it in Java Edition, without decreasing the sword's durability. Otherwise, it requires 2 hits, with neither decreasing durability.
+
+
+==== Sweep attack ====
+
+If the player is grounded, is not performing a sprint-knockback attack, and has an attack charge of 84.8% or above, the sword performs a sweep attack. Sweep attacks are indicated by a gale particle that reaches nearby enemies for 1HP and knocks them back. All enemies within a 1 by 0.25 by 1 block area of any part of the attacked mob and whose feet are 3 or less blocks away from player's feet are affected by the sweep. Sweep attacks play a unique sound effect, and the amount of knockback inflicted by them is 80% of the base knockback. The Sweeping Edge enchantment increases the sweep attack's damage to surrounding entities from a set 1HP to 50% of the sword's base damage for level I, 67% for level II and 75% for level III. If the sword is enchanted, the enchantments are carried over into the sweep to apply to surrounding mobs, applying at full strength regardless of the level of Sweeping Edge.
+
+
+=== Statistics ===
+
+
+==== Unenchanted ====
+
+
+==== Enchanted ====
+
+
+=== Breaking ===
+
+A sword can also be used to destroy certain blocks faster. In most cases, the base mining speed of these blocks is multiplied by 1.5, effectively reducing the time it takes to destroy them with bare hands by 1⁄3. Swords break cobwebs much faster than bare hands and they break bamboo instantly. Using a sword to destroy any block that doesn't break instantly by hand decreases its durability by 2; this includes bamboo, even though the sword is the fastest tool for breaking it.
+If a sword is enchanted with Silk Touch, by using either Creative or commands, cobwebs destroyed by the sword drop themselves instead of the usual string because the sword is classified as the proper tool for cobwebs.
+The following table shows the time it takes to break blocks on which swords have any effect. Colors indicate what gets dropped:
+
+
+==== Creative mode ====
+In Creative mode, swords are unable to break blocks. However, they can still break placed entities such as minecarts, paintings, item frames,‌[Java Edition  only] and armor stands.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A sword can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the sword's maximum durability, rounded down. Two swords of the same tier can also be combined in an anvil. Both methods preserve the sword's enchantments.
+
+
+=== Enchantments ===
+A sword can receive the following enchantments:
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+=== Other ===
+February 20, 2024:  A Mojang video about bugs shows early textures of netherite items, including the sword: [1]
+
+
+== Issues ==
+Issues relating to "Sword" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The sword's traditional texture came from Notch's abandoned RPG, Legend of the Chambered. The iron sword's texture was created first, as it was from the game, and the other swords followed.
+In Java Edition, with the introduction of netherite swords, it is possible to one-hit kill undead mobs in the game (except withers and zombies/skeletons with random armor) using a sword with the Smite V enchantment, without the need to perform a critical hit (this was previously possible only with a Smite V stone, iron, or diamond axe).
+Plastic diamond and enchanted swords are official Minecraft merchandise.
+In the game Transformice, a diamond sword can be found in the shop.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Natural Pack ====
+
+
+==== Plastic Pack ====
+
+
+==== Super Duper Graphics Pack ====
+
+
+=== In other media ===
+
+
+== See also ==
+Mace
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Taking Inventory: Sword — Minecraft.net on April 12, 2019
+
+
+== Navigation ==

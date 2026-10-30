@@ -1,0 +1,187 @@
+A panda is a rare neutral mob that resides in jungles. Certain aspects of a panda's behavior and appearance vary depending on its personality.
+
+
+== Spawning ==
+Pandas spawn rarely in groups of 1–2 in jungle biomes on grass blocks with at least a two-block space above them. They are slightly‌[Bedrock Edition  only] or much‌[Java Edition  only] more common in bamboo jungles and have a 5% chance to spawn as a baby. They do not spawn on podzol.
+Pandas spawn with a randomized personality, with the normal personality being the most common and the brown variant being the rarest. The personality depends on genes. Each gene has the same distribution on spawn as the mutated gene. So the probability of each personality is:
+
+
+== Drops ==
+
+
+=== Breeding ===
+Upon successful breeding, 1–7XP experience orbs are dropped.
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+1–3XP experience orbs are dropped if killed by a tamed wolf or the player.
+Like other baby animals, killing a baby panda yields no items or experience.
+
+
+=== Sneezing ===
+Baby pandas have 1⁄700 chance to drop 1 slimeball after they sneeze. This means that, on average, a weak baby panda produces a slimeball every 4 hours, 51 minutes and 40 seconds, and any other baby panda produces 1 every 58 hours and 20 minutes.
+
+
+== Behavior ==
+A panda tends to roll off cliffs while playing around. Pandas act similarly to other neutral mobs and attack when hurt but only once (similar to llamas and bees) except on Peaceful difficulty, in which pandas are passive. Attacking pandas are far more vicious in Java Edition. 
+Pandas follow any player that is carrying bamboo and stop following if the player moves beyond approximately 16 blocks away. Pandas produce a whimper sound effect if a thunderstorm is happening.
+Adult pandas seek out bamboo and cake to eat.
+Baby pandas have a 1⁄6000 chance (0.016%) of sneezing every game tick. Weak baby pandas are more likely to sneeze with a 1⁄500 (0.2%) chance every tick. Sneezing makes all adult pandas within 10 blocks jump and rarely drops a slimeball. Baby pandas also occasionally roll over and jump around.
+Pandas have one private inventory.
+A lead cannot be used on a panda by normal means. However, a panda can be leashed using a map editor or NBT editor.
+Pandas can be ridden by baby zombie variants.‌[Bedrock Edition  only]
+Unlike other neutral mobs, pandas don't count toward the AngryAt tag.
+
+
+=== Personalities ===
+
+Pandas have seven different personalities: normal, lazy, worried, playful, aggressive, weak, and brown.
+
+ Normal pandas:
+Identifiable by their frown.
+Do not have unique personality actions.
+ Lazy pandas:
+Identifiable by their smile.
+Lie on their backs.
+Are slower than normal pandas, making them the slowest land mob in the game.
+Do not follow a player who is holding bamboo while they're lying on their back.‌[JE  only] In Bedrock Edition, if a player is holding bamboo, a lazy panda stops lying on its back and starts following that player.
+ Worried pandas: 
+Identifiable by their worried expression.
+In Java Edition, they avoid the player and most monsters except ghasts, hoglins, magma cubes, phantoms, shulkers, slimes, skeleton horses, zombie horses, zombie nautiluses, camel husks and the ender dragon. In Bedrock Edition, they avoid all non-panda mobs, including passive mobs.
+Shake and hide their faces during thunderstorms.
+Do not eat bamboo or cake items on their own.‌[JE  only]
+ Playful pandas: 
+Identifiable by their tongues that stick out.
+Roll over and jump around even as adults. The ability to roll may sometimes cause harm or kill the panda as it can accidentally roll off a cliff or into other environmental hazards.
+ Aggressive pandas:
+Identifiable by their thick eyebrows and tight frown.
+When hit, an aggressive panda attacks the player and other mobs continuously until the target dies or goes beyond detection range, instead of only once. It also doesn't panic when harmed.
+When nearby pandas are attacked, unless killed in one hit,‌[JE  only] aggressive pandas become hostile toward the attacker.
+ Weak pandas:
+Identifiable by their teary eyes and snotty noses.
+Tend to sneeze more often as babies than regular baby pandas, and have half the health of other pandas.
+
+ Brown pandas:
+Identifiable by their brown color and frown.
+Do not have unique personality actions, but are brown and white instead of the usual black and white.
+
+
+=== Breeding ===
+The panda is the only animal to have extra breeding conditions. In Java Edition, pandas enter love mode when fed with bamboo, but breed only if there is at least one bamboo plant (not including shoots) within a 7×7×3 area; otherwise the pandas briefly shake their heads and do not breed until that requirement is met. If only one panda is close to a bamboo plant, the other panda shakes its head, but a baby is born.
+In Bedrock Edition, there must be at least 8 bamboo plants within a five-block radius of each panda in order for them to enter love mode. If a panda is fed without a sufficient amount of bamboo plants nearby, it sits and eats the bamboo instead of entering love mode.
+Once pandas successfully breed, they produce a baby panda that remains neutral toward that player.
+Cake cannot be used to breed pandas.
+
+
+=== Jockey ===
+
+15% of nearby baby zombies, husks, frostbites or drowned may ride an adult panda to form a jockey. Pandas can still sit, sneeze, and even lie down and roll, if ridden.
+Additionally, if a worried panda is mounted, and the baby zombie variant doesn't have a target, the worried panda keeps running as if trying get away from its passenger, since it avoids all mobs, including monsters.
+
+
+== Genetics ==
+Each panda has two hidden values called "genes" or "alleles", as found in genetics. Pandas have a main gene and a hidden gene, each assigned to a particular trait. Normal, aggressive, lazy, worried, and playful personalities are dominant traits, while weak and brown personalities are recessive traits. If the main gene is a dominant gene, then it presents as the personality regardless of the hidden gene. If the main gene is recessive and the hidden gene is not the same trait, then a normal personality results. As recessive traits, weak and brown personalities occur if both the main and hidden genes of a panda are weak or brown, respectively. The hidden gene is relevant only for determining the panda's personality if the main gene is recessive.
+When two pandas breed, each one passes one of their genes to their children, who then randomly mix both obtained genes as their respective main and hidden genes. There is also a 1⁄32 chance for each gene of the baby to mutate into another gene. Normal, weak, and brown traits more commonly result from mutations than other traits do. These probabilities also apply to naturally spawned pandas for their main and hidden genes.
+
+The only way to directly observe the hidden gene of a panda (if they are not weak or brown, in which case the genes are certain) is to use the command : /data get entity @e[type=minecraft:panda,limit=1] HiddenGene‌[Java Edition  only] or using third-party NBT editors.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Panda have entity data associated with them that contains various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+== Issues ==
+Issues relating to "Panda" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+To create the in-game sounds for pandas, Mojang Studios' lead sound designer, Samuel Åberg, went to Guangzhou, China, to record real-life pandas. This was also done with dolphins.
+The fourth bleat sound is the first aggressive ambient sound, but slightly modified.
+The brown panda, known as the Qinling panda, is actually a subspecies of the giant panda discovered in the 1960s.
+On September 21, 2018, the panda won a popularity poll teasing the announcement of a Chinese "national treasure" at MINECON Earth 2018. Other options included the Chinese alligator, the golden snub-nosed monkey, the white-lipped deer, and the baiji.
+The lazy panda is the slowest land mob in the game (not counting status effects such as Slowness).
+The rarest jockey in Bedrock Edition is a baby zombie with full enchanted diamond armor with an enchanted iron spear riding a baby brown panda.
+Pandas were originally a bit slimmer.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Skins ====
+
+
+=== Animations ===
+
+
+=== Screenshots ===
+
+
+=== Mojang images ===
+
+
+=== Concept artwork ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Mob Menagerie: Panda"     by Duncan Geere  – Minecraft.net, June 16, 2025.
+
+
+== Navigation ==

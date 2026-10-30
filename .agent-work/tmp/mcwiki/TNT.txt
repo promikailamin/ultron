@@ -1,0 +1,201 @@
+TNT is an explosive block that can be lit by a redstone signal, flint and steel, stray fire, flaming projectile or explosion.
+When lit, TNT becomes primed TNT, a gravity-affected entity that produces a damaging, block-destroying explosion, usually after four seconds. Blocks destroyed by TNT always drop their usual items as if mined by a player.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+TNT can be broken instantly with any tool or by hand. Primed TNT cannot be broken as it is an entity, but it can be removed with the /kill command.
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Natural generation ===
+Nine TNT blocks generate naturally in each desert pyramid.
+Two TNT blocks flank a trapped chest in one secret woodland mansion room.
+
+
+=== Mob loot ===
+An enderman holding a block of TNT drops the block upon death.
+
+
+== Usage ==
+
+
+=== Activation ===
+TNT blocks can be activated by:
+
+Using a flint and steel or a fire charge
+Attempting to ignite TNT while sneaking results in the block catching fire, rather than the TNT becoming primed immediately.
+Using an item enchanted with Fire Aspect ‌[Bedrock Edition  only]
+A redstone signal
+In Bedrock Edition TNT can only activate on the input/consumer redstone tick (C-tick).
+Projectiles that create fire or explosions
+Flaming arrows
+Fireballs
+Small fireballs
+Wither skulls
+Other explosions
+Fire spreading onto the TNT block (the block burns for several seconds before activating)
+Being placed by a dispenser, or a dispenser using a flint and steel on a TNT block
+Being summoned through commands, though it will immediately explode (except in Bedrock Edition)
+
+
+=== Behavior ===
+
+When activated, a TNT block is replaced with an entity called primed TNT that creates an explosion after an amount of time has passed. Primed TNT is affected by gravity, and can be pushed by flowing water, lava, pistons, and explosions. In Java Edition, spear attacks (both jab and charge attacks) can also horizontally push primed TNT, which is more effective with the Knockback enchantment.
+The amount of time before primed TNT explodes depends on how the TNT was activated:
+
+If activated by fire or a redstone signal, or summoned by commands, primed TNT explodes after 80 game ticks (4 seconds).
+If activated by an explosion, primed TNT explodes after a random number of game ticks between 10 and 30 (0.5 to 1.5 seconds).
+The TNT block has a display name of "TNT" in the inventory; however, it also has an in-game name of "tnt" when used in commands such as /setblock. The primed TNT entity has a display name of "primed TNT" in chat, but also has an in-game name of "tnt" when used in commands such as /summon.
+
+Countdown timer
+Primed TNT has a data tag called fuse that acts as a countdown timer, and stores the number of game ticks until the primed TNT explodes. The timer decreases by 1 every game tick, and the Primed TNT explodes when it reaches 0. When summoned by activating a TNT block or commands, fuse is set to 80 by default, but can be modified using commands.
+
+Explosion
+When TNT is activated, the primed TNT entity is placed offset from the bottom center of the TNT block position by [+0.5, +0.0, +0.5], and given an initial velocity of 0.2 blocks per tick upward, and 0.02 blocks per tick in a random direction. When the primed TNT explodes, the explosion is located at 0.06125 blocks above the entity's position (at 0.98⁄16 block height). Primed TNT creates explosions with a power of 4, which can break most blocks. Blocks destroyed by primed TNT always drop items as if mined by a player using a correct, unenchanted tool (or an empty hand if the correct tool would be shears).
+The explosion deals a maximum of 84.5HP × 42.25 damage on Hard difficulty, 56HP × 28 damage on Normal difficulty, 29HP × 14.5 damage on Easy difficulty and high knockback to a player exposed to the explosion. TNT explosions do not damage players in Peaceful difficulty.
+
+Appearance
+Primed TNT's texture blinks, alternating every 0.5 seconds between the TNT block's texture, and a copy of it that has been brightened to near-white. The effect is dynamic and the brightened texture can't be found in the assets.
+
+Portals
+A primed TNT is teleported to the respective dimensions when entering a Nether portal or End portal, maintaining its fuse, direction and speed. In Java Edition, after teleporting through a nether portal, the primed TNT cannot destroy Nether portal blocks.
+
+Underwater behavior
+
+TNT usually cannot be used to destroy blocks underwater; however, there are some circumstances in Java Edition where TNT can be made to destroy blocks underwater.
+In Java Edition, if TNT is activated while a gravity-affected block (e.g. sand, or gravel) is on top of it, the block falls through the primed TNT entity, and when the primed TNT explodes, it can break blocks.
+If TNT is placed on top of a block whose height is less than a full block (e.g. soul sand, honey block, etc.) and activated, the primed TNT can destroy blocks. If TNT is activated while on top of a soul sand block, a bubble column forms, but the primed TNT does not float away. Primed TNT is affected by bubble columns if summoned farther up the column, or if pushed into the bubble column by a piston.
+In Bedrock Edition, TNT is unable to destroy blocks underwater by any of the above methods: falling blocks partially displace primed TNT, and primed TNT is always pushed upward by a soul sand's bubble column. There is however a variation of TNT called underwater TNT (When Education Edition option is enabled) that can destroy blocks underwater.
+
+
+=== Redstone component ===
+A TNT block is considered a redstone mechanism component, and is activated when it receives a redstone signal.
+TNT is a non-conductive (transparent) block and cannot be powered. When a TNT block receives a redstone signal, it does not activate any other adjacent TNT blocks via redstone, but any adjacent TNT blocks are activated by the explosion.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+Primed TNT use the Friendly Mobs sound category for entity-dependent sound events.
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+TNT has entity data associated with them that contain various properties of the entity.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "TNT" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+"TNT" stands for Trinitrotoluene. The preferred IUPAC name, however, is 2-methyl-1,3,5-trinitrobenzene. The chemical formula is C7H5N3O6, and unlike in Minecraft, has nothing to do with gunpowder.
+The use of sand in the crafting recipe references dynamite, a different high explosive from TNT, consisting of nitroglycerin mixed with diatomaceous earth. The block's appearance as a bundle of red sticks is also typical of dynamite.
+It takes 19.75 blocks to fall for it to reduce the timer for one second.
+Although primed TNT normally gets caught in cobwebs, TNT propelled fast enough flies through them without slowing down at all.
+It is slightly smaller than a full block when activated, as with all entity versions of blocks (see shulker).
+In Pi Edition, TNT by default doesn't do anything, but when set to data value 1, it ignites when broken.
+The longest fuse time of TNT is 27 minutes and 18.35 seconds, or 32,767 ticks.
+The TNT fuse sound uses the same sound file as when a creeper is primed, but it is played at a higher pitch when the TNT is primed.
+As seen in the Mobestiary, Minecraft Dungeons, and several pieces of merchandise, creepers have TNT inside of them.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Creeper
+Tutorial:Traps § Explosive traps
+Tutorial:TNT cannons
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: TNT"     by Duncan Geere  – Minecraft.net, August 11, 2017.
+
+
+== Navigation ==

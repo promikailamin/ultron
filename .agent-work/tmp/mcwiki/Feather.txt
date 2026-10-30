@@ -1,0 +1,78 @@
+Feathers are items dropped by chickens and parrots, and can be found in loot chests of certain structures. Tamed cats may give players feathers as morning gifts.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+A fox sometimes spawns holding a feather, which always drops upon death. Alternatively, the player can drop a food item, causing the fox to drop the feather in favor of the food.
+
+
+=== Generated loot ===
+
+
+=== Cat gifts ===
+
+Tamed cats have a 70% chance of giving the player a "morning gift", and the gift has a 16.13% chance to be a feather.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Trading ===
+
+
+=== Helmet ===
+
+Although a feather cannot be equipped in the head slot in Survival mode, equipping it using commands causes it to appear to be rotated upright unlike other items.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Feather" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Feather"     by Duncan Geere  – Minecraft.net, March 3, 2019.
+
+
+== Navigation ==

@@ -1,0 +1,171 @@
+A ravager is a large hostile mob that only spawns alongside illagers during raids. It attacks players, adult villagers, wandering traders, and iron golems by charging, biting, and roaring at them. A ravager can sometimes become stunned if its attack is blocked with a shield.
+
+
+== Spawning ==
+
+Ravagers spawn starting at wave 3 as part of a raid. Depending on the wave, difficulty, and Raid Omen level,‌[JE  only] they spawn independently or with a pillager, vindicator, or evoker that rides them as a ravager jockey.
+
+
+==== Spawning in Java Edition ====
+Easy difficulty:
+An unridden ravager spawns in wave 3 and the extra wave (wave 4).
+Normal difficulty:
+An unridden ravager spawns in wave 3.
+A ravager ridden by a pillager spawns in wave 5.
+1-2 unridden ravagers spawn in the extra wave (wave 6).
+Hard difficulty:
+An unridden ravager spawns in wave 3.
+A ravager ridden by a pillager spawns in wave 5 and may spawn in the extra wave (wave 8) as well.
+Two ravagers - one ridden by a vindicator and one by an evoker - spawn in wave 7. Both also spawn in the extra wave (wave 8).
+
+
+==== Spawning in Bedrock Edition ====
+Raids do not have extra waves.
+
+Easy difficulty:
+An unridden ravager spawns in wave 3.
+Normal difficulty:
+An unridden ravager spawns in wave 3.
+An unridden ravager and a ravager ridden by a pillager spawn in wave 5.
+Hard difficulty:
+An unridden ravager spawns in wave 3.
+An unridden ravager and a ravager ridden by a pillager spawn in wave 5.
+A ravager ridden by a pillager and a ravager ridden by an evoker spawn in wave 7.
+
+
+== Drops ==
+
+
+=== On death ===
+Java Edition:Bedrock Edition:
+A ravager drops 20XP experience points when killed by a player or a tamed wolf.
+
+
+== Behavior ==
+
+Ravagers are hostile toward players, iron golems, adult villagers and wandering traders within a 32-block radius. 
+A ravager attacks by running toward its target and ramming with its head, dealing a knockback of 5 blocks. A ravager also attacks by opening and closing its mouth, biting its target. In Bedrock Edition, ravagers have a unique delayed attack that can miss players when trying to attack, unlike other mobs.
+When a ravager sees a villager and an iron golem at the same time, it always prioritizes the villager, unless it is already fighting the iron golem.
+Ravagers do not attack pillagers who shoot them by accident, and do not attack evokers when their evoker fangs accidentally hit them. When a vindicator riding a ravager has been named "Johnny" it may attack the ravager while it is riding it, but the ravager does not attack the vindicator for any reason. When a ravager gets hit by a mob’s projectile while it is attacking the player, the ravager first attempts to kill who shot it, then goes back to attacking the player once the deed is done. Any mob that doesn’t attack with projectiles requires a ravager to damage it with its roar in order to become hostile to it.
+In Java Edition, a ravager who is attacked by a player or another mob (excluding illagers and goats) alerts other ravagers in the area to target the attacker, unless the ravager was killed in one hit.
+
+
+=== Stunning ===
+
+When a ravager’s bite attack is blocked by a shield, no damage is dealt and knockback is halved, but the shield loses a considerable amount of durability. The ravager also has a 50% chance to become stunned and unable to move or attack for 2 seconds, signified by gray/purple effect particles. After this period, it opens its mouth and roars, dealing 6HP damage and a knockback of 5 blocks to nearby entities. The roar knocks back nearby illagers without damaging them and has no effect on other ravagers. Illagers knocked back by a ravager's roar can still take fall damage.
+
+
+=== Joining raids and patrols ===
+
+Ravagers spawned separate from a raid (eg: from a spawn egg) may join a raid if they are within 96 blocks of the raid center when a raid wave spawns.
+In Java Edition, ravagers can also join patrols if they are close enough to the patrol captain.
+
+
+=== Destroying blocks ===
+Ravagers can also destroy some types of blocks by charging through them. In Java Edition, ravagers can break all leaves and only some crops. In Bedrock Edition, ravagers can break all leaves, most saplings, most crops, including most plants and mushrooms, snow, and turtle eggs.
+Ravagers cannot destroy blocks if the mob_griefing‌[JE  only] or mobgriefing‌[BE  only] game rule is disabled.
+
+
+=== Other attributes ===
+Ravagers take 75% less knockback from attacks, but they still float in water. A ravager being ridden dismounts its rider if it moves into water that is at least two blocks deep. Riders cannot mount ravagers again after being dismounted.
+Although ravagers have a large version of the saddle as part of their texture, they do not actually wear one, and they cannot be ridden by the player. Ravagers can only spawn in raids, sometimes with a pillager, evoker, or vindicator‌[Java Edition  only] riding them; however, another mob and even the player can be allowed to ride a ravager using the /ride command.‌‌[Java Edition  only]
+In Bedrock Edition ravagers have delayed hits (hit_delay_pct: 0.5). When set to 0.0, ravager hits wouldn't be delayed to match Java Edition.
+In Java Edition, ravagers can sometimes target and damage themselves. If a vindicator that spawns as part of a patrol, or as a raid captain during a raid, or has its Patrolling tag set to 1b through commands, is named "Johnny" with a name tag, the vindicator targets ravagers in addition to other mobs. The targeted ravager targets and damages itself if the ravager does not have another target and is within the vindicator's follow range. Other illagers, witches, and ravagers also target the ravager. The ravager can kill itself without any other mob damaging it.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Ravagers have entity data associated with them that contains various properties.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+== Issues ==
+Issues relating to "Ravager" or "Illager beast" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When the ravager was first revealed at MINECON Earth 2018, it had the placeholder name of "illager beast", and kept this name for multiple snapshots and betas as Mojang listened for name suggestions from the community. In Java Edition 19w05a and Bedrock Edition beta 1.11.0.1, illager beasts were named ravagers, although "behemoth" was also considered.
+Ravagers originally had been designed to carry crossbows strapped to their backs, but it was decided that it was a bit much, so the idea was dropped. However, the same effect was gotten when a pillager was placed in its back.
+Ravagers were mainly inspired by the manticore, particularly the version from Dungeons & Dragons.
+Jeb and the design team then refined it into the mob seen in-game, which is different from what inspired it.
+Ravagers have a vaguely bovine appearance, and are jokingly described as "a spicy cow" on the Minecraft.net page. However, they cannot be milked.
+Several ravager sounds are altered versions of the sounds of other mobs:
+The first and third ravager death sounds ( and ) are versions of the first pillager death sound () but lower pitched.
+The fourth ambient ravager sound () is the third evoker ambient sound () but lower pitched.
+The fifth ambient ravager sound () is the third villager "trade denial" sound () but lower pitched.
+The third stunned ravager sound () is the first zombie villager ambient sound () but slightly edited.
+In a video uploaded by the official Minecraft account, ravagers were referred to as boss mobs, despite not having a bossbar.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Animations ===
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+=== Textures ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Meet The Ravager"     by Ash Parrish  – Minecraft.net, May 11, 2019.
+
+
+== Navigation ==

@@ -1,0 +1,138 @@
+A stronghold is an underground structure in the Overworld, and is the only place where an End portal can be found. Strongholds can be located by using an eye of ender.
+
+
+== Generation ==
+
+Strongholds generate at any Y-level, mostly underground, but generate underwater if necessary. Strongholds may generate at bedrock level, cutting the bedrock.
+Most parts of the stronghold can be overwritten by caves, ocean monuments, ancient cities, mineshafts, fossils, amethyst geodes, trial chambers, and monster rooms; but it is rare for the End portal to be replaced, which would force a player to find one of the other strongholds, as a portal can be activated only with all 12 End portal frames present. Canyons do not overwrite strongholds; rather, a stronghold can occasionally be found exposed by a canyon.
+
+
+=== Bedrock Edition ===
+In Bedrock Edition, strongholds generate randomly throughout the world and they are at least 160 blocks away from the world origin. There is no limit to the number of strongholds that can generate, unlike in Java Edition. There are 3 extra strongholds at least 453 blocks away from the world origin, which tend to be close to the 453-block boundary, and are guaranteed to generate below meeting points of a village. In rare cases, these 3 extra strongholds can be very far from the world origin, sometimes over 10,000 blocks away.
+
+
+=== Java Edition ===
+
+In Java Edition, all strongholds are located at random coordinates within rings in all biomes, where each ring is a certain radius from the center of the world (X=0, Z=0). For a given ring, the strongholds are generated at roughly equal angles from the center point of the world (for instance, each stronghold in a ring of 3 is in the region of 120 degrees from the others, measured from the origin). The game does not generate a stronghold partially above ground; any portion above the sea level is replaced with air, leaving a cutaway. If a stronghold generates in an ocean, which occurs rarely, it typically generates with terrain covered above it. Strongholds are biased toward biomes in the #stronghold_biased_to biome tag by searching horizontally for biomes in that tag (similar to the /locate biome command, except that also searches up and down) and moving the start of the stronghold to the location found this way.
+There are eight rings, containing 128 strongholds in total:
+
+The first ring has 3 strongholds within 1,280–2,816 blocks of the origin.
+The second ring has 6 strongholds within 4,352–5,888 blocks of the origin.
+The third ring has 10 strongholds within 7,424–8,960 blocks of the origin.
+The fourth ring has 15 strongholds within 10,496–12,032 blocks of the origin.
+The fifth ring has 21 strongholds within 13,568–15,104 blocks of the origin.
+The sixth ring has 28 strongholds within 16,640–18,176 blocks of the origin.
+The seventh ring has 36 strongholds within 19,712–21,248 blocks of the origin.
+The eighth and outermost ring has 9 strongholds within 22,784–24,320 blocks of the origin.
+The number of strongholds in each ring is the triangular number of the number one more than the ring number, except for the outermost ring, where 45 would be expected.
+The outermost ring has the further unusual property of putting the strongholds at angles of roughly 36° (not the expected 40°) as if there were to be ten equally spaced strongholds, like in the third ring. One of these ten does not generate, however, keeping the number at nine.
+
+
+== Structure ==
+
+Stronghold generation starts with a spiral staircase room that leads down to a five-way intersection. From there, additional rooms are randomly generated. The layout can extend up to 50 rooms away from the original room and within a horizontal radius of 112 blocks.​[more information needed] If no portal room is generated during this process, the stronghold generation restarts.
+
+
+=== Blocks ===
+
+The distribution of stone brick variants is roughly as follows:
+
+Stone Bricks: 45%
+Mossy Stone Bricks: 30%
+Cracked Stone Bricks: 20%
+Infested Stone Bricks: 5%
+Infested cracked stone bricks and infested mossy stone bricks do not naturally generate; they only appear when silverfish infest these blocks.
+
+
+=== Components ===
+
+
+== Loot ==
+
+
+=== Altars ===
+In Java Edition, each stronghold altar chest contains  items drawn from 2 pools,  with the following distribution: 
+
+In Bedrock Edition, each stronghold altar chest contains  items drawn from 2 pools,  with the following distribution: 
+
+
+=== Storerooms ===
+Storeroom chests are found in the "store" room variant of large rooms.
+In Java Edition, each stronghold storeroom chest contains 1–4 item stacks,  with the following distribution: 
+
+In Bedrock Edition, each stronghold storeroom chest contains 1–4 item stacks,  with the following distribution: 
+
+
+=== Libraries ===
+In Java Edition, each stronghold library chest contains  items drawn from 2 pools,  with the following distribution: 
+
+In Bedrock Edition, each stronghold library chest contains  items drawn from 2 pools,  with the following distribution: 
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Config ===
+Java Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Stronghold" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+There are always 233 bookshelves in a large library, yielding 699 books if mined without Silk Touch, which is 10 stacks plus 59 left over.
+Along with some other older structures, strongholds do not generate with air inside them.
+As of Java Edition 1.16, all world seeds that have a pre-activated End portal in the first ring have been found.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Unique generation ===
+
+
+=== In other media ===
+
+
+=== Official artwork ===
+
+
+== External links ==
+"Building Blocks: Stronghold"     by Duncan Geere  – Minecraft.net, July 4, 2024.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

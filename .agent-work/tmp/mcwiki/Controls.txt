@@ -1,0 +1,118 @@
+Minecraft offers controls tailored for different input methods.  While Java Edition is playable only with a keyboard and mouse, Bedrock Edition has a wider variety of control schemes in order to accommodate players across all platforms. These controls can be changed in the options menu.
+
+
+== Java Edition ==
+
+
+=== Visual map ===
+
+
+=== Non-configurable controls ===
+
+Java Edition uses a combination of the mouse and keyboard for controls, generically known as "mouselook/keymove." Many prior games (such as DOOM and Quake) have used such a scheme, but those who have not played such a game before may need practice to get around effectively. Creative mode or Peaceful difficulty in Survival mode are helpful for a player to gain familiarity with the controls.
+
+
+==== Menu controls ====
+Menus out of the game and some in-game menus can be fully navigated using the keyboard. Notable exception that can't be fully navigated are the various inventories and the Advancements screen.
+
+
+=== Semi-configurable controls ===
+While aspects of these controls can be modified to an extent, full control over them is not possible.
+
+
+=== Configurable controls ===
+
+These are controls that a user may change at their preference.
+
+
+== Bedrock Edition ==
+In Bedrock Edition, there are three control modes available: Keyboard & Mouse, Controller, and Touch. Keyboard & Mouse and Touch controls are not available for Nintendo Switch, although a keyboard can be used for typing and the touchscreen can be used for menu screens and GUIs. All other platforms support any control mode, but the device may not support it by default.
+Whenever an input is detected from a different control mode, the game automatically switches to that control mode and enables its settings. The game launches with the latest selected control mode, or the device default on first launch.
+
+
+=== Keyboard & Mouse ===
+The keyboard and mouse controls are similar to Java Edition, with a few differences. Most keybinds can be changed in the settings, with a few optional settings related to the controls. Keyboard and mouse controls are unavailable on the Nintendo Switch and require external keyboards on devices without a built-in keyboard and mouse (mobile and consoles).
+The game will enter keyboard & mouse mode when it receives a mouse event, but key event won't.[needs testing]
+
+
+==== Non-configurable controls ====
+
+
+==== Configurable controls ====
+
+
+==== Full keyboard gameplay ====
+If "Full Keyboard Gameplay" is enabled, the following inputs are made available/used instead.
+
+
+=== Controller ===
+
+The "Controller" controls for gamepads are similar to the Xbox One, Nintendo Switch, and PlayStation 4 editions, with some differences. All of these controls, except the control sticks and menu controls, can be changed in the settings, as well as some other controller-related options. The Nintendo Switch version can be played with a pair of Joy-Con or Joy-Con 2 controllers, the Nintendo Switch Pro Controller, the Nintendo Switch 2 Pro Controller, or the Nintendo Switch Lite. It cannot be played with a single Joy-Con or Joy-Con 2 controller, as they do not have enough buttons or control sticks. If the gamepad has two control sticks, then the left stick (/) would be used for moving and the right stick (/) would be used for looking. The blank spaces mean that the function is, by default, left unassigned and it is up to the player to assign a button to it. All platforms support gamepads.
+If the connected controller loses its connection, the game hides the HUD and shows a message prompting to reconnect it, while the FPS is lowered. This can be disabled in the settings.
+
+
+=== Touch ===
+"Touch" controls for touchscreen devices use controls shown on the HUD. There are three touch control modes, and an option to split controls, resulting in four actual control modes:
+
+Joystick & tap to interact. Drag joystick to move. Drag anywhere else to look around. Tap and hold blocks to interact with them.
+Joystick & aim crosshair. Drag joystick to move. Drag anywhere else to look around. Aim crosshair and use buttons to interact with blocks.
+D-pad & tap to interact. Tap arrows to move. Drag anywhere else to look around. Tap and hold blocks to interact with them.
+Split controls: Aim crosshair and use buttons to interact with blocks.
+All control buttons and the joystick can be customized in location, size, and opacity, in the settings, where various other touch control features can be changed.
+Menu buttons always appear on the top of the screen regardless of touch control mode.
+Touch controls are available on devices with a touchscreen except Nintendo Switch, where the touchscreen can only be used to interact with the hotbar, inventory, and menus. This can also be enabled for other devices.
+The game will enter touch mode when it receives a touch event.[needs testing]
+
+
+== Legacy versions ==
+
+Some editions such as Legacy Console Edition and New Nintendo 3DS Edition have either been discontinued or long forgotten about. However, their controls are documented at Controls/Old keys for historical purposes.
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Controls" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Java Edition Screenshots ===
+
+
+=== Bedrock Edition Screenshots ===
+
+
+=== Historical screenshots ===
+
+
+== See also ==
+Options
+Settings
+Heads-up display
+Debug screen
+Ore UI, the Bedrock Edition UI refresh
+
+
+== References ==
+
+
+== External links ==
+Hotkeys in Minecraft: Java Edition – Minecraft Help Center
+
+
+== Navigation ==

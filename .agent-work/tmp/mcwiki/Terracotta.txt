@@ -1,0 +1,90 @@
+Terracotta is a block that is found abundantly in badlands biomes, or can be obtained by smelting clay. It can be dyed to create stained terracotta.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Terracotta can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+Badlands
+Terracotta can be found naturally and abundantly in badlands biomes.
+Villages
+Terracotta can be found in desert and plains villages, as a part of houses, lamps and meeting points.
+
+
+=== Smelting ===
+
+
+== Usage ==
+
+
+=== Building ===
+Terracotta has the same blast resistance as most other stone blocks, which is significantly higher than the block of clay before being smelted. A block of terracotta when one block away from a creeper or TNT explosion protects any blocks behind it, although the terracotta itself is destroyed.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Terracotta" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Despite the name change, in Bedrock Edition, normal terracotta's ID is still hardened_clay.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+== References ==
+
+
+== Navigation ==
