@@ -1,0 +1,168 @@
+A jockey refers to a naturally-spawned mob riding another mob. The mob on the top often controls the mob on the bottom in Java Edition, but sometimes does not control it in Bedrock Edition.
+Most jockeys are named based on the mob being ridden. The exceptions to the "jockey" naming scheme are the skeleton horseman and zombie horseman.
+
+
+== List of jockeys ==
+Camel Husk Jockey; a camel husk ridden by a husk wielding a spear and a parched passenger.
+Chicken Jockey; a baby zombie, husk, or a gurgle (or zombie villager or zombified piglin in Java Edition) riding a chicken or most common mobs in Bedrock Edition.
+Hoglin Jockey; a baby hoglin ridden by one to three baby piglins.
+Zoglin Jockey‌[JE  only]; a baby zoglin ridden by one to three baby zombified piglins, if a hoglin jockey is brought to the Overworld or The End.
+Ravager Jockey; a ravager ridden by an illager, most commonly being a pillager.
+Skeleton Horseman; a skeleton horse ridden by a skeleton with an enchanted iron helmet.
+Spider Jockey; a spider ridden by a skeleton or a stray, (or bogged, parched, or wither skeleton in Bedrock Edition).
+Cave Spider Jockey‌[BE  only]; a cave spider ridden by said skeletons.
+There are two types of strider jockeys:
+Strider Jockey; a strider ridden by a zombified piglin.
+Baby Strider Jockey; a strider ridden by a baby strider.
+Zombie Horseman; a zombie horse ridden by a zombie wielding a spear.
+Zombie Nautilus Jockey; a zombie nautilus ridden by a drowned wielding a trident.
+
+
+=== Removed ===
+Giant jockey; a chicken ridden by a giant.‌[JE  only]
+Most jockeys spawn in similar conditions to their respective mobs, except for baby zombie (variant) riders in Bedrock Edition, which can mount any mob.
+
+
+== Mounting ==
+
+In Bedrock Edition, 15% of naturally spawned baby zombies, baby husks, gurgles, and baby frostbites​[upcoming: Fourth Drop 2026] can mount other mobs when spawned. This includes baby zombies summoned by monster spawners and spawn eggs. Such a mob can be summoned with the minecraft:as_baby_jockey spawn event. 
+The following mobs can be mounted:
+
+Due to a bug, baby zombified piglins jockeys don't spawn properly.
+Due to another bug, baby zombie villagers cannot mount mobs as jockeys.
+
+
+== Summoning ==
+
+Jockeys can also be manually summoned using commands:
+Chicken Jockey
+In Java Edition: /summon minecraft:chicken ~ ~ ~ {IsChickenJockey:1b,Passengers:[{id:"minecraft:zombie",IsBaby:1b}]}
+In Bedrock Edition, it requires two commands:
+
+/summon chicken ~ ~ ~ ~ ~ minecraft:spawn_adult
+/ride @n[type=chicken] summon_rider zombie minecraft:as_baby
+Variants of zombies or ridden mobs can be summoned by replacing chicken and zombie respectively.
+Camel Husk Jockey
+
+In Java Edition: /summon minecraft:camel_husk ~ ~ ~ {Passengers:[{id:"minecraft:husk",equipment:{mainhand:{id:"minecraft:iron_spear",count:1}}},{id:"minecraft:parched",equipment:{mainhand:{id:"minecraft:bow",count:1}}}]}
+In Bedrock Edition: /summon camel_husk ~ ~ ~ ~ ~ minecraft:spawn_with_rider
+Cave Spider Jockey
+
+In Java Edition: /summon minecraft:cave_spider ~ ~ ~ {Passengers:[{id:"minecraft:skeleton",HandItems:[{id:"minecraft:bow",count:1}]}]}
+In Bedrock Edition: /summon cave_spider ~ ~ ~ ~  ~ minecraft:entity_spawned_with_default_jockey
+Hoglin Jockey
+
+In Java Edition: /summon minecraft:hoglin ~ ~ ~ {Age:-12000,Passengers:[{id:"minecraft:piglin",IsBaby:1}]}
+In Bedrock Edition, it requires two commands:
+/summon hoglin ~ ~ ~ ~ ~ spawn_baby
+/ride @n[family=hoglin_baby] summon_rider piglin spawn_baby
+Ravager Jockey
+In Java Edition: 
+/summon minecraft:ravager ~ ~ ~ {Passengers:[{id:minecraft:pillager,HandItems:[{id:crossbow,Count:1b}]}]}
+
+This command summons a ravager with a pillager rider.
+/summon minecraft:ravager ~ ~ ~ {Passengers:[{id:minecraft:vindicator,HandItems:[{id:iron_axe,Count:2b}]}]}
+
+This command summons a ravager with a vindicator rider.
+/summon minecraft:ravager ~ ~ ~ {Passengers:[{id:minecraft:evoker}]}
+
+This command summons a ravager with an evoker rider.
+In Bedrock Edition:
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_pillager_rider
+
+This command summons a ravager with a pillager rider.
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_vindicator_rider
+
+This command summons a ravager with a vindicator rider.
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_for_raid_with_evoker_rider
+
+This command summons a ravager with an evoker rider.
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_for_raid_with_pillager_rider
+
+This command summons a ravager with a pillager rider, but the pillager drops special loot upon death.
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_for_raid_with_vindicator_rider
+
+This command summons a ravager with a vindicator rider, but the vindicator drops special loot upon death.
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_pillager_captain_rider
+
+This command summons a ravager with a pillager rider, but the pillager is a raid captain.
+/summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_vindicator_captain_rider
+
+This command summons a ravager with a vindicator rider, but the vindicator is a raid captain.
+Skeleton Horseman
+Skeleton horsemen can be manually summoned by both the regular method and by spawning a skeleton trap.
+A skeleton trap spawns 4 skeleton horsemen.
+
+In Java Edition: /summon minecraft:skeleton_horse ~ ~ ~ {SkeletonTrap:1}
+In Bedrock Edition: /summon skeleton_horse ~ ~ ~ ~ ~ minecraft:set_trap
+Spider Jockey 
+
+In Java Edition: /summon minecraft:spider ~ ~ ~ {Passengers:[{id:"minecraft:skeleton",HandItems:[{id:"minecraft:bow",count:1}]}]}
+In Bedrock Edition: /summon spider ~ ~ ~ ~ ~ minecraft:entity_spawned_with_default_jockey. Note: It only works during nighttime or underground.
+The following command summons a skeleton variant 80% of the time when in a biome with skeleton variants: /summon spider ~ ~ ~ ~ ~ minecraft:entity_spawned_with_biome_specific_jockey
+Strider Jockey
+
+Zombified piglin riding strider:
+In Java Edition: /summon minecraft:strider ~ ~ ~ {Saddle:1,Passengers:[{id:"minecraft:zombified_piglin",HandItems:[{id:"minecraft:warped_fungus_on_a_stick",count:1}]}]}
+In Bedrock Edition: /summon strider ~ ~ ~ ~ ~ spawn_adult_piglin_jockey
+Baby strider riding adult strider:
+In Java Edition: /summon minecraft:strider ~ ~ ~ {Passengers:[{id:"minecraft:strider",Age:-1200}]}
+In Bedrock Edition: /summon strider ~ ~ ~ ~ ~ spawn_adult_parent_jockey
+Zombie Horseman
+
+In Java Edition: /summon minecraft:zombie_horse ~ ~ ~ {Passengers: [{id:"minecraft:zombie",equipment: {mainhand:{id:"minecraft:iron_spear",count:1}}}]}
+In Bedrock Edition: /summon zombie_horse ~ ~ ~ ~ ~ minecraft:spawn_adult_with_rider
+Zombie Nautilus Jockey
+
+In Java Edition: /summon minecraft:zombie_nautilus ~ ~ ~ {Passengers: [{id:"minecraft:drowned",equipment:{mainhand:{id:"minecraft:trident",count:1}}}]}
+In Bedrock Edition: /summon drowned ~ ~ ~ ~ ~ minecraft:as_rider
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Jockey" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Renders ===
+
+
+==== Mounts ====
+
+
+== See also ==
+Mob
+Animal
+Aquatic
+Arthropod
+Illager
+Monster
+Undead
+
+
+== References ==
+
+
+== Navigation ==

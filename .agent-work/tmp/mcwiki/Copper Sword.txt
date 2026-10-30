@@ -1,0 +1,87 @@
+A copper sword is a variant of sword crafted from copper ingots. It is the fourth-highest tier of sword, dealing the same damage as a stone sword but having more durability.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Breaking ===
+A copper sword can be used to destroy certain blocks 50% quicker, sometimes much quicker than with fists. Using copper sword to destroy any block that doesn't break instantly by hand decreases its durability by 2; this includes bamboo, despite that a copper sword is the fastest tool for breaking it.
+If a copper sword is enchanted with Silk Touch, either using Creative or commands, cobwebs the sword destroys drop the cobwebs themselves instead of the usual string. This is due to the sword being classified as the proper tool for cobwebs.
+
+
+==== Creative mode ====
+In Creative mode, copper swords are unable to break blocks. However, they can still break placed entities such as minecarts, paintings, item frames‌[Java Edition  only], armor stands and cushions.
+
+
+=== Attacking ===
+A copper sword can also be used to deal damage to mobs and entities by attacking them. A copper sword has 6HP base damage in Bedrock Edition, and can be enchanted to deal more damage. The following tables show how the Sharpness enchantment affects the damage dealt by the sword.
+
+
+==== Extra damage of Sharpness enchantment ====
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A copper sword can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% a copper sword's maximum durability, rounded down. Two copper swords of the same tier can also be combined in an anvil. Both methods preserve the sword's enchantments.
+
+
+=== Enchantments ===
+A copper sword can receive the following enchantments:
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition
+
+Bedrock Edition
+
+
+== Achievements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Sword" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

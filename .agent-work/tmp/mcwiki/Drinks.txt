@@ -1,0 +1,36 @@
+Drinks are a narrow selection of consumable items that the player can drink in an extremely similar manner to food. Drinks can be distinguished from food by the sounds they make upon consumption and the lack of particles emitted by consuming them. They also do not require the hunger bar to be depleted, and do not affect hunger or saturation values upon use (with the exception of honey bottles, which is considered both a drink and a food item).
+Drinks are drunk by holding use while having the drink item selected in the hotbar or in the offhand‌[Java Edition  only].
+
+
+== Drinks ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Trivia ==
+In Java Edition, a player cannot see their own drinking and eating animation while in third-person view.
+
+
+== References ==
+
+
+== Navigation ==

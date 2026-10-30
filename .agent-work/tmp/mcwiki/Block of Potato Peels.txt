@@ -1,0 +1,33 @@
+A block of potato peels is a joke block exclusive to 24w14potato. It comes in 17 variants, for each of the potato peels types (including the corrupted version). Blocks of potato peels can generate naturally only in the Potato dimension and can be crafted using 9 potato peels of corresponding color.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Block of potato peels drops as an item when broken with any tool or by hand.
+
+
+=== Natural generation ===
+Lime variant generates naturally as part of potato villages and in the hash biome, imitating cacti.
+Black, gray, light gray and green variants generate naturally on the surface of wasteland biomes.
+
+
+=== Crafting ===
+
+
+== Sounds ==
+Java Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Issues ==
+Issues relating to "Block of Potato Peels" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

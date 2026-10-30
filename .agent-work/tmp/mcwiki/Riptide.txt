@@ -1,0 +1,69 @@
+Riptide is an enchantment applied to tridents that causes the trident to launch the user when used in water or rain, replacing the trident's ability to be thrown as a projectile.
+
+
+== Obtaining ==
+Riptide can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, vaults, librarian villagers, and non-village structure loot.
+
+
+== Usage ==
+
+Tridents enchanted with Riptide can be thrown only when a player stands in water or when exposed to rain. In these situations, a thrown trident launches the player with it. Players can reach greater heights by throwing a Riptide trident straight upward, and travel further distances by throwing it from a higher altitude, or by sprinting or sprint-swimming while in motion. If a Riptide-enchanted trident is held in both the main and off-hands, the player's velocity is not doubled and only the trident in the main is used (see dual wield), although the animation for both tridents is displayed on the HUD. Throwing a Riptide trident consumes 1 durability.‌[JE  only]
+The formula for the number of blocks the trident throws the user is (6 × level) + 3 when in rain or standing in water, and (4 × level) + 3 while underwater.
+Riptide cannot be used in biomes (or altitudes) where it doesn't rain (unless you are in water), even if the current weather in these locations is snow or overcast.
+If the player collides with a mob or another player, the trident deals throwing damage (including critical damage if the player is falling) and the player's movement is abruptly stopped. In this situation, a Riptide trident can bypass the defense of a shield. Colliding with a mob to deal damage consumes 1 durability regardless of version, which means a collision in Java Edition damages the trident twice. If the Riptide trident is in the off-hand, any damage would be dealt with the item in the main hand.
+If an item is being held in the off-hand during movement, on the HUD, the held item appears at the top-left, with the top of the item texture facing the direction the player is (unless that item is another trident, in which case the same animation as the Riptide trident is played, regardless of if the trident in the off-hand is enchanted with Riptide or not). The same is true if the trident is in the off-hand and the held item in the main hand, if any. The trident, the item in the main/off-hand (if any), and other items can be swapped, rearranged, or thrown out to create different animation combinations.
+
+A thrown Riptide-enchanted trident can hit multiple targets.‌[BE  only]
+
+
+=== Elytra ===
+A Riptide trident can be used to propel a player wearing elytra if in rainy weather or in a body of water. This allows players to reach speeds upward of 500 blocks per second, compared to 33.5 blocks per second using firework rockets.
+
+
+== Incompatibilities ==
+The Loyalty enchantment cannot be combined with Riptide, as a Riptide trident never leaves the player's hand when used. Channeling is also mutually exclusive with Riptide, both because the trident never lands anywhere, and because it would strike lightning at the player's own position.
+If combined using commands, Riptide takes priority over Loyalty and Channeling.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== Achievements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+== Issues ==
+Issues relating to "Riptide" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

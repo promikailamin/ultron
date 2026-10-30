@@ -1,0 +1,73 @@
+Lunge is an enchantment applied to spears that causes jab attacks to propel the wielder forward horizontally. When used, Lunge consumes saturation and hunger at an amount dependent on the enchantment level, as well as 1 durability. The distance gained from Lunge is increased when in midair.
+
+
+== Obtaining ==
+Lunge can be directly applied to a spear or book using an enchanting table. Enchanted books with Lunge can also be obtained by trading with a librarian of any level,​[until: Villager Trade Rebalance] from fishing, or from structure loot. An enchanted book can be used to apply Lunge to a spear using an anvil.
+
+
+== Usage ==
+Lunge propels the wielder forward, providing an instant momentum boost of 0.458×level blocks per tick in the direction they are facing whenever they perform a jab attack, at the cost of causing 4×level exhaustion gained (for players only) and 1 additional durability loss. This equates to:
+
+Level I: 0.458 blocks per tick (9.16 blocks per second), at the cost of 1 () and 1 durability.
+Level II: 0.916 blocks per tick (18.32 blocks per second), at the cost of 2 () and 1 durability.
+Level III: 1.374 blocks per tick (27.48 blocks per second), at the cost of 3 () and 1 durability.
+For players, Lunge consumes saturation points first, and then hunger points after. Lunge can only be activated if the wielder has 7 () or more hunger points in the hunger bar (i.e., able to sprint). This equates to:
+
+34 lunges with max saturation at level I.
+17 lunges with max saturation at level II.
+12 lunges with max saturation at level III.
+The speed at which the user can lunge is dependent on the attack speed of the weapon, which in turn makes lower-tier spears able to use Lunge more often.
+
+Non-player mobs do not have hunger, so Lunge always activates whenever they perform jab attacks, the only cost being durability. However, zombies, zombie villagers, husks, piglins, and zombified piglins only perform charge attacks, and therefore will never activate Lunge. Mobs use Lunge-enchanted spears in exactly the same way they use non-Lunge spears; i.e., only in melee range and never for mobility. The distance traveled using Lunge is maximized if the wielder looks directly horizontal activating Lunge, as the vertical component of Lunge's momentum boost is canceled before it is applied to the wielder. Additionally, using Lunge midair propels the wielder significantly farther than on the ground. Lunge does not activate if the wielder is riding a mount or vehicle, gliding with elytra, or touching water or, if the wielder is a player, has 5 or fewer hunger points.
+When Lunge is applied onto non-spear items using commands such as /give, the effect only activates when a successful hit is landed on an entity.
+
+
+=== Charge attack ===
+
+Lunge does not activate when doing a charge attack, and instead activates when doing a jab attack. However, by initiating a charge attack directly after jabbing, the charge attack can be connected using the velocity gained with Lunge. There must be significant distance between the user and the target to give time for the charge attack's activation delay to fully finish after jabbing. The following table shows the damage of charge attacks when done using the speed from different levels of Lunge.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Lunge" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Because hunger cannot be depleted in Peaceful difficulty, the Lunge enchantment can be used infinitely as long as it has sufficient durability.
+
+
+== Gallery ==
+
+
+== See also ==
+Riptide
+
+
+== Notes ==
+
+
+== Navigation ==

@@ -1,0 +1,93 @@
+A cut copper slab is a decorative slab variant of cut copper that generates in trial chambers and is used for building. Unlike other types of slabs, cut copper slabs can oxidize over time.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cut copper slabs can be broken with stone pickaxes or higher. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Waxed cut copper slabs generate naturally in trial chambers.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Oxidation ===
+
+Non-waxed cut copper slabs have four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation on cut copper slabs. They can be waxed with a honeycomb to prevent it from oxidizing.
+As the block begins to oxidize (exposed), it gets discolored and green spots begin to appear. As the oxidation continues (weathered), the block is a green color with brown spots. In the last stage (oxidized), the block is teal with several green spots.
+
+
+== Sounds ==
+In Bedrock Edition, when a cut copper slab is combined into a double slab, the block's use sound is played.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Cut Copper Slab" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

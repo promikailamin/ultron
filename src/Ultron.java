@@ -284,14 +284,24 @@ public class Ultron {
 
     /** training example: ids[0..S] window (S inputs, S targets). Returns mean CE loss. */
     public double trainExample(int[] ids, int S, Act act, float[] gr) {
+        return trainExample(ids, S, act, gr, null);
+    }
+
+    /**
+     * Masked training example. When mask != null, only positions where
+     * mask[t] is true contribute to the loss. This lets the trainer apply
+     * gradient to the assistant reply while keeping the user prompt fixed.
+     */
+    public double trainExample(int[] ids, int S, Act act, float[] gr, boolean[] mask) {
         final int d = D, f = F, hd = HD;
-        final int N = S;
         forwardBody(ids, S, act);
         allLogits(S, act);
         float[] lg = act.logits;
 
         double loss = 0;
+        int lossCount = 0;
         for (int t = 0; t < S; t++) {
+            if (mask != null && !mask[t]) continue;
             int loff = t * V;
             float max = -1e30f;
             for (int v = 0; v < V; v++) if (lg[loff + v] > max) max = lg[loff + v];
@@ -307,18 +317,24 @@ public class Ultron {
             float pt = lg[loff + tgt];
             loss -= Math.log(Math.max(pt, 1e-12));
             for (int v = 0; v < V; v++)
-                lg[loff + v] = (lg[loff + v] - (v == tgt ? 1f : 0f)) / N;
+                lg[loff + v] = lg[loff + v] - (v == tgt ? 1f : 0f);
+            lossCount++;
         }
-        loss /= N;
+        if (lossCount == 0) {
+            lossCount = 1;
+        }
+        loss /= lossCount;
         if (gr == null) return loss;
 
         // ---- backward ----
         float[] dh = act.dh;
         java.util.Arrays.fill(dh, 0, S * d, 0f);
+        float invN = 1f / lossCount;
         for (int t = 0; t < S; t++) {
+            if (mask != null && !mask[t]) continue;
             int ho = t * d, loff = t * V;
             for (int v = 0; v < V; v++) {
-                float dl = lg[loff + v];
+                float dl = lg[loff + v] * invN;
                 if (dl == 0f) continue;
                 int we = wteO + v * d;
                 for (int j = 0; j < d; j++) {

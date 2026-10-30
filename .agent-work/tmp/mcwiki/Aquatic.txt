@@ -1,0 +1,115 @@
+The term aquatic refers to an in-game group of mobs that live in oceans and rivers and are able to swim.
+
+
+== Properties ==
+In Java Edition, aquatic mobs obligatorily share the property of being in the aquatic entity tag. This also causes them to take extra damage from the Impaling enchantment and being able to survive in land with the water breathing effect ‌[BE  only].
+Some or most aquatic mobs may also take suffocation damage when on land, not cause pufferfish to puff, and not take drowning damage, although this doesn't affect their classification.
+
+
+== List of mobs ==
+
+
+=== Animal ===
+
+Axolotl
+Cod
+Dolphin
+Glow Squid
+Nautilus
+Pufferfish
+Salmon
+Squid
+Tadpole
+Tropical Fish
+Turtle
+
+
+=== Monster ===
+
+Elder Guardian
+Guardian
+Zombie Nautilus
+
+
+=== Jockeys ===
+This jockey is comprised of one aquatic mob:
+
+Zombie Nautilus Jockey
+
+
+== Related ==
+
+
+=== Mobs ===
+These mobs are aquatic in nature, but are not under the aquatic category in the game code.
+
+Drowned
+Elder Guardian Ghost‌[BE  only]
+Frog
+
+
+=== Blocks ===
+These blocks are based on real life aquatic organisms, but are not treated as such in the game code, due to being blocks.
+
+Coral
+Coral Blocks
+Coral Fans
+Kelp
+Lily Pad
+Sea Pickle
+Seagrass
+Sponge
+
+
+=== Unimplemented ===
+These community vote options are based on real life/fantasy organisms, but have not been added to the game.
+
+Barnacle
+Crab
+
+
+=== April Fools' ===
+These mobs are aquatic, but have only appeared in April Fools' versions.
+
+Pet Axolotl
+Pet Turtle
+Plaguewhale Slab
+Toxifin Slab
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Aquatic" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Notes ==
+
+
+== See also ==
+Mob
+Animal
+Arthropod
+Illager
+Jockey
+Monster
+Undead
+
+
+== Navigation ==

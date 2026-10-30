@@ -1,0 +1,71 @@
+A disc press is a block used to create track discs with custom music tracks.
+
+
+== Obtaining ==
+
+
+=== 26.60 ===
+While in development for 26.70, the block has also been added in 26.60. Having no behavior defined, it cannot be obtained via /give or /setblock. Add-ons can be used to place its block form, but the scripting API silently fails upon attempting to give the item form, which can only be obtained through inventory editors or glitches.
+
+
+=== Breaking ===
+A disc press always drops itself when broken, though a pickaxe is the fastest tool for mining.
+
+
+=== Crafting ===
+
+
+== Behavior ==
+
+
+=== Creating track discs ===
+
+When a player uses a disc press, its GUI opens. It has two slots: one for dyes and one for blank discs. A catalog containing music tracks is shown on the left, which can be filtered on name or artist, and sorted on title, artist, or track length.
+Available music tracks currently includes those played in the menu screen, from C418 and fingerspit.
+When a player adds a blank disc in the slot with a music track selected, a track disc with the applied music track shows in the output slot. The texture can be changed by adding a dye, though this is not required.
+
+
+=== In 26.60 ===
+
+
+==== Item form ====
+As an item, it appears identical to an empty slot, with no name appearing and appearing as an empty hand when held. Items cannot be moved into its slot nor can it be moved into other slots. It can be moved into other containers using hoppers or hopper minecarts.
+When it is held in the main hand, blocks cannot be interacted with, although they can be broken, and entities cannot be damaged. It cannot be dropped by the player other than dropping as an item when the player dies, if keep inventory is disabled. It can be removed from the player's inventory using the /clear command.
+
+
+==== Block form ====
+As a block, upon interaction, an arm swing will occur and all further attempts to open any user interface other than the pause menu will fail until the world is fully reloaded. The block does not serialize to world data and converts to unknown upon being loaded. As the block does not serialize, it must be placed at runtime to encounter these behaviors, which is only possible via scripting. Using pick block on it does not do anything, even if the block is in the inventory.
+There exists unused GUI functionality related to it, consisting of DiscPressBlockContainer, DiscPressDiscContainer, DiscPressDyeContainer, and DiscPressResultPreviewContainer. There also exists unused functionality for cardinality.
+
+
+== Sounds ==
+In 26.70:
+
+
+=== Generic ===
+
+
+=== Unique ===
+
+In 26.60:
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+=== Block states ===
+
+Bedrock Edition:
+
+
+== History ==
+
+
+== Issues ==
+Issues relating to "Disc Press" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

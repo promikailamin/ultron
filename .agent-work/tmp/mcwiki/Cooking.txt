@@ -1,0 +1,85 @@
+Cooking produces cooked food from raw food by using a furnace, smoker, campfire, or by killing certain mobs with fire. Cooked food gives more  hunger points when consumed than their raw food variant. Cooked food can also be obtained via trading, and in certain loot chests in some generated structures.
+
+
+== Methods ==
+
+
+=== Fire ===
+The following cooked food is dropped from their respective mobs when killed while on fire:
+
+Cooked Cod, an item dropped by igniting cod, dolphins, polar bears, guardians‌[Java Edition  only] and elder guardians‌[Java Edition  only]
+Cooked Salmon, an item dropped by igniting salmon, polar bears, guardians‌[Java Edition  only] and elder guardians‌[Java Edition  only]
+Cooked Chicken, an item dropped by igniting chickens
+Steak, an item dropped by igniting cows and mooshrooms
+Cooked Porkchop, an item dropped by igniting pigs and hoglins
+Cooked Mutton, an item dropped by igniting sheep
+Cooked Rabbit, an item dropped by igniting rabbits
+Baked Potato, an item rarely dropped by igniting zombies and their variants
+
+
+=== Campfire ===
+The campfire or soul campfire has four slots on the block and does not contain an interface. Items are added to the campfire slots by pressing the use button. Up to four uncooked food items can be placed on a campfire, and they are cooked simultaneously. Cooking takes 30 seconds (600 game ticks) for each added item. The items drop from the campfire or soul campfire automatically after they finish cooking.
+Campfires do not require any kind of fuel to cook. As long as the campfire is lit, it can cook an infinite amount of food.
+If the campfire is extinguished while cooking food, the remaining cooking time quickly counts back up. Food items can be placed on an unlit campfire. Any items cooking on a campfire always drop when the campfire block is broken.
+
+
+=== Furnace ===
+Cooking with a furnace uses cooked food recipes to turn raw food into cooked food when combined with fuel.
+The furnace is a utility block with two functions: besides cooking, it also uses fuel to smelt materials. Each item takes 10 seconds to process.
+
+
+=== Smoker ===
+Smokers are used to cook food items twice as fast as a furnace, taking only 5 seconds per item instead of 10. Fuel is also used twice as fast, so the rate of cooked items per fuel item remains the same.
+
+
+== List of cooked food ==
+This is a list of all cooked food items.
+
+Cooked Cod
+Cooked Salmon
+Cooked Chicken
+Steak
+Cooked Porkchop
+Cooked Mutton
+Cooked Rabbit
+Baked Potato
+Dried Kelp
+
+
+== Uncooked food ==
+
+Uncooked food are food items which can be cooked using a furnace, smoker, or campfire.
+
+Raw Cod, an item dropped by cod, dolphins, polar bears, guardians‌[Java Edition  only] and elder guardians‌[Java Edition  only]
+Raw Salmon, an item dropped by salmon, polar bears, guardians‌[Java Edition  only] and elder guardians‌[Java Edition  only]
+Raw Chicken, an item dropped by chickens
+Raw Beef, an item dropped by cows and mooshrooms
+Raw Porkchop, an item dropped by pigs and hoglins
+Raw Mutton, an item dropped by sheep
+Raw Rabbit, an item dropped by rabbits
+Potato, an item rarely dropped by zombies and their variants
+
+
+== Fuel ==
+
+Fuel is required for cooking food with a furnace or smoker. Campfires do not require fuel as they will remain lit unless extinguished.
+There are multiple types of fuel that can smelt a different number of items.
+
+
+== Cooked food recipes ==
+
+All food recipes can be used in a furnace or smoker. Food can alternatively be cooked on a campfire.
+
+
+=== Trading ===
+Some villagers sell cooked food items. Butchers directly sell cooked chicken and porkchops, whereas fishermen can cook the raw fish for a fee.
+
+
+== Issues ==
+Issues relating to "Cooking" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== Navigation ==

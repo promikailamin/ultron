@@ -1,0 +1,45 @@
+Density is an enchantment applied to maces that increases the damage of smash attacks.
+
+
+== Obtaining ==
+Density can be obtained on maces through an enchanting table, as an enchanted book by trading with a librarian of any level,​[until: Villager Trade Rebalance] from fishing, or from ominous vaults, as well as any other structures that generate enchanted books.
+
+
+== Usage ==
+Density increases smash attack damage by 0.5HP × 0.25 per block fallen per level.
+
+
+== Incompatibilities ==
+Density is incompatible with Breach, Smite, and Bane of Arthropods. It is also incompatible with Sharpness and Impaling, however in Survival these incompatibilities cannot be encountered, as no weapon types have access to both Density and Sharpness/Impaling. If commands are used to have two or more of these enchantments on the same item, their effects stack.‌[Java Edition  only]
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Density" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Notes ==
+
+
+== Navigation ==

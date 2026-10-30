@@ -1,0 +1,156 @@
+A bell is a block that can be rung by hand, with a projectile or using a redstone signal to make all nearby villagers run to their beds. In Java Edition, this also reveals all illager-related mobs in a large radius. It can be found in villages or purchased from villagers, and cannot be crafted.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A bell can be mined with anything, but pickaxes are the fastest. A bell also breaks and drops itself if the block it is attached to is moved or destroyed, and, in Java Edition, if a piston extends or pushes a block into its location.
+
+
+=== Natural generation ===
+Bells can generate naturally in all village variants, usually near the center of the village in the meeting point.
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+Bells are only renewable through trading with villagers as they cannot be crafted.
+
+
+== Usage ==
+Bells can be anchored to the side of blocks, ceilings, and floors and drop as an item if the sustain block is broken or moved by a piston. They can also be attached to trapdoors but break if the trapdoor is opened.
+When the use control is pressed while looking at the side of a bell, it produces a sound as well as a "swaying" animation. A bell can also be rung using a redstone signal, by any projectile, or by dropping an item on it.‌[Bedrock Edition  only]
+If the player rings the bell while villagers are sleeping, all of the villagers wake up. Bells can be rung by players only from certain angles (villagers are not subject to this restriction); trying from an incorrect angle does not cause the bell to ring.
+Villagers ring the bell only during raids.
+
+
+=== Claiming ===
+A villager can detect a bell within 48 blocks euclidean distance horizontally and 6 blocks vertically (either up or down) from the base of its hitbox. The villager can claim the bell if it gets within 6 blocks taxicab distance of the bell and there is a valid path that can lead them to be in the block beside the bell. Baby villagers do not claim nor ring a bell.   
+When villagers spawn and have not already claimed a bed or workstation, they will automatically claim any bell within 6 blocks of them, even if they cannot reach it. Additionally, when a bell is placed within 48 blocks from the pillow of a claimed bed and there is a valid path a villager can walk through, the bell gets automatically claimed in the afternoon (between 9000t and 12000t), which is displayed by green particles appearing above the bell. This does not work with claimed workstations.
+Claimed bells are POIs and determine the position of a village center among claimed beds and workstations.
+When a player subject to the Bad Omen effect enters a village with a bell, the claiming mechanisms are forced no matter the time, meaning that if the bell is close enough either from a villager or from a claimed bed, it becomes part of the village.
+A claimed bell defines a gathering site of a village, and villagers pathfind close to it in the afternoon.
+If the bell is broken, anger particles appear above the village leader's head.‌[BE  only]
+If a player rings a bell, the villagers run to their beds even if there is no raid. Villagers can activate a bell even through blocks, but only if it was previously claimed and at least 2 blocks (also diagonal) from the base of their hitbox.
+
+
+=== Raid ===
+
+When the bell is rung, villagers within a distance of 32 blocks run to the nearest bed within 32 blocks immediately.
+In Java Edition, when a raid's first wave appears, at least one villager rushes to ring the bell in the center of the village (if they are close enough) to warn the other villagers of an incoming raid before running to their beds. In Bedrock Edition, bells in the corresponding village ring automatically at the start of a raid, warning villagers to return to their beds.
+
+
+==== Glowing effect ====
+
+If a bell is rung and there is a raid mob within a 32 block spherical range, the Glowing effect is applied to all raid mobs within 48 blocks for 3 seconds, and  particles appear. It produces a resonating sound once this process is complete. The raid mobs do not have to be actively participating in a raid to receive the Glowing effect; the effect applies to illagers in woodland mansions, or witches that naturally spawn in the Overworld.
+
+
+=== Piglins ===
+Piglins run toward any bell item on the ground, and inspect it for 6 seconds in Java Edition or 8 seconds in Bedrock Edition before putting it in their inventory. Breaking or ringing a bell does not aggravate them.
+
+
+=== Redstone component ===
+In Java Edition, bells ring one time upon receiving a redstone signal. Observers can detect when a bell receives a redstone signal, and when it stops receiving a signal (corresponding to the powered block state). Observers cannot detect when a bell is activated by the player or other entities. Sculk sensors, however, can detect a bell being rung in any way, or when placed or broken. Bells are transparent blocks and cannot be powered.
+In Bedrock Edition, observers can detect when a bell is rung. Observers do not emit a signal when the bell stops ringing or becomes unpowered. Bells also conduct redstone power in Bedrock Edition.
+In Bedrock Edition, bells can only activate on the input/consume redstone tick (C-tick).
+
+
+=== Piston interactivity ===
+In Java Edition, bells are destroyed when pistons push them. It also can not be pulled by sticky pistons.
+In Bedrock Edition, bells can be pushed and pulled by both pistons and sticky pistons, but breaks if unsupported, turning into drops when applicable.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition: 
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A bell has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+For a history of changes to textures and models for each block state, see /Asset history
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Bell" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In Bedrock Edition, If a villager tries to give another villager food near a bell, there is a chance it might hit the bell with the food and cause all the villagers to run, thrower included.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

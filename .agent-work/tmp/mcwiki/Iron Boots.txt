@@ -1,0 +1,100 @@
+Iron boots are a variant of boots that are crafted from iron ingots. They are the third-highest tier of boots, having higher armor points than leather, golden, copper, and chainmail boots.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor, which may include iron boots. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the boots they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped boots are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+In Bedrock Edition, vindicators and pillagers spawning in raids have a 4.16% chance (5.128% on hard difficulty) to drop iron boots. The dropped boots are usually badly damaged, and have a 50% chance of being enchanted with a random enchantment.
+
+
+=== Trading ===
+
+
+=== Bartering ===
+Piglins may barter iron boots enchanted with Soul Speed at a ~1.71% (8⁄469) chance when given a gold ingot.
+
+
+== Usage ==
+When worn, iron boots provide 2 () armor points.
+
+
+=== Smelting ===
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+
+Boots can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the boots' maximum durability, rounded down. Two boots of the same tier can also be combined in an anvil. Both methods preserve the boots' enchantments.
+
+
+=== Enchantments ===
+Boots can receive the following enchantments:
+
+
+=== Armor trimming ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Before Minecraft ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Iron Boots" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== References ==
+
+
+== Navigation ==

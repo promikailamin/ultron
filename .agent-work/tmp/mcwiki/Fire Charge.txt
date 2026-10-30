@@ -1,0 +1,114 @@
+A fire charge is an item that can be used as a single-use version of a flint and steel or shot as a small fireball from a dispenser.
+
+
+== Obtaining ==
+Despite firing small fireballs, blazes do not drop fire charges.
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Bartering ===
+When given a gold ingot, piglins have a ~8.53% (40⁄469) chance to barter a single fire charge.
+
+
+=== Natural occurrence ===
+
+During ominous trials, each ominous trial spawner has a 1⁄5 chance to dispense a fire charge on top of either a player or a mob it spawns. The fire charge is directly dispensed into the world and cannot be obtained in the inventory.
+
+
+== Usage ==
+
+
+=== Dispenser ===
+
+Fire charges can be used as ammunition in dispensers. When a fire charge is fired from a dispenser, it shoots a small fireball. However, a player cannot simply use a fire charge while holding it to shoot a small fireball.
+
+
+=== Fire ===
+When used, a fire charge instantly places a fire, similar to flint and steel. But, unlike flint and steel, the fire charge is consumed in the process. It can prime TNT and light Nether portals, campfires, candles, cakes with candles, and creepers‌[Java Edition  only].
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Fire Charge" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== See also ==
+Flint and steel
+Small Fireball
+Dragon Fireball
+Fireball
+Ghast
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Fire Charge"     by Duncan Geere  – Minecraft.net, January 11, 2019.
+
+
+== Navigation ==

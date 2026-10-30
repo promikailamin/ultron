@@ -1,0 +1,61 @@
+Fire Aspect is an enchantment applied to swords, maces, and spears that ignites entities hit with melee attacks.
+
+
+== Obtaining ==
+Fire Aspect can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, librarian villagers, and in non-village structure loot.
+
+
+== Usage ==
+Fire Aspect adds 80 fire-ticks (4 seconds of burning) per level to the target. The first half second of fire is usually ignored due to the invulnerability caused by the hit that set the target on fire. Targets receive 3HP and 7HP damage with level I and II respectively. Formula to calculate the fire damage is 4⋅level−1 HP.
+When a mob that normally drops raw meat is killed while it is burning, or if a mob is killed directly by the enchanted weapon, even if it is in water, it drops cooked meat. When a sulfur cube that has absorbed TNT is hit with an enchanted item, it ignites and explodes.
+In Bedrock Edition, using an item enchanted with Fire Aspect on an unlit candle or campfire lights it. Additionally, doing this on a block of TNT or minecart with TNT causes it to ignite.
+In Java Edition, Fire Aspect does not apply to charge attacks performed using the spear in the offhand.
+
+
+=== Specific cases ===
+If Fire Aspect is applied to a trident by use of commands or an anvil in Creative, the enchantment does not cause the weapon's thrown projectile to set targets on fire or ignite TNT, TNT minecarts, candles, and campfires. Instead, Flame has the igniting effects, but doesn't set targets on fire either.
+
+
+== Immune mobs ==
+Both Fire Aspect and Flame are nullified on all Nether exclusive mobs other than piglins, piglin brutes, and hoglins due to fire and lava immunity. Ender dragons, withers, and wardens are also immune. Normal skeletons and endermen are not immune even in the Nether.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+== Issues ==
+Issues relating to "Fire Aspect" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,37 @@
+Dimension control is a block exclusive to the 25w14craftmine snapshot that lets the player change the dimension's sky box.
+
+
+== Obtaining ==
+The dimension control can be found by unlocking a shimmering door with a shimmering key, which has a chance to be a boiler room depending on the key. Inside an iron bar cage is the dimension control and a chest with seven sky boxes.
+
+
+=== Breaking ===
+No tool can accelerate the breaking process of the dimension control. It drops itself when destroyed.
+
+
+== Usage ==
+Right clicking on the dimension control opens a GUI with the sky box of the current dimension already inside. If a different skybox is inserted that skybox will replace the sky of the dimension. If no skybox is inside the dimension control then the sky will be solid black.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+
+== Issues ==
+Issues relating to "Dimension Control" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Trivia ==
+The dimension control uses the texture of a crafting table, and when placed down uses the same blue shimmering that shimmering doors use.
+
+
+== Gallery ==
+
+
+== Navigation ==

@@ -1,0 +1,106 @@
+Andesite is a block of igneous rock, most often found in large pockets in the ground.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Andesite can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+
+Andesite can generate in the Overworld in the form of ore blobs. Andesite attempts to generate in two batches. The first batch generate 2 times per chunk in blobs of size 0-864, from elevations 0 to 60, in all biomes. The second batch has 1⁄6 chance to generate blobs of size 0-864, from elevation 64 to 128. In Bedrock Edition, andesite can replace stone, diorite, granite, polished andesite, polished diorite and polished granite. In Java Edition, andesite can replace stone, diorite, granite, tuff and deepslate.
+In Bedrock Edition, andesite generates naturally in coral reefs, replacing some coral as part of coral crusts.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Andesite has the same blast resistance as stone, meaning it can be used as a substitute for stone when building.
+
+
+=== Crafting ingredient ===
+
+
+=== Stonecutting ingredient ===
+
+
+=== Trading ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Andesite" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In the real world, andesite rock comes from above-ground lava flows. Finding andesite underground means the world's surface used to be lower, and the lava flow was buried.
+Diorite is andesite's below-ground equivalent: The two rocks come from the same kind of magma, but diorite rocks are formed from solidifying underground magma chambers. The long, slow cool makes it look coarser than andesite.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Diorite
+Granite
+Stone
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Andesite"     by Duncan Geere  – Minecraft.net, May 1, 2018.
+
+
+== Navigation ==

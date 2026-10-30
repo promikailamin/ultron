@@ -1,0 +1,108 @@
+A wooden axe is an early-game variant of axe that is crafted from planks. It can be used to cut down trees faster, to strip logs and scrape copper-based blocks, and as a melee weapon that disables shields. It is the seventh-highest tier of axe, having the lowest mining efficiency, the lowest attack damage alongside golden axes, and having the lowest attack speed alongside stone and copper axes. It can be used as fuel in a furnace, smoker, or blast furnace.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Breaking ===
+Wooden axes can break wood-related blocks faster than other tools. Breaking a block costs 1 durability.
+
+
+=== Stripping ===
+Using a wooden axe on a log, wood block, bamboo block turns it into a stripped log, stripped wood, or stripped bamboo, respectively. This uses 1 point of the axe's durability.
+
+
+=== Scraping ===
+Using a wooden axe on a waxed or somewhat oxidized copper block removes the wax if it has any, or otherwise removes a level of oxidization. This uses 1 point of durability.
+
+
+=== Weapon ===
+When used as a weapon, a wooden axe loses 2 durability points.
+
+
+==== Java Edition ====
+A wooden axe always disables a shield, although there should be a chance of it happening. Damage done by a wooden axe is equivalent to that of a diamond sword, but it has a longer cooldown.
+
+
+==== Bedrock Edition ====
+Wooden axes attack instantly with no cooldown and do 1HP less damage than a wooden sword.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+
+A wooden axe can be repaired in an anvil by adding wooden planks, with each plank restoring 25% of the axe's maximum durability, rounded down. Two wooden axes can also be combined in an anvil. Both methods preserve the axe's enchantments.
+
+
+=== Enchantments ===
+A wooden axe can receive the following enchantments:
+
+
+=== Fuel ===
+Wooden axes can be used as fuel in a furnace, smelting one item per axe.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Wooden Axe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

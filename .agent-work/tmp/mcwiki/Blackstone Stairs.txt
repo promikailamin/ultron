@@ -1,0 +1,62 @@
+Blackstone stairs are a decorative stairs variant of blackstone that generate in bastion remnants and are used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Blackstone stairs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Blackstone stairs generate as part of bastion remnants.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Blackstone Stairs" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

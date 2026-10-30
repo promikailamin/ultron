@@ -1,0 +1,25 @@
+A border block is a block used to setup borders that students cannot cross.
+
+
+== Obtaining ==
+Border blocks can be found in creative inventory. Only teachers can see this block in their inventory. It can also be given in Teacher menu "give" section. It can be also distributed by console command or with a command block.
+
+
+== Usage ==
+Border blocks is used to set vertical invisible borders to the world. Borders can be created easily with build tools. Students cannot go over or under the block, dig or place over or under this block, or break this block (not even when student building is enabled). If they try to bypass the border created by this block, they will receive a "You can't go there" message, but teachers can bypass these at anytime. They have a better use as infinitely tall borders than barrier blocks, as placing border blocks will automatically create a giant invisible wall where the border blocks are.
+
+
+== Data values ==
+The ID of this block is 3724.
+
+
+== Videos ==
+
+
+== History ==
+
+
+== Gallery ==
+
+
+== Navigation ==

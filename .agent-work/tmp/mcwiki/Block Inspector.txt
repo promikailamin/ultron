@@ -1,0 +1,18 @@
+Block Inspector is a special item in MinecraftEdu that can be used to identify blocks in the world.
+
+
+== Obtaining ==
+Item can be found in Creative inventory. It can also be given in Teacher menu "give" section.
+
+
+== Usage ==
+Block inspector can be used to identify blocks in the world. To use it, simply hold it in the hand and the name of the block you are looking at appears. Teachers and students can use this.
+
+
+== Data values ==
+
+
+== History ==
+
+
+== Navigation ==

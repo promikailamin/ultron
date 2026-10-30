@@ -1,0 +1,62 @@
+Chiseled polished blackstone is a decorative variant of polished blackstone. Its design depicts a pattern resembling a piglin's snout.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Chiseled polished blackstone needs to be broken using a pickaxe, otherwise the block drops nothing.
+
+
+=== Natural generation ===
+Chiseled polished blackstone can generate in bastion remnants and nether ruined portals.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+Chiseled polished blackstone is a decorative block. It has a piglin's snout engraved on it. See also Easter eggs#Mobs on chiseled blocks.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Chiseled Polished Blackstone" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== Navigation ==

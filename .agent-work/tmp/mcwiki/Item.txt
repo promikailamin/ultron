@@ -1,0 +1,183 @@
+An item is an object that can exist within inventories of players, mobs or armor stands; in various containers (like chests or droppers), as well as in item frames, glow item frames, and shelves.
+
+
+== Behavior ==
+Items usually exist in the player's inventory, or any external inventories like chests. When hovered or selected in a GUI, items display their name and additional information in a tooltip. Players can move items through the functionality of the GUI — like smelting in a furnace or equipping in armor slots — or put them in the hotbar. During gameplay, the player can select a hotbar slot to hold the item in the hand, while it briefly displays its name on the HUD, in order to use it.
+Some items when used, place a block or entity (minecart, spawn eggs, etc.) version of themselves into the game world. Put simply, they are an item when in the inventory, and a block when placed. For example, boats turn into an entity when placed, and cacti turn into a block when placed. There are also items which can be used for specific functionality (like consuming food), or items that have no use but are required for recipes (like smelting) to create other items.
+
+
+=== Thrown items ===
+Blocks and entities can drop items into the world when broken/killed or in specific circumstances. This is a dropped item entity represented by a sprite that floats above the ground. Players can also choose to drop held items or any item in a GUI. It remains for 5 minutes in a loaded chunk before despawning (except for the Nether star), unless the player walks over it to pick it up, it is picked up by a mob, hopper or minecart with hopper, or it is destroyed by fire, lava, cactus, explosion, void, or /kill.
+Dropped netherite items cannot be destroyed by fire or lava, and dropped Nether stars cannot be destroyed by explosions.
+A submerged object ascends toward the water's surface. If the water is flowing, the object is pushed along with it.
+Hoppers draw in any items that are placed above them if they are not powered by redstone.
+
+
+=== Stacking ===
+Items, both in a GUI and dropped, can either stack up to 64 or 16, or not stack at all:
+
+Most items can stack to 64. This includes all full blocks, whose outlines take up an entire block when placed.
+Some items, such as snowballs, empty buckets, eggs, signs, and ender pearls, can stack up to a maximum of 16.
+Some other items do not stack at all, such as anything with a durability (weapons, armor, and tools), filled buckets, and potions.
+All items can technically be forced to stack up to 99‌[JE  only] or 127‌[BE  only] using commands.
+
+
+=== Display ===
+
+Several items have dedicated item textures that are one pixel thick when in the world, but some items corresponding to blocks use the block textures to render as 3D object. A solid white block is rendered in the inventory as follows:
+
+Top:  #FFFFFF
+Left:  #CECECE
+Right:  #9E9E9E
+In Bedrock Edition, blocks that emit light are not shaded, making them appear much brighter.
+Many item textures are animated, dynamically colored, or have an enchantment glint effect. Items are displayed in the world by entities that have then equipped or are holding them: a dropped item, player hand, armor stand, and various mobs that can hold items (see Display of items by entities). Some blocks can also display items:
+
+Campfire
+Soul Campfire
+Item Frame‌[BE  only]
+Glow Item Frame‌[BE  only] — items are not shaded by environmental lighting, making the "glow in the dark".
+Shelf
+Suspicious Gravel
+Suspicious Sand
+Vault
+Displayed items, either on these blocks, the hand (both third-person and first-person), or thrown, are rendered in-game with MERS texture sets with Vibrant Visuals, and can show shadows, reflections, or caustics. Various items have emissive lighting and glow in the dark.
+
+
+== Lists of items ==
+ 
+
+
+=== In the game ===
+
+
+==== Items that create blocks, fluids, entities ====
+
+Items that create blocks with different names:
+
+Items that directly correspond to blocks, with same name:
+
+In Bedrock Edition technical blocks items can be obtained from inventory editing or add-ons. See Technical blocks § Bedrock Edition for a complete list.
+
+
+==== Items with use in the world ====
+These items, when highlighted in a player's hotbar (or "held"), in the off hand, or equipped in an armor slot, can be used by either attack or use, or can serve a specific purpose (for example, offer the player advantage or disadvantage). Some can be used any time, others only when aiming at specific blocks or entities. 
+
+
+==== Items with indirect use in the world ====
+The player cannot interact with or directly use these items; however, they are used for trading, brewing, enchanting, or crafting ingredients for other items that do have direct uses. Clocks and recovery compasses are exceptions, as they merely serve an informative function (although clocks also attract piglins as a dropped item entity).
+
+
+==== Spawn eggs ====
+Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mode.
+
+
+=== Minecraft Education items ===
+These items are exclusive to Minecraft Education and Bedrock Edition when the "Minecraft Education features" cheat setting is enabled. The portfolio is exclusive to Minecraft Education, and the poster, slate, and camera are obtainable in Bedrock Edition only through inventory editing or add-ons. The garbage item is obtainable only through invalid lab table recipes or via inventory editing.
+
+
+==== Blocks ====
+
+
+=== Unimplemented items ===
+Some items are unimplemented, or have been mentioned to be implemented in the future.
+
+ Ruby (texture)
+
+
+=== Removed items ===
+Removed items no longer exist in current versions of the game.
+
+Copper Horn
+Block Inspector
+debug_fourj_item
+Horse Saddle
+Studded Helmet
+Studded Chestplate
+Studded Leggings
+Studded Boots
+Quiver
+
+
+==== Blocks ====
+
+
+===== Outright removed blocks =====
+These blocks were removed from the game entirely.
+
+
+===== Removed through substitution =====
+These blocks were "retconned" into other blocks through a major simultaneous name and texture change.
+
+
+===== Non-standard metadata variants =====
+Some blocks and states of blocks were distinguished via numerical metadata in previous versions of the game. Having metadata values outside of the accepted range could produce unintended results for some block IDs.
+
+
+=== Joke items ===
+Joke items are present only in April Fools' Day joke versions in the game.
+
+
+==== Blocks ====
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Item additions and removals ===
+ 
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+==== Legacy Console Edition ====
+
+
+==== New Nintendo 3DS Edition ====
+
+
+==== MinecraftEdu ====
+
+
+==== Minecraft Education ====
+
+
+=== Other changes ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== April Fools items ===
+
+
+== Issues ==
+Issues relating to "Item" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Mojang images ===
+
+
+== See also ==
+Item repair
+Item durability
+Item (entity)
+List of items by version
+
+
+== Notes ==
+
+
+== Navigation ==

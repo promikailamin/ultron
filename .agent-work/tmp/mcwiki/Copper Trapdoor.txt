@@ -1,0 +1,111 @@
+A copper trapdoor is a type of trapdoor made from copper that can be opened and closed by the player without redstone. A copper trapdoor can exist in one of eight variants depending on how oxidized it is and whether it is waxed or not.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Copper trapdoors can be mined only with a stone pickaxe or better. If a copper trapdoor is mined without the use of a valid pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+Waxed oxidized copper trapdoors generate naturally in trial chambers.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+Copper trapdoors can be opened and closed by players or a redstone signal. Copper trapdoors are also affected by the wind burst of thrown wind charges, causing them to open if closed, or vice versa.
+
+
+=== Barrier ===
+A copper trapdoor can be opened or closed by pressing the Use Item/Place Block control.
+
+
+=== Redstone component ===
+Copper trapdoors can be controlled with redstone power. When activated, the copper trapdoor immediately opens. When deactivated, it immediately closes.
+An activated copper trapdoor can still be closed by a player, and does not re-open until it receives a new activation signal (if a trapdoor has been closed "by hand", it still needs to be deactivated and then reactivated to open by redstone). 
+
+
+=== Oxidation ===
+
+Non-waxed copper trapdoors have four stages of oxidation (including the initial normal state). Lightning bolts can remove the oxidation on copper trapdoors. However, axes cannot be used in the same way they can with other copper blocks (because right clicking on non-waxed copper trapdoors while holding an axe only toggles the trapdoor). Instead, copper trapdoors must be right-clicked with an axe while crouching to deoxidize them. They can be waxed with honeycomb to prevent oxidation from progressing.
+As the block begins to oxidize (exposed), it gets discolored and green spots begin to appear. As the oxidation continues (weathered), the block is a green color with brown spots. In the last stage (oxidized), the block is teal with several green spots.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+
+
+==== Waxing ====
+Java Edition:
+Bedrock Edition:
+
+
+==== Opening ====
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== Issues ==
+Issues relating to "Copper Trapdoor" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

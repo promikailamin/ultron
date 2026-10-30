@@ -1,0 +1,92 @@
+A raw porkchop is a food item that is dropped by pigs and hoglins and can be cooked into a cooked porkchop.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Food ===
+
+To eat a raw porkchop, press and hold use while it is selected in the hotbar. Eating one restores 3 () hunger and 0.6 saturation.
+
+
+=== Smelting ingredient ===
+
+
+=== Trading ===
+
+
+=== Wolves ===
+Raw porkchops can be used to breed and heal tamed wolves, lead them around, and make baby tamed wolves grow up faster by 10% of the remaining time.
+
+
+=== Piglins ===
+Piglins instantly pick up raw or cooked porkchops that are within 1 block of them, unless they have already picked up one within the last 10 seconds. Porkchops picked up are not dropped upon the piglin's death.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Raw Porkchop" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Porkchop"     by Duncan Geere  – Minecraft.net, February 13, 2020.
+
+
+== Navigation ==

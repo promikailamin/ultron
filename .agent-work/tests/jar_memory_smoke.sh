@@ -13,6 +13,7 @@ cp data/ultron-vocab.txt build/ultron-vocab.txt
 cp data/chat_kb.tsv build/chat_kb.tsv
 cp data/grammar.txt build/grammar.txt
 cp data/mc.txt build/mc.txt
+cp data/mc_qa.txt build/mc_qa.txt
 jar cfe ultron.jar ultron.Chat -C build .
 
 work="$(mktemp -d)"

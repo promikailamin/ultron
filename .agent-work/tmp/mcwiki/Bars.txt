@@ -1,0 +1,52 @@
+Bars are blocks that serve a similar purpose to glass panes, but made out of certain metal ingots instead of glass.
+
+
+== Variants ==
+There are 9 variants of bars:
+
+Copper Bars
+Unoxidized Copper Bars (Waxed)
+Exposed Copper Bars (Waxed)
+Weathered Copper Bars (Waxed)
+Oxidized Copper Bars (Waxed)
+Iron Bars
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+Both iron and regular unwaxed, unoxidized copper bars have the same crafting recipe format, where six ingots result in sixteen bars of the same type. 
+
+
+== Usage ==
+
+As with glass panes and fences, bars can be used to create narrow slits when placed between a door and a solid block. Mobs can see through and attack through these gaps, and arrows may be shot through them. Also as with fences and glass panes, arrows cannot be shot through bars themselves.
+Endermen seen through bars do not become angry. The ender dragon cannot destroy iron bars (some of the end crystals are protected by them), which makes them a useful material in the End.
+
+
+=== Placement ===
+Bars can be placed in much the same way as fences or glass panes. If no solid block is adjacent to the bars, they have appearance of a slim, tall column. If something is placed next to bars, they appear either flat,  shaped,  shaped or  shaped, depending on the blocks surrounding it.
+
+
+== Block states ==
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Bars" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

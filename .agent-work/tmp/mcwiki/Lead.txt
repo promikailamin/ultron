@@ -1,0 +1,146 @@
+Leads are utility items used to leash and lead certain entities. Leashed entities can be tied to fences or other entities by using the fence or entity while sneaking. A lead can be removed from an entity by shearing it.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Wandering traders always spawn with 2 trader llamas, each held with a lead. When a trader llama is detached, either by killing it or the wandering trader, dragging them far apart, using shears, or putting the llama in a boat or a minecart, the lead drops at the llama's position.
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Leashing mobs ===
+
+Using a lead on a mob ties the lead to the mob, allowing it to be moved by the player. Multiple mobs can be held by leads at once, but each mob held requires its own lead. Mobs can also be attached to other mobs with leads.
+It is possible to leash the following mobs and other entities:
+
+These mobs can be leashed only when not hostile:
+
+Nautilus
+Wolf
+Zombie Nautilus
+These mobs can be leashed only when not mounted by a hostile mob:
+
+Camel Husk
+Zombie Horse
+Zombie Nautilus
+Additionally, bats, pandas, fish, tadpoles, turtles, villagers, wandering traders, NPCs, agents, and monsters other than the ones listed above can be leashed using a map editor or NBT editor.
+With a mob on a lead held by the player, using the lead on any type of fence attaches the lead to it with a visible knot, tying the mob to it. Multiple leads may be attached to one fence post. A mob tied to a fence tends to stay within 5 blocks of the fence post.
+Pressing the use item control on a leash knot leashes any player-leashed mobs to the leash knot, or if the player is not currently leashing any mobs, leash all mobs leashed to the leash knot to the player.
+Sneaking and pressing the use item control on a leashable mob while already having other mobs leashed causes any leashed mobs to be leashed the new mob. There is one exception: a ghastling cannot have anything leashed to it.  If a boat or any leashable mob that cannot fit into a boat is leashed to a happy ghast (aside from another happy ghast), it is attached in a four-leash configuration hanging below the happy ghast.
+A lead is broken by pressing the use item control on the leashed mob again, hitting the knot, removing or pushing the attached fence post, or using shears on a leashed mob or a leash knot. Leads also break when hit by projectiles. Whenever a lead is removed or broken, it drops as an item at the location of the mob. However, it does not drop when unleashed in Creative mode.‌[Java Edition  only] A lead does not break if the attached animal dies.
+A lead can stretch a maximum of 12 blocks (16 if the leashed mob is a happy ghast). If the mob can move toward the player or fence post, it does so. If not, or if the mob is moving quickly away from the player, the lead breaks. The lead also breaks if the player uses a firework rocket while using elytra.
+When the player or the knot is more than 7 blocks above the ground, the mob being leashed becomes suspended.
+Most mobs that can be leashed can still be leashed even if attacking the player leashing them, and any attached leads do not break.
+Wolves, nautiluses, and zombie nautiluses cannot be leashed after becoming angry. Despite this, if they become angry while already leashed, the lead does not break, but it cannot be reattached when broken through other methods while the mob is still angry.
+When moving downward and accelerating toward the ground, leashed mobs accumulate fall damage and take it if they hit the ground while still accelerating. When moving up or decelerating (such as when the lead is stretched to its limit), the fall distance is set to one block, so the mob does not take any fall damage if it touches the ground.
+If the player walks into and back out of a nether portal while holding a lead connected to a mob, the lead remains attached to the mob. However, if a mob attached to a lead walks into a nether portal, the lead breaks and drops as an item in the other dimension.
+A lead can be used to remove a mob from a boat without needing to break the boat, if the mob can normally be leashed.
+In Bedrock Edition, if a chunk unloads while containing a leashed mob (either by the player walking too far away, or traveling to another dimension via a portal), sometimes the lead breaks and drops as an item, leaving the mob free to wander around.
+Boats are unaffected by leads if a player is a direct passenger to a boat. Leads still work on boats with a player riding a mob that is riding the boat.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Leash knot ==
+
+A leash knot is an entity created when the player right-clicks a fence post while having a mob leashed. It can be destroyed by attacking it, which detaches all mobs bound to the post and drops the leads.
+
+
+=== Summoning ===
+Using the command /summon minecraft:leash_knot <X Y Z>, it is possible to summon a leash knot without using a fence. A leash knot spawned this way does not have a leash attached to it.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Entity data ===
+Leash knots have entity data that define various properties of the entity.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Lead" or "Leash" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+ 
+
+The lead is named "leash" in the texture file.
+If a player goes to sleep while holding a mob on a lead, the lead remains attached.
+In Java Edition, when using the /item command to put a lead in a player's head slot, the item gets rotated and positioned in such a way that it looks like the player is wearing a monocle.
+In Java Edition, when placing a block on a fence and while leashing a mob or boat, the block prevents it from being placed and the leash knot places instead.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Lead"     by Duncan Geere  – Minecraft.net, April 8, 2022.
+
+
+== Navigation ==

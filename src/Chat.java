@@ -28,7 +28,10 @@ public class Chat {
             "hers", "they", "them", "their", "theirs", "and", "or", "but", "if",
             "then", "than", "so", "because", "have", "has", "had", "not", "no",
             "yes", "please", "tell", "give", "some", "any", "there", "here",
-            "also", "very", "just", "really", "want", "need", "know", "like"));
+            "also", "very", "just", "really", "want", "need", "know", "like",
+            "get", "got", "gotten", "make", "made", "craft", "find", "use",
+            "create", "build", "obtain", "give", "take", "put", "work",
+            "works", "exist", "exists", "happen", "happens"));
 
     static class Entry {
         final String category, question, answer, norm;
@@ -50,6 +53,21 @@ public class Chat {
         Passage(String text, Set<String> tokens) {
             this.text = text;
             this.tokens = tokens;
+        }
+    }
+
+    /** Receives decoded text as the neural model produces it. */
+    interface TokenSink {
+        void token(String text) throws IOException;
+    }
+
+    static class Generated {
+        final String text;
+        final List<String> pieces;
+
+        Generated(String text, List<String> pieces) {
+            this.text = text;
+            this.pieces = pieces;
         }
     }
 
@@ -129,13 +147,25 @@ public class Chat {
                 System.out.println("Memory updated.");
                 continue;
             }
-            System.out.println("ultron> " + converse(line));
+            System.out.print("ultron> ");
+            System.out.flush();
+            String answer = converse(line, piece -> {
+                System.out.print(piece);
+                System.out.flush();
+            });
+            if (answer == null || answer.isEmpty()) System.out.println();
+            else System.out.println();
         }
     }
 
     private String converse(String input) throws IOException {
+        return converse(input, null);
+    }
+
+    private String converse(String input, TokenSink sink) throws IOException {
         memory.append("user", input);
-        String answer = reply(input);
+        String answer = reply(input, sink);
+        if (sink != null && (answer == null || answer.isEmpty())) sink.token("I am not sure about that yet.");
         memory.append("ultron", answer);
         return answer;
     }
@@ -144,6 +174,7 @@ public class Chat {
         loadKb();
         loadPassages("grammar.txt", "data/grammar.txt");
         loadPassages("mc.txt", "data/mc.txt");
+        loadQaPassages("mc_qa.txt", "data/mc_qa.txt");
 
         try (InputStream is = Resources.open("ultron-vocab.txt", "data/ultron-vocab.txt")) {
             tok = Tokenizer.load(is);
@@ -179,42 +210,185 @@ public class Chat {
             String clean = block.replaceAll("\\s+", " ").trim();
             if (clean.length() < 80 || clean.length() > 2400) continue;
             if (clean.startsWith("***") || clean.startsWith("=====")) continue;
+            if (isWikiNoise(clean)) continue;
             Set<String> kw = tokens(clean);
             if (kw.size() < 5) continue;
-            int id = passages.size();
-            passages.add(new Passage(clean, kw));
-            for (String t : kw) index.computeIfAbsent(t, k -> new ArrayList<>()).add(id);
+            addPassage(clean, kw);
         }
     }
 
+    /** Curated wiki Q&A gives retrieval a clean, short answer for each fact. */
+    private void loadQaPassages(String resource, String fallback) throws IOException {
+        if (!Resources.exists(resource, fallback)) return;
+        try (BufferedReader br = Resources.reader(resource, fallback)) {
+            String line;
+            String question = null;
+            StringBuilder answer = new StringBuilder();
+            while ((line = br.readLine()) != null) {
+                if (line.startsWith("user: ")) {
+                    if (question != null) addQaPassage(question, answer.toString());
+                    question = line.substring(6).trim();
+                    answer.setLength(0);
+                } else if (line.startsWith("ultron: ")) {
+                    if (answer.length() > 0) answer.append(' ');
+                    answer.append(line.substring(8).trim());
+                } else if (line.trim().isEmpty()) {
+                    if (question != null) addQaPassage(question, answer.toString());
+                    question = null;
+                    answer.setLength(0);
+                }
+            }
+            if (question != null) addQaPassage(question, answer.toString());
+        }
+    }
+
+    private void addQaPassage(String question, String answer) {
+        String clean = answer.replaceAll("\\s+", " ").trim();
+        if (clean.length() < 40 || clean.length() > 1800) return;
+        if (isWikiNoise(clean)) return;
+        Set<String> kw = tokens(question + " " + clean);
+        if (kw.isEmpty()) return;
+        addPassage(clean, kw);
+    }
+
+    private void addPassage(String text, Set<String> kw) {
+        int id = passages.size();
+        passages.add(new Passage(text, kw));
+        for (String t : kw) index.computeIfAbsent(t, k -> new ArrayList<>()).add(id);
+    }
+
+    private static boolean isWikiNoise(String s) {
+        String low = s.toLowerCase(Locale.ROOT);
+        return low.contains("maintained on the bug tracker")
+                || low.contains("issues relating to")
+                || low.startsWith("navigation")
+                || low.startsWith("references")
+                || low.startsWith("gallery")
+                || low.startsWith("data values")
+                || low.startsWith("sounds")
+                || low.startsWith("history")
+                || low.startsWith("achievements")
+                || low.startsWith("advancements")
+                || low.startsWith("videos")
+                || low.startsWith("see also")
+                || low.contains("this article is about")
+                || low.contains("this page is about");
+    }
+
     String reply(String input) {
+        return reply(input, null);
+    }
+
+    String reply(String input, TokenSink sink) {
         String clean = input == null ? "" : input.trim();
-        if (clean.isEmpty()) return "Ask me a question about English grammar, writing, or Minecraft Java Edition.";
+        if (clean.isEmpty()) {
+            return emit(sink, "Ask me a question about English grammar, writing, or Minecraft Java Edition.");
+        }
 
         Memory.Result learned = memory == null ? null : memory.learn(clean);
         boolean question = clean.contains("?") || wantsFacts(clean);
         if (learned != null && learned.changed && !question) {
-            return learnedReply(learned);
+            return emit(sink, learnedReply(learned));
         }
         String recalled = memory == null ? null : memory.recall(clean);
-        if (recalled != null) return recalled;
-        if (learned != null && learned.changed) return learnedReply(learned);
+        if (recalled != null) return emit(sink, recalled);
+        if (learned != null && learned.changed) return emit(sink, learnedReply(learned));
 
-        Entry best = bestEntry(clean);
-        if (best != null) return best.answer;
+        // High-confidence FAQ answers stay exact. Everything else is written
+        // by the transformer, one token at a time, from the prompt.
+        Entry strong = strongEntry(clean);
+        if (strong != null) return emit(sink, strong.answer);
 
-        String grounded = retrieve(clean);
-        if (grounded != null) return grounded;
-
-        // A very small next-token model hallucinates on factual questions it
-        // has never seen. Only let it speak freely for conversational text.
-        if (!wantsFacts(clean)) {
-            String generated = generate(clean);
-            if (generated != null && looksUsable(generated)) return generated;
+        if (knownDomain(clean)) {
+            Generated generated = generate(clean);
+            if (generated != null && looksUsable(generated.text)
+                    && looksRelevant(clean, generated.text)) {
+                stream(generated.pieces, sink);
+                return generated.text;
+            }
         }
 
-        return "I am not sure about that yet. I know English grammar, writing, and Minecraft Java Edition. "
-                + "Try asking something like: What is a noun? How do I make a crafting table? What is redstone?";
+        Entry best = bestEntry(clean);
+        if (best != null) return emit(sink, best.answer);
+
+        String grounded = retrieve(clean);
+        if (grounded != null) return emit(sink, grounded);
+
+        return emit(sink, "I am not sure about that yet. I know English grammar, writing, and Minecraft Java Edition. "
+                + "Try asking something like: What is a noun? How do I make a crafting table? What is redstone?");
+    }
+
+    /**
+     * Emit a grounded (non-sampled) answer. The interactive UI still receives
+     * it in small pieces so exact FAQ answers and neural replies share the
+     * same token-streaming presentation.
+     */
+    private static String emit(TokenSink sink, String text) {
+        if (sink != null && text != null) {
+            try {
+                String[] words = text.split(" ");
+                for (int i = 0; i < words.length; i++) {
+                    if (words[i].isEmpty()) continue;
+                    sink.token(i == 0 ? words[i] : " " + words[i]);
+                }
+            } catch (IOException ignored) {
+                // The interactive loop will notice a closed stdout on its own.
+            }
+        }
+        return text;
+    }
+
+    private static void stream(List<String> pieces, TokenSink sink) {
+        if (sink == null) return;
+        boolean started = false;
+        try {
+            for (String piece : pieces) {
+                if (!started) {
+                    String trimmed = piece.replaceFirst("^\\s+", "");
+                    if (trimmed.isEmpty()) continue;
+                    piece = trimmed;
+                    started = true;
+                }
+                sink.token(piece);
+            }
+        } catch (IOException ignored) {
+            // Keep the already generated answer; the caller still logs it.
+        }
+    }
+
+    /** True when at least one content word is in the model vocabulary. */
+    private boolean knownDomain(String input) {
+        if (tok == null) return false;
+        for (String t : tokens(input)) {
+            if (tok.stoi.containsKey(t)) return true;
+        }
+        for (String raw : norm(input).split(" ")) {
+            if (raw.length() > 1 && !STOP.contains(raw) && tok.stoi.containsKey(raw)) return true;
+        }
+        return false;
+    }
+
+    private static boolean looksRelevant(String question, String answer) {
+        Set<String> qt = tokens(question);
+        if (qt.isEmpty()) return true;
+        Set<String> at = tokens(answer);
+        for (String t : qt) {
+            if (at.contains(t)) return true;
+            for (String a : at) {
+                if (a.length() >= 4 && (a.contains(t) || t.contains(a))) return true;
+            }
+        }
+        return false;
+    }
+
+    /** Only exact or substring FAQ matches are treated as high confidence. */
+    private Entry strongEntry(String input) {
+        String ni = norm(input);
+        for (Entry e : kb) {
+            if (ni.equals(e.norm)) return e;
+            if (ni.length() >= 4 && (ni.contains(e.norm) || e.norm.contains(ni))) return e;
+        }
+        return null;
     }
 
     private static String learnedReply(Memory.Result learned) {
@@ -296,10 +470,11 @@ public class Chat {
                 bestHits = h;
             }
         }
-        if (bestId < 0 || bestHits < 2 || bestScore < 0.28) return null;
+        int need = Math.min(2, qt.size());
+        if (bestId < 0 || bestHits < need || bestScore < 0.28) return null;
 
         String answer = bestSentences(passages.get(bestId), qt);
-        return answer == null ? null : "Here is what I know: " + answer;
+        return answer == null ? null : answer;
     }
 
     private String bestSentences(Passage p, Set<String> qt) {
@@ -312,6 +487,7 @@ public class Chat {
             String s = sentences[i].trim();
             if (s.length() < 25 || s.length() > 700) continue;
             if (s.startsWith("=") || s.startsWith("|") || s.startsWith("File:")) continue;
+            if (isWikiNoise(s)) continue;
             Set<String> st = tokens(s);
             if (st.isEmpty()) continue;
             int inter = 0;
@@ -338,7 +514,7 @@ public class Chat {
         return out.toString();
     }
 
-    private String generate(String input) {
+    private Generated generate(String input) {
         StringBuilder prompt = new StringBuilder("\n\n");
         boolean appendedUser = false;
         if (memory != null) {
@@ -362,25 +538,53 @@ public class Chat {
         float[] logits = null;
         for (int id : ids) logits = model.step(id, cache);
 
-        int[] out = new int[promptLen + 90];
+        int[] out = new int[promptLen + 120];
         System.arraycopy(ids, 0, out, 0, promptLen);
         int len = promptLen;
         int PAR = tok.stoi.get(Tokenizer.PAR);
         int EOS = tok.stoi.get(Tokenizer.EOS);
         sampler = new Sampler(model.V, seed++);
 
-        for (int i = 0; i < 80 && len < out.length; i++) {
-            int next = sampler.sample(logits, model.V, 0.65f, 40);
+        StringBuilder text = new StringBuilder();
+        ArrayList<String> pieces = new ArrayList<>();
+        String prev = "";
+        boolean done = false;
+        for (int i = 0; i < 110 && len < out.length && !done; i++) {
+            int next = sampler.sample(logits, model.V, 0.72f, 48, 0.92f,
+                    out, promptLen, len - promptLen, 1.12f);
             if (next == PAR || next == EOS) break;
             out[len++] = next;
+            String cur = tok.decode(out, promptLen, len);
+            String delta = cur.substring(Math.min(prev.length(), cur.length()));
+            String candidate = text.toString() + delta;
+            String low = candidate.toLowerCase(Locale.ROOT);
+            int cut = low.indexOf("user:");
+            if (cut < 0) cut = low.indexOf("ultron:");
+            if (cut >= 0) {
+                candidate = candidate.substring(0, cut);
+                String extra = candidate.substring(text.length());
+                if (!extra.isEmpty()) pieces.add(extra);
+                text.setLength(0);
+                text.append(candidate);
+                done = true;
+                break;
+            }
+            text.setLength(0);
+            text.append(candidate);
+            if (!delta.isEmpty()) pieces.add(delta);
+            prev = cur;
             logits = model.step(next, cache);
         }
 
-        String text = tok.decode(out, promptLen, len).trim();
-        int turn = text.toLowerCase(Locale.ROOT).indexOf("user:");
-        if (turn >= 0) text = text.substring(0, turn).trim();
-        if (text.endsWith(":")) text = text.substring(0, text.length() - 1).trim();
-        return text;
+        String result = text.toString().trim();
+        if (result.endsWith(":")) result = result.substring(0, result.length() - 1).trim();
+        // Remove a leading space from the first streamed piece.
+        if (!pieces.isEmpty()) {
+            String first = pieces.get(0).replaceFirst("^\\s+", "");
+            if (first.isEmpty()) pieces.remove(0);
+            else pieces.set(0, first);
+        }
+        return new Generated(result, pieces);
     }
 
     private static boolean looksUsable(String s) {

@@ -1,0 +1,62 @@
+Deepslate tile stairs are a decorative stairs variant of deepslate tiles that generate in ancient cities and are used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Deepslate tile stairs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Deepslate tile stairs generate as part of ancient cities.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Deepslate Tile Stairs" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

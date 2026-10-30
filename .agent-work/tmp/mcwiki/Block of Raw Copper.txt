@@ -1,0 +1,53 @@
+A block of raw copper, internally known as a raw copper block, is a raw metal block equivalent to nine raw copper.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Blocks of raw copper can be mined only with a stone pickaxe or better.
+
+
+=== Natural generation ===
+Blocks of raw copper can be found rarely inside of copper ore veins above Y=0, with a 2% chance of replacing any given copper ore. They cannot replace copper ore in regular ore blobs.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Blocks of raw copper are a compact way to store raw copper. They cannot be smelted into a block of copper.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Block of Raw Copper" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

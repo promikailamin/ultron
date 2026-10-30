@@ -1,0 +1,89 @@
+Cracked stone bricks are a variant of stone bricks, obtained through smelting and natural generation.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cracked stone bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Infested blocks ===
+Cracked stone bricks can also be obtained by mining its respective infested block with Silk Touch.
+
+
+=== Natural generation ===
+Cracked stone bricks generate as part of strongholds, making up some of the walls, ceilings and floors. Cracked stone bricks can also generate as part of ocean ruins, igloo basements, ruined portals and trail ruins.
+
+
+=== Smelting ===
+
+
+== Usage ==
+As stone bricks offer no real advantage over stone or cobblestone, their main use is for decoration.
+
+
+=== Silverfish ===
+Silverfish have the ability to enter and hide in cracked stone bricks, creating an infested block of the corresponding type.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Cracked Stone Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== See also ==
+Infested Block
+
+
+== Navigation ==

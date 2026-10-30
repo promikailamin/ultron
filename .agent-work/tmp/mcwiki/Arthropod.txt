@@ -1,0 +1,88 @@
+Arthropod is an in-game classification covering all invertebrate, bug-like mobs.
+
+
+== Properties ==
+All arthropods share the two following properties.
+
+Arthropods take extra damage and receive Slowness IV when hit with a weapon enchanted with Bane of Arthropods.
+In Java Edition, all of these mobs are part of the #arthropod entity tag. In Bedrock Edition, all of these mobs are part of the arthropod family.
+
+
+== List of mobs ==
+Bee
+Cave Spider
+Endermite
+Silverfish
+Spider
+
+
+=== Jockeys ===
+These jockeys are comprised of at least one arthropod.
+
+Spider Jockey
+Cave Spider Jockey‌[BE  only]
+
+
+== Related ==
+
+
+=== Blocks ===
+This block is based on an arthropod, but is not treated as such in the game code, due to being a block.
+
+Firefly Bush
+
+
+=== Unimplemented ===
+These community vote options are based on arthropods, but have not been added to the game.
+
+Crab
+Termite
+
+
+=== April Fools' ===
+These mobs are arthropods, but have only appeared in April Fools' versions.
+
+Pet Bee
+Redstone Bug
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Arthropod" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+== See also ==
+Mob
+Animal
+Aquatic
+Illager
+Jockey
+Monster
+Undead
+Arthropod on Wikipedia
+
+
+== Navigation ==

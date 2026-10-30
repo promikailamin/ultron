@@ -1,0 +1,54 @@
+Allow is a block that can be used to create areas where players can build in spite of restrictions that would otherwise prevent them from doing so.
+
+
+== Obtaining ==
+Allow can either be obtained by using the pick block control, or by using various commands, such as /give, or, when in Minecraft Education, the Creative inventory.
+
+
+== Usage ==
+When placed, allow blocks let players without world builder status place or destroy blocks in the area above them if immutable world is on. If two allow or deny blocks are placed on top of one another, the block that is highest takes precedence. The deny block does not prevent the placing of blocks through commands, endermen, or pistons. They also do not prevent the placing of entities such as boats.
+In Bedrock Edition, when placed, allow blocks let players in Adventure status place or destroy blocks in the area above.
+Allow is extremely resistant to explosions, and players with world builder (or permission level 1 in Bedrock Edition) status are able to place and destroy blocks regardless of where any allow is placed and can also destroy and place the blocks themselves.
+Allow blocks do not enable players without building/destroying permissions to build on top of them.
+
+
+=== Piston interactivity ===
+Allow blocks cannot be moved by pistons or sticky pistons.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Allow" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== See also ==
+Deny
+
+
+== References ==
+
+
+== Navigation ==

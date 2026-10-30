@@ -1,0 +1,144 @@
+An enchanted book is a type of book that stores one or more enchantments of any type. It can be applied to any valid item using an anvil, which enchants the item and consumes the book.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+==== Level-30 books ====
+
+
+==== Random enchantment books ====
+
+
+==== Soul Speed books ====
+
+
+==== Swift Sneak books ====
+
+
+==== Trial Chambers books ====
+
+
+=== Fishing ===
+
+Enchanted books are obtainable through fishing, with a 0.8% chance per attempt. See fishing for more details. The book has the equivalent of a level 30 enchantment from an enchantment table, but treasure enchantments are available and the chance of multiple enchantments is not reduced.
+
+
+=== Trading ===
+
+The price ranges between 5-64 emeralds per book, based on the level of the enchantment. If the enchantment is classified as a treasure enchantment, the cost is doubled.
+
+They may contain any available enchantment (except Soul Speed, Swift Sneak, and Wind Burst) at any available level. See trading notes for more information on enchantments and prices.
+
+
+=== Drops ===
+
+
+=== Enchanting ===
+
+Players can create an enchanted book by enchanting a book on an enchantment table. Books have a decreased chance of getting multiple enchantments (specifically, if multiple enchantments would be added, then one is removed at random), and have a lower "enchantability level" than most other items. Treasure enchantments such as Mending cannot be obtained from an enchantment table.
+
+
+=== Bartering ===
+Players can barter with piglins by using or throwing gold ingots, and doing so has a 5⁄459 (~1.07%) chance for piglins to give the player an enchanted book with any level of Soul Speed. Soul Speed enchanted books are obtainable only through bartering or chest loot inside a bastion remnant. They cannot be obtained through enchanting, trading, or fishing.
+
+
+== Usage ==
+
+In Survival, enchanted books are the only method to obtain certain enchantments on certain tools, such as Unbreaking on shields. Enchanted books have a shine effect on their sprite.
+To use an enchanted book, the player must place an item in the first slot in an anvil, and a book in the next. In order to complete the enchantment, the player must have the required amount of experience. Note that using an enchanted book gets significant discounts at the anvil. Enchanted books themselves can be combined to create a single book with increased or multiple enchantments, similar to combining tools or weapons.
+When combining items, the compatible enchantments from the book in the second slot are transferred to the item from the first slot, keeping the highest level of any type. If two enchantments have the same level and a higher level is available, they combine into the next level. If a book is applied to an item that can't take all of its spells, the appropriate spells are transferred, while the unusable ones are lost. Enchanted books are single-use. 
+Enchanted books do not exhibit their enchantment. For example, a book with Sharpness IV as an enchantment does no more damage than an un-enchanted book, or any non-weapon item, would when used as a weapon. An exception is the Fire Aspect book which can ignite TNT and light candles and campfires, and the Fortune book if the block mined can be broken by fist.‌[Bedrock Edition  only]
+
+
+=== Available items ===
+
+Enchanted books can enchant the usual items that can be enchanted at an enchanting table, but unlike an enchanting table, they are able to boost enchantments such as Sharpness or Thorns to their maximum power, and may apply the following enchantments to items (the table displays only netherite tools and armor, but any type can be enchanted):
+
+
+=== Creative mode ===
+In Java Edition the player can enchant any item with any enchantment in Creative mode, allowing any applied effects to exhibit themselves. For example, a stick can be enchanted with Silk Touch to allow the player to successfully dig grass blocks. The enchanted item can still be used in Survival mode without any loss of enchantments.
+Enchantments that are normally incompatible are still incompatible; for example, Piercing and Multishot cannot be both applied to the same item, even in Creative mode.
+If a block is enchanted, it loses the enchantment upon being placed in the world.
+
+
+=== Disenchanting ===
+Disenchanting an enchanted book at a grindstone yields a normal book and some experience depending on the quality of the book. However, just like any other item that can hold enchantments, the Curse of Vanishing and Curse of Binding enchantments cannot be removed from a book. 
+
+
+=== Chiseled bookshelf ===
+Using the chiseled bookshelf while having an enchanted book in the main hand puts the book inside the chiseled bookshelf. Hoppers also interact with the chiseled bookshelf to insert and remove books, allowing it to act as an item filter in various mob farms.
+
+
+== Sounds ==
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Enchanted Book" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When obtained through the /give command with no stored enchantments, the enchanted book has no attached enchantments, but still shines as if it is enchanted.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

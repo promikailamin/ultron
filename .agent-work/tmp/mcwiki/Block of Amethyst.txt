@@ -1,0 +1,78 @@
+A block of amethyst, known internally as an amethyst block, is a block found in amethyst geodes or crafted from amethyst shards. It can be placed next to a sculk sensor to "relay" received vibrations to other sculk sensors.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A block of amethyst can be obtained by mining it with any pickaxe. When mined using any other tool, it drops nothing.
+
+
+=== Natural generation ===
+Blocks of amethyst generate naturally on the inner wall of amethyst geodes, with calcite and smooth basalt making up the next two outer layers.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Sound ===
+A block of amethyst makes a quiet overlay sound when generally interacted with, and makes louder sounds when hit by projectiles.
+
+
+=== Vibration resonance ===
+When a block of amethyst is placed adjacent to a sculk sensor or a calibrated sculk sensor, if that sculk sensor receives a vibration, the block of amethyst re-emits its frequency as a separate vibration at its location. This vibration can then be detected by another sculk sensor, allowing a chain of sculk sensors and amethyst blocks to be created, transmitting a signal wirelessly.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Block of Amethyst" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Development images ===
+
+
+== Navigation ==

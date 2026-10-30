@@ -1,0 +1,137 @@
+A dandelion  is a flower that can be crafted into yellow dye, suspicious stew, and golden dandelions, and can be used to breed and lure rabbits.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A dandelion can be broken instantly with any item or by hand, dropping itself.
+A dandelion also breaks if water runs over its location, if a piston extends or pushes a block into its location, or if a block under the plant is moved or destroyed. When a dandelion is broken by lava, it does not drop.
+
+
+=== Natural generation ===
+Dandelions generate naturally on dirt and grass blocks as part of vegetation features next to poppies. This is most common in grassy biomes like plains and windswept hills, but they can also generate on dirt. They can generate in any Overworld biome, except:
+
+In jungles, bamboo jungles, sparse jungles, savannas and savanna plateaus, dandelions are twice as common as in other biomes. In flower forests, meadows, and plains, dandelions generate as part of gradients.
+Natural dandelions are found in plains and savanna villages. Potted dandelions can also generate in woodland mansions.
+
+
+=== Post-generation ===
+
+
+==== Java Edition ====
+When bone meal is applied to a grass block in one of the biomes listed above (except those marked as ‌[Bedrock Edition  only]), dandelions have a chance of generating on the targeted block and adjacent grass blocks in a 15×5×15 area. In meadows and flower forests, dandelions can generate only in specific locations depending on the flower gradient. In plains, sunflower plains, dripstone caves, and the deep dark, dandelions cannot generate in tulip-only areas.
+
+
+==== Bedrock Edition ====
+When bone meal is applied to a grass block in any biome except swamp, pale garden, and flower forest, dandelions have a chance of generating on the targeted block and adjacent grass blocks in a 7×5×7 area. Unlike Java Edition, bone meal can generate dandelions anywhere within a meadow biome. In plains and sunflower plains, dandelions cannot generate in tulip-only areas.
+When bone meal is applied to a dandelion in any biome, more dandelions appear on top of nearby grass blocks. Poppies can also occasionally appear, and dandelions can occasionally appear when bone meal is applied to poppies. The flowers can appear up to 3 blocks away from the original, forming a 7×7 square.
+
+
+=== Mob loot ===
+Endermen can pick up dandelions, like any other one-block-tall flower, and drop it if killed while holding it.
+In Bedrock Edition, wandering traders have a chance of 25% (increased by 1% per level of Looting) to drop 1 dandelion when killed while showing the item as trade offer, if the player holds an emerald.
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+Wandering traders may sell a dandelion for 1 emerald.
+
+
+== Usage ==
+
+Like other flowers, dandelions can be used as decoration and planted on grass blocks, dirt, coarse dirt, rooted dirt, farmland, podzol, mycelium, moss blocks, mud, or muddy mangrove roots.
+Dandelions can also be placed in flower pots.
+
+
+=== Crafting ingredient ===
+
+
+=== Suspicious stew ===
+
+Suspicious stew that is created using a dandelion imparts the Saturation effect for 0.35 seconds in Java Edition or 0.3 seconds in Bedrock Edition. The Saturation effect restores an additional 7 () hunger and 14 saturation in Java Edition, or 6 () hunger in Bedrock Edition. The suspicious stew can be crafted using a dandelion or produced by feeding a dandelion to a brown mooshroom and then milking it with a bowl.
+
+
+=== Bees ===
+Bees engage in a pollinating behavior with dandelions, increasing the honey level in beehives and bee nests by 1.
+
+
+=== Breeding ===
+Dandelions can be used to breed, grow, and lead bees and rabbits.
+
+
+=== Bee nests ===
+Oak, birch, and cherry trees grown from saplings that are within 2 blocks of a dandelion have a 5% chance to grow with a bee nest and 2-3 bees in it.
+
+
+=== Composting ===
+Placing a dandelion into a composter has a 65% chance of raising the compost level by 1. A stack of dandelions yields an average of 5.94 bone meal.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Minecraft Education ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Dandelion" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In real life, a dandelion is any member of the Taraxacum genus of flowering plants.
+When Notch made the dandelion (the texture in the Programmer Art pack), he used the rose as a base for its texture.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Dandelion"     by Duncan Geere  – Minecraft.net, July 12, 2019.
+
+
+== Navigation ==

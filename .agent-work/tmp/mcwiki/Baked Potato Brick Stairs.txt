@@ -1,0 +1,24 @@
+Baked potato brick stairs are a baked potato brick variant of the stairs, exclusive to 24w14potato.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+
+
+=== Natural generation ===
+Baked potato brick stairs generate naturally in colesseums and ruined portatols.
+
+
+=== Crafting ===
+
+
+== Sounds ==
+
+
+== Issues ==
+Issues relating to "Baked Potato Brick Stairs" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

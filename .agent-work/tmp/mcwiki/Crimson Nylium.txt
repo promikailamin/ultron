@@ -1,0 +1,80 @@
+Crimson nylium is a variant of netherrack that generates in the Nether.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Crimson nylium drops itself only when mined with a pickaxe enchanted with Silk Touch; if mined with a normal pickaxe, it drops netherrack. If mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+Crimson nylium generates in the crimson forest biome.
+
+
+=== Mob loot ===
+Crimson nylium is dropped when an enderman dies while holding it.
+
+
+=== Generated loot ===
+
+
+=== Post-generation ===
+Using bone meal on netherrack that is placed next to or adjacent to crimson nylium transforms the netherrack into nylium of that type. Air must be above the netherrack during this process. This transformation can also be done by activating a dispenser with bone meal directly into that netherrack block.  If both types of nylium are present, there is an equal chance of either being spread.
+
+
+=== Renewability ===
+
+As netherrack generates in Nether portals spawn floating, using bone meal on netherrack turns them into nylium, making them renewable.
+
+
+== Usage ==
+Similar to grass blocks and mycelium, crimson nylium decays (based on random ticks) into netherrack when an opaque block is placed above it. However, unlike grass blocks and mycelium, it does not decay underneath water or lava. It decays when covered with snow.
+Like mycelium and podzol, mushrooms can remain on nylium blocks in any light level. Huge mushrooms can be grown by using bone meal on mushrooms planted on nylium.
+Crimson Fungi can likewise be grown into huge crimson fungi using bone meal. However, bone meal cannot be applied to warped fungus on top of the crimson nylium, even if it can be positioned there, it is necessary to plant in warped nylium.
+Similar to grass blocks, the player can apply bone meal to crimson nylium, when it has air above. The warped nylium and surrounding blocks attempt to position some vegetation from the Nether, according to the table below. Attempts placement 9 times in a 5×5 area around above the nylium, with a triangular distribution. In all cases, the vegetation can only replace air and be placed on blocks where the player can place vegetation. 
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Crimson Nylium" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The name is a portmanteau of "Nether" and "Mycelium", the name of the part of a fungus analogous to roots.
+
+
+== References ==
+
+
+== External links ==
+Block of the Month: Nylium – Minecraft.net on December 29, 2022
+
+
+== Navigation ==

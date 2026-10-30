@@ -1,0 +1,83 @@
+A heavy weighted pressure plate is a type of pressure plate that produces a redstone signal while one or more entities stand on it. Depending on how many entities are detected, the outputted signal strength will range from 1 to 15.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A heavy weighted pressure plate can be mined with anything, but pickaxes are the fastest. A heavy weighted pressure plate also breaks and drops itself if a piston extends or pushes a block into its location, or if the block under the pressure plate is moved or destroyed.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+==== Activation ====
+
+Heavy weighted pressure plates can be activated by most entities (including players, mobs, items, arrows, experience orbs, fishing bobs, etc.) and emit a redstone signal strength that is equal to 1⁄10  of the amount of entities on top of them (rounded up to the nearest integer), up to a maximum power level of 15. Certain entities, however (such as players in spectator mode and markers), cannot activate them nor keep them activated.
+In Java Edition, item frames and glow item frames cannot activate heavy weighted pressure plates but they can still keep them activated.
+The signal strength from a heavy weighted pressure plate does not vary with the type of entity. 15 mobs will produce the same signal strength as 15 different items. Note the heavy weighted pressure plate counts entities, not the quantity of items, generally leading to one entity count per stack of items. For more information see  item entity behavior.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Heavy Weighted Pressure Plate" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

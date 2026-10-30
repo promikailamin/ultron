@@ -1,0 +1,81 @@
+Copper boots are a variant of boots crafted from copper ingots. They are the sixth-highest tier of boots, having the same armor points as leather and golden boots but with higher durability.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor, which may include copper boots. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the boots they're wearing upon death. The dropped boots are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+=== Generated loot ===
+
+
+== Usage ==
+When worn, copper boots provide 1 () armor points.
+
+
+=== Repairing ===
+Two damaged pairs of copper boots can be combined through crafting or using the grindstone. The durability of the used copper boots are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either boots.
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+Copper boots can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the boots' maximum durability, rounded down. Two copper boots of the same tier can also be combined in an anvil. Both methods preserve the copper boots' enchantments.
+
+
+=== Enchantments ===
+Copper boots can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a boots, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition
+
+Bedrock Edition
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Boots" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Navigation ==
+
+[[nl:Koperen laarzen

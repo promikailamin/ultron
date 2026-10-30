@@ -1,0 +1,82 @@
+A bucket of axolotl, internally known as an axolotl bucket, is an axolotl inside of a water bucket.
+
+
+== Obtaining ==
+A bucket of axolotl can be obtained by using a water bucket on an axolotl. Once a water bucket is used, the axolotl is picked up into the bucket.
+
+
+== Usage ==
+Pressing use with a bucket of axolotl places a water source block, and spawns the axolotl back into the world, leaving an empty bucket in the player's inventory. Placing a bucket of axolotl in the Nether causes the same particles to appear that generate when a normal water bucket is placed in the Nether, and the axolotl is spawned alone.
+Axolotls caught in buckets then released do not despawn, unlike mobs that spawn naturally in their aquatic environments.
+If a bucket of axolotl is inside a dispenser, the dispenser spawns the axolotl and water block in front of it upon activation, leaving an empty bucket inside. Dispensers cannot pick up an axolotl when using a water bucket, due to the bucket being emptied instead.
+If a bucket of axolotl is named a certain name through an anvil, the axolotl inside displays that name as if it were named with a name tag.‌[Java Edition  only] Alternatively, if a named axolotl is captured with a bucket of water, the resulting bucket of axolotl shares a name with the captured axolotl.‌[Java Edition  only] If a named axolotl is captured in Bedrock Edition, the item is called "Bucket of <Name>".
+
+
+=== Axolotl variants ===
+In Bedrock Edition, if an axolotl is picked up with a bucket, the bucket appears in the player's inventory as "Bucket of <Baby/Adult> <Color> Axolotl" based on the age and color of the axolotl. These varieties are:
+
+Bucket of Baby Leucistic Axolotl
+Bucket of Adult Leucistic Axolotl
+Bucket of Baby Brown Axolotl
+Bucket of Adult Brown Axolotl
+Bucket of Baby Gold Axolotl
+Bucket of Adult Gold Axolotl
+Bucket of Baby Cyan Axolotl
+Bucket of Adult Cyan Axolotl
+Bucket of Baby Blue Axolotl
+Bucket of Adult Blue Axolotl
+When a player spawns in an axolotl with a bucket of axolotl from the Creative inventory, it is always a leucistic adult. Buckets containing other variants always spawn that variant when used in creative mode.
+The bucket of axolotl does not change textures in the inventory to reflect the captured axolotl's color, it always appears leucistic.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Bucket of Axolotl" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== External links ==
+"Taking Inventory: Bucket of Axolotl"     by Duncan Geere  – Minecraft.net, July 14, 2022.
+
+
+== Navigation ==

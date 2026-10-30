@@ -1,0 +1,72 @@
+Golden nautilus armor is a type of nautilus armor that can be equipped by a nautilus, used to reduce damage dealt to the nautilus. It is the third-strongest tier of nautilus armor, having higher armor points than iron nautilus armor.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Equipping ===
+Golden nautilus armor can be equipped on a tamed nautilus by holding the nautilus armor and using the use button on a nautilus. It is also able to be equipped manually by putting it into the nautilus armor slot through mounting the nautilus and using its inventory control, or by sneaking and then using or pressing the "open inventory" button‌[Bedrock Edition  only].
+Baby nautiluses are unable to equip nautilus armor as they are not rideable.
+
+
+=== Protection ===
+When equipped, golden nautilus armor gives 7 () armor points.
+
+
+=== Smelting ===
+
+
+=== Piglins ===
+Piglins are attracted to golden nautilus armor and run toward any golden nautilus armor on the ground, inspecting it for 6 to 8 seconds before putting it in their inventory.
+
+
+== Sounds ==
+
+
+== Data values ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Golden Nautilus Armor" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Textures ===
+
+
+=== Mojang images ===
+
+
+=== Screenshots ===
+
+
+== Navigation ==

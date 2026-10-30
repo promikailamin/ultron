@@ -1,0 +1,62 @@
+Wind Burst is an enchantment applied to maces that causes a powerful upward knockback effect to be created upon executing a smash attack. Unlike wind charges, Wind Burst does not negate fall damage.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+Wind Burst can only be obtained from ominous vaults in trial chambers in the form of enchanted books at level I. It is a rare enchantment, having a 5.5% chance of being ejected from an ominous vault once activated with an ominous key.
+
+
+== Usage ==
+
+When performing a smash attack using a mace enchanted with Wind Burst, the user is launched back into the air, allowing them to chain continuous smash attacks. Attacks on the ground do not activate Wind Burst, as the activation requires a smash attack.
+In order to perform a smash attack, and in turn activate Wind Burst, a player has to fall more than 1.5 blocks. This can be achieved by jumping off a single block placed on the ground and attacking right before touching the ground (total fall height of ~2 blocks), or alternatively by using a wind charge or the Jump Boost effect.
+The slow attack speed of the mace in Java Edition makes it impossible to chain fully-charged smash attacks with Wind Burst I on a target that stays at the same elevation.
+Like wind charges, Wind Burst can interact with redstone objects such as levers or wooden doors.
+Since foxes can attack mobs by pouncing on them, a fox given a mace enchanted with Wind Burst is capable of activating it. This is of little benefit to the fox, as it will typically fail to chain a second smash attack and will thus take fall damage. 
+
+
+=== Launch power per level ===
+Wind Burst adds approximately 8 blocks of upward knockback for the first level, 16 blocks for the second level, and 24 blocks for the third level. In Java Edition, Blast Protection reduces the effect of Wind Burst. In Bedrock Edition netherite armor reduces Wind Burst's effect. The table below details the explosion knockback multiplier and blocks launched per level.
+
+Further Wind Burst levels use the formula 1.15 + 0.35 * level to calculate the knockback multiplier.
+
+
+=== On other items ===
+If Wind Burst is applied to an item other than a mace by use of commands or anvils in Creative mode in Java Edition, Wind Burst activates after the player has fallen at least 1.5 blocks. The launch from Wind Burst doesn't boost the player as high, since landing hits with any other item does not reset vertical velocity unlike the mace. The faster the player falls while hitting an entity, the less it is launched upward, since gravity and the enchantment are close to causing a force equilibrium.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Wind Burst" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Navigation ==

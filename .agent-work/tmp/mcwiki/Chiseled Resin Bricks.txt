@@ -1,0 +1,52 @@
+Chiseled resin bricks are a variant of resin bricks, crafted from resin brick slabs. Its design depicts the face of a creaking.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Chiseled resin bricks can be mined using a pickaxe. When mined without a pickaxe, it drops nothing.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+Chiseled resin bricks are used for decoration. The block has the face of a creaking engraved on it. See also Easter eggs#Mobs on chiseled blocks.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Chiseled Resin Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

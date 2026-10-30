@@ -1,0 +1,69 @@
+Colored torches are torches colored by metal chlorides, available in blue, red, purple, and green.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Colored torches break instantly and drop itself when broken using anything. The tool does not take any durability damage.
+
+Colored torches are also broken if pushed by a piston.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Torches can be placed on the top or the sides of most solid blocks, although some require sneaking (see placement for exceptions). Being non-solid, torches have no collision box.
+Gravity-affected blocks like sand and gravel do not fall if the block below them has a torch on it and break when falling onto a torch.
+
+
+=== Light ===
+Torches emit a light level of 14. Torches also melt snow layers within 2 blocks and ice within 3 blocks (taxicab distance). Colored torches emit normal light, not colored light, and therefore the coloring is purely aesthetic.
+When the Render Dragon Features for Creators experiment is enabled in Minecraft Preview, the top part of colored torches emits colored point lighting with  #0000ff for blue torches,  #ff00ff for purple torches,  #ff0000 for red torches, and  #00ff00 for green torches. This causes the bottom part of the torch to render a small square shadow.
+
+
+=== Placement ===
+In general, torches can be placed only on solid, opaque, full blocks; exceptions are listed below.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+=== Block states ===
+
+
+== History ==
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Trivia ==
+As with sparklers, the flame colors correspond to results from a flame test performed on these chloride salts.
+The stick for colored torches use the pre-Texture Update texture.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== See also ==
+Torch
+Underwater Torch
+Redstone Torch
+Redstone Lamp
+
+
+== Navigation ==

@@ -1,0 +1,88 @@
+Bricks are a decorative building block.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Bricks can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+Bricks naturally generate in ocean ruins, plains village armorer houses, and trail ruins.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Bricks have the same blast resistance as other stone-based blocks.
+
+
+=== Crafting ingredient ===
+
+
+=== Stonecutting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Clay ball
+Clay
+Nether Bricks
+Resin Bricks
+
+
+== External links ==
+"Block of the Week: Bricks"     by Duncan Geere  – Minecraft.net, September 8, 2017.
+
+
+== Navigation ==

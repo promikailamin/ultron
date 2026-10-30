@@ -1,0 +1,66 @@
+Concrete stairs are a craftable stair variant of concrete. They come in 16 colors.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Concrete stairs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+Concrete stairs come in sixteen colors, which are white, light gray, gray, black, brown, red, orange, yellow, lime, green, cyan, light blue, blue, purple, magenta, and pink.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Pre-announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Concrete Stairs" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Navigation ==

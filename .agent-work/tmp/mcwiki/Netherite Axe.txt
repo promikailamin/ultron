@@ -1,0 +1,96 @@
+A netherite axe is a late-game variant of axe obtained by upgrading a diamond axe using a netherite ingot and netherite upgrade at a smithing table. It can be used to cut down trees faster, to strip logs and scrape copper-based blocks, and as a melee weapon that disables shields. It is the highest tier of axe, having higher mining efficiency, attack damage, durability, and enchantability than a diamond axe.
+
+
+== Obtaining ==
+
+
+=== Upgrading ===
+Like other diamond tools, a diamond axe can be upgraded to a netherite axe, increasing its durability, mining efficiency and attack damage, as well as granting resistance to fire and lava when dropped as an item.
+
+
+== Usage ==
+
+
+=== Breaking ===
+Netherite axes can break wood-related blocks faster than other tools. Breaking a block costs 1 durability.
+
+
+=== Stripping ===
+Using a netherite axe on a log, wood block, or block of bamboo turns it into a stripped log, stripped wood, or block of stripped bamboo, respectively. This uses 1 point of the axe's durability.
+
+
+=== Scraping ===
+Using a netherite axe on a waxed or oxidized copper block removes the wax if it has any, or otherwise removes a level of oxidization. This uses 1 point of durability.
+
+
+=== Weapon ===
+When used as a weapon, a netherite axe loses 2 durability points.
+
+
+==== Java Edition ====
+Attacking a shield user with an axe disables the use of the shield for 5 seconds. Vindicators, piglin brutes, or other mobs with commands always disable the player's shield. Damage done when using an axe as a weapon is more than that of a sword of the same tier, though they take longer than a sword to recover, resulting in lower DPS.
+
+
+==== Bedrock Edition ====
+Netherite axes attack instantly with no cooldown and deal 8HP damage.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A netherite axe can be repaired in an anvil by adding netherite ingots, with each ingot restoring 25% of the axe's maximum durability, rounded down. Two netherite axes can also be combined in an anvil. Both methods preserve the axe's enchantments.
+
+
+=== Enchantments ===
+A netherite axe can receive the following enchantments:
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Early texture ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Netherite Axe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

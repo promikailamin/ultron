@@ -1,0 +1,43 @@
+A knowledge book is a utility item that reveals available crafting recipes to the player when used.
+
+
+== Obtaining ==
+Knowledge books can be obtained only by using commands, as they are not found in the Creative inventory.
+For example, a player can give themselves a knowledge book that reveals the recipes for buckets and flower pots by running the following command in the chat box: /give @s knowledge_book[recipes=[bucket,flower_pot]].
+
+
+== Usage ==
+Knowledge books reveal recipes to the player who uses it, by adding it to their recipe book. Using a knowledge book consumes it, removing it from the player's inventory.
+Using a chiseled bookshelf while having a knowledge book in the main hand will put the book into the chiseled bookshelf.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+=== Item data ===
+
+
+== History ==
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Knowledge Book" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Book
+Enchanted book
+/recipe command
+Recipe book
+
+
+== Navigation ==

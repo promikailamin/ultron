@@ -1,0 +1,133 @@
+A wooden button is a type of button that remains pressed for longer than a stone button and can additionally be pressed by arrows and thrown tridents.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A wooden button is most easily broken with an axe. It drops itself as an item when broken using any tool.
+
+A button is removed and drops as an item if:
+
+its attachment block is moved, removed, or destroyed.
+water or lava flows into its space.‌[Java Edition  only]
+a piston tries to push it or moves a block into its space.
+
+
+=== Natural generation ===
+Jungle buttons generate naturally on house walls in desert villages. Oak buttons generate naturally in trial chambers making up the various dispensers.
+
+
+=== Crafting ===
+Buttons can be crafted from planks for a matching wood-type button.
+
+
+== Usage ==
+
+
+=== Placement ===
+Buttons can be placed by using them on a surface.
+They can be attached to the side, bottom and top of any full opaque block.
+In Java Edition, if placed on the top or bottom of a block, the button can face any direction.
+It can also be attached to the top of a fence in Bedrock Edition.
+More information about placement on transparent blocks can be found at Opacity/Placement.
+
+
+=== Redstone power ===
+A button can be used as a monostable redstone power source (it automatically deactivates shortly after being activated).
+
+
+==== Activation ====
+Buttons are usually in an inactive state, but can be temporarily activated by players using it. A wooden button can also be activated by a fired arrow, a thrown wind charge, or a thrown trident if its collision box touched the button.
+Mobs cannot activate buttons directly, but arrows fired by skeletons or dispensers can activate wooden buttons.
+
+
+==== Behavior ====
+When activated, a wooden button remains active for 1.5 seconds (15 redstone ticks; 30 game ticks).
+A wooden button activated by a fired arrow or a thrown trident remains active until the arrow or trident despawns (after 1 minute) or is picked up by a player.
+While active, a button:
+
+powers any adjacent redstone dust to power level 15, including beneath the button
+powers any adjacent redstone comparators or redstone repeaters facing away from the button to power level 15
+strongly powers its attachment block to power level 15
+activates any adjacent mechanism components, including above or below, such as pistons, redstone lamps, etc.
+When a button changes state it provides a redstone update to all redstone components adjacent to itself (including above and below), and to all redstone components adjacent to its attachment block.
+
+
+=== Fuel ===
+Overworld wooden buttons can be used as a fuel source in furnaces, smelting 0.5 items per button. Nether wood buttons (crimson and warped), cannot be used as fuel in a furnace.
+
+
+== Sounds ==
+
+
+=== Generic ===
+
+
+==== Normal wood ====
+
+
+==== Cherry wood ====
+
+
+==== Bamboo wood ====
+
+
+==== Nether wood ====
+
+
+=== Unique ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Wooden Button", "Oak Button", "Spruce Button", "Birch Button", "Jungle Button", "Acacia Button", "Dark Oak Button", "Mangrove Button", "Cherry Button", "Pale Oak Button", "Bamboo Button", "Crimson Button", or "Warped Button" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== Navigation ==

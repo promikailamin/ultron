@@ -1,0 +1,121 @@
+The iron door is a variant of the door made of iron that can only be opened using redstone. Iron doors are more secure than wooden and copper doors because they cannot be opened by hand and cannot be broken by zombies. They are also more resistant to explosions, and immune to fire and lava.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+The suitable tool to break iron door is pickaxe.
+
+Iron door drops itself when it's destroyed.
+Iron door also drops itself when its supporting block is moved or removed.
+
+
+=== Natural generation ===
+Iron doors generate as part of:
+
+Prison rooms in woodland mansions
+Strongholds with two stone buttons to open
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+Iron doors can only be opened with redstone power; players or wind charge blasts cannot toggle iron doors.
+
+
+==== Barrier ====
+Iron doors can only be opened and closed by a redstone signal. When an iron door opens or closes, it immediately changes its orientation without affecting anything in the space between.
+
+
+==== Redstone component ====
+
+An iron door is a redstone mechanism and can be activated by  weakly powering any cardinally adjacent block.
+When activated, the iron door immediately opens. When deactivated, it immediately closes.
+
+
+==== Air pockets ====
+Iron doors can be used as air pockets underwater in Java Edition because they can't be waterlogged. They can also be used as air pockets in lava in both Java and Bedrock Editions since they don't burn in lava.
+
+
+=== Piston interactivity ===
+Iron door is destroyed when the piston tries to push it. It can't be pulled by the sticky piston.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+Lower Door Block:
+
+Upper Door Block:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Iron Door" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

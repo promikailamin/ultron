@@ -1,0 +1,109 @@
+A target is a block that produces a temporary redstone signal when hit by a projectile. Unlike most other conductive blocks, it also redirects adjacent redstone dust toward it.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Targets can be mined using any tool or by hand, but using a hoe is the fastest way to break it.
+
+
+=== Natural generation ===
+In each ancient city, a single target can be found integrated into circuitry within a secret room at the city center.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Targets emit a redstone signal when hit by projectiles. The closer a projectile is to the center of the block, the stronger the redstone signal that is produced.
+The following projectiles can activate a target block:
+
+Arrow
+Bottle o' Enchanting
+Dragon Fireball
+Egg
+Ender Pearl
+Fireball
+Firework Rocket (including when boosting a gliding player)
+Fishing Bobber
+Lingering Potion
+Llama Spit
+Shulker Bullet
+Snowball
+Small Fireball
+Splash Potion
+Trident
+Wind Charge
+Wither Skull
+
+
+=== Redstone component ===
+
+When struck by most projectiles, the target emits redstone power for 8 game ticks (0.4 seconds). Arrows and tridents instead cause the target to emit power for 20 game ticks (1 second), similar to stone buttons. A target can be hit with any of the projectiles mentioned above.
+The strength of the signal depends on how close the projectile is to the center of the block, from 1 to 15.
+In Java Edition, the target changes its power state when hit, meaning that an observer can detect if the target has been hit and has produced a redstone signal.
+Being a power source, a target redirects adjacent redstone wires to point to itself. As targets are also conductive, this property can be used to compact redstone circuits.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+Java Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Target" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Target"     by Duncan Geere  – Minecraft.net, June 18, 2020.
+
+
+== Navigation ==

@@ -1,0 +1,113 @@
+Raw cod is a food item that can be eaten by the player or cooked to make cooked cod.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Cod always drops 1 raw cod when killed, unaffected by Looting. If it is killed while on fire, it drops 1 cooked cod instead.
+
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+Java Edition
+
+
+=== Fishing ===
+
+Raw cod can be obtained from fishing, with a 51% chance per attempt.
+
+
+=== Villager gifts ===
+In Java Edition, fisherman villagers throw raw cod at players under the Hero of the Village effect.
+
+
+== Usage ==
+
+
+=== Smelting ingredient ===
+
+
+=== Food ===
+
+Raw cod restores 2 () hunger and 0.4 saturation.
+
+
+=== Cats ===
+Raw cod can be used to tame cats with 1⁄3 chance of success, get cats off of chests and beds, breed cats, and make baby cats grow up faster by 10% of the remaining time. Additionally, raw cod can be used to heal cats by 2HP.
+
+
+=== Ocelots ===
+Raw cod can be used to gain ocelot trust, breed ocelots, and make baby ocelots grow up faster by 10% of the remaining time.
+
+
+=== Dolphins ===
+Dolphins can be fed raw cod. Doing this improves their trust and interaction with the player. However, unlike most animals, feeding dolphins does not allow them to breed. Additionally, raw cod can be used to make baby dolphins grow up faster by 10% of the remaining time.
+Dolphins swim to the nearest chest in a shipwreck or underwater ruin after they are fed raw cod. If the chest in the nearest structure is broken, they swim to another structure with a chest.
+
+
+=== Trading ===
+
+
+=== Wolves ===
+Raw cod can be used to feed wolves, healing them by 4HP. However, in Bedrock Edition, unlike other wolf food, raw cod cannot be used to speed up the growth of baby wolves nor used to breed them and can only be fed to a wolf that is not at full health.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Raw cod" or "Raw fish" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+ 
+
+While a raw cod cannot be equipped in the head slot in Survival mode, equipping it using the /item command causes it to appear at the side of the player's head.
+
+
+== See also ==
+Fishing
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,83 @@
+A lava bucket is a bucket filled with lava, which is the only way to carry it as an item. It can be used as fuel, smelting 100 items.
+
+
+== Obtaining ==
+
+
+=== Interacting ===
+To fill an empty bucket with lava, it needs to be used on a lava source block or lava in a cauldron. The block is consumed in the process. Flowing lava does not fill a bucket.
+
+
+== Usage ==
+A lava bucket can be used to place down lava sources with the use item button. Doing so gives the player the bucket back. Lava buckets can be used to replace some transparent, non-full blocks such as short grass and water, both flowing and sources.
+In Java Edition, lava buckets can be used to break Nether portal blocks by placing the lava on the side of a block next to the portal block.
+
+
+=== Fuel ===
+A lava bucket can be used as an efficient fuel. It has the longest burning value of 1000 seconds, compared to 800 seconds for a coal block (a lava bucket smelts 100 items, and a coal block smelts 80). After smelting starts, the lava bucket turns into an empty bucket.
+
+
+=== Trading ===
+
+
+=== Cauldrons ===
+A lava bucket can be used to fill a cauldron with lava. The lava damages any entity standing inside the cauldron, unless the entity is immune to fire damage. Flowing water or waterlogging does not affect the lava in the cauldron.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Lava Bucket" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+A lava bucket is used as Steve's Down-Smash attack in the crossover fighting game Super Smash Bros. Ultimate.
+
+
+== Navigation ==

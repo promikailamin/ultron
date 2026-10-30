@@ -1,0 +1,109 @@
+Leather pants are a variant of leggings that are crafted from leather. They are the seventh-highest tier of leggings, having the lowest armor points and durability. Like all leather armor, they can be dyed and protect the wearer from freezing.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor, which may include leather pants. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the pants they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped pants are usually badly damaged, and may be enchanted with enchantment levels 5–19.
+
+
+=== Trading ===
+
+
+== Usage ==
+When worn, leather pants provide 2 () armor points.
+
+
+==== Powder snow ====
+As with all pieces of leather armor, wearing leather pants protects the player from freezing in powder snow.
+
+
+==== Repairing ====
+Two damaged leather pants can be combined through crafting or using the grindstone. The durability of the used leather pants are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either pants.
+
+
+==== Unit repair ====
+
+Leather pants can also be repaired in an anvil by adding leather, with each item restoring 25% of the pants' maximum durability, rounded down. Two pants can also be combined in an anvil. Both methods using the anvil preserves the pants' enchantments.
+
+
+=== Enchantments ===
+Leggings can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade pants with trims. This requires a smithing template, the pants, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+=== Dyeing ===
+
+Leather pants can be dyed by combining it with dye(s) through crafting in Java Edition, or by using it on a cauldron containing dyed water in Bedrock Edition. Using dyed leather pants on a cauldron containing ordinary water removes any dye from it.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== History ==
+
+
+=== Before Minecraft ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Leather pants" or "Leather leggings" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

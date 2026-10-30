@@ -1,0 +1,90 @@
+Cobbled deepslate is a stone variant that functions similar to cobblestone or blackstone.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cobbled deepslate can be obtained by mining deepslate using a pickaxe without Silk Touch or by mining cobbled deepslate with any pickaxe. When mined using any other tool, it drops nothing.
+
+
+=== Natural generation ===
+Cobbled deepslate generates naturally in ancient cities and trial chambers.
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+Cobbled deepslate can be used as a substitute for cobblestone in crafting stone tools, brewing stands, and furnaces as well as to repair stone tools with an anvil. It is also used to craft polished deepslate.
+Cobbled deepslate cannot be used for making most blocks that use cobblestone in their recipes, such as dispensers, droppers, and pistons.
+The quickest way to get derivative blocks such as deepslate tile walls from cobbled deepslate is to use a stonecutter. Using a crafting table requires multiple steps.
+
+
+=== Crafting ingredient ===
+
+
+=== Smelting ingredient ===
+
+
+=== Stonecutting ingredient ===
+
+
+=== Repairing ===
+Cobbled deepslate is one of the repair items for the stone tier and thus can be used to repair the following items in an anvil:
+
+Stone Sword
+Stone Pickaxe
+Stone Axe
+Stone Shovel
+Stone Hoe
+Stone Spear
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cobbled Deepslate" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

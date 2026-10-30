@@ -1,0 +1,214 @@
+An armor stand is an inanimate entity or mob‌[BE  only] that can wear armor. In Bedrock Edition, armor stands can also hold items and be posed without the use of commands.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+An armor stand can be broken by quickly attacking it twice, causing it to drop itself and any armor or item placed onto it. Players in Adventure mode cannot break armor stands. Using any tool costs two durability, with no additional benefit.
+In Bedrock Edition, if an armor stand is killed by an effect while holding a totem of undying, then the armor stand revives instead of dropping the totem, as with any mob holding a totem of undying.
+
+
+=== Natural generation ===
+Two armor stands are found in each taiga village outdoor armory, one equipped with an iron helmet and the other with an iron chestplate.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Players can use armor stands to hold armor, mob heads, carved pumpkins, and elytra, or other items and blocks if it has arms. The stand does not have a GUI, so players interact with it directly. Armor stands can be placed in 8 different orientations. Armor stands cannot be placed if there is not enough room (i.e. the space is occupied by other entities or solid blocks).
+Despite being inanimate, armor stands are living entities, allowing them to be pushed by pistons, moved by flowing water, pulled with fishing rods, pushed by attacks that inflict knockback, and bounced by slime blocks.
+
+
+=== Equipping armor ===
+Using armor on a stand places the armor in the appropriate slot. If the slot is already equipped with armor, the old armor is swapped with the armor held by the player. Pressing the use control on armor with a bare hand removes the armor and places it in the highlighted hotbar slot.
+
+
+=== Equipping items ===
+In Bedrock Edition, armor stands have arms by default; in Java Edition, arms can be made visible only by setting the NBT tag {ShowArms: 1b} via commands or external editors. Pressing the use control on an armor stand with arms while holding a non-equippable item places it in its main hand. In Java Edition, shields are always placed in the off-hand instead. If the armor stand already holds an item, it is swapped with the item held by the player.
+Items from an armor stand's main hand can be retrieved by pressing the use control in any empty spot in Java Edition, or from the chestplate zone if empty in Bedrock Edition. In Java Edition, items in the off-hand slot can be retrieved only if the main hand slot is empty; in Bedrock Edition, items in the off-hand slot cannot be retrieved unless the armor stand is broken.
+In Java Edition, commands can be used to equip items in an armor stand's hands even if its arms are not visible.
+
+
+=== Dispensers ===
+In Java Edition, dispensers can place armor stands. Dispensers ignore the normal placement rules of armor stands - this means they can place armor stands inside solid blocks, or if the needed space is occupied by other entities.
+Armor, mob heads, carved pumpkins, or elytra can be automatically placed on armor stands with a dispenser. Unlike players, dispensers cannot swap armor or items already equipped on the armor stand. Additionally, dispensers can equip shields in an armor stand's off-hand if it has arms; in Bedrock Edition, this is the only way to equip shields in the off-hand slot without using commands.
+
+
+=== Posing ===
+
+The pose of the armor stand can be changed by interacting with the armor stand (or pressing the "Pose" button on mobile devices) while sneaking, or by using a redstone signal. There are 13 possible poses.
+Armor stands update their pose on both produce and consume redstone ticks, making them the only known entity component that responds to all 20 game ticks rather than 10.
+
+
+=== Naming ===
+
+Using a renamed name tag on an armor stand gives it a custom name. In Java Edition, the name is not displayed by default, while in Bedrock Edition it is displayed similarly to renamed mobs. In Java Edition, armor stands can also be given custom names by renaming them at an anvil. In Java Edition, a renamed armor stand keeps its custom name when broken. In Bedrock Edition, armor stands named "Dinnerbone" or "Grumm" turn upside-down.
+
+
+=== Further customization ===
+
+Commands, such as /item in Java Edition or /replaceitem in Bedrock Edition, can be used to give armor stands items that normally cannot be equipped in armor or hand slots. In maps that heavily use command blocks, armor stands can be used to keep scoreboard objectives that are 'global' to the map, run commands, etc. 
+In Java Edition, armor stands can be customized further to have arms, pose, disobey gravity, dual wield, and other things by summoning them using /summon with customized NBT tags. For example, it is possible to create an armor stand with arms using the /summon command. It is also possible to change an armor stand without arms into a stand with arms by using the /data command. The commands are as follows:
+
+/data merge entity @n[type=armor_stand] {ShowArms:1}, which changes the nearest armor stand into an armor stand with arms.
+/summon minecraft:armor_stand ~ ~ ~ {ShowArms:1}, which summons a new armor stand with arms shown.
+/summon minecraft:armor_stand ~ ~ ~ {Rotation:[0f,0f]}, which summons a new armor stand that faces a desired direction (dependent on changing "0f,0f" to other numbers like "90f,0f" or "180f,0f", otherwise it faces the same way as a default armor stand).
+/data merge entity @n[type=armor_stand] {ShowArms:1,Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]}}, which changes the orientation of the arms of the nearest armor stand (the default orientation of the left arm is: [350f,0f,350f] and [345f,0f,10f] for the right arm).
+Other examples of customization include removing the stone plate below the armor stand, or giving the armor stand a small size (roughly the same size and proportions as a baby zombie).
+
+
+== Behavior ==
+ 
+
+Because armor stands are entities, they obey gravity, allowing them to fall and rest on non-full blocks such as enchanting tables, snow layers and slabs. Armor stands can't be leashed and can't ride on boats, but in Bedrock Edition, they can sit on minecarts.
+Armor stands wobble slightly when hit by the player. They are not damaged by cacti and sweet berry bushes, but can be broken by arrows and tridents. Any armor equipped does not lose durability if shot while on an armor stand. An armor stand destroyed by an explosion or a firework rocket does not drop as an item. Armor stands in water and lava at the same time are not consumed by the lava.
+Being living entities, armor stands can also have attributes added to them and can be affected by effects.
+Sculk catalysts bloom without spreading when an armor stand is destroyed.
+In Java Edition, summoning an armor stand with no health causes the death animation.
+Advancements count armor stands as mobs, and they can be used for advancements such as Adventure and Arbalistic.
+The player cannot consume food while looking at an armor stand.
+
+
+=== Non-mob features ===
+Although armor stands are considered mobs, they have some properties set them apart from other mobs:
+
+They cannot receive loot tables.
+They cannot be moved by leads.
+In Java Edition, the statistics don't count how many times armor stands are "killed".
+When an armor stand reaches lower than the critical height of the void, it disappears instantly, without playing the animation of being damaged or dying.
+
+
+=== Armor ===
+Any armor on the stand drops when the stand is broken. The effects of most (enchanted) armor have no effect when on an armor stand, with a few exceptions: 
+
+Frost Walker creates frosted ice blocks on water as usual if an armor stand is pushed with a piston, although results are inconsistent. It also prevents the armor stand from catching on fire as a result of coming into contact with a campfire.
+Depth Strider slows the movement of the armor stand when being pushed with water.
+In Java Edition, a player may take damage from hitting an armor stand that holds armor enchanted with Thorns.
+Soul Speed negates any speed reduction from an armor stand moving over soul sand.
+Fire Protection generally reduces the burn time and damage taken when an armor stand comes into contact with blocks that catch it on fire, though the effects are inconsistent between different levels of Fire Protection and different sources of fire damage. Furthermore, if a collective of 7 or more levels of Fire Protection is applied to the armor an armor stand wears, it will not catch fire or take damage from any fire source.
+In Java Edition, armor stands wearing leather boots will stand on top of powder snow, where other stands without leather boots will fall through.
+
+
+=== Status effects ===
+In Bedrock Edition, armor stands can be affected by status effects. They can be 'killed' by Harming and Decay splash/lingering potions, lava, fire, and campfires, and they play the player death sound and fall to their side and disappear, yielding no armor stand item. If an armor stand is equipped with an item or armor, that item or armor is considered as "naturally-spawned equipment" with an 8.5% chance of dropping when the armor stand "dies" from the Instant Damage or the Wither status effect. If the dropped item is any form of weapon, tool or armor, it drops in a badly damaged state because the game considers it as "naturally-spawned equipment".
+In Java Edition, armor stands can be given status effects only via commands, as they ignore any effect source in regular gameplay (splash potions, area effect clouds, shulker bullets, etc). Armor stands with status effects do not emit particles, and are immune to most effects except for Glowing, Levitation, and Slow Falling.
+
+
+=== Mob interactions ===
+Zoglins, goats, and vindicators named Johnny in Bedrock Edition attack armor stands, but the armor stand remains undamaged; pufferfish also inflate when an armor stand is nearby. Statistics classify the armor stand as mobs if the player dies while hitting the armor stand with the thorns enchantment.
+
+
+=== Invisible and marker armor stands ===
+
+In Java Edition, armor stands can be made invisible or used as markers by setting the NBT tags {Invisible: 1b} or {Marker: 1b} respectively. Both invisible and marker armor stands are invulnerable to all attacks, including explosions and players in Creative mode; they can be removed only using the /kill command. Mobs ignore invisible and marker armor stands.
+Invisible armor stands still render any equipped items, have a hitbox, and can be interacted with by players in any game mode. Similar to mobs affected by the Invisibility effect, invisible armor stands can only be seen by players in Spectator mode, players in the same team as the invisible armor stand, or if the stand has the Glowing effect.
+Marker armor stands are unaffected by physics (gravity, knockback, flowing water, pistons, etc). They have a hitbox size of 0, meaning that players and dispensers cannot interact with them. Due to the lack of a hitbox, it is possible to place blocks in the space visually occupied by a marker armor stand, or target blocks and entities behind it.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+ 
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+In Bedrock Edition, armor stands have no additional item tag.
+
+
+=== Entity data ===
+Armor stands have entity data associated with them that contain various properties of the entity.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Entity format.
+
+
+== Achievements ==
+Achievements that apply to all mobs:
+
+
+== Advancements ==
+Advancements that apply to all mobs:
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Armor Stand" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Equipping armor stands with certain blocks and items can cause rendering glitches. According to Searge this is due to transparent rendering on entities not yet being supported.
+In Bedrock Edition, placing the stand within three powered redstone dust always changes its pose to the honor pose. Repeaters also switch the stand to the honor pose if not set four blocks from one.
+Secret signatures for JAPPA, Chi Wong, and Searge can be found at the bottom of the armor stand texture.
+
+
+== Videos ==
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+==== Poses ====
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Armor Stand"     by Duncan Geere  – Minecraft.net, March 16, 2023.
+
+
+== Navigation ==

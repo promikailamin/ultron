@@ -1,0 +1,99 @@
+A chainmail chestplate is an uncommon variant of chestplate that cannot be crafted, and is only obtainable through other means such as trading. It is the fourth-highest tier of chestplate, having the same armor points as a golden chestplate but with higher durability.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the chestplate they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped chestplate is usually badly damaged, and may be enchanted with enchantment levels 5-19.
+In Bedrock Edition, naturally spawned armor worn by a zombie has a 100% drop rate when a zombie is drowned.
+
+
+=== Trading ===
+
+
+=== Villager gifts ===
+Armorer villagers may give the players with the Hero of the Village effect a chainmail chestplate.‌[Java Edition  only]
+
+
+=== Generated loot ===
+
+
+== Usage ==
+When worn, a chainmail chestplate provides 5 () armor points.
+
+
+=== Smelting ===
+
+
+==== Repairing ====
+Two damaged chainmail chestplates can be combined through crafting or using the grindstone. The durability of the used chainmail chestplates are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either chestplate.
+
+
+==== Unit repair ====
+
+A chainmail chestplate can also be repaired in an anvil by adding iron ingots, with each ingot restoring 25% the chestplates' maximum durability, rounded down. Two chestplates of the same tier can also be combined in an anvil. Both methods using the anvil preserves the chestplate's enchantments.
+
+
+=== Enchantments ===
+A chestplate can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a chestplate, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Before Minecraft ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Chainmail chestplate" or "Chain chestplate" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+== Notes ==
+
+
+== Navigation ==

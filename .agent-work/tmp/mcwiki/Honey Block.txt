@@ -1,0 +1,120 @@
+A honey block is a storage block equivalent to the contents of four honey bottles. It is sticky, can prevent jumping, and can be used in conjunction with pistons to move blocks and adhered entities.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Honey blocks can be broken instantly, regardless of held items, or when under the Mining Fatigue effect.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+Honey blocks are not full blocks: despite taking up 163 pixels visually, their collision box is only 14 pixels wide and 15 pixels high, with the bottom face aligned to the block grid. Small entities such as arrows are free to move through the gap between honey blocks as they are under 2 pixels wide.
+
+
+=== Redstone ===
+Unlike slime blocks, honey blocks in Java Edition are non-conductive and cannot have a redstone signal sent through them (including via a repeater or an observer, etc). In Bedrock Edition, honey blocks are conductive, though mobs and players will not suffocate while they are inside of it.
+When being moved by a piston, entities on a honey block's top surface move with it. They are not launched in the direction of the push, as a slime block would do. Honey blocks moved by pistons do not move entities that are touching the side or bottom of the block.
+When a honey block is moved by a piston, it attempts to move all adjacent blocks in the same direction. A honey block can move any block a sticky piston can pull except for slime blocks, as slime blocks and honey blocks never "stick" to each other. The blocks that are moved may, in turn, push other blocks, as if they were being pushed by a piston. For example, a honey block sitting on the ground attempts to move the ground block underneath itself, which pushes additional ground blocks in the direction of motion.
+When the adjacent block that is moved is also a honey block, that block also attempts to move all its adjacent blocks. For example, a 2×2×2 cube of honey blocks may be pushed or pulled as a unit by a single piston acting on any of the blocks in the cube.
+A honey block adjacent to a block that cannot be moved by pistons ignores the immobile block. However, if an adjacent block could be moved but is prevented by the presence of an immobile block, the honey block is also prevented from moving. Liquids are an exception: they are not moved, but neither do they stop a piston from pushing or pulling blocks into their space (usually destroying the liquid, and in a rare case displacing it through the piston). 
+Honey blocks are not pulled by a non-sticky piston, nor are they moved if an adjacent (non-honey) block is moved by a piston.
+The maximum of 12 blocks moved by a piston still applies. For example, a 2×2×3 of honey blocks may be pushed or pulled by a sticky piston as long as no other movable blocks are adjacent to it. The direction in which a honey block moves depends on the placement and orientation of the sticky piston, as well as the positions of the surrounding blocks.
+
+
+=== Slowing down entities ===
+Honey blocks slow down entities walking on top of them and prevent them from jumping. Players walking on honey blocks move at 2.508 m/s, about a 60% reduction from the normal walking speed. In Bedrock Edition, players also slow down slightly if walking up against the side of it. Players, who can ordinarily jump about 1 1⁄4 blocks high, can jump about 3⁄16 blocks high on honey; this is an 85% reduction. They can more easily step up onto other blocks than jump up onto them.
+This effect applies even through other blocks on top of honey blocks as long as they are half-block or less in height, which means entities cannot jump off of carpets, bottom slabs or daylight detectors that are placed on honey blocks.
+This effect also applies regardless of a player's mode of movement, such as flying with elytra or swimming.
+
+
+=== Sliding ===
+Entities pressed against the sides of a honey block slide down at a slow speed and do not take fall damage, similar to going down a ladder. In Java Edition, the entity's horizontal momentum gradually decreases; this allows players to jump 2 blocks further by holding on to the walls. In Bedrock Edition, the entity's horizontal momentum resets instead. The slowdown induced by honey blocks stacks with the Slow Falling status effect.
+
+
+=== Falling ===
+As with hay bales, falling onto a honey block reduces fall damage by 80%. For example, if a player or mob falls from a height that would normally cause 10HP fall damage, the fall causes 2HP damage instead.
+
+
+=== Crafting ingredient ===
+Although the 2×2 inventory crafting grid is sufficient to craft a honey block, a 3×3 crafting table grid is required to convert a honey block back into four honey bottles.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Honey Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+It takes 1 minute and 14 seconds to slide down 256 honey blocks.
+Players cannot place some blocks on honey blocks, such as vines, ladders and torches.​[until: JE 26.4]
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Honey"     by Duncan Geere  – Minecraft.net, May 21, 2020.
+
+
+== Navigation ==

@@ -1,0 +1,105 @@
+A dried ghast is an immobile, shriveled, harmless ghast in the form of a block. It can be found near Nether fossils, obtained through bartering, or crafted. Placing it in water causes it to hydrate over time until it becomes a ghastling.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A dried ghast can be instantly mined with any tool or by hand, and it always drops itself when mined. If mined while waterlogged, it reverts to its "dry" state regardless of which state it has reached while waterlogged.
+
+
+=== Natural generation ===
+Dried ghasts naturally generate in soul sand valleys as part of Nether fossils and have a 1⁄3 (~33.3%) chance of spawning next to one.
+
+
+=== Crafting ===
+
+
+=== Bartering ===
+Piglins have a 10⁄469 (~2.13%) chance to barter a dried ghast when given a gold ingot.
+
+
+== Usage ==
+When a dried ghast is waterlogged, it initiates a rehydration process: green particles appear, and the ghast gradually develops a smiling expression and becomes brighter in color. These visual changes appear in stages, becoming noticeable after about 5 minutes (partially hydrated), more pronounced after about 10 minutes (mostly hydrated), and visually complete (hydrated) after about 15 minutes. After about 20 minutes, it transforms into a ghastling, which matures over time into a happy ghast.
+If the water is removed during the process, the ghast slowly reverts to the original, dried state at the same rate as it hydrates. Breaking a dried ghast instantly reverts it to the dried state.
+The exact timings are somewhat randomized: To reach the next stage of hydration or dehydration, a 250 second delay (5000 ticks) must run out, but that delay does not start automatically. Instead, it begins when the dried ghast receives a random tick, i.e. on average after about 68 seconds, for a total of about 5.3 minutes on average.
+
+
+=== Ambient sounds ===
+A non-waterlogged dried ghast emits cracking ambient sounds when it is placed on soul sand or soul soil.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+ 
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Trivia ==
+In a happy ghast centric Mob Menagerie article, dried ghasts are "either the shrivelled up remains of an old ghast or some kind of ghast egg or something else entirely."
+
+
+== Issues ==
+Issues relating to "Dried Ghast" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

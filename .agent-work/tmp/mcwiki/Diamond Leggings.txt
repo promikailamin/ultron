@@ -1,0 +1,94 @@
+Diamond leggings are a variant of leggings crafted from diamonds. They are the second-highest tier of leggings, having higher armor points, armor toughness, durability, and enchantability than iron leggings. They can be upgraded into netherite leggings using a netherite ingot and netherite upgrade at a smithing table.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have an extremely small chance to spawn wearing diamond armor, which may include diamond leggings. There is an 8.5% chance (9.5% with Looting I, 10.5% with Looting II, and 11.5% with Looting III) for the mob to drop the leggings they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped leggings are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+=== Trading ===
+
+
+== Usage ==
+When worn, diamond leggings provide 6 () armor points and 2 () armor toughness.
+
+
+=== Upgrading ===
+
+
+=== Repairing ===
+
+
+==== Combining ====
+Two damaged diamond leggings can be combined through crafting or using the grindstone. The durability of the used diamond leggings are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either leggings.
+
+
+==== Anvil repair ====
+
+Diamond leggings can also be repaired in an anvil by adding diamonds, with each diamond restoring 25% of the leggings' maximum durability, rounded down. Two leggings of the same tier can also be combined in an anvil. Both methods using the anvil preserves the leggings' enchantments.
+
+
+=== Enchantments ===
+A leggings can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a leggings, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Diamond Leggings" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== References ==
+
+
+== Navigation ==

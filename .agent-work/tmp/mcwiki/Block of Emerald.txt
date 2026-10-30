@@ -1,0 +1,87 @@
+A block of emerald, internally known as an emerald block, is a mineral block equivalent to nine emeralds.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Mining blocks of emerald requires an iron pickaxe or better.
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+Blocks of emerald can be used to store emeralds in a compact fashion or used as decorative blocks.
+
+
+=== Beacons ===
+Blocks of emerald can be used to "power" a beacon. The beacon can be powered by a 3×3 square of emerald blocks underneath it, and can optionally also include a 5×5, 7×7, and 9×9 layer in the shape of a pyramid under the original layer to increase the effects from the beacon. The layers do not have to be entirely emerald blocks, as they may also contain blocks of iron, blocks of gold, blocks of netherite, and blocks of diamond.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Blocks of emerald use "metal" sounds, despite emerald not being a metal.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+When diamond blocks were added in Java Edition Indev 0.31 20100128-2200, they were known until 0.31 20100129-2332 as emerald blocks.
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Block of Emerald" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== See also ==
+Trading
+
+
+== External links ==
+"Block of the Week: Emerald"     by Alex Wiltshire  – Minecraft.net, April 21, 2017.
+
+
+== Navigation ==

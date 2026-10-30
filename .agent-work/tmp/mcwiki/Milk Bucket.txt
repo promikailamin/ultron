@@ -1,0 +1,102 @@
+A milk bucket is a drink obtained from using a bucket on cows, mooshrooms and goats that can be consumed to clear all effects.
+
+
+== Obtaining ==
+
+
+=== Harvesting ===
+Milk buckets can be obtained from cows, mooshrooms, and goats by pressing use while looking at them with an empty bucket.
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Wandering traders have an 8.5%‌[JE  only]/25%‌[BE  only] chance (increased by 1% per level of Looting) of dropping a milk bucket if they die while they are drinking from it.
+
+
+== Usage ==
+To drink milk, press and hold use while it is selected in the hotbar. Drinking it immediately removes all status effects from the player and returns an empty bucket. Drinking milk doesn't extinguish a burning player.
+In Java Edition, the drinking animation for milk is shown only in first person view.
+When removed by milk, area status effects (granted by beacons, potent sulfur noxious gas and conduits) are restored almost immediately in Bedrock Edition and after a few seconds in Java Edition.
+
+
+=== Crafting ingredient ===
+
+
+=== Trading ===
+Wandering traders occasionally purchase a milk bucket for 2 emeralds.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Milk Bucket" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Water Bucket
+Lava
+Food
+Cake
+Honey Bottle (alternative to remove Poison effect)
+Medicine
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Milk Bucket"     by Duncan Geere  – Minecraft.net, October 8, 2019.
+
+
+== Navigation ==

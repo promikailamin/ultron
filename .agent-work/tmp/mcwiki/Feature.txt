@@ -1,0 +1,59 @@
+Features (also known as generated features) are small decorators generated in each chunk after terrain generation. This page lists generated features in a Minecraft world.
+
+
+== Overworld ==
+
+
+=== Aboveground ===
+
+
+=== Underground ===
+
+
+== The Nether ==
+
+
+== The End ==
+
+
+== Plant-like ==
+
+
+=== Composed features ===
+The following features are composed of multiple plant-like features mentioned above.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Generation ==
+
+Features are generated for a given chunk after the terrain has been formed. When features are generated, they can spill over into neighboring chunks that have been previously generated. Thus, a tree at the edge of the generated world may be overwritten by a village before the player reaches it. It is also theoretically possible for two worlds generated with the same seed, from the same version of Minecraft, to differ slightly depending on the players' travel routes, because the chunk generation order may determine which of two conflicting features overwrite or suppress the other.
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Feature" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

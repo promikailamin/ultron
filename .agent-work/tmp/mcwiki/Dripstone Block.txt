@@ -1,0 +1,80 @@
+Dripstone block is a rock block that allows pointed dripstone to grow beneath it if there is water on top of it.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A dripstone block requires a pickaxe to be mined, in which case it drops itself. When mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+
+Dripstone blocks can be found in dripstone caves. They can generate on the floor, the ceiling, as stalactites, stalagmites, or stalagnates (joined stalactite and stalagmite). They can generate underwater.
+
+
+=== Crafting ===
+
+
+=== Trading ===
+
+
+== Usage ==
+Dripstone blocks are used primarily for decoration.
+
+
+=== Natural growth ===
+
+If a stalactite is hanging from a dripstone block with a water source above, it slowly grows both the stalactite from above and a stalagmite from below.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Tweet and announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Dripstone Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== External links ==
+Block of the Week: Dripstone – Minecraft.net on June 10, 2021
+
+
+== Navigation ==

@@ -1,0 +1,105 @@
+A diamond helmet is a variant of helmet that is crafted from diamonds. It is the second-highest tier of helmet, having higher armor points, armor toughness, durability, and enchantability than turtle shells. It can be upgraded into a netherite helmet using a netherite ingot and netherite upgrade at a smithing table.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have an extremely small chance to spawn wearing diamond armor, which may include a diamond helmet. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the helmet they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped helmet is usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+=== Trading ===
+
+
+== Usage ==
+When worn, a diamond helmet provides 3 () armor points and 2 () armor toughness.
+
+
+=== Upgrading ===
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+
+A diamond helmet can be repaired in an anvil by adding diamonds, with each diamond restoring 25% the helmet's maximum durability, rounded down. Two diamond helmets can also be combined in an anvil. Both methods preserve the helmet's enchantments.
+
+
+==== Repair ====
+Diamond helmets may be repaired by using them along with some diamonds in an anvil. They may also be repaired by crafting them together with another diamond helmet.
+
+
+=== Enchantments ===
+A helmet can receive the following enchantments.
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a diamond helmet, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+Armor durability from Indev until late Beta
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Diamond Helmet" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

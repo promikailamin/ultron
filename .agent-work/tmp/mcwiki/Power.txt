@@ -1,0 +1,48 @@
+Power is an enchantment applied to bows that increases arrow damage.
+
+
+== Obtaining ==
+Power can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, trading with librarians, and non-village structure loot.
+
+
+== Usage ==
+Power increases arrow damage by 25%⋅(level+1), rounded up to the nearest half-heart.
+
+
+=== Specific cases ===
+If Power is applied to a crossbow by use of commands or an anvil in Creative, the enchantment boosts the weapon's projectile damage when using arrows as ammo, but not when using firework rockets as ammo. If Power is applied to a trident by use of commands or an anvil in Creative, the enchantment does not boost the weapon's projectile damage, and instead Sharpness has this effect.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Power" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

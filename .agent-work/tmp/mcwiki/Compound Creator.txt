@@ -1,0 +1,51 @@
+The compound creator is a block used in chemistry. It allows over 30 compounds to be created by combining elements. This includes certain items which are available in the game normally.
+
+
+== Obtaining ==
+Compound creators can be obtained from the Creative inventory. They cannot be obtained in Survival without commands. In Bedrock Edition, the world must also have the "Education Edition" setting enabled.
+
+
+=== Breaking ===
+A compound creator can be mined with any tool, but pickaxes are faster.
+
+
+== Usage ==
+
+Using the compound creator opens up a 3×3 grid, where elements can be inserted to create compounds. By inputting the appropriate type and number of elements, the creator outputs the component in the slot to the right of the grid. All compound recipes are shapeless, and unlike the crafting table, the stack sizes are taken into consideration. Also, unlike with most blocks with an interface, the elements are not consumed.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+=== Block states ===
+
+
+== History ==
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Compound Creator" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Other ===
+
+
+== Navigation ==

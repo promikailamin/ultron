@@ -1,0 +1,83 @@
+Bane of Arthropods is an enchantment applied to swords, axes, spears, and maces that substantially increases melee damage against arthropod mobs and applies Slowness IV to them.
+
+
+== Obtaining ==
+Bane of Arthropods can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, librarian villagers, and in non-village structure loot.
+
+
+== Usage ==
+Each level on a sword, axe, spear, or mace adds 2.5HP × 1.25 extra damage against arthropods mobs, and inflicts Slowness IV to them with a random duration between 1 and 1.5 seconds at level I, increasing the maximum duration by 0.5 seconds at each level, up to 3.5 seconds with Bane of Arthropods V. Bane of Arthropods applies against the following mobs:
+
+Bees
+Cave Spiders
+Endermites
+Silverfish
+Spiders
+In Bedrock Edition, the damage is rounded down.
+In Java Edition, Bane of Arthropods does not apply to charge attacks performed using the spear in the offhand.
+
+
+=== Damage per hit ===
+These tables detail how much damage is done per attack based on the level of enchantment used, assuming the target is not wearing armor and the attack is fully charged.‌[Java Edition  only] While both Java Edition and Bedrock Edition add 2.5HP × 1.25 per level, Bedrock Edition rounds down to the nearest whole number, making Bane of Arthropods I, Bane of Arthropods III, and Bane of Arthropods V weaker than in Java Edition.
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== Specific cases ===
+If Bane of Arthropods is applied to a trident by use of commands or an anvil in Creative, the enchantment affects the weapon's thrown projectile. If Bane of Arthropods is applied to a bow by use of commands or an anvil in Creative, the enchantment affects the weapon's arrows. If Bane of Arthropods is applied to a crossbow by use of commands or an anvil in Creative, the enchantment affects weapon's arrows but not its firework rockets.
+
+
+== Incompatibilities ==
+Bane of Arthropods is incompatible with Sharpness, Smite, Density, Breach, and Cleaving.‌[JE Combat Tests  only] It is also incompatible with Impaling, however in Survival this incompatibility cannot be encountered, as no weapon types have access to both Bane of Arthropods and Impaling. If commands are used to have two or more of these enchantments on the same item, their effects stack.‌[Java Edition  only]
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+== Issues ==
+Issues relating to "Bane of Arthropods" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Any primary or secondary item with Bane of Arthropods V can kill any arthropods in one hit.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

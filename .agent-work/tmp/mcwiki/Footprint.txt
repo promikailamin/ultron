@@ -1,0 +1,44 @@
+The footprint was a joke item exclusive to Java Edition 20w14∞, found only in the missing dimension.
+
+
+== Appearance ==
+The footprint is a semi-transparent item with a grey color scheme.
+
+
+== Obtaining ==
+This item cannot be found in the Creative inventory, but it can be duplicated using the Pick Block key in Creative mode or given with the /give <target> minecraft:footprint <amount> command.
+
+
+=== Dimension ===
+Footprints are only generated in a chest in the missing dimension. There is a maximum of 2 footprints that can be legitimately obtained in any world.
+
+
+== Usage ==
+This item cannot be placed or used in any way.
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Issues ==
+Issues relating to "Footprint" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Trivia ==
+This is a reference to the removed footprint particle, hence the "missing" dimension name.
+This item is intended as a joke directed toward the commands community where the "footstep" particle is commonly requested.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

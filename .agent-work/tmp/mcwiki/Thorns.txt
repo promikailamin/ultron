@@ -1,0 +1,81 @@
+Thorns is an armor enchantment that gives a random chance to damage entities that attack the user, at the cost of increasing incurred durability damage.
+
+
+== Obtaining ==
+Thorns can be obtained from enchanting tables, books obtained by fishing, monster room chests, librarian villagers, and non-village structure loot.
+
+
+=== Enchanting table maximum ===
+Thorns III cannot be received directly through the enchanting table on any tier of armor, because their enchantability does not meet the required threshold.
+Tiers that cannot receive Thorns III can have it applied to them by use of an anvil, or can be found naturally enchanted with it through certain structure loot.
+
+
+== Usage ==
+While wearing any piece of armor with the Thorns enchantment, each piece independently has a 15%⋅level chance of the wearer inflicting 1HP to 5HP damage (not restricted to integer values) on anyone who attacks them, regardless of whether they were hit by a melee attack, arrow, or other projectile. This damage deals regular knockback to the attacker and regular damage to their armor.
+If the player dies as a result of Thorns damage, the death message is "<player> was killed while trying to hurt <entity>".
+Multiple worn armor items with the Thorns enchantment stack with each piece offering an independent chance to deal damage to the attacker. However, due to the invulnerability timer, the total damage is capped at the highest individual amount of damage dealt this way. As a result, wearing multiple pieces of high-level Thorns armor pieces increases the overall chance to deal damage and shifts the average amount of damage dealt this way toward the upper end of the possible range, but has a 0 % chance of reaching 5HP and can never exceed it.
+Average damage dealt depending on the number of items with Thorns III worn are as follows: 
+
+Thorns applies a durability penalty to the armor. It reduces durability by an additional 2 points when inflicting damage. If multiple armor pieces are enchanted with Thorns, the durability penalty is applied to each piece that triggered (even if it didn't end up inflicting the highest damage), regardless of what level of Thorns that piece has. If the item is also enchanted with Unbreaking, the usual probabilities for ignoring each individual point of durability loss apply. 
+Thorns damage can be blocked by a shield, if there is an opportunity to block, usually because the damage triggering the thorns effect comes from a projectile.
+The Thorns effect can trigger from any equipment slot, including e.g. the body slot of horses or holding the enchanted item in the main or off-hand. Although horse armor cannot be enchanted in Survival, in Java Edition the Thorns enchantment can be applied to horse armor in Creative and works when held by the player or equipped to a horse.
+
+
+=== Guardian thorns ===
+Guardians and elder guardians have a Thorns-like effect that inflicts damage when their spikes are out. However, this affects only melee damage, whereas Thorns the enchantment applies to all direct attacks, including ranged.
+
+
+== Unaffected mobs ==
+Wardens using sonic boom attacks are not affected by this enchantment.‌[JE  only]
+
+
+== Sounds ==
+Java Edition
+
+Bedrock Edition:
+
+In Bedrock Edition, due to message censorship, the caption​[upcoming] for Thorns damage displays as "Thorns #####" instead of "Thorns prick", because the filter flags "prick" as a swear. (Edit: In the latest versions, this behavior was identified as a bug and has since been fixed. It now correctly displays the proper closed caption sound.)
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Thorns" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Navigation ==

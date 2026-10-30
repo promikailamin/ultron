@@ -1,0 +1,65 @@
+A bucket of cod, internally known as cod bucket, is a living cod inside of a water bucket.
+
+
+== Obtaining ==
+A bucket of cod can be obtained by using a water bucket on a cod. Once a water bucket is used, the cod is picked up along with the water source block.
+
+
+=== Trading ===
+
+
+== Usage ==
+Pressing use with a bucket of cod places a water source block, and spawns the cod back into the world, leaving an empty bucket in the player's inventory. Placing a bucket of cod in the Nether causes the same particles to appear that generate when a normal water bucket is placed in the Nether, and the cod is spawned alone.
+Cod caught in buckets then released do not despawn, unlike mobs that spawn naturally in their aquatic environments.
+If a bucket of cod is inside a dispenser, the dispenser spawns the cod and water block in front of it upon activation, leaving an empty bucket inside. Dispensers cannot pick up a cod when using a water bucket, due to the bucket being emptied instead.
+If a bucket of cod is named a certain name through an anvil, the cod inside displays that name as if it were named with a name tag.‌[Java Edition  only] Alternatively, if a named cod is captured with a bucket of water, the resulting bucket of cod shares a name with the captured cod.‌[Java Edition  only] If a named cod is captured in Bedrock Edition, the item is called "Bucket of <Name>".
+Buckets of cod can be used to feed nautiluses, healing 4HP or putting it in love mode if it has full health.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Bucket of Cod" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

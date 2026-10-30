@@ -1,0 +1,34 @@
+Horse saddles were items which allowed the player to ride horses.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+== Usage ==
+Horse saddles worked similarly to regular saddles but were specifically used for horses instead of pigs. A horse needed to be tamed before a horse saddle could be equipped. Unlike most items, horse saddles could be stacked in groups of up to 32.
+
+
+== Sounds ==
+None
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== History ==
+
+
+== Trivia ==
+The horse saddle shares the same texture of the "crafted saddle" from the Mo' Creatures mod by DrZhark, who provided assistance in the horse's initial development. This item also had the same crafting recipe and translation key.
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,71 @@
+Frost Walker is an enchantment applied to boots that turns water into frosted ice beneath the user's feet, and provides immunity to campfire and magma block damage.
+
+
+== Obtaining ==
+Frost Walker is a treasure enchantment and can only be obtained from jungle temple and stronghold chest loot, fishing, raid drops,‌[BE  only] or trading with a librarian of any level.
+
+
+== Usage ==
+Boots enchanted with Frost Walker transform any source water block into frosted ice if:
+
+the entity wearing the boots is:
+putting the boots on,
+joining the world,
+falling onto the ground,
+or moving on the ground,
+and the water:
+is on the same height as the block the wearer is on.
+is within a circle‌[Java Edition  only] or square‌[Bedrock Edition  only] with a radius of min⁡(2+level,28) around the block the wearer is on.
+and has air above it.
+Continuous motion is required for frosted ice to remain when light levels would otherwise cause it to melt. When an entity stops walking on the frosted ice created by the enchantment, it gradually melts. In addition, the frosted ice created from Frost Walker lasts longer during the night because there is no sunlight to melt it.
+Frost Walker also eliminates all damage from magma blocks and campfires, but not lava. This includes sulfur cubes with the "Hot" archetype. The boots do not take durability damage from standing on these blocks.
+Frost Walker also works when on boots equipped by armor stands and boots held by foxes‌[Bedrock Edition  only].
+
+
+== Incompatibilities ==
+The Frost Walker and Depth Strider enchantments are mutually exclusive, meaning only one can be added to any given item in Survival. When added through use of commands, both enchantments function as normal.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== Achievements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Frost Walker" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The Let It Go! achievement title is a reference to the song of the same name from the movie Frozen.
+
+
+== References ==
+
+
+== Navigation ==

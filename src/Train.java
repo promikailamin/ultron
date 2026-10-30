@@ -6,7 +6,8 @@ import java.util.*;
 
 public class Train {
     static final int VOCAB = 16384, D = 96, L = 5, F = 384, CTX = 64, HEADS = 4;
-    static final int CHAT_REPEAT = 8;
+    static final int CHAT_REPEAT = 16;
+    static final int QA_REPEAT = 6;
     // Books and general English.
     static final String[] BOOKS = {
             "data/pp.txt", "data/moby.txt", "data/alice.txt", "data/sherlock.txt",
@@ -15,7 +16,7 @@ public class Train {
     };
     // Domain knowledge and instruction data.
     static final String[] DOMAIN = {
-            "data/mc.txt", "data/grammar.txt", "data/chat.txt"
+            "data/mc.txt", "data/mc_qa.txt", "data/grammar.txt", "data/chat.txt"
     };
 
     static class IntList {
@@ -24,6 +25,16 @@ public class Train {
         void add(int x) {
             if (n == a.length) a = Arrays.copyOf(a, a.length * 2);
             a[n++] = x;
+        }
+    }
+
+    static class Example {
+        final int[] ids;
+        final boolean[] mask;
+
+        Example(int[] ids, boolean[] mask) {
+            this.ids = ids;
+            this.mask = mask;
         }
     }
 
@@ -36,9 +47,11 @@ public class Train {
 
     static List<String> trainingCorpus() {
         ArrayList<String> files = new ArrayList<>(uniqueCorpus());
-        // Oversample curated conversations so the small model learns the
-        // user:/ultron: turn structure instead of drowning in book text.
+        // Oversample curated conversations and wiki Q&A so the small model
+        // learns the user:/ultron: turn structure instead of drowning in book
+        // text. This is the instruction-tuning part of the corpus.
         for (int i = 1; i < CHAT_REPEAT; i++) files.add("data/chat.txt");
+        for (int i = 1; i < QA_REPEAT; i++) files.add("data/mc_qa.txt");
         return files;
     }
 
@@ -49,6 +62,47 @@ public class Train {
         buf.add(tok.stoi.get(Tokenizer.PAR));
         for (int x : pc) buf.add(x);
         buf.add(tok.stoi.get(Tokenizer.EOS));
+    }
+
+    static List<Example> loadDialogueExamples(Tokenizer tok) throws IOException {
+        ArrayList<Example> out = new ArrayList<>();
+        for (String file : new String[]{"data/chat.txt", "data/mc_qa.txt"}) {
+            Path p = Paths.get(file);
+            if (!Files.exists(p)) continue;
+            try (BufferedReader br = Files.newBufferedReader(p)) {
+                String line;
+                String question = null;
+                while ((line = br.readLine()) != null) {
+                    if (line.startsWith("user: ")) {
+                        question = line.substring(6).trim();
+                    } else if (line.startsWith("ultron: ") && question != null) {
+                        String answer = line.substring(8).trim();
+                        Example ex = makeExample(tok, question, answer);
+                        if (ex != null) out.add(ex);
+                        question = null;
+                    }
+                }
+            }
+        }
+        return out;
+    }
+
+    static Example makeExample(Tokenizer tok, String question, String answer) {
+        int[] pids = tok.encode("user: " + question + "\nultron:");
+        int[] aids = tok.encode(answer);
+        int firstAnswer = 1 + pids.length;
+        int maxAnswer = CTX - firstAnswer;
+        if (maxAnswer < 6) return null;
+        if (aids.length > maxAnswer) aids = Arrays.copyOf(aids, maxAnswer);
+        int S = firstAnswer + aids.length;
+        int[] ids = new int[S + 1];
+        ids[0] = tok.stoi.get(Tokenizer.PAR);
+        System.arraycopy(pids, 0, ids, 1, pids.length);
+        System.arraycopy(aids, 0, ids, firstAnswer, aids.length);
+        ids[S] = tok.stoi.get(Tokenizer.EOS);
+        boolean[] mask = new boolean[S];
+        for (int t = 0; t < S; t++) mask[t] = (t + 1) >= firstAnswer;
+        return new Example(ids, mask);
     }
 
     public static void main(String[] args) throws Exception {
@@ -81,12 +135,17 @@ public class Train {
         int[] data = Arrays.copyOf(buf.a, buf.n);
         System.out.printf("corpus: %.2f M chars -> %d tokens, vocab=%d%n",
                 chars[0] / 1e6, data.length, tok.V);
+        List<Example> dialogues = loadDialogueExamples(tok);
+        System.out.printf("dialogue examples: %,d (answer-only loss)%n", dialogues.size());
 
-        Ultron m = resume ? Ultron.load("out/ultron.bin") : new Ultron(tok.V, D, L, F, CTX, HEADS);
-        if (resume && (m.V != tok.V || m.D != D || m.L != L || m.F != F || m.T != CTX || m.H != HEADS)) {
-            throw new IllegalStateException("checkpoint is incompatible with the current vocab/config; use rebuild");
+        Ultron loaded = resume ? Ultron.load("out/ultron.bin") : null;
+        boolean useCheckpoint = loaded != null && loaded.V == tok.V && loaded.D == D
+                && loaded.L == L && loaded.F == F && loaded.T == CTX && loaded.H == HEADS;
+        if (resume && !useCheckpoint) {
+            System.out.println("checkpoint is incompatible with the current vocab/config; starting a fresh model");
         }
-        if (!resume) m.init(42);
+        final Ultron m = useCheckpoint ? loaded : new Ultron(tok.V, D, L, F, CTX, HEADS);
+        if (!useCheckpoint) m.init(42);
         System.out.printf("ULTRON model: V=%d d=%d layers=%d ffn=%d ctx=%d heads=%d%n",
                 m.V, m.D, m.L, m.F, m.T, m.H);
         System.out.printf("parameters: %,d%n", m.paramCount());
@@ -121,10 +180,21 @@ public class Train {
                     double ls = 0;
                     int cnt = 0;
                     for (int b = lo; b < hi; b++) {
-                        int s = rngs[ti].nextInt(data.length - CTX - 1);
-                        int[] win = Arrays.copyOfRange(data, s, s + CTX + 1);
-                        ls += m.trainExample(win, CTX, acts[ti], tg[ti]);
-                        cnt += CTX;
+                        // Half the batches are instruction examples with the
+                        // loss masked to the assistant reply. The rest are
+                        // ordinary next-token windows that keep the base
+                        // language model fluent.
+                        if (!dialogues.isEmpty() && rngs[ti].nextDouble() < 0.5) {
+                            Example ex = dialogues.get(rngs[ti].nextInt(dialogues.size()));
+                            int s = ex.ids.length - 1;
+                            ls += m.trainExample(ex.ids, s, acts[ti], tg[ti], ex.mask);
+                            cnt += s;
+                        } else {
+                            int s = rngs[ti].nextInt(data.length - CTX - 1);
+                            int[] win = Arrays.copyOfRange(data, s, s + CTX + 1);
+                            ls += m.trainExample(win, CTX, acts[ti], tg[ti]);
+                            cnt += CTX;
+                        }
                     }
                     tls[ti] = ls;
                     tcnt[ti] = cnt;

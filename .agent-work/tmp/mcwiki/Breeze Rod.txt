@@ -1,0 +1,52 @@
+A breeze rod is an item obtained by killing breezes. It can be used to craft wind charges and maces, duplicate flow armor trims, and brew potions of Wind Charging.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Repairing ===
+Breeze rods can be used in an anvil to repair a mace.
+
+
+=== Brewing ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Teaser ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Breeze Rod" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== Navigation ==

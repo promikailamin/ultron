@@ -1,0 +1,116 @@
+A block of copper, internally known as a copper block, is a block that oxidizes over time, gaining a verdigris appearance over four stages. They can be prevented from oxidizing by being waxed with honeycombs. Non-oxidized blocks of copper are storage blocks equivalent to nine copper ingots.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Blocks of copper can be mined only with a stone pickaxe or better; otherwise, it drops nothing.
+
+
+=== Natural generation ===
+Blocks of copper, waxed blocks of copper and waxed oxidized copper can generate in trial chambers.
+
+
+=== Crafting ===
+
+
+=== Waxing ===
+Blocks of copper can be turned into the respective waxed copper blocks by using a honeycomb item on them. Waxed copper blocks do not oxidize and are identical to the non-waxed version in both aesthetics and functionality in every other way.
+
+
+=== Scraping ===
+Using an axe on a waxed block of copper turns it into the respective non-waxed block of copper. In addition, using an axe on an exposed, weathered, or oxidized block of copper reverts it one stage to a regular, exposed, or weathered copper block respectively.
+Scraping with an axe is not possible when holding a shield in the offhand, so that combat is not affected when the player is near waxed or oxidized copper blocks.
+
+
+=== Lightning strike ===
+Non-waxed blocks of copper are completely deoxidized when struck by lightning, and other non-waxed blocks of copper nearby are deoxidized randomly.
+
+
+== Usage ==
+Blocks of copper can be used to store copper ingots in a compact fashion. Exposed, weathered, and oxidized variants cannot be crafted back into copper ingots, but the unoxidized waxed block variant can. Unlike the cut variant, blocks of copper cannot be crafted directly into slabs or stairs without a stonecutter. Stonecutting blocks of copper gives four times more products than typical for stone, and allows slabs and stairs to be obtained.
+
+
+=== Crafting ingredient ===
+
+
+=== Stonecutting ===
+
+
+=== Spawning copper golems ===
+
+A block of copper and carved pumpkins or jack o'lanterns are used to build copper golems. The carved pumpkin or jack o'lantern must be placed last, and the golem spawns immediately after placing it.
+
+
+=== Oxidation ===
+
+Non-waxed blocks of copper have four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation from blocks of copper. They can be waxed with a honeycomb to prevent the oxidation from progressing.
+As the block begins to oxidize (exposed copper), it gets discolored and green spots begin to appear. As the oxidation continues (weathered copper), the block is a green color with brown spots. In the last stage (oxidized copper), the block is teal with several green spots.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Block of Copper" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Block of the Month: Weathered Copper"     by Duncan Geere  – Minecraft.net, June 15, 2023.
+
+
+== Navigation ==

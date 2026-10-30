@@ -1,0 +1,94 @@
+A coral block is a solid block that comes in five variants: tube, brain, bubble, fire, and horn.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Coral blocks can be obtained only with a pickaxe enchanted with Silk Touch; if mined with a pickaxe not enchanted with Silk Touch, they drop the respective dead coral block.
+
+
+=== Natural generation ===
+Coral blocks naturally generate in coral reef structures, which can be found in warm oceans.
+
+
+=== Trading ===
+Wandering traders may sell 1 of any coral block for 3 emeralds.
+
+
+=== Mob loot ===
+In Bedrock Edition, wandering traders have a chance of 25% (increased by 1% per level of Looting) to drop 1 coral block when killed while showing the item as trade offer, if the player holds an emerald.
+
+
+== Usage ==
+
+Coral blocks can be used for building or as decoration blocks.
+
+
+=== Placement ===
+In order for a coral block to stay alive, at least one of the six directly adjacent blocks must be water or a waterlogged block. If placed outside of water, it transforms into its respective dead coral block after 3 to 4.95 seconds‌[Java Edition  only] or 2.25 seconds‌[Bedrock Edition  only] — a grayscale version of the coral block. A coral block still dies if the game rule randomTickSpeed is set to 0. Once a coral block dies, it is not possible to turn a dead coral block into a live coral block.
+In Bedrock Edition, coral blocks do not die if they are surrounded by any non-air blocks.
+
+
+=== Sea pickle farm blocks ===
+If sea pickles are planted on live coral blocks, using bone meal on the sea pickles increases the number of sea pickles and creates more sea pickles on nearby coral blocks. Specifically, they can spread to the original sea pickle's level or one level below, out to a horizontal taxicab distance of 2. This only works on living coral blocks, not dead coral blocks.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Coral Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+After players had placed 10 million coral blocks underwater in Bedrock Edition, Mojang donated US$100,000 to The Nature Conservancy to protect and restore coral reefs around the world.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Development images ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Coral"     by Duncan Geere  – Minecraft.net, March 2, 2022.
+
+
+== Navigation ==

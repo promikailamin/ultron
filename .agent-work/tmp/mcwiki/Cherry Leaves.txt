@@ -1,0 +1,109 @@
+Cherry leaves are leaves that form the canopy of cherry trees and function as flowers for bee mechanics. They are colored pink which does not change with the biome they are placed in.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Hoes are the default tools for breaking leaves, but leaves can be obtained only with shears or tools enchanted with Silk Touch.
+
+Without shears, cherry leaves can drop 1 cherry sapling and 1—2 sticks. Fortune increases the chances.
+
+
+=== Natural generation ===
+Cherry leaves occur naturally on cherry trees in cherry groves. They also generate as part of abandoned camps in cherry groves.
+
+
+=== Post-generation ===
+
+Cherry leaves generate as part of trees grown from cherry saplings.
+
+
+== Usage ==
+
+Cherry leaves that decay have the same drop chances as when broken by players, yielding cherry saplings 5% (1⁄20) of the time, sticks 2% of the time, and otherwise nothing. Leaves that are burned do not drop saplings.
+Unlike most other leaves, cherry leaves are not biome tinted and always stay pink. They also do not turn white during snowfall.
+
+
+=== Smelting ingredient ===
+
+
+=== Redstone component ===
+
+The state of a leaves block—including a player-placed block—changes after 1 game tick (half a redstone tick) when the distance to the nearest log or wood block changes, up to 6 blocks of leaves away. Observers facing away from the leaves detect this change and transmit a redstone signal in the same game tick, making leaves useful for redstone signal transmission.
+
+
+=== Piston interactivity ===
+Leaves are destroyed when pushed by pistons. They do not stick to sticky pistons, slime blocks, or honey blocks.
+
+
+=== Composting ===
+Cherry leaves have a 30% chance of increasing the compost level in a composter by 1. A stack of leaves yields an average of 3.05 bone meal.
+
+
+=== Bees ===
+Cherry leaves function like any other flower in their interaction and uses with bees.
+
+
+=== Particles ===
+
+Cherry leaves produce falling leaves particles underneath the leaf block, where they slowly fall to the ground. They are always pink like the leaves block. Cherry leaves particles are differently textured compared to other falling leaves, and appear more often.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cherry Leaves" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Occasionally, leaves grow through other blocks, acting as though they are still connected to the tree. They may also completely replace blocks they try to grow into.
+Some trees seem to occasionally drop saplings without being destroyed due to creation of leaf blocks not supported by logs.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+Block of the Month: Cherry Leaves — Minecraft.net on March 8, 2024
+
+
+== Navigation ==

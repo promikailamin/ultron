@@ -1,0 +1,56 @@
+Multishot is an enchantment applied to crossbows that makes firing one projectile shoot three copies of the same projectile in a fixed spread, at the cost of draining more durability.
+
+
+== Obtaining ==
+Multishot can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, librarian villagers, and non-village structure loot.
+
+
+== Usage ==
+A crossbow with Multishot shoots two additional arrows on each shot, sending them in different directions (10° apart horizontally), but consumes only one arrow. Only the central arrow can be collected after shooting. In Java Edition, due to damage immunity, only one arrow from the same shot can damage the same mob; other arrows that hit that mob are deflected.
+In Java Edition, higher levels of Multishot (only available through commands) further increase the number of arrows shot by the crossbow, adding two additional arrows per level, each spread by a further 10° horizontally. In Bedrock Edition, higher levels have no further effect.
+Tipped/spectral arrows and firework rockets fired with a Multishot crossbow are duplicated in the same manner.
+Crossbows with the Multishot enchantment use one durability point for each projectile shot.
+Multishot also functions on a bow if applied using commands or an anvil in Creative mode.
+
+
+== Incompatibilities ==
+Multishot and Piercing are mutually exclusive. However, if combined using commands or obtained using glitches, both enchantments function as normal, with any extra arrows being able to pierce as well.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+== Issues ==
+Issues relating to "Multishot" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In Java Edition 3D Shareware v1.34 (the 2019 April Fools update), the maximum level of Multishot was 12, and higher levels of Multishot (obtainable through the burning barrels in that version or commands) shot more arrows. This was the only version to do this at the time; in all other versions prior to 24w18a, crossbows shot three arrows regardless of the level of Multishot.
+
+
+== Navigation ==

@@ -1,0 +1,55 @@
+Projectile Protection is an enchantment applied to armor that reduces damage received from arrows, tridents, and any other projectiles.
+
+
+== Obtaining ==
+Projectile Protection can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, librarian villagers, and non-village structure loot.
+
+
+== Usage ==
+Projectile Protection reduces damage from arrows, thrown tridents, shulker bullets, llama spit, blaze fireballs, and wind charges. It also reduces direct impact damage from ghast fireballs and wither skulls, but not damage from their explosions. Despite being projectiles, damage from splash potions of harming, dragon fireballs, firework rockets, or sonic booms is not considered to deal projectile damage and is therefore unaffected by Projectile Protection.
+The formula for damage reduction by projectiles is level × 8%, meaning for every additional level another 8% of the damage is absorbed. The highest level (Projectile Protection IV) absorbs 32% (4 × 8%) of the damage inflicted by projectiles. Unlike the Blast Protection and Fire Protection enchantments, Projectile Protection offers no side effects outside of damage reduction.
+The specific armor piece that Projectile Protection is applied to does not influence its strength. For example, applying it to leggings does not cause the player's legs to be more protected against projectiles than the rest of their body.
+Damage reduction from Protection, Fire Protection, Feather Falling, Blast Protection, and Projectile Protection stacks up to an upper limit cap of 80%. This upper limit can be reached with a total of 10 levels of Projectile Protection on the users armor, or with 12 levels of Protection combined with 4 levels of Projectile Protection.
+
+
+== Incompatibilities ==
+Protection, Blast Protection, Fire Protection, and Projectile Protection are mutually exclusive.  Attempting to combine these enchantments with an anvil deletes the enchantment in the upgrade slot and replace it with the enchantment in the sacrifice slot.  However, if commands are used to force two or more of these enchantments on the same item, the effects stack. But when the total of the EPF provided by the protection enchantments surpasses 20, the rest of these enchantments will no longer directly reduce the damage.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Projectile Protection" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Projectile Protection is also coded to reduce damage from snowballs and eggs, despite neither projectile dealing any damage.
+
+
+== Navigation ==

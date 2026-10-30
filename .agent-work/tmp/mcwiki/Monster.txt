@@ -1,0 +1,110 @@
+The term monster refers to a category of mobs that are mostly hostile to the player.
+
+
+== Common properties ==
+Mobs mentioned on this page share the following properties to be classified as monsters:
+
+They are either classified as enemies in the entity format or in spawning mechanics, such as the mob cap.
+Although this doesn't affect their classification, most of them share the following properties, but with exceptions:
+
+They despawn or don't spawn naturally in Peaceful difficulty.
+Prevent the player from sleeping.
+Drop more than 1-3 experience orbs.
+Use the "Hostile Mobs" sound category.
+Trigger the "Monster Hunter" advancement and "Monsters Hunted" challenge.‌[JE  only]
+Trigger the "Monster Hunter" achievement.‌[BE  only]
+Iron golems and snow golems will target them.
+Parrots will imitate their sounds.
+An active conduit will damage them.
+Worried pandas‌[JE  only] and rabbits will avoid them.
+They can’t be leashed.
+They are part of the monster family‌[Bedrock Edition  only].
+
+
+== List of monsters ==
+
+
+== Related ==
+
+
+=== Mobs ===
+This mob is hostile, but is not treated as a monster in the game code - rather as an animal.
+
+Killer Bunny‌[JE  only]
+
+
+=== Blocks ===
+Though they are not mobs, these blocks have direct connections to monsters.
+
+Creeper Head
+Dragon Head
+Monster Spawner
+Piglin Head
+Skeleton Skull
+Trial Spawner
+Wither Skeleton Skull
+Zombie Head
+Creaking Heart
+
+
+=== Unimplemented ===
+These mob vote options are based on monsters, but have not been added to the game.
+
+Barnacle
+Great Hunger
+Iceologer
+Wildfire
+
+
+=== April Fools' ===
+These mobs are monsters, but have only appeared in April Fools' versions.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Trivia ==
+The warden is the only fully hostile monster (as skeleton horses are passive when not mounted) that spawns naturally that does not count towards the Monster Hunter advancement or Monsters Hunted challenge.
+The reason for this is because the warden is not intended to be slain, and is instead meant to be evaded.
+Polar bears were once classified as monsters valid for advancements. This property was removed in snapshot 19w14a.
+Striders are internally referred to as monsters, however this does not affect gameplay, as the strider does not share the same traits as actual in-game monsters, being considered an animal instead.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Unused ====
+
+
+=== Screenshots ===
+
+
+== See also ==
+Mob
+Animal
+Aquatic
+Arthropod
+Illager
+Jockey
+Undead
+
+
+== References ==
+
+
+== Navigation ==

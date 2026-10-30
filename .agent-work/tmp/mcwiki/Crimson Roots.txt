@@ -1,0 +1,78 @@
+Crimson roots are a non-solid "plant" block that generate naturally on nylium and soul soil in few Nether biomes. They resemble a colony of tall, thin mushrooms.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Crimson roots can be mined instantly with any tool. They drop themselves when broken. Flower pots containing crimson roots drop both the flower pot and crimson roots when broken.
+
+
+=== Natural generation ===
+Crimson roots generate often in the crimson forest biome and rarely in the warped forest biome and in the soul sand valley biome.
+
+
+=== Mob loot ===
+An enderman holding crimson roots drops the block upon death.
+
+
+=== Generated loot ===
+
+
+=== Post-generation ===
+Applying bone meal to crimson nylium causes crimson roots to appear on nearby blocks. There is also a low chance for bone meal applied to warped nylium to generate crimson roots.
+
+
+== Usage ==
+
+
+=== Decoration ===
+
+Crimson roots are decorative blocks. They can be planted on the same blocks that crimson fungi can be placed on. Crimson roots can be planted in a flower pot, which gives them a different texture.
+
+
+=== Composting ===
+Crimson roots can also be used on a composter, with a 65% chance of increasing the level by 1.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Crimson Roots" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

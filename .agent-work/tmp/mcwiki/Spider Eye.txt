@@ -1,0 +1,88 @@
+A spider eye is a food item obtained from spiders and witches that is poisonous to players, but can be safely fed to armadillos for breeding. It is also a brewing ingredient for potions of Poison, and can be fermented for further brewing uses.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Food ===
+
+When eaten, a spider eye restores 2 () hunger points and 3.2 saturation points, giving a nourishment value of 1.6. It also applies a Poison effect lasting 5 seconds to the player, causing 4HP damage, which reduces hunger/saturation by 6 points.
+
+
+=== Crafting ingredient ===
+
+
+=== Brewing ingredient ===
+
+
+=== Breeding ===
+Spider eyes can be used to breed adult armadillos and to speed up the growth of baby armadillos. Armadillos that are not rolled up also follow a player who is holding spider eyes.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Spider Eye" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Spider Eye"     by Duncan Geere  – Minecraft.net, February 1, 2019.
+
+
+== Navigation ==

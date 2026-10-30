@@ -1,0 +1,56 @@
+Banner patterns are a set of 10 items used to apply unique designs to banners using a loom, and are freely reusable. Most can be crafted, but some are only found in structures or through other means.
+
+
+== Variants ==
+There are 10 banner patterns:
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+It is possible to craft all but 4 of the banner patterns.
+
+
+=== Trading ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Loom ingredient ===
+All banner patterns can be used in looms to add customization to banners. The pattern must be combined with 1 banner and 1 dye. Upon usage in the loom, the banner pattern is not consumed.
+
+
+== Data values ==
+
+
+=== Metadata ===
+
+In Bedrock Edition, banner pattern items use the following data values:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+=== PlayStation 4 Edition ===
+
+
+== Issues ==
+Issues relating to "Banner Pattern" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

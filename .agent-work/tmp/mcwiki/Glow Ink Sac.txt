@@ -1,0 +1,57 @@
+A glow ink sac is an item dropped by a glow squid upon death. It can be used on signs to make the text glow and can be used to craft glow item frames.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Signs ===
+
+Glow ink sacs can be used on signs or hanging signs to make their text brighter in low light levels. This also adds an outline around the text on the sign, the color of which is based on the color of the sign's text. The text does not emit any light, it is only more visible in darkness, similarly to the eyes of spiders and endermen. Normal ink sacs can be applied to revert glowing text back to default. Breaking the sign removes the glowing text.
+
+
+== Sounds ==
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Glow Ink Sac" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== External links ==
+"Taking Inventory: Glow Ink Sac"     by Duncan Geere  – Minecraft.net, October 14, 2021.
+
+
+== Navigation ==

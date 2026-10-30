@@ -1,0 +1,61 @@
+A fermented spider eye is an item used to corrupt the effects of certain potions via brewing, and it is required to brew potions of Weakness.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+== Usage ==
+Fermented spider eyes can be used to brew potions with negative effects, as well as potions of Invisibility. As a general rule, it inverts the effect of the potion (e.g. Speed to Slowness, Instant Health to Instant Damage).
+
+
+=== Brewing ingredient ===
+
+
+=== Trading ===
+Wandering traders occasionally purchase a fermented spider eye for 3 emeralds.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Issues ==
+Issues relating to "Fermented Spider Eye" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

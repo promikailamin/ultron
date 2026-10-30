@@ -1,0 +1,46 @@
+Respiration is an enchantment applied to helmets that extends how long it is possible to stay underwater without drowning.
+
+
+== Obtaining ==
+Respiration can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, librarian villagers (or if the "Villager Trade Rebalance" experimental datapack is enabled, a swamp librarian), and non-village structure loot.
+
+
+== Usage ==
+Respiration increases the oxygen bonus attribute (which is 0 by default) by 1 per enchantment level. Every tick, while underwater, the air supply of a player or mob that can drown in water decreases by 1. Wearing a helmet enchanted with Respiration gives a chance for the air supply to not be decreased. The aforementioned chance depends on the enchantment's level, as seen in the following formula: 1 - (1 / (level + 1)). As such, to fully deplete a player's air supply it takes 16 seconds without the Respiration enchantment, 32 seconds (on average) with Respiration I, 48 seconds (on average) with Respiration II, and 64 seconds (on average) with Respiration III. Wearing a turtle shell extends this time by an additional 10 seconds due to the Water Breathing effect.
+Since the air supply is increased by 20 every time drowning damage is dealt, the Respiration enchantment also allows to take less drowning damage over the same time period.
+Respiration can be applied to non-helmet items by the use of commands.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Respiration" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

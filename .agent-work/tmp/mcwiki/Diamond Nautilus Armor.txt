@@ -1,0 +1,66 @@
+Diamond nautilus armor is a rare type of nautilus armor that can be equipped by a nautilus, used to reduce damage dealt to the nautilus. It is the second-strongest tier of nautilus armor, having higher armor points and armor toughness than golden nautilus armor. It can be upgraded into netherite nautilus armor using a netherite ingot and netherite upgrade at a smithing table.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Equipping ===
+Diamond nautilus armor can be equipped on a tamed nautilus by holding the nautilus armor and using the use button on a nautilus. It is also able to be equipped manually by putting it into the nautilus armor slot through mounting the nautilus and using its inventory control, or by sneaking and then using or pressing the "open inventory" button‌[Bedrock Edition  only].
+Baby nautiluses are unable to equip nautilus armor as they are not rideable.
+
+
+=== Protection ===
+When equipped, diamond nautilus armor gives 11 ( × 5.5) armor points and 2 () armor toughness.
+
+
+=== Upgrading ===
+
+
+== Sounds ==
+
+
+== Data values ==
+Java Edition
+
+Bedrock Edition
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Diamond Nautilus Armor" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Diamond nautilus armor is the rarest chest loot in Minecraft, at 1.1%‌[Java Edition  only] or 0.9%‌[Bedrock Edition  only], followed by the silence armor trim smithing template at 1.2%.
+
+
+== Gallery ==
+
+
+=== Textures ===
+
+
+=== Mojang images ===
+
+
+=== Screenshots ===
+
+
+== Navigation ==

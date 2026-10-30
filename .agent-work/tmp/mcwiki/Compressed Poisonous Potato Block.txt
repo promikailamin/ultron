@@ -1,0 +1,36 @@
+A compressed poisonous potato block is a compacted block made of poisonous potato blocks, exclusive to 24w14potato.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A compressed poisonous potato block can be broken using anything, but a pickaxe is the fastest. Compressed poisonous potato blocks always drop themselves when mined.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+
+== Data values ==
+Java Edition:
+
+
+== Trivia ==
+The hardness of the compressed poisonous potato block is 9 times more than the hardness of the poisonous potato block as 9 poisonous potato blocks make up one compressed poisonous potato block.
+
+
+== Issues ==
+Issues relating to "Compressed Poisonous Potato Block" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

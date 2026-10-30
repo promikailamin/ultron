@@ -1,0 +1,50 @@
+Cracked deepslate bricks are the cracked variant of deepslate bricks.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cracked deepslate bricks can be obtained only by mining them with any pickaxe. When mined using any other tool, they drop nothing.
+
+
+=== Natural generation ===
+Cracked deepslate bricks generate naturally in ancient cities.
+
+
+=== Smelting ===
+
+
+== Usage ==
+Cracked deepslate bricks are a decorative block.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cracked Deepslate Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

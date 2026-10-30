@@ -1,0 +1,53 @@
+Cracked polished blackstone bricks are the cracked variant of polished blackstone bricks.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cracked polished blackstone bricks need to be broken using a pickaxe, otherwise the block drops nothing.
+
+
+=== Natural generation ===
+Cracked polished blackstone bricks generate as part of bastion remnants and ruined portals in the Nether.
+
+
+=== Smelting ===
+
+
+== Usage ==
+Cracked polished blackstone bricks are a decorative block.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cracked Polished Blackstone Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

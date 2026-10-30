@@ -1,0 +1,95 @@
+Bone blocks are storage blocks equivalent to 9 pieces of bone meal. 
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Bone blocks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+
+Bone blocks are generated naturally as part of fossil structures found in desert and swamp biomes. They also generate as part of nether fossils in soul sand valley biomes and also in trial chambers indicating trial spawners if it is a skeleton and a mixture with podzol indicating if it is a bogged.
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+== Usage ==
+Bone blocks are decorative blocks, and can also be used as compact storage for bone meal.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+==== New Nintendo 3DS Edition ====
+
+
+== Issues ==
+Issues relating to "Bone Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== External links ==
+Block of the Week: Bone – Minecraft.net on August 4, 2017
+
+
+== References ==
+
+
+== Navigation ==

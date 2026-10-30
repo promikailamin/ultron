@@ -1,0 +1,107 @@
+Coral fans are non-solid blocks that come in five variants: tube, brain, bubble, fire, and horn.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Coral fans can be mined instantly but can be obtained only when mined with a Silk Touch enchanted tool. Breaking coral fans without Silk Touch destroys the coral fan.
+
+
+=== Natural generation ===
+Coral fans naturally generate in coral reef structures.
+
+
+=== Post-generation ===
+
+
+==== Bone meal ====
+When bone meal is used in warm ocean biomes, it has a chance of generating coral fans. In Java Edition, coral wall fans also have a chance of generating on the sides of blocks.
+
+
+=== Coral wall fans ===
+Coral wall fans item form cannot be obtained through vanilla means in Bedrock Edition except through add-ons or inventory editing.​[more information needed]
+
+
+== Usage ==
+Coral fans can be used for building or as decoration blocks.
+
+
+=== Placement ===
+All coral fans can be placed on the four sides and the top surface of blocks; they cannot be placed on the bottom surface.
+
+
+==== Water ====
+In order for coral fans to stay alive, they must be placed in water. In Java Edition, coral fans can also be placed outside of water as long as one of the blocks surrounding it contains water. If placed outside of water, they transform into their respective dead coral fan immediately‌[Bedrock Edition  only] or after 3 to 4.95 seconds‌[Java Edition  only]. Once a coral fan dies, it is not possible to turn a dead coral fan back into a live coral fan.
+
+
+=== Pushing with pistons ===
+Live coral fans cannot be pushed by pistons (attempting to do so results in the coral fan breaking).
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+Floor
+
+Wall
+
+Bedrock Edition:
+Floor
+
+Wall
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Coral Fan" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

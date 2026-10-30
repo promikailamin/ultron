@@ -1,0 +1,95 @@
+Golden boots are a variant of boots crafted from gold ingots. They are the sixth-highest tier of boots, having the same armor points as leather boots but with higher durability and enchantability. Like all golden armor, piglins are attracted to golden boots, and do not attack any player wearing them.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, parched, and piglins have a chance to spawn wearing armor, which may include golden boots. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the boots they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped boots are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+== Usage ==
+When worn, golden boots provide 1 () armor point.
+
+
+=== Piglins ===
+As with other pieces of gold armor, piglins do not attack players wearing golden boots unless provoked or attacked.
+Piglins are also attracted towards golden boots on the ground and equip them after inspecting them.
+
+
+=== Smelting ===
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+
+Boots can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% the boots' maximum durability, rounded down. Two boots of the same tier can also be combined in an anvil. Both methods preserve the boots' enchantments.
+
+
+=== Enchantments ===
+Boots can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, boots, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Golden Boots" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== References ==
+
+
+== Navigation ==

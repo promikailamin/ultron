@@ -1,0 +1,22 @@
+A grave is an item exclusive to 25w14craftmine. A poppy and skeleton skull are seen in the item’s texture.
+
+
+== Obtaining ==
+The grave is only obtainable via the /give command.
+
+
+== Usage ==
+The grave only serves as the icon of the "Oops" advancement, and does nothing else.
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Issues ==
+Issues relating to "Grave" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

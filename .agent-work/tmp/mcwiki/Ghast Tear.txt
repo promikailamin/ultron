@@ -1,0 +1,58 @@
+Ghast tears are items dropped by ghasts that are used to make dried ghasts, End crystals, and potions of Regeneration.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+== Usage ==
+
+
+=== Brewing ingredient ===
+
+
+=== Crafting ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Ghast Tear" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Ghast Tear"     by Duncan Geere  – Minecraft.net, July 25, 2024.
+
+
+== Navigation ==

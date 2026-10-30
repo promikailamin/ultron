@@ -30,6 +30,11 @@ check "how do I make a crafting table" "crafting"
 check "how do I get netherite" "netherite"
 check "what is a beacon" "beacon"
 check "what is a boomstick" "not sure"
+check "what obsidian" "obsidian"
+check "can we craft obsidian" "cannot be crafted"
+check "how many edition exist of minecraft" "Java Edition"
+check "how to make an iron pickaxe" "iron"
+check "describe amethyst shard" "amethyst"
 
 if [ "$fail" -ne 0 ]; then
   echo "CHAT SMOKE TESTS FAILED"

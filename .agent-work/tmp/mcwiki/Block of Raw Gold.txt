@@ -1,0 +1,65 @@
+A block of raw gold, internally known as a raw gold block, is a raw metal block equivalent to nine raw gold.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Blocks of raw gold can be mined only with an iron pickaxe or better.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Blocks of raw gold are a compact way to store raw gold. They cannot be smelted into a block of gold.
+
+
+=== Crafting ingredient ===
+
+
+=== Piglins ===
+Piglins run toward any block of raw gold item on the ground and inspect it for 6 seconds in Java Edition or 8 seconds in Bedrock Edition before putting it in their inventory. They become enraged if the player breaks a block of raw gold near them.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== Issues ==
+Issues relating to "Block of Raw Gold" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

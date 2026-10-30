@@ -1,0 +1,103 @@
+Suspicious stew is a food item that can give the player a status effect that depends on the flower used to craft it.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Harvesting ===
+Suspicious stew can be obtained by “milking” a brown mooshroom by using an empty bowl on it after using a small flower on it. The flower type determines the stew's effect using the same rule as a crafted stew. After being milked once, the brown mooshroom returns to producing mushroom stew until fed another small flower. Red mooshrooms do not produce suspicious stew.
+
+
+=== Trading ===
+
+The trading interface does not indicate the type of suspicious stew being sold, but each trade entry consistently yields the same type of stew, so the player can remember or make a note of the types offered by a given villager. In Bedrock Edition, due to MCPE-134483, all stews sold by farmers grant Night Vision for 5 seconds.
+
+
+=== Commands ===
+Suspicious stew can be given with commands like /give; in Java Edition, if the suspicious_stew_effect component is not specified, consuming the stew doesn't inflict any effect. In Bedrock Edition, different types of suspicious stews can be given by specifying its metadata value.
+
+
+== Usage ==
+
+
+=== Food ===
+
+To eat suspicious stew, press and hold use while it is selected in the hotbar. Eating one restores 6 () hunger and 7.2 hunger saturation and gives a few seconds of a status effect that varies depending on which flower was used to craft it. The effect is not displayed in the tooltip, texture, etc., unless the tooltip is viewed from the Creative inventory (including saved hotbars), meaning that the player cannot know in advance what the effect is without knowing which flower was used.
+
+The bowl is emptied and returned to the player after the suspicious stew has been eaten, and can be re-used to craft more stews. Unlike most foods, suspicious stew can be eaten even if the player's hunger bar is full.
+The Saturation effect makes the blue orchid and dandelion stews superfoods, especially in Java Edition, as the Saturation combined with the stew's initial food value results in the restoration of 13 ( × 6.5) hunger points and the maximization of saturation in Java Edition, and the restoration of 12 ( × 6) hunger points and 7.2 () saturation points in Bedrock Edition. This is the largest amount of hunger points that can be restored from eating once. In Java Edition, that also applies to saturation points, while in Bedrock Edition it is only the 9th highest item in terms of saturation point restoration. Regeneration can restore up to 2HP health, while Poison can inflict up to 8HP damage and Wither up to 3HP damage.
+Consuming suspicious stew is the only way to obtain the Saturation and Blindness effects in vanilla Minecraft without the use of commands.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+
+=== Metadata ===
+In Bedrock Edition, suspicious stew uses the following data values:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Suspicious Stew" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Suspicious stew was introduced because developers wanted a way of communicating that lilies of the valley are poisonous.
+As part of the Spookyfest campaign, a real life recipe for suspicious stew was made, using Pringles as ingredients.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,151 @@
+A big dripleaf is a plant that generates within lush caves. Its leaf is a temporary platform; when stood on, it tilts down and drops its burden, resetting a few seconds later. The leaf can be powered to prevent it from tilting.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Big dripleaves can be obtained with any tool, but an axe is fastest. It also breaks when pushed with a piston or sticky piston. Breaking it at any spot on the plant causes the entire plant to collapse. 
+Destroying a big dripleaf plant drops one big dripleaf for each stem block and the leaf.
+
+
+=== Natural generation ===
+Big dripleaves naturally generate within lush caves.
+
+
+=== Post-generation ===
+Bone meal can be used on a small dripleaf plant to turn it into a big dripleaf up to 5 blocks tall, as long as there is enough open space above it. Using bone meal on a big dripleaf plant makes it one block taller, creating an extra stem block (see #Growth).
+
+
+=== Renewability ===
+Wandering traders may sell small dripleaves for an emerald. Applying bone meal to small dripleaves turns them into big dripleaves, making them renewable.
+
+
+== Usage ==
+Big dripleaves consist of any number of non-solid stem blocks atop of each other and a single leaf as the uppermost block, which can be stood on by any entity like a normal block for 10 game ticks (0.5 seconds). After this time, it tilts down, becoming lower than a block and giving a player warning that it is about to collapse. After a 10 more game ticks, it tilts down and becomes temporarily non-solid. If the entity steps off the big dripleaf before it finishes starts tilting down, it still tilts down after the same amount of time. After 100 game ticks (5 seconds), the big dripleaf returns to its original position, and is again able to support any entity.
+One-block tall big dripleaves can be used to make the player crawl. If a player is standing inside a big dripleaf when it is fully tilted, and the dripleaf returns to the untilted position, the player is left crawling underneath the leaf.
+When directly hit with any projectile, the leaf immediately becomes temporarily non-solid.
+Frogs enjoy jumping on big dripleaves, although the dripleaf tilts down and drops the frog, unless the dripleaf is powered by redstone.
+
+
+=== Placement ===
+Big dripleaves can be placed only on top of clay, coarse dirt, dirt, farmland, grass blocks, moss blocks, mud, muddy mangrove roots, mycelium, podzol, and rooted dirt. Big dripleaves can also be placed underwater. A big dripleaf is always one block tall when placed.
+
+
+=== Growth ===
+Using bone meal on a big dripleaf makes it grow 1 block taller, unless there is a block above the leaf other than air or water. Unlike most plants, dripleaf does not grow by itself: bone meal must be applied for growth to occur.
+
+
+=== Composting ===
+Placing a big dripleaf into a composter has a 65% chance of raising the compost level by 1.
+
+
+=== Redstone ===
+
+When the leaf is powered by redstone, it does not tilt or collapse. However, redstone cannot prevent the leaf from being temporarily non-solid when being hit by a projectile. Powering the stem has no effect.
+In Bedrock Edition, big dripleaves and big dripleaf stems are conductive blocks, and it can only activate on the input/consume redstone tick (C-tick).
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+Leaf:
+
+Stem:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Big Dripleaf" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When tilted, the stem of the dripleaf intersects with the top part.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Java Edition ===
+
+
+==== Normal ====
+
+
+==== Partial tilt ====
+
+
+==== Full tilt ====
+
+
+==== Stem ====
+
+
+=== Bedrock Edition ===
+
+
+==== Normal ====
+
+
+==== Partial tilt ====
+
+
+==== Full tilt ====
+
+
+==== Stem ====
+
+
+=== Screenshots ===
+
+
+=== Concept artwork ===
+
+
+== References ==
+
+
+== Navigation ==

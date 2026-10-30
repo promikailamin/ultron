@@ -1,0 +1,28 @@
+A dent is a joke item exclusive to 24w14potato, used to craft a trident.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Plaguewhale slabs always drop dents upon death.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+
+== Issues ==
+Issues relating to "Dent" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

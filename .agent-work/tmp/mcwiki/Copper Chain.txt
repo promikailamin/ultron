@@ -1,0 +1,101 @@
+A copper chain is an oxidizing directional block and the copper variant of chains.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Copper chains can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+Copper chains share much of their functionality with their iron counterparts.
+
+
+=== Oxidation ===
+
+Non-waxed copper chains have four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation on copper chains. They can be waxed with honeycomb to prevent oxidation from progressing.
+As the block begins to oxidize (exposed), it gets discolored and green spots begin to appear. As the oxidation continues (weathered), the block is a green color with brown spots. In the last stage (oxidized), the block is teal with several green spots.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Chain" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Mojang screenshots ===
+
+
+=== Renders ===
+
+
+==== Unoxidized ====
+Java Edition
+
+Bedrock Edition
+
+
+==== Exposed ====
+Java Edition
+
+Bedrock Edition
+
+
+==== Weathered ====
+Java Edition
+
+Bedrock Edition
+
+
+==== Oxidized ====
+Java Edition
+
+Bedrock Edition
+
+
+== Navigation ==

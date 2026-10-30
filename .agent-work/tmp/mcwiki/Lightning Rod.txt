@@ -1,0 +1,110 @@
+A lightning rod is a block that, with sky access, causes natural lightning strikes in a large area to only target itself. Getting struck by lightning causes it to emit a redstone signal and, if it is not waxed, also reduces its level of oxidation.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A lightning rod must be mined with a stone pickaxe or better, or else it drops nothing.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Diverting lightning ===
+Lightning rods can be oriented in different directions. Lightning rods that are the highest block in the column redirect lightning strikes within a spherical volume, having a radius of 128 blocks in Java Edition and 64 blocks in Bedrock Edition. The block emits particles during thunderstorms as an indicator. If multiple lightning rods are in range, the closest to the original location of the strike is chosen.
+In order to divert lightning bolts, a lightning rod cannot have any block (excluding air)‌[JE  only] or blocks with a collision box‌[BE  only] at any position above its own.
+A lightning rod can be struck by lightning when hit by a trident enchanted with Channeling during thunderstorms. This can happen as long as the blocks above the lightning rod are fully transparent (do not block sky light).
+Lightning rods do not divert lightning created by a Channeling trident thrown at an entity, or lightning summoned by commands.
+Unlike in real life, a lightning rod doesn't require a direct connection to ground in order to work.
+Lightning strikes on lightning rods cannot summon skeleton trap horses.
+
+A lightning rod emits a redstone pulse, and strongly powers the block it's attached to, at level 15 for 8 game ticks (0.4 seconds) when struck by lightning. 
+Lightning diverted by a lightning rod inflicts lightning damage on mobs within a 6×12×6 volume centered 4 blocks above the bottom center of the lightning rod block (that is, extending 2 below and 9 above). 
+When a lightning rod is struck by lightning, the lightning has a chance to set fire to the surrounding blocks. In Java Edition, the lightning tries to set fire to a 3×3×3 volume around the air block directly above the lightning rod. Then, fire spawning conditions apply: The block itself must be air and is either on top of a block with a solid full top or is adjacent to a flammable block. 
+This creates a danger zone of a 2-block radius sphere around the air block directly above the lightning rod (this sphere is all the blocks adjacent to the 3×3×3 volume and the volume itself). However, two blocks within this sphere are never set on fire by the lightning - the lightning rod itself and the block on which it's placed.
+
+
+=== Oxidation ===
+
+Non-waxed lightning rods have four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation on lightning rods. They can be waxed with honeycomb to prevent oxidation from progressing.
+As the block begins to oxidize (exposed), it gets discolored and green spots begin to appear. As the oxidation continues (weathered), the block is a green color with brown spots. In the last stage (oxidized), the block is teal with several green spots.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+
+Java Edition:
+
+Bedrock Edition: None
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Lightning Rod" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+
+According to Minecraft Live 2020, Ulraf had the idea of lightning rods when a lightning strike burned down his wooden house.
+In Minecraft Dungeons, lightning rods can be found atop Roof of Woodland Mansion being used to create charged creepers.
+If /item replace is used to place a lightning rod on a player's head, the item appears upside-down and to the right of their head, somewhat resembling a robot's antenna.‌[Java Edition  only]
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== Development images ===
+
+
+== References ==
+
+
+== Navigation ==

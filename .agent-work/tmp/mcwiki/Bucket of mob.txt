@@ -1,0 +1,95 @@
+A bucket of mob is an item used to capture certain mobs inside of a bucket, allowing them to be stored or transported as items.
+They are either a small aquatic mob (a fish, axolotl, or tadpole) inside of a water bucket or a large sulfur cube inside of a bucket, obtainable by using a bucket or water bucket on the appropriate mob.
+
+
+== Types ==
+There are six bucket of mobs obtainable using a water bucket:
+
+Bucket of Axolotl
+Bucket of Cod
+Bucket of Pufferfish
+Bucket of Salmon
+Bucket of Tadpole
+Bucket of Tropical Fish
+There is one bucket of mob obtainable using an empty bucket:
+
+Bucket of Sulfur Cube
+
+
+== Obtaining ==
+A bucket of mob can be obtained by using a water bucket on an applicable aquatic mob or using a bucket on a large sulfur cube. Once a water bucket is used, the mob is picked up, along with the water source block for aquatic mobs. The mob bucket obtained corresponds to the mob picked up.
+
+
+=== Trading ===
+
+
+== Usage ==
+Pressing use with a bucket of mob places a water source block (in the case of aquatic mobs), and spawns the mob itself back into the world, leaving an empty bucket in the player's inventory.
+The mob's details (such as size or name) are kept. Placing a bucket of aquatic mob in the Nether causes the same particles to appear that generate when a normal water bucket is placed in the Nether, and the fish is spawned alone. 
+Mobs caught in buckets then released do not despawn, unlike mobs that spawn naturally in their aquatic environments.
+If a bucket of aquatic mob is inside a dispenser, the dispenser spawns the mob and water block (if applicable) in front of it upon activation, leaving an empty bucket inside. Dispensers cannot pick up aquatic mobs with water buckets (the bucket is emptied).
+
+
+=== Naming ===
+If a bucket of mob is named a certain name through an anvil, the mob inside displays that name as if it were named with a name tag, making fish, axolotls, and tadpoles the only mobs that can exist in item form, and be named without a name tag.‌[Java Edition  only] Alternatively, if a named mob is captured with a bucket of water, the resulting mob bucket shares a name with the captured mob.‌[Java Edition  only] If a named mob is captured in Bedrock Edition, the item is called "Bucket of <Name>".
+Tropical fish have assigned names depending on their color after they are caught, in Java Edition this name is displayed in smaller text under the main item name, whereas in Bedrock Edition the main item name displays "Bucket of <fish name>". Axolotls also have assigned names depending on their growth stage and color after they are caught.‌[Bedrock Edition  only]
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Bucket of Fish", "Bucket of Mob", "Bucket of Cod", "Bucket of Salmon", "Bucket of Pufferfish", "Bucket of Tropical Fish", "Bucket of Tadpole", or "Bucket of Sulfur Cube" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When a bucket or water bucket is transformed into a bucket of mob, it actually pushes the bucket texture down one pixel. According to Dinnerbone, JAPPA says this is due to the "weight of the fish".
+
+
+== Gallery ==
+
+
+=== Mojang screenshots ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Bucket of Fish"     by Duncan Geere  – Minecraft.net, March 26, 2020.
+
+
+== Navigation ==

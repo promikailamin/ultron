@@ -1,0 +1,58 @@
+Protection is an enchantment applied to armor that adds bonus damage reduction.
+
+
+== Obtaining ==
+Protection can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, librarian villagers, on armor dropped by various mobs, and non-village structure loot.
+
+
+== Usage ==
+Protection reduces the damage taken from all sources except for damage caused by hunger, a warden's sonic boom attack, the void or the /kill command.  This enchantment is capable of reducing damage from sources that normally ignore the user's armor value, such as falling or magic damage from status effects. 
+The formula for damage reduction is level × 4%, up to a maximum 16% reduction on a single item with Protection IV. If all items are enchanted with Protection IV this gives 64% general damage reduction. The protection enchantment is applied after the armor's damage reduction. The upper limit for damage reduction is capped at 80% (see armor enchantments). It can only be achieved for specific damage types with Fire Protection, Feather Falling, Blast Protection, and Projectile Protection, as each specific damage reduction is twice as effective as Protection. 
+You can achieve 80% with: 
+3 × Protection IV + 1 Specific Protection IV, giving you 48% general protection + 80% specific protection 
+2 × Protection IV + 2 Specific Protection IV, giving you 32% general protection + 80% specific protection 
+1 × Protection IV + 2 Specific Protection IV + Another Specific Protection IV, giving you 16% general protection + 80% specific protection + 48% another specific protection.
+The specific armor piece that Protection is applied to does not influence its strength. For example, applying it to leggings does not cause the player's legs to be more protected than the rest of their body.
+Unlike the Blast Protection and Fire Protection enchantments, Protection offers no side effects outside of damage reduction. If applied on wearable items that can't get the enchantment normally, such as a pair of elytra (using commands or an anvil in Creative mode), the enchantment works as usual.
+
+
+== Incompatibilities ==
+Protection, Blast Protection, Fire Protection, and Projectile Protection are mutually exclusive. Attempting to combine these enchantments with an anvil deletes the enchantment in the upgrade slot and replaces it with the enchantment in the sacrifice slot. However, if commands are used to force two or more of these enchantments on the same item, the effects stack. But when the total of the enchantment protection factor provided by the protection enchantments surpasses 20, the rest of these enchantments will no longer directly reduce the damage.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Protection" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

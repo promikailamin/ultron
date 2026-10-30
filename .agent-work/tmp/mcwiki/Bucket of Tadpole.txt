@@ -1,0 +1,58 @@
+A bucket of tadpole, also known as a tadpole bucket, is a tadpole inside of a water bucket. The color of water in the texture is changed to be similar to water in a swamp, which is  #617B64.
+
+
+== Obtaining ==
+A bucket of tadpole can be obtained by using a water bucket on a tadpole. Once a water bucket is used, the tadpole is picked up along with the water source block.
+
+
+== Usage ==
+Pressing use with a bucket of tadpole places a water source block, and spawns the tadpole back into the world, leaving an empty bucket in the player's inventory. Placing a bucket of tadpole in the Nether causes the same particles to appear that generate when a normal water bucket is placed in the Nether, and the tadpole is spawned alone.
+Tadpoles caught in buckets then released do not despawn, unlike mobs that spawn naturally in their aquatic environments. However, they still grow into frogs.
+If a bucket of tadpole is inside a dispenser, the dispenser spawns the tadpole and water block in front of it upon activation, leaving an empty bucket inside. Dispensers cannot pick up a tadpole when using a water bucket, due to the bucket being emptied instead.
+If a bucket of tadpole is named a certain name through an anvil, the tadpole inside displays that name as if it were named with a name tag.‌[Java Edition  only] Alternatively, if a named tadpole is captured with a bucket of water, the resulting bucket of tadpole shares a name with the captured tadpole.‌[Java Edition  only] If a named tadpole is captured in Bedrock Edition, the item is called "Bucket of <Name>".
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Gallery ==
+
+
+== Issues ==
+Issues relating to "Bucket of Tadpole" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

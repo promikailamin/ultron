@@ -1,0 +1,91 @@
+A polished blackstone button is a variant of the button that shares many common properties with stone buttons. Like stone buttons, a polished blackstone button is a non-solid block that produces a temporary redstone signal when pressed.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A polished blackstone button is most easily broken with a pickaxe. It drops itself as an item when broken using any tool.
+
+A button is removed and drops as an item if:
+
+its attachment block is moved, removed, or destroyed.
+water or lava flows into its space.‌[Java Edition  only]
+a piston tries to push it or moves a block into its space.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Placement ===
+Buttons can be placed by using it on a surface.
+They can be attached to the side, bottom and top of any full opaque block.
+If placed on the top or bottom of a block, the button can face any direction.‌[Java Edition  only]
+It can also be attached to the top of a fence in Bedrock Edition.
+More information about placement on transparent blocks can be found at Opacity/Placement.
+
+
+=== Redstone power ===
+A button can be used as a monostable redstone power source (it automatically deactivates shortly after being activated).
+Buttons are usually in an inactive state, but can be temporarily activated by players. A polished blackstone button can be activated by a player using it or when hit by a wind charge. Mobs cannot activate buttons directly.
+When activated, a polished blackstone button remains active for exactly 1 second (10 redstone ticks; 20 game ticks).
+While active, a button:
+
+powers any adjacent redstone dust to power level 15, including beneath the button
+powers any adjacent redstone comparators or redstone repeaters facing away from the button to power level 15
+strongly powers its attachment block to power level 15
+activates any adjacent mechanism components, including above or below, such as pistons, redstone lamps, etc.
+When a button changes state it provides a redstone update to all redstone components adjacent to itself (including above and below), and to all redstone components adjacent to its attachment block.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Polished Blackstone Button" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

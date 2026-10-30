@@ -1,0 +1,121 @@
+A calibrated sculk sensor is a craftable type of sculk sensor that functions similarly, but detects vibrations more often and from further away. Its amethyst-covered input side can be powered to make the sensor only detect vibrations from specific sources, depending on the signal strength used. Placing an amethyst block next to a calibrated sculk sensor allows it to "relay" detected vibrations to sculk sensors or other calibrated sculk sensors.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A calibrated sculk sensor can be broken with any tool, but hoes are the quickest. It drops itself only if mined with any tool enchanted with Silk Touch. If mined with a non-Silk Touch tool, it drops 5 experience instead.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+When a calibrated sculk sensor detects a vibration, it is activated and emits redstone signal in every direction (including top and bottom), except the side with the amethyst stripe. The redstone signal emitted from the bottom will strongly power the block below the sensor, whereas in all other directions (excluding the side with the amethyst stripe) it is as though the sensor itself is the strongly powered block. 
+
+The calibrated sculk sensor is different from the basic sculk sensor in multiple ways:
+
+can detect vibrations within a distance of 16 blocks, instead of 8.
+is activated for 10 game ticks after detecting a vibration instead of 30 game ticks
+can be filtered (see below) to react only to some sounds.
+one side does not emit a redstone signal when activated (the side with the amethyst stripe).
+When a calibrated sculk sensor detects a vibration, it is activated for 10 game ticks, then has a 10 game tick cooldown before it can detect another vibration. This means that a calibrated sculk sensor can detect a vibration once every 1.05 seconds, as opposed to once every 2.05 seconds for a regular sculk sensor. (Plus 0.05 for every block of distance from the vibration past the first.)
+A calibrated sculk sensor can activate a sculk shrieker within a distance of 8 blocks and if the sculk shrieker is naturally generated, it can cause a warden to spawn.
+
+
+=== Filtering ===
+
+When a redstone signal powers a calibrated sculk sensor on its crystalized side, the sensor is filtered to respond only to vibrations that match the strength of that signal. Every vibration in the game has a frequency associated with it, and every vibration frequency directly matches a specific redstone signal strength. For example, a vibration with a frequency of 5 matches the redstone signal with a strength of 5.
+Some events can create multiple vibrations simultaneously. For example, eating most food items creates vibrations of frequency 3 (item interaction) and 8 (entity eats). Hitting the ground and taking fall damage creates vibrations of frequency 2 (hit ground) and 7 (entity damage). Using a redstone signal, the sensor can be filtered to detect either frequency. If no redstone signal is provided, the sensor detects the highest frequency.
+
+
+==== Vibration frequency ====
+
+Each vibration in the game falls under a certain frequency value. This value can be measured with a comparator. With the right contraption utilizing a calibrated sculk sensor or sculk sensor, the player could detect if a certain action has occurred or is occurring  nearby.
+
+
+=== Piston interactivity ===
+Calibrated sculk sensors cannot be moved by pistons or sticky pistons.
+
+
+=== Vibration resonance ===
+When a calibrated sculk sensor detects a vibration, any adjacent block of amethyst re-emits a vibration of the same frequency that the calibrated sculk sensor detected, which can be detected by sculk sensors and other calibrated sculk sensors.
+If the calibrated sculk sensor is filtered, the block of amethyst re-emits only the vibrations matching the filtered redstone signal strength.
+
+
+=== Shape of detection bubble ===
+For reference, here is the range of a calibrated sculk sensor at each y-level:
+
+
+== Sounds ==
+A calibrated sculk sensor is silent if waterlogged. It can still detect vibrations (and transmit them to blocks of amethyst and sculk shriekers), but does not produce audible sounds nor the associated subtitles.
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A calibrated sculk sensor has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Mention ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Calibrated Sculk Sensor" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,143 @@
+A lectern is a block used to display a book and quill or written book for reading. Turning a page triggers a redstone pulse. It also serves as a librarian's job site block.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Lecterns can be broken with any tool, but an axe is the fastest. Lecterns drop themselves and the book they are holding.
+
+
+=== Natural generation ===
+Empty lecterns can generate naturally in village libraries, up to two for some library variants.
+One lectern generates as part of each ancient city, in the secret room at the city center.
+
+
+=== Crafting ===
+
+
+== Usage ==
+Lecterns are the job site block of librarian villagers.
+Librarian villagers do not place books into lecterns. They only stare at the lectern from less than a block away as "working".
+
+
+=== Holding books ===
+
+Lecterns can also hold a single book and quill or written book that other players can read at the same time. Right-clicking an empty lectern  with a book and quill or written book places it. Right-clicking a lectern that already has a book opens an interface to read the book. Books occupying a lectern can be retrieved through the interface,‌[Java Edition  only] by punching the lectern,‌[Bedrock Edition  only] or by destroying the lectern, even when the block_drops‌[JE  only] or dotiledrops‌[BE  only] game rule is false.
+Lecterns cannot hold enchanted books or normal books. Instead, right-clicking the lectern with an enchanted book or a normal book does nothing and the book won't be placed.
+
+
+=== Profession ===
+
+If a lectern has not been claimed by a villager, any nearby unemployed villager (excluding nitwits) has a chance to change its profession to librarian and claim the lectern as its job site block.
+
+
+=== Redstone signal ===
+Lecterns holding a book emit a full-strength redstone pulse that is 2 game ticks long when a page is turned. A redstone comparator also records book reading and sends a signal, depending on what page the player is currently on. Since Bedrock Edition displays two pages of the book at once, the same signal strength increments require double the number of pages.
+
+
+==== Java Edition ====
+
+A book with only 1 page gives maximum signal strength, however page 1 always gives 1 signal strength if the book contains at least 2 pages.
+To calculate the signal strength S of a book with more than 1 page, use the following formula: 
+S=⌊1+14(P−1)M−1⌋
+Where ⌊⌋ is the "floor" operation (round down), M is the maximum number of pages the book on the lectern has, and P is the current page number the lectern is turned to.
+This is most noticeable when a book has 2 pages where the signal strength is either 1 on page 1 or 15 on page 2.
+A book that would step signal strength up or down in increments of 1 per page would be 15 pages long.
+The following Python program prints all possible pairs of two values to achieve a certain signal strength, with the first being the page number to be on and the second being the total number of pages.
+
+
+==== Bedrock Edition ====
+Odd pages are not taken into account by the game when calculating the comparator output of a book; for example, a book with 9 pages has a signal strength of 15 when looking at either pages 7-8 or page 9. Books with 3 pages are treated the same as those with 1 or 2 pages (the same as how Java Edition would treat a book with just 1 page).
+For books that are longer than 1 page, use the following formula to calculate the signal strength:
+S=⌊1+14(P′)M′⌋
+In this case M′ is the total amount of pages, if it's even—otherwise the total amount of pages minus one should be used instead. P′ is the number of the right page currently displayed on the book interface, if available—otherwise the number of the left page minus one should be used instead.
+A book that steps signal strength up or down in increments of 1 per page turned must be exactly 30 pages long.
+
+
+=== Fuel ===
+Lecterns can be used as fuel in furnaces to smelt 1.5 items.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A lectern has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== History ==
+
+
+=== Development and announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Lectern" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Lectern"     by Duncan Geere  – Minecraft.net, November 23, 2023.
+
+
+== Navigation ==

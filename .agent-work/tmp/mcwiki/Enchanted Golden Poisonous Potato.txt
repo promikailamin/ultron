@@ -1,0 +1,37 @@
+An enchanted golden poisonous potato is a food item, exclusive to 24w14potato, that grants Absorption, Bad Luck, Luck, and Poison when consumed.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+To eat an enchanted golden poisonous potato, press and hold use while it is selected in the hotbar. It restores 2 () points of hunger and 9.6 hunger saturation.
+Unlike most foods, enchanted golden poisonous potatoes can be eaten even if the hunger bar is full.
+The enchanted golden poisonous potato provides:
+
+Absorption IV for 2 minutes (providing 16HP × 8 points of absorption health)
+Poison VIII for 20 seconds (dealing 20HP × 10 damage)
+Luck and Bad Luck for 5 minutes
+Damage from Poison can be reduced by armor with Protection or Resistance effect, resulting in net gain of health points.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+== Issues ==
+Issues relating to "Enchanted Golden Poisonous Potato" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Trivia ==
+The crafting recipe is a reference to the old crafting recipe of the enchanted golden apple.
+The item texture is raw gold, with the poisonous potato sprouts overlaid on it.
+
+
+== Navigation ==

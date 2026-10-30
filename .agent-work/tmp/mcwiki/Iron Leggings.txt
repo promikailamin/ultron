@@ -1,0 +1,104 @@
+Iron leggings are a variant of leggings that are crafted from iron ingots. They are the third-highest tier of leggings, having higher armor points than chainmail leggings.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor, which may include iron leggings. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the leggings they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped leggings are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+In Bedrock Edition, vindicators and pillagers spawning in raids have a 4.16% chance (5.128% on hard difficulty) to drop a pair of iron leggings. The dropped leggings are usually badly damaged, and have a 50% chance of being enchanted with a random enchantment.
+
+
+=== Trading ===
+
+
+== Usage ==
+When worn, iron leggings provide 5 () armor points.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+Two damaged pairs of iron leggings can be combined through crafting, using the grindstone or the anvil. The durability of the used iron leggings is added together, plus an extra 5% durability.
+Crafting and using the grindstone do not keep the enchantments of either leggings.
+
+Using the anvil preserves enchantments, but costs experience.
+
+
+==== Anvil repair ====
+Iron leggings can also be repaired in an anvil by adding iron ingots, with each ingot restoring 25% the leggings' maximum durability, rounded down. This preserves the leggings' enchantments, but costs experience.
+
+
+=== Enchantments ===
+Iron leggings have an enchantability of 9.
+Leggings can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a leggings, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+=== Smelting ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Before Minecraft ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Iron Leggings" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== References ==
+
+
+== Navigation ==

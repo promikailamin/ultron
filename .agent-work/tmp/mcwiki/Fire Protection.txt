@@ -1,0 +1,51 @@
+Fire Protection is an enchantment applied to armor that reduces damage received from fire. It also reduces burning time.
+
+
+== Obtaining ==
+Fire Protection can be obtained from enchanting tables, books from fishing, vaults in trial chambers, drops from mobs spawned in raids,‌[Bedrock Edition  only] librarian villagers, and non-village structure loot.
+
+
+== Usage ==
+Fire Protection reduces all sources of fire damage the user takes, including but not limited to: fire, lava, magma blocks, lit campfires, and from mobs that deal fire damage (blaze's projectile, flaming arrows, burning zombies). This enchantment is capable of reducing any fire damage that would normally be ignored by armor. Fire Protection has the side effect of reducing burn time when set on fire by (15 × level)%, up to a maximum 60% reduction on a single item with Fire Protection IV. This effect can stack on multiple armor pieces. This means that players wearing a total Fire Protection level of at least 7 have a 100% burn time reduction, effectively making them fireproof.
+Fire damage is defined as any damage type in the minecraft/tags/damage_type/is_fire tag. Damage caused by close contact from blazes and magma cubes is considered melee damage and cannot be reduced by Fire Protection. Fire Protection doesn't reduce damage from ghast fireballs as contact is considered projectile damage and the resulting blast is considered explosive damage. However, it does mitigate effects from leftover blocks of fire from the blast. Custom damage types defined by data packs can be added to this tag to allow such damage dealt through the /damage command to be reduced by Fire Protection. The formula for fire damage reduction is (8 × level)%, up to a maximum 32% reduction on a single item with Fire Protection IV. The reduction stacks with multiple pieces of armor enchanted with Fire Protection.
+The specific armor piece that Fire Protection is applied to does not influence its strength. For example, applying it to leggings does not cause the player's legs to be more protected against fire damage than the rest of their body.
+Damage reduction from Protection, Fire Protection, Feather Falling, Blast Protection, and Projectile Protection stacks up to an upper limit cap of 80% (see armor enchantments). Any further damage reduction that would take place is instead ignored. This cap can be reached with a total of 10 combined levels of Fire Protection, or by combining 12 levels of Protection with 4 levels of Fire Protection.
+
+
+== Incompatibilities ==
+Protection, Fire Protection, Blast Protection, and Projectile Protection are mutually exclusive on a specific piece of armor. Attempting to combine these enchantments with an anvil deletes the enchantment in the upgrade slot and replace it with the enchantment in the sacrifice slot. However, if commands are used to force two or more of these enchantments on the same item, the effects stack. But when the total  EPF provided by the enchantments surpass 20, the rest of the enchantments will no longer directly reduce damage.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Fire Protection" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

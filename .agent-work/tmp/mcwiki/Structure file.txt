@@ -1,0 +1,36 @@
+A structure file (also called structure template) is an NBT file that stores small structures of blocks and entities. Structure files are used to store some structures such as end cities, igloos, and fossils.
+
+
+== Usage ==
+
+
+=== Java Edition ===
+Structure files are stored as .nbt files in data packs in the  data/<namespace>/structure folder.
+They can be saved and loaded using the Structure Block. When saved from Structure Blocks they are saved into the generated/<namespace>/structure subfolder in the world save folder. When no namespace is given, then the minecraft namespace is used.
+Structure files can also be placed using the /place template command. They are also used during the generation of some structures and of fossil features.
+
+
+==== Prebuild structures ====
+
+
+=== Bedrock Edition ===
+Structure files are stored using the NBT format in the game files. In behavior packs, they are stored as .mcstructure files in the structures/<namespace> folder.
+
+
+==== Prebuild structures ====
+
+
+== NBT structure ==
+All the specified positions are relative to the block located toward  -X, -Y, -Z.
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Navigation ==

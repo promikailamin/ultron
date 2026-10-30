@@ -1,0 +1,50 @@
+The copper sink is a joke block exclusive to Java Edition 23w13a_or_b. It can appear only if the minecraft:copper_sink vote is active. It can be used to hold water and to delete copper-based blocks and items.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A copper sink does not have an associated tool to break it. It also cannot be dropped with Silk Touch.
+
+
+=== Crafting ===
+(Unlock this by voting minecraft:copper_sink.)
+
+
+== Usage ==
+A copper sink can be filled with water by using a water bucket on the sink. Interacting with a filled sink using a bucket empties the sink and fills the bucket. Bottles cannot be used on the copper sink, nor can buckets with other liquids.
+Dropping any exclusively copper-based item into the sink deletes the item, including Raw Copper, Copper Ingot, Block of Copper, and other copper sinks.
+Copper sinks cannot be oxidized or waxed, unlike most other copper-based items.
+
+
+== Sounds ==
+
+
+=== Generic ===
+
+
+=== Unique ===
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Issues ==
+Issues relating to "Copper Sink" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Trivia ==
+The copper sink block is a joke referring to the Minecraft community's request that Mojang Studios add a copper "sink" (in video game development language, a "sink" refers to a gameplay feature that requires constant resource investment, preventing players from hoarding resources), as copper ingots had few uses at the time compared to other similar items like iron ingots.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

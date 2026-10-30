@@ -1,0 +1,31 @@
+Poisonous potato fries are a joke food item, exclusive to 24w14potato, obtained by smelting poisonous potato sticks.
+
+
+== Obtaining ==
+
+
+== Usage ==
+
+
+=== Food ===
+To eat poisonous potato fries, press and hold use while it is selected in the hotbar. Eating one restores 10 () hunger and 12 saturation. Unlike unprocessed poisonous potato, fries do not cause Poison.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+
+== Advancements ==
+
+
+== Issues ==
+Issues relating to "Poisonous Potato Fries" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

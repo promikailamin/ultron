@@ -1,0 +1,97 @@
+A copper axe is a variant of axe crafted from copper ingots. It can be used to cut down trees faster, to strip logs and scrape copper-based blocks, and as a melee weapon that disables shields. It is the fourth-highest tier of axe, having higher mining efficiency, durability, and enchantability than a stone axe.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Breaking ===
+Copper axes can break wood-related blocks faster than other tools. Breaking a block costs 1 durability. Blocks that break instantly don't use up durability.
+
+
+=== Stripping ===
+Using a copper axe on a log, wood block, or block of bamboo turns it into a stripped log, stripped wood, or block of stripped bamboo, respectively. This uses 1 point of the axe's durability.
+
+
+=== Scraping ===
+Using a copper axe on a waxed or oxidized copper block removes the wax if it has any, or otherwise removed a level of oxidization. This uses 1 point of durability.
+
+
+=== Weapon ===
+
+
+==== Java Edition ====
+Attacking a shield user with an axe disables the use of the shield for 5 seconds. Vindicators, piglin brutes, or other mobs with commands always disable the player's shield. Damage done when using an axe as a weapon is more than that of a sword of the same tier, though they take longer than a sword to recover, resulting in lower DPS.
+
+
+==== Bedrock Edition ====
+Copper axes attack instantly with no cooldown and deal 5HP damage.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A copper axe can be repaired in an anvil by adding copper ingot, with each ingot restoring 25% of the axe's maximum durability, rounded down. Two copper axes can also be combined in an anvil. Both methods preserve the axe's enchantments.
+
+
+=== Enchantments ===
+A copper axe can receive the following enchantments:
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition
+
+Bedrock Edition
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Axe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

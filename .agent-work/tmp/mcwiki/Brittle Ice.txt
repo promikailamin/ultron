@@ -1,0 +1,112 @@
+Brittle ice is a variant of ice that cracks and breaks when stepped or stood on. It is naturally found as part of crevasses in ice caves.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Brittle ice can be destroyed easily without tools, but the use of a pickaxe speeds up the process. Brittle ice will only drop itself when mined with a tool enchanted with Silk Touch, otherwise it will drop nothing. Unlike frosted ice, brittle ice does not create a water source block when broken without Silk Touch.
+
+
+=== Natural generation ===
+Brittle ice generates in ice caves, covering its crevasses.
+
+
+=== Post-generation ===
+When water touches a block of blue ice horizontally, the water is replaced with brittle ice.
+
+
+== Usage ==
+Brittle ice breaks after being stood on by a player, mob (excluding frostbites and strays), armor stand, or mannequin‌[Java Edition  only] for 3.6 seconds. It advances its breaking stage every 1.2 seconds (24 game ticks) when stood on. If the entity standing on the brittle ice gets off, it will retain its breaking stage, but it will not crack further until an entity stands on it again. When an entity initially gets onto a brittle ice block, it advances its first stage immediately before the 1.2 second cooldown is applied between the other stages. This is also true if the ice is not on its first stage. If it has been pre-cracked to its final stage, for example, then the next entity to walk on it will cause it to instantly break. 
+Entities will still cause brittle ice beneath them to break if they are standing on a block that is less that a quarter of a block tall (such as a carpet, 1-2 snow layers or a trapdoor).
+Any other entity such as boats, minecarts, cushions, item frames, projectiles and dropped items do not cause brittle ice beneath them to crack. This is also true if there is a player in the boat or minecart or on the cushion.
+Once brittle ice is fully broken, any adjacent brittle ice blocks will progress one stage of cracking.
+Mobs standing on top of brittle ice will still cause it to break even if the mob_griefing‌[JE  only] or mobgriefing‌[BE  only] game rule is false. Entities summoned without gravity using commands will also be unable to break the ice.
+Unlike frosted ice, brittle ice does not create a water source block when it breaks fully. It also does not melt when near a light source.
+
+
+=== Speed ===
+
+Boats can travel on brittle ice with a top speed of 40 m/s, the same as ice, packed ice and frosted ice.
+
+
+=== Piston interactivity ===
+Brittle ice is destroyed when pushed by pistons. It does not stick to sticky pistons, slime blocks or honey blocks.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Models ===
+
+
+==== Model definition ====
+
+
+==== Block states definition ====
+
+
+==== State combinations ====
+
+
+==== Item definition ====
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Brittle Ice" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+== See also ==
+Frosted Ice
+
+
+== Notes ==
+
+
+== Navigation ==

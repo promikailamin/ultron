@@ -1,0 +1,59 @@
+A heart of the sea is an item found only in buried treasure chests. It, alongside nautilus shells, is required to craft a conduit.
+
+
+== Obtaining ==
+A heart of the sea is only obtained from a buried treasure. The location is marked with a noticeable red X on a buried treasure map, which is found in ocean ruins and shipwrecks.
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Crafting ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Heart of the Sea" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Before the heart of the sea was added to Bedrock Edition, there was an entry found in the buried treasure chest loot table named nautilus_core, which was later revealed to be the heart of the sea. Despite the name change, the heart of the sea continues to be referred to as the nautilus_core in most game files.
+
+
+== External links ==
+"Taking Inventory: Heart of the Sea"     by Duncan Geere  – Minecraft.net, August 31, 2023.
+
+
+== See also ==
+Nautilus Shell
+Conduit
+Conduit Power
+
+
+== Navigation ==

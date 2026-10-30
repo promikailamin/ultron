@@ -1,0 +1,224 @@
+Lingering potions are variants of splash potions that can be thrown to leave clouds with status effects that linger on the ground in an area.
+
+
+== Variants ==
+Base potions
+
+Lingering Water Bottle
+Lingering Awkward Potion
+Lingering Mundane Potion
+Lingering Thick Potion
+Effect potions
+
+Lingering Potion of Night Vision
+Lingering Potion of Invisibility
+Lingering Potion of Leaping
+Lingering Potion of Fire Resistance
+Lingering Potion of Swiftness
+Lingering Potion of Slowness
+Lingering Potion of the Turtle Master
+Lingering Potion of Water Breathing
+Lingering Potion of Healing
+Lingering Potion of Harming
+Lingering Potion of Poison
+Lingering Potion of Regeneration
+Lingering Potion of Strength
+Lingering Potion of Weakness
+Lingering Potion of Slow Falling
+Lingering Potion of Wind Charging
+Lingering Potion of Weaving
+Lingering Potion of Oozing
+Lingering Potion of Infestation
+Lingering Potion of Freezing​[upcoming: Fourth Drop 2026]
+Lingering Potion of Luck‌[Java Edition  only]
+Lingering Potion of Decay‌[Bedrock Edition  only]
+
+
+== Obtaining ==
+
+
+=== Brewing ===
+
+
+=== Generated loot ===
+
+
+=== Natural occurrence ===
+
+During ominous trials, each ominous trial spawner has an equal chance to randomly dispense one of these lingering potions on top of either a player or a mob it spawns:
+
+Wind Charged
+Oozing
+Weaving
+Infested
+Strength
+Speed
+Slow Falling
+These lingering potions are directly dispensed into the world and cannot be obtained in the inventory.
+
+
+== Usage ==
+
+
+=== Creating area effect clouds ===
+
+Lingering potions are thrown, like splash potions, by using them. On impact they break, and after a second they create a lingering cloud with their effect. The cloud is made of the potion particles corresponding to the potion that was thrown. Unlike splash potions, lingering potions do not activate their effect immediately on impact.
+The cloud starts with a radius of 3 blocks, decreasing to 0 over the course of 30 seconds. During the cloud's existence, any player or mob that walks into it after the first second gets the corresponding status effect; this decreases the radius by a 1⁄2 block immediately, reducing the cloud's lifespan by 5 seconds.
+For effects with duration, the duration applied by the cloud is 1⁄4 that of the corresponding potion. For effects without duration such as healing or harming, the potency of the effect is 1⁄2 that of the corresponding potion.
+The effect may be applied consecutively if the player or mob remains in the cloud. For example, a player throwing the Lingering Potion of Healing II straight down consumes the cloud within a few seconds while being healed 5 times for a total of 20HP × 10 health. As far as healing is concerned, this makes the lingering potion much more powerful than the regular or splash potion, provided that the player is away from other mobs or players.
+Lingering potions can also be thrown out of dispensers like splash potions.
+In Java Edition, creepers with potion effects will explode with their effect dropped as if a lingering potion was thrown.
+
+
+=== Lingering water bottle ===
+Like the splash water bottle, a lingering water bottle puts out fire, damages endermen, blazes, striders, and snow golems by 1HP, and restores 1800 game ticks (90 seconds) of air to axolotls. In Java Edition, it creates no effect cloud, while in Bedrock Edition it creates an effect cloud that extinguishes burning entities that walk into it. In Bedrock Edition, a lingering awkward, mundane, or thick potion acts similar to the lingering water bottle, being able to extinguish burning entities and damage endermen, blazes, and snow golems, but without the ability to put out fires.
+
+
+==== Mud ====
+Lingering water bottles can be used on dirt, coarse dirt, or rooted dirt to turn it into mud.
+
+
+=== Crafting ingredient ===
+
+
+=== Filling cauldrons ===
+In Bedrock Edition, using a lingering potion on a cauldron adds one level of that potion to the cauldron. Attempting to add a lingering potion to a cauldron with water, dyed water or a non-matching potion empties the cauldron and creates an explosion sound (but no actual explosion).
+
+
+=== Uncraftable lingering potion ===
+In Java Edition, the uncraftable lingering potion is a lingering potion with no effect that is unobtainable in survival mode. It is also available in potion and splash potion forms, as well as for tipped arrows.
+It can be obtained using the following command: /give @s minecraft:lingering_potion. It is also obtained when a lingering potion has invalid or missing potion effect tags, and thus serves as a placeholder.
+
+
+== Behavior ==
+
+
+=== Motion ===
+
+
+==== Thrown by player ====
+When thrown by a player, a lingering potion has an initial speed of about 0.5 blocks/tick with a slight initial pitch angle deflection of –20°. Its movement follows the ticking order of acceleration, drag, and position, which can be simulated to predict the overall trajectory. Below is a calculator to predict the initial conditions in order to hit a desired coordinate:
+
+
+==== Shot by dispenser ====
+Lingering potions shot by dispensers behave in the exact manner as when they were thrown by a player, with the only difference in their initial conditions. The initial position of lingering potions when shot by a dispenser offsets exactly 0.7 blocks forward and 0.1 blocks higher from the center of the block. Their initial speed is slightly randomized, which averages to about 1.375 block/tick.
+
+
+=== Collisions ===
+
+Thrown lingering potions collide with blocks according to their collision box. They also collide with entities, but with the entities' collision box inflated to about 0.3 blocks in every direction. They collide with all living entities, including minecarts, boats, end crystals, falling blocks, and TNT.
+
+
+== Custom effects ==
+
+In Java Edition, lingering potions can be obtained with any status effect using /give and the potion_contents data component.
+
+
+== Sounds ==
+Java Edition:
+Lingering potions use the Friendly Creatures sound category for entity-dependent sound events.
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Metadata ===
+In Bedrock Edition, lingering potions use the following item data values to indicate the kind of potion:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Thrown potion ===
+
+
+==== ID ====
+Java Edition:
+
+Bedrock Edition:
+
+
+==== Entity data ====
+
+Lingering potions when thrown have entity data that define various properties of the entity.
+
+
+=== Area effect cloud ===
+
+
+==== ID ====
+Java Edition:
+
+Bedrock Edition:
+
+
+==== Entity data ====
+
+The cloud that is created when: lingering potions are thrown; creepers with potion effects explode; dragon fireballs hit the ground, is an entity, which has entity data that defines the properties of the entity.
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Lingering Potion" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+A thrown lingering potion faces toward the player in first-person view while it appears rotated horizontally in third-person view. This is the case for all throwable items (ender pearls, eggs, snowballs, and all throwable potions).
+The Lingering Potion of the Turtle Master has the longest item name in the game.
+It's also composed of 6 words, more than any other item in the game other than items and books named through an anvil.
+"Polished Blackstone Pressure Plate" is the current longest name for a block tied with "Cracked Polished Blackstone Bricks" (34 characters with spaces, 31 without).
+The record holders in Minecraft Education are "Hardened Light Blue Stained Glass Pane" and "Hardened Light Gray Stained Glass Pane" (both at 38 with spaces, 33 without).
+Throughout Minecraft's history, the longest named block is the Quadruple Compressed Poisonous Potato Block in the Java Edition 24w14potato snapshot with a length of 43 characters with spaces and 39 without.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+== See also ==
+ Brewing
+Glass Bottle
+Potion
+Splash Potion
+
+
+== References ==
+
+
+== Navigation ==

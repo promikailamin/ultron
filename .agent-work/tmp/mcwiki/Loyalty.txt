@@ -1,0 +1,67 @@
+Loyalty is an enchantment applied to tridents that causes a thrown trident to fly back to the player who threw it after it lands.
+
+
+== Obtaining ==
+Loyalty can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, librarian villagers, and non-village structure loot.
+
+
+== Behavior ==
+
+The speed of returning depends on the level. When the trident hits an entity or 5 ticks (0.25 seconds) after hitting a block, the trident will begin returning. When returning, it travels at a maximum speed of 56⋅level block per tick (503⋅level blocks per second), meaning about 0.83 blocks per tick (16.67 blocks per second) at level I, about 1.67 blocks per tick (33.33 blocks per second) at level II, and 2.5 blocks per tick (50 blocks per second) at level III.
+When the player is traveling between dimensions, the trident attempts to return to the player but stays in the current dimension. For example, if a player throws a Loyalty-enchanted trident while in the Nether and goes to the Overworld before the trident returns, the trident stays in the Nether and does not despawn. As soon as the player returns to the Nether, the trident resumes returning to the player.
+A returning trident travels to its owner in a straight line, and can phase through all blocks and entities without hitting them. If the trident attempts to return to the player while their inventory is full, it starts circling around the player indefinitely, until an inventory slot is freed up. Multiple returning tridents can circle around a player simultaneously.
+If the player dies or goes into spectator mode while the trident is returning, the trident then drops in item form and is susceptible to despawning. If the trident was thrown in Creative mode when this happens, it disappears entirely.
+
+
+== Usage ==
+When a trident enchanted with Loyalty is thrown and comes into contact with any block or entity, it returns after a time interval to the player who threw it. Higher enchantments decrease the waiting time to return.
+In Java Edition, throwing a trident into the void effectively destroys the trident; it never returns because there are no blocks or entities for it to hit.​[until: JE Edition Combat Tests] In Bedrock Edition, the trident returns after traveling around 15 blocks in the void. A Loyalty-enchanted trident does not return when thrown by a dispenser.‌[BE  only] If a Loyalty-enchanted trident is shot into the void by a dispenser, it does not despawn immediately like a normal trident would.
+Loyalty functions normally up to level 95. However, in some scenarios, higher levels of Loyalty will cause tridents to overshoot, increasing the time it takes for the trident to return and even preventing them from completing the return at all.
+
+
+== Incompatibilities ==
+Loyalty and Riptide are mutually exclusive. If the two are combined via commands, Riptide takes priority and Loyalty is negated.
+
+
+== Sounds ==
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Java Edition Combat Tests ===
+
+
+== Issues ==
+Issues relating to "Loyalty" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

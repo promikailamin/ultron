@@ -1,0 +1,58 @@
+A cinnabar slab is a decorative slab variant of cinnabar used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cinnabar slabs drop as an item if mined by any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cinnabar Slab" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

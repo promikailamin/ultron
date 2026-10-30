@@ -1,0 +1,123 @@
+A diamond pickaxe is a variant of pickaxe that is crafted from diamonds. It is the second-highest tier of pickaxe, having higher mining efficiency, durability, and attack damage than an iron pickaxe. It has a mining level of 3, allowing it to mine obsidian and ancient debris. It can be upgraded into a netherite pickaxe using a netherite ingot and netherite upgrade at a smithing table.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Mining ===
+A diamond pickaxe is used to break stone and metal-based materials faster. Breaking a block with a diamond pickaxe consumes one durability point. No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers.
+
+
+==== Mining level ====
+Diamond pickaxes have a mining level of 3. A diamond pickaxe or better is required to mine the following blocks:
+
+Obsidian
+Crying Obsidian
+Respawn Anchor
+Ancient Debris
+Block of Netherite
+Glowing Obsidian‌[Bedrock Edition  only]
+
+
+=== Weapon ===
+
+
+==== Java Edition ====
+All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.85 seconds to recover. Diamond pickaxes do 5HP damage per attack, or 6 damage per second.
+
+
+==== Bedrock Edition ====
+All pickaxes attack instantly, with diamond pickaxes doing 6HP damage per attack.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A diamond pickaxe can be repaired in an anvil by adding diamonds, with each diamond restoring 390 durability. Two diamond pickaxes can also be combined in an anvil. Both methods preserve the pickaxe's enchantments.
+
+
+=== Enchantments ===
+A diamond pickaxe can receive the following enchantments:
+
+
+=== Upgrading ===
+Like other diamond tools, a diamond pickaxe can be upgraded to a netherite pickaxe, increasing its durability and slightly increasing its mining speed, as well as granting resistance to fire and lava when dropped as an item. The upgraded pickaxe will keep its enchantments, name and other item data.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Diamond Pickaxe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+
+
+=== Publicity ===
+Plastic diamond pickaxes are official Minecraft merchandise.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,68 @@
+Chiseled tuff bricks are a variant of tuff bricks. Its design features a large brick in the center of the block, with geometric patterns above and below.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Chiseled tuff bricks drop as an item if mined by any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Chiseled tuff bricks generate naturally in trial chambers.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+Chiseled tuff bricks are a decorative block.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Chiseled Tuff Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== Navigation ==

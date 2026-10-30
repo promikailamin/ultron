@@ -1,0 +1,22 @@
+Follow Me is a joke item exclusive to 26w14a.
+
+
+== Obtaining ==
+It is automatically obtained and appears in the hotbar when the player starts up a world. It also appears in the hotbar after the player dies.
+
+
+== Usage ==
+Right-clicking living blocks with this item adds them to a group, and left-clicking leashes all the blocks in the group.
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Issues ==
+Issues relating to "Follow Me" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

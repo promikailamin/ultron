@@ -1,0 +1,97 @@
+Budding amethyst is a fragile block found in amethyst geodes that grows amethyst clusters over time. It drops nothing if it breaks, and cannot be moved from where it is found. 
+
+
+== Obtaining ==
+Budding amethyst can only be obtained via the Creative inventory or with commands.It is unobtainable in Survival; using a tool enchanted with Silk Touch does not drop anything.
+
+
+=== Breaking ===
+The suitable tool to break budding amethyst is a pickaxe.
+
+Budding amethyst drops nothing when it is destroyed.
+
+
+=== Natural generation ===
+Budding amethyst generates naturally as part of amethyst geodes, replacing 8.3% of the blocks of amethyst in the innermost layer of the geode.
+
+
+== Usage ==
+
+
+=== Growing into amethyst clusters ===
+An amethyst bud placed on a budding amethyst (rather than any other block) grows over time, regardless whether it was placed by the player or spawned by the budding amethyst itself. That bud goes through three growth stages – small, medium, and large – before reaching its 4th and final growth stage as an amethyst cluster, which drops amethyst shards when mined.
+In Java Edition, the below logic can be applied:
+
+Per random tick, updates will occur to any given block in the loaded chunk every 68.27 seconds on average.
+Choose one randomly-selected side of the six-sided block. This random choice is done without considering if growth is possible, so if a direction is chosen that cannot grow an amethyst bud, the random tick does not perform any work.
+There is a 20% chance to either create a new amethyst bud in air or still water, or to increment the growth stage of an existing amethyst bud, if that bud is attached directly to this block (two adjacent budding amethysts do not speed up growth of a bud between them, as each bud is attached to just one block).
+There are 4 growth stages.
+As such, the math can be applied as:
+(68.27 seconds average for random ticks) × (20% chance of growth for any given single side) × (6 sides) × (4 growth stages) = 68.27×5×6×4 = 8192 seconds average, also 2 hours 16 minutes 32 seconds, also 6.827 in-game days.
+In Bedrock Edition a new amethyst bud can also form in flowing water, removing the water block in the process.
+
+
+=== Sound ===
+Uniquely among other blocks a budding amethyst makes a quiet overlay sound when generally interacted with as well as its block breaking sound when hit with a projectile.
+
+
+=== Piston interactivity ===
+Budding amethyst is destroyed when pushed by a piston. It cannot be pulled by a sticky piston, or slime and honey blocks.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Early mentions ===
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Budding Amethyst" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+JAPPA has said the reasoning for the 'x' pattern on the block is because "the plane-crystals grow out of it."
+According to Agnes Larsson, budding amethyst cannot be obtained without commands in Survival mode because the developers wanted to encourage players to return to the same amethyst geode repeatedly, rather than mining away the budding amethyst and farming it at their home. This functions in a similar way to the monster spawner.
+According to Cory Scheviak, budding amethysts were inspired by atium from the fantasy novel series Mistborn.
+
+
+== Gallery ==
+
+
+== References ==
+
+
+== Navigation ==

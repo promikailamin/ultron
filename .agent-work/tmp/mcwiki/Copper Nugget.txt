@@ -1,0 +1,49 @@
+Copper nuggets are small pieces of copper that can be obtained by smelting copper tools, weapons, or armor, or by crafting them from a copper ingot. One copper nugget is effectively worth one-ninth of a copper ingot.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Smelting ===
+
+Durability and enchantments do not affect the ability to smelt copper tools, weapons, or armor into copper nuggets.
+
+
+== Usage ==
+
+
+=== Crafting ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Nugget" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Gold nugget
+Iron nugget
+Copper
+
+
+== Navigation ==

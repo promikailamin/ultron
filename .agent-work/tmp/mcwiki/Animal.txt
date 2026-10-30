@@ -1,0 +1,128 @@
+Animal refers to a category of mobs that are mainly based on real-life animals. Many other mobs and even some blocks are also based on real life animals, but are not treated as such in Minecraft. Most of these mobs are also called animals in many advancements.
+Animals are usually either passive (fleeing) or neutral (fighting), with the only exceptions being the undead mounts while ridden, hoglins and killer bunnies,‌[JE  only] which are hostile mobs.
+
+
+== Properties ==
+Mobs mentioned on this page share the following properties:
+
+They are classified as Animal or Water Animal in the game code.
+Most of them can breed.
+Most follow the player if they are holding the item used to breed them.
+Most of them trigger the "The Parrots and The Bats" and "Two By Two" advancement when bred.
+Several animal mobs can be leashed although this doesn't affect their classification. Animal mobs can also spawn in the Peaceful difficulty, with the exception of the undead mounts.
+
+
+== List of animals ==
+
+Some mobs like allays, copper golems, iron golems, and snow golems are internally referred to as animals, although this does not affect the entity format, as these mobs do not share all of the same traits as actual in-game animals.
+
+
+== Related ==
+
+
+=== Mobs ===
+These mobs are based on real life animals, but are not treated as such in the game code - rather as Ambient or Monster only.
+
+Bat
+Cave Spider
+Endermite
+Silverfish
+Spider
+Despite being classified as only monsters in-game, guardians and elder guardians were referred to as "animals of the deep" in a Minecraft video about them.
+
+
+=== Blocks ===
+These blocks are based on real life/fantasy animals, but are not treated as such in the game code, due to being blocks.
+
+Coral
+Coral Block
+Coral Fan
+Dried Ghast
+Firefly Bush
+Sea Pickle
+Sponge
+
+
+=== Unimplemented ===
+These community vote options are based on animals, but have not been added to the game.
+
+Crab
+Meerkat
+Moobloom
+Ostrich
+Penguin
+Termite
+Vulture
+
+
+=== April Fools' ===
+These mobs are animals, but have only appeared in April Fools' versions.
+
+Diamond Chicken
+Moon Cow
+Pet Armadillo
+Pet Axolotl
+Pet Bee
+Pet Cat
+Pet Chicken
+Pet Cow
+Pet Fox
+Pet Frog
+Pet Mooshroom
+Pet Polar Bear
+Pet Turtle
+Pet Wolf
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Trivia ==
+In its Mob Menagerie, shulkers were implied to be molluscs, a group of real-life invertebrate animals that include squid, glow squid, and nautiluses, given the nature of their shells.
+In its Mob Menagerie, phantoms real-world parallel was stated to be bats, as well as mentions of the extinct pterosaur, quetzalcoatlus.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Screenshots ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== See also ==
+Mob
+Aquatic
+Arthropod
+Illager
+Jockey
+Monster
+Undead
+
+
+== Navigation ==

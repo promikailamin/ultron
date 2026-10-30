@@ -1,0 +1,61 @@
+A deepslate brick wall is a decorative wall variant of deepslate bricks that generates in ancient cities and is used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Deepslate brick walls can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Deepslate brick walls generate naturally within ancient cities.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Deepslate Brick Wall" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

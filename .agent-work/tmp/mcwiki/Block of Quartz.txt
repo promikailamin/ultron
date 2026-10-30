@@ -1,0 +1,112 @@
+A block of quartz, internally known as a quartz block, is a mineral block used for decoration. It can be turned into a quartz slab, quartz stairs, chiseled quartz block, quartz pillar, quartz bricks, or smooth quartz block.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Blocks of quartz can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+Four quartz blocks generate naturally as part of each bridge in the bastion remnant.
+
+
+=== Crafting ===
+
+
+=== Trading ===
+
+
+== Usage ==
+Quartz blocks cannot be used to store Nether quartz because they cannot be crafted back into it, unlike blocks made from other ores.
+
+
+=== Crafting ingredient ===
+
+
+=== Stonecutting ingredient ===
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Block of Quartz" or "Quartz Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Because of the low blast resistance of regular quartz blocks, it may be preferable to use two quartz slabs or smooth quartz blocks when making fortifications using quartz, as their blast resistance is higher than the other quartz block variants.
+In real life, a 1-cubic-meter block of quartz (the size of a Minecraft block) is practically harder than the real life block of iron, while the hardness of a block of quartz in Minecraft is quite low.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Quartz"     by Tom Stone  – Minecraft.net, March 3, 2017.
+
+
+== Navigation ==

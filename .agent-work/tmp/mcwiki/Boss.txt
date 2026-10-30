@@ -1,0 +1,107 @@
+A boss is a type of powerful hostile mob that displays a bossbar showing its health while alive. There are two boss mobs, the ender dragon and the wither.
+
+
+== List of boss fights ==
+
+
+=== Ender Dragon ===
+
+
+==== Spawning ====
+The ender dragon spawns 1.1 seconds (22 ticks) after first entering the End, after which its boss bar displays at the top of the screen when in close enough proximity, and the song Boss begins playing. At the center of the island, the exit portal can be found in an inactive state. Ten End spikes surround the fountain on the outer edges of the island, on top of which sit ten End crystals, two of which are encased in iron bars. The ender dragon heals when in close enough proximity to one of these crystals, with a white beam connecting from the End crystal to the ender dragon when it is actively healing.
+
+
+==== Health ====
+The ender dragon itself has 200HP × 100. It also reduces all incoming damage to it by ~75% unless the attack is hitting its head, giving it an effective 800HP × 400 if no attacks are dealt against its head. The ender dragon is immune to critical hits and all status effects.
+
+
+==== Attacks ====
+The ender dragon has four methods of attacking:
+
+Melee
+The ender dragon uses its melee attack if the player is too close to its head, or by charging at the player. In Java Edition, the ender dragon only charges at the player after it finishes perching and only if it was not attacked enough to make it stop perching early. In Bedrock Edition, the ender dragon can charge at the player periodically by swooping down at them.
+This attack deals 0HP on Peaceful, 6HP on Easy, 10HP on Normal, and 15HP × 7.5 on Hard.
+Wings
+The ender dragon's wings deal damage and massive knockback to the player should the player run into them. Wing attacks are most likely to hit the player when the ender dragon is perching or if the player is flying with an elytra too close to it.
+This attack deals 3.5HP × 1.75 on Easy, 5HP on Normal, and 7.5HP × 3.75 on Hard.
+Dragon's breath
+The ender dragon uses its dragon's breath periodically when it is perching, in the direction that it is facing. Dragon's breath is released in the form of a lingering cloud, similar to a lingering potion of Harming, dealing damage and knockback every second if the player is standing in it.
+This attack deals 3HP per second regardless of game difficulty.
+Dragon fireball
+The ender dragon fires a dragon fireball periodically, as well as after each of the ten End crystals are destroyed. The fireball deals no damage or knockback on impact, but instead leaves a cloud of dragon's breath that deals heavier damage than the variant it breathes when it is perching.
+This attack deals 6HP per second regardless of game difficulty.
+
+
+==== Circling ====
+The ender dragon's behavior when flying around the arena differs between Java Edition and Bedrock Edition. In both editions, the ender dragon chooses a point in the arena to fly to and upon reaching it, chooses another point to fly to. However, due to a bug regarding its vertical movement, the ender dragon in Java Edition often fails to reach the point it chooses to fly to, causing it to fly back and forth repeatedly which makes it an easy target. This also causes it to shoot fewer dragon fireballs and not swoop down when it does so, and causes it to perch less often and fly much slower due to the constant turning around.
+
+
+==== Perching ====
+The ender dragon's behavior when perching differs between Java Edition and Bedrock Edition. In both editions, the ender dragon perches onto the exit portal periodically, where once it lands on the fountain it becomes immune to projectiles. Only in Java Edition, due to the aforementioned vertical movement bug, the ender dragon flops back and forth to slowly descend down to the fountain, making it an easy target. In Bedrock Edition, the ender dragon efficiently swoops down to the exit portal in an arc.
+
+
+==== Respawning ====
+The ender dragon can be respawned by placing four End crystals on the exit portal, one on each side. Upon placing the four crystals, beams will shoot into the sky, and a sequence begins where each of the ten End spikes reforms along with their End crystals. When all ten End spikes are reformed, the ender dragon respawns in the sky above the exit portal, and the exit portal closes again.
+
+
+=== Wither ===
+
+The wither spawns when the configuration shown is built, as long as one of the wither skeleton skulls is the last block placed, and air blocks are on both sides of the base soul sand or soul soil. The orientation of the skulls or the overall structure does not matter.
+
+
+==== Health and damage ====
+In Java Edition, the wither's health is 300HP × 150, regardless of difficulty.
+In Bedrock Edition, wither's health depends on difficulty:
+
+300HP × 150 on Easy
+450HP × 225 on Normal
+600HP × 300 on Hard
+The wither is immune to fire, lava, drowning, and freezing. Like other undead mobs, the wither is harmed by the Instant Health effect and healed by the Instant Damage effect as well as affected by weapons with the Smite enchantment. It is immune to all other status effects, and cannot be damaged by other undead mobs.
+
+
+==== Attacks ====
+
+In Java Edition, the wither hovers above it and rapidly shoots black wither skulls. The wither always tries to fly 5 blocks above, and within 3 blocks horizontally from its target. Each head fires independently, allowing a wither to attack up to three different mobs/players at the same time. The wither skulls try to fly toward the middle of the target's eye height and its feet vertically and the middle of its hitbox horizontally.
+The main head controls the wither's movement and fires a black wither skull toward its target every 2 seconds, with a 0.1% chance to shoot a blue wither skull instead of the default black one. When the line of sight to its target is blocked, the wither stops firing wither skulls but still pathfinds toward the target. Side heads find a new target and fire black wither skulls toward the new target.
+The wither skulls from the main head spawn 3 blocks above its body vertically and the middle of its hitbox horizontally. The wither skulls from the side heads spawn 2.2 blocks above its feet vertically, 1.3 blocks offset from the middle of its hitbox horizontally.
+In Bedrock Edition, the wither flies to a random location horizontally near the target, sometimes strafing a few blocks before settling, then hovers in place. It always attempts to be above the player's reaching distance (about 4 blocks). It shoots 3 black wither skulls and one blue wither skull before flying to another location. The time between each shot decreases when the wither reaches 500HP × 250 and 400HP × 200. At half health it fires skulls at the original rate, then once again shoots faster at 200HP × 100 and 100HP × 50. On Normal difficulty or higher, if the wither has targeted an entity but cannot find a location to pathfind to, it shoots random blue skulls in a random direction along with the skulls directed toward the target.
+A blue wither skull can be deflected by hitting it or using a projectile. If a deflected blue wither skull hits the wither, the wither takes damage.
+In Bedrock Edition, the wither can also spawn three wither skeletons when at half health.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Trivia ==
+Elder guardians were referred to as bosses during their initial implementation on Bedrock Edition, despite not being treated as bosses in-game. Jeb revealed that he personally thinks of them as mini bosses during a YouTube video dedicated to elder guardians.
+Ravagers were referred to as bosses in the fourth episode of Monsters of Minecraft on YouTube, despite not being considered bosses in-game and not being referred to this way before or since.
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,87 @@
+A firework star is a crafting ingredient used to create explosive firework rockets, which deal damage based on the number of stars added. Firework stars can be crafted using various combinations of dyes and other items, which affect the appearance, colors, and visual effects of the resulting explosions.
+
+
+== Obtaining ==
+In Survival mode, firework stars are obtainable only through crafting. In Creative mode, the generic version‌[JE  only] or all 16 color variants‌[BE  only] can be found in the Creative inventory.
+
+
+=== Crafting ===
+
+Additionally, in Bedrock Edition and Minecraft Education only, a single unit of bone meal, lapis lazuli, cocoa beans, or ink sacs can be used to set the base color of a firework star. They cannot be mixed with any other ingredient (whether color or effect ingredients), nor used to add a "fade to color" effect.
+
+
+== Usage ==
+The only usage of firework stars is to create firework rockets. Firework stars crafted with rockets trigger damaging explosions after their duration ends, including when used to propel the player while using elytra.
+
+
+=== Crafting ingredient ===
+
+
+== Effects ==
+
+
+=== Shape effects ===
+A firework star can have only one shape effect.
+
+
+=== Additional effects ===
+In addition to the shape effects, any combination of these additional effects may be added to a firework star.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Firework Star" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+There are 29,617,272,422,916,505,236 (29.6 quintillion) unique firework stars.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== Navigation ==

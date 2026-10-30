@@ -1,0 +1,81 @@
+Gold nuggets are small pieces of gold used to craft gold ingots and other various golden items. They can be obtained by smelting golden tools, weapons, or armor, by mining Nether gold ore, or by crafting them from a gold ingot. One gold nugget is effectively worth one-ninth of a gold ingot.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Smelting ===
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+=== Mining ===
+Nether gold ore mined using a pickaxe drops 2-6 gold nuggets. If the pickaxe is enchanted with Fortune, it has a 33.3% chance to multiply the drops by 2, Fortune II has a 25% chance to multiply the drops by 2 or 3 and Fortune III has a 20% chance each to multiply the drops by 2, 3, or 4 for a maximum possible drop of 24 golden nuggets. The average drop rate for a Fortune III pickaxe is 8.8, while the drop rate for a Silk Touch pickaxe is a single ingot, or a flat rate of 9. It is slightly more efficient to mine with a Silk Touch pickaxe. 
+Gilded blackstone mined using a pickaxe has a 10% chance to drop 2–5 gold nuggets. If the pickaxe is enchanted with Fortune I, the chance gold nuggets drop is increased 14.29%, Fortune II increases the drop chance to 25%, and Fortune III guarantees the drop.
+
+
+== Usage ==
+Gold nuggets can be used to craft golden carrots and glistering melons for brewing. Also, gold nuggets can be combined with gunpowder and dye to create a firework star that bursts in a star-shaped explosion. 
+Piglins instantly pick up any gold nuggets that are within 1 block of them. Unlike other gold-related items, they do not intentionally seek out gold nuggets to pick up and only pick them up if they walk near it. Unlike gold ingots, gold nuggets picked up are dropped upon the piglin's death. They also do not inspect the gold nugget. 
+
+
+=== Crafting ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Gold Nugget" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== See also ==
+Copper Nugget
+Iron Nugget
+
+
+== References ==
+
+
+== Navigation ==

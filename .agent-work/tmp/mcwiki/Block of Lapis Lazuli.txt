@@ -1,0 +1,80 @@
+A block of lapis lazuli, internally known as a lapis block, is a mineral block equivalent to nine pieces of lapis lazuli.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Blocks of lapis lazuli can be mined using a stone pickaxe or better.
+
+
+=== Crafting ===
+
+
+=== Natural generation ===
+Blocks of lapis lazuli generate as the center of "illager statues" in woodland mansions.
+
+
+== Usage ==
+Blocks of lapis lazuli can be used as a form of storage for lapis lazuli. 
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Block of Lapis Lazuli" or "Lapis Lazuli Block" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In real life, lapis lazuli is a blue gem that may be ground and processed into ultramarine pigment. Lapis lazuli pigment has been famously used in the production of illuminated manuscripts, stained glass, and cave paintings. It was also used by Egyptians for their jewelry and other valuable items.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== External links ==
+"Block of the Week: Lapis Lazuli"     by Alex Wiltshire  – Minecraft.net, February 3, 2017.
+"Block of the Month: Block of Lapis Lazuli"     by Duncan Geere  – Minecraft.net, October 25, 2024.
+
+
+== Navigation ==

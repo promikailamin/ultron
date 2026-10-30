@@ -1,0 +1,25 @@
+Charred baked potato brick stairs are a charred baked potato brick variant of stairs, exclusive to 24w14potato.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+
+
+=== Natural generation ===
+Charred baked potato brick stairs generate naturally in colosseums and ruined portatols.
+
+
+=== Crafting ===
+
+
+== Sounds ==
+Java Edition:
+
+
+== Issues ==
+Issues relating to "Charred Baked Potato Brick Stairs" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

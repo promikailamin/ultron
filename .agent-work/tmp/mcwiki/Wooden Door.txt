@@ -1,0 +1,186 @@
+A wooden door is a variant of the door that is made of wood and can be opened and closed by the player without redstone.
+
+
+== Obtaining ==
+Wooden doors can be crafted from any type of planks, including those found in the Nether. Different types of wooden doors can also be found in multiple structures in the Overworld.
+
+
+=== Breaking ===
+Wooden doors can be mined by hand or with any tool, but axes are the quickest.
+
+A wooden door drops itself when destroyed, or when its supporting block is moved or broken.
+
+
+=== Natural generation ===
+Wooden doors generate in some generated structures, forming the entrances to the majority of buildings. Wooden doors do not generate in zombie villages.
+Oak
+Oak doors generate as part of:
+
+Plains villages
+Strongholds
+Right-side-up shipwrecks
+Spruce
+Spruce doors generate as part of:
+
+Taiga, snowy tundra and snowy taiga villages
+Right-side-up shipwrecks
+Jungle
+Jungle doors generate as part of:
+
+Desert villages
+Right-side-up shipwrecks
+Acacia
+Acacia doors generate as part of:
+
+Savanna villages
+Right-side-up shipwrecks‌[Bedrock Edition  only]
+Dark oak
+Dark oak doors generate as part of:
+
+Master bedroom closets in woodland mansions
+Right-side-up shipwrecks
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+Wooden doors can be opened and closed using a redstone signal, or by players, villagers, piglins, vindicators,‌[JE  only] and copper golems. Wooden doors are also affected by the wind burst of thrown wind charges, causing them to open if closed, or vice versa.
+In Hard difficulty, wooden doors can be broken by vindicators and 10% of any variant of zombies, except zombified piglins in Bedrock Edition.
+Some doors have built-in openings that are useful for determining the time of day. Regardless of this, all wooden doors allow light to pass through them.
+
+
+=== Barrier ===
+
+A wooden door can be opened or closed by pressing the Use Item/Place Block control. When a door opens or closes, it immediately changes its orientation without affecting anything in the space it "swings through."
+Some zombies can break wooden doors in Hard difficulty. Zombies have a 5%‌[JE  only]/10%‌[BE  only] chance to spawn with the ability to break doors. Vindicators spawned from a raid in Normal and Hard difficulty can also break wooden doors, but they do so only to reach targeted players, villagers, or wandering traders. In Java Edition, some vindicators may sometimes open a wooden door instead of breaking it. Both zombies and vindicators attempt to break a wooden door only when the door is in its "closed" state; this is the case even when the door is placed in such a way as to allow passage in its "closed" state and block passage in its "open" state (for example, by facing sideways when placing the door).
+
+
+=== Redstone component ===
+
+Wooden doors can be controlled with redstone power.
+A wooden door is a redstone mechanism component and can be activated by weakly powering any cardinally adjacent block.
+When activated, the wooden door immediately opens. When deactivated, it immediately closes. Players and mobs can still open and close a door that is controlled by a redstone signal.
+All methods of activating a door can be applied to either the top or bottom parts of a door.
+
+
+=== Fuel ===
+Overworld wooden doors can be used as a fuel in furnaces, smelting 1 item per door.
+
+
+=== Air pockets ===
+Doors in Java Edition can be used as air pockets underwater because they can't be waterlogged. They can also be used as air pockets in lava in both Java and Bedrock editions. A wooden door in lava does not burn.
+
+
+=== Piston interactivity ===
+A wooden door gets destroyed when a piston tries to push it. It can't be pulled by a sticky piston.
+
+
+== Sounds ==
+
+
+=== Generic ===
+
+
+==== Normal wood ====
+
+
+==== Cherry wood ====
+
+
+==== Bamboo wood ====
+
+
+==== Nether wood ====
+
+
+=== Unique ===
+
+Java Edition:
+
+Bedrock Edition:
+
+Historical sounds:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+Lower Door Block:
+
+Upper Door Block:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Historical sounds ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Wooden Door" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Door models have an extra hinge on the opposite side of the actual functional hinge.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== Concept artwork ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Door"     by Duncan Geere  – Minecraft.net, September 29, 2022.
+
+
+== Navigation ==

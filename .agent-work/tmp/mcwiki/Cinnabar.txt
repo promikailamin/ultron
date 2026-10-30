@@ -1,0 +1,63 @@
+Cinnabar is a decorative stone variant block that naturally generates in sulfur caves alongside sulfur, and as part of sulfur springs.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cinnabar drops as an item if mined by any pickaxe. If mined without a pickaxe, it drops nothing.
+
+
+=== Natural generation ===
+Cinnabar generates throughout sulfur caves and as part of sulfur springs.
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+Cinnabar can be crafted into several decorative variants.
+
+
+=== Stonecutting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cinnabar" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In real life, cinnabar is a toxic red ore of mercury and sulfur, historically used as a primary ore for mercury and as a red pigment.
+
+
+== Gallery ==
+
+
+== Navigation ==

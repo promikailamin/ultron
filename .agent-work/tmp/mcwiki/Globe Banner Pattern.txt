@@ -1,0 +1,42 @@
+The globe banner pattern is a banner pattern used to customize banners with a shape of a cube-shaped earth. It can only be obtained from trading and cannot be crafted.
+
+
+== Obtaining ==
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Loom ingredient ===
+Globe banner patterns are used in looms to add customization to banners. The pattern must be combined with 1 banner and 1 dye. Upon usage in the loom, the globe banner pattern is not consumed.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Globe Banner Pattern" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

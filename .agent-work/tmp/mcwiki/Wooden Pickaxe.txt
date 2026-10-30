@@ -1,0 +1,102 @@
+A wooden pickaxe is an early-game variant of pickaxe that is crafted from planks. It is the seventh-highest tier of pickaxe, having the lowest mining efficiency, and having the lowest attack damage alongside golden pickaxes. It has a mining level of 0, allowing it to mine stone and coal ore. It can be used as fuel in a furnace, smoker, or blast furnace.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Mining ===
+A wooden pickaxe is used to break stone-based and metal-based materials faster. Breaking a block with a wooden pickaxe consumes one use (one durability point). No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers.
+
+
+=== Weapon ===
+
+
+==== Java Edition ====
+All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.85 seconds to recover. Wooden pickaxes do 2HP damage per attack, or 2.4 damage per second.
+
+
+==== Bedrock Edition ====
+All pickaxes attack instantly, with wooden pickaxes doing 3HP damage per attack.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A wooden pickaxe can be repaired in an anvil by adding wooden planks, with each plank restoring 25% of the pickaxe's maximum durability, rounded down. Two wooden pickaxes can also be combined in an anvil. Both methods preserve the pickaxe's enchantments.
+
+
+=== Enchantments ===
+A wooden pickaxe can receive the following enchantments:
+
+
+=== Fuel ===
+Wooden pickaxes can be used as a fuel in furnaces, smelting 1 item per wooden pickaxe.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Wooden Pickaxe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

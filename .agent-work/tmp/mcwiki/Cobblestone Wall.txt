@@ -1,0 +1,82 @@
+A cobblestone wall is a decorative wall variant of cobblestone that generates in Overworld structures and is used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cobblestone walls can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Cobblestone walls generate in woodland mansions. They also generate in pillager outpost towers, abandoned camps, and in some houses in plains, taiga, and snowy tundra villages. They can also generate in snowy taiga villages in Bedrock Edition.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Reveal ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Cobblestone Wall" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

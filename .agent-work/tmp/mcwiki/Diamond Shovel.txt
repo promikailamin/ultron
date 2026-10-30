@@ -1,0 +1,118 @@
+A diamond shovel is a variant of shovel that is crafted from diamonds. It is used to break dirt, sand, gravel and other related blocks faster, to create dirt paths from dirt-related blocks, and to extinguish campfires. It is the second-highest tier of shovel, having higher mining efficiency, attack damage, and durability than an iron shovel. It can be upgraded into a netherite shovel using a netherite ingot and netherite upgrade at a smithing table.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Digging ===
+A diamond shovel can be used to break dirt and soil-type materials faster. When breaking a block, it uses 1 durability. For blocks that break instantly, it uses 0 durability.
+
+
+=== Dirt paths ===
+A diamond shovel can be used to create a dirt path by using (not digging) the shovel on any one of the following blocks, losing one durability point:
+
+Grass Block
+Dirt
+Coarse Dirt
+Rooted Dirt
+Podzol
+Mycelium
+
+
+=== Campfire ===
+A diamond shovel can be used to extinguish a campfire.
+
+
+=== Weapon ===
+Diamond shovels use 2 durability when used as a weapon.
+
+
+==== Java Edition ====
+Diamond shovels have an attack speed modifier of -3, meaning they take 1 second to recover. Diamond shovels deal 5.5HP × 2.75 damage.
+
+
+==== Bedrock Edition ====
+Diamond shovels always attack instantly and do 5HP damage.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+
+A diamond shovel can be repaired in an anvil by adding diamonds, with diamond restoring 25% of the shovel's maximum durability, rounded down. Two diamond shovels can also be combined in an anvil. Both methods preserve the shovel's enchantments.
+
+
+=== Enchantments ===
+A diamond shovel can receive the following enchantments:
+
+
+=== Upgrading ===
+Like other diamond tools, a diamond shovel can be upgraded to a netherite shovel, increasing its durability and slightly increasing its mining speed and attack damage, as well as granting resistance to fire and lava when dropped as an item.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Diamond Shovel" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

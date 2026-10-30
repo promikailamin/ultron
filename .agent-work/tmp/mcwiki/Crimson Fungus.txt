@@ -1,0 +1,88 @@
+A crimson fungus is a fungus found in crimson and warped forests or by using bone meal on nylium. It can grow into a huge crimson fungus if bone mealed, but only if planted on crimson nylium. It can also be used to breed hoglins.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A crimson fungus can be mined instantly and always drops itself. Mining a flower pot containing a crimson fungus drops both items separately.
+
+
+=== Natural generation ===
+Crimson fungi naturally generate in the crimson forest and warped forest biomes, with crimson fungus most commonly generating in its respective biome, the crimson forest and less frequently in the other, the warped forest.
+
+
+=== Mob loot ===
+An enderman holding a crimson fungus drops the fungus upon death.
+
+
+=== Generated loot ===
+
+
+=== Post-generation ===
+Applying bone meal to nylium causes crimson fungi to appear nearby, similar to flowers on grass blocks. While crimson fungi and other Nether vegetation can generate this way, they are more likely to be the same type as the nylium.
+
+
+== Usage ==
+
+
+=== Placement ===
+
+Crimson fungi may be placed on grass blocks, dirt, coarse dirt, podzol, farmland, rooted dirt, moss blocks, nylium, mycelium, soul soil, mud, and muddy mangrove roots. Attempting to place it on any other block fails. Crimson fungi requires a solid block underneath it, and pops off and drops itself if it is no longer supported.
+Crimson fungi can also be placed in flower pots.
+
+
+=== Growth ===
+When bone meal is used on a crimson fungus that is planted on crimson nylium, it has a 40% chance to grow into a huge crimson fungus. The crimson stem, shroomlight, or Nether wart blocks may replace certain blocks including slabs and torches.
+
+
+=== Breeding ===
+Crimson fungus can be used to breed hoglins and keep them from despawning, but feeding hoglins does not stop them from attacking the player.
+
+
+=== Composting ===
+Placing a crimson fungus into a composter has a 65% chance of raising the compost level by 1.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Crimson Fungus" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Notes ==
+
+
+== See also ==
+Crimson Forest
+Warped Fungus
+Warped Forest
+Huge fungus
+
+
+== Navigation ==

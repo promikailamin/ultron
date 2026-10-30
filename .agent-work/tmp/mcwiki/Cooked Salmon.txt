@@ -1,0 +1,84 @@
+Cooked salmon is a food item obtained by cooking raw salmon.
+
+
+== Obtaining ==
+
+
+=== Mob loot ===
+Java Edition:Bedrock Edition:
+
+
+=== Generated loot ===
+
+
+=== Cooking ===
+Raw salmon can be cooked in a furnace, smoker, or campfire. Each piece of cooked salmon removed from a furnace output slot gives 0.35 experience (22.4 experience per stack).
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Food ===
+
+To eat cooked salmon, press and hold use while it is selected in the hotbar. Eating one restores 6 () and 9.6 saturation, the same as cooked mutton.
+
+
+=== Wolves ===
+Cooked salmon can be fed to wolves only if they are not at full health, healing them by 12HP × 6. However, in Bedrock Edition, unlike other wolf food, cooked salmon cannot be used to speed up the growth of baby wolves nor used to breed them and can only be fed to a wolf that is not at full health.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Cooked Salmon" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Fishing
+Cooked cod
+
+
+== Navigation ==

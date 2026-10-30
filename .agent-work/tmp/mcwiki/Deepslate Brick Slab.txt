@@ -1,0 +1,69 @@
+A deepslate brick slab is a decorative slab variant of deepslate bricks that generates in ancient cities and is used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Deepslate brick slabs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Deepslate brick slabs generate as part of ancient cities.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+In Bedrock Edition, when a deepslate brick slab is combined into a double slab, the block's use sound is played.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Deepslate Brick Slab" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

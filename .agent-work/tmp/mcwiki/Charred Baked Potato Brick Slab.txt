@@ -1,0 +1,25 @@
+A charred baked potato brick slab is a charred baked potato brick variant of a slab, exclusive to 24w14potato.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+
+
+=== Natural generation ===
+Charred baked potato brick slabs generate naturally in hash wells, colosseums, and ruined portatols, as well as blacksmith houses in potato villages.
+
+
+=== Crafting ===
+
+
+== Sounds ==
+Java Edition:
+
+
+== Issues ==
+Issues relating to "Charred Baked Potato Brick Slab" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

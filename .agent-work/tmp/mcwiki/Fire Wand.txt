@@ -1,0 +1,19 @@
+A fire wand is an item exclusive to 25w14craftmine. It uses the blaze rod texture with an enchantment glint. It is the counterpart of the wind wand.
+
+
+== Obtaining ==
+The fire wand is only obtainable (without commands) by getting the upgrade "Leaf", but by default this upgrade is obfuscated. Killing a blaze makes this upgrade readable.
+
+
+== Usage ==
+By default, the fire wand shoots out a ghast fireball when used.
+
+
+== Data values ==
+
+
+== Issues ==
+Issues relating to "Fire Wand" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

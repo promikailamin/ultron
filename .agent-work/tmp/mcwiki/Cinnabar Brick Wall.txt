@@ -1,0 +1,58 @@
+A cinnabar brick wall is a decorative wall variant of cinnabar bricks.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cinnabar brick walls drop as an item if mined by any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cinnabar Brick Wall" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

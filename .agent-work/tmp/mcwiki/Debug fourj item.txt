@@ -1,0 +1,33 @@
+debug_fourj_item is an unobtainable item exclusive to Legacy Console Edition. It utilizes a texture identical to that of a barrier and has no display name nor description.
+
+
+== Obtaining ==
+This item can only be obtained through inventory editors or similar tools.
+
+
+== Usage ==
+Its ID states that it was used for debugging purposes. Such functionality was mostly stripped from release versions of the game. When used on entities, they become persistent.
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== History ==
+
+
+== Trivia ==
+"fourj" refers to 4J Studios, the game development studio of Legacy Console Edition.
+The numerical ID of the item seems to align with what the debug stick would have likely been assigned had it been introduced prior to The Flattening. 4J Studios assigned numerical IDs to all future items added as the flattening never happened for Legacy Console Edition.
+
+
+== Gallery ==
+
+
+== See also ==
+Debug Stick
+
+
+== Navigation ==

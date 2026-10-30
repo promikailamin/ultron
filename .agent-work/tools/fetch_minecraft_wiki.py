@@ -19,6 +19,21 @@ API = "https://minecraft.wiki/api.php"
 OUT = "data/mc.txt"
 CACHE = ".agent-work/tmp/mcwiki"
 
+# Category crawls add broad coverage beyond the hand-picked pages below.
+# MC_MAX_PAGES caps the total so a local run stays reproducible and the
+# repository does not grow without bound.
+CATEGORIES = [
+    ("Blocks", 260),
+    ("Items", 260),
+    ("Mobs", 80),
+    ("Food", 80),
+    ("Tools", 80),
+    ("Redstone", 80),
+    ("Enchantments", 60),
+    ("Biomes", 30),
+    ("Structures", 40),
+]
+
 PAGES = [
     # Core game
     "Minecraft", "Java Edition", "Bedrock Edition", "Gameplay", "Controls",
@@ -105,14 +120,77 @@ def fetch(title):
         return json.loads(r.read().decode("utf-8"))
 
 
+def cache_name(title):
+    safe = "".join(c if c.isalnum() or c in "-_ " else "_" for c in title).strip()
+    return os.path.join(CACHE, safe + ".txt")
+
+
+def category_members(category, limit):
+    """Return up to `limit` article titles from a category, newest crawl only."""
+    out = []
+    cont = None
+    while len(out) < limit:
+        params = {
+            "action": "query",
+            "list": "categorymembers",
+            "cmtitle": "Category:" + category,
+            "cmlimit": "500",
+            "format": "json",
+            "formatversion": "2",
+        }
+        if cont:
+            params["cmcontinue"] = cont
+        url = API + "?" + urllib.parse.urlencode(params)
+        req = urllib.request.Request(url, headers={"User-Agent": "UltronCorpusFetcher/1.0 (local model training)"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = json.loads(r.read().decode("utf-8"))
+        except Exception as e:
+            print("category %s failed: %s" % (category, e), file=sys.stderr)
+            break
+        for m in data.get("query", {}).get("categorymembers", []):
+            title = m.get("title", "")
+            ns = m.get("ns", 0)
+            if ns != 0:
+                continue
+            if not title or "/" in title or "(" in title or ")" in title:
+                continue
+            if title.lower().startswith(("tutorial:", "minecraft wiki:", "category:", "template:")):
+                continue
+            out.append(title)
+            if len(out) >= limit:
+                break
+        cont = data.get("continue", {}).get("cmcontinue")
+        if not cont:
+            break
+        time.sleep(0.2)
+    return out
+
+
+def ordered_titles():
+    seen = set()
+    titles = []
+    for title in PAGES:
+        if title not in seen:
+            seen.add(title)
+            titles.append(title)
+    for category, limit in CATEGORIES:
+        for title in category_members(category, limit):
+            if title not in seen:
+                seen.add(title)
+                titles.append(title)
+    cap = int(os.environ.get("MC_MAX_PAGES", "1000"))
+    return titles[:cap]
+
+
 def main():
     os.makedirs(CACHE, exist_ok=True)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     pages = {}
     missing = []
-    for idx, requested in enumerate(PAGES):
-        safe = "".join(c if c.isalnum() or c in "-_ " else "_" for c in requested).strip()
-        cache_path = os.path.join(CACHE, safe + ".txt")
+    titles = ordered_titles()
+    for idx, requested in enumerate(titles):
+        cache_path = cache_name(requested)
         if os.path.exists(cache_path) and os.path.getsize(cache_path) > 0:
             with open(cache_path, encoding="utf-8") as f:
                 pages[requested] = f.read()
@@ -134,17 +212,19 @@ def main():
             missing.append(requested)
             continue
         actual, text = found
+        # Keep articles bounded; the tail of a huge page rarely adds new facts.
+        text = text[:24000]
         pages[requested] = text
         with open(cache_path, "w", encoding="utf-8") as f:
             f.write(text)
-        print("[%d/%d] %s -> %s (%d chars)" % (idx + 1, len(PAGES), requested, actual, len(text)), file=sys.stderr)
+        print("[%d/%d] %s -> %s (%d chars)" % (idx + 1, len(titles), requested, actual, len(text)), file=sys.stderr)
         time.sleep(0.25)
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("*** MINECRAFT JAVA EDITION KNOWLEDGE CORPUS ***\n")
         f.write("Plain-text extracts from minecraft.wiki, used for local model training.\n")
         f.write("Source: https://minecraft.wiki (CC BY-NC-SA 3.0).\n\n")
-        for title in PAGES:
+        for title in titles:
             text = pages.get(title)
             if not text:
                 continue

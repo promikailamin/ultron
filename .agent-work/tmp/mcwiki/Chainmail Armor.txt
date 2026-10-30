@@ -1,0 +1,99 @@
+Chainmail armor is a type of armor that cannot be crafted. It is the fourth strongest armor, between iron and gold.
+
+
+== List of items ==
+Chainmail Helmet
+Chainmail Chestplate
+Chainmail Leggings
+Chainmail Boots
+
+
+== Obtaining ==
+Unlike other armor, chainmail armor cannot be crafted.
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a chance to spawn with armor on Normal and Hard difficulty, with a 9.73% chance of it being chainmail armor. If killed by a player, there is an 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the armor they're wearing upon death. The dropped armor has a random durability and retains any enchantments it has.
+
+
+=== Trading ===
+
+Chainmail armor can be bought from armorers.
+
+
+=== Villager gifts ===
+
+Armorer villagers may give players with the Hero of the Village effect chainmail armor.
+
+
+== Usage ==
+
+Wearing chainmail armor reduces damage taken from most damage types.
+
+
+=== Statistics ===
+When a full set of chainmail armor is worn, the set provides 12 ( × 6) armor points.
+
+
+=== Damage reduction ===
+
+Wearing armor reduces incoming damage according to two values: armor, and armor toughness. Each piece of armor provides a given armor and armor toughness value, and the values from each armor piece are added together when calculating damage reduction.
+The strength of incoming damage also determines the damage reduction of worn armor, as armor does not protect in a linear fashion.
+
+
+=== Equipping ===
+Players can equip chainmail armor by placing it in their inventory, using the item, or via a dispenser. When equipped, the armor is rendered. Some other humanoids can also render the armor, pick it up, equip it, and be equipped via a dispenser; see the table below.
+
+In Java Edition, with the exception of the allay, dolphin, fox, panda, and sulfur cube, all other mobs with the CanPickUpLoot nbt tag true (1b) can equip armor from a dispenser (except happy ghast), and pick up and equip if are without armor or have worse armor (except ender dragon). All living entities can equip armor using commands, like /item or /data.
+
+
+=== Repairing ===
+
+
+===== Unit repair =====
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Chainmail Armor" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Navigation ==

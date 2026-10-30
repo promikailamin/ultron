@@ -1,0 +1,113 @@
+An iron helmet is a variant of helmet that is crafted from iron ingots. It is the fifth-highest tier of helmet, having the same armor points as a copper helmet but with higher durability.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Natural generation ===
+Two armor stands are found in each taiga village outdoor armory, one of them equipped with an iron helmet.
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor, which may include an iron helmet. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the helmet they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped helmet is usually badly damaged, and may be enchanted with enchantment levels 5-19.
+In Bedrock Edition, vindicators and pillagers spawned in raids have a 4.16% chance (5.128% on hard difficulty) to drop an iron helmet. The dropped helmet is usually badly damaged, and has a 50% chance of being enchanted with a random enchantment.
+
+
+=== Trading ===
+
+
+== Usage ==
+When worn, an iron helmet provides 2 () armor points.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Unit repair ====
+
+An iron helmet can be repaired in an anvil by adding iron ingots, with each ingot restoring 25% the helmet's maximum durability, rounded down. Two iron helmets can also be combined in an anvil. Both methods preserve the helmet's enchantments.
+
+
+=== Enchantments ===
+An iron helmet can receive the following enchantments. Note that while iron and chainmail have the same durability, chainmail has a higher enchantability than iron or diamond.
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, an iron helmet, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor.
+
+
+=== Smelting ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Before Minecraft ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+Armor durability from Indev until late Beta
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Iron Helmet" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== References ==
+
+
+== External links ==
+Taking Inventory: Helmet – Minecraft.net on February 20, 2020
+
+
+== Navigation ==

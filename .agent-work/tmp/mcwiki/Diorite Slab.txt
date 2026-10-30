@@ -1,0 +1,72 @@
+A diorite slab is a decorative slab variant of diorite that generates in snowy villages and is used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Diorite slabs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural Generation ===
+Diorate slabs generate as part of snowy villages.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+In Bedrock Edition, when a diorite slab is combined into a double slab, the block's use sound is played.
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Diorite Slab" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

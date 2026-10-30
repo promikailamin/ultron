@@ -1,0 +1,185 @@
+A sapling is a non-solid block that can be grown into a tree.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Saplings can be broken instantly using any tool, including the player's fist, and always drop themselves.
+
+A sapling is removed and drops as an item if:	
+
+its attachment block is moved, removed, or destroyed
+water or lava flows into its space
+a piston tries to push it or moves a block into its space
+in Bedrock Edition, a ravager walks on it, except for cherry or pale oak saplings
+
+
+=== Leaves ===
+When leaves decay, or are broken by any tool except shears or tools with Silk Touch, they have a 5% chance of dropping a sapling, except for jungle leaves, which have a 2.5% chance of dropping a sapling.
+The Fortune enchantment increases the rate to 6.25% (2.78% for jungle leaves) at level I, 8.33% (3.125% for jungle leaves) at level II, and 10% (4.17% for jungle leaves) at level III.
+
+
+=== Natural generation ===
+Spruce
+Potted spruce saplings generate in taiga and snowy taiga‌[BE  only] village mason houses.
+
+Birch
+Potted birch saplings generate in the "Large dining room" and "Master bedroom" rooms in woodland mansions.
+
+Dark oak
+The "Sapling farm" room in woodland mansions naturally generates with 58 dark oak saplings.
+
+Acacia
+Two acacia saplings generate in front of each savanna village library.
+
+Cherry
+A cherry sapling can generate in abandoned camps located in cherry groves.
+
+Jungle
+A jungle sapling can generate in abandoned camps located in sparse jungles.
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+Wandering traders may sell 1 of any sapling for 5 emeralds.
+
+
+=== Mob loot ===
+In Bedrock Edition, wandering traders have a chance of 25% (increased by 1% per level of Looting) to drop 1 sapling when killed while showing the item as trade offer, if the player holds an emerald.
+
+
+== Usage ==
+
+
+=== Growing trees ===
+
+Saplings come in nine varieties, each of which can grow into a corresponding tree: oak, birch, spruce, jungle, acacia, dark oak, pale oak, cherry, and poplar.
+Saplings can grow into trees when placed on all variants of dirt (except dirt paths) or moss blocks. In Java Edition, saplings can only be placed on these blocks normally but can still grow on other blocks.
+Saplings have two growth stages (with no visible difference between them using default resources) before growing into trees as the third stage. Bone meal can be used to speed up the growth of the sapling, even without sufficient light. Otherwise, the block above the sapling requires a light level of at least 9 for its growth stage to increase.
+Some saplings can be grown in a 2×2 pattern to grow into a bigger tree, and some need to be grown in a 2×2 pattern. The chart below shows which sapling grows into which tree under what condition.
+
+When a tree is to be grown, a height is chosen and the ground and space above are checked; if the ground is bad or there is no space for the chosen height, the tree does not grow. A certain volume of space is required above the sapling, based on its type:
+
+Oak needs at least 5 spaces above (3×3 column) to grow normally. If a block is present in the growth space (but not directly above the sapling), the tree still grows, but is forced to grow a large variant.
+Birch needs at least 6 spaces above (3×3 column).
+Spruce needs at least 6 spaces above (5×5 column) when placing a single sapling.
+Giant spruce needs at least 14 spaces above (6×6 column‌[Bedrock Edition  only] or 5×5 column centered on the northwest sapling‌[Java Edition  only]) when planted as 4 saplings in a 2×2 square. Also requires the 4×4 area centered on the saplings‌[Bedrock Edition  only] or 3×3 area centered on the northwest sapling‌[Java Edition  only] at the same level to be empty.
+Jungle needs at least 5 spaces above (3×3 column) when placing a single sapling.
+Giant jungle needs at least 11 spaces above (6×6 column‌[Bedrock Edition  only] or 5×5 column centered on the northwest sapling‌[Java Edition  only]) when planted as 4 saplings in a 2×2 square. Also requires the 3×3 area centered on the saplings and to the north/west of the sapling at the same level to be empty of any type of block, including transparent ones. However, a giant jungle tree can grow if the north/west blocks are any type of log, wood or leaves.
+Acacia needs at least 6 spaces above (5×5 column).
+Dark oak and pale oak need at least 7 spaces above (6×6 column‌[Bedrock Edition  only] or 3×3 column centered on the northwest sapling‌[Java Edition  only]) and must be planted as 4 saplings in a 2×2 square.
+Cherry needs at least 8 spaces above (5×5 column).
+In addition:
+
+A spruce or jungle sapling cannot grow if it is part of a 2×2 square of saplings that doesn't meet the requirements for a giant tree.
+The sapling searches for a 2×2 square of saplings in the sequence of southeast, northeast, southwest and northwest, only the first found 2×2 sapling square tries to grow, and all the other saplings may serve as obstructions.[verify for Bedrock Edition] And because a 2×2 sapling square sequenced later always contains a sapling within the required space of another sapling square sequenced earlier, all growth attempts of a sapling that is part of more than one 2×2 sapling squares fail.
+Except for giant jungle and giant spruce (as noted above), sapling growth is not affected by nearby blocks on the same level as the sapling(s).
+In Java Edition, blocks in the #replaceable_by_trees tag are treated as empty, and all types of log blocks, wood blocks, stripped variants, and leaves are exceptions (they don't stop growth). In Bedrock Edition, log and wood blocks are treated like other block types and stop the sapling from growing if they are above it.
+When a sapling on a grass block grows into a tree, the grass block becomes a dirt block. In Java Edition most types of saplings also turn mycelium and any block not in the dirt tag under them into dirt when growing, and azalea saplings are an exception that turn any block under them into rooted dirt.
+
+
+=== Bee nests ===
+Oak, birch, and cherry trees grown from saplings that are within 2 blocks of any flower, flowering azalea,‌[JE  only] or flowering azalea leaves‌[JE  only] have a 5% chance to grow with a bee nest and 2-3 bees in it.
+
+
+=== Decoration ===
+Any kind of sapling can be placed in a flower pot. 
+
+
+=== Fuel ===
+Saplings can be used as fuel in furnaces, smelting 0.5 items per sapling.
+
+
+=== Composting ===
+Placing a sapling into a composter has a 30% chance of raising the compost level by 1. A stack of saplings yields an average of 2.74 bone meal.
+
+
+== Sounds ==
+
+
+=== Cherry sapling ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Other saplings ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Sapling" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+If the player stands on the same block as a placed tree sapling, the tree still grows over the player, causing suffocation as it pushes the player out of the block.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== See also ==
+Nether Fungi
+Mangrove Propagule
+Tree
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Sapling"     by Duncan Geere  – Minecraft.net, April 8, 2020.
+
+
+== Navigation ==

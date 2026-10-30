@@ -1,0 +1,42 @@
+Chiseled purpur is an unobtainable block in the purpur family, which looks identical to standard purpur blocks.
+
+
+== Obtaining ==
+This block is not normally obtainable, and commands are therefore required; e.g. /give @s purpur_block 1 1
+
+
+=== Breaking ===
+Chiseled purpur must be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+
+== Usage ==
+Chiseled purpur can be used as a construction material much like regular purpur blocks.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Chiseled Purpur" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Deprecated Anvil
+tile.deprecated_purpur_block_2.name
+Smooth Stone Bricks
+
+
+== Navigation ==

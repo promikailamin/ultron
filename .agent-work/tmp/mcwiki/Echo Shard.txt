@@ -1,0 +1,44 @@
+An echo shard is an item found only in ancient cities, which is used solely to craft recovery compasses.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Echo Shard" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Quotes ==
+
+
+== References ==
+
+
+== Navigation ==

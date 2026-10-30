@@ -1,0 +1,36 @@
+A double compressed poisonous potato block is a compacted block made of compressed poisonous potato blocks, exclusive to 24w14potato.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A double compressed poisonous potato block can be broken using anything, but a pickaxe is the fastest. Double compressed poisonous potato blocks always drop themselves when mined.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+
+== Data values ==
+
+
+== Issues ==
+Issues relating to "Double Compressed Poisonous Potato Block" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Trivia ==
+The hardness of the double compressed poisonous potato block is 81 times more than the hardness of the poisonous potato block as 81 poisonous potato blocks make up one double compressed poisonous potato block.
+This block has the third-longest name, just being beaten by the waxed lightly weathered cut copper stairs and the quadruple compressed poisonous potato block, but tied with the triple compressed poisonous potato block.
+
+
+== Navigation ==

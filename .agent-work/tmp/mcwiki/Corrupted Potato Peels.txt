@@ -1,0 +1,31 @@
+Corrupted potato peels are a joke item exclusive to 24w14potato. They are a special variant of potato peels.
+
+
+== Obtaining ==
+Corrupted potato peels drop when using the potato peeler on a corrupted peelgrass block, or when the mega spud is damaged enough to activate its next phase. Unlike normal peels, corrupted ones can't drop from using the potato peeler on their respective peel block.
+
+
+=== Crafting ===
+
+
+== Usage ==
+
+
+=== Corrupted peelgrass ===
+Using corrupted potato peels on a terre de pomme block turns it into corrupted peelgrass block.
+
+
+=== Crafting ingredient ===
+
+
+== Advancements ==
+
+
+== Data values ==
+
+
+== Issues ==
+Issues relating to "Corrupted Potato Peels" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

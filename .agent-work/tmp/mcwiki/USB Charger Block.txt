@@ -1,0 +1,31 @@
+The USB charger block was a joke variant of the block of redstone exclusive to Java Edition 1.RV-Pre1.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+USB charger block can be mined using a pickaxe, in which case it drops itself. If mined without a pickaxe, it drops nothing.
+
+
+=== Crafting ===
+
+
+== Usage ==
+USB charger blocks behave like blocks of redstone. They output a constant signal strength of 15 and do not power adjacent opaque blocks.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== Issues ==
+Issues relating to "USB Charger Block" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

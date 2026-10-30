@@ -1,0 +1,70 @@
+A chain is a metallic decoration block made from ingots and nuggets.
+
+
+== Variants ==
+There are 9 variants of chain:
+
+Copper Chain
+Unoxidized Copper Chain (Waxed)
+Exposed Copper Chain (Waxed)
+Weathered Copper Chain (Waxed)
+Oxidized Copper Chain (Waxed)
+Iron Chain
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+Both iron and regular unwaxed, unoxidized copper chains have the same crafting recipe format, using two nuggets and one ingot of the same type. 
+
+
+== Usage ==
+Chains can be used to suspend bells, hanging signs, and all variants of lanterns (normal, soul, copper), as the chain texture connects to the chain of the lantern seamlessly as if it were part of it, and it connects the hanging sign chains together. Chains do not require a supporting block to be placed whether it is on the top, next to it or at the bottom. It can exist completely free-standing in mid air and it can be rotated. Chains connect horizontally or vertically, but not across different orientations (so a chain with N orientation does not connect to a chain with E orientation in the adjacent block). Horizontal chains one block above a surface may be walked over. Horizontal chains two blocks above a surface prevent players from traveling past them. Vertical chains block travel if targeted directly, but may be skirted.
+Chains can be walked on.
+Chains can be pushed by pistons without being broken.
+Comparators can read containers through chains, despite them being non-conductive.‌[Bedrock Edition  only]
+
+
+=== Crafting ingredient ===
+
+
+== Block states ==
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Chain" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+A vertical chain, being a solid, but not a full block, allows for many sizes of mobs and players to pass alongside each piece horizontally.
+Chains are the only block type whose collision box does not align with the pixel grid; its width is 3 pixels, centered on the middle of the axis it is placed on, thus putting each of its collision faces 3/32 of a block away from its center.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Issues ==
+Issues relating to "Chain" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,48 @@
+A big brain is a block, exclusive to 24w14potato, used to obtain potatoes of knowledge.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A big brain can be broken using anything, but an axe is the fastest. Big brains always drop themselves and a potato of knowledge when mined.
+
+
+=== Crafting ===
+
+Even though the recipe requires a zombie head, the recipe is unlocked by having a wither skeleton skull in the inventory.
+
+
+== Usage ==
+
+
+=== Potatoes of knowledge ===
+Big brains absorb nearby experience orbs. When broken, a big brain drops a potato of knowledge with a knowledge amount equal to how much experience it absorbed (if it didn't absorb anything, potato of knowledge still drops, with 0 knowledge). The maximum possible amount of experience stored in a single potato of knowledge is 1000 experience points, which takes the player from 0 to 25 levels; if the big brain absorbs this much experience, a potato of knowledge with 1000 experience is dropped by it automatically, without breaking the block.
+
+
+=== Piston interactivity ===
+Big brains cannot be pushed or pulled by pistons.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+=== Block states ===
+
+
+=== Block data ===
+
+A big brain has a block entity associated with it that holds additional data about the block.
+
+
+== Issues ==
+Issues relating to "Big Brain" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

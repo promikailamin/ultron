@@ -1,0 +1,144 @@
+A creaking heart is a 'living' block that can be crafted or found in pale oak trees in pale gardens. It activates if placed in a line between two pale oak logs; then, during nighttime, it spawns a creaking and protects it from all damage. Breaking a creaking heart that is protecting a creaking instantly kills it. Hitting a protected creaking causes resin clumps to grow on pale oak logs near its linked creaking heart.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Creaking hearts drop as an item only when mined by a tool enchanted with Silk Touch. Otherwise, they drop 1–3 resin clumps; Fortune can increase the maximum drops by 1 per level (up to 6 with Fortune III).
+Destroying a naturally-generated creaking heart also drops 20–24 experience, only in Survival mode.
+Creaking heart has the highest hardness value of all blocks having the axe as the suitable tool.
+
+
+=== Natural generation ===
+Creaking hearts have a 10% chance to generate inside the top trunks of pale oak trees in the pale garden. They are always completely covered by other pale oak logs and are never exposed to the air. Pale oaks grown from pale oak saplings do not generate with hearts.
+Creaking hearts can also generate in certain abandoned camp variants.
+
+
+=== Crafting ===
+
+
+== Usage ==
+A creaking heart can be placed in different orientations, similar to logs. It has three states: uprooted, dormant, and active. The creaking heart is uprooted by default, but it becomes dormant during the day and active at night when placed between two pale oak logs, stripped pale oak logs, pale oak wood, or stripped pale oak wood with the same orientation. The texture of a creaking heart changes depending on its state, with the "core" appearing dark when uprooted, brighter when dormant and orange when awake. If the creaking heart hasn't already spawned a creaking, removing one of the surrounding aligned logs reverts it to the uprooted state.
+Creaking hearts generate resin clumps on nearby pale oak logs when its linked creaking is attacked by a player or tamed wolf at night. There is a 5-second cooldown between each resin clump generation.
+
+
+=== Spawning mechanics ===
+
+If a creaking heart is properly aligned between two pale oak logs and is located in the Overworld, it becomes awake at night (between 12600 and 23400 ticks). An awake creaking heart waits 2 ticks (0.1 seconds) and checks if the matching logs are in place. If so and it detects no linked creaking, it tries to find a valid location in a 33×17×33 box centered at that creaking heart to spawn one until successful, interrupted by getting destroyed or disabled. If found, it waits 20 ticks (1 second) before checking again if the matching logs are in place. If successful, it spawns a creaking after 2 extra ticks, otherwise it uproots. While a creaking heart is awake and has a linked creaking, it does not uproot until broken, even if any of the matching blocks are removed.
+
+Valid locations for creakings to spawn at follow these criteria:
+
+The block below must have a solid top surface.
+The block below is not leaves.
+The location is any non-solid block. This means blocks like carpet can spawn-proof creakings, but not buttons.
+The location is where there would be no liquid or other entities' hitboxes within a creaking's hitbox.
+Due to a bug , creakings can be spawned in water in Bedrock Edition.
+Creakings ignore solid blocks within its hitbox that are 2+ blocks above the ground while spawning.
+Creaking hearts never spawn creakings in the Nether nor the End.
+
+
+=== Despawning creakings ===
+Breaking the heart kills its linked creaking and attributes the kill to the player who broke it, adding the kill to their statistics and triggering the Monster Hunter and Monsters Hunted advancements.
+During daytime (starting at 23401 ticks), an awake creaking heart becomes dormant and despawns its linked creakings, unless it has been named using a name tag.
+If the heart's linked creaking is too far away (more than 34 blocks away), that creaking despawns, and the heart spawns another one if conditions are met.
+A creaking heart cannot be disabled by removing the log above or below it during the night.
+
+
+=== Redstone component ===
+A redstone comparator connected to a creaking heart outputs a signal if the heart has a linked creaking. The strength of the signal depends on the Euclidean distance between the heart and its creaking, and is calculated as follows: 
+output=15−⌊distance32×15⌋
+In other words, the closer a creaking is to its heart, the stronger the signal.
+Additionally, a creaking itself can be used to detect when a player is looking at it. An observed creaking sinks in water (or lava) instead of swimming upward, which can cause it to activate a pressure plate or similar means. An unobserved creaking bobs up and down in liquid, which can cause it to activate a pressure plate even if not being looked at. Giving a creaking enough space to bob prevents this.
+Pistons of any kind cannot move creaking hearts.
+
+
+=== Ambient sounds ===
+A creaking heart emits subtle eerie sounds when it is awake and surrounded by any types of logs, stripped logs, wood, or stripped wood in all 6 directions.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A creaking heart has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Showcase ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Creaking Heart" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Unlike destroying any other block, destroying a creaking heart triggers monster-related advancements.
+
+
+== Gallery ==
+
+
+=== Textures ===
+
+
+=== Mojang images ===
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

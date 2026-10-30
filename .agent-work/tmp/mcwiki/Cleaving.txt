@@ -1,0 +1,29 @@
+Cleaving is an enchantment applied to axes that increases melee damage and lengthens shield disabling time. It is exclusive to the Java Edition Combat Tests.
+
+
+== Usage ==
+Cleaving adds 1HP + 1HP × level  of damage and 0.5 seconds (10 game ticks) of shield stunning per level, for a maximum enchantment level of 3.
+
+
+=== Damage per hit ===
+These tables detail how much damage is added per level of enchantment, assuming the target is not wearing armor and the attack is fully charged.‌[Java Edition  only]
+Because Cleaving is exclusive to the Java Edition Combat Tests, the attack damages of axes in the Combat Tests are used for the tables.
+
+
+== Incompatibilities ==
+Cleaving is incompatible with Sharpness, Smite, and Bane of Arthropods. It is also incompatible with Impaling, however in Survival these incompatibilities cannot be encountered, as no weapon types have access to both Cleaving and Impaling. If commands are used to have two or more of these enchantments on the same item, their effects stack.
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== History ==
+
+
+== Notes ==
+
+
+== Navigation ==

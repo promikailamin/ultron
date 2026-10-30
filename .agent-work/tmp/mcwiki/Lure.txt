@@ -1,0 +1,45 @@
+Lure is an enchantment applied to fishing rods that decreases the wait time for bites when fishing.
+
+
+== Obtaining ==
+Lure can be obtained from enchanting tables, drops from mobs that have spawned in a raid,‌[Bedrock Edition  only] books obtained by fishing, monster room chests, librarian villagers, and non-village structure loot.
+
+
+== Usage ==
+Lure increases the rate of something biting the player's hook while fishing. Specifically, it decreases the wait time for something to appear by 5 seconds per level. See Fishing for more information.
+If commands are used to increase the enchantment level beyond 5, the wait timer does not start and fish do not bite.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Enchantment definition ===
+ 
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Lure" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

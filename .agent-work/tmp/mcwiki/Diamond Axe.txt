@@ -1,0 +1,117 @@
+A diamond axe is a variant of axe that is crafted from diamonds. It can be used to cut down trees faster, to strip logs and scrape copper-based blocks, and as a melee weapon that disables shields. It is the second-highest tier of axe, having higher mining efficiency, attack speed, and durability than an iron axe. It can be upgraded into a netherite axe using a netherite ingot and netherite upgrade at a smithing table.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Breaking ===
+Diamond axes can break wood-related blocks faster than other tools. Breaking a block costs 1 durability.
+
+
+=== Stripping ===
+Using a diamond axe on a log, wood block, or block of bamboo turns it into a stripped log, stripped wood, or block of stripped bamboo, respectively. This uses 1 point of the axe's durability.
+
+
+=== Scraping ===
+Using a diamond axe on a waxed or oxidized copper block removes the wax if it has any, or otherwise removes a level of oxidization. This uses 1 point of durability.
+
+
+=== Weapon ===
+When used as a weapon, a diamond axe loses 2 durability points.
+
+
+==== Java Edition ====
+Attacking a shield user with an axe disables the use of the shield for 5 seconds. Vindicators, piglin brutes, or other mobs with commands always disable the player's shield. Damage done when using an axe as a weapon is more than that of a sword of the same tier, though they take longer than a sword to recover, resulting in lower DPS.
+
+
+==== Bedrock Edition ====
+Diamond axes attack instantly with no cooldown and deal 7HP damage.
+
+
+=== Repairing ===
+
+
+==== Combining ====
+
+
+==== Anvil repair ====
+
+A diamond axe can be repaired in an anvil by adding diamonds, with each ingot restoring 25% of the axe's maximum durability, rounded down. Two diamond axes can also be combined in an anvil. Both methods preserve the axe's enchantments.
+
+
+=== Enchantments ===
+A diamond axe can receive the following enchantments:
+
+
+=== Upgrading ===
+Like other diamond tools, a diamond axe can be upgraded to a netherite axe, increasing its durability and slightly increasing its mining speed and attack damage, as well as granting resistance to fire and lava when dropped as an item.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Diamond Axe" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

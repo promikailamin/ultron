@@ -1,0 +1,97 @@
+A redstone lamp is a solid block that produces light while it is receiving redstone power.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+A redstone lamp can be mined with any tool or by hand, dropping itself as an item.
+
+
+=== Natural generation ===
+Redstone lamps generate naturally in ancient cities.
+
+
+=== Crafting ===
+
+
+== Usage ==
+A redstone lamp can be used to produce switchable light. 
+Redstone lamps are redstone mechanisms and can be activated by:
+
+An adjacent active power component, including above or below: for example, a redstone torch (except that a redstone torch does not activate a redstone lamp it is attached to), a block of redstone, a daylight sensor, etc.
+An adjacent powered block (for example, an opaque block with an active redstone torch under it), including above or below
+A powered redstone comparator or redstone repeater facing the redstone lamp
+Adjacent powered redstone dust configured to point at the redstone lamp (or on top of it) or directionless; a redstone lamp is not activated by adjacent powered redstone dust that is configured to point away from it.
+A redstone lamp activates instantly, but takes 4 ticks (0.2 seconds) to turn off in Java Edition or 6 ticks (0.3 seconds) to turn off  in Bedrock Edition.
+An active redstone lamp produces block light level 15. An inactive redstone lamp produces no light.  With the "Render Dragon Features for Creators" experiment, redstone lamps have a light color of  #e8c398.
+A redstone lamp acts like an opaque block; it blocks sky light, mobs suffocate in it, and it conducts redstone power. It also allows mobs to spawn on them, even when the lamp is lit, provided the mob ignores light level for spawning.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Redstone Lamp" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Multiple tiled redstone lamps produce a pattern that resembles the truncated square tiling t{4,4}.
+In Bedrock Edition, redstone lamps are transparent on maps.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== External links ==
+"Block of the Week: Redstone Lamp"     by Duncan Geere  – Minecraft.net, March 30, 2018.
+
+
+== Navigation ==

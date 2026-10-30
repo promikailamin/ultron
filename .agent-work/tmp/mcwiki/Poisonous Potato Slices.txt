@@ -1,0 +1,35 @@
+Poisonous potato slices are a joke food item obtained by cutting a poisonous potato at a poisonous potato cutter, exclusive to 24w14potato.
+
+
+== Obtaining ==
+Recipe is exclusive to the poisonous potato cutter.
+
+
+== Usage ==
+
+
+=== Food ===
+To eat poisonous potato slices, press and hold use while it is selected in the hotbar. Eating them restores 1 () hunger and 1.2 saturation. Unlike unprocessed poisonous potato, slices do not cause Poison.
+
+
+=== Smelting ===
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+
+== Advancements ==
+
+
+== Issues ==
+Issues relating to "Poisonous Potato Slices" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

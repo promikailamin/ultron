@@ -1,0 +1,264 @@
+Dyes are a set of sixteen items used to change the color of wool, wool stairs, wool slabs, cushions, carpets, terracotta, concrete powder, glass, shulker boxes, beds, candles, bundles, harnesses, the patterns on banners, firework stars, certain mobs, and text on signs and hanging signs. In Bedrock Edition, they can be used to dye water in a cauldron (which is thereafter used to dye leather armor) and shulkers; in Java Edition, leather armor can be dyed directly. In Minecraft Education, they can be used to dye balloons and glow sticks.
+In Bedrock Edition and Minecraft Education, bone meal, ink sacs, lapis lazuli, and cocoa beans can substitute for white dye, black dye, blue dye, and brown dye, respectively. However, they are not dyes, so they will only be mentioned in this article for their use as dyeing agents.
+
+
+== Obtaining ==
+
+Most dyes can be crafted from flowers and a few other items; some dyes can be crafted by combining multiple dyes of different colors, and every dye is sold by the wandering trader. Some dyes can be found in loot, and green dye and lime dye are obtained by smelting. Purple dye is the only dye where the only method of being obtained is by crafting from other dyes. In Bedrock Edition, tertiary colors, along with their regular crafting recipes, can be crafted with primary colors. For example, magenta can be crafted with one blue dye, two red dyes and one white dye.
+
+
+=== Crafting dye ===
+In Bedrock Edition and Minecraft Education, lapis lazuli, bone meal, and ink sacs, singly or in any combination, can be substituted for blue dye, white dye, and black dye, respectively, in any recipe. These substitutions are not shown in the recipes given here. Substitution must be total: You cannot use a combination of lapis lazuli and blue dye in the same recipe, for example.
+
+
+=== Smelting ===
+
+
+=== Generated loot ===
+
+
+=== Trading ===
+
+Wandering traders may sell 3 of any dye for 1 emerald.
+
+
+=== Mob loot ===
+In Bedrock Edition, wandering traders have a chance of 8.5% (increased by 1% per level of Looting) to drop 3 dyes when killed while showing the item as trade offer, if the player holds an emerald.
+
+
+== Usage ==
+
+
+=== Crafting ===
+Dye can be used to add dye to undyed items through crafting, and to craft dyed items directly. In Bedrock Edition, bone meal, ink sacs, lapis lazuli, and cocoa beans can be substituted for the corresponding dye in any of the following usages unless otherwise specified. 
+
+
+==== Wool ====
+A piece of wool in any color can be dyed by combining 1 wool with any dye in a crafting grid.
+
+
+==== Wool stairs ====
+A wool stair in any color can be dyed by combining 1 wool stair with any dye in a crafting grid.
+
+
+==== Wool slab ====
+A wool slab in any color can be dyed by combining 1 wool slab with any dye in a crafting grid.
+
+
+==== Cushions ====
+A cushion in any color can be dyed by combining 1 cushion with any dye in a crafting grid.
+
+
+==== Carpets ====
+A carpet of any color can be dyed by combining 1 carpet with any dye in a crafting grid.
+
+
+==== Terracotta ====
+Terracotta can be stained by placing 8 blocks of terracotta around a dye in a 3×3 crafting table. Stained terracotta can not be restained to a different color.
+
+
+==== Concrete powder ====
+Dyes can be used to craft concrete powder, which can then be set into their respective concrete blocks. Concrete powder and concrete cannot be redyed.
+
+
+==== Stained glass ====
+Glass can be stained by placing 8 blocks of glass around a dye in a 3×3 crafting grid.
+
+
+==== Stained glass panes ====
+Glass panes can be stained by placing 8 glass panes around a dye in a 3×3 crafting grid.
+
+
+==== Shulker boxes ====
+A shulker box can be dyed by combining it with any dye in a crafting grid. A dyed shulker can be re-dyed using the same crafting recipe. A dyed shulker box can only be undyed using a cauldron.
+
+
+==== Beds ====
+A bed of any color can be dyed, by combining it with any dye in a crafting grid.
+
+
+==== Candles ====
+An undyed candle can be dyed by combining it with any dye in a crafting grid.
+
+
+==== Bundles ====
+A bundle of any color can be dyed, by combining it with any dye in a crafting grid.
+
+
+==== Harnesses ====
+A harness of any color can be dyed, by combining it with any dye in a crafting grid.
+
+
+==== Firework stars ====
+A firework star can have a single color or a combination of up to eight colors when crafted with dyes. Adding one or more dyes to a crafted firework star adds a "fade to color" effect to it, overwriting any existing fade colors.
+
+
+==== Pocket jukeboxes ====
+
+A pocket jukebox of any color can be dyed into another.
+
+
+==== Balloons ====
+
+Dye can be used to craft balloons.
+
+
+==== Glow sticks ====
+
+Dye can be used to craft glow sticks. There are no light gray or black variants.
+
+
+=== Banner patterns ===
+
+Dyes are used to add a banner pattern to a banner. When using a loom, each pattern uses 1 dye, which determines the color of that pattern.
+
+
+=== Dyeing water inside cauldrons ===
+
+Water can be dyed in a cauldron by holding any dye in the hand and pressing use on a cauldron filled with water. The formula for this is described below in § Dye mixing formula. 
+
+
+=== Dyeing armor ===
+
+Leather armor, wolf armor, leather horse armor can be dyed:
+
+In Bedrock and Legacy Console editions, armor is dyed by using it on a cauldron filled with dyed water. This consumes 1 layer of water but does not change the color of the water.
+The armor can be undyed by using it on a cauldron with undyed water. This does not change the water's color to the color of the armor, and changes the armor to have no dye color.
+Adding a dye to dyed water mixes the color of the water with the color of the dye, as 2 colors (using the formula below). The game does not remember which colors were placed into the cauldron. It just mixes the current color with the added dye, using the formula below. So, blue + pink + blue + pink is not the same as pink + blue + pink + blue.
+In Java Edition, it is possible to craft more than one dye with the armor, and armor can be dyed multiple times with previous colors affecting the outcome.
+Colored armor can be reverted to its original color by using it on a cauldron with undyed water.
+Armor retains its enchantments and name when dyed or undyed.
+Leather armor has a default color of  #A06540 for display purposes. Armor can be dyed to have this color, making a different item that looks the same:
+In Bedrock Edition, the recipe is  then  then  then  then  in a cauldron.
+In Java Edition, the recipe is Undyed armor +  +  +  +  +  +  +  =  #1B4144 dyed armor. And then  #1B4144 dyed armor +  +  +  +  +  +  +  =  #A06540 dyed armor.
+
+Mixing samples
+ 
+Java Edition:
+
+ =  #FED83D
+ +  +  =  #C899BF
+ +  +  =  #B56D50
+
+
+==== Dye mixing formula ====
+
+
+===== Java Edition =====
+In Java Edition, dyes can be applied to a piece of leather armor using crafting.
+When dyeing leather armor in a crafting grid, the final color is calculated using the color values of all dyes used, plus the armor's existing color (if it is already dyed). Undyed armor does not contribute to the color calculation.
+Suppose for N colors being combinedeach, each color n is made up of the Rn (red), Gn (green), and Bn (blue) sRGB components, each of which ranges from 0 (no intensity) to 1 (maximum intensity).
+The brightness scaling factor is calculated as  the average of each color's brightest component divided by the brightest component of the averaged color.
+factor=∑max(R,G,B)max(∑R,∑G,∑B)
+The final color is the average of all colors times the brightness scaling factor.
+Cfinal=∑CN⋅factor
+Each component is rounded to multiples of 1⁄255.
+
+
+===== Bedrock Edition =====
+In Bedrock Edition, dyes cannot be applied to armor directly and are applied to cauldron water instead. When a dye is used on undyed cauldron water, the water becomes dyed, and will have the color of that dye.
+When a dye is used on dyed cauldron water, the resulting color is the average of the color in the cauldron and the applied color in sRGB, with each component ranging from 0 (no intensity) to 1 (maximum intensity).
+Cfinal=Ccurrent+Cdye2
+Each component is floored to multiples of 1⁄255.
+
+
+===== Storage in Bedrock Edition =====
+Bedrock Edition stores each color as ARGB32, using 8 bits (1 byte) for each sRGB component, usually represented as a number from 0 to 255.
+
+The left most byte is the alpha component (opacity).
+The next byte is the red component.
+The next byte is the green component.
+The right most byte is the blue component.
+The color values of the dye items are stored in the RGBA format.​[more information needed]
+
+
+=== Dyeing sheep ===
+Dyes can be used on sheep to change the color of the wool. Shearing a colored sheep drops the corresponding color of the wool, and the sheep retains the color when the wool regenerates. Killing colored sheep drops one block of wool with the corresponding color. Breeding colored sheep produce a lamb colored as one of the parent sheep, or a color resulting from the combination of both parents' colors. The color combining follows the same rules that dyes use – red and yellow sheep produce an orange lamb, but a blue and yellow sheep cannot create a green lamb. In case the colors of the colored sheep do not mix, the color of a lamb is randomly chosen between the two parents with equal chance. The unlimited reproduction of colored sheep makes dyeing and shearing sheep infinitely more efficient than just dyeing wool directly.
+
+
+=== Dyeing collars ===
+Dye can be used on a tamed wolf or cat to change the color of its collar from the default red to the color of the dye.
+
+
+=== Dyeing signs ===
+Dye can be used on a sign or a hanging sign to change the text color. In Bedrock Edition, ink sacs cannot be used for this purpose; black dye must be used to change the text to black. A sign cannot be dyed if its color is already the color of the dye. Attempting to dye it will not use the dye and will open the menu to edit the sign, if possible. A sign defaults to black text when placed.
+
+
+=== Dyeing track discs ===
+
+In a disc press, a dye can be added to a blank disc to give the resulting track disc a color. This is not required; an undyed track disc is produced without adding a dye.
+
+
+=== Trading ===
+Apprentice, journeyman, and expert-level shepherd villagers buy 12 of any of the dyes for an emerald.
+
+
+== Color values ==
+The "color codes" are used to determine the color imparted on banners, dyed leather armor, leather horse armor and wolf armor, wolf and cat collars, beacon beams, tropical fish, sheep, and firework stars. The hex value is shown in the extended tooltips of dyed armor; however, to set the color using an NBT data tag in a command, the decimal value must be used instead. The color values for firework stars are slightly different. In Java Edition, sheep's wool uses different colors than the base dye values, appearing noticeably darker.
+Color codes are usually encoded using the corresponding numeric ID, although e.g. signs store the color name instead to represent text color.
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Dye" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Players can obtain each one of every color with 1 cocoa bean, 2 dandelions/wildflowers or 1 sunflower, 2 ink sacs or wither roses, 3 cactuses, 4 lapis lazuli or 4 cornflowers, 4 small red flowers (for example, 4 poppies) or 2 rose bushes, and 6 bone meal.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Tools for finding recipes to make dyed leather armor:
+
+Simanelix's calculator. It is the only tool that supports all recipes for all versions of Minecraft.
+minecraft.tools (webapp)
+pyMCDyes (open-source Python script, outdated)
+DyeLeatherArmor: a tool for calculating an exact crafting recipe for any sRGB color
+The calculator on the Minecraft Wiki
+
+
+== Navigation ==

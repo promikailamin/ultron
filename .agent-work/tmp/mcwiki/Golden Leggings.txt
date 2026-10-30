@@ -1,0 +1,101 @@
+Golden leggings are a variant of leggings crafted from gold ingots. They are the sixth-highest tier of leggings, having higher armor points and durability than leather pants. Like all golden armor, piglins are attracted to golden leggings, and do not attack any player wearing them.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, parched, and piglins have a chance to spawn wearing armor, which may include golden leggings. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the leggings they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped leggings are usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+== Usage ==
+When worn, golden leggings provide 3 () armor points. 
+
+
+=== Piglins ===
+As with other pieces of gold armor, piglins do not attack players wearing golden leggings unless provoked or attacked.
+Piglins are also attracted towards golden leggings on the ground and equip them after inspecting them.
+
+
+=== Smelting ===
+
+
+=== Repairing ===
+
+
+==== Combining ====
+Two damaged golden leggings can be combined through crafting or using the grindstone. The durability of the used golden leggings are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either leggings. (except curse enchantments)
+
+Two pair of golden leggings can also be combined in an anvil. Unlike using a grindstone or crafting, using an anvil preserves the enchantments on the leggings, but costs experience.
+
+
+==== Unit repair ====
+Golden leggings can also be repaired in an anvil by adding gold ingots, with each ingot restoring 25% the leggings maximum durability, rounded down. This preserves the leggings enchantments, but costs experience.
+
+
+=== Enchantments ===
+Golden leggings have an enchantability value of 25.
+Leggings can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, leggings, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Golden Leggings" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Navigation ==

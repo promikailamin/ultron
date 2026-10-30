@@ -1,0 +1,68 @@
+Diorite stairs are a decorative stairs variant of diorite that generate in snowy tundra villages and are used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Diorite stairs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Diorite stairs generate as part of snowy tundra villages.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Announcement ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== PlayStation 4 Edition ===
+
+
+== Issues ==
+Issues relating to "Diorite Stairs" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Navigation ==

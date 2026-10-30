@@ -1,0 +1,53 @@
+Glow sticks are chemistry-related items, which can be lit up in the player's hand for a limited time. There are fourteen color variations of glow sticks.
+
+
+== Obtaining ==
+In Bedrock Edition, glow sticks cannot be obtained by the /give command. They also cannot be obtained in Survival. Cheats must be enabled to obtain glow sticks in Survival mode, or in Minecraft Education.
+
+
+=== Crafting ===
+
+
+== Usage ==
+While equipped, players can use glow sticks to shake them, causing them to appear bright regardless of the light level. This is only an aesthetic change, as no light is emitted to the surrounding area. A particle effect is visible until the durability runs out. The glow stick's durability depletes while lit, in both Survival and Creative modes.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+=== Item data ===
+
+Glow sticks use the following data values:
+
+/give does not allow the following data values: 0, 7, 32, 39.
+
+
+== History ==
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Glow Stick" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The glowing reaction of Luminol during oxidation exists in real life. It is used for detecting blood in crime scenes.
+Players cannot enchant glow sticks with Unbreaking or Mending, despite it having durability.
+The black and light gray glow sticks use the same texture as the red glow stick.
+
+
+== References ==
+
+
+== Navigation ==

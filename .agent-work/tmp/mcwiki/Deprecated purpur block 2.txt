@@ -1,0 +1,42 @@
+tile.deprecated_purpur_block_2.name, presumably intended to be named smooth purpur, is an unobtainable block in the purpur family, which appears identical to standard purpur blocks.
+
+
+== Obtaining ==
+This block is not normally obtainable, and commands are therefore required; e.g. /give @s purpur_block 1 3
+
+
+=== Breaking ===
+tile.deprecated_purpur_block_2.name can be mined using any pickaxe, dropping itself. If mined without a pickaxe, it drops nothing.
+
+
+== Usage ==
+tile.deprecated_purpur_block_2.name can be used as a construction material much like regular purpur blocks.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Tile.deprecated_purpur_block_2.name" or "Smooth Purpur" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Chiseled Purpur
+Deprecated Anvil
+Smooth Stone Bricks
+
+
+== Navigation ==

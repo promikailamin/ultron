@@ -1,0 +1,55 @@
+Cracked Nether bricks are a decorative variant of Nether bricks, obtained by smelting Nether bricks.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cracked Nether bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Smelting ===
+
+
+== Usage ==
+Cracked nether bricks are a decorative block.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Cracked Nether Bricks" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Navigation ==

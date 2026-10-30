@@ -1,0 +1,143 @@
+Bee nests are blocks found attached to certain trees. They house bees, which fill their homes with honey made from gathered flower nectar. Full bee nests can be harvested for honeycombs (using shears) or honey bottles (using glass bottles). Bees attack players who harvest or break their homes without utilizing campfires or Silk Touch, respectively.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+
+Bee nests can be broken by any tool or by the player's fist, though they break faster with an axe. 
+If a bee nest is broken with a tool not enchanted with Silk Touch, it drops nothing and any bees inside emerge angry at the player, attempting to sting them, which causes Poison on success. Nearby bees also become angry and attack. If a Silk Touch tool is used, the bee nest drops itself and any bees inside remain inside, and any bees nearby do not become angry. 
+If broken in Creative mode with bees inside, the bee nest drops itself and bees inside remain inside.
+
+
+=== Natural generation ===
+
+Naturally generated bee nests generate with 2-3 bees in them, and always face south.
+Bee nests generate in the following biomes with different chances:
+
+
+=== Post-generation ===
+Oak, birch, and cherry trees grown from saplings that are within 2 blocks (including diagonally) of a flower on the same Y-level have a 5% chance to grow with a bee nest containing 2–3 bees. This holds true in any biome in any dimension, and for any flower including wither roses, chorus flowers, and flowering azaleas.
+Mangroves grown from mangrove propagules have a 1% chance of having a bee nest containing 2-3 bees. Unlike birch, cherry, and oak trees, no flowers are required for a bee nest to generate.
+In Bedrock Edition, oak trees grown in plains have a chance to grow with a bee nest regardless of the quantity of flowers nearby. It is not known if this behavior is intended.
+
+
+== Usage ==
+
+
+=== Bee housing ===
+
+Bee nests and beehives can house up to 3 bees at a time. They can enter through any unobstructed side, top, or bottom, but can exit only from the front, and only if it is unobstructed by a solid block (including a non-full solid block in Bedrock Edition).
+Bees fly into a nest or hive at night, during rain, and after collecting nectar from a flower. They first look for one at the same coordinates as the last one they entered, but if there is no nest or hive there, or it already contains 3 bees when they arrive, they search the nearby area for another one.
+Igniting a nest or hive allows any bees inside to escape, possibly catching fire as they flee.
+
+
+=== Harvesting ===
+
+Once full, bee nests and beehives provide two harvestable products: honey bottles and honeycombs.
+Each time a bee enters a nest or hive covered in nectar, it starts converting it to honey. After it is done, it waits for daylight with no rain (if necessary), then exits to go collect more nectar. If the bee hive or nest is in the Nether or in the End the bee exits as soon as it converts the nectar. When the bee exits, the hive increments its honey level by 1 and has a 1% chance to increment it by 2. Once it has the maximum honey level of 5, it changes its appearance to show honey oozing out and, if the block below it is not a full solid block, starts dripping honey particles. (The dripping honey is decorative; it cannot be collected in a cauldron.) These changes signal that the hive or nest is ready for harvesting.
+To harvest a honey bottle, a player uses a glass bottle on the nest or hive; filling the bottle with honey. To harvest honeycombs, a player uses shears on the nest or hive, causing it to drop three honeycombs. After harvesting, the hive or nest is reset to empty (honey level 0, with the default appearance).
+Alternatively, honey bottles or honeycombs can be harvested by powering a dispenser containing either a glass bottle or shears. The dispenser must be directly facing the hive or nest.
+
+Manually harvesting from a beehive or bee nest causes any bees inside it to become aggravated toward the harvesting player, unless there is a fire directly beneath it or a lit campfire within five blocks below, and the smoke is not obstructed. Smoke can pass through no more than one solid block, and only if that block is directly above the campfire. Placing a carpet above the campfire leaves room for the bees to hover beneath the nest and still avoid taking fire damage. In Java Edition, the smoke coming through the carpet also calms the bees. In Bedrock Edition, a carpet is treated as an obstruction that removes the calming effect of the campfire's smoke. Without a block covering the fire, the bees can still avoid fire damage if the campfire is placed 4–5 blocks below the nest.
+
+
+=== Redstone component ===
+Beehives and bee nests have a redstone comparator output with a strength equal to the honey level in the block, with a maximum signal strength of 5 once the block is completely full and ready for harvesting.
+
+
+== Sounds ==
+
+
+=== Generic ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Unique ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block data ===
+A bee nest has a block entity associated with it that holds additional data about the block.
+Java Edition:
+
+Bedrock Edition:
+
+See Bedrock Edition level format/Block entity format.
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Bee Nest" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== See also ==
+Beehive
+Tutorial:Honey farming
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+==== Bee nest ====
+
+
+==== On tree ====
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,107 @@
+A bundle is an item that can store up to a stack's worth of mixed item types within itself in a single inventory slot. Items can be individually selected and taken out of the bundle via the inventory menu.
+Dyed bundles are the dyed variants of bundles.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+== Usage ==
+Bundles are used to store different item types in the same inventory slot. This does not however increase the total capacity of the slot, as bundles can store only what would otherwise  add up to a single slot. Items that can normally stack up to 64 take up 1⁄64 of a bundle, items that can normally stack up to 16 (e.g. eggs, ender pearls) take up 1⁄16 of a bundle, and items that do not stack take up the entirety of a bundle (e.g. swords with an exception of bundles themselves). In Java Edition, the space that an item takes up in a bundle is equal to the reciprocal of its max_stack_size component, even if it is different from the standard 1, 16, and 64.
+Bundles are not stackable, but they are able to be placed (nested) inside another. Each bundle placed inside another bundle consumes 1⁄16 of the space of the outer bundle plus the space occupied by the inner bundle's contents. In Java Edition, the space taken up by a bundle is not affected by its max_stack_size component. 
+Shulker boxes cannot be placed inside of bundles. However, bundles can be placed inside of shulker boxes.
+Bee nest and beehive with bees occupy the space of a full item stack, even though they are stackable. In Java Edition, the space taken up by a item with non-empty bees component is not affected by its max_stack_size component.
+
+
+=== Inserting items ===
+While in an inventory screen, items are inserted into bundles by pressing the "Take" inventory control (left click, or  (Xbox) /  (Switch) /  (PlayStation) on a controller, or tapping on a touch screen). This can be done in the following ways:
+
+Picking up the bundle and left-clicking/pressing "Take"/tapping on the item(s) to be placed inside. This allows storing other bundles into a bundle.
+Picking up item(s) and left-clicking/pressing "Take"/tapping on the bundle.
+
+
+=== Retrieving items ===
+When using a mouse or a controller, items are retrieved from bundles by pressing the "Take half" inventory control (right click, or  (Xbox) /  (Switch) /  (PlayStation) on a controller):
+
+When hovering over a bundle with an empty cursor, right-clicking/pressing "Take half" causes the cursor to hold the item from the most recently added slot of the bundle.
+When hovering over a bundle with an empty cursor, moving the  Scroll Wheel or right stick allows for scrolling through the bundle's slots, starting from the most recently added item. The selected item slot is displayed with a bright underlay behind that item. During this process, the bundle's inventory icon appears open, and the selected slot's item icon appears within the bundle's icon. By right-clicking/pressing "Take half", the currently selected item moves to the cursor and the bundle closes. The bundle also closes when the cursor is moved off the bundle while it's still open, without retrieving any item.
+When a bundle is held in the cursor and the cursor is hovering over an empty slot, right-clicking/pressing "Take half" causes the most recently added item to be placed in that slot. If the item cannot be placed into that slot (e.g. a dirt block in the helmet slot), the item is not retrieved.
+When using touch controls, items can be retrieved by tapping on a bundle in the inventory, then tapping on an item to take out, and lastly tapping on an empty slot. If the item cannot be placed into that slot (e.g. a dirt block in the helmet slot), the item is not retrieved.
+Using a bundle while it is selected in the hotbar causes the contents of the most recently added slot to be thrown out in the direction the player is facing.
+When a bundle item entity is destroyed (e.g. thrown onto fire or into a cactus), the contents of the bundle are dropped as items, similar to when a shulker box is destroyed.
+
+
+=== GUI ===
+
+Hovering over a bundle reveals its blue fullness bar. When the bundle is empty, the fullness bar says "Empty" and shows the description, "Can hold a mixed stack of items". If it's completely full, the fullness bar turns red and says "Full". When there is at least one item in a bundle, space opens up above the bar, which displays the items in the bundle's slots, sorted by how recently they were added, from right to left. The space where the slots are shown is wide enough for four slots, so additional space opens up for new rows. When there are more than three rows, only the top three are displayed, and the bottom-right slot is replaced by text that says, +<number of slots hidden>, where the slot replaced by the text counts toward that number.
+Bundles show an additional fullness bar on their icons, similarly to how items that are damaged show their durability. Bundle fullness bars are blue, or red when full, and appear when the bundle contains at least one item.
+
+
+=== Crafting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Bundle" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+Bundles are inspired by the ancient Roman coin purse, which have been used for thousands of years.
+The reason for why bundles can be dyed in 16 colors rather than a combination of multiple colors (like leather armor) is that Mojang considered it more important for players to be able to quickly identify the color of the bundle rather than being able to fully customize the color.
+Bundles are the first non-block item that uses the 16 color dyes versus the 2^24 leather dye system (besides dyes themselves).
+Bundle is the last feature announced at Minecraft Live 2020 to be released. Minecraft Live 2020 took place on October 3, 2020, with the bundles announced for the Caves & Cliffs update while Bundles of Bravery was not released until 4 years and 19 days later on October 22, 2024.
+
+
+== Gallery ==
+
+
+=== Mojang screenshots ===
+
+
+=== In other media ===
+
+
+== References ==
+
+
+== Navigation ==

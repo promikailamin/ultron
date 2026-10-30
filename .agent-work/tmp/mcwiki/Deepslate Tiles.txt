@@ -1,0 +1,76 @@
+Deepslate tiles are a decorative variant of deepslate.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Deepslate tiles can be obtained by mining them with a pickaxe. When broken with any other tool, they drop nothing. Mining deepslate tiles takes longer than mining deepslate.
+
+
+=== Natural generation ===
+Deepslate tiles generate naturally in ancient cities.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+=== Crafting ingredient ===
+
+
+=== Stonecutting ingredient ===
+
+Deepslate tiles and their slab, stair, and wall variants can also be obtained directly from stonecutting deepslate bricks or cobbled deepslate.
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Deepslate Tiles" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+When originally added to the game, deepslate tiles did not have a crafting recipe. This was a mistake by developer Brandon Pearce.
+
+
+== References ==
+
+
+== Navigation ==

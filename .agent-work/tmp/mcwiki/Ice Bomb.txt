@@ -1,0 +1,49 @@
+An ice bomb is a throwable projectile that is used to freeze water into ice.
+
+
+== Obtaining ==
+
+
+=== Lab table ===
+
+
+== Usage ==
+Ice bombs can be thrown by using them, similar to an egg. They are affected by gravity.
+Similar to ender pearls, there is a short cooldown before the player can throw another ice bomb. The cooldown is shown in the hotbar by a white overlay that shrinks before the player is able to use it again.
+Ice bombs explode upon hitting most blocks, including non-solid blocks. They also explode upon hitting other entities, but they do not take any damage, and unlike eggs and snowballs, the impact is not considered an attack and does no damage or knockback. When exploding, any water (including flowing water, but not waterlogged blocks) in a 3×3×3 cube around the ice bomb freezes into ice. Ice bombs can be used to contain and displace mobs in ice under water.
+While endermen teleport away from arrows shot at them, they can be hit by ice bombs. 
+Throwing an ice bomb while underwater encloses the player in ice.
+In Minecraft Education, breezes are able to deflect ice bombs.
+
+
+=== Dispensers ===
+Ice bombs can be shot from dispensers.
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+=== ID ===
+
+
+== History ==
+
+
+=== Bedrock Edition ===
+
+
+=== Minecraft Education ===
+
+
+== Issues ==
+Issues relating to "Ice Bomb" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In real life, mixing a sufficient amount of sodium acetate in water does solidify it, but creates hot ice (sodium acetate trihydrate) instead of normal ice.
+
+
+== Navigation ==

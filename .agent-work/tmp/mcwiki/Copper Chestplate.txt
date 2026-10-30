@@ -1,0 +1,79 @@
+A copper chestplate is a variant of chestplate crafted from copper ingots. It is the sixth-highest tier of chestplate, having higher armor points and durability than a leather tunic.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, and parched have a small chance to spawn wearing armor, which may include a copper chestplate. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the chestplate they're wearing upon death. The dropped chestplate is usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+=== Generated loot ===
+
+
+== Usage ==
+When worn, a copper chestplate provides 4 () armor points.
+
+
+=== Repairing ===
+Two damaged copper chestplates can be combined through crafting or using the grindstone. The durability of the used copper chestplates are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either chestplate.
+
+
+==== Anvil repair ====
+
+A copper chestplate can also be repaired in an anvil by adding copper ingots, with each ingot restoring 25% the copper chestplate's maximum durability, rounded down. Two copper chestplates of the same tier can also be combined in an anvil. Both methods using the anvil preserves a copper chestplate's enchantments.
+
+
+=== Enchantments ===
+A copper chestplate can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a copper chestplate, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+=== Smelting ingredient ===
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition
+
+Bedrock Edition
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Copper Chestplate" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== In other media ===
+
+
+== Navigation ==

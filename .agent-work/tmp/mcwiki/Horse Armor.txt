@@ -1,0 +1,146 @@
+Horse armor is a type of armor that can be equipped on a tamed adult horse or zombie horse to reduce the damage it receives. There are six tiers of horse armor; only leather and netherite armor can be crafted or smithed respectively; the rest must be found as generated loot.
+In Bedrock Edition, due to a bug, zombies, as well as husks, zombie villagers, and drowned can also pick up and equip horse armor.​[until: BE 26.70]
+
+
+== Variants ==
+Leather Horse Armor
+Copper Horse Armor
+Iron Horse Armor
+Golden Horse Armor
+Diamond Horse Armor
+Netherite Horse Armor
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Smithing ===
+
+Only leather and netherite horse armor can be created; other horse armor can be obtained only from chest loot from structures listed above.
+
+
+=== Trading ===
+
+
+== Usage ==
+
+
+=== Equipping ===
+Horse armor can be equipped to a horse either by manually placing it in its respective slot () in the horse’s inventory, or by pressing Use on the horse while holding it. The horse armor can be removed either by manually removing it from the armor slot or by using shears on the horse. Only adult horses  (including zombie horses) can wear horse armor; baby horses, donkeys, mules, and skeleton horses cannot be equipped with armor. Leather horse armor protects horses from freezing in powder snow, but it does not negate other powder snow effects (e.g., falling through, inability to jump). In case of zombie horses, horse armor also prevents the mob from burning in sunlight. If a horse dies while equipped with any horse armor, it will drop it along with any other loot upon death.
+
+
+=== Statistics ===
+
+
+=== Damage reduction ===
+Horse armor reduces incoming damage according to two values: armor, and armor toughness.
+The strength of incoming damage also determines the damage reduction of horse armor, as horse armor does not protect in a linear fashion, and instead drops off more and more as incoming damage increases. The total damage reduction of horse armor cannot drop off below 20% of its maximum.
+The following tables represent the damage reduction of the different horse armor types depending on the incoming damage, accounting for armor toughness:
+
+
+=== Durability ===
+Unlike player armor or wolf armor, horse armor does not have durability. This means a single horse armor can be used infinitely unless it is destroyed through other means.
+
+
+=== Enchanting ===
+Unlike player armor, horse armor cannot be enchanted in Survival mode. However, in Java Edition Creative mode, horse armor can be used with an anvil to enchant with Thorns, Feather Falling, Protection, Fire Protection, Projectile Protection, Blast Protection, Curse of Binding, and Curse of Vanishing. Other enchantments can be applied, but they have no effect.
+
+
+=== Dyeing ===
+
+Leather horse armor can be dyed by combining it with dye(s) through crafting‌[JE  only] or by using it on a cauldron containing dyed water.‌[BE  only] Using leather horse armor on a cauldron containing ordinary water removes any dye from it.
+
+
+=== Smelting ===
+
+
+=== Piglins ===
+Piglins are attracted to golden horse armor and run toward any golden horse armor on the ground, inspecting it for 6 to 8 seconds before putting it in their inventory.
+
+
+=== Armor stands ===
+Horse armor cannot be placed or displayed on armor stands as it would be on a horse.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Item data ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+== Issues ==
+Issues relating to "Horse Armor" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+The "neck" of iron horse armor has a checkerboard-like pattern resembling chainmail.
+The seats on certain armors are colored to resmble a related element to the material of the armor.
+The seat on copper horse armor resembles the color of oxidized copper.
+The seat on netherite horse armor resembles the color of lava, which netherite horse armor is immune to.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+=== Item Renders ===
+
+
+=== Screenshots ===
+
+
+=== In other media ===
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Taking Inventory: Horse Armor"     by Duncan Geere  – Minecraft.net, May 31, 2019.
+
+
+== Navigation ==

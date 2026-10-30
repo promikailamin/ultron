@@ -1,0 +1,96 @@
+A golden chestplate is a variant of chestplate crafted from gold ingots. It is the fifth-highest tier of chestplate, having higher armor points than a copper chestplate. Like all golden armor, piglins are attracted to golden chestplates, and will not attack any player that is wearing one.
+
+
+== Obtaining ==
+
+
+=== Crafting ===
+
+
+=== Generated loot ===
+
+
+=== Mob loot ===
+Zombies, husks, zombie villagers‌[Java Edition  only], skeletons, strays, bogged, parched, and piglins have a chance to spawn wearing armor, which may include a golden chestplate. There is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop the chestplate they're wearing upon death unless they are spawned from an ominous trial spawner. The dropped chestplate is usually badly damaged, and may be enchanted with enchantment levels 5-19.
+
+
+== Usage ==
+When worn, a golden chestplate provides 5 () armor points.
+
+
+=== Piglins ===
+As with other pieces of gold armor, piglins do not attack players wearing golden chestplates unless provoked or attacked.
+Piglins are also attracted towards golden chestplates on the ground and equip them after inspecting them.
+
+
+=== Smelting ===
+
+
+==== Repairing ====
+Two damaged golden chestplates can be combined through crafting or using the grindstone. The durability of the used golden chestplates are added together, plus an extra 5% durability. Both the crafting table and grindstone methods do not keep the enchantments of either chestplate.
+
+
+==== Unit repair ====
+
+An golden chestplate can also be repaired in an anvil by adding gold ingots, with each ingot restoring 25% the chestplates' maximum durability, rounded down. Two chestplates of the same tier can also be combined in an anvil. Both methods using the anvil preserves the chestplate's enchantments.
+
+
+=== Enchantments ===
+A chestplate can receive the following enchantments:
+
+
+=== Armor trimming ===
+It is possible to upgrade armor with trims. This requires a smithing template, a chestplate, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, Nether quartz, diamond, or resin brick).
+These trims have no effect on the gameplay or strength of the armor. 
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Golden Chestplate" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Renders ===
+
+
+== Navigation ==

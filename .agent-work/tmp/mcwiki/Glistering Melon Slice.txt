@@ -1,0 +1,86 @@
+A glistering melon slice is an inedible item used as a brewing ingredient for potions of Healing.
+
+
+== Obtaining ==
+
+
+=== Generated loot ===
+
+
+=== Crafting ===
+
+
+=== Trading ===
+
+
+== Usage ==
+Despite being crafted with a melon slice, a glistering melon slice cannot be eaten, unlike a golden apple or golden carrot.
+
+
+=== Brewing ingredient ===
+
+
+=== Piglins ===
+Piglins run toward any glistering melon slice item on the ground and inspect it for 6 seconds in Java Edition or 8 seconds in Bedrock Edition before putting it in their inventory.
+
+
+== Achievements ==
+
+
+== Advancements ==
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+==== Java Edition ====
+
+
+==== Bedrock Edition ====
+
+
+== Issues ==
+Issues relating to "Glistering Melon Slice" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Trivia ==
+A glistering melon slice is featured in the Cotán painting.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Navigation ==

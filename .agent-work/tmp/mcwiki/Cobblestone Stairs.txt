@@ -1,0 +1,80 @@
+Cobblestone stairs are a decorative stairs variant of cobblestone that generate as part of some Overworld structures and can be used for building.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Cobblestone stairs can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+
+=== Natural generation ===
+Cobblestone stairs generate as a part of strongholds, woodland mansions, pillager outposts, plains villages, taiga and snowy taiga villages. Cobblestone stairs also generate as part of each jungle pyramid.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+=== Block states ===
+
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Issues ==
+Issues relating to "Cobblestone Stairs" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

@@ -1,0 +1,48 @@
+A block variant refers to a group of blocks with similar purposes and properties. These can be thought of as different variants of blocks. Some of these block groups are blocks that share many features in common, while others are simply blocks that are similar or share a certain word in their name.
+Block states also allow some blocks to have variants.
+
+
+== Variants ==
+
+
+=== Shapes ===
+Button
+Chest
+Door
+Fence
+Fence Gate
+Hanging Sign
+Pressure Plate
+Sign
+Slab
+Stair
+Trapdoor
+Wall
+
+
+=== Other ===
+Bricks
+Chiseled
+Cracked
+Cut
+Polished
+Smooth
+Infested Block
+Log
+Stripped Log
+Wood
+Stem
+Hyphae
+Planks
+Ore
+Mossy
+Pillar
+
+
+== See also ==
+Mineral
+Material (disambiguation)
+Variant
+
+
+== Navigation ==

@@ -1,0 +1,74 @@
+Chiseled deepslate is a decorative variant of deepslate. The block depicts a generic face not specific to any mob.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+Chiseled deepslate can be obtained only by mining it with a pickaxe. When mined using any other tool, it drops nothing.
+
+
+=== Natural generation ===
+Chiseled deepslate generate naturally in ancient cities.
+
+
+=== Crafting ===
+
+
+=== Stonecutting ===
+
+
+== Usage ==
+Chiseled deepslate is used for decoration.
+
+
+== Sounds ==
+Java Edition:
+
+Bedrock Edition:
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Development ===
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+== Issues ==
+Issues relating to "Chiseled Deepslate" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== Trivia ==
+In 1.17, chiseled deepslate was spelled "Chiselled Deepslate", a departure from the normal US English spelling.
+Chiseled Deepslate is one of the few chiseled blocks that doesn't resemble a specific mob.
+It does appear to resemble singers or echo golems from Minecraft Dungeons II, which were introduced later, and have direct connections to ancient cities, where chiseled deesplate is naturally found, through the Deep Dark Portal. One possible explanation is that the singer's face was based on the chiseled deepslate face instead of the other way around.
+
+
+== Gallery ==
+
+
+=== Screenshots ===
+
+
+== References ==
+
+
+== Navigation ==

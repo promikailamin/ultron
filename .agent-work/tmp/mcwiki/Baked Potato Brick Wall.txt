@@ -1,0 +1,27 @@
+A baked potato brick wall is a baked potato brick variant of a wall, exclusive to 24w14potato.
+
+
+== Obtaining ==
+
+
+=== Breaking ===
+
+
+=== Natural generation ===
+Baked potato brick walls generate naturally in colosseums.
+
+
+=== Crafting ===
+
+
+== Sounds ==
+
+
+== Data values ==
+
+
+== Issues ==
+Issues relating to "Baked Potato Brick Wall" are not maintained on the bug tracker because it is an April Fools' joke, and is therefore not in the newest stable version or snapshot. Issues reported there are closed as "Invalid".
+
+
+== Navigation ==

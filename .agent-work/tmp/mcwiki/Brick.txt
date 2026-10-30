@@ -1,0 +1,71 @@
+A brick is an item mainly obtained by smelting clay balls used to craft brick blocks, flower pots, and decorated pots.
+
+
+== Obtaining ==
+
+
+=== Mining ===
+When breaking a decorated pot with a tool without Silk Touch on the main hand, the decorated pot can drop 0-4 brick(s) depending on the material that it was made of.
+
+
+=== Generated loot ===
+
+
+=== Smelting ===
+A brick can be obtained by smelting a clay ball.
+
+
+=== Trading ===
+
+
+== Usage ==
+Bricks can be used to craft brick blocks, flower pots, and decorated pots.
+
+
+=== Crafting ingredient ===
+
+
+== Data values ==
+
+
+=== ID ===
+Java Edition:
+
+Bedrock Edition:
+
+
+== Videos ==
+
+
+== History ==
+
+
+=== Java Edition ===
+
+
+=== Bedrock Edition ===
+
+
+=== Legacy Console Edition ===
+
+
+=== New Nintendo 3DS Edition ===
+
+
+=== Data history ===
+
+
+== Gallery ==
+
+
+=== In other media ===
+
+
+== Issues ==
+Issues relating to "Brick" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+
+== References ==
+
+
+== Navigation ==
