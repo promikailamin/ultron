@@ -5,8 +5,14 @@ import java.util.Random;
 /** Verifies incremental KV-cached inference matches full forward pass. */
 public class TestCache {
     public static void main(String[] args) throws Exception {
-        Tokenizer tok = Tokenizer.load("data/ultron-vocab.txt");
-        Ultron m = Ultron.load("out/ultron.bin");
+        Tokenizer tok;
+        try (java.io.InputStream is = Resources.open("ultron-vocab.txt", "data/ultron-vocab.txt")) {
+            tok = Tokenizer.load(is);
+        }
+        Ultron m;
+        try (java.io.InputStream is = Resources.open("ultron.bin", "out/ultron.bin")) {
+            m = Ultron.load(is);
+        }
         Random r = new Random(9);
 
         int S = m.T;

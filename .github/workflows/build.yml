@@ -3,12 +3,51 @@ name: build
 on:
   push:
   workflow_dispatch:
+    inputs:
+      steps:
+        description: "Optimizer steps"
+        required: false
+        default: "300"
+      batch:
+        description: "Batch size"
+        required: false
+        default: "8"
+      learning_rate:
+        description: "Peak learning rate"
+        required: false
+        default: "5e-4"
+      mode:
+        description: "resume (continue checkpoint) or rebuild (new vocab + fresh model)"
+        required: false
+        type: choice
+        options:
+          - resume
+          - rebuild
+        default: "resume"
+      commit_model:
+        description: "Commit the trained checkpoint back to the branch"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      STEPS: ${{ github.event.inputs.steps || inputs.steps || '300' }}
+      BATCH: ${{ github.event.inputs.batch || inputs.batch || '8' }}
+      LR: ${{ github.event.inputs.learning_rate || inputs.learning_rate || '5e-4' }}
+      MODE: ${{ github.event.inputs.mode || inputs.mode || 'resume' }}
+      COMMIT_MODEL: ${{ github.event.inputs.commit_model || inputs.commit_model || 'true' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN || github.token }}
 
       - uses: actions/setup-java@v4
         with:
@@ -18,20 +57,60 @@ jobs:
       - name: Compile
         run: javac -d build src/*.java
 
-      - name: Gradient check (backprop correctness)
-        run: java -cp build ultron.GradCheck 3e-3
+      - name: Train Ultron
+        run: |
+          set -euo pipefail
+          mkdir -p out .agent-work/logs .agent-work/outputs
+          java -Xmx3g -cp build ultron.Train "$STEPS" "$BATCH" "$LR" "$MODE" \
+            2>&1 | tee .agent-work/logs/train.log
 
-      - name: KV-cache correctness
-        run: java -cp build ultron.TestCache
+      - name: Validate backprop and KV cache
+        run: |
+          set -euo pipefail
+          java -cp build ultron.GradCheck 3e-3 | tee .agent-work/logs/gradcheck.log
+          java -cp build ultron.TestCache | tee .agent-work/logs/testcache.log
 
-      - name: Package jar
-        run: jar cfe ultron.jar ultron.Generate -C build .
+      - name: Stage trained model inside the jar
+        run: |
+          set -euo pipefail
+          cp out/ultron.bin build/ultron.bin
+          cp data/ultron-vocab.txt build/ultron-vocab.txt
+          cp data/chat_kb.tsv build/chat_kb.tsv
+          cp data/grammar.txt build/grammar.txt
+          cp data/mc.txt build/mc.txt
 
-      - name: Smoke test generation
-        run: java -jar ultron.jar "it was the best of times" 10 0.7 40
+      - name: Package executable jar
+        run: jar cfe ultron.jar ultron.Chat -C build .
 
-      - name: Smoke test chat
-        run: java -cp build ultron.Chat "what is a creeper"
+      - name: Smoke test generation from jar
+        run: |
+          set -euo pipefail
+          java -cp ultron.jar ultron.Generate "it was the best of times" 10 0.7 40 \
+            | tee .agent-work/logs/generate.log
+
+      - name: Smoke test single-shot chat
+        run: |
+          set -euo pipefail
+          tmp_home="$(mktemp -d)"
+          XDG_CONFIG_HOME="$tmp_home/.config" java -jar ultron.jar "what is a creeper" \
+            | tee .agent-work/logs/chat.log
+
+      - name: Smoke test persistent chatbot session
+        run: |
+          set -euo pipefail
+          tmp_home="$(mktemp -d)"
+          config="$tmp_home/.config"
+          printf 'My name is MIKAILAMIN\nwhat is my name?\n:quit\n' \
+            | XDG_CONFIG_HOME="$config" java -jar ultron.jar \
+            | tee .agent-work/logs/chat_session.log
+          grep -q "Nice to meet you, MIKAILAMIN" .agent-work/logs/chat_session.log
+          grep -q "Your name is MIKAILAMIN" .agent-work/logs/chat_session.log
+          test -n "$(find "$config/ultron/sessions" -type f -name '*.log' -print -quit)"
+
+          printf 'what is my name?\n:quit\n' \
+            | XDG_CONFIG_HOME="$config" java -jar ultron.jar \
+            | tee .agent-work/logs/chat_resume.log
+          grep -q "Your name is MIKAILAMIN" .agent-work/logs/chat_resume.log
 
       - name: Upload jar
         uses: actions/upload-artifact@v4
@@ -39,10 +118,37 @@ jobs:
           name: ultron-jar
           path: ultron.jar
 
-      - name: Upload model + vocab
+      - name: Upload model, vocab and logs
         uses: actions/upload-artifact@v4
         with:
           name: ultron-model
           path: |
             out/ultron.bin
             data/ultron-vocab.txt
+            .agent-work/logs/train.log
+            .agent-work/logs/chat.log
+            .agent-work/logs/chat_session.log
+            .agent-work/logs/chat_resume.log
+
+      - name: Commit trained checkpoint
+        if: env.COMMIT_MODEL == 'true'
+        continue-on-error: true
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/ultron.bin data/ultron-vocab.txt
+          if git diff --cached --quiet; then
+            echo "No model changes to commit."
+            exit 0
+          fi
+          git commit -m "build: update trained Ultron checkpoint [skip ci]"
+          git fetch origin "$BRANCH"
+          if ! git rebase "origin/$BRANCH"; then
+            git rebase --abort || true
+            echo "Could not rebase onto latest $BRANCH; trained model is still in the jar artifact."
+            exit 1
+          fi
+          git push origin "HEAD:$BRANCH"

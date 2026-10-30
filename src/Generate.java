@@ -10,8 +10,14 @@ public class Generate {
         int topk = args.length > 3 ? Integer.parseInt(args[3]) : 40;
         long seed = args.length > 4 ? Long.parseLong(args[4]) : 2026;
 
-        Tokenizer tok = Tokenizer.load("data/ultron-vocab.txt");
-        Ultron m = Ultron.load("out/ultron.bin");
+        Tokenizer tok;
+        try (java.io.InputStream is = Resources.open("ultron-vocab.txt", "data/ultron-vocab.txt")) {
+            tok = Tokenizer.load(is);
+        }
+        Ultron m;
+        try (java.io.InputStream is = Resources.open("ultron.bin", "out/ultron.bin")) {
+            m = Ultron.load(is);
+        }
         if (m.V != tok.V) throw new RuntimeException("vocab/model mismatch: " + m.V + " vs " + tok.V);
 
         Ultron.KVCache cache = m.newCache();

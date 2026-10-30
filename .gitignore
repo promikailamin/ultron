@@ -1,5 +1,7 @@
 build/
 out/*.class
 *.class
+ultron.jar
 nohup.out
 *.log
+!.agent-work/logs/issue-*.log

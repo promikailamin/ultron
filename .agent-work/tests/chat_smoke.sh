@@ -5,6 +5,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")/../.."
 javac -d build src/*.java
+export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$(mktemp -d)}"
 
 fail=0
 check() {

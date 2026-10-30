@@ -2,7 +2,6 @@ package ultron;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
 import java.util.*;
 
 /**
@@ -62,17 +61,27 @@ public class Chat {
     private Ultron model;
     private Ultron.KVCache cache;
     private Sampler sampler;
+    private Memory memory;
     private long seed = 2026;
 
     public static void main(String[] args) throws Exception {
         Chat chat = new Chat();
         chat.load();
-        if (args.length > 0) {
-            System.out.println(chat.reply(String.join(" ", args)));
-            return;
+        try {
+            if (args.length > 0) {
+                System.out.println(chat.converse(String.join(" ", args)));
+                return;
+            }
+            chat.runInteractive();
+        } finally {
+            if (chat.memory != null) chat.memory.close();
         }
+    }
+
+    private void runInteractive() throws IOException {
         System.out.println("Ultron chat - trained English + Minecraft Java Edition assistant");
-        System.out.println("Type :help for commands, :quit to exit.");
+        System.out.println("Session: " + memory.sessionId() + "  (" + memory.directory() + ")");
+        System.out.println("Type :help for commands, :quit to exit. Sessions are saved automatically.");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8));
         while (true) {
             System.out.print("you> ");
@@ -83,42 +92,89 @@ public class Chat {
             if (line.isEmpty()) continue;
             if (line.equals(":quit") || line.equals(":exit") || line.equals(":q")) break;
             if (line.equals(":help")) {
-                System.out.println("Commands: :help, :quit. Ask about English grammar, writing, or Minecraft.");
+                System.out.println("Commands: :help, :quit, :new, :sessions, :load <id>, :memory, :forget <key|all>");
+                System.out.println("Ask about English grammar, writing, Minecraft, or tell me about yourself.");
                 continue;
             }
-            System.out.println("ultron> " + chat.reply(line));
+            if (line.equals(":new")) {
+                System.out.println("Started session " + memory.newSession());
+                continue;
+            }
+            if (line.equals(":sessions")) {
+                List<String> ids = memory.listSessions(20);
+                if (ids.isEmpty()) System.out.println("No saved sessions yet.");
+                for (String id : ids) {
+                    String mark = id.equals(memory.sessionId()) ? " *" : "";
+                    System.out.println(id + mark);
+                }
+                continue;
+            }
+            if (line.startsWith(":load ")) {
+                String id = line.substring(6).trim();
+                try {
+                    memory.loadSession(id);
+                    System.out.println("Loaded session " + memory.sessionId());
+                } catch (IOException e) {
+                    System.out.println("Could not load session: " + e.getMessage());
+                }
+                continue;
+            }
+            if (line.equals(":memory")) {
+                System.out.println(memory.summary());
+                continue;
+            }
+            if (line.startsWith(":forget")) {
+                String key = line.length() > 7 ? line.substring(7).trim() : "all";
+                memory.forget(key);
+                System.out.println("Memory updated.");
+                continue;
+            }
+            System.out.println("ultron> " + converse(line));
         }
+    }
+
+    private String converse(String input) throws IOException {
+        memory.append("user", input);
+        String answer = reply(input);
+        memory.append("ultron", answer);
+        return answer;
     }
 
     void load() throws IOException {
         loadKb();
-        loadPassages("data/grammar.txt");
-        loadPassages("data/mc.txt");
+        loadPassages("grammar.txt", "data/grammar.txt");
+        loadPassages("mc.txt", "data/mc.txt");
 
-        tok = Tokenizer.load("data/ultron-vocab.txt");
-        model = Ultron.load("out/ultron.bin");
+        try (InputStream is = Resources.open("ultron-vocab.txt", "data/ultron-vocab.txt")) {
+            tok = Tokenizer.load(is);
+        }
+        try (InputStream is = Resources.open("ultron.bin", "out/ultron.bin")) {
+            model = Ultron.load(is);
+        }
         if (model.V != tok.V) {
             throw new IOException("vocab/model mismatch: " + model.V + " vs " + tok.V);
         }
         cache = model.newCache();
         sampler = new Sampler(model.V, seed);
+        memory = Memory.openDefault();
     }
 
     private void loadKb() throws IOException {
-        Path p = Paths.get("data/chat_kb.tsv");
-        if (!Files.exists(p)) return;
-        for (String line : Files.readAllLines(p, StandardCharsets.UTF_8)) {
-            if (line.isEmpty() || line.startsWith("#")) continue;
-            String[] parts = line.split("\t", 3);
-            if (parts.length < 3) continue;
-            kb.add(new Entry(parts[0].trim(), parts[1].trim(), parts[2].trim()));
+        if (!Resources.exists("chat_kb.tsv", "data/chat_kb.tsv")) return;
+        try (BufferedReader br = Resources.reader("chat_kb.tsv", "data/chat_kb.tsv")) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (line.isEmpty() || line.startsWith("#")) continue;
+                String[] parts = line.split("\t", 3);
+                if (parts.length < 3) continue;
+                kb.add(new Entry(parts[0].trim(), parts[1].trim(), parts[2].trim()));
+            }
         }
     }
 
-    private void loadPassages(String file) throws IOException {
-        Path p = Paths.get(file);
-        if (!Files.exists(p)) return;
-        String text = new String(Files.readAllBytes(p), StandardCharsets.UTF_8);
+    private void loadPassages(String resource, String fallback) throws IOException {
+        if (!Resources.exists(resource, fallback)) return;
+        String text = Resources.readText(resource, fallback);
         for (String block : text.split("\\n\\s*\\n")) {
             String clean = block.replaceAll("\\s+", " ").trim();
             if (clean.length() < 80 || clean.length() > 2400) continue;
@@ -135,6 +191,15 @@ public class Chat {
         String clean = input == null ? "" : input.trim();
         if (clean.isEmpty()) return "Ask me a question about English grammar, writing, or Minecraft Java Edition.";
 
+        Memory.Result learned = memory == null ? null : memory.learn(clean);
+        boolean question = clean.contains("?") || wantsFacts(clean);
+        if (learned != null && learned.changed && !question) {
+            return learnedReply(learned);
+        }
+        String recalled = memory == null ? null : memory.recall(clean);
+        if (recalled != null) return recalled;
+        if (learned != null && learned.changed) return learnedReply(learned);
+
         Entry best = bestEntry(clean);
         if (best != null) return best.answer;
 
@@ -150,6 +215,11 @@ public class Chat {
 
         return "I am not sure about that yet. I know English grammar, writing, and Minecraft Java Edition. "
                 + "Try asking something like: What is a noun? How do I make a crafting table? What is redstone?";
+    }
+
+    private static String learnedReply(Memory.Result learned) {
+        if (learned.name != null) return "Nice to meet you, " + learned.name + ".";
+        return "Got it. I will remember that.";
     }
 
     private static boolean wantsFacts(String s) {
@@ -269,8 +339,24 @@ public class Chat {
     }
 
     private String generate(String input) {
-        String prompt = "\n\nuser: " + input + "\nultron:";
-        int[] ids = tok.encode(prompt);
+        StringBuilder prompt = new StringBuilder("\n\n");
+        boolean appendedUser = false;
+        if (memory != null) {
+            String facts = memory.promptSummary();
+            if (!facts.isEmpty()) prompt.append("ultron remembers: ").append(facts).append('\n');
+            String history = memory.recentDialogue(6);
+            if (!history.isEmpty()) {
+                prompt.append(history).append('\n');
+                appendedUser = "user".equals(memory.lastTurnRole());
+            }
+        }
+        if (appendedUser) prompt.append("ultron:");
+        else prompt.append("user: ").append(input).append("\nultron:");
+
+        int[] ids = tok.encode(prompt.toString());
+        if (ids.length > model.T - 1) {
+            ids = Arrays.copyOfRange(ids, ids.length - (model.T - 1), ids.length);
+        }
         int promptLen = ids.length;
         cache.clear();
         float[] logits = null;

@@ -58,6 +58,10 @@ public class Train {
         boolean resume = args.length > 3 && args[3].equals("resume");
         boolean rebuild = args.length > 3 && args[3].equals("rebuild");
         if (rebuild) resume = false;
+        if (resume && !Files.exists(Paths.get("out/ultron.bin"))) {
+            System.out.println("no checkpoint found; starting a fresh model");
+            resume = false;
+        }
 
         long t0 = System.currentTimeMillis();
 

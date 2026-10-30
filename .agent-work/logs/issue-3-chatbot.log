@@ -1,0 +1,22 @@
+Issue #3 - embedded chatbot + persistent session memory
+
+Implemented
+- ultron.Resources loads model/vocab/knowledge from the jar first, then repo files.
+- ultron.Memory stores facts in ~/.config/ultron/memory.tsv and append-only
+  transcripts in ~/.config/ultron/sessions/*.log.
+- New default main class ultron.Chat opens an interactive session; model and
+  all runtime assets are embedded in ultron.jar.
+- Bounded memory: max 128 facts, 24 recent turns, 64 KiB session tail reads,
+  4 MiB session rotation, and neural prompts capped to the model context.
+- build.yml now trains first, then stages the model/vocab/knowledge inside the
+  jar and runs generation, chat, persistence and resume smoke tests.
+- train.yml merged into build.yml and removed.
+
+Local validation
+- javac -d build src/*.java: PASS
+- .agent-work/tests/chat_smoke.sh: PASS (10/10)
+- .agent-work/tests/jar_memory_smoke.sh: PASS
+  * "My name is MIKAILAMIN" -> "Nice to meet you, MIKAILAMIN."
+  * "what is my name?" -> "Your name is MIKAILAMIN."
+  * second process resumed the session and still answered the name.
+  * ultron.Generate ran from the packaged jar without repo files.
