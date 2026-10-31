@@ -25,13 +25,11 @@ SPACE = "\u2581"
 def normalize(text):
     text = text.lower()
     text = text.replace("\r\n", "\n").replace("\r", "\n")
-    a = text.find("*** start of the project gutenberg")
-    if a >= 0:
-        nl = text.find("\n", a)
-        text = text[nl + 1:] if nl >= 0 else text
-    b = text.find("*** end of the project gutenberg")
-    if b >= 0:
-        text = text[:b]
+    # The pretrain corpus concatenates several books, so strip every
+    # Gutenberg wrapper. Truncating at the first END marker would silently
+    # train on only the first book.
+    text = re.sub(r"(?im)^\*\*\* start of the project gutenberg.*\n?", "", text)
+    text = re.sub(r"(?im)^\*\*\* end of the project gutenberg.*\n?", "", text)
     text = re.sub(r"\[illustration[^\]]*\]", " ", text)
     text = re.sub(r"\{\{[^}]*\}\}", " ", text)
     return text

@@ -55,6 +55,10 @@ def parse_args():
     ap.add_argument("--patience", type=int, default=5)
     ap.add_argument("--max-pretrain-tokens", type=int, default=0)
     ap.add_argument("--device", default="auto")
+    ap.add_argument("--threads", type=int, default=0,
+                    help="CPU threads; 0 keeps the PyTorch default")
+    ap.add_argument("--resume", default="",
+                    help="checkpoint to continue from (stage_a/latest)")
     ap.add_argument("--seed", type=int, default=20261031)
     ap.add_argument("--smoke", action="store_true",
                     help="tiny CPU sanity run used by CI")
@@ -162,6 +166,8 @@ def main():
         args.patience = 100
     random.seed(args.seed)
     torch.manual_seed(args.seed)
+    if args.threads > 0:
+        torch.set_num_threads(args.threads)
     os.makedirs(args.out, exist_ok=True)
     if args.device == "auto":
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -189,6 +195,12 @@ def main():
         "ffn": args.ffn,
         "ctx": args.ctx,
     }
+    resume = None
+    if args.resume:
+        resume = torch.load(args.resume, map_location="cpu", weights_only=False)
+        config = resume.get("config", config)
+        print("resuming from %s at step %s stage %s" %
+              (args.resume, resume.get("step"), resume.get("stage")))
     model = build_model(config).to(device)
     params = sum(p.numel() for p in model.parameters())
     print("parameters: %d" % params)
@@ -198,12 +210,19 @@ def main():
     best_eval = float("inf")
     bad_evals = 0
     global_step = 0
+    start_a = 0
+    if resume is not None:
+        model.load_state_dict(resume["model"])
+        global_step = int(resume.get("step", 0))
+        best_eval = float(resume.get("best_eval", float("inf")))
+        if resume.get("stage") == "a":
+            start_a = global_step
     t0 = time.time()
 
     # ---------------- Stage A: plain next-token pretraining ----------------
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr_a, betas=(0.9, 0.95),
                             weight_decay=0.1)
-    for step in range(args.steps_a):
+    for step in range(start_a, args.steps_a):
         lr = lr_at(step, args.steps_a, args.lr_a, args.warmup)
         for group in opt.param_groups:
             group["lr"] = lr

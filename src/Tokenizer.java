@@ -24,13 +24,10 @@ public class Tokenizer {
     }
 
     static String normalize(String s) {
-        int a = s.indexOf("*** START OF THE PROJECT GUTENBERG");
-        if (a >= 0) {
-            int nl = s.indexOf('\n', a);
-            s = (nl >= 0) ? s.substring(nl + 1) : s;
-        }
-        int b = s.indexOf("*** END OF THE PROJECT GUTENBERG");
-        if (b >= 0) s = s.substring(0, b);
+        // Keep stripping every Gutenberg wrapper so concatenated book corpora
+        // are not truncated at the first book's END marker.
+        s = s.replaceAll("(?im)^\\*\\*\\* START OF THE PROJECT GUTENBERG.*\\n?", "");
+        s = s.replaceAll("(?im)^\\*\\*\\* END OF THE PROJECT GUTENBERG.*\\n?", "");
         s = s.toLowerCase(Locale.ROOT);
         s = s.replace("\r\n", "\n").replace('\r', '\n');
         s = s.replaceAll("\\[illustration[^\\]]*\\]", " ");
