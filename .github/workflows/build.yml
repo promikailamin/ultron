@@ -83,6 +83,7 @@ jobs:
           set -euo pipefail
           cp out/ultron.bin build/ultron.bin
           cp data/ultron-vocab.txt build/ultron-vocab.txt
+          cp data/chat_kb.tsv build/chat_kb.tsv
 
       - name: Package executable jar
         run: jar cfe ultron.jar ultron.Chat -C build .
@@ -102,6 +103,12 @@ jobs:
 
       - name: Generative chat regression test
         run: bash .agent-work/tests/generative_chat.sh | tee .agent-work/logs/generative_chat.log
+
+      - name: Grounded chat regression test
+        run: bash .agent-work/tests/issue6_regression.sh | tee .agent-work/logs/issue6_regression.log
+
+      - name: Chat smoke tests
+        run: bash .agent-work/tests/chat_smoke.sh | tee .agent-work/logs/chat_smoke.log
 
       - name: Smoke test persistent chatbot session
         run: |
@@ -137,6 +144,8 @@ jobs:
             .agent-work/logs/chat_session.log
             .agent-work/logs/chat_resume.log
             .agent-work/logs/generative_chat.log
+            .agent-work/logs/issue6_regression.log
+            .agent-work/logs/chat_smoke.log
             .agent-work/logs/testmask.log
             .agent-work/logs/fetch_minecraft_wiki.log
 
@@ -149,7 +158,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add out/ultron.bin data/ultron-vocab.txt data/instruct.txt data/chat.txt data/mc_qa.txt
+          git add out/ultron.bin data/ultron-vocab.txt data/instruct.txt data/chat.txt data/mc_qa.txt data/chat_kb.tsv
           if git diff --cached --quiet; then
             echo "No model changes to commit."
             exit 0

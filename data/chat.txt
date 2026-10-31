@@ -1663,10 +1663,13 @@ user: what's obsidian
 ultron: Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block, and it also generates in ruined portals, woodland mansions, and other structures. It has very high blast resistance and is needed for nether portals and enchanting tables.
 
 user: can obsidian be crafted on a crafting table
-ultron: No. Obsidian is not made at a crafting table. It is created when flowing water touches a lava source block. You can mine it with a diamond pickaxe or a netherite pickaxe. Crying obsidian is a separate block and is used to craft respawn anchors.
+ultron: No. Obsidian cannot be crafted at a crafting table or in the inventory. It is created when flowing water touches a lava source block. You can mine it with a diamond pickaxe or a netherite pickaxe. Crying obsidian is a separate block and is used to craft respawn anchors.
 
 user: is obsidian craftable
-ultron: No, ordinary obsidian has no crafting recipe. Water flowing onto a lava source block creates it. You need a diamond or netherite pickaxe to collect it, and it is used for nether portals, enchanting tables, and blast-resistant builds.
+ultron: No, ordinary obsidian cannot be crafted and has no crafting recipe. Water flowing onto a lava source block creates it. You need a diamond or netherite pickaxe to collect it, and it is used for nether portals, enchanting tables, and blast-resistant builds.
+
+user: how can I craft obsidian
+ultron: Obsidian cannot be crafted. It has no crafting recipe and cannot be made in a crafting table. It is created when flowing water touches a lava source block. Mine it with a diamond or netherite pickaxe, then use it for nether portals and enchanting tables.
 
 user: how many editions of minecraft are there
 ultron: Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play. There are also legacy editions such as the old console editions, but they are no longer updated.
@@ -2178,4 +2181,22 @@ ultron: My name is Ultron. I am an experimental language model built for this re
 
 user: how many edition exist of minecraft
 ultron: Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version and supports mods, data packs, and many servers. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play.
+
+user: what is an amethyst shard
+ultron: An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Budding amethyst grows the clusters inside an amethyst geode. Amethyst shards are used to craft a spyglass and tinted glass, and to make a calibrated sculk sensor.
+
+user: what's an amethyst shard
+ultron: An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Budding amethyst grows the clusters inside an amethyst geode. Amethyst shards are used to craft a spyglass and tinted glass, and to make a calibrated sculk sensor.
+
+user: what is a creeper
+ultron: A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Creepers are afraid of cats and ocelots, and a shield can block their explosion damage. They drop gunpowder when defeated.
+
+user: what's a creeper
+ultron: A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Creepers are afraid of cats and ocelots, and a shield can block their explosion damage. They drop gunpowder when defeated.
+
+user: what is a beacon
+ultron: A beacon is a block that gives nearby players special powers such as speed, haste, resistance, or regeneration. It is crafted from five glass blocks, three obsidian blocks, and one nether star, and it must sit on a pyramid of iron, gold, diamond, emerald, or netherite blocks.
+
+user: what's a beacon
+ultron: A beacon is a block that gives nearby players special powers such as speed, haste, resistance, or regeneration. It is crafted from five glass blocks, three obsidian blocks, and one nether star, and it must sit on a pyramid of iron, gold, diamond, emerald, or netherite blocks.
 

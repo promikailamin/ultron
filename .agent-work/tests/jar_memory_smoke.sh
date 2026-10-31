@@ -10,6 +10,7 @@ javac -d build src/*.java
 
 cp out/ultron.bin build/ultron.bin
 cp data/ultron-vocab.txt build/ultron-vocab.txt
+cp data/chat_kb.tsv build/chat_kb.tsv
 jar cfe ultron.jar ultron.Chat -C build .
 
 work="$(mktemp -d)"

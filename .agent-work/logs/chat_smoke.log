@@ -5,12 +5,12 @@ PASS  what is a comma splice                     -> A comma splice joins two ind
 PASS  what is a creeper                          -> A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. 
 PASS  what is redstone                           -> Redstone is a material used to make circuits and machines. Redstone dust carries power, an
 PASS  how do I make a crafting table             -> Place one plank in each of the four cells of the 2 by 2 crafting grid in your inventory. A
-PASS  how do I get netherite                     -> Netherite is a rare material made from netherite scrap and gold ingots. It is stronger tha
-PASS  what is a beacon                           -> A beacon is made from five glass blocks, three obsidian blocks, and one nether star. Place
-PASS  what is a boomstick                        -> I am not sure about that yet. I know English grammar, writing, and Minecraft Java Edition.
+PASS  how do I get netherite                     -> Mine ancient debris in the Nether, usually below y level 15. Smelt ancient debris into net
+PASS  what is a beacon                           -> A beacon is a block that gives nearby players special powers such as speed, haste, resista
+PASS  what is a boomstick                        -> I am not sure. I don't have that in my notes.
 PASS  what obsidian                              -> Obsidian is a dark, very hard block. It forms when flowing water touches a lava source blo
 PASS  can we craft obsidian                      -> No. Obsidian cannot be crafted at a crafting table. It forms when flowing water touches a 
 PASS  how many edition exist of minecraft        -> Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the ori
 PASS  how to make an iron pickaxe                -> Craft an iron pickaxe with three iron ingots and two sticks at a crafting table. Place the
-PASS  describe amethyst shard                    -> Amethyst clusters are the fourth and final growth stage of amethyst buds, which drop ameth
+PASS  describe amethyst shard                    -> An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Buddin
 CHAT SMOKE TESTS PASSED

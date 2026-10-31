@@ -67,7 +67,10 @@ def main():
             if len(parts) < 3:
                 sys.stderr.write("skipping malformed line %d\n" % line_no)
                 continue
-            category, question, answer = parts[0], parts[1], "\t".join(parts[2:])
+            category, question = parts[0], parts[1]
+            answer = parts[2]
+            # Optional fourth column tags the entry's intent. It is used by
+            # the Java matcher, not reproduced in the dialogue corpus.
             question, answer = question.strip(), answer.strip()
             if question and answer:
                 entries.append((category.strip(), question, answer))

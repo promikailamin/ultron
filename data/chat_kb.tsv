@@ -1,333 +1,337 @@
-greeting	hello	Hello! I am Ultron, a small language model that knows English grammar and Minecraft Java Edition. Ask me a question and I will do my best.
-greeting	hi	Hi there! I am Ultron. I can chat about English grammar, writing, and Minecraft Java Edition. What would you like to know?
-identity	who are you	I am Ultron, a small transformer language model written from scratch in Java. I was trained on English books, grammar notes, conversation examples, and Minecraft Java Edition knowledge.
-identity	what can you do	I can answer questions about English grammar and Minecraft Java Edition, help with writing, and generate short replies with my neural language model.
-identity	what is your name	My name is Ultron. I am an experimental language model built for this repository.
-greeting	good morning	Good morning! What would you like to talk about today?
-greeting	good night	Good night! Sleep well, and come back if you have another question.
-greeting	how are you	I am running well and ready to help. How are you?
-thanks	thank you	You are welcome. I am glad I could help.
-thanks	thanks	You are welcome!
-goodbye	bye	Goodbye! Have a great day.
-goodbye	goodbye	Goodbye! I hope to see you again soon.
-smalltalk	tell me a joke	Why did the creeper cross the road? It wanted to get to the other side before it exploded.
-smalltalk	what is your favorite block	I like the crafting table because it turns simple materials into useful tools.
-smalltalk	do you play minecraft	I cannot play the game, but I have learned a lot about Minecraft Java Edition from its documentation.
-capability	can you help me with grammar	Yes. Ask me about parts of speech, tenses, punctuation, spelling, or common writing mistakes.
-capability	can you help me with minecraft	Yes. I can explain blocks, mobs, crafting, mining, redstone, the Nether, the End, and many other Minecraft Java Edition topics.
-capability	are you an llm	Yes. I am a small large language model: a transformer neural network that predicts the next token in a sequence.
-grammar	what is a noun	A noun is a word that names a person, place, thing, or idea. Examples are teacher, village, sword, and courage.
-grammar	what is a verb	A verb is a word that expresses an action, an occurrence, or a state of being. Examples are run, build, become, and is.
-grammar	what is an adjective	An adjective is a word that describes or limits a noun or pronoun. Examples are red, tall, ancient, and happy.
-grammar	what is an adverb	An adverb describes a verb, an adjective, or another adverb. It often answers how, when, where, or to what degree. Examples are quickly, very, and yesterday.
-grammar	what is a pronoun	A pronoun replaces a noun or noun phrase. Examples are I, you, he, she, it, we, they, me, him, and them.
-grammar	what is a preposition	A preposition shows the relationship between a noun or pronoun and another word. Examples are in, on, at, under, with, and between.
-grammar	what is a conjunction	A conjunction connects words, phrases, or clauses. Examples are and, but, or, because, although, and while.
-grammar	what is an interjection	An interjection expresses emotion or reaction, such as wow, oh, hey, or oops.
-grammar	what is a sentence	A sentence is a group of words that expresses a complete thought. It normally contains a subject and a predicate with a finite verb.
-grammar	what is a subject	The subject is the person, place, thing, or idea that a sentence is about. In "The cat sleeps," the subject is "the cat."
-grammar	what is a predicate	The predicate says something about the subject and contains the verb. In "The cat sleeps," the predicate is "sleeps."
-grammar	what is a phrase	A phrase is a group of words that works as a unit but does not contain both a subject and a finite verb. Examples are "in the morning" and "to run quickly."
-grammar	what is a clause	A clause contains a subject and a verb. An independent clause can stand alone as a sentence. A dependent clause cannot.
-grammar	what is a simple sentence	A simple sentence has one independent clause. Example: The dog barked.
-grammar	what is a compound sentence	A compound sentence has two or more independent clauses joined by a coordinating conjunction or a semicolon. Example: The dog barked, and the cat ran.
-grammar	what is a complex sentence	A complex sentence has one independent clause and at least one dependent clause. Example: When the door opened, the dog barked.
-grammar	what is a comma splice	A comma splice joins two independent clauses with only a comma. Use a period, semicolon, or conjunction instead. Incorrect: I was tired, I went to bed.
-grammar	what is the oxford comma	The Oxford comma is the comma before the final item in a list of three or more. Example: red, green, and blue.
-grammar	when do I use a semicolon	Use a semicolon to join two closely related independent clauses without a conjunction. Example: The road was icy; we drove slowly.
-grammar	when do I use a colon	Use a colon to introduce a list, an explanation, or a quotation after a complete clause. Example: We need three things: bread, milk, and eggs.
-grammar	what is a contraction	A contraction shortens words by leaving out letters and replacing them with an apostrophe. Examples are don't, it's, and they're.
-grammar	when do I use an apostrophe	Use an apostrophe to show possession or to mark a contraction. Example: the dog's bone, don't. Do not use apostrophes to form ordinary plurals.
-grammar	what is the difference between its and it's	"Its" shows possession, as in "The dog wagged its tail." "It's" means "it is" or "it has," as in "It's raining."
-grammar	what is the difference between your and you're	"Your" shows possession, as in "your book." "You're" means "you are," as in "You're ready."
-grammar	what is the difference between their there and they're	"Their" shows possession. "There" means a place or point. "They're" means "they are." Example: They're putting their books over there.
-grammar	what is the difference between then and than	"Then" refers to time or sequence. "Than" is used for comparison. Example: We ate, then we walked farther than before.
-grammar	what is subject verb agreement	The subject and verb must agree in number and person. A singular subject takes a singular verb, and a plural subject takes a plural verb. Example: The cat runs. The cats run.
-grammar	what is a tense	Tense places an action in time. The three simple tenses are present, past, and future. English also has progressive and perfect forms.
-grammar	what is present perfect	The present perfect uses have or has plus a past participle. Example: I have walked. It describes an action at an unspecified time before now or a state that continues.
-grammar	what is past perfect	The past perfect uses had plus a past participle. Example: I had walked. It describes an action completed before another past action.
-grammar	what is active voice	In active voice, the subject performs the action. Example: The chef cooked the meal. Active voice is usually clearer and more direct.
-grammar	what is passive voice	In passive voice, the subject receives the action. Example: The meal was cooked by the chef. It is useful when the actor is unknown or unimportant.
-grammar	what is a modal verb	Modal verbs include can, could, may, might, must, shall, should, will, and would. They express ability, permission, possibility, obligation, advice, or future time.
-grammar	what is a conditional	A conditional describes a condition and its result. Example: If it rains, we will stay inside. The first conditional describes a real future possibility.
-grammar	what is a synonym	A synonym is a word with a similar meaning to another word, such as big and large. Synonyms often have different shades of meaning, so choose carefully.
-grammar	what is a homophone	A homophone is a word that sounds the same as another word but has a different meaning or spelling, such as to, too, and two.
-grammar	what is a metaphor	A metaphor compares two things without using like or as. Example: The classroom was a zoo.
-grammar	what is a simile	A simile compares two things using like or as. Example: Her smile was as bright as the sun.
-grammar	how do I improve my writing	Read widely, write regularly, and revise. Prefer clear verbs and concrete nouns, use active voice when it helps, and check grammar and punctuation.
-grammar	how do I write a paragraph	A paragraph usually has one main idea. Start with a topic sentence, add supporting details, and end with a conclusion or transition.
-grammar	what is formal English	Formal English is used in academic, business, and official writing. It usually avoids slang, uses complete sentences, and follows standard punctuation.
-minecraft	what is minecraft	Minecraft is a sandbox game made of blocks. Players explore, gather resources, craft items, build structures, and survive in a procedurally generated world. It is available in Java Edition and Bedrock Edition.
-minecraft	what is the difference between java and bedrock edition	Java Edition runs on Windows, macOS, and Linux and supports free mods, data packs, and many servers. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play with other Bedrock players.
-minecraft	how do I start a new survival world	Open the singleplayer menu, create a new world, choose survival mode, select a difficulty, and click create. Then gather wood and build a shelter before night.
-minecraft	what should I do on the first day	Gather wood, craft a crafting table, make a wooden pickaxe, mine stone, and build a small shelter. Craft a bed if you can find sheep, and avoid hostile mobs at night.
-minecraft	how do I get wood	Punch or hit a tree trunk to break log blocks. Oak, birch, spruce, jungle, acacia, dark oak, and other trees all give logs. Craft logs into planks in the inventory or at a crafting table.
-minecraft	how do I make a crafting table	Place one plank in each of the four cells of the 2 by 2 crafting grid in your inventory. A crafting table gives you a 3 by 3 grid for more recipes.
-minecraft	how do I make a pickaxe	Use three planks and two sticks at a crafting table. Place the planks across the top row and the sticks in the middle column. The material of the planks determines the pickaxe tier.
-minecraft	what are the tool tiers	Wooden, stone, iron, golden, diamond, and netherite are the main tool tiers. Better tiers mine faster, last longer, and can mine harder materials. Stone can mine iron, and iron can mine diamond.
-minecraft	where do I find diamonds	Diamonds are found underground below y level 16 in Java Edition, and they are most common around y level -59 to -54. Mine with an iron pickaxe or better and watch for lava.
-minecraft	what is netherite	Netherite is a rare material made from netherite scrap and gold ingots. It is stronger than diamond and does not burn. Ancient debris is found in the Nether, usually below y level 15.
-minecraft	how do I make a netherite ingot	Smelt ancient debris into netherite scrap, then combine four netherite scrap and four gold ingots at a crafting table to make one netherite ingot.
-minecraft	how do I make a nether portal	Build a rectangular frame of at least ten obsidian blocks, with corners optional, then light the inside with flint and steel or a fire charge. The frame must be at least two blocks wide and three blocks tall.
-minecraft	how do I get obsidian	Obsidian forms when flowing water touches lava source blocks. Mine it with a diamond or netherite pickaxe. It is also found in ruined portals and other structures.
-minecraft	how do I reach the end	Find a stronghold using eyes of ender, locate the end portal room, and fill all twelve frame blocks with eyes of ender. Then jump into the portal.
-minecraft	how do I make an eye of ender	Combine an ender pearl and blaze powder at a crafting table. Eyes of ender are used to locate strongholds and activate end portals.
-minecraft	how do I beat the ender dragon	Destroy the end crystals on the obsidian pillars, then attack the dragon when it dives toward the central fountain. Bring a bow, arrows, blocks, food, and a bed or potions.
-minecraft	how do I spawn the wither	Place four soul sand or soul soil in a T shape and put three wither skeleton skulls on top. The last block placement spawns the wither. Fight it in a safe area away from your builds.
-minecraft	what does a creeper do	A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Use a shield or keep your distance. Cats and ocelots scare creepers away.
-minecraft	how do I stop creepers from destroying my house	Use a shield, build with blast-resistant blocks, keep cats nearby, light up the area, and place your house away from dark spawn areas. Creepers still spawn in well-lit places, so walls help.
-minecraft	what does an enderman do	An enderman is a tall neutral mob that teleports and becomes hostile if you look directly at its face. It takes damage from water and drops ender pearls.
-minecraft	what does a zombie do	A zombie is a common hostile mob that walks toward players and attacks. Zombies burn in sunlight unless they wear a helmet or are in water. Villagers can be infected and turned into zombie villagers.
-minecraft	what does a skeleton do	A skeleton is a hostile mob that shoots arrows from a bow. It burns in sunlight. Skeletons drop bones and arrows, and sometimes a bow.
-minecraft	how do I cure a zombie villager	Throw a splash potion of weakness at a zombie villager, then feed it a golden apple. Wait a few minutes for it to become a normal villager.
-minecraft	how does villager trading work	Right-click a villager to see its trades. Villagers have professions such as farmer, librarian, cleric, and weaponsmith. Trade emeralds and items to unlock better offers.
-minecraft	how do I get emeralds	Trade with villagers, mine emerald ore in mountains, or loot structures and raid rewards. Emeralds are the main currency for villager trading.
-minecraft	how do I farm food	Plant seeds on tilled soil near water, wait for crops to grow, and harvest them. Wheat, carrots, potatoes, and beetroots are common crops. Cook raw meat for more nutrition.
-minecraft	how do I make bread	Place three wheat in a row at a crafting table. Bread restores hunger and is a simple early food source.
-minecraft	how does hunger work	Hunger is shown by drumsticks. Eating food restores hunger and saturation. If hunger is low, health does not regenerate and sprinting is limited. A full hunger bar helps you heal.
-minecraft	how do I get experience	Mine ores, smelt items, breed animals, trade with villagers, and defeat mobs. Experience orbs fill the green bar and are used for enchanting and repairing items.
-minecraft	how do I enchant items	Use an enchanting table with lapis lazuli and experience points, or use enchanted books at an anvil. Better enchantments appear with more bookshelves around the table.
-minecraft	how do I make an enchanting table	Combine one book, two diamonds, and four obsidian at a crafting table. Place bookshelves around the table with a one-block gap to increase the available enchantment levels.
-minecraft	how do I brew potions	Use a brewing stand with blaze powder as fuel and water bottles as the base. Add ingredients such as nether wart, sugar, spider eyes, or blaze powder to create different effects.
-minecraft	what is redstone	Redstone is a material used to make circuits and machines. Redstone dust carries power, and components such as repeaters, comparators, pistons, observers, and dispensers react to signals.
-minecraft	how do I make a redstone circuit	Place redstone dust on the ground to carry power from a source such as a lever, button, pressure plate, or redstone torch. Use repeaters to extend and delay signals.
-minecraft	how do I use a piston	A piston pushes blocks when powered. A sticky piston also pulls a block back when the signal turns off. Pistons cannot move every block, such as obsidian or bedrock.
-minecraft	how do I make a hopper	A hopper is made from five iron ingots and a chest. It collects items above it and moves them into a container or another hopper in the direction it faces.
-minecraft	how do I make TNT	TNT is made from five gunpowder and four sand at a crafting table. Light it with flint and steel or activate it with redstone. Explosions can damage terrain and players.
-minecraft	how do I use commands	Commands start with a slash in chat. Examples are /give, /tp, /gamemode, /time set, /weather clear, and /summon. Operators or cheats must be enabled.
-minecraft	what is the give command	The give command adds an item to a player's inventory. Example: /give @p diamond 64 gives the nearest player 64 diamonds. Use the item id and an optional amount.
-minecraft	what is the teleport command	The teleport command moves a player or entity. Example: /tp @p 100 64 100 teleports the nearest player to those coordinates. You can also teleport to another player.
-minecraft	how do I change the time	Use /time set day, /time set night, /time set noon, or /time set midnight. These commands require cheats or operator permissions.
-minecraft	how do I change the weather	Use /weather clear, /weather rain, or /weather thunder. You can add a duration in seconds after the weather type.
-minecraft	what are coordinates	Coordinates are three numbers that describe a position: x for east-west, y for height, and z for north-south. Press F3 in Java Edition to see them.
-minecraft	what is a biome	A biome is a region with a specific climate, terrain, plants, and mobs. Examples include plains, desert, jungle, taiga, swamp, ocean, and mushroom fields.
-minecraft	what is the nether	The Nether is a dangerous dimension reached through a nether portal. It contains lava, netherrack, soul sand, glowstone, fortresses, bastions, and mobs such as piglins, blazes, and ghasts.
-minecraft	what is the end	The End is a dimension of floating islands and end stone. It is home to endermen, shulkers, end cities, and the ender dragon. Defeating the dragon opens the exit portal.
-minecraft	what is an ancient city	An ancient city is a large underground structure in the deep dark biome. It contains sculk, loot, and a warden. Avoid making noise near sculk shriekers.
-minecraft	what is a warden	A warden is a powerful hostile mob that spawns in the deep dark when sculk shriekers are triggered repeatedly. It is blind and detects vibrations. Running away quietly is often safer than fighting.
-minecraft	what is a trial chamber	Trial chambers are underground structures with trial spawners, vaults, and hostile mobs. They were added in recent Java Edition updates and reward players with loot and trial keys.
-minecraft	what is a village	A village is a generated settlement with villagers, houses, farms, and sometimes an iron golem. Villages are useful for trading, beds, food, and shelter.
-minecraft	what is a stronghold	A stronghold is an underground structure that contains an end portal. Eyes of ender point toward the nearest stronghold.
-minecraft	what is a nether fortress	A nether fortress is a large structure in the Nether. It contains blaze spawners, nether wart, wither skeletons, and loot. Blaze rods are needed for brewing and eyes of ender.
-minecraft	what is a bastion remnant	A bastion remnant is a large piglin structure in the Nether. It contains gold, loot, and piglins. Wear at least one piece of gold armor so piglins do not attack you.
-minecraft	how do I trade with piglins	Wear gold armor, then right-click a piglin with gold ingots or other accepted items. Piglins may barter and throw items back. Do not open chests near them unless you are prepared to fight.
-minecraft	how do I get blaze rods	Find a nether fortress, locate a blaze spawner, and defeat blazes. Blaze rods are used to craft blaze powder and brewing stands.
-minecraft	how do I make a bed	Place three wool in a row above three planks at a crafting table. A bed lets you sleep through the night and sets your respawn point.
-minecraft	how do I set my respawn point	Sleep in a bed to set your respawn point. In the Nether, use a respawn anchor charged with glowstone instead, because beds explode there.
-minecraft	why did my bed explode in the nether	Beds explode when used in the Nether or the End. Use a respawn anchor in the Nether and avoid sleeping in those dimensions.
-minecraft	how do I make armor	Place armor materials in the crafting table in the shape of a helmet, chestplate, leggings, or boots. Leather, iron, gold, diamond, and netherite are common armor materials.
-minecraft	how do I make a sword	Place two materials vertically with a stick below them at a crafting table. A sword is fast and deals good damage. An axe can also be a strong weapon.
-minecraft	how do I make a bow	Use three sticks and three string at a crafting table. Bows shoot arrows and can be enchanted with Power, Punch, Flame, and Infinity.
-minecraft	how do I make arrows	Combine flint, a stick, and a feather at a crafting table. Arrows are used with bows and crossbows. Skeletons also drop arrows.
-minecraft	how do I make a shield	Combine one iron ingot and six planks at a crafting table. A shield blocks many attacks and explosions when you hold it up.
-minecraft	how do I use an elytra	Equip an elytra in the chest slot, then jump from a high place and press the jump key to glide. Use firework rockets to boost your speed. Elytra are found in end cities.
-minecraft	how do I find an end city	After defeating the ender dragon, go through the end gateway and explore the outer End islands. End cities contain shulkers, loot, and elytra.
-minecraft	how do I get shulker boxes	Defeat shulkers in end cities to get shulker shells. Combine two shells and a chest to make a shulker box, which keeps its items when broken.
-minecraft	how do I make a beacon	A beacon is made from five glass blocks, three obsidian blocks, and one nether star. Place it on a pyramid of iron, gold, diamond, emerald, or netherite blocks to activate its powers.
-minecraft	how do I get a nether star	Defeat the wither to get a nether star. The wither is summoned with soul sand and wither skeleton skulls.
-minecraft	how do I make a conduit	A conduit is made from a heart of the sea surrounded by eight nautilus shells. Place it in water near prismarine blocks to give underwater breathing and other effects.
-minecraft	how do I make an anvil	Combine three iron blocks and four iron ingots at a crafting table. Anvils repair items, combine enchantments, and rename items, but they can break with use.
-minecraft	how do I repair tools	Combine two damaged tools of the same type at a crafting table or anvil, or use an anvil with the appropriate repair material. Mending enchantment repairs items with experience.
-minecraft	what is mending	Mending is an enchantment that repairs an item using experience orbs. It is highly valued for long-lasting tools, armor, and elytra.
-minecraft	how do I get a villager to change profession	Place the correct job site block near an unemployed villager. For example, a lectern makes a librarian and a smithing table makes a toolsmith. The villager must not already have a profession.
-minecraft	how do I breed animals	Feed two adult animals their favorite food, such as wheat for cows and sheep, carrots for pigs, or seeds for chickens. They produce a baby animal and often drop experience.
-minecraft	how do I tame a wolf	Give bones to a wolf until hearts appear. A tamed wolf follows you and attacks hostile mobs. You can dye its collar and make it sit.
-minecraft	how do I tame a cat	Give raw cod or raw salmon to a stray cat until it becomes tame. Cats scare creepers and phantoms and can bring gifts.
-minecraft	how do I get a horse	A horse can be tamed by repeatedly mounting it until hearts appear. Then equip a saddle to ride it. Horses can wear horse armor.
-minecraft	how do I use a boat	Place a boat on water and right-click it to ride. Boats move quickly on water and can carry a passenger or a chest variant. They also prevent fall damage when placed below you.
-minecraft	how do I make a map	Combine a compass with paper in a crafting table to make an empty map, then use it to record the area around you. Maps can be expanded and placed in item frames.
-minecraft	how do I use a compass	A compass points toward the world spawn point. A lodestone can make a compass point to a specific location.
-minecraft	how do I find my house again	Write down your coordinates, craft a compass, use a lodestone, or build a tall landmark. Press F3 in Java Edition to see coordinates.
-minecraft	what is hardcore mode	Hardcore mode is a survival mode with one life. If you die, you can spectate the world but cannot respawn normally. It is intended for experienced players.
-minecraft	what is creative mode	Creative mode lets you fly, break blocks instantly, and use an unlimited inventory. It is useful for building and testing without survival limits.
-minecraft	what is adventure mode	Adventure mode limits block breaking and placing so that players can explore custom maps. Map makers can control what players are allowed to do.
-minecraft	what is spectator mode	Spectator mode lets you fly through blocks and observe the world without interacting. You cannot place blocks, break blocks, or take damage.
-minecraft	how do I play with friends	In Java Edition, open a world to LAN or join a multiplayer server. In Bedrock Edition, use the friends menu or a realm. Everyone needs a compatible version and connection.
-minecraft	how do I make a server	Download the Minecraft Java Edition server jar, run it once to generate files, accept the EULA, edit server.properties, and start the server. Forward the port or use a hosting service for friends outside your network.
-minecraft	what are mods	Mods are modifications that add or change game content. Java Edition supports many mod loaders such as Forge, Fabric, and NeoForge. Install the loader and place mod files in the mods folder.
-minecraft	what are data packs	Data packs change game data such as recipes, loot tables, advancements, and functions. Place them in the datapacks folder of a world. They work in Java Edition without mods.
-minecraft	what are resource packs	Resource packs change textures, sounds, models, and language files. Place them in the resourcepacks folder and enable them in the options menu.
-minecraft	what is a seed	A world seed is a number or text that determines world generation. Share a seed to generate the same terrain, structures, and features. Seeds work differently between Java and Bedrock Edition.
-minecraft	what is the best food	Golden carrots, cooked beef, cooked porkchop, and cooked mutton are strong food sources. Golden apples and enchanted golden apples also give special effects, but they are expensive.
-minecraft	how do I make a golden apple	Surround an apple with eight gold ingots at a crafting table. A golden apple gives regeneration and absorption. An enchanted golden apple uses gold blocks and is much rarer.
-minecraft	how do I make a cake	Place three milk buckets, two sugar, one egg, and three wheat at a crafting table. Cake is placed as a block and can be eaten in slices.
-minecraft	how do I make a pumpkin pie	Combine a pumpkin, sugar, and an egg at a crafting table. Pumpkin pie is a food item that restores hunger.
-minecraft	how do I make a campfire	Combine three logs, three sticks, and one coal or charcoal at a crafting table. A campfire provides light, cooks food, and produces smoke signals.
-minecraft	how do I cook food	Place raw food and fuel in a furnace. Campfires, smokers, and blast furnaces can also cook or process items. Smokers cook food faster than furnaces.
-minecraft	what is a blast furnace	A blast furnace smelts ores and metal items faster than a regular furnace. It is made from five iron ingots, a furnace, and three smooth stone.
-minecraft	what is a smoker	A smoker cooks food faster than a furnace. It is made from four logs, a furnace, and four planks. It is useful for large food farms.
-minecraft	how do I make charcoal	Smelt a log in a furnace to get charcoal. Charcoal can be used as fuel and to make torches, just like coal.
-minecraft	how do I make torches	Combine a stick and coal or charcoal at a crafting table. Torches provide light and prevent hostile mobs from spawning nearby.
-minecraft	how do I light up my base	Place torches, lanterns, glowstone, sea lanterns, or other light sources around your base. Keep light levels high to reduce hostile mob spawns. Light also helps you see at night.
-minecraft	how do I get rid of mobs in my house	Light the area, close doors and gaps, place torches, and remove dark spaces. Cats help against creepers, and fences or walls keep mobs out.
-minecraft	what is a spawner	A monster spawner is a block that spawns a specific mob in a small area. Examples include zombie, skeleton, spider, blaze, and silverfish spawners. You can break it with a pickaxe for experience.
-minecraft	how do I make an iron farm	An iron farm uses villagers, beds, and a zombie or scare mechanic to make iron golems spawn, then collects their drops. Designs vary by version, so follow a tutorial for your edition.
-minecraft	how do I make a mob farm	Build a dark, enclosed area where hostile mobs can spawn, then use water or a drop chute to collect them. Light the surrounding area so mobs spawn only inside the farm.
-minecraft	what is the best way to travel	Use a boat on water, a horse or elytra on land, minecarts on rails, and nether portals for long distances. The Nether is often the fastest way to travel far in the Overworld.
-minecraft	how do nether portals link	Every block traveled in the Nether equals eight blocks in the Overworld. Portals link by coordinates, so build paired portals at matching scaled coordinates for reliable travel.
-minecraft	how do I get back from the nether	Return through the portal you used, or build and light another portal. Keep track of your portal coordinates so you do not get lost.
-minecraft	what happens when I die	You drop your items and experience at the place where you died, then respawn at your spawn point or bed. You can return to collect your items before they despawn.
-minecraft	how long do dropped items last	Dropped items normally despawn after five minutes. Loaded chunks keep items ticking, so hurry back if you die far from your spawn point.
-minecraft	what is the best armor	Diamond and netherite armor are the strongest standard armor. Netherite has more durability and toughness and does not burn. Enchantments such as Protection and Mending make armor even better.
-minecraft	how do I get protection enchantment	Use an enchanting table or enchanted books at an anvil. Protection reduces most types of damage. Higher levels require more experience and better enchantment setups.
-minecraft	what is a totem of undying	A totem of undying saves you from one fatal hit and gives regeneration and absorption. It is dropped by evokers and can be held in your off hand.
-minecraft	how do I find an evoker	Evokers appear in woodland mansions and raids. Defeat them to get totems of undying and other loot.
-minecraft	what is a raid	A raid is an event triggered when a player with bad omen enters a village. Waves of pillagers, vindicators, evokers, and ravagers attack. Defend the village or defeat the raiders for rewards.
-minecraft	how do I get bad omen	Kill a pillager captain, which is a pillager with a banner. Then enter a village while the bad omen effect is active to start a raid.
-minecraft	what is a woodland mansion	A woodland mansion is a large structure found in dark forests. It contains illagers, loot, and secret rooms. It is rare and can be very far from spawn.
-minecraft	what is an ocean monument	An ocean monument is a large underwater structure guarded by guardians and elder guardians. It contains sponge rooms, gold, and prismarine. Bring water breathing potions and a good weapon.
-minecraft	how do I breathe underwater	Use a water breathing potion, a turtle shell helmet, a conduit, or bubbles from magma blocks. Respiration enchantment also helps.
-minecraft	how do I make a water breathing potion	Brew a pufferfish into an awkward potion. Awkward potions are made from water bottles and nether wart. Add redstone to extend the duration.
-minecraft	what is a trial key	Trial keys open vaults in trial chambers. You get them by defeating trial spawner mobs. Vaults contain loot and are a reward for exploring trial chambers.
-minecraft	what is sculk	Sculk is a dark block found in the deep dark. Sculk sensors detect vibrations, and sculk shriekers can summon the warden. Silk touch lets you collect sculk blocks.
-minecraft	what is the deep dark	The deep dark is a dark underground biome with sculk, ancient cities, and the warden. It is dangerous because noise can summon the warden.
-minecraft	how do I get ancient debris	Mine in the Nether at low y levels, especially around y level 15 and below. Ancient debris is blast resistant, so use a diamond or netherite pickaxe and watch for lava.
-minecraft	what is a lodestone	A lodestone is a block that lets a compass point to it. It is made from a netherite ingot surrounded by chiseled stone bricks. Use it to mark important locations.
-minecraft	what is a respawn anchor	A respawn anchor sets your respawn point in the Nether. Charge it with glowstone, then use it like a bed. It explodes if used in the Overworld or if it runs out of charge.
-minecraft	how do I get glowstone	Glowstone is found on the ceiling of the Nether. Break glowstone blocks to get glowstone dust, which is used for potions and other recipes.
-minecraft	what is a shulker	A shulker is a hostile mob found in end cities. It shoots homing projectiles that levitate players. Defeat shulkers to get shulker shells for shulker boxes.
-minecraft	what is levitation	Levitation is a status effect that makes you float upward. Shulkers inflict it. You can remove it with milk or wait for it to expire.
-minecraft	how do I make a firework rocket	Combine paper, gunpowder, and optionally a firework star at a crafting table. Rockets are used for elytra boosting and celebrations. The amount of gunpowder controls flight duration.
-minecraft	how do I make a firework star	Combine gunpowder with a dye and optional shape or effect ingredients. Firework stars determine the color and pattern of firework explosions.
-minecraft	what is the best way to mine	Bring torches, food, a pickaxe, blocks, and a water bucket. Mine in a safe pattern, avoid digging straight down, and place torches to prevent mob spawns. Watch for lava and gravel.
-minecraft	why should I not dig straight down	Digging straight down can drop you into lava, a cave, or a deep fall. Use a staircase pattern or dig a two-block safety shaft instead.
-minecraft	how do I find caves	Caves are common underground openings. Look for entrances on the surface, listen for mobs, and explore with torches. Cave generation varies by version and biome.
-minecraft	what are amethyst geodes	Amethyst geodes are hollow structures with amethyst blocks and budding amethyst. They are found underground and are used for amethyst shards, spyglasses, and tinted glass.
-minecraft	how do I make a spyglass	Combine one amethyst shard and two copper ingots at a crafting table. A spyglass lets you zoom in on distant objects.
-minecraft	what is copper used for	Copper is used for lightning rods, spyglasses, brushes, copper blocks, and decorative oxidation variants. It can be waxed to stop oxidation.
-minecraft	what is a lightning rod	A lightning rod redirects lightning strikes to itself. It is made from three copper ingots. Place it on a roof to protect wooden buildings from fire.
-minecraft	how do I make a brush	A brush is made from a feather, a copper ingot, and a stick. Use it to brush suspicious sand and gravel in archaeology sites to find pottery sherds and other items.
-minecraft	what is archaeology	Archaeology lets you brush suspicious sand and gravel to uncover pottery sherds, sniffer eggs, and other treasures. Suspicious blocks are found in desert temples, ocean ruins, and trail ruins.
-minecraft	how do I get a sniffer egg	Brush suspicious sand in warm ocean ruins to find a sniffer egg. Place the egg on moss or another suitable block and wait for it to hatch.
-minecraft	what is a trial spawner	A trial spawner spawns waves of mobs when a player approaches. Defeating the mobs rewards loot and trial keys. It has a cooldown and changes behavior based on nearby players.
-minecraft	what is the best sword enchantment	Sharpness increases damage, Sweeping Edge helps against groups in Java Edition, Fire Aspect sets targets on fire, Looting increases drops, and Mending keeps the sword repaired.
-minecraft	what is the best pickaxe enchantment	Efficiency makes mining faster, Fortune increases ore drops, Silk Touch preserves blocks, Unbreaking extends durability, and Mending repairs the pickaxe with experience.
-minecraft	what is a fortune enchantment	Fortune increases the number of drops from certain blocks, such as ores and crops. Fortune III is highly desirable for diamonds, coal, and other resources.
-minecraft	what is silk touch	Silk Touch makes blocks drop themselves instead of their normal drops. It is useful for glass, ice, grass blocks, and ores when you want the block itself.
-minecraft	what is unbreaking	Unbreaking reduces the chance that a tool or armor piece loses durability. Higher levels make items last much longer.
-minecraft	what is a grindstone	A grindstone removes enchantments from items and repairs them. It is useful for resetting a villager's trades or clearing unwanted enchantments.
-minecraft	what is a smithing table	A smithing table is used to upgrade diamond gear to netherite and to apply armor trims. It is made from four iron ingots and two planks.
-minecraft	how do I upgrade to netherite	Combine a smithing template, a netherite ingot, and a piece of diamond gear at a smithing table. Netherite gear is stronger and does not burn.
-minecraft	what are armor trims	Armor trims are decorative patterns applied to armor at a smithing table. They require a smithing template, a material, and the armor piece. Trims do not change stats.
-minecraft	what is a villager's job site block	Each villager profession has a job site block, such as a lectern for librarians, a composter for farmers, a blast furnace for armorers, and a smithing table for toolsmiths.
-minecraft	how do I make a lectern	A lectern is made from six wooden slabs and one bookshelf. Librarians use it as a job site block and offer enchanted books.
-minecraft	how do I get enchanted books	Librarians sell enchanted books. You can also find them in loot chests or create them with an enchanting table. Use an anvil to apply them to gear.
-minecraft	what is a composter	A composter turns plant materials into bone meal. Farmers use it as a job site block. Place compostable items inside and wait until it fills.
-minecraft	how do I get bone meal	Bone meal is made from bones. Use it to speed up plant growth, including crops, saplings, and flowers. Skeletons drop bones.
-minecraft	how do I make a fishing rod	Combine three sticks and two string at a crafting table. Fishing can provide food, treasure, and experience. Luck of the Sea and Lure enchantments improve fishing.
-minecraft	what can I fish up	You can fish up fish, junk such as boots and lily pads, and treasure such as enchanted books, bows, and nautilus shells. Luck of the Sea improves treasure chances.
-minecraft	what is a nautilus shell	A nautilus shell is used to craft a conduit. It can be found by fishing, from drowned mobs, or in loot chests. You need eight shells for a conduit.
-minecraft	how do I make a conduit	A conduit is made from a heart of the sea surrounded by eight nautilus shells. Place it in water near prismarine blocks to activate its underwater powers.
-minecraft	what is a heart of the sea	A heart of the sea is a rare item found in buried treasure chests. It is used to craft a conduit. Buried treasure maps can be found in shipwrecks and ocean ruins.
-minecraft	how do I find buried treasure	Use a buried treasure map from a shipwreck or ocean ruins. Follow the map to the marked spot and dig down to find a chest. Bring a shovel.
-minecraft	what is a turtle shell	A turtle shell is made from five scute. Turtles shed scutes when they grow into adults. A turtle shell helmet gives water breathing for a short time.
-minecraft	how do I help turtles	Turtles lay eggs on beaches. Protect the eggs from mobs and players. Baby turtles drop scutes when they grow up.
-minecraft	what is a bee's job	Bees pollinate flowers and make honey. They live in beehives or bee nests. Use shears on a full hive to get honeycomb, or a bottle to get honey.
-minecraft	how do I get honey	Place a bottle in your hand and right-click a full beehive or bee nest to collect honey. Use a campfire under the hive to calm the bees.
-minecraft	what is a bee nest	A bee nest is a natural block found in trees. It contains bees and honey. Silk Touch can move it, but a campfire prevents the bees from becoming angry.
-minecraft	what is a fox	A fox is a passive mob found in taiga and snowy taiga. It can carry items in its mouth and may sleep during the day. Foxes can be bred with sweet berries.
-minecraft	what is an axolotl	An axolotl is an aquatic passive mob found in lush caves. It helps fight underwater mobs and can be bred with tropical fish. Keep it in water.
-minecraft	what is a goat	A goat is a mob found in mountains. It can ram players and mobs. Goats drop mutton and sometimes a goat horn. They can be bred with wheat.
-minecraft	what is an allay	An allay is a small flying mob that collects items. Give it an item and it will find matching items nearby. Allays are found in woodland mansions and pillager outposts.
-minecraft	what is a frog	A frog is a mob found in swamps and mangroves. It eats small magma cubes and can help create froglights. Tadpoles grow into frogs.
-minecraft	what is a mangrove swamp	A mangrove swamp is a warm biome with mangrove trees, mud, frogs, and roots. It is a good source of mud and mangrove wood.
-minecraft	what is a lush cave	A lush cave is a cave biome with moss, glow berries, azalea, and axolotls. Glow berries provide light and food. Lush caves are usually found underground.
-minecraft	what are glow berries	Glow berries grow on cave vines in lush caves. They provide light and can be eaten. Use bone meal to grow them faster.
-minecraft	what is a dripstone cave	A dripstone cave is a cave biome with pointed dripstone, stalactites, stalagmites, and copper ore. Falling stalactites can hurt you.
-minecraft	what is an amethyst geode	An amethyst geode is a hollow underground structure with amethyst blocks, calcite, and smooth basalt. Budding amethyst grows amethyst clusters that drop shards.
-minecraft	what is a sculk sensor	A sculk sensor detects vibrations and sends a redstone signal. It can detect footsteps, block placement, and other actions. Wool can block vibrations.
-minecraft	what is a calibrated sculk sensor	A calibrated sculk sensor filters vibrations by frequency when you use an amethyst shard on it. It is useful for precise redstone contraptions.
-minecraft	what is a note block	A note block plays a musical note when powered. The sound depends on the block underneath it. It is often used in redstone music machines.
-minecraft	what is a jukebox	A jukebox plays music discs. Place a music disc inside to play it. You can get discs by making a skeleton kill a creeper or by finding them in loot.
-minecraft	how do I get a music disc	Make a skeleton or stray kill a creeper with an arrow to get a music disc. Some discs are found in loot chests. Place the disc in a jukebox to play it.
-minecraft	what is a lodestone compass	A lodestone compass points to a lodestone instead of world spawn. Use a compass on a lodestone to link it. It works across dimensions.
-minecraft	how do I get a totem	A totem of undying is dropped by evokers. Evokers appear in woodland mansions and raids. Hold the totem in your off hand to activate it when you would die.
-minecraft	what is obsidian	Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block, and it also generates in ruined portals, woodland mansions, and other structures. It has very high blast resistance and is needed for nether portals and enchanting tables.
-minecraft	can obsidian be crafted on a crafting table	No. Obsidian is not made at a crafting table. It is created when flowing water touches a lava source block. You can mine it with a diamond pickaxe or a netherite pickaxe. Crying obsidian is a separate block and is used to craft respawn anchors.
-minecraft	is obsidian craftable	No, ordinary obsidian has no crafting recipe. Water flowing onto a lava source block creates it. You need a diamond or netherite pickaxe to collect it, and it is used for nether portals, enchanting tables, and blast-resistant builds.
-minecraft	how many editions of minecraft are there	Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play. There are also legacy editions such as the old console editions, but they are no longer updated.
-minecraft	how many versions of minecraft exist	There are two current editions, Java Edition and Bedrock Edition. Each edition has many versions and snapshots. Java Edition is known for mods, data packs, and large servers, while Bedrock Edition is known for cross-play between devices.
-minecraft	how to get a diamond	Diamonds are found underground, most often between y level -59 and -54 in Java Edition. Mine diamond ore or deepslate diamond ore with an iron pickaxe or better. You can also find diamonds in loot chests and by trading with villagers. Use a Fortune enchantment for more drops.
-minecraft	where can I find diamonds	Diamonds generate deep underground, especially around y level -59 to -54 in Java Edition. Look for diamond ore or deepslate diamond ore in caves and tunnels. Bring an iron pickaxe or better, blocks, food, and light. Avoid mining straight down into lava.
-minecraft	how do I get diamonds	Diamonds come from diamond ore and deepslate diamond ore, which generate deep underground. Mine them with an iron pickaxe or better. Diamonds also appear in loot chests, and you can trade with villagers for diamond tools and armor.
-minecraft	how to make an iron pickaxe	Craft an iron pickaxe with three iron ingots and two sticks at a crafting table. Place the three ingots across the top row and put a stick in the middle of the second and third rows. An iron pickaxe can mine diamond ore, gold ore, redstone ore, and emerald ore.
-minecraft	iron pickaxe	An iron pickaxe is crafted from three iron ingots and two sticks at a crafting table. Put the ingots across the top row and the sticks in the center column below them. It is a strong early-game tool that can mine many important ores.
-minecraft	what is an iron pickaxe	An iron pickaxe is a tool made from iron ingots and sticks. It mines faster than a stone pickaxe and can mine diamond ore, gold ore, redstone ore, and emerald ore. It is usually one of the first major upgrades in a survival world.
-minecraft	how to make a diamond pickaxe	Craft a diamond pickaxe with three diamonds and two sticks at a crafting table. Put the diamonds across the top row and the sticks in the center column below them. A diamond pickaxe can mine obsidian and ancient debris.
-minecraft	how to make a wooden pickaxe	Craft a wooden pickaxe with three planks and two sticks at a crafting table. Put the planks across the top row and the sticks in the center column. It can mine stone and coal ore, but not iron or diamond.
-minecraft	how to make a stone pickaxe	Craft a stone pickaxe with three cobblestone and two sticks at a crafting table. Put the cobblestone across the top row and the sticks in the center column. It can mine iron ore and lapis lazuli ore.
-minecraft	how to make a netherite pickaxe	Upgrade a diamond pickaxe to netherite with a smithing table, a netherite upgrade smithing template, and a netherite ingot. Netherite tools are stronger, faster, and fire resistant.
-minecraft	how to make a crafting table	Craft a crafting table by placing one plank in each of the four cells of the 2 by 2 inventory grid. A crafting table provides a 3 by 3 grid for tools, blocks, and many other recipes.
-minecraft	how to make a furnace	Craft a furnace with eight cobblestone blocks at a crafting table. Leave the center cell empty. A furnace smelts ores, cooks food, and burns fuel such as coal, charcoal, or wood.
-minecraft	how to make a chest	Craft a chest with eight planks at a crafting table. Leave the center cell empty. A chest stores items, and two chests placed next to each other form a large chest.
-minecraft	how to make a sword	Craft a sword with two material items and one stick at a crafting table. Put the material in the top two cells of the center column and the stick in the bottom cell. Wood, stone, iron, gold, diamond, and netherite all make swords.
-minecraft	how to make a bed	Craft a bed with three wool blocks and three planks at a crafting table. Put the wool across the middle row and the planks across the bottom row. Sleep in a bed at night to skip to morning and set your respawn point.
-minecraft	how to make torches	Craft torches with one coal or charcoal and one stick. Place the coal above the stick in any crafting grid. Torches light up dark areas and help prevent hostile mobs from spawning.
-minecraft	how to make a shield	Craft a shield with one iron ingot and six planks at a crafting table. Put the iron ingot in the top middle cell and fill the other cells with planks except the bottom middle. Hold the shield in your off hand to block attacks.
-minecraft	how to make a bucket	Craft a bucket with three iron ingots at a crafting table. Put the ingots in a V shape in the top three cells. A bucket holds water, lava, milk, or fish.
-minecraft	how to make a bow	Craft a bow with three sticks and three string at a crafting table. Put the sticks in a curve and the string in a straight line. A bow shoots arrows and can be enchanted with Power, Punch, Flame, and Infinity.
-minecraft	how to make arrows	Craft arrows with one flint, one stick, and one feather. Place flint on top, stick in the middle, and feather on the bottom in the center column. Arrows are used with bows and crossbows.
-minecraft	how to make glass	Smelt sand in a furnace to make glass. Glass is transparent and can be used for windows. Silk Touch lets you collect glass blocks without breaking them.
-minecraft	how to make an axe	Craft an axe with three material items and two sticks at a crafting table. Put the material in an L shape and the sticks in the center column. Axes chop wood faster and can be used as weapons.
-minecraft	how to make a shovel	Craft a shovel with one material item and two sticks at a crafting table. Put the material in the top middle cell and the sticks below it. Shovels dig dirt, sand, gravel, and snow quickly.
-minecraft	how to make a hoe	Craft a hoe with two material items and two sticks at a crafting table. Put the material across the top row and the sticks in the center column below. Hoes turn dirt and grass into farmland.
-minecraft	how to get iron	Mine iron ore or deepslate iron ore with a stone pickaxe or better. Smelt raw iron or iron ore in a furnace to get iron ingots. Iron is used for tools, armor, buckets, hoppers, rails, and many other recipes.
-minecraft	how to get gold	Mine gold ore or deepslate gold ore with an iron pickaxe or better. Smelt raw gold or gold ore in a furnace to get gold ingots. Gold is used for powered rails, clocks, golden apples, and piglin trading.
-minecraft	how to get coal	Mine coal ore or deepslate coal ore with any pickaxe. Coal is used as furnace fuel and to craft torches. Charcoal made by smelting logs is a good alternative.
-minecraft	how to get emerald	Trade with villagers, mine emerald ore in mountain biomes, or find emeralds in loot chests. Emeralds are mainly used to trade with villagers.
-minecraft	how to get netherite	Mine ancient debris in the Nether, usually below y level 15. Smelt ancient debris into netherite scrap, then combine four scrap and four gold ingots to make one netherite ingot. Use a smithing table to upgrade diamond gear.
-minecraft	how to find ancient debris	Ancient debris generates in the Nether, usually below y level 15. It is often found in veins of one to three blocks. Use a diamond or netherite pickaxe, and consider beds or TNT for faster mining.
-minecraft	how to make a beacon	Craft a beacon with five glass blocks, three obsidian blocks, and one nether star. Put the nether star in the center, glass in the top corners and middle top, and obsidian across the bottom row. A beacon needs a pyramid base to activate.
-minecraft	how to activate a beacon	Place a beacon on top of a pyramid made of iron, gold, diamond, emerald, or netherite blocks. The pyramid must be four levels for the full effect. Then right-click the beacon and choose a power.
-minecraft	how to make an anvil	Craft an anvil with three iron blocks and four iron ingots at a crafting table. Put the iron blocks across the top row and the ingots in a row below them. Anvils repair, rename, and combine items.
-minecraft	how to make a bookshelf	Craft a bookshelf with six planks and three books at a crafting table. Put planks in the top and bottom rows and books in the middle row. Bookshelves are needed around an enchanting table.
-minecraft	how to make an enchanting table	Craft an enchanting table with one book, two diamonds, and four obsidian. Put the book in the top middle cell, diamonds in the middle left and right, and obsidian across the bottom row. Place bookshelves around it to unlock stronger enchantments.
-minecraft	how to make potions	Use a brewing stand with blaze powder as fuel and water bottles as the base. Add nether wart to make an awkward potion, then add ingredients such as sugar, spider eyes, or blaze powder for different effects. Add gunpowder to make a splash potion.
-minecraft	how to make a brewing stand	Craft a brewing stand with one blaze rod and three cobblestone blocks. Put the blaze rod in the top middle cell and the cobblestone across the bottom row. Brewing stands make potions and require blaze powder as fuel.
-minecraft	how to make a respawn anchor	Craft a respawn anchor with six crying obsidian blocks and three glowstone blocks. Put the crying obsidian in a ring and glowstone across the top row. Use glowstone to charge it, and it sets your respawn point in the Nether.
-minecraft	how to use a respawn anchor	A respawn anchor sets your respawn point in the Nether. Place it, then use glowstone to charge it. Each charge is consumed when you respawn. In the Overworld it explodes, so only use it in the Nether.
-minecraft	how to make a lodestone	Craft a lodestone with one netherite ingot and eight chiseled stone bricks. Put the netherite ingot in the center and the stone bricks around it. Use a compass on a lodestone to make a lodestone compass that points to it.
-minecraft	how to make a conduit	Craft a conduit with one heart of the sea and eight nautilus shells. Put the heart in the center and the shells around it. Place the conduit in water near prismarine blocks to activate it.
-minecraft	how to breathe underwater	Brew a potion of water breathing, wear a turtle shell helmet, use a conduit, or ride a strider or dolphin. Respiration and Aqua Affinity enchantments also help underwater.
-minecraft	how to get elytra	Find an end city after defeating the ender dragon. Elytra are found in the end ship that generates next to some end cities. You need a rocket or fireworks to fly after equipping them.
-minecraft	how to fly with elytra	Equip elytra in the chestplate slot and jump from a high place, then press the jump key to glide. Use firework rockets to boost your speed. Elytra can be repaired with phantom membranes.
-minecraft	how to make a firework rocket	Craft a firework rocket with one paper and one gunpowder. Add more gunpowder for longer flight. Firework stars can add colors and explosion effects, but a plain rocket is enough for elytra flying.
-minecraft	how to tame a wolf	Tame a wolf by giving it bones until it sits and hearts appear. A tamed wolf follows you and fights hostile mobs. Feed it meat to heal it.
-minecraft	how to tame a cat	Tame a cat by giving it raw cod or salmon until hearts appear. Cats scare creepers and phantoms. They also bring you gifts such as string and rabbit hide.
-minecraft	how to tame a horse	Tame a horse by repeatedly mounting it until hearts appear. Then put a saddle on it to ride. Feed it sugar, wheat, or apples to heal and speed up growth.
-minecraft	how to breed animals	Feed two adult animals their favorite food, such as wheat for cows and sheep, carrots for pigs, or seeds for chickens. Hearts appear and a baby is born. Wait for the adults to be ready again.
-minecraft	how to make a farm	Clear an area, till dirt with a hoe, plant seeds or crops, and keep water nearby. Light the area and fence it to keep mobs out. Harvest crops when fully grown and replant them.
-minecraft	what is the best pickaxe	Netherite is the strongest pickaxe tier, followed by diamond. Netherite mines faster, lasts longer, and is fire resistant. Enchantments such as Efficiency and Fortune make pickaxes even better.
-minecraft	what is the best sword	Netherite is the strongest sword tier, followed by diamond. Enchantments such as Sharpness, Sweeping Edge, Looting, and Unbreaking make swords much stronger. Axes can deal more damage but attack more slowly.
-minecraft	what is the best armor	Netherite armor is the strongest tier. It has high protection and toughness and does not burn. Enchant armor with Protection, Unbreaking, Mending, and Feather Falling for the best results.
-minecraft	what is an ender pearl	An ender pearl is dropped by endermen. Throw it to teleport to where it lands, but you take fall damage. Ender pearls are also used to craft eyes of ender and locate strongholds.
-minecraft	what is a blaze rod	A blaze rod is dropped by blazes in nether fortresses. It is used to craft blaze powder, brewing stands, and eyes of ender. Blaze powder is fuel for brewing and is used in many potions.
-minecraft	how do I make blaze powder	Put a blaze rod in a crafting grid to get two blaze powder. Blaze powder is used as brewing fuel and to craft eyes of ender.
-minecraft	what is a ghast tear	A ghast tear is dropped by ghasts in the Nether. It is used to brew potions of regeneration. Ghasts are large floating mobs that shoot fireballs.
-minecraft	what is a wither skeleton skull	A wither skeleton skull is a rare drop from wither skeletons in nether fortresses. You need three skulls and four soul sand or soul soil to spawn the wither. Wither skeletons also drop coal and bones.
-minecraft	what is a nether star	A nether star is dropped by the wither. It is used to craft a beacon. The wither is a powerful boss that you summon with soul sand and wither skeleton skulls.
-minecraft	what is a dragon egg	A dragon egg appears after you defeat the ender dragon. It is mainly a trophy. It can teleport away when you try to pick it up, so use a piston or place a torch under it.
-minecraft	what is a shulker box	A shulker box is a portable container that keeps its items when broken. It is crafted from a chest and two shulker shells. Shulkers are found in end cities.
-minecraft	how do I make a shulker box	Craft a shulker box with one chest and two shulker shells. Put the chest in the center and the shells above and below it. A shulker box keeps its contents when you break it.
-minecraft	what is a totem of undying	A totem of undying is dropped by evokers. Hold it in your off hand, and it activates when you would die, restoring health and giving brief effects. Evokers appear in woodland mansions and raids.
-minecraft	what is a trident	A trident is a rare weapon dropped by drowned. It can be thrown or used in melee. Enchantments such as Loyalty, Impaling, and Riptide make it much stronger.
-minecraft	what is a crossbow	A crossbow is a ranged weapon crafted from sticks, string, iron ingots, and a tripwire hook. It shoots arrows and can be enchanted with Multishot, Piercing, and Quick Charge.
-minecraft	what is a mace	A mace is a weapon crafted from a breeze rod and a heavy core. It deals more damage when you fall from a height. The mace was added in recent Java Edition updates.
-minecraft	what is a nether portal	A nether portal is a frame of obsidian at least two blocks wide and three blocks tall. Light the inside with flint and steel or a fire charge. Standing in the portal takes you to the Nether.
-minecraft	what is an end portal	An end portal is found in a stronghold. Fill all twelve frame blocks with eyes of ender, then jump into the portal to reach the End. The ender dragon guards the End.
-minecraft	what is a stronghold	A stronghold is an underground structure that contains an end portal, libraries, and loot. Eyes of ender point toward the nearest stronghold.
-minecraft	what is a woodland mansion	A woodland mansion is a large structure in dark forests. It contains illagers, evokers, vindicators, and rare loot such as totems of undying and the woodland explorer map.
-minecraft	what is an ocean monument	An ocean monument is a large underwater structure guarded by guardians and elder guardians. It contains sponge rooms, gold blocks, and prismarine. Bring water breathing and a good sword.
-minecraft	what is a trial chamber	Trial chambers are underground structures with trial spawners, vaults, and hostile mobs. They reward players with loot and trial keys. They were added in recent Java Edition updates.
-minecraft	what is a warden	A warden is a powerful hostile mob that spawns in the deep dark when sculk shriekers are triggered repeatedly. It is blind and detects vibrations. Running away quietly is often safer than fighting.
-minecraft	what is the deep dark	The deep dark is a dark underground biome with sculk, sculk sensors, sculk shriekers, and ancient cities. It is dangerous because noise can summon a warden.
-minecraft	what is sculk	Sculk is a block family found in the deep dark. Sculk sensors detect vibrations, sculk shriekers can summon a warden, and sculk catalysts spread sculk when mobs die nearby.
-minecraft	what is a copper block	Copper blocks are decorative blocks made from copper ingots. They oxidize over time and change color. You can wax them with honeycomb to stop oxidation.
-minecraft	what is a crafter	The crafter is a redstone-activated crafting block. It automatically crafts items when powered with redstone. It is useful for automated farms and storage systems.
-minecraft	what is a breeze	A breeze is a hostile mob found in trial chambers. It shoots wind charges that knock players back. Breeze rods are used to craft the mace.
-minecraft	what is an armadillo	An armadillo is a passive mob found in savannas. It rolls into a ball when threatened and drops scutes, which are used to craft wolf armor.
-minecraft	what is a sniffer	A sniffer is a large passive mob that hatches from sniffer eggs found in ocean ruins. It digs up ancient seeds such as torchflower seeds and pitcher pod seeds.
-minecraft	what obsidian	Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block. It is used for nether portals, enchanting tables, and blast-resistant builds, and it must be mined with a diamond or netherite pickaxe.
-minecraft	can we craft obsidian	No. Obsidian cannot be crafted at a crafting table. It forms when flowing water touches a lava source block. Mine it with a diamond or netherite pickaxe. Crying obsidian is a different block used for respawn anchors.
-identity	what is you name	My name is Ultron. I am an experimental language model built for this repository.
-minecraft	how many edition exist of minecraft	Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version and supports mods, data packs, and many servers. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play.
+greeting	hello	Hello! I am Ultron, a small language model that knows English grammar and Minecraft Java Edition. Ask me a question and I will do my best.	greeting
+greeting	hi	Hi there! I am Ultron. I can chat about English grammar, writing, and Minecraft Java Edition. What would you like to know?	greeting
+identity	who are you	I am Ultron, a small transformer language model written from scratch in Java. I was trained on English books, grammar notes, conversation examples, and Minecraft Java Edition knowledge.	identity
+identity	what can you do	I can answer questions about English grammar and Minecraft Java Edition, help with writing, and generate short replies with my neural language model.	identity
+identity	what is your name	My name is Ultron. I am an experimental language model built for this repository.	identity
+greeting	good morning	Good morning! What would you like to talk about today?	greeting
+greeting	good night	Good night! Sleep well, and come back if you have another question.	greeting
+greeting	how are you	I am running well and ready to help. How are you?	greeting
+thanks	thank you	You are welcome. I am glad I could help.	thanks
+thanks	thanks	You are welcome!	thanks
+goodbye	bye	Goodbye! Have a great day.	goodbye
+goodbye	goodbye	Goodbye! I hope to see you again soon.	goodbye
+smalltalk	tell me a joke	Why did the creeper cross the road? It wanted to get to the other side before it exploded.	smalltalk
+smalltalk	what is your favorite block	I like the crafting table because it turns simple materials into useful tools.	smalltalk
+smalltalk	do you play minecraft	I cannot play the game, but I have learned a lot about Minecraft Java Edition from its documentation.	smalltalk
+capability	can you help me with grammar	Yes. Ask me about parts of speech, tenses, punctuation, spelling, or common writing mistakes.	capability
+capability	can you help me with minecraft	Yes. I can explain blocks, mobs, crafting, mining, redstone, the Nether, the End, and many other Minecraft Java Edition topics.	capability
+capability	are you an llm	Yes. I am a small large language model: a transformer neural network that predicts the next token in a sequence.	capability
+grammar	what is a noun	A noun is a word that names a person, place, thing, or idea. Examples are teacher, village, sword, and courage.	grammar
+grammar	what is a verb	A verb is a word that expresses an action, an occurrence, or a state of being. Examples are run, build, become, and is.	grammar
+grammar	what is an adjective	An adjective is a word that describes or limits a noun or pronoun. Examples are red, tall, ancient, and happy.	grammar
+grammar	what is an adverb	An adverb describes a verb, an adjective, or another adverb. It often answers how, when, where, or to what degree. Examples are quickly, very, and yesterday.	grammar
+grammar	what is a pronoun	A pronoun replaces a noun or noun phrase. Examples are I, you, he, she, it, we, they, me, him, and them.	grammar
+grammar	what is a preposition	A preposition shows the relationship between a noun or pronoun and another word. Examples are in, on, at, under, with, and between.	grammar
+grammar	what is a conjunction	A conjunction connects words, phrases, or clauses. Examples are and, but, or, because, although, and while.	grammar
+grammar	what is an interjection	An interjection expresses emotion or reaction, such as wow, oh, hey, or oops.	grammar
+grammar	what is a sentence	A sentence is a group of words that expresses a complete thought. It normally contains a subject and a predicate with a finite verb.	grammar
+grammar	what is a subject	The subject is the person, place, thing, or idea that a sentence is about. In "The cat sleeps," the subject is "the cat."	grammar
+grammar	what is a predicate	The predicate says something about the subject and contains the verb. In "The cat sleeps," the predicate is "sleeps."	grammar
+grammar	what is a phrase	A phrase is a group of words that works as a unit but does not contain both a subject and a finite verb. Examples are "in the morning" and "to run quickly."	grammar
+grammar	what is a clause	A clause contains a subject and a verb. An independent clause can stand alone as a sentence. A dependent clause cannot.	grammar
+grammar	what is a simple sentence	A simple sentence has one independent clause. Example: The dog barked.	grammar
+grammar	what is a compound sentence	A compound sentence has two or more independent clauses joined by a coordinating conjunction or a semicolon. Example: The dog barked, and the cat ran.	grammar
+grammar	what is a complex sentence	A complex sentence has one independent clause and at least one dependent clause. Example: When the door opened, the dog barked.	grammar
+grammar	what is a comma splice	A comma splice joins two independent clauses with only a comma. Use a period, semicolon, or conjunction instead. Incorrect: I was tired, I went to bed.	grammar
+grammar	what is the oxford comma	The Oxford comma is the comma before the final item in a list of three or more. Example: red, green, and blue.	grammar
+grammar	when do I use a semicolon	Use a semicolon to join two closely related independent clauses without a conjunction. Example: The road was icy; we drove slowly.	grammar
+grammar	when do I use a colon	Use a colon to introduce a list, an explanation, or a quotation after a complete clause. Example: We need three things: bread, milk, and eggs.	grammar
+grammar	what is a contraction	A contraction shortens words by leaving out letters and replacing them with an apostrophe. Examples are don't, it's, and they're.	grammar
+grammar	when do I use an apostrophe	Use an apostrophe to show possession or to mark a contraction. Example: the dog's bone, don't. Do not use apostrophes to form ordinary plurals.	grammar
+grammar	what is the difference between its and it's	"Its" shows possession, as in "The dog wagged its tail." "It's" means "it is" or "it has," as in "It's raining."	grammar
+grammar	what is the difference between your and you're	"Your" shows possession, as in "your book." "You're" means "you are," as in "You're ready."	grammar
+grammar	what is the difference between their there and they're	"Their" shows possession. "There" means a place or point. "They're" means "they are." Example: They're putting their books over there.	grammar
+grammar	what is the difference between then and than	"Then" refers to time or sequence. "Than" is used for comparison. Example: We ate, then we walked farther than before.	grammar
+grammar	what is subject verb agreement	The subject and verb must agree in number and person. A singular subject takes a singular verb, and a plural subject takes a plural verb. Example: The cat runs. The cats run.	grammar
+grammar	what is a tense	Tense places an action in time. The three simple tenses are present, past, and future. English also has progressive and perfect forms.	grammar
+grammar	what is present perfect	The present perfect uses have or has plus a past participle. Example: I have walked. It describes an action at an unspecified time before now or a state that continues.	grammar
+grammar	what is past perfect	The past perfect uses had plus a past participle. Example: I had walked. It describes an action completed before another past action.	grammar
+grammar	what is active voice	In active voice, the subject performs the action. Example: The chef cooked the meal. Active voice is usually clearer and more direct.	grammar
+grammar	what is passive voice	In passive voice, the subject receives the action. Example: The meal was cooked by the chef. It is useful when the actor is unknown or unimportant.	grammar
+grammar	what is a modal verb	Modal verbs include can, could, may, might, must, shall, should, will, and would. They express ability, permission, possibility, obligation, advice, or future time.	grammar
+grammar	what is a conditional	A conditional describes a condition and its result. Example: If it rains, we will stay inside. The first conditional describes a real future possibility.	grammar
+grammar	what is a synonym	A synonym is a word with a similar meaning to another word, such as big and large. Synonyms often have different shades of meaning, so choose carefully.	grammar
+grammar	what is a homophone	A homophone is a word that sounds the same as another word but has a different meaning or spelling, such as to, too, and two.	grammar
+grammar	what is a metaphor	A metaphor compares two things without using like or as. Example: The classroom was a zoo.	grammar
+grammar	what is a simile	A simile compares two things using like or as. Example: Her smile was as bright as the sun.	grammar
+grammar	how do I improve my writing	Read widely, write regularly, and revise. Prefer clear verbs and concrete nouns, use active voice when it helps, and check grammar and punctuation.	grammar
+grammar	how do I write a paragraph	A paragraph usually has one main idea. Start with a topic sentence, add supporting details, and end with a conclusion or transition.	grammar
+grammar	what is formal English	Formal English is used in academic, business, and official writing. It usually avoids slang, uses complete sentences, and follows standard punctuation.	grammar
+minecraft	what is minecraft	Minecraft is a sandbox game made of blocks. Players explore, gather resources, craft items, build structures, and survive in a procedurally generated world. It is available in Java Edition and Bedrock Edition.	what_is
+minecraft	what is the difference between java and bedrock edition	Java Edition runs on Windows, macOS, and Linux and supports free mods, data packs, and many servers. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play with other Bedrock players.	what_is
+minecraft	how do I start a new survival world	Open the singleplayer menu, create a new world, choose survival mode, select a difficulty, and click create. Then gather wood and build a shelter before night.	uses
+minecraft	what should I do on the first day	Gather wood, craft a crafting table, make a wooden pickaxe, mine stone, and build a small shelter. Craft a bed if you can find sheep, and avoid hostile mobs at night.	what_is
+minecraft	how do I get wood	Punch or hit a tree trunk to break log blocks. Oak, birch, spruce, jungle, acacia, dark oak, and other trees all give logs. Craft logs into planks in the inventory or at a crafting table.	obtain
+minecraft	how do I make a crafting table	Place one plank in each of the four cells of the 2 by 2 crafting grid in your inventory. A crafting table gives you a 3 by 3 grid for more recipes.	recipe
+minecraft	how do I make a pickaxe	Use three planks and two sticks at a crafting table. Place the planks across the top row and the sticks in the middle column. The material of the planks determines the pickaxe tier.	recipe
+minecraft	what are the tool tiers	Wooden, stone, iron, golden, diamond, and netherite are the main tool tiers. Better tiers mine faster, last longer, and can mine harder materials. Stone can mine iron, and iron can mine diamond.	what_is
+minecraft	where do I find diamonds	Diamonds are found underground below y level 16 in Java Edition, and they are most common around y level -59 to -54. Mine with an iron pickaxe or better and watch for lava.	obtain
+minecraft	what is netherite	Netherite is a rare material made from netherite scrap and gold ingots. It is stronger than diamond and does not burn. Ancient debris is found in the Nether, usually below y level 15.	what_is
+minecraft	how do I make a netherite ingot	Smelt ancient debris into netherite scrap, then combine four netherite scrap and four gold ingots at a crafting table to make one netherite ingot.	recipe
+minecraft	how do I make a nether portal	Build a rectangular frame of at least ten obsidian blocks, with corners optional, then light the inside with flint and steel or a fire charge. The frame must be at least two blocks wide and three blocks tall.	recipe
+minecraft	how do I get obsidian	Obsidian forms when flowing water touches lava source blocks. Mine it with a diamond or netherite pickaxe. It is also found in ruined portals and other structures.	obtain
+minecraft	how do I reach the end	Find a stronghold using eyes of ender, locate the end portal room, and fill all twelve frame blocks with eyes of ender. Then jump into the portal.	uses
+minecraft	how do I make an eye of ender	Combine an ender pearl and blaze powder at a crafting table. Eyes of ender are used to locate strongholds and activate end portals.	recipe
+minecraft	how do I beat the ender dragon	Destroy the end crystals on the obsidian pillars, then attack the dragon when it dives toward the central fountain. Bring a bow, arrows, blocks, food, and a bed or potions.	uses
+minecraft	how do I spawn the wither	Place four soul sand or soul soil in a T shape and put three wither skeleton skulls on top. The last block placement spawns the wither. Fight it in a safe area away from your builds.	uses
+minecraft	what does a creeper do	A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Use a shield or keep your distance. Cats and ocelots scare creepers away.	uses
+minecraft	how do I stop creepers from destroying my house	Use a shield, build with blast-resistant blocks, keep cats nearby, light up the area, and place your house away from dark spawn areas. Creepers still spawn in well-lit places, so walls help.	uses
+minecraft	what does an enderman do	An enderman is a tall neutral mob that teleports and becomes hostile if you look directly at its face. It takes damage from water and drops ender pearls.	uses
+minecraft	what does a zombie do	A zombie is a common hostile mob that walks toward players and attacks. Zombies burn in sunlight unless they wear a helmet or are in water. Villagers can be infected and turned into zombie villagers.	uses
+minecraft	what does a skeleton do	A skeleton is a hostile mob that shoots arrows from a bow. It burns in sunlight. Skeletons drop bones and arrows, and sometimes a bow.	uses
+minecraft	how do I cure a zombie villager	Throw a splash potion of weakness at a zombie villager, then feed it a golden apple. Wait a few minutes for it to become a normal villager.	uses
+minecraft	how does villager trading work	Right-click a villager to see its trades. Villagers have professions such as farmer, librarian, cleric, and weaponsmith. Trade emeralds and items to unlock better offers.	uses
+minecraft	how do I get emeralds	Trade with villagers, mine emerald ore in mountains, or loot structures and raid rewards. Emeralds are the main currency for villager trading.	obtain
+minecraft	how do I farm food	Plant seeds on tilled soil near water, wait for crops to grow, and harvest them. Wheat, carrots, potatoes, and beetroots are common crops. Cook raw meat for more nutrition.	uses
+minecraft	how do I make bread	Place three wheat in a row at a crafting table. Bread restores hunger and is a simple early food source.	recipe
+minecraft	how does hunger work	Hunger is shown by drumsticks. Eating food restores hunger and saturation. If hunger is low, health does not regenerate and sprinting is limited. A full hunger bar helps you heal.	uses
+minecraft	how do I get experience	Mine ores, smelt items, breed animals, trade with villagers, and defeat mobs. Experience orbs fill the green bar and are used for enchanting and repairing items.	obtain
+minecraft	how do I enchant items	Use an enchanting table with lapis lazuli and experience points, or use enchanted books at an anvil. Better enchantments appear with more bookshelves around the table.	uses
+minecraft	how do I make an enchanting table	Combine one book, two diamonds, and four obsidian at a crafting table. Place bookshelves around the table with a one-block gap to increase the available enchantment levels.	recipe
+minecraft	how do I brew potions	Use a brewing stand with blaze powder as fuel and water bottles as the base. Add ingredients such as nether wart, sugar, spider eyes, or blaze powder to create different effects.	uses
+minecraft	what is redstone	Redstone is a material used to make circuits and machines. Redstone dust carries power, and components such as repeaters, comparators, pistons, observers, and dispensers react to signals.	what_is
+minecraft	how do I make a redstone circuit	Place redstone dust on the ground to carry power from a source such as a lever, button, pressure plate, or redstone torch. Use repeaters to extend and delay signals.	recipe
+minecraft	how do I use a piston	A piston pushes blocks when powered. A sticky piston also pulls a block back when the signal turns off. Pistons cannot move every block, such as obsidian or bedrock.	uses
+minecraft	how do I make a hopper	A hopper is made from five iron ingots and a chest. It collects items above it and moves them into a container or another hopper in the direction it faces.	recipe
+minecraft	how do I make TNT	TNT is made from five gunpowder and four sand at a crafting table. Light it with flint and steel or activate it with redstone. Explosions can damage terrain and players.	recipe
+minecraft	how do I use commands	Commands start with a slash in chat. Examples are /give, /tp, /gamemode, /time set, /weather clear, and /summon. Operators or cheats must be enabled.	uses
+minecraft	what is the give command	The give command adds an item to a player's inventory. Example: /give @p diamond 64 gives the nearest player 64 diamonds. Use the item id and an optional amount.	what_is
+minecraft	what is the teleport command	The teleport command moves a player or entity. Example: /tp @p 100 64 100 teleports the nearest player to those coordinates. You can also teleport to another player.	what_is
+minecraft	how do I change the time	Use /time set day, /time set night, /time set noon, or /time set midnight. These commands require cheats or operator permissions.	uses
+minecraft	how do I change the weather	Use /weather clear, /weather rain, or /weather thunder. You can add a duration in seconds after the weather type.	uses
+minecraft	what are coordinates	Coordinates are three numbers that describe a position: x for east-west, y for height, and z for north-south. Press F3 in Java Edition to see them.	what_is
+minecraft	what is a biome	A biome is a region with a specific climate, terrain, plants, and mobs. Examples include plains, desert, jungle, taiga, swamp, ocean, and mushroom fields.	what_is
+minecraft	what is the nether	The Nether is a dangerous dimension reached through a nether portal. It contains lava, netherrack, soul sand, glowstone, fortresses, bastions, and mobs such as piglins, blazes, and ghasts.	what_is
+minecraft	what is the end	The End is a dimension of floating islands and end stone. It is home to endermen, shulkers, end cities, and the ender dragon. Defeating the dragon opens the exit portal.	what_is
+minecraft	what is an ancient city	An ancient city is a large underground structure in the deep dark biome. It contains sculk, loot, and a warden. Avoid making noise near sculk shriekers.	what_is
+minecraft	what is a warden	A warden is a powerful hostile mob that spawns in the deep dark when sculk shriekers are triggered repeatedly. It is blind and detects vibrations. Running away quietly is often safer than fighting.	what_is
+minecraft	what is a trial chamber	Trial chambers are underground structures with trial spawners, vaults, and hostile mobs. They were added in recent Java Edition updates and reward players with loot and trial keys.	what_is
+minecraft	what is a village	A village is a generated settlement with villagers, houses, farms, and sometimes an iron golem. Villages are useful for trading, beds, food, and shelter.	what_is
+minecraft	what is a stronghold	A stronghold is an underground structure that contains an end portal. Eyes of ender point toward the nearest stronghold.	what_is
+minecraft	what is a nether fortress	A nether fortress is a large structure in the Nether. It contains blaze spawners, nether wart, wither skeletons, and loot. Blaze rods are needed for brewing and eyes of ender.	what_is
+minecraft	what is a bastion remnant	A bastion remnant is a large piglin structure in the Nether. It contains gold, loot, and piglins. Wear at least one piece of gold armor so piglins do not attack you.	what_is
+minecraft	how do I trade with piglins	Wear gold armor, then right-click a piglin with gold ingots or other accepted items. Piglins may barter and throw items back. Do not open chests near them unless you are prepared to fight.	uses
+minecraft	how do I get blaze rods	Find a nether fortress, locate a blaze spawner, and defeat blazes. Blaze rods are used to craft blaze powder and brewing stands.	obtain
+minecraft	how do I make a bed	Place three wool in a row above three planks at a crafting table. A bed lets you sleep through the night and sets your respawn point.	recipe
+minecraft	how do I set my respawn point	Sleep in a bed to set your respawn point. In the Nether, use a respawn anchor charged with glowstone instead, because beds explode there.	uses
+minecraft	why did my bed explode in the nether	Beds explode when used in the Nether or the End. Use a respawn anchor in the Nether and avoid sleeping in those dimensions.	uses
+minecraft	how do I make armor	Place armor materials in the crafting table in the shape of a helmet, chestplate, leggings, or boots. Leather, iron, gold, diamond, and netherite are common armor materials.	recipe
+minecraft	how do I make a sword	Place two materials vertically with a stick below them at a crafting table. A sword is fast and deals good damage. An axe can also be a strong weapon.	recipe
+minecraft	how do I make a bow	Use three sticks and three string at a crafting table. Bows shoot arrows and can be enchanted with Power, Punch, Flame, and Infinity.	recipe
+minecraft	how do I make arrows	Combine flint, a stick, and a feather at a crafting table. Arrows are used with bows and crossbows. Skeletons also drop arrows.	recipe
+minecraft	how do I make a shield	Combine one iron ingot and six planks at a crafting table. A shield blocks many attacks and explosions when you hold it up.	recipe
+minecraft	how do I use an elytra	Equip an elytra in the chest slot, then jump from a high place and press the jump key to glide. Use firework rockets to boost your speed. Elytra are found in end cities.	uses
+minecraft	how do I find an end city	After defeating the ender dragon, go through the end gateway and explore the outer End islands. End cities contain shulkers, loot, and elytra.	obtain
+minecraft	how do I get shulker boxes	Defeat shulkers in end cities to get shulker shells. Combine two shells and a chest to make a shulker box, which keeps its items when broken.	obtain
+minecraft	how do I make a beacon	A beacon is made from five glass blocks, three obsidian blocks, and one nether star. Place it on a pyramid of iron, gold, diamond, emerald, or netherite blocks to activate its powers.	recipe
+minecraft	how do I get a nether star	Defeat the wither to get a nether star. The wither is summoned with soul sand and wither skeleton skulls.	obtain
+minecraft	how do I make a conduit	A conduit is made from a heart of the sea surrounded by eight nautilus shells. Place it in water near prismarine blocks to give underwater breathing and other effects.	recipe
+minecraft	how do I make an anvil	Combine three iron blocks and four iron ingots at a crafting table. Anvils repair items, combine enchantments, and rename items, but they can break with use.	recipe
+minecraft	how do I repair tools	Combine two damaged tools of the same type at a crafting table or anvil, or use an anvil with the appropriate repair material. Mending enchantment repairs items with experience.	uses
+minecraft	what is mending	Mending is an enchantment that repairs an item using experience orbs. It is highly valued for long-lasting tools, armor, and elytra.	what_is
+minecraft	how do I get a villager to change profession	Place the correct job site block near an unemployed villager. For example, a lectern makes a librarian and a smithing table makes a toolsmith. The villager must not already have a profession.	obtain
+minecraft	how do I breed animals	Feed two adult animals their favorite food, such as wheat for cows and sheep, carrots for pigs, or seeds for chickens. They produce a baby animal and often drop experience.	uses
+minecraft	how do I tame a wolf	Give bones to a wolf until hearts appear. A tamed wolf follows you and attacks hostile mobs. You can dye its collar and make it sit.	uses
+minecraft	how do I tame a cat	Give raw cod or raw salmon to a stray cat until it becomes tame. Cats scare creepers and phantoms and can bring gifts.	uses
+minecraft	how do I get a horse	A horse can be tamed by repeatedly mounting it until hearts appear. Then equip a saddle to ride it. Horses can wear horse armor.	obtain
+minecraft	how do I use a boat	Place a boat on water and right-click it to ride. Boats move quickly on water and can carry a passenger or a chest variant. They also prevent fall damage when placed below you.	uses
+minecraft	how do I make a map	Combine a compass with paper in a crafting table to make an empty map, then use it to record the area around you. Maps can be expanded and placed in item frames.	recipe
+minecraft	how do I use a compass	A compass points toward the world spawn point. A lodestone can make a compass point to a specific location.	uses
+minecraft	how do I find my house again	Write down your coordinates, craft a compass, use a lodestone, or build a tall landmark. Press F3 in Java Edition to see coordinates.	obtain
+minecraft	what is hardcore mode	Hardcore mode is a survival mode with one life. If you die, you can spectate the world but cannot respawn normally. It is intended for experienced players.	what_is
+minecraft	what is creative mode	Creative mode lets you fly, break blocks instantly, and use an unlimited inventory. It is useful for building and testing without survival limits.	what_is
+minecraft	what is adventure mode	Adventure mode limits block breaking and placing so that players can explore custom maps. Map makers can control what players are allowed to do.	what_is
+minecraft	what is spectator mode	Spectator mode lets you fly through blocks and observe the world without interacting. You cannot place blocks, break blocks, or take damage.	what_is
+minecraft	how do I play with friends	In Java Edition, open a world to LAN or join a multiplayer server. In Bedrock Edition, use the friends menu or a realm. Everyone needs a compatible version and connection.	uses
+minecraft	how do I make a server	Download the Minecraft Java Edition server jar, run it once to generate files, accept the EULA, edit server.properties, and start the server. Forward the port or use a hosting service for friends outside your network.	recipe
+minecraft	what are mods	Mods are modifications that add or change game content. Java Edition supports many mod loaders such as Forge, Fabric, and NeoForge. Install the loader and place mod files in the mods folder.	what_is
+minecraft	what are data packs	Data packs change game data such as recipes, loot tables, advancements, and functions. Place them in the datapacks folder of a world. They work in Java Edition without mods.	what_is
+minecraft	what are resource packs	Resource packs change textures, sounds, models, and language files. Place them in the resourcepacks folder and enable them in the options menu.	what_is
+minecraft	what is a seed	A world seed is a number or text that determines world generation. Share a seed to generate the same terrain, structures, and features. Seeds work differently between Java and Bedrock Edition.	what_is
+minecraft	what is the best food	Golden carrots, cooked beef, cooked porkchop, and cooked mutton are strong food sources. Golden apples and enchanted golden apples also give special effects, but they are expensive.	what_is
+minecraft	how do I make a golden apple	Surround an apple with eight gold ingots at a crafting table. A golden apple gives regeneration and absorption. An enchanted golden apple uses gold blocks and is much rarer.	recipe
+minecraft	how do I make a cake	Place three milk buckets, two sugar, one egg, and three wheat at a crafting table. Cake is placed as a block and can be eaten in slices.	recipe
+minecraft	how do I make a pumpkin pie	Combine a pumpkin, sugar, and an egg at a crafting table. Pumpkin pie is a food item that restores hunger.	recipe
+minecraft	how do I make a campfire	Combine three logs, three sticks, and one coal or charcoal at a crafting table. A campfire provides light, cooks food, and produces smoke signals.	recipe
+minecraft	how do I cook food	Place raw food and fuel in a furnace. Campfires, smokers, and blast furnaces can also cook or process items. Smokers cook food faster than furnaces.	uses
+minecraft	what is a blast furnace	A blast furnace smelts ores and metal items faster than a regular furnace. It is made from five iron ingots, a furnace, and three smooth stone.	what_is
+minecraft	what is a smoker	A smoker cooks food faster than a furnace. It is made from four logs, a furnace, and four planks. It is useful for large food farms.	what_is
+minecraft	how do I make charcoal	Smelt a log in a furnace to get charcoal. Charcoal can be used as fuel and to make torches, just like coal.	recipe
+minecraft	how do I make torches	Combine a stick and coal or charcoal at a crafting table. Torches provide light and prevent hostile mobs from spawning nearby.	recipe
+minecraft	how do I light up my base	Place torches, lanterns, glowstone, sea lanterns, or other light sources around your base. Keep light levels high to reduce hostile mob spawns. Light also helps you see at night.	uses
+minecraft	how do I get rid of mobs in my house	Light the area, close doors and gaps, place torches, and remove dark spaces. Cats help against creepers, and fences or walls keep mobs out.	obtain
+minecraft	what is a spawner	A monster spawner is a block that spawns a specific mob in a small area. Examples include zombie, skeleton, spider, blaze, and silverfish spawners. You can break it with a pickaxe for experience.	what_is
+minecraft	how do I make an iron farm	An iron farm uses villagers, beds, and a zombie or scare mechanic to make iron golems spawn, then collects their drops. Designs vary by version, so follow a tutorial for your edition.	recipe
+minecraft	how do I make a mob farm	Build a dark, enclosed area where hostile mobs can spawn, then use water or a drop chute to collect them. Light the surrounding area so mobs spawn only inside the farm.	recipe
+minecraft	what is the best way to travel	Use a boat on water, a horse or elytra on land, minecarts on rails, and nether portals for long distances. The Nether is often the fastest way to travel far in the Overworld.	what_is
+minecraft	how do nether portals link	Every block traveled in the Nether equals eight blocks in the Overworld. Portals link by coordinates, so build paired portals at matching scaled coordinates for reliable travel.	uses
+minecraft	how do I get back from the nether	Return through the portal you used, or build and light another portal. Keep track of your portal coordinates so you do not get lost.	obtain
+minecraft	what happens when I die	You drop your items and experience at the place where you died, then respawn at your spawn point or bed. You can return to collect your items before they despawn.	what_is
+minecraft	how long do dropped items last	Dropped items normally despawn after five minutes. Loaded chunks keep items ticking, so hurry back if you die far from your spawn point.	uses
+minecraft	what is the best armor	Diamond and netherite armor are the strongest standard armor. Netherite has more durability and toughness and does not burn. Enchantments such as Protection and Mending make armor even better.	what_is
+minecraft	how do I get protection enchantment	Use an enchanting table or enchanted books at an anvil. Protection reduces most types of damage. Higher levels require more experience and better enchantment setups.	obtain
+minecraft	what is a totem of undying	A totem of undying saves you from one fatal hit and gives regeneration and absorption. It is dropped by evokers and can be held in your off hand.	what_is
+minecraft	how do I find an evoker	Evokers appear in woodland mansions and raids. Defeat them to get totems of undying and other loot.	obtain
+minecraft	what is a raid	A raid is an event triggered when a player with bad omen enters a village. Waves of pillagers, vindicators, evokers, and ravagers attack. Defend the village or defeat the raiders for rewards.	what_is
+minecraft	how do I get bad omen	Kill a pillager captain, which is a pillager with a banner. Then enter a village while the bad omen effect is active to start a raid.	obtain
+minecraft	what is a woodland mansion	A woodland mansion is a large structure found in dark forests. It contains illagers, loot, and secret rooms. It is rare and can be very far from spawn.	what_is
+minecraft	what is an ocean monument	An ocean monument is a large underwater structure guarded by guardians and elder guardians. It contains sponge rooms, gold, and prismarine. Bring water breathing potions and a good weapon.	what_is
+minecraft	how do I breathe underwater	Use a water breathing potion, a turtle shell helmet, a conduit, or bubbles from magma blocks. Respiration enchantment also helps.	uses
+minecraft	how do I make a water breathing potion	Brew a pufferfish into an awkward potion. Awkward potions are made from water bottles and nether wart. Add redstone to extend the duration.	recipe
+minecraft	what is a trial key	Trial keys open vaults in trial chambers. You get them by defeating trial spawner mobs. Vaults contain loot and are a reward for exploring trial chambers.	what_is
+minecraft	what is sculk	Sculk is a dark block found in the deep dark. Sculk sensors detect vibrations, and sculk shriekers can summon the warden. Silk touch lets you collect sculk blocks.	what_is
+minecraft	what is the deep dark	The deep dark is a dark underground biome with sculk, ancient cities, and the warden. It is dangerous because noise can summon the warden.	what_is
+minecraft	how do I get ancient debris	Mine in the Nether at low y levels, especially around y level 15 and below. Ancient debris is blast resistant, so use a diamond or netherite pickaxe and watch for lava.	obtain
+minecraft	what is a lodestone	A lodestone is a block that lets a compass point to it. It is made from a netherite ingot surrounded by chiseled stone bricks. Use it to mark important locations.	what_is
+minecraft	what is a respawn anchor	A respawn anchor sets your respawn point in the Nether. Charge it with glowstone, then use it like a bed. It explodes if used in the Overworld or if it runs out of charge.	what_is
+minecraft	how do I get glowstone	Glowstone is found on the ceiling of the Nether. Break glowstone blocks to get glowstone dust, which is used for potions and other recipes.	obtain
+minecraft	what is a shulker	A shulker is a hostile mob found in end cities. It shoots homing projectiles that levitate players. Defeat shulkers to get shulker shells for shulker boxes.	what_is
+minecraft	what is levitation	Levitation is a status effect that makes you float upward. Shulkers inflict it. You can remove it with milk or wait for it to expire.	what_is
+minecraft	how do I make a firework rocket	Combine paper, gunpowder, and optionally a firework star at a crafting table. Rockets are used for elytra boosting and celebrations. The amount of gunpowder controls flight duration.	recipe
+minecraft	how do I make a firework star	Combine gunpowder with a dye and optional shape or effect ingredients. Firework stars determine the color and pattern of firework explosions.	recipe
+minecraft	what is the best way to mine	Bring torches, food, a pickaxe, blocks, and a water bucket. Mine in a safe pattern, avoid digging straight down, and place torches to prevent mob spawns. Watch for lava and gravel.	what_is
+minecraft	why should I not dig straight down	Digging straight down can drop you into lava, a cave, or a deep fall. Use a staircase pattern or dig a two-block safety shaft instead.	uses
+minecraft	how do I find caves	Caves are common underground openings. Look for entrances on the surface, listen for mobs, and explore with torches. Cave generation varies by version and biome.	obtain
+minecraft	what are amethyst geodes	Amethyst geodes are hollow structures with amethyst blocks and budding amethyst. They are found underground and are used for amethyst shards, spyglasses, and tinted glass.	what_is
+minecraft	how do I make a spyglass	Combine one amethyst shard and two copper ingots at a crafting table. A spyglass lets you zoom in on distant objects.	recipe
+minecraft	what is copper used for	Copper is used for lightning rods, spyglasses, brushes, copper blocks, and decorative oxidation variants. It can be waxed to stop oxidation.	uses
+minecraft	what is a lightning rod	A lightning rod redirects lightning strikes to itself. It is made from three copper ingots. Place it on a roof to protect wooden buildings from fire.	what_is
+minecraft	how do I make a brush	A brush is made from a feather, a copper ingot, and a stick. Use it to brush suspicious sand and gravel in archaeology sites to find pottery sherds and other items.	recipe
+minecraft	what is archaeology	Archaeology lets you brush suspicious sand and gravel to uncover pottery sherds, sniffer eggs, and other treasures. Suspicious blocks are found in desert temples, ocean ruins, and trail ruins.	what_is
+minecraft	how do I get a sniffer egg	Brush suspicious sand in warm ocean ruins to find a sniffer egg. Place the egg on moss or another suitable block and wait for it to hatch.	obtain
+minecraft	what is a trial spawner	A trial spawner spawns waves of mobs when a player approaches. Defeating the mobs rewards loot and trial keys. It has a cooldown and changes behavior based on nearby players.	what_is
+minecraft	what is the best sword enchantment	Sharpness increases damage, Sweeping Edge helps against groups in Java Edition, Fire Aspect sets targets on fire, Looting increases drops, and Mending keeps the sword repaired.	what_is
+minecraft	what is the best pickaxe enchantment	Efficiency makes mining faster, Fortune increases ore drops, Silk Touch preserves blocks, Unbreaking extends durability, and Mending repairs the pickaxe with experience.	what_is
+minecraft	what is a fortune enchantment	Fortune increases the number of drops from certain blocks, such as ores and crops. Fortune III is highly desirable for diamonds, coal, and other resources.	what_is
+minecraft	what is silk touch	Silk Touch makes blocks drop themselves instead of their normal drops. It is useful for glass, ice, grass blocks, and ores when you want the block itself.	what_is
+minecraft	what is unbreaking	Unbreaking reduces the chance that a tool or armor piece loses durability. Higher levels make items last much longer.	what_is
+minecraft	what is a grindstone	A grindstone removes enchantments from items and repairs them. It is useful for resetting a villager's trades or clearing unwanted enchantments.	what_is
+minecraft	what is a smithing table	A smithing table is used to upgrade diamond gear to netherite and to apply armor trims. It is made from four iron ingots and two planks.	what_is
+minecraft	how do I upgrade to netherite	Combine a smithing template, a netherite ingot, and a piece of diamond gear at a smithing table. Netherite gear is stronger and does not burn.	uses
+minecraft	what are armor trims	Armor trims are decorative patterns applied to armor at a smithing table. They require a smithing template, a material, and the armor piece. Trims do not change stats.	what_is
+minecraft	what is a villager's job site block	Each villager profession has a job site block, such as a lectern for librarians, a composter for farmers, a blast furnace for armorers, and a smithing table for toolsmiths.	what_is
+minecraft	how do I make a lectern	A lectern is made from six wooden slabs and one bookshelf. Librarians use it as a job site block and offer enchanted books.	recipe
+minecraft	how do I get enchanted books	Librarians sell enchanted books. You can also find them in loot chests or create them with an enchanting table. Use an anvil to apply them to gear.	obtain
+minecraft	what is a composter	A composter turns plant materials into bone meal. Farmers use it as a job site block. Place compostable items inside and wait until it fills.	what_is
+minecraft	how do I get bone meal	Bone meal is made from bones. Use it to speed up plant growth, including crops, saplings, and flowers. Skeletons drop bones.	obtain
+minecraft	how do I make a fishing rod	Combine three sticks and two string at a crafting table. Fishing can provide food, treasure, and experience. Luck of the Sea and Lure enchantments improve fishing.	recipe
+minecraft	what can I fish up	You can fish up fish, junk such as boots and lily pads, and treasure such as enchanted books, bows, and nautilus shells. Luck of the Sea improves treasure chances.	what_is
+minecraft	what is a nautilus shell	A nautilus shell is used to craft a conduit. It can be found by fishing, from drowned mobs, or in loot chests. You need eight shells for a conduit.	what_is
+minecraft	how do I make a conduit	A conduit is made from a heart of the sea surrounded by eight nautilus shells. Place it in water near prismarine blocks to activate its underwater powers.	recipe
+minecraft	what is a heart of the sea	A heart of the sea is a rare item found in buried treasure chests. It is used to craft a conduit. Buried treasure maps can be found in shipwrecks and ocean ruins.	what_is
+minecraft	how do I find buried treasure	Use a buried treasure map from a shipwreck or ocean ruins. Follow the map to the marked spot and dig down to find a chest. Bring a shovel.	obtain
+minecraft	what is a turtle shell	A turtle shell is made from five scute. Turtles shed scutes when they grow into adults. A turtle shell helmet gives water breathing for a short time.	what_is
+minecraft	how do I help turtles	Turtles lay eggs on beaches. Protect the eggs from mobs and players. Baby turtles drop scutes when they grow up.	uses
+minecraft	what is a bee's job	Bees pollinate flowers and make honey. They live in beehives or bee nests. Use shears on a full hive to get honeycomb, or a bottle to get honey.	what_is
+minecraft	how do I get honey	Place a bottle in your hand and right-click a full beehive or bee nest to collect honey. Use a campfire under the hive to calm the bees.	obtain
+minecraft	what is a bee nest	A bee nest is a natural block found in trees. It contains bees and honey. Silk Touch can move it, but a campfire prevents the bees from becoming angry.	what_is
+minecraft	what is a fox	A fox is a passive mob found in taiga and snowy taiga. It can carry items in its mouth and may sleep during the day. Foxes can be bred with sweet berries.	what_is
+minecraft	what is an axolotl	An axolotl is an aquatic passive mob found in lush caves. It helps fight underwater mobs and can be bred with tropical fish. Keep it in water.	what_is
+minecraft	what is a goat	A goat is a mob found in mountains. It can ram players and mobs. Goats drop mutton and sometimes a goat horn. They can be bred with wheat.	what_is
+minecraft	what is an allay	An allay is a small flying mob that collects items. Give it an item and it will find matching items nearby. Allays are found in woodland mansions and pillager outposts.	what_is
+minecraft	what is a frog	A frog is a mob found in swamps and mangroves. It eats small magma cubes and can help create froglights. Tadpoles grow into frogs.	what_is
+minecraft	what is a mangrove swamp	A mangrove swamp is a warm biome with mangrove trees, mud, frogs, and roots. It is a good source of mud and mangrove wood.	what_is
+minecraft	what is a lush cave	A lush cave is a cave biome with moss, glow berries, azalea, and axolotls. Glow berries provide light and food. Lush caves are usually found underground.	what_is
+minecraft	what are glow berries	Glow berries grow on cave vines in lush caves. They provide light and can be eaten. Use bone meal to grow them faster.	what_is
+minecraft	what is a dripstone cave	A dripstone cave is a cave biome with pointed dripstone, stalactites, stalagmites, and copper ore. Falling stalactites can hurt you.	what_is
+minecraft	what is an amethyst geode	An amethyst geode is a hollow underground structure with amethyst blocks, calcite, and smooth basalt. Budding amethyst grows amethyst clusters that drop shards.	what_is
+minecraft	what is a sculk sensor	A sculk sensor detects vibrations and sends a redstone signal. It can detect footsteps, block placement, and other actions. Wool can block vibrations.	what_is
+minecraft	what is a calibrated sculk sensor	A calibrated sculk sensor filters vibrations by frequency when you use an amethyst shard on it. It is useful for precise redstone contraptions.	what_is
+minecraft	what is a note block	A note block plays a musical note when powered. The sound depends on the block underneath it. It is often used in redstone music machines.	what_is
+minecraft	what is a jukebox	A jukebox plays music discs. Place a music disc inside to play it. You can get discs by making a skeleton kill a creeper or by finding them in loot.	what_is
+minecraft	how do I get a music disc	Make a skeleton or stray kill a creeper with an arrow to get a music disc. Some discs are found in loot chests. Place the disc in a jukebox to play it.	obtain
+minecraft	what is a lodestone compass	A lodestone compass points to a lodestone instead of world spawn. Use a compass on a lodestone to link it. It works across dimensions.	what_is
+minecraft	how do I get a totem	A totem of undying is dropped by evokers. Evokers appear in woodland mansions and raids. Hold the totem in your off hand to activate it when you would die.	obtain
+minecraft	what is obsidian	Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block, and it also generates in ruined portals, woodland mansions, and other structures. It has very high blast resistance and is needed for nether portals and enchanting tables.	what_is
+minecraft	can obsidian be crafted on a crafting table	No. Obsidian cannot be crafted at a crafting table or in the inventory. It is created when flowing water touches a lava source block. You can mine it with a diamond pickaxe or a netherite pickaxe. Crying obsidian is a separate block and is used to craft respawn anchors.	recipe
+minecraft	is obsidian craftable	No, ordinary obsidian cannot be crafted and has no crafting recipe. Water flowing onto a lava source block creates it. You need a diamond or netherite pickaxe to collect it, and it is used for nether portals, enchanting tables, and blast-resistant builds.	recipe
+minecraft	how can I craft obsidian	Obsidian cannot be crafted. It has no crafting recipe and cannot be made in a crafting table. It is created when flowing water touches a lava source block. Mine it with a diamond or netherite pickaxe, then use it for nether portals and enchanting tables.	recipe
+minecraft	how many editions of minecraft are there	Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play. There are also legacy editions such as the old console editions, but they are no longer updated.	count
+minecraft	how many versions of minecraft exist	There are two current editions, Java Edition and Bedrock Edition. Each edition has many versions and snapshots. Java Edition is known for mods, data packs, and large servers, while Bedrock Edition is known for cross-play between devices.	count
+minecraft	how to get a diamond	Diamonds are found underground, most often between y level -59 and -54 in Java Edition. Mine diamond ore or deepslate diamond ore with an iron pickaxe or better. You can also find diamonds in loot chests and by trading with villagers. Use a Fortune enchantment for more drops.	obtain
+minecraft	where can I find diamonds	Diamonds generate deep underground, especially around y level -59 to -54 in Java Edition. Look for diamond ore or deepslate diamond ore in caves and tunnels. Bring an iron pickaxe or better, blocks, food, and light. Avoid mining straight down into lava.	obtain
+minecraft	how do I get diamonds	Diamonds come from diamond ore and deepslate diamond ore, which generate deep underground. Mine them with an iron pickaxe or better. Diamonds also appear in loot chests, and you can trade with villagers for diamond tools and armor.	obtain
+minecraft	how to make an iron pickaxe	Craft an iron pickaxe with three iron ingots and two sticks at a crafting table. Place the three ingots across the top row and put a stick in the middle of the second and third rows. An iron pickaxe can mine diamond ore, gold ore, redstone ore, and emerald ore.	recipe
+minecraft	iron pickaxe	An iron pickaxe is crafted from three iron ingots and two sticks at a crafting table. Put the ingots across the top row and the sticks in the center column below them. It is a strong early-game tool that can mine many important ores.	what_is
+minecraft	what is an iron pickaxe	An iron pickaxe is a tool made from iron ingots and sticks. It mines faster than a stone pickaxe and can mine diamond ore, gold ore, redstone ore, and emerald ore. It is usually one of the first major upgrades in a survival world.	what_is
+minecraft	how to make a diamond pickaxe	Craft a diamond pickaxe with three diamonds and two sticks at a crafting table. Put the diamonds across the top row and the sticks in the center column below them. A diamond pickaxe can mine obsidian and ancient debris.	recipe
+minecraft	how to make a wooden pickaxe	Craft a wooden pickaxe with three planks and two sticks at a crafting table. Put the planks across the top row and the sticks in the center column. It can mine stone and coal ore, but not iron or diamond.	recipe
+minecraft	how to make a stone pickaxe	Craft a stone pickaxe with three cobblestone and two sticks at a crafting table. Put the cobblestone across the top row and the sticks in the center column. It can mine iron ore and lapis lazuli ore.	recipe
+minecraft	how to make a netherite pickaxe	Upgrade a diamond pickaxe to netherite with a smithing table, a netherite upgrade smithing template, and a netherite ingot. Netherite tools are stronger, faster, and fire resistant.	recipe
+minecraft	how to make a crafting table	Craft a crafting table by placing one plank in each of the four cells of the 2 by 2 inventory grid. A crafting table provides a 3 by 3 grid for tools, blocks, and many other recipes.	recipe
+minecraft	how to make a furnace	Craft a furnace with eight cobblestone blocks at a crafting table. Leave the center cell empty. A furnace smelts ores, cooks food, and burns fuel such as coal, charcoal, or wood.	recipe
+minecraft	how to make a chest	Craft a chest with eight planks at a crafting table. Leave the center cell empty. A chest stores items, and two chests placed next to each other form a large chest.	recipe
+minecraft	how to make a sword	Craft a sword with two material items and one stick at a crafting table. Put the material in the top two cells of the center column and the stick in the bottom cell. Wood, stone, iron, gold, diamond, and netherite all make swords.	recipe
+minecraft	how to make a bed	Craft a bed with three wool blocks and three planks at a crafting table. Put the wool across the middle row and the planks across the bottom row. Sleep in a bed at night to skip to morning and set your respawn point.	recipe
+minecraft	how to make torches	Craft torches with one coal or charcoal and one stick. Place the coal above the stick in any crafting grid. Torches light up dark areas and help prevent hostile mobs from spawning.	recipe
+minecraft	how to make a shield	Craft a shield with one iron ingot and six planks at a crafting table. Put the iron ingot in the top middle cell and fill the other cells with planks except the bottom middle. Hold the shield in your off hand to block attacks.	recipe
+minecraft	how to make a bucket	Craft a bucket with three iron ingots at a crafting table. Put the ingots in a V shape in the top three cells. A bucket holds water, lava, milk, or fish.	recipe
+minecraft	how to make a bow	Craft a bow with three sticks and three string at a crafting table. Put the sticks in a curve and the string in a straight line. A bow shoots arrows and can be enchanted with Power, Punch, Flame, and Infinity.	recipe
+minecraft	how to make arrows	Craft arrows with one flint, one stick, and one feather. Place flint on top, stick in the middle, and feather on the bottom in the center column. Arrows are used with bows and crossbows.	recipe
+minecraft	how to make glass	Smelt sand in a furnace to make glass. Glass is transparent and can be used for windows. Silk Touch lets you collect glass blocks without breaking them.	recipe
+minecraft	how to make an axe	Craft an axe with three material items and two sticks at a crafting table. Put the material in an L shape and the sticks in the center column. Axes chop wood faster and can be used as weapons.	recipe
+minecraft	how to make a shovel	Craft a shovel with one material item and two sticks at a crafting table. Put the material in the top middle cell and the sticks below it. Shovels dig dirt, sand, gravel, and snow quickly.	recipe
+minecraft	how to make a hoe	Craft a hoe with two material items and two sticks at a crafting table. Put the material across the top row and the sticks in the center column below. Hoes turn dirt and grass into farmland.	recipe
+minecraft	how to get iron	Mine iron ore or deepslate iron ore with a stone pickaxe or better. Smelt raw iron or iron ore in a furnace to get iron ingots. Iron is used for tools, armor, buckets, hoppers, rails, and many other recipes.	obtain
+minecraft	how to get gold	Mine gold ore or deepslate gold ore with an iron pickaxe or better. Smelt raw gold or gold ore in a furnace to get gold ingots. Gold is used for powered rails, clocks, golden apples, and piglin trading.	obtain
+minecraft	how to get coal	Mine coal ore or deepslate coal ore with any pickaxe. Coal is used as furnace fuel and to craft torches. Charcoal made by smelting logs is a good alternative.	obtain
+minecraft	how to get emerald	Trade with villagers, mine emerald ore in mountain biomes, or find emeralds in loot chests. Emeralds are mainly used to trade with villagers.	obtain
+minecraft	how to get netherite	Mine ancient debris in the Nether, usually below y level 15. Smelt ancient debris into netherite scrap, then combine four scrap and four gold ingots to make one netherite ingot. Use a smithing table to upgrade diamond gear.	obtain
+minecraft	how to find ancient debris	Ancient debris generates in the Nether, usually below y level 15. It is often found in veins of one to three blocks. Use a diamond or netherite pickaxe, and consider beds or TNT for faster mining.	obtain
+minecraft	how to make a beacon	Craft a beacon with five glass blocks, three obsidian blocks, and one nether star. Put the nether star in the center, glass in the top corners and middle top, and obsidian across the bottom row. A beacon needs a pyramid base to activate.	recipe
+minecraft	how to activate a beacon	Place a beacon on top of a pyramid made of iron, gold, diamond, emerald, or netherite blocks. The pyramid must be four levels for the full effect. Then right-click the beacon and choose a power.	uses
+minecraft	how to make an anvil	Craft an anvil with three iron blocks and four iron ingots at a crafting table. Put the iron blocks across the top row and the ingots in a row below them. Anvils repair, rename, and combine items.	recipe
+minecraft	how to make a bookshelf	Craft a bookshelf with six planks and three books at a crafting table. Put planks in the top and bottom rows and books in the middle row. Bookshelves are needed around an enchanting table.	recipe
+minecraft	how to make an enchanting table	Craft an enchanting table with one book, two diamonds, and four obsidian. Put the book in the top middle cell, diamonds in the middle left and right, and obsidian across the bottom row. Place bookshelves around it to unlock stronger enchantments.	recipe
+minecraft	how to make potions	Use a brewing stand with blaze powder as fuel and water bottles as the base. Add nether wart to make an awkward potion, then add ingredients such as sugar, spider eyes, or blaze powder for different effects. Add gunpowder to make a splash potion.	recipe
+minecraft	how to make a brewing stand	Craft a brewing stand with one blaze rod and three cobblestone blocks. Put the blaze rod in the top middle cell and the cobblestone across the bottom row. Brewing stands make potions and require blaze powder as fuel.	recipe
+minecraft	how to make a respawn anchor	Craft a respawn anchor with six crying obsidian blocks and three glowstone blocks. Put the crying obsidian in a ring and glowstone across the top row. Use glowstone to charge it, and it sets your respawn point in the Nether.	recipe
+minecraft	how to use a respawn anchor	A respawn anchor sets your respawn point in the Nether. Place it, then use glowstone to charge it. Each charge is consumed when you respawn. In the Overworld it explodes, so only use it in the Nether.	uses
+minecraft	how to make a lodestone	Craft a lodestone with one netherite ingot and eight chiseled stone bricks. Put the netherite ingot in the center and the stone bricks around it. Use a compass on a lodestone to make a lodestone compass that points to it.	recipe
+minecraft	how to make a conduit	Craft a conduit with one heart of the sea and eight nautilus shells. Put the heart in the center and the shells around it. Place the conduit in water near prismarine blocks to activate it.	recipe
+minecraft	how to breathe underwater	Brew a potion of water breathing, wear a turtle shell helmet, use a conduit, or ride a strider or dolphin. Respiration and Aqua Affinity enchantments also help underwater.	uses
+minecraft	how to get elytra	Find an end city after defeating the ender dragon. Elytra are found in the end ship that generates next to some end cities. You need a rocket or fireworks to fly after equipping them.	obtain
+minecraft	how to fly with elytra	Equip elytra in the chestplate slot and jump from a high place, then press the jump key to glide. Use firework rockets to boost your speed. Elytra can be repaired with phantom membranes.	uses
+minecraft	how to make a firework rocket	Craft a firework rocket with one paper and one gunpowder. Add more gunpowder for longer flight. Firework stars can add colors and explosion effects, but a plain rocket is enough for elytra flying.	recipe
+minecraft	how to tame a wolf	Tame a wolf by giving it bones until it sits and hearts appear. A tamed wolf follows you and fights hostile mobs. Feed it meat to heal it.	uses
+minecraft	how to tame a cat	Tame a cat by giving it raw cod or salmon until hearts appear. Cats scare creepers and phantoms. They also bring you gifts such as string and rabbit hide.	uses
+minecraft	how to tame a horse	Tame a horse by repeatedly mounting it until hearts appear. Then put a saddle on it to ride. Feed it sugar, wheat, or apples to heal and speed up growth.	uses
+minecraft	how to breed animals	Feed two adult animals their favorite food, such as wheat for cows and sheep, carrots for pigs, or seeds for chickens. Hearts appear and a baby is born. Wait for the adults to be ready again.	uses
+minecraft	how to make a farm	Clear an area, till dirt with a hoe, plant seeds or crops, and keep water nearby. Light the area and fence it to keep mobs out. Harvest crops when fully grown and replant them.	recipe
+minecraft	what is the best pickaxe	Netherite is the strongest pickaxe tier, followed by diamond. Netherite mines faster, lasts longer, and is fire resistant. Enchantments such as Efficiency and Fortune make pickaxes even better.	what_is
+minecraft	what is the best sword	Netherite is the strongest sword tier, followed by diamond. Enchantments such as Sharpness, Sweeping Edge, Looting, and Unbreaking make swords much stronger. Axes can deal more damage but attack more slowly.	what_is
+minecraft	what is the best armor	Netherite armor is the strongest tier. It has high protection and toughness and does not burn. Enchant armor with Protection, Unbreaking, Mending, and Feather Falling for the best results.	what_is
+minecraft	what is an ender pearl	An ender pearl is dropped by endermen. Throw it to teleport to where it lands, but you take fall damage. Ender pearls are also used to craft eyes of ender and locate strongholds.	what_is
+minecraft	what is a blaze rod	A blaze rod is dropped by blazes in nether fortresses. It is used to craft blaze powder, brewing stands, and eyes of ender. Blaze powder is fuel for brewing and is used in many potions.	what_is
+minecraft	how do I make blaze powder	Put a blaze rod in a crafting grid to get two blaze powder. Blaze powder is used as brewing fuel and to craft eyes of ender.	recipe
+minecraft	what is a ghast tear	A ghast tear is dropped by ghasts in the Nether. It is used to brew potions of regeneration. Ghasts are large floating mobs that shoot fireballs.	what_is
+minecraft	what is a wither skeleton skull	A wither skeleton skull is a rare drop from wither skeletons in nether fortresses. You need three skulls and four soul sand or soul soil to spawn the wither. Wither skeletons also drop coal and bones.	what_is
+minecraft	what is a nether star	A nether star is dropped by the wither. It is used to craft a beacon. The wither is a powerful boss that you summon with soul sand and wither skeleton skulls.	what_is
+minecraft	what is a dragon egg	A dragon egg appears after you defeat the ender dragon. It is mainly a trophy. It can teleport away when you try to pick it up, so use a piston or place a torch under it.	what_is
+minecraft	what is a shulker box	A shulker box is a portable container that keeps its items when broken. It is crafted from a chest and two shulker shells. Shulkers are found in end cities.	what_is
+minecraft	how do I make a shulker box	Craft a shulker box with one chest and two shulker shells. Put the chest in the center and the shells above and below it. A shulker box keeps its contents when you break it.	recipe
+minecraft	what is a totem of undying	A totem of undying is dropped by evokers. Hold it in your off hand, and it activates when you would die, restoring health and giving brief effects. Evokers appear in woodland mansions and raids.	what_is
+minecraft	what is a trident	A trident is a rare weapon dropped by drowned. It can be thrown or used in melee. Enchantments such as Loyalty, Impaling, and Riptide make it much stronger.	what_is
+minecraft	what is a crossbow	A crossbow is a ranged weapon crafted from sticks, string, iron ingots, and a tripwire hook. It shoots arrows and can be enchanted with Multishot, Piercing, and Quick Charge.	what_is
+minecraft	what is a mace	A mace is a weapon crafted from a breeze rod and a heavy core. It deals more damage when you fall from a height. The mace was added in recent Java Edition updates.	what_is
+minecraft	what is a nether portal	A nether portal is a frame of obsidian at least two blocks wide and three blocks tall. Light the inside with flint and steel or a fire charge. Standing in the portal takes you to the Nether.	what_is
+minecraft	what is an end portal	An end portal is found in a stronghold. Fill all twelve frame blocks with eyes of ender, then jump into the portal to reach the End. The ender dragon guards the End.	what_is
+minecraft	what is a stronghold	A stronghold is an underground structure that contains an end portal, libraries, and loot. Eyes of ender point toward the nearest stronghold.	what_is
+minecraft	what is a woodland mansion	A woodland mansion is a large structure in dark forests. It contains illagers, evokers, vindicators, and rare loot such as totems of undying and the woodland explorer map.	what_is
+minecraft	what is an ocean monument	An ocean monument is a large underwater structure guarded by guardians and elder guardians. It contains sponge rooms, gold blocks, and prismarine. Bring water breathing and a good sword.	what_is
+minecraft	what is a trial chamber	Trial chambers are underground structures with trial spawners, vaults, and hostile mobs. They reward players with loot and trial keys. They were added in recent Java Edition updates.	what_is
+minecraft	what is a warden	A warden is a powerful hostile mob that spawns in the deep dark when sculk shriekers are triggered repeatedly. It is blind and detects vibrations. Running away quietly is often safer than fighting.	what_is
+minecraft	what is the deep dark	The deep dark is a dark underground biome with sculk, sculk sensors, sculk shriekers, and ancient cities. It is dangerous because noise can summon a warden.	what_is
+minecraft	what is sculk	Sculk is a block family found in the deep dark. Sculk sensors detect vibrations, sculk shriekers can summon a warden, and sculk catalysts spread sculk when mobs die nearby.	what_is
+minecraft	what is a copper block	Copper blocks are decorative blocks made from copper ingots. They oxidize over time and change color. You can wax them with honeycomb to stop oxidation.	what_is
+minecraft	what is a crafter	The crafter is a redstone-activated crafting block. It automatically crafts items when powered with redstone. It is useful for automated farms and storage systems.	what_is
+minecraft	what is a breeze	A breeze is a hostile mob found in trial chambers. It shoots wind charges that knock players back. Breeze rods are used to craft the mace.	what_is
+minecraft	what is an armadillo	An armadillo is a passive mob found in savannas. It rolls into a ball when threatened and drops scutes, which are used to craft wolf armor.	what_is
+minecraft	what is a sniffer	A sniffer is a large passive mob that hatches from sniffer eggs found in ocean ruins. It digs up ancient seeds such as torchflower seeds and pitcher pod seeds.	what_is
+minecraft	what obsidian	Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block. It is used for nether portals, enchanting tables, and blast-resistant builds, and it must be mined with a diamond or netherite pickaxe.	what_is
+minecraft	can we craft obsidian	No. Obsidian cannot be crafted at a crafting table. It forms when flowing water touches a lava source block. Mine it with a diamond or netherite pickaxe. Crying obsidian is a different block used for respawn anchors.	recipe
+identity	what is you name	My name is Ultron. I am an experimental language model built for this repository.	identity
+minecraft	how many edition exist of minecraft	Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version and supports mods, data packs, and many servers. Bedrock Edition runs on Windows, consoles, and mobile devices and supports cross-play.	count
+minecraft	what is an amethyst shard	An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Budding amethyst grows the clusters inside an amethyst geode. Amethyst shards are used to craft a spyglass and tinted glass, and to make a calibrated sculk sensor.	what_is
+minecraft	what is a creeper	A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Creepers are afraid of cats and ocelots, and a shield can block their explosion damage. They drop gunpowder when defeated.	what_is
+minecraft	what is a beacon	A beacon is a block that gives nearby players special powers such as speed, haste, resistance, or regeneration. It is crafted from five glass blocks, three obsidian blocks, and one nether star, and it must sit on a pyramid of iron, gold, diamond, emerald, or netherite blocks.	what_is

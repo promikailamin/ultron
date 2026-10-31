@@ -398,6 +398,17 @@ public class Memory implements Closeable {
         return sb.toString();
     }
 
+    /** Recent user messages, newest first, used to restore the follow-up topic. */
+    public synchronized List<String> recentUserTexts(int maxTurns) {
+        ArrayList<String> out = new ArrayList<>();
+        Iterator<Turn> it = recent.descendingIterator();
+        while (it.hasNext() && out.size() < maxTurns) {
+            Turn t = it.next();
+            if ("user".equals(t.role)) out.add(t.text);
+        }
+        return out;
+    }
+
     /** Recent dialogue for the model context, bounded in both turns and chars. */
     public synchronized String recentDialogue(int maxTurns) {
         ArrayList<Turn> turns = new ArrayList<>(recent);

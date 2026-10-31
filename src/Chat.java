@@ -7,10 +7,11 @@ import java.util.*;
 /**
  * Ultron chat CLI.
  *
- * Every reply is produced by the transformer checkpoint itself: the prompt is
- * encoded, the network processes it, and the answer is sampled one token at a
- * time until the model emits its end-of-sequence token. There is no answer
- * database and no nearest-neighbour lookup in the reply path.
+ * High-confidence questions are answered from the curated, intent-aware
+ * knowledge base. Everything else is produced by the transformer checkpoint:
+ * the prompt is encoded, the network processes it, and the answer is sampled
+ * one token at a time until the model emits its end-of-sequence token. Follow-
+ * up questions such as "and how can i craft it" inherit the previous topic.
  */
 public class Chat {
     /** Receives decoded text as the model produces it. */
@@ -21,12 +22,16 @@ public class Chat {
     private static final int MAX_ANSWER_TOKENS = 48;
     private static final int MIN_PROMPT_TOKENS = 12;
     private static final String FALLBACK =
-            "I am still learning to answer that. Ask me about English grammar or Minecraft Java Edition.";
+            "I am not sure. I don't have that in my notes. Ask me about English grammar or Minecraft Java Edition.";
+    private static final String NO_NOTES =
+            "I am not sure. I don't have that in my notes.";
 
     private Tokenizer tok;
     private Ultron model;
     private Ultron.KVCache cache;
+    private KnowledgeBase kb;
     private Memory memory;
+    private String lastTopic;
     private long seed = 2026;
 
     public static void main(String[] args) throws Exception {
@@ -113,6 +118,7 @@ public class Chat {
         String answer = reply(input, sink);
         memory.append("user", input);
         memory.append("ultron", answer);
+        if (lastTopic != null && !lastTopic.isEmpty()) memory.append("topic", lastTopic);
         return answer;
     }
 
@@ -127,6 +133,7 @@ public class Chat {
             throw new IOException("vocab/model mismatch: " + model.V + " vs " + tok.V);
         }
         cache = model.newCache();
+        kb = KnowledgeBase.load();
         memory = Memory.openDefault();
     }
 
@@ -141,13 +148,27 @@ public class Chat {
         }
 
         Memory.Result learned = memory == null ? null : memory.learn(clean);
+        String expanded = expandFollowup(clean);
+        boolean followup = !expanded.equals(clean);
+        if (!followup) {
+            String topic = KnowledgeBase.extractTopic(clean);
+            if (!topic.isEmpty()) lastTopic = topic;
+        }
+
+        String grounded = kb == null ? null : kb.answer(expanded);
+        if (grounded != null) {
+            stream(grounded, sink);
+            return grounded;
+        }
 
         String best = null;
-        for (int attempt = 0; attempt < 3; attempt++) {
-            String generated = generate(clean, attempt);
-            if (generated != null && looksUsable(generated)) {
-                best = generated;
-                break;
+        if (kb == null || !kb.isUnknown(expanded)) {
+            for (int attempt = 0; attempt < 3; attempt++) {
+                String generated = generate(expanded, attempt);
+                if (generated != null && looksUsable(generated)) {
+                    best = generated;
+                    break;
+                }
             }
         }
 
@@ -155,12 +176,34 @@ public class Chat {
             if (learned != null && learned.changed) {
                 best = learnedReply(learned);
             } else {
-                best = FALLBACK;
+                best = NO_NOTES;
             }
         }
 
         stream(best, sink);
         return best;
+    }
+
+    /** Appends the active topic when the question uses a pronoun or "and". */
+    private String expandFollowup(String input) {
+        if (kb == null || !kb.isFollowup(input)) return input;
+        String topic = currentTopic();
+        if (topic == null || topic.isEmpty()) return input;
+        return input + " " + topic;
+    }
+
+    private String currentTopic() {
+        if (lastTopic != null && !lastTopic.isEmpty()) return lastTopic;
+        if (memory == null) return "";
+        for (String prior : memory.recentUserTexts(8)) {
+            if (kb.isFollowup(prior)) continue;
+            String topic = KnowledgeBase.extractTopic(prior);
+            if (!topic.isEmpty()) {
+                lastTopic = topic;
+                return topic;
+            }
+        }
+        return "";
     }
 
     /**
