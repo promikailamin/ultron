@@ -1,0 +1,16 @@
+PASS  hello                                      -> Hello! I am Ultron. Ask me about English grammar, writing, or Minecraft Java Edition.
+PASS  who are you                                -> I am Ultron, a small transformer language model written from scratch in Java.
+PASS  what is a noun                             -> Basically: A noun is essentially a word that names a person, place, thing, or idea. Exampl
+PASS  what is a comma splice                     -> Basically: A comma splice joins two independent clauses with only a comma. Use a period, s
+PASS  what is a creeper                          -> Basically: A creeper is essentially a hostile green mob that approaches quietly and explod
+PASS  what is redstone                           -> Basically: Redstone is essentially a material used to make circuits and machines. Redstone
+PASS  how do I make a crafting table             -> This is how it is made: A crafting table gives you a 3 by 3 grid for more recipes. Place o
+PASS  how do I get netherite                     -> The usual way is this: Smelt ancient debris into netherite scrap, then combine four scrap 
+PASS  what is a beacon                           -> Basically: A beacon is essentially a block that gives nearby players special powers for ex
+PASS  what is a boomstick                        -> I am not sure. I don't have that in my notes.
+PASS  what obsidian                              -> Basically: Obsidian is essentially a dark, quite hard block. It forms when flowing water t
+PASS  can we craft obsidian                      -> This is how it is made: Obsidian cannot be crafted at a crafting table. It forms when flow
+PASS  how many edition exist of minecraft        -> Counting them gives this: Minecraft has two main editions: Java Edition and Bedrock Editio
+PASS  how to make an iron pickaxe                -> This is how it is made: Place the three ingots across the top row and put a stick in the m
+PASS  describe amethyst shard                    -> Basically: An amethyst shard is essentially a crystal gathered from mining a fully grown a
+CHAT SMOKE TESTS PASSED

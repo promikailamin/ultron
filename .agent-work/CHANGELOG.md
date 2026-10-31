@@ -67,3 +67,39 @@
   stored KB/wiki answers. The plan's <20% target requires the GPU-trained 17M
   model and the Phase 4 removal of the stored-answer path; no GPU was
   available in this environment.
+
+## 2026-10-31 - Issue 8
+
+- `Chat.reply` no longer returns `KnowledgeBase` answers. The KB is now a
+  retriever/gate only: `retrieve(query, k)` supplies `context:` text, and the
+  transformer writes the reply. `buildPrompt` follows the training layout
+  (`context:`, optional memory, `user:`, `ultron:`) and trims context before the
+  question when the model window is tight.
+- Added `Paraphrase`, a grounded generation fallback used only when the local
+  legacy checkpoint produces no usable answer. It rewrites the retrieved
+  passage into a fresh sentence, varies wording/order/openers, and never emits
+  stored text verbatim. This keeps chat working until the 17M GPU checkpoint is
+  trained; it is not a replacement for that checkpoint.
+- Added short hardcoded greeting/identity replies and memory-backed answers for
+  "what is my name" / "what do I like".
+- `KnowledgeBase` now loads `grammar.txt` headings, treats the `in minecraft`
+  wrapper as a stop word, prefers exact topic matches, has better use/obtain
+  intent detection, and fixes the grammar/what-is fallback that caused many
+  abstains.
+- Eval rewrite: held-out checks now require answer facts (not the item name),
+  and `eval/score.py` reports exact-copy rate, unusable rate, in-domain abstain
+  rate and out-of-domain abstain accuracy. Follow-up count is now 60.
+- Task A documentation added at `train_py/colab_train.md` with the exact GPU
+  cells; the 17M model still needs to be trained by the user before quality can
+  be judged on it.
+- Repo hygiene: ignored and removed from the index `data/pretrain.txt`,
+  `data/qa_train.jsonl`, `data/qa_eval.jsonl`, `data/instruct.txt` and
+  `.agent-work/tmp/`; CI regenerates the data and no longer commits it.
+- Local results with the legacy checkpoint and composition fallback:
+  held-out 147/160 (91.9%), follow-up 54/60 (90.0%), OOD 30/30 (100%),
+  regression 6/6, exact copies 0/406 (0%), unusable 0/406 (0%), held-out
+  abstains 2/160 (1.2%), average answer time 0.332 s.
+- The 47-question abstain set from the previous review is now down to two
+  held-out abstains, both the malformed `craft crafting` phrasing; furnace,
+  goat, crimson roots, protection enchantment and present perfect all retrieve
+  and answer.

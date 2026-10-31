@@ -11,3 +11,8 @@ __pycache__/
 out/ultron-py*/
 .agent-work/tmp/py-smoke/
 .agent-work/outputs/
+.agent-work/tmp/
+data/pretrain.txt
+data/qa_train.jsonl
+data/qa_eval.jsonl
+data/instruct.txt

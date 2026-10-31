@@ -61,6 +61,7 @@ jobs:
           python3 .agent-work/tools/build_mc_qa.py
           python3 .agent-work/tools/build_instruct_corpus.py
           python3 .agent-work/tools/gen_qa.py
+          python3 .agent-work/tools/build_eval_questions.py
 
       - name: Compile
         run: javac -d build src/*.java
@@ -128,12 +129,10 @@ jobs:
       - name: Chat smoke tests
         run: bash .agent-work/tests/chat_smoke.sh | tee .agent-work/logs/chat_smoke.log
 
-      # Informational: the retrieval stopgap still returns stored answers, so
-      # the exact-copy target is expected to fail until the 17M model is
-      # trained on a GPU and the Phase 4 retrieval removal lands.
-      - name: Phase 5 evaluation
-        continue-on-error: true
-        run: bash eval/run_eval.sh | tee .agent-work/logs/issue-7-eval.log
+      # Retrieval now only supplies context. Replies are generated, never
+      # replayed, so the copy-rate, unusable-rate and abstain metrics matter.
+      - name: Generation evaluation
+        run: bash eval/run_eval.sh | tee .agent-work/logs/issue-8-eval.log
 
       - name: Smoke test persistent chatbot session
         run: |
@@ -173,7 +172,7 @@ jobs:
             .agent-work/logs/phase1_regression.log
             .agent-work/logs/qa_data.log
             .agent-work/logs/chat_smoke.log
-            .agent-work/logs/issue-7-eval.log
+            .agent-work/logs/issue-8-eval.log
             .agent-work/outputs/eval-report.txt
             .agent-work/logs/testmask.log
             .agent-work/logs/fetch_minecraft_wiki.log
@@ -188,8 +187,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add out/ultron.bin data/ultron-vocab.txt data/ultron-merges.txt \
-            data/instruct.txt data/chat.txt data/mc_qa.txt data/chat_kb.tsv \
-            data/qa_train.jsonl data/qa_eval.jsonl data/pretrain.txt
+            data/chat.txt data/mc_qa.txt data/chat_kb.tsv
           if git diff --cached --quiet; then
             echo "No model changes to commit."
             exit 0

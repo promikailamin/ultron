@@ -357,6 +357,13 @@ public class Memory implements Closeable {
                 .replaceAll("\\s+", " ").trim();
     }
 
+    /** Returns a stored fact, or an empty string when it is absent. */
+    public synchronized String fact(String key) {
+        if (key == null) return "";
+        String value = facts.get(cleanKey(key));
+        return value == null ? "" : value;
+    }
+
     public synchronized String summary() {
         if (facts.isEmpty()) {
             return "I do not know anything about you yet. Tell me something like: My name is ...";

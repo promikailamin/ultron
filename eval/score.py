@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Score eval/run_eval.sh output against the Phase 5 pass marks."""
+"""Score eval/run_eval.sh output against the follow-up plan pass marks."""
 import argparse
-import json
+import os
 import re
-import sys
 
 THRESHOLDS = {
     "heldout": 0.85,
@@ -11,6 +10,11 @@ THRESHOLDS = {
     "ood": 0.90,
     "regression": 1.00,
 }
+COPY_LIMIT = 0.20
+UNUSABLE_LIMIT = 0.05
+HELDOUT_ABSTAIN_LIMIT = 0.10
+OOD_ABSTAIN_MIN = 0.90
+ABSTAIN = "don t have that in my notes"
 
 
 def norm(text):
@@ -51,11 +55,37 @@ def stored_answers():
         p = line.rstrip("\n").split("\t")
         if len(p) >= 3:
             texts.add(norm(p[2]))
-    if __import__("os").path.exists("data/mc_qa.txt"):
+    if os.path.exists("data/mc_qa.txt"):
         for line in open("data/mc_qa.txt", encoding="utf-8"):
             if line.startswith("ultron: "):
                 texts.add(norm(line[8:]))
     return texts
+
+
+def is_abstain(text):
+    return ABSTAIN in norm(text)
+
+
+def is_unusable(text):
+    if not text or len(text.strip()) < 8:
+        return True
+    low = text.lower()
+    if "user:" in low or "ultron:" in low:
+        return True
+    words = low.split()
+    grams = {}
+    for i in range(0, max(0, len(words) - 3)):
+        gram = " ".join(words[i:i + 4])
+        grams[gram] = grams.get(gram, 0) + 1
+        if grams[gram] >= 3:
+            return True
+    singles = sum(1 for w in words if len(w.strip(".,!?;:")) == 1)
+    letters = sum(len(re.sub(r"[^a-z0-9]", "", w)) for w in words)
+    if len(words) >= 6 and singles * 4 > len(words):
+        return True
+    if len(words) >= 8 and letters / max(1, len(words)) < 3.0:
+        return True
+    return letters < 6
 
 
 def main():
@@ -70,6 +100,11 @@ def main():
     stored = stored_answers()
     stats = {}
     exact = 0
+    unusable = 0
+    heldout_abstain = 0
+    heldout_total = 0
+    ood_abstain = 0
+    ood_total = 0
     failures = []
     for q in questions:
         a = answers.get(q["id"], "")
@@ -81,6 +116,15 @@ def main():
         s[1] += 1 if ok else 0
         if norm(a) in stored:
             exact += 1
+        abstained = is_abstain(a)
+        if not abstained and is_unusable(a):
+            unusable += 1
+        if q["category"] == "heldout":
+            heldout_total += 1
+            heldout_abstain += 1 if abstained else 0
+        if q["category"] == "ood":
+            ood_total += 1
+            ood_abstain += 1 if abstained else 0
         if not ok:
             failures.append((q["category"], q["question"], a, q["must"], q["must_not"]))
 
@@ -94,11 +138,35 @@ def main():
         all_ok = all_ok and ok
         print("%-14s %4d/%-4d    %5.1f%%   %5.1f%%  %s" %
               (cat, passed, total, rate * 100, need * 100, "PASS" if ok else "FAIL"))
+
     copy_rate = exact / len(questions) if questions else 0.0
-    copy_ok = copy_rate < 0.20
+    copy_ok = copy_rate < COPY_LIMIT
     all_ok = all_ok and copy_ok
-    print("exact KB/passage copies: %d/%d = %.1f%% (need <20%%) %s" %
-          (exact, len(questions), copy_rate * 100, "PASS" if copy_ok else "FAIL"))
+    print("exact KB/passage copies: %d/%d = %.1f%% (need <%.0f%%) %s" %
+          (exact, len(questions), copy_rate * 100, COPY_LIMIT * 100,
+           "PASS" if copy_ok else "FAIL"))
+
+    unusable_rate = unusable / len(questions) if questions else 0.0
+    unusable_ok = unusable_rate < UNUSABLE_LIMIT
+    all_ok = all_ok and unusable_ok
+    print("unusable replies: %d/%d = %.1f%% (need <%.0f%%) %s" %
+          (unusable, len(questions), unusable_rate * 100, UNUSABLE_LIMIT * 100,
+           "PASS" if unusable_ok else "FAIL"))
+
+    heldout_rate = heldout_abstain / heldout_total if heldout_total else 0.0
+    heldout_ok = heldout_rate < HELDOUT_ABSTAIN_LIMIT
+    all_ok = all_ok and heldout_ok
+    print("in-domain held-out abstains: %d/%d = %.1f%% (need <%.0f%%) %s" %
+          (heldout_abstain, heldout_total, heldout_rate * 100,
+           HELDOUT_ABSTAIN_LIMIT * 100, "PASS" if heldout_ok else "FAIL"))
+
+    ood_rate = ood_abstain / ood_total if ood_total else 0.0
+    ood_ok = ood_rate >= OOD_ABSTAIN_MIN
+    all_ok = all_ok and ood_ok
+    print("out-of-domain abstain accuracy: %d/%d = %.1f%% (need >=%.0f%%) %s" %
+          (ood_abstain, ood_total, ood_rate * 100, OOD_ABSTAIN_MIN * 100,
+           "PASS" if ood_ok else "FAIL"))
+
     avg = args.elapsed / len(questions) if questions else 0.0
     time_ok = avg <= 3.0
     all_ok = all_ok and time_ok

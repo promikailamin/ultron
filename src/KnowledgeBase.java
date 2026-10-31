@@ -61,7 +61,8 @@ public final class KnowledgeBase {
             "material", "ingredients", "ingredient", "needed", "need",
             "explain", "define", "give", "game", "java", "mean", "means",
             "should", "question", "information", "exactly", "purpose",
-            "real", "want", "know", "forgot", "new", "quick", "ultron", "hey"));
+            "real", "want", "know", "forgot", "new", "quick", "ultron", "hey",
+            "minecraft", "exist", "exists", "existing"));
 
     private static final Pattern WHAT = Pattern.compile(
             "^(?:what(?:'s| is| are)|tell me about|describe)\\s+(.+)$");
@@ -73,7 +74,9 @@ public final class KnowledgeBase {
     private static final Pattern CRAFTABLE = Pattern.compile(
             "^(?:can|is|are)\\s+(.+?)\\s+be\\s+craft(?:ed|able).*$");
     private static final Pattern USED = Pattern.compile(
-            "^(?:what is|what are)\\s+(.+?)\\s+used for$");
+            "^(?:what is|what are|what can)\\s+(.+?)(?:\\s+be)?\\s+used for$");
+    private static final Pattern GOOD_FOR = Pattern.compile(
+            "^what is\\s+(.+?)\\s+good for$");
     private static final Pattern DOES = Pattern.compile(
             "^(?:what does|what do)\\s+(.+?)\\s+do$");
     private static final Pattern MEAN = Pattern.compile(
@@ -94,6 +97,7 @@ public final class KnowledgeBase {
         public final Set<String> tokens;
         public final Set<String> questionTokens;
         public final Set<String> topicTokens;
+        double score;
 
         Entry(String category, String question, String answer, String intent) {
             this.category = category;
@@ -157,6 +161,7 @@ public final class KnowledgeBase {
             }
         }
         kb.loadWikiPairs();
+        kb.loadGrammarFacts();
         kb.index();
         if (kb.entries.isEmpty()) throw new IOException("chat_kb.tsv contains no entries");
         return kb;
@@ -187,6 +192,42 @@ public final class KnowledgeBase {
         } catch (IOException ignored) {
             // The curated KB is still usable when the optional wiki file is absent.
         }
+    }
+
+
+    /** Adds grammar headings from grammar.txt so paraphrased grammar questions
+     * retrieve a passage instead of being treated as unknown. */
+    private void loadGrammarFacts() {
+        if (!Resources.exists("grammar.txt", "data/grammar.txt")) return;
+        try (BufferedReader br = Resources.reader("grammar.txt", "data/grammar.txt")) {
+            String line, heading = null;
+            StringBuilder body = new StringBuilder();
+            while ((line = br.readLine()) != null) {
+                line = line.trim();
+                if (line.startsWith("=====") && line.endsWith("=====")) {
+                    addGrammarEntry(heading, body.toString());
+                    heading = line.replace("=", "").trim();
+                    body.setLength(0);
+                } else if (heading != null && !line.isEmpty()) {
+                    if (body.length() > 0) body.append(' ');
+                    body.append(line);
+                }
+            }
+            addGrammarEntry(heading, body.toString());
+        } catch (IOException ignored) {
+            // Grammar facts are optional; the curated KB still works without them.
+        }
+    }
+
+    private void addGrammarEntry(String heading, String body) {
+        if (heading == null || heading.isEmpty() || body.isEmpty()) return;
+        String answer = shorten(body);
+        if (answer.length() < 40) return;
+        String question = "what is " + heading.toLowerCase(Locale.ROOT);
+        Entry e = new Entry("grammar", question, answer, WHAT_IS);
+        entries.add(e);
+        String key = normalize(question);
+        if (!exact.containsKey(key)) exact.put(key, e);
     }
 
     private static String shorten(String text) {
@@ -234,23 +275,31 @@ public final class KnowledgeBase {
         }
     }
 
-    /** Returns a strictly grounded answer, or null when nothing is safe. */
-    public String answer(String input) {
-        if (input == null || input.trim().isEmpty()) return null;
-        Query q = new Query(input);
+    /**
+     * Returns the best grounded passages for a question, or null when nothing
+     * is confident enough. The caller feeds this text to the generator; it
+     * must never be returned verbatim as the reply.
+     */
+    public String retrieve(String input, int k) {
+        Entry exactEntry = null;
+        Query q = null;
+        if (input != null && !input.trim().isEmpty()) {
+            exactEntry = exact.get(normalize(input));
+            q = new Query(input);
+        }
 
-        Entry exactEntry = exact.get(normalize(input));
-        if (exactEntry != null) return exactEntry.answer;
+        ArrayList<Entry> chosen = new ArrayList<>();
+        if (exactEntry != null) chosen.add(exactEntry);
+        if (q == null || q.tokens.isEmpty()) return joinEntries(chosen, k);
 
-        if (q.tokens.isEmpty()) return null;
         populateDistinctive(q);
-        if (q.distinctive.isEmpty()) return null;
+        if (q.distinctive.isEmpty()) return joinEntries(chosen, k);
 
         ArrayList<Entry> candidates = new ArrayList<>();
         for (Entry e : entries) {
             if (e.questionTokens.containsAll(q.distinctive)) candidates.add(e);
         }
-        if (candidates.isEmpty()) return null;
+        if (candidates.isEmpty()) return joinEntries(chosen, k);
 
         if (DOMAIN_INTENTS.contains(q.intent)) {
             ArrayList<Entry> sameIntent = new ArrayList<>();
@@ -260,37 +309,67 @@ public final class KnowledgeBase {
             if (!sameIntent.isEmpty()) {
                 candidates = sameIntent;
             } else if (!WHAT_IS.equals(q.intent)) {
+                // Recipe/obtain/use questions may fall back to the definition,
+                // but only when the same topic is already a strong match.
                 ArrayList<Entry> definitions = new ArrayList<>();
                 for (Entry e : candidates) {
-                    if (WHAT_IS.equals(e.intent)) definitions.add(e);
+                    if (WHAT_IS.equals(e.intent) || "grammar".equals(e.intent)) {
+                        definitions.add(e);
+                    }
                 }
-                if (definitions.isEmpty()) return null;
+                if (definitions.isEmpty()) return joinEntries(chosen, k);
                 candidates = definitions;
-            } else {
-                return null;
             }
         }
 
-        Entry best = null;
-        double bestScore = Double.NEGATIVE_INFINITY;
         Set<String> queryTopic = contentTokens(q.topic);
         for (Entry e : candidates) {
-            double score = 0;
+            e.score = 0;
             for (String t : q.distinctive) {
                 int df = documentFrequency.getOrDefault(t, 0);
-                score += Math.log((documents + 1.0) / (df + 1.0)) + 1.0;
+                e.score += Math.log((documents + 1.0) / (df + 1.0)) + 1.0;
             }
             for (String t : queryTopic) {
-                if (e.topicTokens.contains(t)) score += 3.0;
-                else if (e.questionTokens.contains(t)) score += 1.0;
+                if (e.topicTokens.contains(t)) e.score += 3.0;
+                else if (e.questionTokens.contains(t)) e.score += 1.0;
             }
-            if (q.intent.equals(e.intent)) score += 4.0;
-            if (score > bestScore) {
-                bestScore = score;
-                best = e;
-            }
+            if (!queryTopic.isEmpty() && e.topicTokens.equals(queryTopic)) e.score += 6.0;
+            if (q.intent.equals(e.intent)) e.score += 4.0;
         }
-        return best == null ? null : best.answer;
+        candidates.sort((a, b) -> {
+            int byScore = Double.compare(b.score, a.score);
+            if (byScore != 0) return byScore;
+            return Integer.compare(b.answer.length(), a.answer.length());
+        });
+        for (Entry e : candidates) {
+            boolean duplicate = false;
+            for (Entry c : chosen) {
+                if (normalize(c.answer).equals(normalize(e.answer))) {
+                    duplicate = true;
+                    break;
+                }
+            }
+            if (!duplicate) chosen.add(e);
+            if (chosen.size() >= Math.max(1, k)) break;
+        }
+        return joinEntries(chosen, k);
+    }
+
+    private static String joinEntries(List<Entry> chosen, int k) {
+        if (chosen.isEmpty()) return null;
+        StringBuilder out = new StringBuilder();
+        int n = 0;
+        for (Entry e : chosen) {
+            if (n++ >= Math.max(1, k)) break;
+            if (out.length() > 0) out.append(' ');
+            out.append(e.answer);
+        }
+        return out.length() == 0 ? null : out.toString();
+    }
+
+    /** Kept for compatibility; new code should retrieve context and generate. */
+    public String answer(String input) {
+        return retrieve(input, 1);
     }
 
     /** True when the answer mentions every distinctive topic token. */
@@ -367,14 +446,17 @@ public final class KnowledgeBase {
                 || q.startsWith("how can i get ") || q.startsWith("how to obtain ")
                 || q.startsWith("how do i obtain ") || q.startsWith("how can i obtain ")
                 || q.startsWith("how to find ") || q.startsWith("how do i find ")
+                || q.startsWith("how can i find ") || q.startsWith("how could i find ")
                 || q.startsWith("where can i find ") || q.startsWith("where do i find ")
                 || q.startsWith("where can i get ") || q.startsWith("where do i get ")
-                || q.startsWith("where to find ")) return OBTAIN;
-        if (q.startsWith("what is ") && q.endsWith(" used for")
-                || q.startsWith("what are ") && q.endsWith(" used for")
+                || q.startsWith("where to find ") || q.startsWith("where can ")
+                && q.endsWith(" be found")) return OBTAIN;
+        if (q.contains(" used for") || q.contains(" good for")
                 || q.startsWith("how do i use ") || q.startsWith("how to use ")
                 || q.startsWith("what is the purpose of ")
                 || q.startsWith("what is the use of ")
+                || q.startsWith("what can i do with ")
+                || q.startsWith("why use ") || q.startsWith("why do i need ")
                 || q.startsWith("what does ") && q.endsWith(" do")
                 || q.startsWith("what do ") && q.endsWith(" do")) return USES;
         // Remaining behavioural/instruction questions ("how do i stop ...",
@@ -393,6 +475,10 @@ public final class KnowledgeBase {
         if (m.matches()) topic = m.group(1);
         if (topic == null) {
             m = USED.matcher(q);
+            if (m.matches()) topic = m.group(1);
+        }
+        if (topic == null) {
+            m = GOOD_FOR.matcher(q);
             if (m.matches()) topic = m.group(1);
         }
         if (topic == null) {

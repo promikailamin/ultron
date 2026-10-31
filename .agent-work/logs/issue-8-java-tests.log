@@ -1,0 +1,14 @@
+=== GradCheck ===
+loss=3.846018 params=1656
+.........cosine(analytic, numeric) = 0.999998
+significant params checked = 999, max rel err = 0.0185 at 318 (a=0.0102196 n=0.00984919)
+GRADCHECK PASSED
+=== TestMask ===
+masked loss=3.344377 params=576
+masked cosine(analytic, numeric) = 0.999993
+significant params checked = 328, max rel err = 0.0127 at 192
+MASK TEST PASSED
+=== TestCache ===
+max |full - incremental| = 0.000000 (at token 0: -1.1966 vs -1.1966)
+after 160 tokens: cache len=80 (max 80)
+CACHE TEST PASSED

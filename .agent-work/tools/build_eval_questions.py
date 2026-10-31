@@ -41,6 +41,27 @@ def key_words(text, limit=2):
             words.append(w)
     words.sort(key=lambda w: (-len(w), w))
     return words[:limit]
+def fact_words(text, topic, limit=2):
+    """Pick fact-bearing words from an answer, not just the item name.
+
+    Topic words are removed when the answer has enough other content, so a
+    question such as "how to make iron pickaxe" is checked against "ingots"
+    and "sticks" rather than merely the word "pickaxe".
+    """
+    topic_words = set(content(topic or ""))
+    words = []
+    for w in content(text):
+        if w not in words:
+            words.append(w)
+    non_topic = [w for w in words if w not in topic_words]
+    pool = non_topic if len(non_topic) >= 2 else words
+    pool.sort(key=lambda w: (-len(w), w))
+    return pool[:limit]
+
+
+def first_sentences(text, count=2):
+    parts = re.split(r"(?<=[.!?])\s+", re.sub(r"\s+", " ", text.strip()))
+    return " ".join(parts[:count])
 
 
 def read_jsonl(path):
@@ -131,11 +152,9 @@ def main():
         for rec in recs[:2]:
             q = rec["messages"][0]["content"]
             reference = rec["messages"][1]["content"].lower()
-            topic_words = [w for w in key_words(question_topic(q), 4) if w in reference]
-            if not topic_words:
-                topic_words = key_words(reference, 2)
-            if topic_words:
-                add("heldout", q, topic_words[:1])
+            fact = fact_words(first_sentences(reference), question_topic(q), 2)
+            if fact:
+                add("heldout", q, fact)
         if sum(1 for r in rows if r[1] == "heldout") >= 160:
             break
 
@@ -197,26 +216,38 @@ def main():
         if followups >= 40:
             break
 
-    # Add dialogue-shaped follow-ups from the held-out split until the plan's
-    # target of 40 is reached.
-    if followups < 40:
-        for rec in heldout:
-            if rec.get("kind") != "dialogue":
-                continue
-            msgs = rec.get("messages", [])
-            if len(msgs) < 4:
-                continue
-            q1, q2 = msgs[0]["content"], msgs[2]["content"]
-            final = msgs[3]["content"].lower()
-            words = [w for w in key_words(question_topic(q1), 4) if w in final]
-            if not words:
-                words = key_words(final, 2)
-            if not words:
-                continue
-            if add("followup", "%s ||| %s" % (q1, q2), words[:1]):
-                followups += 1
-            if followups >= 40:
-                break
+    # Twenty more "what is X" -> "how do I get it" chains, as requested in
+    # the follow-up plan.
+    chains = 0
+    for topic, kinds in by_topic.items():
+        if chains >= 20:
+            break
+        if "what_is" not in kinds or "obtain" not in kinds:
+            continue
+        must = fact_words(first_sentences(kinds["obtain"]), topic, 2)
+        if not must:
+            continue
+        if add("followup", "what is %s ||| how do i get it" % topic, must):
+            chains += 1
+
+    # Add more dialogue-shaped follow-ups from the held-out split.
+    extra = 0
+    for rec in heldout:
+        if rec.get("kind") != "dialogue":
+            continue
+        msgs = rec.get("messages", [])
+        if len(msgs) < 4:
+            continue
+        q1, q2 = msgs[0]["content"], msgs[2]["content"]
+        final = msgs[3]["content"].lower()
+        words = fact_words(first_sentences(final), question_topic(q1), 2)
+        if not words:
+            continue
+        if add("followup", "%s ||| %s" % (q1, q2), words):
+            followups += 1
+            extra += 1
+        if followups >= 60 or extra >= 47:
+            break
 
     # Out-of-domain questions must abstain.
     ood = [

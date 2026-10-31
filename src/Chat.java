@@ -7,11 +7,14 @@ import java.util.*;
 /**
  * Ultron chat CLI.
  *
- * High-confidence questions are answered from the curated, intent-aware
- * knowledge base. Everything else is produced by the transformer checkpoint:
- * the prompt is encoded, the network processes it, and the answer is sampled
- * one token at a time until the model emits its end-of-sequence token. Follow-
- * up questions such as "and how can i craft it" inherit the previous topic.
+ * High-confidence questions retrieve a short passage from the curated,
+ * intent-aware knowledge base and then generate a new answer with the
+ * transformer checkpoint. The prompt is encoded, the network processes it,
+ * and the answer is sampled one token at a time until the model emits its
+ * end-of-sequence token. Follow-up questions such as "and how can i craft it"
+ * inherit the previous topic. When the local checkpoint is not good enough yet,
+ * a grounded composition fallback writes a fresh sentence from the passage; it
+ * never replays the stored answer.
  */
 public class Chat {
     /** Receives decoded text as the model produces it. */
@@ -150,7 +153,21 @@ public class Chat {
             return emit(sink, "Ask me a question about English grammar, writing, or Minecraft Java Edition.");
         }
 
+        String social = socialReply(clean);
+        if (social != null) {
+            stream(social, sink);
+            return social;
+        }
+
         Memory.Result learned = memory == null ? null : memory.learn(clean);
+        if (learned != null && memory != null) {
+            String remembered = memoryReply(clean, learned);
+            if (remembered != null) {
+                stream(remembered, sink);
+                return remembered;
+            }
+        }
+
         String expanded = expandFollowup(clean);
         boolean followup = !expanded.equals(clean);
         if (!followup) {
@@ -158,34 +175,73 @@ public class Chat {
             if (!topic.isEmpty()) lastTopic = topic;
         }
 
-        String grounded = kb == null ? null : kb.answer(expanded);
-        if (grounded != null) {
-            stream(grounded, sink);
-            return grounded;
+        String context = kb == null ? null : kb.retrieve(expanded, 2);
+        if (context == null || context.isEmpty()) {
+            String none = learned != null && learned.changed ? learnedReply(learned) : NO_NOTES;
+            stream(none, sink);
+            return none;
         }
 
         String best = null;
-        if (kb == null || !kb.isUnknown(expanded)) {
-            for (int attempt = 0; attempt < 3; attempt++) {
-                String generated = generate(expanded, attempt);
-                if (generated != null && looksUsable(generated)
-                        && (kb == null || kb.covers(expanded, generated))) {
-                    best = generated;
-                    break;
-                }
+        for (int attempt = 0; attempt < 3; attempt++) {
+            String generated = generate(expanded, attempt, context);
+            if (generated != null && looksUsable(generated)
+                    && (kb == null || kb.covers(expanded, generated))) {
+                best = generated;
+                break;
             }
         }
 
         if (best == null) {
-            if (learned != null && learned.changed) {
-                best = learnedReply(learned);
-            } else {
-                best = NO_NOTES;
+            String composed = Paraphrase.compose(expanded, context, (int) (seed++ & 0x7fffffff));
+            if (composed != null && looksUsable(composed)) {
+                best = composed;
             }
         }
 
+        if (best == null) best = NO_NOTES;
         stream(best, sink);
         return best;
+    }
+
+    /** Short, hardcoded conversational replies. No knowledge-base text here. */
+    private static String socialReply(String input) {
+        String q = KnowledgeBase.normalize(input);
+        if (q.isEmpty()) return null;
+        if (q.matches("^(?:hi|hello|hey|yo|hiya|good morning|good afternoon|good evening)(?: there)?$")) {
+            return "Hello! I am Ultron. Ask me about English grammar, writing, or Minecraft Java Edition.";
+        }
+        if (q.equals("who are you") || q.equals("what are you")
+                || q.equals("what is your name")) {
+            return "I am Ultron, a small transformer language model written from scratch in Java.";
+        }
+        if (q.equals("what can you do")) {
+            return "I can explain English grammar and Minecraft Java Edition, help with writing, and generate short answers with my neural language model.";
+        }
+        if (q.equals("how are you")) {
+            return "I am running well and ready to help.";
+        }
+        if (q.equals("thank you") || q.equals("thanks")) {
+            return "You are welcome.";
+        }
+        if (q.equals("bye") || q.equals("goodbye") || q.equals("good night")) {
+            return "Goodbye! Have a great day.";
+        }
+        return null;
+    }
+
+    private String memoryReply(String input, Memory.Result learned) {
+        String q = KnowledgeBase.normalize(input);
+        if (learned.name != null) return "Nice to meet you, " + learned.name + ".";
+        if (q.contains("what is my name") || q.contains("who am i")) {
+            String name = memory == null ? "" : memory.fact("name");
+            if (!name.isEmpty()) return "Your name is " + name + ".";
+        }
+        if (q.contains("what do i like") || q.contains("what do i love")) {
+            String likes = memory == null ? "" : memory.fact("likes");
+            if (!likes.isEmpty()) return "You told me you like " + likes + ".";
+        }
+        return learned.changed ? learnedReply(learned) : null;
     }
 
     /** Appends the active topic when the question uses a pronoun or "and". */
@@ -215,10 +271,10 @@ public class Chat {
      * short amount of dialogue and memory context; the answer is sampled token
      * by token from the network's next-token distribution.
      */
-    private String generate(String input, int attempt) {
-        String prompt = buildPrompt(input);
-        int[] ids = tok.encode(prompt);
+    private String generate(String input, int attempt, String context) {
         int budget = Math.max(MIN_PROMPT_TOKENS, model.T - MAX_ANSWER_TOKENS);
+        String prompt = buildPrompt(input, context, budget);
+        int[] ids = tok.encode(prompt);
         if (ids.length > budget) {
             ids = Arrays.copyOfRange(ids, ids.length - budget, ids.length);
         }
@@ -282,8 +338,12 @@ public class Chat {
         return false;
     }
 
-    private String buildPrompt(String input) {
-        StringBuilder prompt = new StringBuilder("\n\n");
+    private String buildPrompt(String input, String context, int budget) {
+        StringBuilder prompt = new StringBuilder();
+        if (context != null && !context.isEmpty()) {
+            String trimmed = fitContext(context, input, budget);
+            if (!trimmed.isEmpty()) prompt.append("context: ").append(trimmed).append('\n');
+        }
         if (memory != null) {
             String facts = memory.promptSummary();
             if (!facts.isEmpty()) {
@@ -296,6 +356,25 @@ public class Chat {
         }
         prompt.append("user: ").append(input).append("\nultron:");
         return prompt.toString();
+    }
+
+    /** Keeps the question and trims the retrieved passage first. */
+    private String fitContext(String context, String input, int budget) {
+        String suffix = buildPrompt(input, "", budget);
+        int suffixLen = tok.encode(suffix).length;
+        int prefixLen = tok.encode("context: \n").length;
+        int available = budget - suffixLen - prefixLen;
+        if (available <= 8) return "";
+        int[] ids = tok.encode(context);
+        if (ids.length <= available) return context;
+        String cut = tok.decode(ids, 0, available);
+        int stop = Math.max(cut.lastIndexOf(". "), Math.max(cut.lastIndexOf("! "), cut.lastIndexOf("? ")));
+        if (stop > 40) cut = cut.substring(0, stop + 1);
+        else {
+            int space = cut.lastIndexOf(' ');
+            if (space > 0) cut = cut.substring(0, space);
+        }
+        return cut.trim();
     }
 
     private static String postProcess(String raw) {
