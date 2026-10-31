@@ -10,3 +10,4 @@ __pycache__/
 *.pt
 out/ultron-py*/
 .agent-work/tmp/py-smoke/
+.agent-work/outputs/

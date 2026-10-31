@@ -135,6 +135,11 @@ public class Chat {
         memory = Memory.openDefault();
     }
 
+    /** Clears the pronoun topic between independent evaluation cases. */
+    void resetTopic() {
+        lastTopic = null;
+    }
+
     String reply(String input) {
         return reply(input, null);
     }
@@ -163,7 +168,8 @@ public class Chat {
         if (kb == null || !kb.isUnknown(expanded)) {
             for (int attempt = 0; attempt < 3; attempt++) {
                 String generated = generate(expanded, attempt);
-                if (generated != null && looksUsable(generated)) {
+                if (generated != null && looksUsable(generated)
+                        && (kb == null || kb.covers(expanded, generated))) {
                     best = generated;
                     break;
                 }

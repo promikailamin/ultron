@@ -1,0 +1,47 @@
+category       passed/total   rate   threshold
+heldout         140/160      87.5%    85.0%  PASS
+followup         39/40       97.5%    80.0%  PASS
+ood              30/30      100.0%    90.0%  PASS
+regression        6/6       100.0%   100.0%  PASS
+exact KB/passage copies: 335/386 = 86.8% (need <20%) FAIL
+average answer time: 0.020s (need <=3s) PASS
+
+Sample failures:
+- [heldout] please how is sword crafted
+  answer: All swords except netherite are crafted using a stick and two of the tier's material.
+  need: ['vertically']; forbid: []
+- [heldout] what is non-standard metadata variants in minecraft
+  answer: I am not sure. I don't have that in my notes.
+  need: ['metadata']; forbid: []
+- [heldout] please what is goat in minecraft
+  answer: I am not sure. I don't have that in my notes.
+  need: ['goat']; forbid: []
+- [heldout] please how can i find protection enchantment
+  answer: I am not sure. I don't have that in my notes.
+  need: ['enchantment']; forbid: []
+- [heldout] quick question: subject
+  answer: I am not sure. I don't have that in my notes.
+  need: ['subject']; forbid: []
+- [heldout] hey ultron, tell me about subject
+  answer: I am not sure. I don't have that in my notes.
+  need: ['subject']; forbid: []
+- [heldout] what is crimson roots in minecraft
+  answer: I am not sure. I don't have that in my notes.
+  need: ['crimson']; forbid: []
+- [heldout] what is cut red sandstone slab in minecraft
+  answer: I am not sure. I don't have that in my notes.
+  need: ['sandstone']; forbid: []
+- [heldout] can you tell me present perfect
+  answer: I am not sure. I don't have that in my notes.
+  need: ['perfect']; forbid: []
+- [heldout] what is present perfect in minecraft
+  answer: I am not sure. I don't have that in my notes.
+  need: ['perfect']; forbid: []
+- [heldout] please what is furnace in minecraft
+  answer: I am not sure. I don't have that in my notes.
+  need: ['furnace']; forbid: []
+- [heldout] can you tell me what is vocabulary building
+  answer: I am not sure. I don't have that in my notes.
+  need: ['vocabulary']; forbid: []
+
+RESULT: FAIL

@@ -14,6 +14,7 @@ if [ -f data/ultron-merges.txt ]; then
   cp data/ultron-merges.txt build/ultron-merges.txt
 fi
 cp data/chat_kb.tsv build/chat_kb.tsv
+cp data/mc_qa.txt build/mc_qa.txt
 jar cfe ultron.jar ultron.Chat -C build .
 
 work="$(mktemp -d)"

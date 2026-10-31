@@ -25,6 +25,12 @@ public final class KnowledgeBase {
     private static final Set<String> DOMAIN_INTENTS = new HashSet<>(Arrays.asList(
             WHAT_IS, RECIPE, OBTAIN, DROPS, USES, COUNT));
 
+    /** Intent words carry the question type, not the topic. They must not be
+     * required to appear in a candidate question, or paraphrases never match. */
+    private static final Set<String> INTENT_WORDS = new HashSet<>(Arrays.asList(
+            "make", "craft", "get", "use", "find", "create", "build", "obtain",
+            "drop", "recipe"));
+
     private static final Set<String> KNOWN_INTENTS = new HashSet<>(Arrays.asList(
             WHAT_IS, RECIPE, OBTAIN, DROPS, USES, COUNT,
             "greeting", "identity", "thanks", "goodbye", "smalltalk",
@@ -48,7 +54,14 @@ public final class KnowledgeBase {
             "how", "tell", "describe", "please", "there", "here", "any", "some",
             "more", "most", "much", "many", "very", "also", "just", "not", "no",
             "yes", "s", "t", "whats", "dont", "doesnt", "isnt", "im", "ive",
-            "id", "youre", "youve", "theyre", "weve", "thats", "its"));
+            "id", "youre", "youve", "theyre", "weve", "thats", "its",
+            "am", "hey", "ultron", "quick", "question", "new", "forgot",
+            "want", "know", "information", "exactly", "meaning", "purpose",
+            "good", "best", "way", "location", "items", "item", "materials",
+            "material", "ingredients", "ingredient", "needed", "need",
+            "explain", "define", "give", "game", "java", "mean", "means",
+            "should", "question", "information", "exactly", "purpose",
+            "real", "want", "know", "forgot", "new", "quick", "ultron", "hey"));
 
     private static final Pattern WHAT = Pattern.compile(
             "^(?:what(?:'s| is| are)|tell me about|describe)\\s+(.+)$");
@@ -63,6 +76,15 @@ public final class KnowledgeBase {
             "^(?:what is|what are)\\s+(.+?)\\s+used for$");
     private static final Pattern DOES = Pattern.compile(
             "^(?:what does|what do)\\s+(.+?)\\s+do$");
+    private static final Pattern MEAN = Pattern.compile(
+            "^(?:what does|what do)\\s+(.+?)\\s+mean$");
+    private static final Pattern EXACT = Pattern.compile(
+            "^what exactly (?:is|are)\\s+(.+)$");
+    private static final Pattern PURPOSE = Pattern.compile(
+            "^what is the (?:purpose|meaning|use) of\\s+(.+)$");
+    private static final Pattern ABOUT = Pattern.compile("^about\\s+(.+)$");
+    private static final Pattern KNOW = Pattern.compile(
+            "^(?:do you know what|what should i know about)\\s+(.+?)(?:\\s+is)?$");
 
     private static final Pattern FOLLOWUP = Pattern.compile(
             "\\b(it|this|that|them|those)\\b");
@@ -94,6 +116,7 @@ public final class KnowledgeBase {
             this.intent = inferIntent(raw);
             this.topic = extractTopic(raw);
             this.tokens = contentTokens(raw);
+            if (!COUNT.equals(intent)) this.tokens.remove("edition");
             this.distinctive = new LinkedHashSet<>();
         }
     }
@@ -133,9 +156,50 @@ public final class KnowledgeBase {
                 if (!kb.exact.containsKey(key)) kb.exact.put(key, e);
             }
         }
+        kb.loadWikiPairs();
         kb.index();
         if (kb.entries.isEmpty()) throw new IOException("chat_kb.tsv contains no entries");
         return kb;
+    }
+
+    /** Adds the wiki Q&A pairs as a strict retrieval corpus. Curated KB rows
+     * keep priority because they were loaded first. */
+    private void loadWikiPairs() {
+        if (!Resources.exists("mc_qa.txt", "data/mc_qa.txt")) return;
+        try (BufferedReader br = Resources.reader("mc_qa.txt", "data/mc_qa.txt")) {
+            String line, question = null;
+            while ((line = br.readLine()) != null) {
+                if (line.startsWith("user: ")) {
+                    question = line.substring(6).trim();
+                } else if (line.startsWith("ultron: ") && question != null) {
+                    String answer = shorten(line.substring(8).trim());
+                    if (!question.isEmpty() && !answer.isEmpty()) {
+                        Entry e = new Entry("wiki", question, answer, inferIntent(question));
+                        entries.add(e);
+                        String key = normalize(question);
+                        if (!exact.containsKey(key)) exact.put(key, e);
+                    }
+                    question = null;
+                } else if (line.trim().isEmpty()) {
+                    question = null;
+                }
+            }
+        } catch (IOException ignored) {
+            // The curated KB is still usable when the optional wiki file is absent.
+        }
+    }
+
+    private static String shorten(String text) {
+        String[] parts = text.split("(?<=[.!?])\\s+");
+        StringBuilder out = new StringBuilder();
+        for (String part : parts) {
+            if (out.length() > 0 && out.length() + part.length() > 480) break;
+            if (out.length() > 0) out.append(' ');
+            out.append(part);
+            if (out.length() >= 320) break;
+        }
+        String result = out.length() == 0 ? text : out.toString();
+        return result.length() > 520 ? result.substring(0, 517).trim() + "..." : result;
     }
 
     private void index() {
@@ -155,6 +219,21 @@ public final class KnowledgeBase {
         return FOLLOWUP.matcher(low).find();
     }
 
+    private void populateDistinctive(Query q) {
+        q.distinctive.clear();
+        for (String t : q.tokens) {
+            if (INTENT_WORDS.contains(t)) continue;
+            int df = documentFrequency.getOrDefault(t, 0);
+            double idf = Math.log((documents + 1.0) / (df + 1.0)) + 1.0;
+            if (idf >= 1.8) q.distinctive.add(t);
+        }
+        // The extracted topic is the safest signal for short or common item
+        // names such as "iron axe"; require all of its words as well.
+        for (String t : contentTokens(q.topic)) {
+            if (!INTENT_WORDS.contains(t)) q.distinctive.add(t);
+        }
+    }
+
     /** Returns a strictly grounded answer, or null when nothing is safe. */
     public String answer(String input) {
         if (input == null || input.trim().isEmpty()) return null;
@@ -164,11 +243,7 @@ public final class KnowledgeBase {
         if (exactEntry != null) return exactEntry.answer;
 
         if (q.tokens.isEmpty()) return null;
-        for (String t : q.tokens) {
-            int df = documentFrequency.getOrDefault(t, 0);
-            double idf = Math.log((documents + 1.0) / (df + 1.0)) + 1.0;
-            if (idf >= 1.8) q.distinctive.add(t);
-        }
+        populateDistinctive(q);
         if (q.distinctive.isEmpty()) return null;
 
         ArrayList<Entry> candidates = new ArrayList<>();
@@ -182,8 +257,18 @@ public final class KnowledgeBase {
             for (Entry e : candidates) {
                 if (q.intent.equals(e.intent)) sameIntent.add(e);
             }
-            if (sameIntent.isEmpty()) return null;
-            candidates = sameIntent;
+            if (!sameIntent.isEmpty()) {
+                candidates = sameIntent;
+            } else if (!WHAT_IS.equals(q.intent)) {
+                ArrayList<Entry> definitions = new ArrayList<>();
+                for (Entry e : candidates) {
+                    if (WHAT_IS.equals(e.intent)) definitions.add(e);
+                }
+                if (definitions.isEmpty()) return null;
+                candidates = definitions;
+            } else {
+                return null;
+            }
         }
 
         Entry best = null;
@@ -208,6 +293,20 @@ public final class KnowledgeBase {
         return best == null ? null : best.answer;
     }
 
+    /** True when the answer mentions every distinctive topic token. */
+    public boolean covers(String input, String answer) {
+        if (input == null || answer == null) return false;
+        Query q = new Query(input);
+        populateDistinctive(q);
+        if (q.distinctive.isEmpty()) return true;
+        String head = answer.length() > 200 ? answer.substring(0, 200) : answer;
+        Set<String> answerTokens = contentTokens(head);
+        for (String t : q.distinctive) {
+            if (!answerTokens.contains(t)) return false;
+        }
+        return true;
+    }
+
     /**
      * True when the question's distinctive words are all absent from the
      * knowledge base. Those questions should abstain rather than let a small
@@ -217,19 +316,35 @@ public final class KnowledgeBase {
         if (input == null) return false;
         Query q = new Query(input);
         if (q.tokens.isEmpty()) return false;
-        boolean sawToken = false;
-        for (String t : q.tokens) {
-            int df = documentFrequency.getOrDefault(t, 0);
-            double idf = Math.log((documents + 1.0) / (df + 1.0)) + 1.0;
-            if (idf < 1.8) continue;
-            sawToken = true;
-            if (df > 0) return false;
+        populateDistinctive(q);
+        for (String t : q.distinctive) {
+            if (documentFrequency.getOrDefault(t, 0) > 0) return false;
         }
-        return sawToken;
+        return !q.distinctive.isEmpty();
+    }
+
+    private static String stripWrappers(String input) {
+        String q = input.toLowerCase(Locale.ROOT).trim();
+        q = q.replaceAll("[?!.,;:]+$", "").replaceAll("\\s+", " ").trim();
+        String[] prefixes = {"please ", "hey ultron, ", "quick question: ",
+                "i am new, ", "can you tell me ", "i want to know ", "i forgot, "};
+        boolean changed = true;
+        while (changed) {
+            changed = false;
+            for (String prefix : prefixes) {
+                if (q.startsWith(prefix)) {
+                    q = q.substring(prefix.length()).trim();
+                    changed = true;
+                }
+            }
+        }
+        q = q.replaceAll("\\s+in (?:minecraft|java edition)$", "");
+        q = q.replaceAll("\\s+please$", "");
+        return q.trim();
     }
 
     public static String inferIntent(String question) {
-        String q = normalize(question);
+        String q = stripWrappers(normalize(question));
         q = q.replaceFirst("^(?:and|so|then|ok|okay|also)\\s+", "");
         q = q.replaceFirst("^how about\\s+", "");
         q = q.replaceFirst("^what about\\s+", "");
@@ -239,8 +354,12 @@ public final class KnowledgeBase {
         if (q.contains(" drop") || q.startsWith("what does ") && q.endsWith(" drop")
                 || q.startsWith("what do ") && q.endsWith(" drop")) return DROPS;
         if (q.matches("^(?:can|is|are)\\s+.+?\\s+(?:be\\s+)?craft(?:ed|able).*$")
-                || q.startsWith("how to make ") || q.startsWith("how do i make ")
-                || q.startsWith("how can i make ") || q.startsWith("how to craft ")
+                || q.matches("^how (?:is|are)\\s+.+?\\s+craft(?:ed|able).*$")
+                || q.startsWith("can you craft ") || q.startsWith("how to make ")
+                || q.startsWith("how do i make ") || q.startsWith("how can i make ")
+                || q.startsWith("how to create ") || q.startsWith("how do i create ")
+                || q.startsWith("how can i create ") || q.startsWith("what materials make ")
+                || q.startsWith("what are the ingredients for ") || q.startsWith("how to craft ")
                 || q.startsWith("how do i craft ") || q.startsWith("how can i craft ")
                 || q.contains(" recipe") || q.startsWith("recipe for ")
                 || q.startsWith("can we craft ")) return RECIPE;
@@ -254,6 +373,8 @@ public final class KnowledgeBase {
         if (q.startsWith("what is ") && q.endsWith(" used for")
                 || q.startsWith("what are ") && q.endsWith(" used for")
                 || q.startsWith("how do i use ") || q.startsWith("how to use ")
+                || q.startsWith("what is the purpose of ")
+                || q.startsWith("what is the use of ")
                 || q.startsWith("what does ") && q.endsWith(" do")
                 || q.startsWith("what do ") && q.endsWith(" do")) return USES;
         // Remaining behavioural/instruction questions ("how do i stop ...",
@@ -264,8 +385,7 @@ public final class KnowledgeBase {
 
     public static String extractTopic(String input) {
         if (input == null) return "";
-        String q = input.toLowerCase(Locale.ROOT).trim();
-        q = q.replaceAll("[?!.,;:]+$", "").replaceAll("\\s+", " ").trim();
+        String q = stripWrappers(input);
         if (q.isEmpty()) return "";
 
         String topic = null;
@@ -280,6 +400,18 @@ public final class KnowledgeBase {
             if (m.matches()) topic = m.group(1);
         }
         if (topic == null) {
+            m = MEAN.matcher(q);
+            if (m.matches()) topic = m.group(1);
+        }
+        if (topic == null) {
+            m = EXACT.matcher(q);
+            if (m.matches()) topic = m.group(1);
+        }
+        if (topic == null) {
+            m = PURPOSE.matcher(q);
+            if (m.matches()) topic = m.group(1);
+        }
+        if (topic == null) {
             m = HOW.matcher(q);
             if (m.matches()) topic = m.group(1);
         }
@@ -289,6 +421,14 @@ public final class KnowledgeBase {
         }
         if (topic == null) {
             m = WHAT.matcher(q);
+            if (m.matches()) topic = m.group(1);
+        }
+        if (topic == null) {
+            m = ABOUT.matcher(q);
+            if (m.matches()) topic = m.group(1);
+        }
+        if (topic == null) {
+            m = KNOW.matcher(q);
             if (m.matches()) topic = m.group(1);
         }
         if (topic == null) topic = q;

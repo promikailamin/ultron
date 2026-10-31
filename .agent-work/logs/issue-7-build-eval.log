@@ -1,0 +1,2 @@
+wrote eval/questions.tsv: 386 questions
+{'heldout': 160, 'kb': 150, 'followup': 40, 'ood': 30, 'regression': 6}

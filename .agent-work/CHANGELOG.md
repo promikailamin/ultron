@@ -44,3 +44,26 @@
 - Updated `build.yml`: removed Java CPU training from the normal build, runs a
   tiny PyTorch train/export/parity smoke test instead, and packages optional
   `ultron-merges.txt` into the jar.
+
+## 2026-10-31 - Issue 7, Phase 5
+
+- Added `src/ChatBatch.java` and `Chat.resetTopic()` so the real `Chat.reply`
+  path can be evaluated in one JVM over a TSV of single- and multi-turn cases.
+- Added `.agent-work/tools/build_eval_questions.py` and generated
+  `eval/questions.tsv` (386 cases: 160 held-out, 150 KB, 40 follow-up,
+  30 out-of-domain, 6 regression).
+- Added `eval/run_eval.sh` and `eval/score.py`; the scorer checks every
+  `must_contain` term, forbids every `must_not_contain` term, reports
+  per-category accuracy, exact-copy rate and average latency.
+- Hardened the Phase 1 retrieval stopgap: it now loads `mc_qa.txt` as a strict
+  secondary corpus, strips conversational wrappers, treats intent words as
+  generic, requires the extracted topic words, and refuses model output that
+  does not mention the topic early in the answer. Unknown topics now abstain
+  instead of inventing an answer.
+- Local result with the committed legacy checkpoint:
+  held-out 140/160 (87.5%), follow-up 39/40 (97.5%), OOD abstention 30/30
+  (100%), six regression cases 6/6, average answer time 0.020 s.
+- Exact-copy is still 335/386 (86.8%) because the retrieval stopgap returns
+  stored KB/wiki answers. The plan's <20% target requires the GPU-trained 17M
+  model and the Phase 4 removal of the stored-answer path; no GPU was
+  available in this environment.
