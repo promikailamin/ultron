@@ -191,6 +191,7 @@ public class Chat {
         for (int attempt = 0; attempt < 3; attempt++) {
             String generated = generate(expanded, attempt, context);
             if (generated != null && looksUsable(generated)
+                    && grounded(generated, context)
                     && (kb == null || kb.covers(expanded, generated))) {
                 best = generated;
                 break;
@@ -338,6 +339,17 @@ public class Chat {
         String result = postProcess(text.toString());
         if (result.length() < 3) return null;
         return result;
+    }
+
+    /** Rejects fluent-looking text that is not grounded in the retrieved passage. */
+    private static boolean grounded(String answer, String context) {
+        if (answer == null || context == null || context.trim().isEmpty()) return true;
+        Set<String> ctx = KnowledgeBase.contentTokens(context);
+        if (ctx.size() < 2) return true;
+        Set<String> ans = KnowledgeBase.contentTokens(answer);
+        int overlap = 0;
+        for (String t : ans) if (ctx.contains(t)) overlap++;
+        return overlap >= Math.min(3, Math.max(1, ctx.size() / 4));
     }
 
     private static boolean hasRepeatedNgram(String text, int n, int limit) {
