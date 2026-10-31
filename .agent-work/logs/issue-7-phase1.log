@@ -1,0 +1,9 @@
+PASS  what is obsidian                                     -> Obsidian is a dark, very hard block. It forms when flowing water touches a lava source blo
+PASS  can obsidian be craftable on crafting table          -> No. Obsidian cannot be crafted at a crafting table or in the inventory. It is created when
+PASS  how to get a diamond                                 -> Diamonds are found underground, most often between y level -59 and -54 in Java Edition. Mi
+PASS  how to make iron pickaxe                             -> Craft an iron pickaxe with three iron ingots and two sticks at a crafting table. Place the
+PASS  iron pickaxe                                         -> An iron pickaxe is crafted from three iron ingots and two sticks at a crafting table. Put 
+PASS  how many edition exist of minecraft                  -> Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the ori
+PASS  what is obsidian + and how can i craft it            -> you> ultron> No, ordinary obsidian cannot be crafted and has no crafting recipe. Water flo
+PASS  follow-up after session restart                      -> you> ultron> No, ordinary obsidian cannot be crafted and has no crafting recipe. Water flo
+PHASE 1 REGRESSION TESTS PASSED
