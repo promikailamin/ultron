@@ -1,3 +1,0 @@
-user: what is obsidian
-ultron: Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block.
-
