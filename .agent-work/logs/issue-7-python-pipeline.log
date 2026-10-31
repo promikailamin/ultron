@@ -1,0 +1,21 @@
+device=cpu amp=False
+training BPE tokenizer...
+trained tokenizer: vocab=512 merges=455
+pretrain tokens: 27975
+instruction examples: train=40 eval=20
+parameters: 103936
+{"vocab": 512, "width": 64, "layers": 2, "heads": 2, "ffn": 128, "ctx": 64}
+A step 0/2 loss 6.2389 ppl 512.3 lr 3.00e-06 163 tok/s 1s
+A step 1/2 loss 6.2580 ppl 522.2 lr 6.00e-06 162 tok/s 1s
+  eval loss 6.2464 ppl 516.1 (best inf)
+done in 0.8s; best eval loss 6.2464
+checkpoints in .agent-work/tmp/py-smoke
+exported 103936 parameters to .agent-work/tmp/py-smoke/out/ultron.bin (fp16)
+size: 0.21 MB
+copied .agent-work/tmp/py-smoke/ultron-vocab.txt -> .agent-work/tmp/py-smoke/data
+copied .agent-work/tmp/py-smoke/ultron-merges.txt -> .agent-work/tmp/py-smoke/data
+tokenizer: 100/100 strings identical
+prompt 'what is crossbow in minecraft'          max diff so far 2.39e-07
+prompt 'what should i know about potato fruit'  max diff so far 2.39e-07
+PARITY PASSED: max abs logit difference 2.38704e-07
+PYTHON PIPELINE TESTS PASSED

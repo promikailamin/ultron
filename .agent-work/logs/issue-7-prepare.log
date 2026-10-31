@@ -1,0 +1,13 @@
+wrote data/chat.txt: 337 turns, 144292 bytes
+wrote data/mc_qa.txt: 4027 pairs, 1039024 bytes
+wrote data/instruct.txt: 5343 pairs, 1118157 bytes
+facts: 1670 (eval 83)
+train records: 52130
+eval records: 2794
+dialogue records: 634
+retrieval records: 1364
+grammar tasks: 75
+pretrain text: 29.73 M chars
+data/qa_train.jsonl: 18.10 MB
+data/qa_eval.jsonl: 0.97 MB
+data/pretrain.txt: 29.93 MB

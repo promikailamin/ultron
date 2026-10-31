@@ -1,0 +1,5 @@
+tokenizer: 200/200 strings identical
+prompt 'what is crossbow in minecraft'          max diff so far 2.39e-07
+prompt 'what should i know about potato fruit'  max diff so far 2.39e-07
+prompt 'what is wither skeleton in minecraft'   max diff so far 2.39e-07
+PARITY PASSED: max abs logit difference 2.38704e-07

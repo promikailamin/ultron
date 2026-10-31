@@ -1,0 +1,8 @@
+PASS  hello                                    -> Hello! I am Ultron, a small language model that knows English grammar and Minecraft Java Edition. As
+PASS  what is obsidian                         -> Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block, and it
+PASS  what is redstone                         -> Redstone is a material used to make circuits and machines. Redstone dust carries power, and componen
+PASS  what is a noun                           -> A noun is a word that names a person, place, thing, or idea. Examples are teacher, village, sword, a
+PASS  how do i make a crafting table           -> Place one plank in each of the four cells of the 2 by 2 crafting grid in your inventory. A crafting 
+PASS  what is a creeper                        -> A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Creepers a
+PASS  how do i get netherite                   -> Mine ancient debris in the Nether, usually below y level 15. Smelt ancient debris into netherite scr
+GENERATIVE CHAT TESTS PASSED

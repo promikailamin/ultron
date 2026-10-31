@@ -5,3 +5,8 @@ ultron.jar
 nohup.out
 *.log
 !.agent-work/logs/issue-*.log
+__pycache__/
+*.pyc
+*.pt
+out/ultron-py*/
+.agent-work/tmp/py-smoke/

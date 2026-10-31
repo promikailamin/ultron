@@ -1,0 +1,4 @@
+masked loss=3.344377 params=576
+masked cosine(analytic, numeric) = 0.999993
+significant params checked = 328, max rel err = 0.0127 at 192
+MASK TEST PASSED

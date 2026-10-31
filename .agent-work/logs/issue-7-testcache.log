@@ -1,0 +1,3 @@
+max |full - incremental| = 0.000000 (at token 0: -5.2004 vs -5.2004)
+after 128 tokens: cache len=64 (max 64)
+CACHE TEST PASSED

@@ -449,6 +449,13 @@ public class Ultron {
         return act.logits;
     }
 
+    /** inference: computes logits for every position, stored at act.logits[t*V + v]. */
+    public float[] forwardAll(int[] ids, int S, Act act) {
+        forwardBody(ids, S, act);
+        allLogits(S, act);
+        return act.logits;
+    }
+
     // ---------------- incremental inference with KV cache (low-end friendly) ----------------
     // Reuses cached keys/values so each generated token costs one forward step instead of
     // re-running the whole context. All scratch lives in the cache: step() is allocation-free
@@ -569,7 +576,8 @@ public class Ultron {
     }
 
     // ---------------- persistence ----------------
-    private static final int MAGIC = 0x554C5431; // "ULT1"
+    private static final int MAGIC = 0x554C5431;  // "ULT1", fp32
+    private static final int MAGIC16 = 0x554C5432; // "ULT2", fp16
 
     /** Writes model to a stream; does NOT close the caller's stream. */
     public void save(OutputStream os) throws IOException {
@@ -584,14 +592,35 @@ public class Ultron {
         try (OutputStream os = new FileOutputStream(path)) { save(os); }
     }
 
+    /** Converts an IEEE-754 binary16 bit pattern to a Java float. */
+    static float halfToFloat(int h) {
+        int sign = (h >>> 15) & 1;
+        int exp = (h >>> 10) & 0x1f;
+        int mant = h & 0x3ff;
+        float v;
+        if (exp == 0) {
+            v = (float) Math.scalb((float) mant, -24);
+        } else if (exp == 31) {
+            v = (mant == 0) ? Float.POSITIVE_INFINITY : Float.NaN;
+        } else {
+            v = Float.intBitsToFloat(((exp - 15 + 127) << 23) | (mant << 13));
+        }
+        return sign == 1 ? -v : v;
+    }
+
     /** Reads model from a stream; does NOT close the caller's stream. */
     public static Ultron load(InputStream is) throws IOException {
         DataInputStream in = new DataInputStream(new BufferedInputStream(is));
-        if (in.readInt() != MAGIC) throw new IOException("not an Ultron model file");
+        int magic = in.readInt();
+        if (magic != MAGIC && magic != MAGIC16) throw new IOException("not an Ultron model file");
         int V = in.readInt(), D = in.readInt(), L = in.readInt(),
                 F = in.readInt(), T = in.readInt(), H = in.readInt();
         Ultron m = new Ultron(V, D, L, F, T, H);
-        for (int i = 0; i < m.p.length; i++) m.p[i] = in.readFloat();
+        if (magic == MAGIC16) {
+            for (int i = 0; i < m.p.length; i++) m.p[i] = halfToFloat(in.readUnsignedShort());
+        } else {
+            for (int i = 0; i < m.p.length; i++) m.p[i] = in.readFloat();
+        }
         return m;
     }
 

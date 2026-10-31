@@ -60,16 +60,24 @@ jobs:
           python3 .agent-work/tools/build_chat_corpus.py
           python3 .agent-work/tools/build_mc_qa.py
           python3 .agent-work/tools/build_instruct_corpus.py
+          python3 .agent-work/tools/gen_qa.py
 
       - name: Compile
         run: javac -d build src/*.java
 
-      - name: Train Ultron
+      # Java CPU training is intentionally no longer part of the build. Real
+      # training happens in train_py/ on a GPU; the committed checkpoint is
+      # loaded here. The GradCheck/TestMask/TestCache steps below are the tiny
+      # Java smoke tests.
+      - name: Install PyTorch CPU for parity smoke test
         run: |
           set -euo pipefail
-          mkdir -p out .agent-work/logs .agent-work/outputs
-          java -Xmx3g -cp build ultron.Train "$STEPS" "$BATCH" "$LR" "$MODE" \
-            2>&1 | tee .agent-work/logs/train.log
+          python3 -m pip install --quiet --disable-pip-version-check numpy
+          python3 -m pip install --quiet --disable-pip-version-check torch \
+            --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Python/Java tokenizer and logit parity smoke test
+        run: bash .agent-work/tests/python_pipeline.sh 2>&1 | tee .agent-work/logs/python_pipeline.log
 
       - name: Validate backprop and KV cache
         run: |
@@ -83,6 +91,9 @@ jobs:
           set -euo pipefail
           cp out/ultron.bin build/ultron.bin
           cp data/ultron-vocab.txt build/ultron-vocab.txt
+          if [ -f data/ultron-merges.txt ]; then
+            cp data/ultron-merges.txt build/ultron-merges.txt
+          fi
           cp data/chat_kb.tsv build/chat_kb.tsv
 
       - name: Package executable jar
@@ -106,6 +117,12 @@ jobs:
 
       - name: Grounded chat regression test
         run: bash .agent-work/tests/issue6_regression.sh | tee .agent-work/logs/issue6_regression.log
+
+      - name: Phase 1 regression test
+        run: bash .agent-work/tests/phase1_regression.sh | tee .agent-work/logs/phase1_regression.log
+
+      - name: Phase 2 data test
+        run: bash .agent-work/tests/qa_data.sh | tee .agent-work/logs/qa_data.log
 
       - name: Chat smoke tests
         run: bash .agent-work/tests/chat_smoke.sh | tee .agent-work/logs/chat_smoke.log
@@ -145,6 +162,8 @@ jobs:
             .agent-work/logs/chat_resume.log
             .agent-work/logs/generative_chat.log
             .agent-work/logs/issue6_regression.log
+            .agent-work/logs/phase1_regression.log
+            .agent-work/logs/qa_data.log
             .agent-work/logs/chat_smoke.log
             .agent-work/logs/testmask.log
             .agent-work/logs/fetch_minecraft_wiki.log
@@ -158,7 +177,9 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add out/ultron.bin data/ultron-vocab.txt data/instruct.txt data/chat.txt data/mc_qa.txt data/chat_kb.tsv
+          git add out/ultron.bin data/ultron-vocab.txt data/ultron-merges.txt \
+            data/instruct.txt data/chat.txt data/mc_qa.txt data/chat_kb.tsv \
+            data/qa_train.jsonl data/qa_eval.jsonl data/pretrain.txt
           if git diff --cached --quiet; then
             echo "No model changes to commit."
             exit 0

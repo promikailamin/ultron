@@ -1,0 +1,4 @@
+exported 103936 parameters to /tmp/ultron-smoke.bin (fp16)
+size: 0.21 MB
+copied out/ultron-py-smoke/ultron-vocab.txt -> /tmp/ultron-smoke-data
+copied out/ultron-py-smoke/ultron-merges.txt -> /tmp/ultron-smoke-data

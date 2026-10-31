@@ -1,0 +1,4 @@
+loss=3.846018 params=1656
+cosine(analytic, numeric) = 0.999998
+significant params checked = 999, max rel err = 0.0185 at 318 (a=0.0102196 n=0.00984919)
+GRADCHECK PASSED

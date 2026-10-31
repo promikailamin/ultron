@@ -10,6 +10,10 @@ public class Tokenizer {
     public int V;
     public String[] itos;
     public HashMap<String, Integer> stoi = new HashMap<>();
+    private HashMap<String, Integer> mergeRanks;
+    private HashMap<String, int[]> bpeCache = new HashMap<>();
+    private boolean bpe;
+    private static final String SPACE_MARK = "\u2581";
     private HashSet<String> noSpaceBefore = new HashSet<>(Arrays.asList(
             ",", ".", "!", "?", ":", ";", ")", "]", "}", "\"", "%", "…"));
     private HashSet<String> noSpaceAfter = new HashSet<>(Arrays.asList(
@@ -64,6 +68,18 @@ public class Tokenizer {
         return out;
     }
 
+    /** Loads the BPE tokenizer when its merges file exists, else the legacy vocab. */
+    public static Tokenizer loadDefault() throws IOException {
+        try (InputStream vocab = Resources.open("ultron-vocab.txt", "data/ultron-vocab.txt")) {
+            if (Resources.exists("ultron-merges.txt", "data/ultron-merges.txt")) {
+                try (InputStream merges = Resources.open("ultron-merges.txt", "data/ultron-merges.txt")) {
+                    return loadBPE(vocab, merges);
+                }
+            }
+            return load(vocab);
+        }
+    }
+
     public static Tokenizer build(List<String> files, int targetVocab) {
         HashMap<String, Integer> wc = new HashMap<>();
         ArrayList<String> order = new ArrayList<>();
@@ -112,6 +128,7 @@ public class Tokenizer {
     }
 
     public int[] encode(String text) {
+        if (bpe) return encodeBPE(text);
         List<String> pcs = pieces(normalize(text));
         int[] out = new int[Math.max(16, pcs.size() * 2)];
         int n = 0;
@@ -134,6 +151,7 @@ public class Tokenizer {
     }
 
     public String decode(int[] ids, int from, int to) {
+        if (bpe) return decodeBPE(ids, from, to);
         StringBuilder sb = new StringBuilder();
         String prev = "";
         boolean prevSet = false;
@@ -164,6 +182,118 @@ public class Tokenizer {
         return sb.toString();
     }
 
+    // ---------------- byte-pair encoding ----------------
+
+    static List<String> bpePieces(String text) {
+        String s = normalize(text);
+        ArrayList<String> out = new ArrayList<>();
+        int i = 0, n = s.length();
+        boolean pendingSpace = true;
+        while (i < n) {
+            char c = s.charAt(i);
+            if (c == ' ' || c == '\t' || c == '\n') {
+                int j = i, newlines = 0;
+                while (j < n && (s.charAt(j) == ' ' || s.charAt(j) == '\t' || s.charAt(j) == '\n')) {
+                    if (s.charAt(j) == '\n') newlines++;
+                    j++;
+                }
+                if (newlines >= 2) out.add(PAR);
+                pendingSpace = true;
+                i = j;
+            } else if (isWordChar(c)) {
+                int j = i;
+                while (j < n && isWordChar(s.charAt(j))) j++;
+                String w = s.substring(i, j);
+                while (w.length() > 1 && w.endsWith("'")) w = w.substring(0, w.length() - 1);
+                while (w.length() > 1 && w.startsWith("'")) w = w.substring(1);
+                if (!w.isEmpty()) out.add((pendingSpace ? SPACE_MARK : "") + w);
+                pendingSpace = false;
+                i = j;
+            } else {
+                out.add((pendingSpace ? SPACE_MARK : "") + c);
+                pendingSpace = false;
+                i++;
+            }
+        }
+        return out;
+    }
+
+    private int[] encodePiece(String piece) {
+        int[] cached = bpeCache.get(piece);
+        if (cached != null) return cached;
+        ArrayList<String> syms = new ArrayList<>();
+        for (int i = 0; i < piece.length(); i++) syms.add(String.valueOf(piece.charAt(i)));
+        while (syms.size() > 1) {
+            int bestRank = Integer.MAX_VALUE, bestIdx = -1;
+            for (int i = 0; i + 1 < syms.size(); i++) {
+                Integer rank = mergeRanks.get(syms.get(i) + "\t" + syms.get(i + 1));
+                if (rank != null && rank < bestRank) {
+                    bestRank = rank;
+                    bestIdx = i;
+                }
+            }
+            if (bestIdx < 0) break;
+            String left = syms.get(bestIdx), right = syms.get(bestIdx + 1);
+            String merged = left + right;
+            ArrayList<String> next = new ArrayList<>();
+            for (int i = 0; i < syms.size();) {
+                if (i + 1 < syms.size() && syms.get(i).equals(left)
+                        && syms.get(i + 1).equals(right)) {
+                    next.add(merged);
+                    i += 2;
+                } else {
+                    next.add(syms.get(i));
+                    i++;
+                }
+            }
+            syms = next;
+        }
+        int[] ids = new int[Math.max(8, syms.size() * 2)];
+        int n = 0;
+        for (String sym : syms) {
+            Integer id = stoi.get(sym);
+            if (id != null) {
+                if (n == ids.length) ids = java.util.Arrays.copyOf(ids, ids.length * 2);
+                ids[n++] = id;
+            } else {
+                for (int i = 0; i < sym.length(); i++) {
+                    Integer ci = stoi.get(String.valueOf(sym.charAt(i)));
+                    if (n == ids.length) ids = java.util.Arrays.copyOf(ids, Math.max(8, ids.length * 2));
+                    ids[n++] = (ci != null) ? ci : 0;
+                }
+            }
+        }
+        ids = java.util.Arrays.copyOf(ids, n);
+        bpeCache.put(piece, ids);
+        return ids;
+    }
+
+    private int[] encodeBPE(String text) {
+        ArrayList<Integer> out = new ArrayList<>();
+        for (String piece : bpePieces(text)) {
+            if (piece.equals(PAR)) {
+                out.add(stoi.get(PAR));
+            } else {
+                for (int id : encodePiece(piece)) out.add(id);
+            }
+        }
+        int[] ids = new int[out.size()];
+        for (int i = 0; i < ids.length; i++) ids[i] = out.get(i);
+        return ids;
+    }
+
+    private String decodeBPE(int[] ids, int from, int to) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = from; i < to; i++) {
+            String tok = itos[ids[i]];
+            if (tok.equals(PAR)) sb.append("\n\n");
+            else if (!tok.equals(EOS) && !tok.equals(UNK)) sb.append(tok.replace(SPACE_MARK, " "));
+        }
+        int start = 0;
+        while (start < sb.length() && sb.charAt(start) == ' ') start++;
+        return sb.substring(start);
+    }
+
     /** Writes vocab to a stream; does NOT close the caller's stream. */
     public void save(OutputStream os) throws IOException {
         StringBuilder sb = new StringBuilder();
@@ -174,6 +304,23 @@ public class Tokenizer {
 
     public void save(String path) throws IOException {
         try (OutputStream os = new FileOutputStream(path)) { save(os); }
+    }
+
+    /** Reads a BPE vocab plus its ordered merge list. */
+    public static Tokenizer loadBPE(InputStream vocab, InputStream merges) throws IOException {
+        Tokenizer t = load(vocab);
+        t.bpe = true;
+        t.mergeRanks = new HashMap<>();
+        BufferedReader br = new BufferedReader(new InputStreamReader(merges, "UTF-8"));
+        String line;
+        int rank = 0;
+        while ((line = br.readLine()) != null) {
+            if (line.isEmpty()) continue;
+            int tab = line.indexOf('\t');
+            if (tab < 0) continue;
+            t.mergeRanks.put(line.substring(0, tab) + "\t" + line.substring(tab + 1), rank++);
+        }
+        return t;
     }
 
     /** Reads vocab from a stream; does NOT close the caller's stream. */

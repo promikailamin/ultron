@@ -1,0 +1,16 @@
+PASS  hello                                      -> Hello! I am Ultron, a small language model that knows English grammar and Minecraft Java E
+PASS  who are you                                -> I am Ultron, a small transformer language model written from scratch in Java. I was traine
+PASS  what is a noun                             -> A noun is a word that names a person, place, thing, or idea. Examples are teacher, village
+PASS  what is a comma splice                     -> A comma splice joins two independent clauses with only a comma. Use a period, semicolon, o
+PASS  what is a creeper                          -> A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. 
+PASS  what is redstone                           -> Redstone is a material used to make circuits and machines. Redstone dust carries power, an
+PASS  how do I make a crafting table             -> Place one plank in each of the four cells of the 2 by 2 crafting grid in your inventory. A
+PASS  how do I get netherite                     -> Mine ancient debris in the Nether, usually below y level 15. Smelt ancient debris into net
+PASS  what is a beacon                           -> A beacon is a block that gives nearby players special powers such as speed, haste, resista
+PASS  what is a boomstick                        -> I am not sure. I don't have that in my notes.
+PASS  what obsidian                              -> Obsidian is a dark, very hard block. It forms when flowing water touches a lava source blo
+PASS  can we craft obsidian                      -> No. Obsidian cannot be crafted at a crafting table. It forms when flowing water touches a 
+PASS  how many edition exist of minecraft        -> Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the ori
+PASS  how to make an iron pickaxe                -> Craft an iron pickaxe with three iron ingots and two sticks at a crafting table. Place the
+PASS  describe amethyst shard                    -> An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Buddin
+CHAT SMOKE TESTS PASSED

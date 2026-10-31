@@ -1,0 +1,17 @@
+/home/runner/work/ultron/ultron/train_py/train.py:197: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=use_amp)
+/home/runner/work/ultron/ultron/train_py/train.py:223: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  (step, args.steps_a, float(loss), math.exp(min(20, float(loss))),
+device=cpu amp=False
+training BPE tokenizer...
+trained tokenizer: vocab=512 merges=455
+pretrain tokens: 27975
+instruction examples: train=40 eval=20
+parameters: 103936
+{"vocab": 512, "width": 64, "layers": 2, "heads": 2, "ffn": 128, "ctx": 64}
+A step 0/2 loss 6.2389 ppl 512.3 lr 3.00e-06 158 tok/s 1s
+A step 1/2 loss 6.2580 ppl 522.2 lr 6.00e-06 157 tok/s 1s
+  eval loss 6.2464 ppl 516.1 (best inf)
+done in 0.8s; best eval loss 6.2464
+checkpoints in out/ultron-py-smoke

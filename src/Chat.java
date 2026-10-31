@@ -123,9 +123,7 @@ public class Chat {
     }
 
     void load() throws IOException {
-        try (InputStream is = Resources.open("ultron-vocab.txt", "data/ultron-vocab.txt")) {
-            tok = Tokenizer.load(is);
-        }
+        tok = Tokenizer.loadDefault();
         try (InputStream is = Resources.open("ultron.bin", "out/ultron.bin")) {
             model = Ultron.load(is);
         }
