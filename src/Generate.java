@@ -40,7 +40,7 @@ public class Generate {
             ctx = Arrays.copyOf(ctx, ctx.length + 1);
             ctx[ctx.length - 1] = next;
             generated++;
-            if (next == EOS) break;
+            if (next == EOS || next == PAR) break;
             logits = m.step(next, cache);
         }
         double secs = (System.nanoTime() - t0) / 1e9;

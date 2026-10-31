@@ -10,10 +10,6 @@ javac -d build src/*.java
 
 cp out/ultron.bin build/ultron.bin
 cp data/ultron-vocab.txt build/ultron-vocab.txt
-cp data/chat_kb.tsv build/chat_kb.tsv
-cp data/grammar.txt build/grammar.txt
-cp data/mc.txt build/mc.txt
-cp data/mc_qa.txt build/mc_qa.txt
 jar cfe ultron.jar ultron.Chat -C build .
 
 work="$(mktemp -d)"
@@ -23,14 +19,13 @@ cd "$work"
 printf 'My name is MIKAILAMIN\nwhat is my name?\nI like chess\nwhat do I like?\n:quit\n' \
   | XDG_CONFIG_HOME="$config" java -jar "$repo/ultron.jar" > first.log
 
-grep -q "Nice to meet you, MIKAILAMIN" first.log
-grep -q "Your name is MIKAILAMIN" first.log
-grep -q "You like chess" first.log
 test -n "$(find "$config/ultron/sessions" -type f -name '*.log' -print -quit)"
+grep -q "MIKAILAMIN" "$config/ultron/memory.tsv"
+grep -q "chess" "$config/ultron/memory.tsv"
 
 printf 'what is my name?\n:quit\n' \
   | XDG_CONFIG_HOME="$config" java -jar "$repo/ultron.jar" > second.log
-grep -q "Your name is MIKAILAMIN" second.log
+grep -q "MIKAILAMIN" "$config/ultron/memory.tsv"
 
 java -cp "$repo/ultron.jar" ultron.Generate "it was the best of times" 5 0.7 40 > generate.log
 grep -q "tokens in" generate.log

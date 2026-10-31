@@ -37,9 +37,6 @@ public class Memory implements Closeable {
             "(?i)\\bmy favou?rite ([a-z][a-z ]{0,30}?) is (.+)");
     private static final Pattern MY_ATTRIBUTE = Pattern.compile(
             "(?i)\\bmy ([a-z][a-z ]{0,30}?) is (.+)");
-    private static final Pattern ASK_FAVORITE = Pattern.compile(
-            "(?i)^(?:what|which)(?:'s| is| are)? my favou?rite ([a-z][a-z ]{0,30}?)[?.!]*$");
-
     public static class Turn {
         public final String role, text;
 
@@ -358,71 +355,6 @@ public class Memory implements Closeable {
     private static String cleanKey(String s) {
         return s.toLowerCase(Locale.ROOT).replaceAll("[^a-z0-9 ]+", " ")
                 .replaceAll("\\s+", " ").trim();
-    }
-
-    // ---------------- recall ----------------
-
-    public synchronized String recall(String question) {
-        if (question == null) return null;
-        String q = question.toLowerCase(Locale.ROOT).replaceAll("\\s+", " ").trim();
-        if (q.isEmpty()) return null;
-
-        boolean asksName = q.contains("my name") || q.contains("what am i called")
-                || q.equals("who am i") || q.equals("who am i?")
-                || q.contains("do you know my name") || q.contains("tell me my name");
-        if (asksName) {
-            String name = facts.get("name");
-            return name != null
-                    ? "Your name is " + name + "."
-                    : "I do not know your name yet. Tell me by saying: My name is ...";
-        }
-
-        if (q.contains("what do you know about me") || q.contains("what do you remember")
-                || q.contains("what have you remembered") || q.contains("show my memory")
-                || q.equals("memory") || q.equals(":memory")) {
-            return summary();
-        }
-
-        Matcher fav = ASK_FAVORITE.matcher(q);
-        if (fav.matches()) {
-            String thing = cleanKey(fav.group(1));
-            String value = facts.get("favorite " + thing);
-            if (value != null) return "Your favorite " + thing + " is " + value + ".";
-            return "I do not know your favorite " + thing + " yet.";
-        }
-
-        if (q.contains("what do i like") || q.contains("what i like")) {
-            String v = facts.get("likes");
-            return v != null ? "You like " + v + "." : "You have not told me what you like yet.";
-        }
-        if (q.contains("what do i love")) {
-            String v = facts.get("loves");
-            return v != null ? "You love " + v + "." : "You have not told me what you love yet.";
-        }
-        if (q.contains("where do i live") || q.contains("where am i from")) {
-            String v = q.contains("live") ? facts.get("location") : facts.get("from");
-            return v != null ? "You are from " + v + "." : "You have not told me where you are from yet.";
-        }
-        if (q.contains("where do i work")) {
-            String v = facts.get("work");
-            return v != null ? "You work at or as " + v + "." : "You have not told me where you work yet.";
-        }
-        if (q.contains("how old am i")) {
-            String v = facts.get("age");
-            return v != null ? "You are " + v + " years old." : "You have not told me your age yet.";
-        }
-
-        if (q.startsWith("what is my ") || q.startsWith("what's my ") || q.startsWith("what are my ")) {
-            String key = cleanKey(q.replaceFirst("^(what is|what's|what are) my ", "").replaceAll("[?.!]+$", ""));
-            String v = facts.get("favorite " + key);
-            if (v == null) v = facts.get(key);
-            if (v != null) return "Your " + key + " is " + v + ".";
-        }
-
-        if (!facts.isEmpty() && (q.equals("who am i") || q.contains("do you remember me"))) {
-            return summary();
-        }
-        return null;
     }
 
     public synchronized String summary() {

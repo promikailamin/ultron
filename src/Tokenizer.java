@@ -148,6 +148,14 @@ public class Tokenizer {
             if (tok.equals(EOS) || tok.equals(UNK)) continue;
             boolean space = sb.length() > 0 && prevSet
                     && !noSpaceAfter.contains(prev) && !noSpaceBefore.contains(tok);
+            // Consecutive single-character pieces come from an unknown word
+            // that encode() split into characters. Join them back into a word
+            // instead of printing "w o r d".
+            if (space && prev.length() == 1 && tok.length() == 1
+                    && Character.isLetterOrDigit(prev.charAt(0))
+                    && Character.isLetterOrDigit(tok.charAt(0))) {
+                space = false;
+            }
             if (space) sb.append(' ');
             sb.append(tok);
             prev = tok;

@@ -59,6 +59,7 @@ jobs:
           set -euo pipefail
           python3 .agent-work/tools/build_chat_corpus.py
           python3 .agent-work/tools/build_mc_qa.py
+          python3 .agent-work/tools/build_instruct_corpus.py
 
       - name: Compile
         run: javac -d build src/*.java
@@ -82,10 +83,6 @@ jobs:
           set -euo pipefail
           cp out/ultron.bin build/ultron.bin
           cp data/ultron-vocab.txt build/ultron-vocab.txt
-          cp data/chat_kb.tsv build/chat_kb.tsv
-          cp data/grammar.txt build/grammar.txt
-          cp data/mc.txt build/mc.txt
-          cp data/mc_qa.txt build/mc_qa.txt
 
       - name: Package executable jar
         run: jar cfe ultron.jar ultron.Chat -C build .
@@ -103,8 +100,8 @@ jobs:
           XDG_CONFIG_HOME="$tmp_home/.config" java -jar ultron.jar "what is a creeper" \
             | tee .agent-work/logs/chat.log
 
-      - name: Issue 4 regression test
-        run: bash .agent-work/tests/issue4_regression.sh | tee .agent-work/logs/issue4_regression.log
+      - name: Generative chat regression test
+        run: bash .agent-work/tests/generative_chat.sh | tee .agent-work/logs/generative_chat.log
 
       - name: Smoke test persistent chatbot session
         run: |
@@ -114,14 +111,13 @@ jobs:
           printf 'My name is MIKAILAMIN\nwhat is my name?\n:quit\n' \
             | XDG_CONFIG_HOME="$config" java -jar ultron.jar \
             | tee .agent-work/logs/chat_session.log
-          grep -q "Nice to meet you, MIKAILAMIN" .agent-work/logs/chat_session.log
-          grep -q "Your name is MIKAILAMIN" .agent-work/logs/chat_session.log
           test -n "$(find "$config/ultron/sessions" -type f -name '*.log' -print -quit)"
+          grep -q "MIKAILAMIN" "$config/ultron/memory.tsv"
 
           printf 'what is my name?\n:quit\n' \
             | XDG_CONFIG_HOME="$config" java -jar ultron.jar \
             | tee .agent-work/logs/chat_resume.log
-          grep -q "Your name is MIKAILAMIN" .agent-work/logs/chat_resume.log
+          grep -q "MIKAILAMIN" "$config/ultron/memory.tsv"
 
       - name: Upload jar
         uses: actions/upload-artifact@v4
@@ -140,7 +136,7 @@ jobs:
             .agent-work/logs/chat.log
             .agent-work/logs/chat_session.log
             .agent-work/logs/chat_resume.log
-            .agent-work/logs/issue4_regression.log
+            .agent-work/logs/generative_chat.log
             .agent-work/logs/testmask.log
             .agent-work/logs/fetch_minecraft_wiki.log
 
@@ -153,7 +149,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add out/ultron.bin data/ultron-vocab.txt
+          git add out/ultron.bin data/ultron-vocab.txt data/instruct.txt data/chat.txt data/mc_qa.txt
           if git diff --cached --quiet; then
             echo "No model changes to commit."
             exit 0

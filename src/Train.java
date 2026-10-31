@@ -5,9 +5,10 @@ import java.nio.file.*;
 import java.util.*;
 
 public class Train {
-    static final int VOCAB = 16384, D = 96, L = 5, F = 384, CTX = 64, HEADS = 4;
-    static final int CHAT_REPEAT = 16;
-    static final int QA_REPEAT = 6;
+    static final int VOCAB = 6144, D = 128, L = 5, F = 512, CTX = 80, HEADS = 8;
+    static final int CHAT_REPEAT = 8;
+    static final int QA_REPEAT = 3;
+    static final String INSTRUCT = "data/instruct.txt";
     // Books and general English.
     static final String[] BOOKS = {
             "data/pp.txt", "data/moby.txt", "data/alice.txt", "data/sherlock.txt",
@@ -16,7 +17,8 @@ public class Train {
     };
     // Domain knowledge and instruction data.
     static final String[] DOMAIN = {
-            "data/mc.txt", "data/mc_qa.txt", "data/grammar.txt", "data/chat.txt"
+            "data/mc.txt", "data/mc_qa.txt", "data/grammar.txt", "data/chat.txt",
+            "data/instruct.txt"
     };
 
     static class IntList {
@@ -41,17 +43,22 @@ public class Train {
     static List<String> uniqueCorpus() {
         ArrayList<String> files = new ArrayList<>();
         files.addAll(Arrays.asList(BOOKS));
-        files.addAll(Arrays.asList(DOMAIN));
+        for (String f : DOMAIN) {
+            if (!f.equals(INSTRUCT) || Files.exists(Paths.get(f))) files.add(f);
+        }
         return files;
     }
 
     static List<String> trainingCorpus() {
         ArrayList<String> files = new ArrayList<>(uniqueCorpus());
-        // Oversample curated conversations and wiki Q&A so the small model
-        // learns the user:/ultron: turn structure instead of drowning in book
-        // text. This is the instruction-tuning part of the corpus.
-        for (int i = 1; i < CHAT_REPEAT; i++) files.add("data/chat.txt");
-        for (int i = 1; i < QA_REPEAT; i++) files.add("data/mc_qa.txt");
+        // Oversample the instruction corpus so the small model learns the
+        // user:/ultron: turn structure instead of drowning in book text.
+        if (Files.exists(Paths.get(INSTRUCT))) {
+            for (int i = 1; i < CHAT_REPEAT; i++) files.add(INSTRUCT);
+        } else {
+            for (int i = 1; i < CHAT_REPEAT; i++) files.add("data/chat.txt");
+            for (int i = 1; i < QA_REPEAT; i++) files.add("data/mc_qa.txt");
+        }
         return files;
     }
 
@@ -66,20 +73,33 @@ public class Train {
 
     static List<Example> loadDialogueExamples(Tokenizer tok) throws IOException {
         ArrayList<Example> out = new ArrayList<>();
-        for (String file : new String[]{"data/chat.txt", "data/mc_qa.txt"}) {
+        String[] files = Files.exists(Paths.get(INSTRUCT))
+                ? new String[]{INSTRUCT}
+                : new String[]{"data/chat.txt", "data/mc_qa.txt"};
+        for (String file : files) {
             Path p = Paths.get(file);
             if (!Files.exists(p)) continue;
             try (BufferedReader br = Files.newBufferedReader(p)) {
                 String line;
                 String question = null;
+                StringBuilder memory = new StringBuilder();
                 while ((line = br.readLine()) != null) {
-                    if (line.startsWith("user: ")) {
+                    if (line.startsWith("memory: ")) {
+                        if (memory.length() > 0) memory.append('\n');
+                        memory.append(line.substring(8).trim());
+                    } else if (line.startsWith("user: ")) {
                         question = line.substring(6).trim();
                     } else if (line.startsWith("ultron: ") && question != null) {
                         String answer = line.substring(8).trim();
-                        Example ex = makeExample(tok, question, answer);
+                        String prompt = (memory.length() > 0 ? memory + "\n" : "")
+                                + "user: " + question + "\nultron:";
+                        Example ex = makeExample(tok, prompt, answer);
                         if (ex != null) out.add(ex);
                         question = null;
+                        memory.setLength(0);
+                    } else if (line.trim().isEmpty()) {
+                        question = null;
+                        memory.setLength(0);
                     }
                 }
             }
@@ -87,8 +107,8 @@ public class Train {
         return out;
     }
 
-    static Example makeExample(Tokenizer tok, String question, String answer) {
-        int[] pids = tok.encode("user: " + question + "\nultron:");
+    static Example makeExample(Tokenizer tok, String prompt, String answer) {
+        int[] pids = tok.encode(prompt);
         int[] aids = tok.encode(answer);
         int firstAnswer = 1 + pids.length;
         int maxAnswer = CTX - firstAnswer;
