@@ -62,7 +62,11 @@ public final class KnowledgeBase {
             "explain", "define", "give", "game", "java", "mean", "means",
             "should", "question", "information", "exactly", "purpose",
             "real", "want", "know", "forgot", "new", "quick", "ultron", "hey",
-            "minecraft", "exist", "exists", "existing"));
+            "minecraft", "exist", "exists", "existing",
+            "have", "has", "had", "having", "difference", "differences",
+            "different", "they", "them", "their", "theirs", "u", "ur", "youre",
+            "vs", "versus", "compare", "compared", "between", "than",
+            "much", "many", "amount", "number", "total"));
 
     private static final Pattern WHAT = Pattern.compile(
             "^(?:what(?:'s| is| are)|tell me about|describe)\\s+(.+)$");
@@ -90,7 +94,7 @@ public final class KnowledgeBase {
             "^(?:do you know what|what should i know about)\\s+(.+?)(?:\\s+is)?$");
 
     private static final Pattern FOLLOWUP = Pattern.compile(
-            "\\b(it|this|that|them|those)\\b");
+            "\\b(it|this|that|they|them|those|these)\\b");
 
     public static final class Entry {
         public final String category, question, answer, intent;
@@ -123,11 +127,22 @@ public final class KnowledgeBase {
             if (!COUNT.equals(intent)) this.tokens.remove("edition");
             this.distinctive = new LinkedHashSet<>();
         }
+
+        /** Builds a query from text whose spelling has already been corrected. */
+        Query(String raw, String corrected) {
+            this.raw = raw;
+            this.intent = inferIntent(corrected);
+            this.topic = extractTopic(corrected);
+            this.tokens = contentTokens(corrected);
+            if (!COUNT.equals(intent)) this.tokens.remove("edition");
+            this.distinctive = new LinkedHashSet<>();
+        }
     }
 
     private final List<Entry> entries = new ArrayList<>();
     private final Map<String, Entry> exact = new HashMap<>();
     private final Map<String, Integer> documentFrequency = new HashMap<>();
+    private final Set<String> lexicon = new HashSet<>();
     private int documents;
 
     private KnowledgeBase() {}
@@ -248,7 +263,9 @@ public final class KnowledgeBase {
         for (Entry e : entries) {
             for (String t : e.tokens) {
                 documentFrequency.merge(t, 1, Integer::sum);
+                lexicon.add(t);
             }
+            lexicon.addAll(e.topicTokens);
         }
     }
 
@@ -285,7 +302,12 @@ public final class KnowledgeBase {
         Query q = null;
         if (input != null && !input.trim().isEmpty()) {
             exactEntry = exact.get(normalize(input));
-            q = new Query(input);
+            String corrected = correct(input);
+            if (!normalize(corrected).equals(normalize(input))) {
+                Entry correctedExact = exact.get(normalize(corrected));
+                if (exactEntry == null || correctedExact != null) exactEntry = correctedExact;
+            }
+            q = new Query(input, corrected);
         }
 
         ArrayList<Entry> chosen = new ArrayList<>();
@@ -299,7 +321,13 @@ public final class KnowledgeBase {
         for (Entry e : entries) {
             if (e.questionTokens.containsAll(q.distinctive)) candidates.add(e);
         }
-        if (candidates.isEmpty()) return joinEntries(chosen, k);
+        if (candidates.isEmpty()) {
+            // Follow-ups often add comparison or quantity words that are not
+            // in the stored question. Fall back to the topic words when those
+            // words are still known, but never for an unknown subject.
+            candidates = topicCandidates(q);
+            if (candidates.isEmpty()) return joinEntries(chosen, k);
+        }
 
         if (DOMAIN_INTENTS.contains(q.intent)) {
             ArrayList<Entry> sameIntent = new ArrayList<>();
@@ -355,6 +383,33 @@ public final class KnowledgeBase {
         return joinEntries(chosen, k);
     }
 
+    /** Candidates matching the extracted topic, used for relaxed follow-ups. */
+    private ArrayList<Entry> topicCandidates(Query q) {
+        Set<String> topic = contentTokens(q.topic);
+        if (topic.isEmpty()) return new ArrayList<>();
+        boolean known = false;
+        for (String t : topic) {
+            if (documentFrequency.getOrDefault(t, 0) > 0) {
+                known = true;
+                break;
+            }
+        }
+        if (!known) return new ArrayList<>();
+        ArrayList<Entry> out = new ArrayList<>();
+        for (Entry e : entries) {
+            if (!e.questionTokens.containsAll(topic)) continue;
+            boolean anyDistinctive = false;
+            for (String t : q.distinctive) {
+                if (e.tokens.contains(t)) {
+                    anyDistinctive = true;
+                    break;
+                }
+            }
+            if (anyDistinctive || topic.size() >= 2) out.add(e);
+        }
+        return out;
+    }
+
     private static String joinEntries(List<Entry> chosen, int k) {
         if (chosen.isEmpty()) return null;
         StringBuilder out = new StringBuilder();
@@ -372,10 +427,72 @@ public final class KnowledgeBase {
         return retrieve(input, 1);
     }
 
+    /**
+     * Repairs common typos in known subject words. Only unknown tokens are
+     * considered, and a correction must stay on the same first letter with a
+     * very small edit distance, so unrelated questions still abstain.
+     */
+    public String correct(String input) {
+        if (input == null || input.trim().isEmpty() || lexicon.isEmpty()) return input;
+        String[] words = input.split("\\s+");
+        StringBuilder out = new StringBuilder();
+        for (String word : words) {
+            String core = normalize(word);
+            String fixed = core.isEmpty() ? word : correctToken(core);
+            if (out.length() > 0) out.append(' ');
+            out.append(fixed == null ? word : fixed);
+        }
+        return out.toString();
+    }
+
+    private String correctToken(String token) {
+        String canonicalToken = canonical(token);
+        if (lexicon.contains(token) || lexicon.contains(canonicalToken)
+                || documentFrequency.getOrDefault(token, 0) > 0
+                || documentFrequency.getOrDefault(canonicalToken, 0) > 0) {
+            return null;
+        }
+        if (token.length() < 3 || STOP.contains(token)) return null;
+        String best = null;
+        int bestDist = Integer.MAX_VALUE;
+        for (String candidate : lexicon) {
+            if (candidate.length() < 3) continue;
+            if (candidate.charAt(0) != token.charAt(0)) continue;
+            if (Math.abs(candidate.length() - token.length()) > 2) continue;
+            int d = editDistance(token, candidate, 2);
+            if (d < bestDist || (d == bestDist && documentFrequency.getOrDefault(candidate, 0)
+                    > documentFrequency.getOrDefault(best, 0))) {
+                bestDist = d;
+                best = candidate;
+            }
+        }
+        int max = token.length() <= 4 ? 1 : 2;
+        return bestDist <= max ? best : null;
+    }
+
+    private static int editDistance(String a, String b, int cap) {
+        int n = a.length(), m = b.length();
+        if (Math.abs(n - m) > cap) return cap + 1;
+        int[] prev = new int[m + 1], cur = new int[m + 1];
+        for (int j = 0; j <= m; j++) prev[j] = j;
+        for (int i = 1; i <= n; i++) {
+            cur[0] = i;
+            int rowMin = cur[0];
+            for (int j = 1; j <= m; j++) {
+                int cost = a.charAt(i - 1) == b.charAt(j - 1) ? 0 : 1;
+                cur[j] = Math.min(Math.min(cur[j - 1] + 1, prev[j] + 1), prev[j - 1] + cost);
+                if (cur[j] < rowMin) rowMin = cur[j];
+            }
+            if (rowMin > cap) return cap + 1;
+            int[] tmp = prev; prev = cur; cur = tmp;
+        }
+        return prev[m];
+    }
+
     /** True when the answer mentions every distinctive topic token. */
     public boolean covers(String input, String answer) {
         if (input == null || answer == null) return false;
-        Query q = new Query(input);
+        Query q = new Query(input, correct(input));
         populateDistinctive(q);
         if (q.distinctive.isEmpty()) return true;
         String head = answer.length() > 200 ? answer.substring(0, 200) : answer;
@@ -393,7 +510,7 @@ public final class KnowledgeBase {
      */
     public boolean isUnknown(String input) {
         if (input == null) return false;
-        Query q = new Query(input);
+        Query q = new Query(input, correct(input));
         if (q.tokens.isEmpty()) return false;
         populateDistinctive(q);
         for (String t : q.distinctive) {
@@ -405,6 +522,7 @@ public final class KnowledgeBase {
     private static String stripWrappers(String input) {
         String q = input.toLowerCase(Locale.ROOT).trim();
         q = q.replaceAll("[?!.,;:]+$", "").replaceAll("\\s+", " ").trim();
+        q = q.replaceFirst("^(?:and|so|then|ok|okay|also)\\s+", "");
         String[] prefixes = {"please ", "hey ultron, ", "quick question: ",
                 "i am new, ", "can you tell me ", "i want to know ", "i forgot, "};
         boolean changed = true;
@@ -428,8 +546,9 @@ public final class KnowledgeBase {
         q = q.replaceFirst("^how about\\s+", "");
         q = q.replaceFirst("^what about\\s+", "");
         if (q.isEmpty()) return WHAT_IS;
-        if (q.startsWith("how many ") || q.startsWith("how much ")
-                || q.contains("number of ")) return COUNT;
+        if (q.startsWith("how many ") || q.contains("number of ")) return COUNT;
+        if (q.contains("difference") || q.contains("compare")
+                || q.contains("versus") || q.contains(" vs ")) return WHAT_IS;
         if (q.contains(" drop") || q.startsWith("what does ") && q.endsWith(" drop")
                 || q.startsWith("what do ") && q.endsWith(" drop")) return DROPS;
         if (q.matches("^(?:can|is|are)\\s+.+?\\s+(?:be\\s+)?craft(?:ed|able).*$")

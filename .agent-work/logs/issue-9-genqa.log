@@ -1,0 +1,10 @@
+facts: 1670 (eval 83)
+train records: 52130
+eval records: 2794
+dialogue records: 634
+retrieval records: 1364
+grammar tasks: 75
+pretrain text: 28.61 M chars
+data/qa_train.jsonl: 18.10 MB
+data/qa_eval.jsonl: 0.97 MB
+data/pretrain.txt: 28.82 MB

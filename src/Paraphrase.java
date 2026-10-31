@@ -46,6 +46,27 @@ public final class Paraphrase {
             {" usually ", " normally "},
     };
 
+    private static final String[][] ALT_REWRITES = {
+            {" is a ", " is actually a "},
+            {" are a ", " are actually a "},
+            {" can be ", " is able to be "},
+            {" is used for ", " serves for "},
+            {" are used for ", " serve for "},
+            {" is used to ", " is meant to "},
+            {" are used to ", " are meant to "},
+            {" is made from ", " comes from "},
+            {" are made from ", " come from "},
+            {" is made with ", " uses "},
+            {" are made with ", " use "},
+            {" requires ", " calls for "},
+            {" require ", " call for "},
+            {" found in ", " seen in "},
+            {" found on ", " seen on "},
+            {" such as ", " including "},
+            {" because ", " as "},
+            {" usually ", " generally "},
+    };
+
     private static final Pattern SENTENCE = Pattern.compile("(?<=[.!?])\\s+");
     private static final Pattern PRONOUN_START = Pattern.compile(
             "^(?:it|this|that|they|these|those|there|he|she)\\b",
@@ -108,11 +129,15 @@ public final class Paraphrase {
                 && !PRONOUN_START.matcher(sentences.get(1)).find()) {
             String first = sentences.remove(0);
             sentences.add(1, first);
+        } else if (definition && variant % 4 == 3 && sentences.size() >= 2
+                && !PRONOUN_START.matcher(sentences.get(1)).find()) {
+            String first = sentences.remove(0);
+            sentences.add(first);
         }
 
         StringBuilder body = new StringBuilder();
         for (int i = 0; i < sentences.size() && i < 6; i++) {
-            String sentence = rewrite(sentences.get(i), intent);
+            String sentence = rewrite(sentences.get(i), intent, variant);
             if (body.length() > 0) body.append(' ');
             body.append(sentence);
         }
@@ -126,9 +151,10 @@ public final class Paraphrase {
         return out.isEmpty() ? null : out;
     }
 
-    private static String rewrite(String sentence, String intent) {
+    private static String rewrite(String sentence, String intent, int variant) {
         String out = " " + sentence + " ";
-        for (String[] pair : REWRITES) {
+        String[][] table = variant % 2 == 0 ? REWRITES : ALT_REWRITES;
+        for (String[] pair : table) {
             out = out.replace(pair[0], pair[1]);
         }
         if (KnowledgeBase.DROPS.equals(intent)) {

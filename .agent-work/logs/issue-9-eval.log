@@ -1,0 +1,50 @@
+category       passed/total   rate   threshold
+heldout         148/160      92.5%    85.0%  PASS
+followup         57/60       95.0%    80.0%  PASS
+ood              30/30      100.0%    90.0%  PASS
+regression        6/6       100.0%   100.0%  PASS
+exact KB/passage copies: 0/406 = 0.0% (need <20%) PASS
+unusable replies: 0/406 = 0.0% (need <5%) PASS
+in-domain held-out abstains: 3/160 = 1.9% (need <10%) PASS
+out-of-domain abstain accuracy: 30/30 = 100.0% (need >=90%) PASS
+average answer time: 0.357s (need <=3s) PASS
+
+Sample failures:
+- [heldout] please how is sword crafted
+  answer: To make it: All swords except netherite are crafted using a stick and two of the tier's material. Craft a sword with two material items and one stick at a crafting table. Put the material in the top two cells of the cent
+  need: ['vertically', 'materials']; forbid: []
+- [heldout] how get impaling
+  answer: Here is how it is used: Each level of Impaling adds 2.5HP × 1.25 extra damage per hit. In Bedrock Edition, the values are rounded down to the nearest whole number. This applies both to the trident projectile and in melee
+  need: ['enchanting', 'librarian']; forbid: []
+- [heldout] where is sand found
+  answer: Here is the short answer: Soul sand is actually a block found primarily in the Nether that slows down entities walking on it unless they are wearing Soul Speed boots. It can also be used to grow Nether wart, create soul 
+  need: ['formations', 'generates']; forbid: []
+- [heldout] hey ultron, what can i use crying obsidian for
+  answer: Put simply: Crying obsidian is actually a luminous variant of obsidian that is able to be used to craft respawn anchors. Purple particles drip from its faces. Like obsidian, It has high hardness and blast resistance, mak
+  need: ['resistance', 'destroyed']; forbid: []
+- [heldout] where find sweet berries
+  answer: The key idea is this: Sweet berries are actually a food item obtained from sweet berry bushes and are meant to plant them. Sweet berry bushes are quick-growing plants that grow sweet berries. Players and most mobs are sl
+  need: ['commonly', 'generate']; forbid: []
+- [heldout] how get le tricolore
+  answer: This is what it does: Le tricolore is actually a joke item exclusive to Java Edition 23w13a_or_b. It is the French national flag in item form, and has no in-game use.
+  need: ['deactivating', 'containers']; forbid: []
+- [heldout] hey ultron, what can i use magma cube for
+  answer: In short: A magma cube is actually a hostile mob seen in the Nether. A magma cube behaves similarly to a slime in that it splits into smaller magma cubes on death, all the way down to tiny size, but is fireproof, jumps h
+  need: ['direction', 'spherical']; forbid: []
+- [heldout] what is needed to craft oak planks
+  answer: In short: Planks are common blocks used as building blocks and in crafting recipes. They are generally one of the first things that a player crafts in Survival mode. There are currently 13 variants of planks, which is ab
+  need: ['different', 'trapdoors']; forbid: []
+- [heldout] where is armor found
+  answer: I am not sure. I don't have that in my notes.
+  need: ['chestplate', 'equipped']; forbid: []
+- [heldout] please what do you use pickaxe block for
+  answer: In short: The pickaxe block is actually a joke block exclusive toJava Edition 23w13a_or_b. It can instantly destroy any other block (including blocks indestructible in Survival) when given a redstone signal.
+  need: ['approved', 'earlier']; forbid: []
+- [heldout] how can i craft crafting
+  answer: I am not sure. I don't have that in my notes.
+  need: ['automated', 'manually']; forbid: []
+- [heldout] please can you craft crafting
+  answer: I am not sure. I don't have that in my notes.
+  need: ['automated', 'manually']; forbid: []
+
+RESULT: PASS

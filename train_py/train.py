@@ -222,6 +222,9 @@ def main():
             print("A step %d/%d loss %.4f ppl %.1f lr %.2e %.0f tok/s %.0fs" %
                   (step, args.steps_a, float(loss.detach()), math.exp(min(20, float(loss.detach()))),
                    lr, args.batch_size * args.ctx / max(elapsed, 1e-9), elapsed))
+        if step > 0 and step % args.eval_every == 0:
+            save_checkpoint(os.path.join(args.out, "stage_a.pt"), model, config,
+                            global_step, best_eval, "a")
     save_checkpoint(os.path.join(args.out, "stage_a.pt"), model, config,
                     global_step, best_eval, "a")
 

@@ -160,7 +160,7 @@ public class Chat {
         }
 
         Memory.Result learned = memory == null ? null : memory.learn(clean);
-        if (learned != null && memory != null) {
+        if (memory != null) {
             String remembered = memoryReply(clean, learned);
             if (remembered != null) {
                 stream(remembered, sink);
@@ -168,14 +168,19 @@ public class Chat {
             }
         }
 
-        String expanded = expandFollowup(clean);
-        boolean followup = !expanded.equals(clean);
+        String corrected = kb == null ? clean : kb.correct(clean);
+        String expanded = expandFollowup(corrected);
+        boolean followup = !expanded.equals(corrected);
         if (!followup) {
-            String topic = KnowledgeBase.extractTopic(clean);
+            String topic = KnowledgeBase.extractTopic(corrected);
             if (!topic.isEmpty()) lastTopic = topic;
         }
 
         String context = kb == null ? null : kb.retrieve(expanded, 2);
+        if ((context == null || context.isEmpty()) && followup
+                && lastTopic != null && !lastTopic.isEmpty()) {
+            context = kb.retrieve(lastTopic, 2);
+        }
         if (context == null || context.isEmpty()) {
             String none = learned != null && learned.changed ? learnedReply(learned) : NO_NOTES;
             stream(none, sink);
@@ -241,15 +246,27 @@ public class Chat {
             String likes = memory == null ? "" : memory.fact("likes");
             if (!likes.isEmpty()) return "You told me you like " + likes + ".";
         }
-        return learned.changed ? learnedReply(learned) : null;
+        String asked = Memory.possessedItem(input);
+        if (asked != null && memory != null) {
+            String amount = memory.fact("have " + asked);
+            if (!amount.isEmpty()) {
+                return "You told me you have " + amount + " " + asked + ".";
+            }
+        }
+        if (q.matches("(?i)^(?:how many|how much).*\\b(?:u|you)\\b.*\\bhave\\b.*$")) {
+            return "I do not keep an inventory, so I cannot count items for you.";
+        }
+        return learned != null && learned.changed ? learnedReply(learned) : null;
     }
 
     /** Appends the active topic when the question uses a pronoun or "and". */
     private String expandFollowup(String input) {
-        if (kb == null || !kb.isFollowup(input)) return input;
+        if (kb == null) return input;
+        String clean = input.replaceFirst("^(?i)(?:and|so|then|ok|okay|also)\\s+", "");
+        if (!kb.isFollowup(clean)) return clean;
         String topic = currentTopic();
-        if (topic == null || topic.isEmpty()) return input;
-        return input + " " + topic;
+        if (topic == null || topic.isEmpty()) return clean;
+        return clean + " " + topic;
     }
 
     private String currentTopic() {
@@ -438,6 +455,7 @@ public class Chat {
 
     private static String learnedReply(Memory.Result learned) {
         if (learned.name != null) return "Nice to meet you, " + learned.name + ".";
+        if (learned.note != null) return "Got it. I will remember that " + learned.note + ".";
         return "Got it. I will remember that.";
     }
 

@@ -1,0 +1,9 @@
+PASS  what is obsidian                                     -> Basically: Obsidian is actually a dark, very hard block. It forms when flowing water touch
+PASS  can obsidian be craftable on crafting table          -> This is how it is made: Obsidian cannot be crafted at a crafting table or in the inventory
+PASS  how to get a diamond                                 -> The usual way is this: Mine diamond ore or deepslate diamond ore with an iron pickaxe or b
+PASS  how to make iron pickaxe                             -> This is how it is made: Place the three ingots across the top row and put a stick in the m
+PASS  iron pickaxe                                         -> Basically: An iron pickaxe is crafted from three iron ingots and two sticks at a crafting 
+PASS  how many edition exist of minecraft                  -> Counting them gives this: Minecraft has two main editions: Java Edition and Bedrock Editio
+PASS  what is obsidian + and how can i craft it            -> you> ultron> For this, follow these steps: Obsidian cannot be crafted at a crafting table 
+PASS  follow-up after session restart                      -> you> ultron> This is how it is made: Obsidian cannot be crafted at a crafting table or in 
+PHASE 1 REGRESSION TESTS PASSED

@@ -37,6 +37,13 @@ public class Memory implements Closeable {
             "(?i)\\bmy favou?rite ([a-z][a-z ]{0,30}?) is (.+)");
     private static final Pattern MY_ATTRIBUTE = Pattern.compile(
             "(?i)\\bmy ([a-z][a-z ]{0,30}?) is (.+)");
+    private static final Pattern POSSESSION = Pattern.compile(
+            "(?i)^(?:i|i've|ive)\\s+(?:have|got|own)\\s+(.+)$");
+    private static final Pattern COUNT_QUESTION = Pattern.compile(
+            "(?i)^(?:how many|how much)\\s+(.+?)\\s+(?:do|did|can)\\s+i\\s+have.*$|"
+            + "^(?:how many|how much)\\s+(.+?)\\s+have\\s+i.*$|"
+            + "^(?:how many|how much)\\s+(.+?)\\s+i\\s+have.*$|"
+            + "^do\\s+i\\s+have\\s+(.+)$");
     public static class Turn {
         public final String role, text;
 
@@ -49,6 +56,7 @@ public class Memory implements Closeable {
     public static class Result {
         public boolean changed;
         public String name;
+        public String note;
     }
 
     private final Path root, sessionsDir, factsFile;
@@ -277,6 +285,16 @@ public class Memory implements Closeable {
             put("note", clause(v, false)); r.changed = true;
         }
 
+        Matcher poss = POSSESSION.matcher(t);
+        if (poss.find()) {
+            String[] parts = possessionParts(poss.group(1));
+            if (parts != null) {
+                put("have " + parts[1], parts[0]);
+                r.changed = true;
+                r.note = "you have " + parts[0] + " " + parts[1];
+            }
+        }
+
         Matcher attr = MY_ATTRIBUTE.matcher(t);
         if (attr.find()) {
             String key = cleanKey(attr.group(1));
@@ -287,6 +305,59 @@ public class Memory implements Closeable {
             }
         }
         return r;
+    }
+
+    /** Splits "400 dollars" / "an iron pickaxe" into amount and canonical item. */
+    private static String[] possessionParts(String text) {
+        if (text == null) return null;
+        String t = text.trim().replaceAll("[.!?]+$", "").trim();
+        if (t.isEmpty()) return null;
+        String amount = "some";
+        String item = t;
+        Matcher m = Pattern.compile("^(\\d+(?:\\.\\d+)?)\\s+(.+)$").matcher(t);
+        if (m.matches()) {
+            amount = m.group(1);
+            item = m.group(2);
+        } else {
+            item = t.replaceFirst("^(?:a|an|the)\\s+", "");
+        }
+        item = canonicalItem(item);
+        return item.isEmpty() ? null : new String[]{amount, item};
+    }
+
+    /** Finds the item in "how many X do I have" style questions. */
+    public static String possessedItem(String input) {
+        if (input == null) return null;
+        Matcher m = COUNT_QUESTION.matcher(input.trim().replaceAll("[?!.]+$", ""));
+        if (!m.matches()) return null;
+        for (int g = 1; g <= m.groupCount(); g++) {
+            if (m.group(g) != null) {
+                String item = canonicalItem(m.group(g));
+                if (!item.isEmpty()) return item;
+            }
+        }
+        return null;
+    }
+
+    private static String canonicalItem(String s) {
+        String item = cleanKey(s);
+        item = item.replaceFirst("^(?:many|much|some|the|a|an)\\s+", "");
+        item = item.replaceAll("\\s+(?:do|did|can|i|u|you)\\s+have$", "").trim();
+        switch (item) {
+            case "doller": case "dolars": case "dollers": case "dollars":
+            case "usd": case "dollar": return "dollar";
+            case "takas": return "taka";
+            case "pickaxes": return "pickaxe";
+            case "blocks": return "block";
+            case "items": return "item";
+            case "diamonds": return "diamond";
+            case "ingots": return "ingot";
+            default: break;
+        }
+        if (item.endsWith("s") && item.length() > 3 && !item.endsWith("ss")) {
+            item = item.substring(0, item.length() - 1);
+        }
+        return item;
     }
 
     private static String extractName(String t) {

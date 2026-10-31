@@ -1,0 +1,36 @@
+device=cpu amp=False
+training BPE tokenizer...
+trained tokenizer: vocab=4096 merges=4034
+pretrain tokens: 92015
+instruction examples: train=52130 eval=2794
+parameters: 2615424
+{"vocab": 4096, "width": 192, "layers": 4, "heads": 4, "ffn": 768, "ctx": 256}
+A step 0/20 loss 8.3518 ppl 4237.6 lr 1.20e-04 1580 tok/s 3s
+A step 19/20 loss 6.9027 ppl 995.0 lr 6.59e-05 256 tok/s 16s
+B step 20/32 epoch 1 loss 7.1487 lr 5.00e-05
+  eval loss 7.1063 ppl 1219.6 (best inf)
+done in 80.6s; best eval loss 7.1063
+checkpoints in /tmp/ultron-bench
+	Command being timed: "python3 train_py/train.py --pretrain data/pretrain.txt --qa data/qa_train.jsonl --eval data/qa_eval.jsonl --out /tmp/ultron-bench --vocab-size 4096 --width 192 --layers 4 --heads 4 --ffn 768 --ctx 256 --batch-size 16 --steps-a 20 --epochs-b 0.01 --eval-every 1000 --warmup 5 --max-pretrain-tokens 100000 --patience 100"
+	User time (seconds): 152.60
+	System time (seconds): 18.11
+	Percent of CPU this job got: 184%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:32.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1287616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 9343781
+	Voluntary context switches: 257
+	Involuntary context switches: 796
+	Swaps: 0
+	File system inputs: 512
+	File system outputs: 97432
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

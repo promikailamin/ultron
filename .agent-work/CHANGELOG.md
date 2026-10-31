@@ -103,3 +103,22 @@
   held-out abstains, both the malformed `craft crafting` phrasing; furnace,
   goat, crimson roots, protection enchantment and present perfect all retrieve
   and answer.
+
+## 2026-10-31 - Issue 9
+
+- Added typo-tolerant retrieval. Unknown subject words are corrected only when
+  they stay on the same first letter and are within a very small edit distance,
+  so `sugger cane`, `suger cane` and `ieon pickaxe` reach the existing facts
+  while unrelated out-of-domain questions still abstain.
+- Follow-ups now understand `they` and leading `so`/`then`, and when the
+  expanded question has no direct candidate, the last topic is used as the
+  retrieval context. `so how much durability difference they have` now answers
+  from the diamond pickaxe passage instead of abstaining.
+- `Memory` learns simple possessions such as `i have 400 doller` and answers
+  `how many doller i have` with the stored amount. Second-person inventory
+  questions get an explicit "I do not keep an inventory" reply.
+- Composed replies now alternate two rewrite vocabularies, sentence order and
+  openers, so asking the same question again does not replay one fixed string.
+  Repeated four-grams are still rejected by the usability gate.
+- Added `.agent-work/tests/issue9_regression.sh` covering typos, the durability
+  follow-up, numeric memory, and repeat variation.
