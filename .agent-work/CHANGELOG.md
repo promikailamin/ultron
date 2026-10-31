@@ -122,3 +122,9 @@
   Repeated four-grams are still rejected by the usability gate.
 - Added `.agent-work/tests/issue9_regression.sh` covering typos, the durability
   follow-up, numeric memory, and repeat variation.
+- Retrained a small CPU candidate after fixing the corpus normalization bug.
+  Stage B reached eval loss 0.395 but generated text was not reliably grounded;
+  putting that checkpoint behind the chat gate dropped public eval from 92.5%
+  to 57.5%, so the legacy checkpoint was left in place. The full log is in
+  `.agent-work/logs/issue-9-train.log`; a GPU run of the 17M recipe is still
+  required.

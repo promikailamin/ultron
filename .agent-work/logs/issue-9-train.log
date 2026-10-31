@@ -1,0 +1,329 @@
+device=cpu amp=False
+training BPE tokenizer...
+trained tokenizer: vocab=4096 merges=3881
+pretrain tokens: 7159992
+instruction examples: train=30000 eval=2794
+parameters: 2615424
+{"vocab": 4096, "width": 192, "layers": 4, "heads": 4, "ffn": 768, "ctx": 256}
+A step 0/5000 loss 8.3558 ppl 4254.7 lr 3.00e-06 2572 tok/s 2s
+A step 20/5000 loss 7.9795 ppl 2920.6 lr 6.30e-05 239 tok/s 21s
+A step 40/5000 loss 7.6838 ppl 2172.8 lr 1.23e-04 125 tok/s 41s
+A step 60/5000 loss 7.1469 ppl 1270.1 lr 1.83e-04 85 tok/s 60s
+A step 80/5000 loss 6.7156 ppl 825.2 lr 2.43e-04 64 tok/s 79s
+A step 100/5000 loss 6.4468 ppl 630.7 lr 3.03e-04 51 tok/s 100s
+A step 120/5000 loss 6.0202 ppl 411.6 lr 3.63e-04 43 tok/s 120s
+A step 140/5000 loss 5.7473 ppl 313.3 lr 4.23e-04 36 tok/s 141s
+A step 160/5000 loss 5.3834 ppl 217.8 lr 4.83e-04 32 tok/s 161s
+A step 180/5000 loss 5.6998 ppl 298.8 lr 5.43e-04 28 tok/s 182s
+A step 200/5000 loss 5.3203 ppl 204.4 lr 6.00e-04 25 tok/s 202s
+A step 220/5000 loss 5.0652 ppl 158.4 lr 6.00e-04 23 tok/s 221s
+A step 240/5000 loss 4.8646 ppl 129.6 lr 6.00e-04 21 tok/s 240s
+A step 260/5000 loss 4.9806 ppl 145.6 lr 6.00e-04 20 tok/s 260s
+A step 280/5000 loss 4.6976 ppl 109.7 lr 6.00e-04 18 tok/s 280s
+A step 300/5000 loss 4.7718 ppl 118.1 lr 5.99e-04 17 tok/s 300s
+A step 320/5000 loss 4.9249 ppl 137.7 lr 5.99e-04 16 tok/s 320s
+A step 340/5000 loss 4.8691 ppl 130.2 lr 5.99e-04 15 tok/s 340s
+A step 360/5000 loss 4.8339 ppl 125.7 lr 5.99e-04 14 tok/s 360s
+A step 380/5000 loss 4.4188 ppl 83.0 lr 5.98e-04 13 tok/s 380s
+A step 400/5000 loss 4.5524 ppl 94.9 lr 5.98e-04 13 tok/s 399s
+A step 420/5000 loss 4.2441 ppl 69.7 lr 5.97e-04 12 tok/s 419s
+A step 440/5000 loss 4.4550 ppl 86.1 lr 5.97e-04 12 tok/s 439s
+A step 460/5000 loss 4.4626 ppl 86.7 lr 5.96e-04 11 tok/s 460s
+A step 480/5000 loss 4.3193 ppl 75.1 lr 5.95e-04 11 tok/s 480s
+A step 500/5000 loss 4.4635 ppl 86.8 lr 5.95e-04 10 tok/s 499s
+A step 520/5000 loss 4.3721 ppl 79.2 lr 5.94e-04 10 tok/s 519s
+A step 540/5000 loss 4.1496 ppl 63.4 lr 5.93e-04 9 tok/s 539s
+A step 560/5000 loss 4.4275 ppl 83.7 lr 5.93e-04 9 tok/s 559s
+A step 580/5000 loss 4.1629 ppl 64.3 lr 5.92e-04 9 tok/s 578s
+A step 600/5000 loss 4.4509 ppl 85.7 lr 5.91e-04 9 tok/s 598s
+A step 620/5000 loss 4.0754 ppl 58.9 lr 5.90e-04 8 tok/s 618s
+A step 640/5000 loss 4.0913 ppl 59.8 lr 5.89e-04 8 tok/s 638s
+A step 660/5000 loss 4.1363 ppl 62.6 lr 5.88e-04 8 tok/s 657s
+A step 680/5000 loss 4.0507 ppl 57.4 lr 5.87e-04 8 tok/s 678s
+A step 700/5000 loss 4.1779 ppl 65.2 lr 5.86e-04 7 tok/s 712s
+A step 720/5000 loss 4.0129 ppl 55.3 lr 5.85e-04 7 tok/s 736s
+A step 740/5000 loss 3.8752 ppl 48.2 lr 5.83e-04 7 tok/s 756s
+A step 760/5000 loss 3.7833 ppl 44.0 lr 5.82e-04 7 tok/s 776s
+A step 780/5000 loss 4.0837 ppl 59.4 lr 5.81e-04 6 tok/s 795s
+A step 800/5000 loss 3.7086 ppl 40.8 lr 5.79e-04 6 tok/s 815s
+A step 820/5000 loss 3.7862 ppl 44.1 lr 5.78e-04 6 tok/s 834s
+A step 840/5000 loss 3.7386 ppl 42.0 lr 5.77e-04 6 tok/s 854s
+A step 860/5000 loss 4.0830 ppl 59.3 lr 5.75e-04 6 tok/s 874s
+A step 880/5000 loss 3.8972 ppl 49.3 lr 5.74e-04 6 tok/s 893s
+A step 900/5000 loss 3.7932 ppl 44.4 lr 5.72e-04 6 tok/s 912s
+A step 920/5000 loss 3.8833 ppl 48.6 lr 5.71e-04 6 tok/s 931s
+A step 940/5000 loss 3.5185 ppl 33.7 lr 5.69e-04 5 tok/s 950s
+A step 960/5000 loss 3.6236 ppl 37.5 lr 5.67e-04 5 tok/s 968s
+A step 980/5000 loss 3.7574 ppl 42.8 lr 5.66e-04 5 tok/s 987s
+A step 1000/5000 loss 3.9051 ppl 49.7 lr 5.64e-04 5 tok/s 1006s
+A step 1020/5000 loss 3.9872 ppl 53.9 lr 5.62e-04 5 tok/s 1025s
+A step 1040/5000 loss 3.7190 ppl 41.2 lr 5.60e-04 5 tok/s 1045s
+A step 1060/5000 loss 3.3080 ppl 27.3 lr 5.58e-04 5 tok/s 1063s
+A step 1080/5000 loss 3.6734 ppl 39.4 lr 5.56e-04 5 tok/s 1082s
+A step 1100/5000 loss 3.5674 ppl 35.4 lr 5.54e-04 5 tok/s 1101s
+A step 1120/5000 loss 3.7118 ppl 40.9 lr 5.53e-04 5 tok/s 1120s
+A step 1140/5000 loss 3.9120 ppl 50.0 lr 5.50e-04 4 tok/s 1139s
+A step 1160/5000 loss 3.4478 ppl 31.4 lr 5.48e-04 4 tok/s 1158s
+A step 1180/5000 loss 3.9204 ppl 50.4 lr 5.46e-04 4 tok/s 1177s
+A step 1200/5000 loss 2.9369 ppl 18.9 lr 5.44e-04 4 tok/s 1196s
+A step 1220/5000 loss 3.8218 ppl 45.7 lr 5.42e-04 4 tok/s 1215s
+A step 1240/5000 loss 3.6208 ppl 37.4 lr 5.40e-04 4 tok/s 1234s
+A step 1260/5000 loss 3.4865 ppl 32.7 lr 5.38e-04 4 tok/s 1253s
+A step 1280/5000 loss 3.7087 ppl 40.8 lr 5.35e-04 4 tok/s 1272s
+A step 1300/5000 loss 3.4984 ppl 33.1 lr 5.33e-04 4 tok/s 1292s
+A step 1320/5000 loss 3.9574 ppl 52.3 lr 5.31e-04 4 tok/s 1311s
+A step 1340/5000 loss 3.3734 ppl 29.2 lr 5.28e-04 4 tok/s 1330s
+A step 1360/5000 loss 3.5551 ppl 35.0 lr 5.26e-04 4 tok/s 1349s
+A step 1380/5000 loss 3.6121 ppl 37.0 lr 5.23e-04 4 tok/s 1368s
+A step 1400/5000 loss 3.5539 ppl 34.9 lr 5.21e-04 4 tok/s 1387s
+A step 1420/5000 loss 3.2864 ppl 26.7 lr 5.18e-04 4 tok/s 1406s
+A step 1440/5000 loss 2.9451 ppl 19.0 lr 5.16e-04 4 tok/s 1425s
+A step 1460/5000 loss 2.8507 ppl 17.3 lr 5.13e-04 4 tok/s 1444s
+A step 1480/5000 loss 3.5333 ppl 34.2 lr 5.11e-04 3 tok/s 1463s
+A step 1500/5000 loss 3.4086 ppl 30.2 lr 5.08e-04 3 tok/s 1482s
+A step 1520/5000 loss 3.0714 ppl 21.6 lr 5.05e-04 3 tok/s 1501s
+A step 1540/5000 loss 2.9782 ppl 19.7 lr 5.03e-04 3 tok/s 1520s
+A step 1560/5000 loss 3.4349 ppl 31.0 lr 5.00e-04 3 tok/s 1540s
+A step 1580/5000 loss 3.6074 ppl 36.9 lr 4.97e-04 3 tok/s 1559s
+A step 1600/5000 loss 3.0467 ppl 21.0 lr 4.94e-04 3 tok/s 1578s
+A step 1620/5000 loss 2.8757 ppl 17.7 lr 4.92e-04 3 tok/s 1597s
+A step 1640/5000 loss 3.3748 ppl 29.2 lr 4.89e-04 3 tok/s 1616s
+A step 1660/5000 loss 3.2223 ppl 25.1 lr 4.86e-04 3 tok/s 1637s
+A step 1680/5000 loss 2.8046 ppl 16.5 lr 4.83e-04 3 tok/s 1658s
+A step 1700/5000 loss 3.1741 ppl 23.9 lr 4.80e-04 3 tok/s 1677s
+A step 1720/5000 loss 3.4083 ppl 30.2 lr 4.77e-04 3 tok/s 1696s
+A step 1740/5000 loss 3.6497 ppl 38.5 lr 4.74e-04 3 tok/s 1715s
+A step 1760/5000 loss 3.3987 ppl 29.9 lr 4.71e-04 3 tok/s 1734s
+A step 1780/5000 loss 3.0299 ppl 20.7 lr 4.68e-04 3 tok/s 1753s
+A step 1800/5000 loss 3.3860 ppl 29.5 lr 4.65e-04 3 tok/s 1772s
+A step 1820/5000 loss 3.3631 ppl 28.9 lr 4.62e-04 3 tok/s 1791s
+A step 1840/5000 loss 2.8490 ppl 17.3 lr 4.59e-04 3 tok/s 1810s
+A step 1860/5000 loss 3.1547 ppl 23.4 lr 4.56e-04 3 tok/s 1829s
+A step 1880/5000 loss 2.6527 ppl 14.2 lr 4.53e-04 3 tok/s 1848s
+A step 1900/5000 loss 3.1730 ppl 23.9 lr 4.49e-04 3 tok/s 1867s
+A step 1920/5000 loss 2.9389 ppl 18.9 lr 4.46e-04 3 tok/s 1885s
+A step 1940/5000 loss 2.7298 ppl 15.3 lr 4.43e-04 3 tok/s 1904s
+A step 1960/5000 loss 2.5726 ppl 13.1 lr 4.40e-04 3 tok/s 1923s
+A step 1980/5000 loss 2.9286 ppl 18.7 lr 4.37e-04 3 tok/s 1942s
+A step 2000/5000 loss 3.0434 ppl 21.0 lr 4.33e-04 3 tok/s 1961s
+A step 2020/5000 loss 3.4563 ppl 31.7 lr 4.30e-04 3 tok/s 1980s
+A step 2040/5000 loss 3.0001 ppl 20.1 lr 4.27e-04 3 tok/s 1999s
+A step 2060/5000 loss 3.4221 ppl 30.6 lr 4.23e-04 3 tok/s 2018s
+A step 2080/5000 loss 3.0357 ppl 20.8 lr 4.20e-04 3 tok/s 2037s
+A step 2100/5000 loss 2.4827 ppl 12.0 lr 4.17e-04 2 tok/s 2056s
+A step 2120/5000 loss 2.5648 ppl 13.0 lr 4.13e-04 2 tok/s 2075s
+A step 2140/5000 loss 2.2643 ppl 9.6 lr 4.10e-04 2 tok/s 2094s
+A step 2160/5000 loss 2.5517 ppl 12.8 lr 4.07e-04 2 tok/s 2113s
+A step 2180/5000 loss 3.1906 ppl 24.3 lr 4.03e-04 2 tok/s 2132s
+A step 2200/5000 loss 3.3813 ppl 29.4 lr 4.00e-04 2 tok/s 2151s
+A step 2220/5000 loss 2.8881 ppl 18.0 lr 3.96e-04 2 tok/s 2170s
+A step 2240/5000 loss 3.2956 ppl 27.0 lr 3.93e-04 2 tok/s 2189s
+A step 2260/5000 loss 3.0565 ppl 21.3 lr 3.90e-04 2 tok/s 2208s
+A step 2280/5000 loss 3.5302 ppl 34.1 lr 3.86e-04 2 tok/s 2227s
+A step 2300/5000 loss 2.5372 ppl 12.6 lr 3.83e-04 2 tok/s 2246s
+A step 2320/5000 loss 2.9360 ppl 18.8 lr 3.79e-04 2 tok/s 2265s
+A step 2340/5000 loss 2.7103 ppl 15.0 lr 3.76e-04 2 tok/s 2284s
+A step 2360/5000 loss 2.7813 ppl 16.1 lr 3.72e-04 2 tok/s 2303s
+A step 2380/5000 loss 2.6317 ppl 13.9 lr 3.69e-04 2 tok/s 2322s
+A step 2400/5000 loss 2.3938 ppl 11.0 lr 3.65e-04 2 tok/s 2341s
+A step 2420/5000 loss 2.3909 ppl 10.9 lr 3.62e-04 2 tok/s 2360s
+A step 2440/5000 loss 3.1765 ppl 24.0 lr 3.58e-04 2 tok/s 2379s
+A step 2460/5000 loss 2.6393 ppl 14.0 lr 3.55e-04 2 tok/s 2398s
+A step 2480/5000 loss 3.1776 ppl 24.0 lr 3.51e-04 2 tok/s 2417s
+A step 2500/5000 loss 2.2698 ppl 9.7 lr 3.48e-04 2 tok/s 2436s
+A step 2520/5000 loss 2.7654 ppl 15.9 lr 3.44e-04 2 tok/s 2455s
+A step 2540/5000 loss 2.6886 ppl 14.7 lr 3.41e-04 2 tok/s 2474s
+A step 2560/5000 loss 3.3108 ppl 27.4 lr 3.37e-04 2 tok/s 2492s
+A step 2580/5000 loss 2.9269 ppl 18.7 lr 3.34e-04 2 tok/s 2511s
+A step 2600/5000 loss 2.8041 ppl 16.5 lr 3.30e-04 2 tok/s 2530s
+A step 2620/5000 loss 2.8600 ppl 17.5 lr 3.26e-04 2 tok/s 2549s
+A step 2640/5000 loss 2.5243 ppl 12.5 lr 3.23e-04 2 tok/s 2570s
+A step 2660/5000 loss 2.4622 ppl 11.7 lr 3.19e-04 2 tok/s 2589s
+A step 2680/5000 loss 2.9461 ppl 19.0 lr 3.16e-04 2 tok/s 2608s
+A step 2700/5000 loss 3.1821 ppl 24.1 lr 3.12e-04 2 tok/s 2627s
+A step 2720/5000 loss 2.5558 ppl 12.9 lr 3.09e-04 2 tok/s 2646s
+A step 2740/5000 loss 2.6998 ppl 14.9 lr 3.05e-04 2 tok/s 2665s
+A step 2760/5000 loss 2.6413 ppl 14.0 lr 3.02e-04 2 tok/s 2683s
+A step 2780/5000 loss 2.2774 ppl 9.8 lr 2.98e-04 2 tok/s 2702s
+A step 2800/5000 loss 2.7990 ppl 16.4 lr 2.95e-04 2 tok/s 2722s
+A step 2820/5000 loss 2.3969 ppl 11.0 lr 2.91e-04 2 tok/s 2740s
+A step 2840/5000 loss 2.5338 ppl 12.6 lr 2.88e-04 2 tok/s 2759s
+A step 2860/5000 loss 2.4281 ppl 11.3 lr 2.84e-04 2 tok/s 2778s
+A step 2880/5000 loss 2.3404 ppl 10.4 lr 2.81e-04 2 tok/s 2797s
+A step 2900/5000 loss 2.8103 ppl 16.6 lr 2.77e-04 2 tok/s 2816s
+A step 2920/5000 loss 2.2963 ppl 9.9 lr 2.74e-04 2 tok/s 2835s
+A step 2940/5000 loss 2.4798 ppl 11.9 lr 2.70e-04 2 tok/s 2853s
+A step 2960/5000 loss 2.0012 ppl 7.4 lr 2.67e-04 2 tok/s 2872s
+A step 2980/5000 loss 3.1948 ppl 24.4 lr 2.64e-04 2 tok/s 2891s
+A step 3000/5000 loss 2.2668 ppl 9.6 lr 2.60e-04 2 tok/s 2910s
+A step 3020/5000 loss 2.5693 ppl 13.1 lr 2.57e-04 2 tok/s 2928s
+A step 3040/5000 loss 1.8336 ppl 6.3 lr 2.53e-04 2 tok/s 2947s
+A step 3060/5000 loss 2.2451 ppl 9.4 lr 2.50e-04 2 tok/s 2966s
+A step 3080/5000 loss 2.3722 ppl 10.7 lr 2.47e-04 2 tok/s 2985s
+A step 3100/5000 loss 1.6448 ppl 5.2 lr 2.43e-04 2 tok/s 3004s
+A step 3120/5000 loss 2.0470 ppl 7.7 lr 2.40e-04 2 tok/s 3023s
+A step 3140/5000 loss 2.5235 ppl 12.5 lr 2.37e-04 2 tok/s 3042s
+A step 3160/5000 loss 2.3598 ppl 10.6 lr 2.33e-04 2 tok/s 3061s
+A step 3180/5000 loss 2.5270 ppl 12.5 lr 2.30e-04 2 tok/s 3080s
+A step 3200/5000 loss 2.5251 ppl 12.5 lr 2.27e-04 2 tok/s 3099s
+A step 3220/5000 loss 2.2239 ppl 9.2 lr 2.23e-04 2 tok/s 3118s
+A step 3240/5000 loss 2.3408 ppl 10.4 lr 2.20e-04 2 tok/s 3137s
+A step 3260/5000 loss 2.3108 ppl 10.1 lr 2.17e-04 2 tok/s 3156s
+A step 3280/5000 loss 2.3243 ppl 10.2 lr 2.14e-04 2 tok/s 3175s
+A step 3300/5000 loss 2.7559 ppl 15.7 lr 2.11e-04 2 tok/s 3193s
+A step 3320/5000 loss 2.2499 ppl 9.5 lr 2.07e-04 2 tok/s 3212s
+A step 3340/5000 loss 2.0658 ppl 7.9 lr 2.04e-04 2 tok/s 3231s
+A step 3360/5000 loss 2.5942 ppl 13.4 lr 2.01e-04 2 tok/s 3250s
+A step 3380/5000 loss 2.5345 ppl 12.6 lr 1.98e-04 2 tok/s 3268s
+A step 3400/5000 loss 2.1890 ppl 8.9 lr 1.95e-04 2 tok/s 3287s
+A step 3420/5000 loss 2.7323 ppl 15.4 lr 1.92e-04 2 tok/s 3306s
+A step 3440/5000 loss 2.0933 ppl 8.1 lr 1.89e-04 2 tok/s 3325s
+A step 3460/5000 loss 2.7385 ppl 15.5 lr 1.86e-04 2 tok/s 3343s
+A step 3480/5000 loss 1.6773 ppl 5.4 lr 1.83e-04 2 tok/s 3362s
+A step 3500/5000 loss 2.3436 ppl 10.4 lr 1.80e-04 2 tok/s 3381s
+A step 3520/5000 loss 1.9284 ppl 6.9 lr 1.77e-04 2 tok/s 3400s
+A step 3540/5000 loss 2.3825 ppl 10.8 lr 1.74e-04 1 tok/s 3419s
+A step 3560/5000 loss 2.1207 ppl 8.3 lr 1.71e-04 1 tok/s 3438s
+A step 3580/5000 loss 2.7383 ppl 15.5 lr 1.68e-04 1 tok/s 3457s
+A step 3600/5000 loss 2.6019 ppl 13.5 lr 1.66e-04 1 tok/s 3477s
+A step 3620/5000 loss 2.3345 ppl 10.3 lr 1.63e-04 1 tok/s 3496s
+A step 3640/5000 loss 2.2049 ppl 9.1 lr 1.60e-04 1 tok/s 3515s
+A step 3660/5000 loss 1.6537 ppl 5.2 lr 1.57e-04 1 tok/s 3534s
+A step 3680/5000 loss 2.3518 ppl 10.5 lr 1.55e-04 1 tok/s 3553s
+A step 3700/5000 loss 2.3976 ppl 11.0 lr 1.52e-04 1 tok/s 3572s
+A step 3720/5000 loss 2.7821 ppl 16.2 lr 1.49e-04 1 tok/s 3591s
+A step 3740/5000 loss 2.3275 ppl 10.3 lr 1.47e-04 1 tok/s 3611s
+A step 3760/5000 loss 1.9289 ppl 6.9 lr 1.44e-04 1 tok/s 3630s
+A step 3780/5000 loss 2.7533 ppl 15.7 lr 1.42e-04 1 tok/s 3649s
+A step 3800/5000 loss 1.8798 ppl 6.6 lr 1.39e-04 1 tok/s 3668s
+A step 3820/5000 loss 2.1626 ppl 8.7 lr 1.37e-04 1 tok/s 3687s
+A step 3840/5000 loss 1.7677 ppl 5.9 lr 1.34e-04 1 tok/s 3707s
+A step 3860/5000 loss 2.5054 ppl 12.2 lr 1.32e-04 1 tok/s 3726s
+A step 3880/5000 loss 2.1733 ppl 8.8 lr 1.29e-04 1 tok/s 3745s
+A step 3900/5000 loss 2.1076 ppl 8.2 lr 1.27e-04 1 tok/s 3765s
+A step 3920/5000 loss 2.1867 ppl 8.9 lr 1.25e-04 1 tok/s 3784s
+A step 3940/5000 loss 2.4735 ppl 11.9 lr 1.22e-04 1 tok/s 3804s
+A step 3960/5000 loss 2.6019 ppl 13.5 lr 1.20e-04 1 tok/s 3824s
+A step 3980/5000 loss 2.6713 ppl 14.5 lr 1.18e-04 1 tok/s 3843s
+A step 4000/5000 loss 2.3000 ppl 10.0 lr 1.16e-04 1 tok/s 3863s
+A step 4020/5000 loss 1.6469 ppl 5.2 lr 1.14e-04 1 tok/s 3883s
+A step 4040/5000 loss 2.6848 ppl 14.7 lr 1.12e-04 1 tok/s 3902s
+A step 4060/5000 loss 2.8489 ppl 17.3 lr 1.10e-04 1 tok/s 3921s
+A step 4080/5000 loss 2.4209 ppl 11.3 lr 1.07e-04 1 tok/s 3941s
+A step 4100/5000 loss 2.7638 ppl 15.9 lr 1.06e-04 1 tok/s 3960s
+A step 4120/5000 loss 2.3157 ppl 10.1 lr 1.04e-04 1 tok/s 3980s
+A step 4140/5000 loss 2.5270 ppl 12.5 lr 1.02e-04 1 tok/s 4000s
+A step 4160/5000 loss 2.3486 ppl 10.5 lr 9.98e-05 1 tok/s 4019s
+A step 4180/5000 loss 2.2861 ppl 9.8 lr 9.80e-05 1 tok/s 4039s
+A step 4200/5000 loss 2.4887 ppl 12.0 lr 9.62e-05 1 tok/s 4058s
+A step 4220/5000 loss 2.3883 ppl 10.9 lr 9.44e-05 1 tok/s 4077s
+A step 4240/5000 loss 2.5463 ppl 12.8 lr 9.27e-05 1 tok/s 4096s
+A step 4260/5000 loss 2.0802 ppl 8.0 lr 9.11e-05 1 tok/s 4116s
+A step 4280/5000 loss 2.1441 ppl 8.5 lr 8.94e-05 1 tok/s 4135s
+A step 4300/5000 loss 1.9228 ppl 6.8 lr 8.78e-05 1 tok/s 4154s
+A step 4320/5000 loss 2.3182 ppl 10.2 lr 8.63e-05 1 tok/s 4173s
+A step 4340/5000 loss 2.1341 ppl 8.4 lr 8.48e-05 1 tok/s 4192s
+A step 4360/5000 loss 2.3064 ppl 10.0 lr 8.33e-05 1 tok/s 4211s
+A step 4380/5000 loss 2.2486 ppl 9.5 lr 8.19e-05 1 tok/s 4231s
+A step 4400/5000 loss 2.0821 ppl 8.0 lr 8.06e-05 1 tok/s 4250s
+A step 4420/5000 loss 2.8102 ppl 16.6 lr 7.92e-05 1 tok/s 4270s
+A step 4440/5000 loss 2.1946 ppl 9.0 lr 7.79e-05 1 tok/s 4290s
+A step 4460/5000 loss 2.1210 ppl 8.3 lr 7.67e-05 1 tok/s 4309s
+A step 4480/5000 loss 2.1414 ppl 8.5 lr 7.55e-05 1 tok/s 4328s
+A step 4500/5000 loss 2.2001 ppl 9.0 lr 7.43e-05 1 tok/s 4347s
+A step 4520/5000 loss 1.8829 ppl 6.6 lr 7.32e-05 1 tok/s 4368s
+A step 4540/5000 loss 2.9757 ppl 19.6 lr 7.21e-05 1 tok/s 4388s
+A step 4560/5000 loss 2.1861 ppl 8.9 lr 7.11e-05 1 tok/s 4407s
+A step 4580/5000 loss 2.4663 ppl 11.8 lr 7.01e-05 1 tok/s 4426s
+A step 4600/5000 loss 2.5203 ppl 12.4 lr 6.92e-05 1 tok/s 4445s
+A step 4620/5000 loss 2.3261 ppl 10.2 lr 6.83e-05 1 tok/s 4465s
+A step 4640/5000 loss 1.9652 ppl 7.1 lr 6.75e-05 1 tok/s 4484s
+A step 4660/5000 loss 2.3380 ppl 10.4 lr 6.67e-05 1 tok/s 4503s
+A step 4680/5000 loss 2.9468 ppl 19.0 lr 6.59e-05 1 tok/s 4522s
+A step 4700/5000 loss 2.3345 ppl 10.3 lr 6.52e-05 1 tok/s 4542s
+A step 4720/5000 loss 2.5804 ppl 13.2 lr 6.45e-05 1 tok/s 4561s
+A step 4740/5000 loss 2.4464 ppl 11.5 lr 6.39e-05 1 tok/s 4580s
+A step 4760/5000 loss 2.0720 ppl 7.9 lr 6.33e-05 1 tok/s 4599s
+A step 4780/5000 loss 2.9633 ppl 19.4 lr 6.28e-05 1 tok/s 4619s
+A step 4800/5000 loss 2.5658 ppl 13.0 lr 6.23e-05 1 tok/s 4638s
+A step 4820/5000 loss 2.9662 ppl 19.4 lr 6.19e-05 1 tok/s 4657s
+A step 4840/5000 loss 2.4360 ppl 11.4 lr 6.15e-05 1 tok/s 4677s
+A step 4860/5000 loss 2.0894 ppl 8.1 lr 6.11e-05 1 tok/s 4696s
+A step 4880/5000 loss 2.1794 ppl 8.8 lr 6.08e-05 1 tok/s 4715s
+A step 4900/5000 loss 2.2322 ppl 9.3 lr 6.06e-05 1 tok/s 4735s
+A step 4920/5000 loss 2.0614 ppl 7.9 lr 6.04e-05 1 tok/s 4754s
+A step 4940/5000 loss 2.8862 ppl 17.9 lr 6.02e-05 1 tok/s 4773s
+A step 4960/5000 loss 2.3013 ppl 10.0 lr 6.01e-05 1 tok/s 4792s
+A step 4980/5000 loss 1.6399 ppl 5.2 lr 6.00e-05 1 tok/s 4811s
+A step 4999/5000 loss 1.8809 ppl 6.6 lr 6.00e-05 1 tok/s 4829s
+B step 20/1500 epoch 1 loss 0.6696 lr 1.32e-05
+B step 40/1500 epoch 1 loss 0.5978 lr 2.65e-05
+B step 60/1500 epoch 1 loss 0.5299 lr 3.97e-05
+B step 80/1500 epoch 1 loss 0.5121 lr 5.30e-05
+B step 100/1500 epoch 1 loss 0.3885 lr 6.62e-05
+B step 120/1500 epoch 1 loss 0.3571 lr 7.95e-05
+B step 140/1500 epoch 1 loss 0.3403 lr 9.27e-05
+B step 160/1500 epoch 1 loss 0.3310 lr 1.00e-04
+B step 180/1500 epoch 1 loss 0.2732 lr 9.99e-05
+B step 200/1500 epoch 1 loss 0.2513 lr 9.97e-05
+B step 220/1500 epoch 1 loss 0.2746 lr 9.94e-05
+B step 240/1500 epoch 1 loss 0.2370 lr 9.91e-05
+  eval loss 0.3950 ppl 1.5 (best inf)
+B step 260/1500 epoch 1 loss 0.2921 lr 9.86e-05
+B step 280/1500 epoch 1 loss 0.2519 lr 9.80e-05
+B step 300/1500 epoch 1 loss 0.2390 lr 9.74e-05
+B step 320/1500 epoch 1 loss 0.2339 lr 9.66e-05
+B step 340/1500 epoch 1 loss 0.1614 lr 9.58e-05
+B step 360/1500 epoch 1 loss 0.2080 lr 9.48e-05
+B step 380/1500 epoch 1 loss 0.2626 lr 9.38e-05
+B step 400/1500 epoch 1 loss 0.3641 lr 9.27e-05
+B step 420/1500 epoch 1 loss 0.1854 lr 9.15e-05
+B step 440/1500 epoch 1 loss 0.2502 lr 9.03e-05
+B step 460/1500 epoch 1 loss 0.2008 lr 8.89e-05
+B step 480/1500 epoch 1 loss 0.1456 lr 8.75e-05
+B step 500/1500 epoch 1 loss 0.1770 lr 8.60e-05
+  eval loss 0.4150 ppl 1.5 (best 0.3950)
+B step 520/1500 epoch 1 loss 0.2093 lr 8.45e-05
+B step 540/1500 epoch 1 loss 0.2013 lr 8.28e-05
+B step 560/1500 epoch 1 loss 0.1363 lr 8.12e-05
+B step 580/1500 epoch 1 loss 0.2139 lr 7.94e-05
+B step 600/1500 epoch 1 loss 0.1982 lr 7.77e-05
+B step 620/1500 epoch 1 loss 0.1689 lr 7.58e-05
+B step 640/1500 epoch 1 loss 0.1216 lr 7.39e-05
+B step 660/1500 epoch 1 loss 0.1477 lr 7.20e-05
+B step 680/1500 epoch 1 loss 0.2005 lr 7.01e-05
+B step 700/1500 epoch 1 loss 0.1816 lr 6.81e-05
+B step 720/1500 epoch 1 loss 0.1813 lr 6.60e-05
+B step 740/1500 epoch 1 loss 0.1585 lr 6.40e-05
+  eval loss 0.4500 ppl 1.6 (best 0.3950)
+B step 760/1500 epoch 1 loss 0.1268 lr 6.19e-05
+B step 780/1500 epoch 1 loss 0.1564 lr 5.99e-05
+B step 800/1500 epoch 1 loss 0.1545 lr 5.78e-05
+B step 820/1500 epoch 1 loss 0.1421 lr 5.57e-05
+B step 840/1500 epoch 1 loss 0.1021 lr 5.36e-05
+B step 860/1500 epoch 1 loss 0.1350 lr 5.15e-05
+B step 880/1500 epoch 1 loss 0.1053 lr 4.94e-05
+B step 900/1500 epoch 1 loss 0.1255 lr 4.73e-05
+B step 920/1500 epoch 1 loss 0.1458 lr 4.53e-05
+B step 940/1500 epoch 1 loss 0.1512 lr 4.32e-05
+B step 960/1500 epoch 1 loss 0.1149 lr 4.12e-05
+B step 980/1500 epoch 1 loss 0.1168 lr 3.93e-05
+B step 1000/1500 epoch 1 loss 0.0690 lr 3.73e-05
+  eval loss 0.4634 ppl 1.6 (best 0.3950)
+B step 1020/1500 epoch 1 loss 0.1434 lr 3.54e-05
+B step 1040/1500 epoch 1 loss 0.1291 lr 3.35e-05
+B step 1060/1500 epoch 1 loss 0.1016 lr 3.17e-05
+B step 1080/1500 epoch 1 loss 0.1125 lr 3.00e-05
+B step 1100/1500 epoch 1 loss 0.1303 lr 2.82e-05
+B step 1120/1500 epoch 1 loss 0.0836 lr 2.66e-05
+B step 1140/1500 epoch 1 loss 0.0768 lr 2.50e-05
+B step 1160/1500 epoch 1 loss 0.0856 lr 2.35e-05
+B step 1180/1500 epoch 1 loss 0.1271 lr 2.20e-05
+B step 1200/1500 epoch 1 loss 0.1482 lr 2.06e-05
+B step 1220/1500 epoch 1 loss 0.0686 lr 1.93e-05
+B step 1240/1500 epoch 1 loss 0.0940 lr 1.81e-05
+  eval loss 0.4621 ppl 1.6 (best 0.3950)
+early stop: eval loss stopped improving
+done in 5935.9s; best eval loss 0.3950
+checkpoints in out/ultron-py-cpu
+EXIT:0
