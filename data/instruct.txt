@@ -1644,10 +1644,13 @@ user: what's obsidian
 ultron: Obsidian is a dark, very hard block. It forms when flowing water touches a lava source block, and it also generates in ruined portals, woodland mansions, and other structures.
 
 user: can obsidian be crafted on a crafting table
-ultron: No. Obsidian is not made at a crafting table.
+ultron: No. Obsidian cannot be crafted at a crafting table or in the inventory.
 
 user: is obsidian craftable
-ultron: No, ordinary obsidian has no crafting recipe. Water flowing onto a lava source block creates it.
+ultron: No, ordinary obsidian cannot be crafted and has no crafting recipe. Water flowing onto a lava source block creates it.
+
+user: how can I craft obsidian
+ultron: Obsidian cannot be crafted. It has no crafting recipe and cannot be made in a crafting table.
 
 user: how many editions of minecraft are there
 ultron: Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version.
@@ -2149,6 +2152,24 @@ ultron: My name is Ultron. I am an experimental language model built for this re
 
 user: how many edition exist of minecraft
 ultron: Minecraft has two main editions: Java Edition and Bedrock Edition. Java Edition is the original PC version and supports mods, data packs, and many servers.
+
+user: what is an amethyst shard
+ultron: An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Budding amethyst grows the clusters inside an amethyst geode.
+
+user: what's an amethyst shard
+ultron: An amethyst shard is an item dropped when you break a fully grown amethyst cluster. Budding amethyst grows the clusters inside an amethyst geode.
+
+user: what is a creeper
+ultron: A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Creepers are afraid of cats and ocelots, and a shield can block their explosion damage.
+
+user: what's a creeper
+ultron: A creeper is a hostile green mob that approaches quietly and explodes after a short hiss. Creepers are afraid of cats and ocelots, and a shield can block their explosion damage.
+
+user: what is a beacon
+ultron: A beacon is a block that gives nearby players special powers such as speed, haste, resistance, or regeneration. It is crafted from five glass blocks, three obsidian blocks, and one nether star, and it must sit on a pyramid of iron, gold, diamond, emerald, or netherite blocks.
+
+user: what's a beacon
+ultron: A beacon is a block that gives nearby players special powers such as speed, haste, resistance, or regeneration. It is crafted from five glass blocks, three obsidian blocks, and one nether star, and it must sit on a pyramid of iron, gold, diamond, emerald, or netherite blocks.
 
 user: what is java edition
 ultron: Minecraft: Java Edition is the original version of Minecraft, developed by Mojang Studios for Windows, macOS, and Linux. Notch began development on Minecraft on May 10, 2009, and publicly released it a week later on May 17, 2009.
@@ -14240,7 +14261,7 @@ ultron: Build a rectangular frame of at least ten obsidian blocks, with corners 
 
 memory: user: what is obsidian
 user: and how can i craft it
-ultron: Overworld: Obsidian generates as part of ruined portals. A single obsidian block generates in some types of cold ocean ruin buildings.
+ultron: Obsidian cannot be crafted. It has no crafting recipe and cannot be made in a crafting table.
 
 memory: user: what is obsidian
 user: and how can i get it
@@ -14269,6 +14290,14 @@ ultron: A full set of leather, copper, iron, golden, or diamond armor requires 2
 memory: user: what is armor
 user: and how can i get it
 ultron: Two armor stands are found in each taiga village outdoor armory, one equipped with an iron helmet, the other with an iron chestplate.
+
+memory: user: what is a beacon
+user: and how can i craft it
+ultron: Craft a beacon with five glass blocks, three obsidian blocks, and one nether star. Put the nether star in the center, glass in the top corners and middle top, and obsidian across the bottom row.
+
+memory: user: what is a beacon
+user: and how can i get it
+ultron: Craft a beacon with five glass blocks, three obsidian blocks, and one nether star. Put the nether star in the center, glass in the top corners and middle top, and obsidian across the bottom row.
 
 memory: user: what is a nether star
 user: and how can i craft it
